@@ -31,15 +31,18 @@ curl https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt |
 
 echo '下载规则'
 rules=(
-  "https://filters.adtidy.org/android/filters/2_optimized.txt" #adg基础过滤器
-  "https://filters.adtidy.org/android/filters/11_optimized.txt" #adg移动设备过滤器
-  "https://filters.adtidy.org/android/filters/17_optimized.txt"  #adgURL过滤器
-  "https://filters.adtidy.org/android/filters/3_optimized.txt" #adg防跟踪
-  "https://filters.adtidy.org/android/filters/224_optimized.txt" #adg中文过滤器
-  "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt" #Tv规则
-  "https://easylist-downloads.adblockplus.org/easyprivacy.txt" #EasyPrivacy隐私保护规则
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载提示规则
-  "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock" #d3ward规则
+  "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts" #name: Zhihu
+  "https://raw.gitmirror.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt" #name: XiaomiAD
+  "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts" #name: 大圣净化（针对国内视频）
+  "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts" #大圣净化
+  "https://adaway.org/hosts.txt" #AdAway Default Blocklist
+  "https://easylist-downloads.adblockplus.org/easyprivacy.txt" #name: Easyprivacy
+  "https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-easylist.txt" #name: Anti-AD
+  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" #name: 去除禁止广告拦截提示规则
+  "https://cdn.jsdelivr.net/gh/damengzhu/banad/jiekouAD.txt" #name: jiekouAD
+  "https://www.i-dont-care-about-cookies.eu/abp/" #name: I don"t care about cookies
+
  )
 
 allow=(
