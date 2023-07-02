@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-02 11:07:43（北京时间） 
-! Total count: 123037
+! Version: 2023-07-02 20:57:36（北京时间） 
+! Total count: 123043
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15252,6 +15252,7 @@
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
 ##[style*='width: 100vw; background: url'][style$='no-repeat; position: fixed;'][style*='0px 0px / 100vw ']
+##[style*='width:9.6vw;height:8.5vw;background:#000;opacity:0.01;']
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
@@ -15275,6 +15276,7 @@
 ##a.gggg[href^="https"]
 ##a.optanon-show-settings
 ##a[href*=".com?s="]
+##a[href*="/?utm_source="]
 ##a[href^="/ad.html?url="]
 ##a[href^="https://91keep.tv"]
 ##accept-cookie-box
@@ -16764,7 +16766,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/trackers?
 /analytics/trackevent
 /analytics/visit/*
-/analytics/web/*
 /analytics/wss?
 /analytics?body=
 /analytics?http_referer
@@ -20131,6 +20132,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /statcounter.asp
 /statcounter.js
 /statcountex/count.asp?
+/static/*/KdLmbuThM.js?v=
+/static/*/Lqho7OKcg.js?v=
 /static/CookieManager/js/app
 /static/consent-dialog.
 /static/cookies/cookie-layer-wc-
@@ -20838,7 +20841,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /web-vitals-
 /web-vitals.
 /web-vitals/*
-/web/analytics.$script
 /web/components/cookie-consent/*
 /web/components/cookieconsent/*
 /web/components/cookieusage
@@ -29658,7 +29660,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
-@@||cdn.optimizely.com/js/$domain=bikesales.com.au|compassion.com|creditsesame.com|fandom.com|fedex.com|freeshipping.com|heroku.com|kabeleins.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tcgplayer.com
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||cdn.segment.com/analytics-next/
@@ -29806,7 +29807,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at|teddyfood.com|xxl.se
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
-@@||google.com/analytics/$domain=analytics.google.com
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googleoptimize.com/optimize.js$domain=binglee.com.au|in.bookmyshow.com|inquirer.com|investing.com|lacomer.com.mx|lodgecastiron.com|tentree.ca|virginmedia.com
 @@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|modehasen.de|montcopa.org|nihontsushin.com|panflix.com.br|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|timparty.tim.it|toptal.com|virginplus.ca|winefolly.com|xl-bygg.no|zf1.tohoku-epco.co.jp
@@ -29990,7 +29990,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
-@@||optimizely.com/datafiles/$domain=alaskaair.com|guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimove.net^$domain=app.touchnote.com
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
@@ -30115,7 +30114,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
-@@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||stat.jseea.cn^
@@ -49836,7 +49834,6 @@ zyro.com##.zyro-cookies
 ||analytics.givealittle.co^
 ||analytics.global.sky.com^
 ||analytics.google.com^
-||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.greenmountain.com^
 ||analytics.greenmountainenergy.com^
@@ -57651,6 +57648,7 @@ zyro.com##.zyro-cookies
 ||cdn-jquery.host^
 ||cdn-net.com^
 ||cdn-net.com^$third-party
+||cdn-pci.optimizely.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||cdn-rtb.sape.ru^
 ||cdn-rum.ngenix.net^
@@ -64950,6 +64948,7 @@ zyro.com##.zyro-cookies
 ||dmvbdfblevxvx.com^
 ||dmwiguazwm.com^
 ||dmxalb.winni.in^
+||dmxfdp.xyz^
 ||dmxleo.com^
 ||dmxleo.com^$third-party
 ||dmxleo.dailymotion.com^
@@ -71280,6 +71279,7 @@ zyro.com##.zyro-cookies
 ||fthqzxq.cn^
 ||ftigholm.site^
 ||ftimg.net/js/log.js?
+||ftiodfqk.com^
 ||ftjcfx.com^
 ||ftklr.com^
 ||ftm.fluencyinc.co^
@@ -74688,6 +74688,7 @@ zyro.com##.zyro-cookies
 ||heartacheeasellikeness.com^
 ||heartbeat.pmd.444.hu^
 ||heartbiddotnet22.monster^
+||heartbreakingmind.com^
 ||heartedicefall.com^
 ||hearthorn.com^
 ||heartilyscales.com^
@@ -81129,6 +81130,7 @@ zyro.com##.zyro-cookies
 ||kmgfjc.cn^
 ||kmhmyaj.cn^
 ||kmib.co.kr/ref/
+||kmihknj.cn^
 ||kmindex.ru^
 ||kmindex.ru^$third-party
 ||kminker.xyz^
@@ -84126,6 +84128,7 @@ zyro.com##.zyro-cookies
 ||lwhqa.xyz^
 ||lwhsdfc.cn^
 ||lwjvyd.com^
+||lwksxs.com^
 ||lwlqsgr.cn^
 ||lwmbc.cn^
 ||lwnne.cn^
@@ -92158,10 +92161,10 @@ zyro.com##.zyro-cookies
 ||optimix.cn^
 ||optimized-by.rubiconproject.com^
 ||optimizely.com/js/geo.js
+||optimizely.com/log
 ||optimizely.com^
 ||optimizely.com^$domain=focus.de
 ||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||optimizely.com^$third-party
 ||optimizelyapis.com^
 ||optimizesocial.com^
 ||optimizesrv.com^
@@ -96876,6 +96879,7 @@ zyro.com##.zyro-cookies
 ||pyeditingpro.biz^
 ||pyerc.com^
 ||pyfqqcekcgd.xyz^
+||pygokay.cn^
 ||pygone.top^
 ||pyirw.xyz^
 ||pyjqhb.xyz^
@@ -113930,6 +113934,7 @@ zyro.com##.zyro-cookies
 ||ulfex.cn^
 ||ulic.baidu.com^
 ||ulink.cc^
+||ulkoxbra.com^
 ||ullnot.download^
 ||ulmdb.cn^
 ||ulminicbawty.com^
@@ -119694,6 +119699,7 @@ zyro.com##.zyro-cookies
 ||xecner.top^
 ||xedo.me^
 ||xegluwate.com^
+||xegneils.com^
 ||xeiatmf.cn^
 ||xekjzy.rinascente.it^
 ||xektyy.cn^
