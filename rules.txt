@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-03 11:03:40（北京时间） 
-! Total count: 129566
+! Version: 2023-07-03 21:13:43（北京时间） 
+! Total count: 129545
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16246,7 +16246,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /IPbeacon.
 /ImpressionsEvent.js
 /InsightTrk/*
-/InstantTracking.
 /IntegerNet_CookieConsent/*
 /KISSmetricsTrackCode.
 /Kelkooid?
@@ -16344,6 +16343,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /SEOTracking.
 /SSOCore/update?
 /Scripts/Cookies/cookieacceptance.js
+/SdaAnalytics.js
 /SharedComponents/bundle-scripts/cookie-consent
 /SiteElements/Scripts/CookieBanner.js
 /SiteSearchAnalytics.js
@@ -17895,6 +17895,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /eu_cookie_compliance_override.js
 /eucd/eucd.min.js
 /eulerian.js
+/eumcollector/*
 /euopties.js
 /eurogdpr$domain=jcbeurope.eu
 /eva-analytics.
@@ -18427,16 +18428,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hmapxy.js
 /hnpprivacy-min.
 /hockeystack.min.js
-/home/Analytic?
 /homeCounter.
-/homePixelTracking.
-/homepage/analytics.
-/homepage_pixels.
 /honeybadger.js$third-party
 /honeybadger.min.js$third-party
 /host-analyticsjs-local/*
-/hotmobtag_
-/hpmetrics.
 /hs_track.
 /hsc/trk/*
 /ht.js?site_
@@ -18518,56 +18513,38 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /impressioncount.
 /impressions/log?
 /impressions/servlet/*
-/impressions3.asp?
 /impressions?
 /in.getclicky.com/*
 /in.gif?url=
 /in.php?referer=
 /in2cookiemodal
-/inboundAnalytics.
 /inc/antiblock.
 /inc/cookiechoices.js
 /include/js/ga-
-/incrementVisits_get?
 /increment_page_counter.
 /index.html?channelCode=$~third-party
 /index.php?consent_manager$domain=papierkram.de
 /index.track?
 /indextools.js
-/indraeventsapi.
-/info/picksel/*
 /info_cook.js
-/informerStat?
 /initAdobeAnalytics.
 /inject.js?key=$script
 /inline-pixel.js
 /inpl.measure.
-/insales_counter.
-/insert_impressions.
-/insight-tracker.
-/insightXe.js
-/insight_web.
 /insights-collector.
-/insights-emitter.
-/insights-emitter/*
 /insights/reportEvent/*
 /insitemetrics/*
 /instantpage.js
 /instart.js
-/intellitracker.js
 /interaction/beacon
 /intercept.js
-/internal/page_view?
 /intuCookieConsent.js$domain=intu.co.uk
 /ip-consent.min.js$domain=weersverwachting.nl
 /ipdvdc/*
 /iperceptions.
 /iperceptions/*
 /iperceptions_
-/ipinfo.json
-/ipixel?spacedesc
 /ips-invite.iperceptions.com/*
-/iptracer.
 /is-tracking-pixel-
 /ishop-plugins/gdpr
 /ishop-plugins/ishop-cp
@@ -46812,6 +46789,7 @@ zyro.com##.zyro-cookies
 ||adalw-qfm.com^
 ||adalyser.com^
 ||adalyser.com^$third-party
+||adalytics.io/api/view
 ||adamantsnail.com^
 ||adamatic.co^
 ||adaos-ads.net^
@@ -49073,6 +49051,7 @@ zyro.com##.zyro-cookies
 ||airserve.net^$third-party
 ||airsoang.net^
 ||airtable.com/internal/$xmlhttprequest
+||airtable.com/internal/page_view
 ||airtable.com^*/reports
 ||airthabolete.com^
 ||airticmonsoa.com^
@@ -57958,7 +57937,6 @@ zyro.com##.zyro-cookies
 ||cdn-jquery.host^
 ||cdn-net.com^
 ||cdn-net.com^$third-party
-||cdn-pci.optimizely.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||cdn-rtb.sape.ru^
 ||cdn-rum.ngenix.net^
@@ -94971,6 +94949,7 @@ zyro.com##.zyro-cookies
 ||optimix.asia^$third-party
 ||optimix.cn^
 ||optimized-by.rubiconproject.com^
+||optimizely.com/client_storage/
 ||optimizely.com/js/geo
 ||optimizely.com/js/geo.js
 ||optimizely.com/log
@@ -101532,9 +101511,9 @@ zyro.com##.zyro-cookies
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||redditmedia.com/gtm/jail?
+||redditsave.com/api/event
 ||redditstatic.com/accountmanager/sentry.
 ||redditstatic.com/ads/pixel.js
-||redditstatic.com/shreddit/*/ad-event-
 ||redditstream.arborapps.io^
 ||reddsdainful.com^
 ||reddwarf.till-sanders.de^
