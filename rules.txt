@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-04 11:06:18（北京时间） 
-! Total count: 129545
+! Version: 2023-07-04 21:14:16（北京时间） 
+! Total count: 129533
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15060,6 +15060,7 @@
 ##A[href='http://k023055.com']
 ##A[href='http://kkyty29.cc/']
 ##A[href='http://x5123.cc/']
+##A[href='https://icrwt696.com']
 ##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
 ##A[href^='http://cszb420.tinawd81.com/']
 ##A[href^='http://h5.shangjinssp.com/sjprom'][style='display:block;']
@@ -19019,8 +19020,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /minder-tracker.
 /mine/bitcoincore/*
 /miner-ui.js
-/miner.*/crypto-
-/miner.*/loader.
 /miner.full.js
 /miner.js
 /miner.min.js
@@ -19975,7 +19974,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sikcomscore_
 /silveregg_cookie?
 /silveregg_tracking.
-/simple-miner-tweaks/*
 /simple-monero-$script
 /simple_reach.js
 /simtracker.min.js
@@ -20053,7 +20051,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sp_tracker.
 /space.gif?host=
 /spacer.gif?
-/sparechange.js
 /spd.js$domain=sportal.bg
 /spd/spd.js$domain=woman.bg|novini.bg
 /splunk-logging-
@@ -20225,8 +20222,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /stp.gif?
 /stracking.js
 /stream/log.html?
-/streambeam-jw.js
-/streambeam-video.js
 /streamify-gdpr.js$domain=streamingbolaget.se
 /streamsense.min.js
 /strpixel.png?
@@ -20302,7 +20297,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /teenytinycellar.com
 /template/mytheme/statics/js/listing.js
 /templates/rodo/rodo.js
-/tenant.min.js
 /testAB.bundle.
 /thcookie.js$domain=megadruck.de
 /thermostat.js
@@ -20827,7 +20821,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /web_analytics/*
 /web_answertip.
 /web_logger/*
-/web_miner/*
 /web_tracking_
 /web_traffic_capture.js
 /webapps/bb-cookie-disclosure
@@ -21010,11 +21003,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /xgemius.
 /xgenius.
 /xiti.js
-/xminer.js
-/xminer.min.js
-/xmr-monero.js
-/xmr.js
-/xmr.min.js
 /xn_track.
 /xstat.aspx?
 /xstat/*
@@ -29447,10 +29435,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 :8008/*/*?is_not=
 ::1  localhost
 ::1 localhost
-=ws://*?pool=
-=ws://*?pools=
-=wss://*?pool=
-=wss://*?pools=
 ?[AQB]&ndh=1&t=
 ?act=counter&
 ?action=event&
@@ -29474,10 +29458,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ?logType=trackEvent&
 ?log_performance_metrics
 ?pageviews=$third-party
-?proxy=*?pool=
-?proxy=*?pools=
-?proxy=ws://$script,websocket
-?proxy=wss://$script,websocket
 ?sponsor_pixel=
 ?statify_referrer=
 ?type=page&event=
@@ -30047,6 +30027,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
+@@||sascdn.com/tag/$script,domain=filmweb.pl
 @@||sax.sina.com.cn^
 @@||sc.omtrdc.net^$domain=cibc.com
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
@@ -56904,6 +56885,7 @@ zyro.com##.zyro-cookies
 ||bzcjy.cn^
 ||bzclk.baidu.com^
 ||bzdntl.xyz^
+||bzhn9y.icu^
 ||bzngisyv.xyz^
 ||bzpics.com/jslib/st.js?
 ||bzqxze.remixshop.com^
@@ -76850,6 +76832,7 @@ zyro.com##.zyro-cookies
 ||hsaxca.americatv.com.pe^
 ||hscta.net^
 ||hscta.net^$third-party
+||hsdawz.com^
 ||hsdn.org^
 ||hsdn.org^$third-party
 ||hsforms.com^*/counters.gif
@@ -81128,6 +81111,7 @@ zyro.com##.zyro-cookies
 ||jnsz.net.cn^
 ||jntmwrm.com^
 ||jntxvf.xyz^
+||jnwpzq.com^
 ||jnwq.xyz^
 ||jnxm2.com^
 ||jnyayk.xyz^
@@ -104887,6 +104871,7 @@ zyro.com##.zyro-cookies
 ||seatedparanoiaenslave.com^
 ||seatsmoke.com^
 ||seatsrehearseinitial.com^
+||seattlepi.com/413gkwMT/init.js
 ||seavideo-ak.espn.go.com^
 ||seayipsex.com^
 ||seb.sharpmarketing.eu^
@@ -109814,7 +109799,6 @@ zyro.com##.zyro-cookies
 ||spaped.com^
 ||spapi.i-mobile.co.jp^
 ||sparechange.io^
-||sparechange.io^$third-party
 ||spargedunhot.website^
 ||spargegytling.com^
 ||spark-dev.ad4game.com^
@@ -115098,6 +115082,7 @@ zyro.com##.zyro-cookies
 ||tgandmotiv.xyz^
 ||tgandmotivat.com^
 ||tgb.csbew.com^
+||tgbevv.xyz^
 ||tgcfmh.com^
 ||tgd.a1eg07.cn^
 ||tgdaudience.com^
@@ -125771,6 +125756,7 @@ zyro.com##.zyro-cookies
 ||www.yinooo.com^
 ||www.yiqifa.com^
 ||www.yirr5frog.com^
+||www.ykjyyy.com/8888/
 ||www.yl850555.com^
 ||www.ylunion.com^
 ||www.ylwy168.com^
@@ -128315,6 +128301,7 @@ zyro.com##.zyro-cookies
 ||zenedge.actonservice.com^
 ||zengbalg.fun^
 ||zengenti.com/tags/
+||zenimpact.io/dist/zen_init.min.js
 ||zenknho.cn^
 ||zenkreka.com^
 ||zenoviaexchange.com^
@@ -128379,6 +128366,7 @@ zyro.com##.zyro-cookies
 ||zfnclk.buzz^
 ||zfood029.com^
 ||zfopakkt.com^
+||zfotrq.xyz^
 ||zfoxhovh.com^
 ||zg.mmyuer.com^
 ||zg40c.cn^
