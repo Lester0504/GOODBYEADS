@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-04 21:14:54（北京时间） 
-! Total count: 129533
+! Version: 2023-07-05 11:05:25（北京时间） 
+! Total count: 129532
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16388,7 +16388,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /TrackingHandler.
 /TrackingPixel/*
 /TrafficCookie.
-/UnicaTag.
 /UniqueUserVisit?
 /Universal-Federated-Analytics.
 /UserTraceCookie?
@@ -16746,6 +16745,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/gallup/*
 /analytics/geoip/*
 /analytics/google/*
+/analytics/inboundAnalytics.
 /analytics/initSession
 /analytics/klaviyo_
 /analytics/layer
@@ -18532,6 +18532,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /inject.js?key=$script
 /inline-pixel.js
 /inpl.measure.
+/insales_counter.js?
 /insights-collector.
 /insights/reportEvent/*
 /insitemetrics/*
@@ -20297,6 +20298,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /teenytinycellar.com
 /template/mytheme/statics/js/listing.js
 /templates/rodo/rodo.js
+/tenant.min.js
 /testAB.bundle.
 /thcookie.js$domain=megadruck.de
 /thermostat.js
@@ -20623,9 +20625,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /unagi.amazon.
 /unbxdAnalytics.
 /unbxdAnalyticsConfig.
-/unica.gif?
-/unica.js
-/unica_$domain=~unica.fi
 /unitb-cmp$domain=juedische-allgemeine.de
 /universal-trackers/*
 /universal-tracking-
@@ -84391,7 +84390,6 @@ zyro.com##.zyro-cookies
 ||link.meumulti.com.br^
 ||link.mindsetapp.com^
 ||link.mix.com^
-||link.mix.com^link.sandboxx.us^
 ||link.mktg.almosafer.com^
 ||link.mktg.tajawal.com^
 ||link.mobstar.com^
@@ -116368,6 +116366,7 @@ zyro.com##.zyro-cookies
 ||totalactualnewz.com^
 ||totaladblock.com^
 ||totalcoolblog.com^
+||totalcsgo.com/ctrack/
 ||totallifeguru.com^
 ||totallylayouts.com/tumblr/visitor-counter/counter.js
 ||totalnicefeed.com^
