@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-07 21:03:46（北京时间） 
-! Total count: 125549
+! Version: 2023-07-08 11:05:17（北京时间） 
+! Total count: 125553
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15862,14 +15862,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .bhphotovideo.com/mo/
 .bluekai.com/*?e_id_
 .bmetrack.com/c/$image
-.buzz$domain=btsj6.com
+.buzz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .buzz/*0*0*0*==$third-party
 .cc/o.js$third-party
 .cfd/video/index/index/user_login/
 .cfm?poolid=
 .chat.bilibili.com
 .click/track?
-.club$domain=yinghuacd.com
 .cmail19.com/t/$image
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
@@ -16040,7 +16039,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .skimlinks.js
 .smartrmail.co/o/$image
 .smtp.net/o/$image
-.snowplowanalytics.
+.snowplowanalytics.$domain=~snowplowanalytics.com
 .southwest.com/r/$image
 .sparkpostmail.com/q/$image
 .sparkpostmail2.com/q/$image
@@ -16067,8 +16066,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .web-vitals-reporting.
 .webex.com/q/
 .wix.com/_api/ping/
-.xyz$domain=btsj6.com
-.xyz$domain=yinghuacd.com
+.xyz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
@@ -20307,6 +20305,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /thermostat.js
 /thixel.js
 /tiara/tracker/*
+/ticimax/analytics.js
 /tide_stat.js
 /tilda-stat-
 /timingcg.
@@ -49977,6 +49976,7 @@ zyro.com##.zyro-cookies
 ||analytics.shareaholic.com^
 ||analytics.shop.hisense.com^
 ||analytics.shopncaasports.com^
+||analytics.silktide.com^
 ||analytics.sitewit.com^
 ||analytics.sixfigureswine.com^
 ||analytics.skinit.com^
@@ -92315,6 +92315,7 @@ zyro.com##.zyro-cookies
 ||optimizely.com/public/
 ||optimizely.com^$domain=focus.de
 ||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||optimizely.techtarget.com^
 ||optimizelyapis.com^
 ||optimizesocial.com^
 ||optimizesrv.com^
@@ -99229,6 +99230,7 @@ zyro.com##.zyro-cookies
 ||research.de.com^$third-party
 ||research.net^
 ||researchers.pw^
+||researchgate.net/track/
 ||researchintel.com^
 ||researchintel.com^$third-party
 ||researchnow.co.uk^$third-party,domain=~dynata.com
@@ -124117,6 +124119,7 @@ zyro.com##.zyro-cookies
 ||z888.izhufu.net^
 ||z8o.cn^
 ||z9.cnzz.com^
+||za.qeeq.com^
 ||za.zdn.vn^
 ||za5.net^
 ||zabanit.xyz^
@@ -124445,6 +124448,7 @@ zyro.com##.zyro-cookies
 ||zfopakkt.com^
 ||zfotrq.xyz^
 ||zfoxhovh.com^
+||zfteiv.xyz^
 ||zg.mmyuer.com^
 ||zg40c.cn^
 ||zgazgluy.com^
