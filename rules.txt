@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-08 20:59:12（北京时间） 
-! Total count: 125696
+! Version: 2023-07-09 11:10:49（北京时间） 
+! Total count: 125705
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15903,6 +15903,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/pvlog?
 .com/qq.js$third-party
 .com/s/at?site
+.com/sh/*.js$third-party
 .com/sh/to/$third-party
 .com/ss/*sessionId=
 .com/stats.ashx?
@@ -15911,6 +15912,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/tracking?
 .com/vtrack|
 .com/xz/*?token8=
+.com/z-*-*?123$third-party
 .com:*/*/*?c=$third-party
 .com:*/*/*?n=$third-party
 .com:*/*/*?t=$third-party
@@ -16054,6 +16056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .theatlantic.com/email.gif?
 .titus.de/oo/$image
 .top/*/*.js?ts=$third-party
+.top/*/2022*/.js$third-party
 .top/*q=*form=*&*url=http*$third-party
 .top/?token=$third-party
 .top/gluinfo.php?s=$third-party
@@ -18932,6 +18935,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /lzdmailer.letter.open?
 /m-email/t.png?
 /m.gif?
+/m.html?rmid=*&yd=$~third-party
+/m.html?shareName=*&proxyAccount=$~third-party
 /m1x1.jpg
 /m360lib.js
 /madAnalytics.js
@@ -29373,6 +29378,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 3g.163.com#?#article.card-type-news.news-card:-abp-contains(打开APP)
 3sairbrushkunst.be##.cookie__block
 3t.no###notification
+3zmmm.net/ggxx/
 4-72.com.co##.cookies
 420tv.com###appBarHeaderContainer
 4algeria.com###exposeMask
@@ -36747,6 +36753,7 @@ novema-nova.hr###cookie
 noventis.cz##body > div[id*="object"]
 novibet.gr##.setCookies
 novostroy-m.ru###advert_result
+novret.com/?clickid=
 nowaelektro.pl##body > div:not([id]):not([class])
 nowfoods.com##.block-sd-cookie-consent-block
 nowlive.eu###overlayPopup1, #opacity
@@ -107525,6 +107532,7 @@ zyro.com##.zyro-cookies
 ||ssm.codes^$third-party
 ||ssmile.dentsplysirona.com^
 ||ssnignsb.xyz^
+||ssnnn.net^
 ||ssnoownmb.fun^
 ||sso-cas.gridsumdissector.com^
 ||ssp-bidder.i-mobile.co.jp^
@@ -117883,6 +117891,7 @@ zyro.com##.zyro-cookies
 ||vcs.snssdk.com^
 ||vcuasvopknu.com^
 ||vcvacpaenqepvm.com^
+||vcvbnmto.xyz^
 ||vd-test.net.anwalt.de^
 ||vd.l.qq.com^
 ||vda.17173.com^
