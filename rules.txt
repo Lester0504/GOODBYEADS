@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-10 11:08:11（北京时间） 
-! Total count: 125717
+! Version: 2023-07-10 21:05:29（北京时间） 
+! Total count: 125716
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15960,6 +15960,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
 .icu/?token=$third-party
+.icu/biyys*.js$third-party
 .icu/pssbk?$third-party
 .iframetracker/
 .informz.net/z/$image
@@ -16797,7 +16798,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analyticsjs.
 /analyticsjs/*
 /analyticsscript_
-/analyticssdk.js
 /analyticstick.
 /analyticstrack.
 /analyticstracking.
@@ -20900,7 +20900,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /woody-addon-cookies/*
 /woopra.js
 /wordpress-ptchrgdprplugin/*
-/worldwide_analytics/*
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
 /wp-click-track/*
 /wp-clickmap/*
@@ -29311,7 +29310,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#DIV.bot-per-times
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 18virginsex.com##.cookie
-1905.com##+js(json-prune,videolink)
 1aautoservice.de##.mod-layer
 1avisum.de##.announcement
 1mot.net###cp
@@ -29538,6 +29536,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ads.midwayusa.com^
 @@||ads.pinterest.com^
 @@||ads.privacy.qq.com^
+@@||ads.smartmidea.net^
 @@||ads.spotify.com^
 @@||ads.taboola.com^
 @@||ads.twitter.com^
@@ -58027,7 +58026,7 @@ zyro.com##.zyro-cookies
 ||ciarde.fun^
 ||ciasteczkowapolityka.pl/getscript$script
 ||cibleclick.com^
-||cibntv.net/youku/$media,mp4
+||cibntv.net/youku/$media
 ||cicelysewans.com^
 ||cichiji.top^
 ||cictivesmuha.xyz^
@@ -99121,6 +99120,7 @@ zyro.com##.zyro-cookies
 ||reliablecounter.com^$third-party
 ||reliablemore.com^
 ||relievedgeoff.com^
+||relive.vodfile.m1905.com/video/qiantie202$media
 ||relivesternar.com^
 ||relkconka.com^
 ||relmaxtop.com^
@@ -124941,7 +124941,6 @@ zyro.com##.zyro-cookies
 ||zoopsame.com^
 ||zoopy.xyz^
 ||zooshawo.com^
-||zoosnet.net^
 ||zoosnet.net^$third-party
 ||zoossoft.cn^
 ||zoossoft.net^
