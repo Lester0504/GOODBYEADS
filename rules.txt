@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-12 11:02:11（北京时间） 
-! Total count: 125760
+! Version: 2023-07-12 21:14:01（北京时间） 
+! Total count: 125755
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -37653,7 +37653,7 @@ qmee.com##div[class*="CookieDialog"]
 qobuz.com##.alert.alert-info, .alert.alert-cnil
 qpony.pl##.rodo-wrapper
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,ads adList.item)
+qq.com##+js(json-prune,ads ad.pause adList.item)
 qq.com##+js(no-fetch-if,/trace\.|beacon\./)
 qq.com##+js(no-xhr-if,/trace\.|\/collect/)
 qq.com##+js(set,RTCPeerConnection,null)
@@ -39830,7 +39830,6 @@ uwartsonline.nl###cookie-consent-modal
 uwec.edu###_pc
 uzdrowisko-wieniec.pl###statement
 v.qq.com###pc_client > .quick_link
-v.qq.com###player .txp_zt_content
 v.qq.com##.quick_games.quick_item,div.card-wrap
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
@@ -39942,10 +39941,6 @@ victoriananursery.co.uk###cookies
 vicuspelle.ch##.cookie-model
 vidahost.com###vh-cookie-terms
 video-virali.it##div[id*="cookie_pres"]
-video.qq.com#@#+js(json-prune,ads adList.item)
-video.qq.com#@#+js(no-fetch-if,/trace\.|beacon\./)
-video.qq.com#@#+js(no-xhr-if,/trace\.|\/collect/)
-video.qq.com#@#+js(set,RTCPeerConnection,null)
 videobolt.net##.cookieBlock
 videobug.net,videofun.me,vidzur.com##.randid
 videofun.me###flowplayer > div[class][style]:first-child
