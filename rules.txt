@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-12 21:14:30（北京时间） 
-! Total count: 125755
+! Version: 2023-07-13 11:06:02（北京时间） 
+! Total count: 125768
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16399,6 +16399,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Universal-Federated-Analytics.
 /UserTraceCookie?
 /VideoTracking.
+/View/PvCountUp.
 /ViewCounter/*
 /VisitCounter.
 /VisitLog.asmx
@@ -16944,6 +16945,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /baidu/189/999.php
 /baidu/tg.js
 /baiduStatistics.js
+/banalytics.js
 /bandeau_cookie.js
 /banners/pr_advertising_ads_banner
 /base-nf.js$domain=lecanardenchaine.fr
@@ -29513,6 +29515,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
+@@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
 @@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|ralphlauren.com|samsung.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
@@ -29609,6 +29612,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
 @@||blackcircles.ca^$script,~third-party
+@@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
@@ -30165,6 +30169,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||trbo.com/plugin/trbo_$script,domain=blau.de
 @@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
+@@||treasuredata.com^$script,domain=skincare-univ.com
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
 @@||ttutu.biz/log_event$~third-party,xmlhttprequest
 @@||tunein.com/api/v1/comscore$~third-party
@@ -64597,6 +64602,9 @@ zyro.com##.zyro-cookies
 ||doctorhousing.com^
 ||doctorpost.net^
 ||documentationskillgrasshopper.com^
+||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
+||doda.jp/DodaFront/Html/js/dodaPrime_pc_aaTag.js
+||doda.jp/resources/dcfront/js/usrclkTracking.js
 ||dodayobeitand.xyz^
 ||doddassagai.com^
 ||dodgilyscutula.com^
@@ -72170,6 +72178,7 @@ zyro.com##.zyro-cookies
 ||glam.com/ctagsimgcmd.act?
 ||glam.com/jsadimp.gif?
 ||glam.com^*/log.act?
+||glami.com.tr/tracker/
 ||glami.gr/js/compiled/pt.js
 ||glamorousdescend.com^
 ||glancecdn.net^$third-party,domain=~glance.net
@@ -73999,6 +74008,7 @@ zyro.com##.zyro-cookies
 ||hasslepasta.com^
 ||hasslesneatly.com^
 ||hatagashira.com^
+||hatarako.net/api/recommend/analyze_logger
 ||hatbenchmajestic.com^
 ||hatcalter.com^
 ||hatchasked.com^
@@ -90239,6 +90249,7 @@ zyro.com##.zyro-cookies
 ||nexstardigital.net/segment.js
 ||nexstep.zdworks.com^
 ||next-pops.top^
+||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||nextbdom.ru^
 ||nextclick.pl^
 ||nextdark.pro^
@@ -114617,6 +114628,7 @@ zyro.com##.zyro-cookies
 ||tracking.gartner.com^
 ||tracking.gelia.com^
 ||tracking.getapp.com^
+||tracking.gnavi.co.jp^
 ||tracking.go.provident.bank^
 ||tracking.go.toyobo.co.jp^
 ||tracking.godatafeed.com^
@@ -124388,6 +124400,7 @@ zyro.com##.zyro-cookies
 ||zationserv.one^
 ||zationservantas.info^
 ||zatnoh.com^
+||zatsubitown.com/mailfriend/kaiseki
 ||zaubanel.com^
 ||zauglomo.net^
 ||zauglust.net^
