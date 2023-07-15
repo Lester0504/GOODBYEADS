@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-15 11:09:59（北京时间） 
-! Total count: 125715
+! Version: 2023-07-15 20:58:22（北京时间） 
+! Total count: 125717
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16840,6 +16840,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
+/api/v2/jsonlogger
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
@@ -17166,6 +17167,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /click.*/q/*$image
 /click.em.nike.com/*$image
 /click.email.$image
+/click.php?c=
 /click/impression?
 /click?track=
 /clickLogger?
