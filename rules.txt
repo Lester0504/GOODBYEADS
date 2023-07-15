@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-14 21:03:53（北京时间） 
-! Total count: 125745
+! Version: 2023-07-15 11:09:59（北京时间） 
+! Total count: 125715
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16134,10 +16134,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /AIT_Analytics.
 /ASPixel.js
 /AccessCounter/*
-/ActionLogger?
 /AdCount/*
 /AdblockMessage.
-/AdmitadTagTag.js
 /AdobeAnalyticsAndTargetOverwrites.
 /AdobeAnalyticsBundle.
 /AdobeAnalyticsEvent.
@@ -16576,7 +16574,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /adobe.targetV2-
 /adobe.visitor-
 /adobe/AppMeasurement-
-/adobe/VideoHeartbeat-
+/adobe/VideoHeartbeat.
 /adobe/VisitorAPI-
 /adobe/VisitorAPI_$script
 /adobe/app-measurement.
@@ -16742,7 +16740,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/collect?
 /analytics/collector.
 /analytics/collector/*
-/analytics/dealerfire/*
 /analytics/dist/*
 /analytics/embed/*
 /analytics/engine/*
@@ -16750,12 +16747,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/ga.
 /analytics/ga/*
 /analytics/ga?
-/analytics/gallup/*
 /analytics/geoip/*
-/analytics/google/*
 /analytics/inboundAnalytics.
 /analytics/initSession
-/analytics/klaviyo_
 /analytics/layer
 /analytics/mbox_
 /analytics/metric/*
@@ -16846,7 +16840,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
-/api/v2/jsonlogger
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
@@ -16904,14 +16897,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /audience_science-
 /audience_science.
 /audience_science_
-/audiweb.js
-/audsci.js
 /autotrack.carbon.js
 /autotrack.custom.js
 /autotrack.custom.min.js
 /autotrack.js
 /autotrack.min.js
-/aux/collect?
 /avia-bootstrap/js/klaro/*
 /avia-snippet-cookieconsent.js
 /avisopcdidomi$domain=~as.com
@@ -17004,7 +16994,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /bicomscore.
 /bicomscore_
 /bigREDcat.js?$third-party
-/bin/stats?
 /bineos.min.js
 /bing-bat.js
 /bingimpression?
@@ -17020,7 +17009,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /blockAndInf.js
 /blockadblock.$script,xmlhttprequest
 /blockblock.jquery.
-/blockstat?
 /blogcounter.js
 /blueKaiAnalytics.
 /bluekai.
@@ -17174,15 +17162,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /click-analytics.
 /click-count.
 /click-logger.$image,script
-/click-stat.js
 /click-tracker
 /click.*/q/*$image
 /click.em.nike.com/*$image
 /click.email.$image
-/click.php?c=
 /click/impression?
 /click?track=
-/clickAnalyse.
 /clickLogger?
 /click_metrics-jquery.js
 /click_stat/*
@@ -17193,8 +17178,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /clickability-
 /clickability.$domain=~clickability.com.au
 /clickability/*
-/clickability2/*
-/clickability?
 /clickcount.
 /clickcount/*
 /clickcount_
@@ -17282,6 +17265,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cnvtr.js
 /coherentpath.link/o/*$image
 /cohesion-latest.
+/coinhive.min.js
 /coinimp-cache/*
 /collect.gif?
 /collect.php?tid=
@@ -18073,7 +18057,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fusion/lucid/data/*
 /g-track/*
 /g2insights.
-/g=analytics&
 /gClickTracking.
 /gPageTracking.
 /g_track.php?
@@ -18753,7 +18736,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /llntrack.
 /load.gif?
 /load.js.gz?
-/loadJsFingerprint.js
 /load_analytics.
 /load_time_metrics?
 /loadcounter.
@@ -19895,7 +19877,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sentry-browser.
 /sentry-logger.js
 /seo.taCo.min.js
-/seo.tagCommander-
 /seostats/*
 /seotracker/*
 /server.php?request=track&output=
@@ -20317,10 +20298,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track.v2.js
 /track/?*&event=
 /track/?data=
-/track/?s=
-/track/?site
 /track/aggregate?
-/track/alooma-
 /track/batch?
 /track/client-event/*
 /track/client-events
@@ -20934,7 +20912,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wrapperMessagingWithoutDetection$domain=politico.eu|lovelybooks.de|idealo.de|idealo.at|idealo.es|idealo.fr|idealo.it|idealo.co.uk|femmeactuelle.fr|hausjournal.net|lepoint.fr|chefkoch.de|caradisiac.com
 /wrapperMessagingWithoutDetection.js$domain=vg.no|boerse.de|bt.no|liberation.fr
 /wreport.js
-/writeKAStats/*
 /writelog.js
 /ws5_eucookie/*
 /wsStats.
@@ -29380,7 +29357,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://blue.*/script.js
 ://collect.*/pageview
 ://collector.*/event
-://email.*/blankpixel.gif
 ://email.*/e/o/
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://internal-matomo.
@@ -30964,6 +30940,7 @@ baidu.com##.ec-ad
 baidu.com##.ec_wise_ad
 baidu.com##.rel-exp-feed-ad-item
 baidu.com##.square-banner-bgicon.index-banner
+baidu.com##DIV#bdrainrwDragButton
 baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
 baidu.com##DIV.barea-ad
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
@@ -30983,7 +30960,6 @@ baijiahao.baidu.com##.headDeflectorContainer
 baijiahao.baidu.com##.openImg
 baijiahao.baidu.com##.related-news
 baijiahao.baidu.com##.wxUnfoldText
-baijiahao.baidu.com##DIV#bdrainrwDragButton
 baijiahao.baidu.com##div[style^="left: calc"]
 baijiahao.baidu.com##span[class*="cm-variable"]
 baijiahao.baidu.com#?#.layer-item:-abp-contains(百度)
@@ -49838,7 +49814,6 @@ zyro.com##.zyro-cookies
 ||analytics.kkb.com.tr^
 ||analytics.klickly.com^
 ||analytics.kongregate.io^
-||analytics.kraken.com^
 ||analytics.krieselreihe.com^
 ||analytics.laregione.ch^
 ||analytics.lifestyledemocracy.com^
@@ -54354,7 +54329,6 @@ zyro.com##.zyro-cookies
 ||bitads.io^
 ||bitadv.co^
 ||bitbeat7.com^
-||bitclouds.ru/trd
 ||bitclub.network^
 ||bitclubnetwork.com^
 ||bitcoadz.io^
@@ -54648,7 +54622,6 @@ zyro.com##.zyro-cookies
 ||blogreaderproject.com^
 ||blogreaderproject.com^$third-party
 ||blogscounter.com^
-||blogscounter.com^$third-party
 ||blogsontop.com^
 ||blogsontop.com^$third-party
 ||blogspot.at/js/cookiechoices.js$script
@@ -79729,7 +79702,6 @@ zyro.com##.zyro-cookies
 ||jumotic.com^
 ||jump-path1.com^
 ||jump-time.net^
-||jump-time.net^$third-party
 ||jump.001union.com^
 ||jump.baidu.001union.com^
 ||jump.ishop789.com^
@@ -88072,7 +88044,6 @@ zyro.com##.zyro-cookies
 ||mmpool.org^$third-party
 ||mms.cmpsky.com^
 ||mms2017.admaster.com.cn^
-||mmstat.com^
 ||mmstat.com^$third-party
 ||mmszxc.top^
 ||mmtro.com^
@@ -89360,7 +89331,6 @@ zyro.com##.zyro-cookies
 ||myvisitors.se^
 ||myvisitors.se^$third-party
 ||myvisualiq.net^
-||myvisualiq.net^$image,script,third-party
 ||myvoicenation.com^
 ||mywb3.com^
 ||mywebclick.net^
@@ -114371,7 +114341,6 @@ zyro.com##.zyro-cookies
 ||track2.cliplister.com^
 ||track2.dulingo.com^
 ||track2.me^
-||track2.me^$third-party
 ||track2.mycliplister.com^
 ||track2.ra.icast.cn^
 ||track4ref.com^
@@ -121844,6 +121813,7 @@ zyro.com##.zyro-cookies
 ||www.lessplay.com^
 ||www.letterbox-path.com^
 ||www.letterboxtrail.com^
+||www.lezhutv.com/static/jquerys.js
 ||www.line6agar.com^
 ||www.linezing.com^
 ||www.link5view.com^
