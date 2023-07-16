@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-15 20:58:49（北京时间） 
-! Total count: 125717
+! Version: 2023-07-16 11:13:49（北京时间） 
+! Total count: 125721
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -20958,6 +20958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /xtclicks_
 /xtcore.js
 /xtroi.js
+/xtub_*_rony.js$third-party
 /xxgg/e13dj113a.js
 /yad_sortab_cetlog.js
 /yandex-metrica-watch/*
@@ -30943,9 +30944,12 @@ baidu.com##.ec_wise_ad
 baidu.com##.rel-exp-feed-ad-item
 baidu.com##.square-banner-bgicon.index-banner
 baidu.com##DIV#bdrainrwDragButton
+baidu.com##DIV#page-copyright.se-page-copyright.se-copyrig
 baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
 baidu.com##DIV.barea-ad
+baidu.com##DIV.brand-entry
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
+baidu.com##DIV[class='qrcode call']
 baidu.com##DIV[data-module='rec:undefined-undefined']
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##[class*='index_godCard'][class*='index_noGuaranteeTag'][class*='index_adTextPosition'],[class^='index_brandEntry__'],[data-show*='swan-ad-fc-swiper-banner']
@@ -30957,6 +30961,7 @@ baidu.com##div.se-recommend-word-list,#se-recommend-word-list-container
 baidu.com##div[class$="-ecom-ads"]
 baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
+baidu.com#@#div[class*="ads"]
 baijiahao.baidu.com##.contentPadding.bottomTTSStruct
 baijiahao.baidu.com##.headDeflectorContainer
 baijiahao.baidu.com##.openImg
@@ -34415,6 +34420,7 @@ imaginanet.com##.cookies
 imagine-r.com###cookies
 img.ly##.cke-overlay
 imgrutor.com,playtor.tv##div[class^="adblock-warning"]
+imgur.com##.Ad.sas.Smart
 imgw.pl###rodo
 immense-serie.com###cookie_auth
 immerag.ch###cc
@@ -35520,10 +35526,7 @@ m.baidu.com##.ec_wise_ad
 m.baidu.com##.square-banner-bgicon.index-banner
 m.baidu.com##.suggest-hot
 m.baidu.com##.water-container.tab-news-content
-m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyrig
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
-m.baidu.com##DIV.brand-entry
-m.baidu.com#@#div[class*="ads"]
 m.bilibili.com##.home-float-openapp.open-app-btn
 m.bilibili.com##.m-comment-openapp.open-app-btn
 m.bilibili.com##.m-float-openapp.open-app-btn
@@ -40385,8 +40388,6 @@ www.baidu.com##div[class*="result-op c-container xpath-log new-pmd"]
 www.baidu.com##div[class*="result-op c-container"]
 www.baidu.com##div[class*="result-op xpath-log new-pmd"]
 www.baidu.com##div[class*="s-isindex-wrap s-hotsearch-wrapper"]
-www.baidu.com#@#div[class*="ads"]
-www.baidu.com,m.baidu.com##DIV[class='qrcode call']
 www.dbbqb.com##DIV.MuiPaper-root
 www.dmh8.me,dm88.me##CENTER
 www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; opacity:']
@@ -98492,6 +98493,7 @@ zyro.com##.zyro-cookies
 ||rcp.c.appier.net^
 ||rcpttankert.com^
 ||rcpuierp.cn^
+||rcqmvmq.cn^
 ||rcqqlwb.cn^
 ||rcsden.top^
 ||rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml
@@ -119531,6 +119533,7 @@ zyro.com##.zyro-cookies
 ||wc.yahoodns.net^$image
 ||wc4.net^
 ||wc4.net^$image,third-party
+||wcanj.com/2345/
 ||wcaos.com^
 ||wccftech.com/cnt7vfDVvWa3.js
 ||wccprfxgbes.com^
@@ -124611,6 +124614,7 @@ zyro.com##.zyro-cookies
 ||zfotrq.xyz^
 ||zfoxhovh.com^
 ||zfteiv.xyz^
+||zfticz.buzz^
 ||zg.mmyuer.com^
 ||zg40c.cn^
 ||zgazgluy.com^
