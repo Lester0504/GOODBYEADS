@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-17 11:09:27（北京时间） 
-! Total count: 125856
+! Version: 2023-07-17 21:14:30（北京时间） 
+! Total count: 125859
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -10285,6 +10285,7 @@
 ##.cc-policy-overlay
 ##.cc-policy:not(body):not(html)
 ##.cc-pop.active:not(body):not(html)
+##.cc-revoke ~ #securitiModalBackground
 ##.cc-revoke ~ .cc-grower
 ##.cc-revoke ~ .cc-screen
 ##.cc-revoke:not(body):not(html)
@@ -15869,7 +15870,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .buzz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .buzz/*0*0*0*==$third-party
 .cc/o.js$third-party
-.cfd/video/index/index/user_login/
 .chat.bilibili.com
 .click/track?
 .cmail19.com/t/$image
@@ -15891,6 +15891,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/adv1/?q=
 .com/analytics?
 .com/c.php?s=*=*=$third-party
+.com/candy*.js$third-party
 .com/clk?
 .com/count?
 .com/counter?
@@ -15972,6 +15973,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .inxmail-commerce.com/tracking/$image
 .inxserver.com/transparent.gif
 .jp/pv?
+.js?*&ssid=$third-party
 .keap-link003.com/$image
 .keap-link004.com/$image
 .keap-link005.com/$image
@@ -16012,8 +16014,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .n.2.1.l60.js^$third-party
 .ne16.com/do/
 .net/l.gif?
-.net/v2/stats/10*$third-party
-.net/vh1/15*$third-party
+.net/v2/stats/1*$third-party
+.net/vh1/1*$third-party
 .netcologne.de/-open2/$image
 .no/app/aas/a
 .ntpagetag.
@@ -16080,13 +16082,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
 .xyz/?token=
-.xyz/ack?s=
+.xyz/ack?s=$third-party
 .xyz/alpine?$third-party
 .xyz/base*.js?$third-party
-.xyz/bid?url=*
+.xyz/bid?url=*$third-party
 .xyz/foundation?$third-party
 .xyz/gatsby?$third-party
-.xyz/gif
+.xyz/gif$third-party
 .xyz/hm.html?s=
 .xyz/hm.js?$third-party
 .xyz/jque*.js?$third-party
@@ -16514,7 +16516,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /activity.gif?
 /acton/bn/tracker
 /ad-blocking-advisor/*
-/ad/dhgg.js
 /ad/statistic
 /adb-analytics
 /adb-watch.
@@ -17402,7 +17403,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cookie-files/*$domain=paradoxwikis.com
 /cookie-hinweis/script-v2.js
 /cookie-law-plugin_en.js
-/cookie-layer.js$domain=united-domains.de|mercedes-benz.io
+/cookie-layer.js$domain=mercedes-benz.io
 /cookie-message.js
 /cookie-notice.js
 /cookie-notification.js
@@ -18594,7 +18595,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js/gdpr_footer.js
 /js/general/avada-privacy.js
 /js/hbx.js
-/js/hhsyw.js
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/indextools/*
 /js/js4.js
@@ -19087,7 +19087,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /nct.php?nid=
 /nedstat.
 /neilson.js
-/neo-cookie-layer.js$domain=united-domains.de
 /neo/analytics/*
 /neocounter.
 /neocounter/*
@@ -20958,7 +20957,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /xtcore.js
 /xtroi.js
 /xtub_*_rony.js$third-party
-/xxgg/e13dj113a.js
 /yad_sortab_cetlog.js
 /yandex-metrica-watch/*
 /yandex-metrika.js
@@ -29718,7 +29716,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googleoptimize.com/optimize.js$domain=binglee.com.au|grasshopper.com|in.bookmyshow.com|inquirer.com|investing.com|lacomer.com.mx|lodgecastiron.com|tentree.ca|virginmedia.com
-@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|modehasen.de|montcopa.org|nihontsushin.com|panflix.com.br|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|timparty.tim.it|toptal.com|virginplus.ca|winefolly.com|xl-bygg.no|zf1.tohoku-epco.co.jp
+@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|timparty.tim.it|toptal.com|virginplus.ca|winefolly.com|xl-bygg.no|zf1.tohoku-epco.co.jp
 @@||googletagmanager.com/gtm.js$domain=3djuegosguias.com|3djuegospc.com|acehardware.com|acornonline.com|ads.spotify.com|aeromexico.com|aliexpress.com|animeanime.jp|anond.hatelabo.jp|applesfera.com|aruba.it|arvopaperi.fi|atptour.com|autobild.de|autorevue.cz|axeptio.eu|backcountry.com|bbcgoodfood.com|benesse-style-care.co.jp|besplatka.ua|beterbed.nl|betten.de|binglee.com.au|book.impress.co.jp|bsa-whitelabel.com|bunte.de|bybit.com|bybitglobal.com|carcareplus.jp|carhartt-wip.com|casa.it|ccleaner.com|cdek.ru|cdon.fi|chipotle.com|chronopost.fr|cinemacafe.net|cmoa.jp|como.fi|complex.com|compradiccion.com|computerbild.de|coolermaster.com|costco.co.jp|crello.com|cyclestyle.net|cyclingnews.com|cypress.io|dazeddigital.com|dengekionline.com|dholic.co.jp|directoalpaladar.com|dlsite.com|dmv.ca.gov|doodle.com|dropps.com|e15.cz|easternbank.com|edwardjones.com|elnuevodia.com|enmotive.com|episodi.fi|eprice.it|ergotron.com|espinof.com|euronics.it|expressvpn.com|fandom.com|feex.co.il|festoolusa.com|finanzen.at|finanzen.ch|finanzen.net|flytap.com|focus.de|formula1.com|fortress.com.hk|fortune.com|freenet-funk.de|fum.fi|gamebusiness.jp|gamespark.jp|genbeta.com|glamusha.ru|gorillamind.com|grandhood.dk|gravitydefyer.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|hatenacorp.jp|herculesstands.com|hobbyhall.fi|hostingvergelijker.nl|houseofbilocca.com|idealo.at|idealo.de|iltalehti.fi|independent.co.uk|inferno.fi|inside-games.jp|insiderstore.com.br|iphoneitalia.com|jalan.net|jn.pt|journaldunet.com|junonline.jp|kakuyomu.jp|karriere.at|kedronparkhotel.com.au|komputronik.pl|konami.com|la7.it|lastampa.it|lecker.de|level.travel|lift.co.za|linternaute.com|lippu.fi|luko.eu|mainichi.jp|makitani.net|mangaseek.net|mcgeeandco.com|mediamarkt.nl|mediuutiset.fi|mercell.com|meritonsuites.com.au|mikrobitti.fi|mirapodo.de|mobilmania.cz|montcopa.org|mycar-life.com|mysmartprice.com|nap-camp.com|netcombo.com.br|newscafe.ne.jp|nflgamepass.com|nielsendodgechryslerjeepram.com|nihontsushin.com|nordvpn.com|nourison.com|oakandfort.com|odia.ig.com.br|oetker-shop.de|okwave.jp|olx.ro|onlineshop.ocn.ne.jp|pccomponentes.com|petsathome.com|pgatoursuperstore.com|pioneer.eu|plaion.com|plantsome.ca|poprosa.com|post.ch|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|radiko.jp|radio-canada.ca|radiorur.de|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|rocketnews24.com|rtl.de|rumba.fi|runescape.com|rustih.ru|sanwacompany.co.jp|saraiva.com.br|saturn.at|savethechildren.it|scan.netsecurity.ne.jp|sciencesetavenir.fr|scotsman.com|soranews24.com|soundguys.com|soundi.fi|spektrum.de|sport-wear.com.ua|sport1.de|sportmaster.ru|spyder7.com|stage.parco.jp|stressless.com|superesportes.com.br|support.creative.com|swarajyamag.com|swb.de|talent.lowes.com|talouselama.fi|teddyfood.com|tekniikkatalous.fi|telia.no|theretrofitsource.com|tilt.fi|tivi.fi|tn.com.ar|topper.com.br|toyota-forklifts.se|trademe.co.nz|tradera.com|trendencias.com|trendenciashombre.com|tribuna.com|tugatech.com.pt|tumi.com|tv-asahi.co.jp|type.jp|uclabruins.com|unieuro.it|uniqlo.com|upc.pl|upwork.com|uqr.to|veho.fi|vidaextra.com|video.repubblica.it|vip.de|vitonica.com|viviennewestwood-tokyo.com|vox.de|vtvgo.vn|wamiz.com|wowma.jp|www.kauppalehti.fi|www.nicovideo.jp|www.uusisuomi.fi|xatakamovil.com|xxl.se|ymobile.jp|youpouch.com|zakzak.co.jp|zennioptical.com|zf1.tohoku-epco.co.jp|zinio.com|zive.cz|zozo.jp
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
@@ -30313,6 +30311,7 @@ adchitects.co##.cookies
 add0n.com###cookie
 addgene.org##.alert-info
 additioapp.com###btn-cookies
+addnorth.se##footer ~ .messages
 addons.prestashop.com###cookie
 adeccomedical.fr##.bannerContainer
 adelaida.ro###barwrap
@@ -32742,6 +32741,7 @@ e-domizil.de##.disclaimer, .overlay
 e-elektron.pl##body > div:not([id]):not([class])
 e-fellows.net###efnCookieConsent
 e-fo.fr###spanLien > div:first-child
+e-food.gr###smartbanner-container + div > div:last-child:not(:only-child)
 e-gratka.info###pojemnik
 e-lawresources.co.uk##.topbarBox
 e-marcom.pl###cook
@@ -34105,8 +34105,6 @@ hermann.bio###notice
 hero-wars.com##.overlay__cookie, .disclaimer-overlay
 heroesneverdie.com###chorus_notifiations
 heroku.com###heroku-cookie-banner
-hertz.ca##div[class*="PrivacyPolicyBanner"]
-hertz.co.uk###new_cookie_container
 herz-lungen-praxis-ebersberg.de##section[data-module="cookies"]
 hessen.de##.alert-dismissible
 hessenchemie.de##.readcookie
@@ -36313,6 +36311,7 @@ mtv.com###balaMainContainer
 mtva.hu##.resultCookie
 mtvmobile.nl###exposeMask, #TMobile_nl_WebPortals_UI_PageComponents_CookieSettingsOverlay_CookieSettingsOverlayController_OverlayRootDiv
 mu.se##div[data-storage-item*="cookiename"]
+mubert.com##.notification-manager
 mubi.pl##.cookies, header ~ div[aria-label*="Cookie"]
 mudes.org.br##.elementor-popup-modal
 mudrunner-spintires.com###cookies-interface
@@ -36669,6 +36668,7 @@ nordpasdecalais.fr###bandeauCnil
 nordpass.com###gatsby-focus-wrapper > div > .fixed
 nordseecamping.de###SITE_ROOT ~ .siteAspectsContainer
 nordusdecospan.com##.gdprForm
+nordvpn.com##astro-island[props*="cookieWidget"]
 norgesgruppen.no###coco
 noritake-itron.jp###gdpr_nav
 norma-ammunition.com##.on-screen-messages
@@ -36922,7 +36922,6 @@ or.th###alert-policy, .cookies-pdpa, #pdpa-policy
 oraclecloud.com##.cookie-consent
 orange.be##.zpWinThemeBanner
 orange.jobs##.dgt-opt-inout
-orange.pl###__next > div > section[role="region"], .opl-cookie-control
 orangebank.fr###ob-cookie-banner-modal
 orbassano.to.it###cookie
 orbiprime.com###privacy
@@ -37741,6 +37740,7 @@ red-carparts.de###disclaimer
 redaccionmedica.com##.iframe_cookies
 redbet.com##.notification
 redbubble.com##.ds-theme-find-your-thing ~ .Toastify
+redd.it##shreddit-async-loader[bundlename*="cookie_banner"]
 reddingo.ch##.policy, #policy, .cpolicy
 reddingo.com##.policy, #policy, .cpolicy
 reddit.com###SHORTCUT_FOCUSABLE_DIV > div> div > section > [style*="Toaster"], shreddit-async-loader[bundlename*="cookie_banner"]
@@ -42625,6 +42625,7 @@ zyro.com##.zyro-cookies
 ||6244db039f.com^
 ||625c9289e60793.com^
 ||626uc.com^
+||627txt.com/da/*js
 ||628536nyv.com^
 ||62f9bb0bbc.com^
 ||62h.site^
@@ -63181,6 +63182,7 @@ zyro.com##.zyro-cookies
 ||deepermagnes.com^
 ||deephicy.net^
 ||deepintent.com^
+||deepl.com/web/statistics
 ||deeplink-app.olympia.nl^
 ||deeplink-staging.tops.co.th^
 ||deeplink.api-sandbox.notarycam.com^
@@ -118228,6 +118230,7 @@ zyro.com##.zyro-cookies
 ||vertster.com^
 ||vertster.com^$third-party
 ||veryn1ce.com^
+||verysadfun.com/assets/publish/jquery.*.js
 ||verysilenit.com^
 ||verytransions.xyz^
 ||vesofefinego.info^
