@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-18 21:01:23（北京时间） 
-! Total count: 125859
+! Version: 2023-07-19 11:48:10（北京时间） 
+! Total count: 125860
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -40599,6 +40599,7 @@ yourweather.co.uk###gpdr, #GPDR, #gdpr, #GDPR
 yourwineonline.be##.cookies
 yousee.dk##.app > div[data-radium] > div[data-radium][style*="fixed"]
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
+youtube.com##AD-SLOT-RENDERER
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
