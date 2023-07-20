@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-19 20:56:44（北京时间） 
-! Total count: 125867
+! Version: 2023-07-20 10:25:10（北京时间） 
+! Total count: 125872
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -11974,6 +11974,7 @@
 ##.cookies-privacy:not(body):not(html)
 ##.cookies-prompt
 ##.cookies-question:not(body):not(html)
+##.cookies-reminder-v2
 ##.cookies-reminder:not(body):not(html)
 ##.cookies-ribbon:not(body):not(html)
 ##.cookies-rodo
@@ -20398,7 +20399,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracking-pixel/*
 /tracking.*/impression?
 /tracking.fanbridge.com/*
-/tracking.js$domain=arsys.es|arsys.fr|arsys.pt|arsys.net
 /tracking.jsp?sid=
 /tracking.srv2.de/op/*$image
 /tracking/?ID=
@@ -30722,6 +30722,10 @@ aromatika.com.pl###cookie
 aromes-et-liquides.fr###rgpdcookie
 arridgegaragedoors.co.uk##.small-cookie-notice .tingle-modal
 arsene50.brussels##.cookies
+arsys.es##.drop[name="cookies"]
+arsys.fr##.drop[name="cookies"]
+arsys.net##.drop[name="cookies"]
+arsys.pt##.drop[name="cookies"]
 art.pl###mnp_cookie_confirmation
 artboxone.de###ab1_cookie_bar
 artedas.it###cookiemex
@@ -31811,7 +31815,7 @@ cirquedusoleil.com##div[data-cookie="cookieWarning"]
 cirrus.com##.page-canvas .links-are-reversed
 cision.com###cision-cookie-policy-banner
 citifirst.com###popup-disclaimer
-citilink.ru##.PersonalDataConfirm
+citilink.ru###__next main ~ div
 citizenticket.co.uk###haveacookie[action*="cookie-policy"]
 citusdata.com###consentBox
 city-center-chorweiler.de##.mdl-modal__backdrop, #mdl-overlay
@@ -32095,7 +32099,6 @@ corona.fo###__qookies_habitat
 correctiv.org##.elementor-popup-modal
 correios.com.br###cookiesId
 correos.com###myCookies
-correos.es##.correosCookies, .sc-correos-cdk-cookies-module
 corso-saunamanufaktur.com###dataprotection
 cortefiel.com###general-popup, .euCookiesPolicy
 cortesdecima.com##.row.notice.s_active
@@ -33525,6 +33528,7 @@ freemeteo.nl###cookies
 freemeteo.rs###cookies
 freeonlinegames.com###cwarn-box
 freesciencelessons.co.uk##.divibars-container
+freestore.app##.adbn2-wrap2
 freetorrent.tk###alert_system_notice
 freetrackplans.com##.topbarBox
 freevpnplanet.com##.cookies
@@ -37136,6 +37140,7 @@ perfumesclub.com##.cookies
 periodex.co##.p-banner
 permettezmoideconstruire.fr##.alert-overlay
 permisecole.com###rgpd
+perplexity.ai##main > div > .fixed.bottom-sm
 persgroepwielerspel.nl###st_popup, #st_overlay
 personal.natwest.com##.cookie
 personaldienstleister.de##div[id*="cookie_consent"]
@@ -40363,6 +40368,7 @@ wsldp.com##.notice
 wso2.com##.cGDPR
 wspay.info###open_preferences_center
 wsz-marburg.de###js-cookie-text
+wszystko.pl##wpl-cookies
 wtatennis.com##.wta-cookies-policy
 wtk.pl###cookie-consent
 wtp.waw.pl##.page-consent
@@ -82938,7 +82944,7 @@ zyro.com##.zyro-cookies
 ||livetalisay.com^
 ||livetellsspatter.com^
 ||livetex.ru^
-||livetex.ru^$third-party
+||livetex.ru^$third-party,domain=~livetex.github.io
 ||livetrafficfeed.com^
 ||livetrafficfeed.com^$third-party
 ||liveunderestimate.com^
@@ -125407,7 +125413,6 @@ zyro.com##.zyro-cookies
 ~amara.org,~filmmakers.de,~kh.hu##.cookie-consent-container
 ~anadibank.com,~lotusbakeries.nl,~itextpdf.com###sliding-popup.sliding-popup-bottom
 ~analog.com###cookie-consent-container
-~ankerkraut.de,~openfoodnetwork.org.uk##.cookies-banner:not(body):not(html)
 ~aptoide.com###__next div[class*="cookie-notice"]
 ~archimag.com##.eupopup-container:not(body):not(html)
 ~aubi-plus.de###cookie-manager
@@ -125468,6 +125473,7 @@ zyro.com##.zyro-cookies
 ~cookieservice.aginsurance.be##.cookieConsentPopup
 ~coolmath.com##.gdpr-overlay-container
 ~coolmath.com##.gdpr-overlay:not(body):not(html)
+~correos.es,~dogedash.com,~kramp.com##.cookie-message:not(body):not(html):not(.modal-body)
 ~cottonon.com##.gdpr-sticky-container
 ~cykelgear.dk###cookieDisclaimer
 ~czc.cz,~qioz.fr###cookies-popup
@@ -125487,7 +125493,6 @@ zyro.com##.zyro-cookies
 ~dnbeiendom.no###cookieInfoBanner
 ~dodo.fr,~falter.at##.amgdprcookie-bar-template
 ~dogedash.com##.react-cookie-banner
-~dogedash.com,~kramp.com##.cookie-message:not(body):not(html):not(.modal-body)
 ~dominospizza.pl##.m-Cookies[aria-describedby="cookie-message"]
 ~dominospizza.pl,~penny.hu,~penny.cz###cookie-message
 ~durchblick-durch-daten.de,~leeway.tech,~evarazdin.hr##.cookie-warning:not(body):not(html):not(#Web):not(#Container)
@@ -125506,7 +125511,6 @@ zyro.com##.zyro-cookies
 ~ejot.de,~ejot.at,~ejot.cn,~ejot.co.uk,~sparda.de,~sparda-n.de,~sparda-bw.de,~sparda-hessen.de,~sparda-west.de,~inwerk.de,~bioplanete.com,~miltenyibiotec.com,~brabus.com,~nobilia.de,~springlane.de###cookieLayer
 ~elavon.pl##.cookiePolicyMessage
 ~elavon.pl,~smythstoys.com##.cookiePolicy:not(.reveal):not(body):not(html)
-~elcorteingles.es##.cmp-experiencefragment--cookies
 ~elcorteingles.es,~svenskakyrkan.se##.c-cookies:not(body):not(html)
 ~empik.com###app div[class*="ConsentsBanner"]
 ~energieatlas.eon.de,~sevdesk.de,~sevdesk.at###___gatsby div[class*="cookie-banner"]
@@ -125585,6 +125589,7 @@ zyro.com##.zyro-cookies
 ~icould.com##.gdpr-dialog
 ~idoc.eu,~lexibo.com,~foxracingshox.de,~adler-farbenmeister.com,~springlane.de##.page-wrap--cookie-permission
 ~ikarus.de###amgdpr-cookie-block
+~iledefrance-mobilites.fr,~ankerkraut.de,~openfoodnetwork.org.uk##.cookies-banner:not(body):not(html)
 ~ing.it##.banner-cookie:not(body):not(html)
 ~ing.jobs###gdprconsent
 ~ing.jobs##.ui-dialog[aria-describedby*="consent"]
