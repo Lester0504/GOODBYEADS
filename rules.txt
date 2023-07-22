@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-22 10:23:37（北京时间） 
-! Total count: 126006
+! Version: 2023-07-22 20:50:06（北京时间） 
+! Total count: 125998
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29556,7 +29556,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
-@@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||cdn.segment.com/analytics-next/
 @@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com
 @@||cdn.segment.com/next-integrations/integrations/
@@ -29939,7 +29938,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||qhres2.com^$domain=baike.so.com
 @@||qpython.club^$generichide
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
-@@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/gaAnalytics.js$~third-party
@@ -29953,7 +29951,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
-@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp|pro.logitec.co.jp
+@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rudaw.net/images/pixel.gif$~third-party
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
@@ -56655,7 +56653,6 @@ zyro.com##.zyro-cookies
 ||canada.com/js/analytics/
 ||canalplus-bo.net/web/*/tracker/?
 ||canalstat.com^
-||canalstat.com^$third-party
 ||canastagruff.com^
 ||canddi.com^
 ||canddi.com^$third-party
@@ -58406,7 +58403,6 @@ zyro.com##.zyro-cookies
 ||clickclick.net^$third-party
 ||clickco.net^
 ||clickconversion.net^
-||clickconversion.net^$third-party
 ||clickdaly.com^
 ||clickdensity.com^
 ||clickdensity.com^$third-party
@@ -69440,7 +69436,6 @@ zyro.com##.zyro-cookies
 ||fengying5.com^
 ||fengyx.com^
 ||fenixm.com^
-||fennec.atp.fox^
 ||fenqihome.com^
 ||fensi.plus^*/tracking/
 ||fensough.xyz^
@@ -94350,7 +94345,6 @@ zyro.com##.zyro-cookies
 ||personaclick.com^$third-party
 ||personal.sonicwall.com^
 ||personalicanvas.com^
-||personalicanvas.com^$third-party
 ||personifyallege.com^
 ||personsboxingaddiction.com^
 ||personthirtycoldness.com^
@@ -96405,6 +96399,7 @@ zyro.com##.zyro-cookies
 ||prod-events.nykaa.com^
 ||prod-sponsoredads.mkt.zappos.com^
 ||prod.ew.srp.navigacloud.com^
+||prod.fennec.atp.fox^
 ||prod.nitrosniffer.ottogroup.io^
 ||prod.tracking.refinitiv.com^
 ||prod.untd.com^
@@ -106806,6 +106801,7 @@ zyro.com##.zyro-cookies
 ||sohu.com/adgtr/
 ||sohu.com/count/
 ||sohu.com/ip/$script
+||sohu.com/pccollector
 ||sohu.com/pv.js
 ||sohu.com/pvpb.gif?
 ||sohu.com/stat/
@@ -113218,7 +113214,6 @@ zyro.com##.zyro-cookies
 ||toronto-content.cresa.com^
 ||torooptudaiz.com^
 ||tororango.com^
-||toros.daum.net/toros/imp
 ||torpidtongue.com^
 ||torpidtoothpaste.com^
 ||torpsol.com^
@@ -114755,7 +114750,6 @@ zyro.com##.zyro-cookies
 ||tracking.bankofoklahoma.com^
 ||tracking.bankoftexas.com^
 ||tracking.base.de^
-||tracking.bd4travel.com^
 ||tracking.behaarteladies.de^
 ||tracking.bettingexpert.com^
 ||tracking.bizarrladies.de^
@@ -116167,7 +116161,6 @@ zyro.com##.zyro-cookies
 ||tv-test.esvdigital.com^
 ||tv.code.jjyx.com^
 ||tv.sohu.com/upload/csad/admaster/$image
-||tv.sohu.com/upload/trace/
 ||tv1s4d6klh4n.com^
 ||tvabqt.cn^
 ||tvapp.hpplay.cn^
@@ -118507,7 +118500,6 @@ zyro.com##.zyro-cookies
 ||video.market.xiaomi.com^
 ||video.mediaset.it/polymediashowanalytics/
 ||video.mpush.qq.com^
-||video.msn.com/report.aspx?
 ||video.new-eve.com^
 ||video.oms.eu^
 ||video.oms.eu^$third-party
