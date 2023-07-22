@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-21 20:55:10（北京时间） 
-! Total count: 126007
+! Version: 2023-07-22 10:23:37（北京时间） 
+! Total count: 126006
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15282,7 +15282,6 @@
 ##a.gggg[href^="https"]
 ##a.optanon-show-settings
 ##a[href*=".com?s="]
-##a[href*="/?utm_source="]
 ##a[href^="/ad.html?url="]
 ##a[href^="https://91keep.tv"]
 ##accept-cookie-box
@@ -16077,7 +16076,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .web-vitals-reporting.
 .webex.com/q/
 .wix.com/_api/ping/
-.xyz$domain=btsj6.com|dm99.me
+.xyz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
@@ -29402,6 +29401,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/friendbuy.min.js$script,domain=butcherbox.com
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
+@@css.yhdmtu.xyz$domain=yinghuavideo.com
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
@@ -40370,7 +40370,7 @@ ww-ag.com##.WW-cookiemodul
 wwdmag.com##.intercom-snippet > [class*="gdpr"]
 wwf.ru##.is-header-message-dock
 www-youtube-com.translate.goog##ytd-consent-bump-v2-lightbox, tp-yt-iron-overlay-backdrop
-www.123pan.com##IMG[src*='-banner']
+www.123pan.com##IMG[src*='-banner'],div.slick-list
 www.aiwuav.xyz##A.toptxt,IMG[src*='.gif'][alt],SPAN[class^="clobox"],IMG[width='100%'][src*='.gif']
 www.apkmirror.com##DIV.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
@@ -42363,6 +42363,7 @@ zyro.com##.zyro-cookies
 ||528791725.com^
 ||5293.com^
 ||52aan.cn^
+||52acc.cn^
 ||52aoteman.com^
 ||52av.be^
 ||52c9f48b14.com^
@@ -48592,7 +48593,6 @@ zyro.com##.zyro-cookies
 ||agnes.waz.de^
 ||agnescarved.website^
 ||agnrcrpwyyn.com^
-||agoda.com/api/pixel/
 ||agoda.net/v2/track
 ||agonelambes.website^
 ||agonizing-price.pro^
@@ -48834,9 +48834,7 @@ zyro.com##.zyro-cookies
 ||airserve.net^
 ||airserve.net^$third-party
 ||airsoang.net^
-||airtable.com/internal/$xmlhttprequest
-||airtable.com/internal/page_view
-||airtable.com^*/reports
+||airtable.com/internal/
 ||airthabolete.com^
 ||airticmonsoa.com^
 ||airydeservesannounce.com^
@@ -124901,6 +124899,7 @@ zyro.com##.zyro-cookies
 ||zfoxhovh.com^
 ||zfteiv.xyz^
 ||zfticz.buzz^
+||zfvltd.xyz^
 ||zg.mmyuer.com^
 ||zg40c.cn^
 ||zgazgluy.com^
