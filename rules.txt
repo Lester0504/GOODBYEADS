@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-22 20:50:38（北京时间） 
-! Total count: 125998
+! Version: 2023-07-23 10:30:52（北京时间） 
+! Total count: 126003
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15463,6 +15463,7 @@
 ##body > section#acc-bottom[style]
 ##body ~ #CkC[style*="bottom"]
 ##body ~ .cc-overlay
+##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
@@ -16700,6 +16701,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics-ping.
 /analytics-plugin/*
 /analytics-pusher/*
+/analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.
 /analytics-tag.
@@ -17254,6 +17256,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cnt_js.php?
 /cntpixel.
 /cnvtr.js
+/cocoon-master/lib/analytics/access.
 /coherentpath.link/o/*$image
 /cohesion-latest.
 /coinhive.min.js
@@ -99962,6 +99965,7 @@ zyro.com##.zyro-cookies
 ||rielturuxrm.com^
 ||rifice.com^
 ||riftindexesyourself.com^
+||rifyeldz.top^
 ||rigel.baidustatic.com^
 ||rigelbetelgeuse.top^
 ||rigfoxcup.site^
@@ -124891,6 +124895,7 @@ zyro.com##.zyro-cookies
 ||zfoxhovh.com^
 ||zfteiv.xyz^
 ||zfticz.buzz^
+||zfticz.xyz^
 ||zfvltd.xyz^
 ||zg.mmyuer.com^
 ||zg40c.cn^
