@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-25 10:41:16（北京时间） 
-! Total count: 126343
+! Version: 2023-07-25 21:00:08（北京时间） 
+! Total count: 126346
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15095,6 +15095,7 @@
 ##DIV#tads
 ##DIV#top-ads
 ##DIV#video-player-ads-wrap
+##DIV#xfb_lbox.zoomout_transition.zoomout
 ##DIV.JS_mid_ad
 ##DIV.ad-area.ad-area-fix-bottom
 ##DIV.ad-content
@@ -15119,7 +15120,6 @@
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV.row.no-gutters.m-0
 ##DIV.stui-player__item.clearfix > img[url]
-##DIV.zoomout transition.zoomout
 ##DIV[allowtransparency='true'][scrolling='no']
 ##DIV[class$='_ad_wrap']
 ##DIV[class*='home'][class*='Ads']
@@ -15160,6 +15160,7 @@
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##INS.adsbygoogle
+##INS[status='done'] A.external
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
 ##P[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
 ##SPAN#VuMk2.IgpuN2
@@ -15456,6 +15457,7 @@
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > a[id*='hudie_']
 ##body > allow-cookies
+##body > div#bottommob.bottommob
 ##body > div[class^="app_gdpr"] ~ #gpdr
 ##body > div[class^="index_cookieNotification"]
 ##body > div[id$="_cookie_box"][style*="fix"]
@@ -15473,7 +15475,6 @@
 ##body#wrapper A[ontouchstart='this.click();']
 ##body._cookiebanner::after
 ##body.active > div.myui-panel > DIV#home_slide
-##body.active div#bottommob.bottommob
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
 ##body.conch-hasone section > span > video
@@ -16090,6 +16091,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .xyz/bid?url=*$third-party
 .xyz/foundation?$third-party
 .xyz/gatsby?$third-party
+.xyz/get?$third-party
 .xyz/gif$third-party
 .xyz/hm.html?s=
 .xyz/hm.js?$third-party
@@ -16099,6 +16101,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .xyz/qby_*.js?$third-party
 .xyz/st?gp=*$third-party
 .xyz/svelte?$third-party
+.xyz/ty/*-*-*$third-party
 .xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?
 .zalando.com/images/probe.png
@@ -34159,7 +34162,6 @@ hkr.se###cookies
 hmb-gorzow.pl##aside.widget
 hmc.org.uk###modal-mask
 hmerologio.gr###sid-container
-hmqg.net###bottommob.bottommob
 hobby.porn##.sgdpr-box
 hobbyfarms.com##.cookieTkd
 hochparterre.ch##.cookie
@@ -81243,6 +81245,7 @@ zyro.com##.zyro-cookies
 ||kuyun.com^
 ||kuyw.cn^
 ||kv.stat.nearme.com.cn^
+||kv8899.com^
 ||kvaaa.com^
 ||kvartirant.ru/counter.php?
 ||kvbgoc.com^
