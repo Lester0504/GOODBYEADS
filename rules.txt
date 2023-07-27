@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-26 20:29:01（北京时间） 
-! Total count: 126813
+! Version: 2023-07-27 08:56:43（北京时间） 
+! Total count: 126804
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -32548,9 +32548,6 @@ dlford.io###gatsby-focus-wrapper > div > footer
 dm530p.net##DIV[style$='; display: block;']
 dmapraha.cz##.focus-cookies
 dmc-watch.com##.promo-bar-container
-dmh8.me,dm88.me##DIV[style='display: flex;']
-dmh8.me,dm88.me##DIV[style^='background: url("http']
-dmh8.me,dm88.me##H2[style='display: block;']
 dmty.pl##body > div:not([id]):not([class])
 dmzj.com##div[class*="float_code"]
 dn.no###dninvestor-cookie-info
@@ -35553,6 +35550,7 @@ m.douban.com##.write-comment
 m.douban.com##.write-review
 m.douban.com##[href^="https://erebor.douban.com/monitor/"]
 m.douban.com##div.center > div
+m.douban.com##div.center [style*='padding: 4px;']
 m.douban.com##h2 > [href^="https://www.douban.com/doubanapp/card/get_app"]
 m.douban.com#?#a:-abp-contains(用App看更多)
 m.douban.com#?#div:matches-css(width:68px)
@@ -35694,7 +35692,6 @@ m.you.163.com##.w-button
 m.youku.com,v.youku.com##+js(m3u-prune,'',/^https:\/\/[\w\.]+ott\.cibntv\.net.+?\.m3u8\?/)
 m.zhanqi.tv##.h5-foot-area
 m.zhanqi.tv##.topbarOpenApp.btn-1
-m.zzzfun.com###show-2415689770463175004-8179
 m4sport.hu###cookie
 ma-calculatrice.fr###manger-des-minis-gateaux
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
@@ -40386,9 +40383,6 @@ www.baidu.com##div[class*="result-op c-container"]
 www.baidu.com##div[class*="result-op xpath-log new-pmd"]
 www.baidu.com##div[class*="s-isindex-wrap s-hotsearch-wrapper"]
 www.dbbqb.com##.MuiPaper-root
-www.dmh8.me,dm88.me##CENTER
-www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; opacity:']
-www.dmh8.me,dm88.me##DIV[style^='width:300px;height:300px;position:fixed;bottom:0;left:0;']
 www.ghxi.com##.wpcom_ad_wrap
 www.ghxi.com##DIV[style^='padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: ']
 www.google.com,www.google.com.hk,www.google.co.jp##DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F%E2%96%9B']),DIV[data-sokoban-container]:has([href*='%E3%80%90%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9E%BF%E3%80%91']),DIV[data-sokoban-container]:has([href*='%E2%8F%AA%29']),DIV[data-sokoban-container]:has([href*='%E2%9A%BD%E3%80%91']),DIV[data-sokoban-container]:has([href*='-%E3%80%90']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F'][href*='%E2%98%80%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='-('][href*='%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F%29']),DIV[data-sokoban-container]:has([href*='-%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%85%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9E%A1%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%AD%90']),DIV[data-sokoban-container]:has([href*='%E3%8A%99%EF%B8%8F'])
@@ -40558,7 +40552,6 @@ yesterdaystractors.com###dvCookieMessage
 yestersen.com##main > .d-print-none
 yesty.nl###Footer p ~ div:last-child
 yhdm*.com/js/wap2-jm-ms.js?ver=
-yhdmp.net##[style^='bottom:'][style$='block;']
 yithlibrary.com##.alert, #alert
 ykt.ru##.n-banner--adblocked
 yna.co.kr###layerAgree
@@ -89464,7 +89457,6 @@ zyro.com##.zyro-cookies
 ||msrejection.com^
 ||msrvt.net^
 ||mssdhde.cn^
-||mssdk-bu.bytedance.com^
 ||mssdk-bu.snssdk.com^
 ||mssdkrt.xyz^
 ||mssheng.com^
@@ -113579,7 +113571,6 @@ zyro.com##.zyro-cookies
 ||tnative.ru^$third-party
 ||tnc3-aliec2.snssdk.com^
 ||tnc3-aliec2.zijieapi^
-||tnc3-alisc1.snssdk.com^
 ||tnc3-alisc1.zijieapi^
 ||tnc3-bjlgy.snssdk.^
 ||tnc3-bjlgy.snssdk.com^
