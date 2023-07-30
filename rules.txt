@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-30 09:14:16（北京时间） 
-! Total count: 126931
+! Version: 2023-07-30 20:19:44（北京时间） 
+! Total count: 126935
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29417,6 +29417,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||8tm.net/static/img/fbpixel.png$~third-party
 @@||939394.xyz^
 @@||a8.net/svt/$image,domain=samplefan.com
+@@||ab.blogs.es/abtest.png$domain=trendencias.com|xataka.com
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||actiris.be/urchin.js
 @@||ad-gone.com^
@@ -29740,6 +29741,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||hvemder.no/js/hitcount.min.js$~third-party
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||identity.mparticle.com^$xmlhttprequest
+@@||ikea.com^*/assets/analyticsEvent.component-$script,~third-party
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imgur.com/min/px.js$~third-party
@@ -54314,6 +54316,7 @@ zyro.com##.zyro-cookies
 ||bigmobileads.com^
 ||bigneptunesept.com^
 ||bignutty.xyz^
+||bignutty.xyz^$third-party
 ||bigog.xyz^
 ||bigotpenniless.com^
 ||bigpipes.co^
@@ -59945,7 +59948,9 @@ zyro.com##.zyro-cookies
 ||consent.thecountrysmallholder.com^
 ||consent.thegreatoutdoorsmag.com^
 ||consent.themeteocompany.com^
+||consent.trustarc.com/bannermsg?
 ||consent.trustarc.com/notice$script,domain=~tripit.com|~concursolutions.com|~fortune.com|~formula1.com
+||consent.trustarc.com/noticemsg?
 ||consent.trustarc.com/v2/notice$script
 ||consent.truste.com/get?name=notice.js$script
 ||consent.truste.com^
@@ -65015,7 +65020,6 @@ zyro.com##.zyro-cookies
 ||doublerecall.com^
 ||doublestat.info^
 ||doubleverify.com^
-||doubleverify.com^$third-party
 ||doubleview.online^
 ||doubtcigardug.com^
 ||doubtdrawer.com^
