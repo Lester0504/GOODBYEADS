@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-31 09:14:37（北京时间） 
-! Total count: 126943
+! Version: 2023-07-31 20:24:06（北京时间） 
+! Total count: 126952
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -3606,6 +3606,7 @@
 ###cm_cookie_notification
 ###cmanager-container
 ###cmc-tracking-consent-form-step1
+###cmgr_cookie_manager_html_container
 ###cmp-container-id
 ###cmp-cookie-notification
 ###cmp-faktor-io-brand-consent-notice
@@ -7447,8 +7448,6 @@
 ###js_cookie_window
 ###js_cookie_wish.bottombar
 ###js_cookies-information
-###js_euCookieBanner
-###js_euCookieModal
 ###js_gdprTopBar
 ###js_global-cookies
 ###js_popup_cookies
@@ -9259,7 +9258,6 @@
 ###zonaCookies
 ###zone-accept-cookie
 ###zone-bandeau-cookies
-###zone_CMP_grande
 ###zone_cookie.module-warning
 ###zp-footer-cookiesettings-overlay
 ###zse-cookie-container
@@ -13586,6 +13584,7 @@
 ##.mfp-bg[class*="cookies"]
 ##.mgv-cookies-banner:not(body):not(html)
 ##.mh5_CookieNotice:not(body):not(html)
+##.mi-responsive-player + .mi-consent-layer
 ##.mi_btcon.ad
 ##.mikit_bandeau_cookies
 ##.milibooCookie:not(body):not(html)
@@ -31543,6 +31542,7 @@ c-klasse-forum.de###consentBoxWrapper
 c24.de##app-cookie
 ca-mobile.com###bannerDiv
 caberstore.com###cookies
+cache.consentframework.com
 cae.com##.cookies
 caf.com###cafModal
 cafe-royal.com###cookie-bar-modal-wrapper, .modal-backdrop
@@ -31874,7 +31874,7 @@ cm.be##.new-notification
 cm.games###cookie
 cmegroup.com###cmePermissionQuestion
 cmp-loader.choice.faktor.io
-cmp.$domain=telerama.fr|courrierinternational.com|vodkaster.com|svd.se|histoire-et-civilisations.com|malservice.aftonbladet.se|vg.no|tv.nu|tek.no|finn.no|pent.no|godt.no|aftenposten.no|omni.se|e24.no
+cmp.$domain=telerama.fr|courrierinternational.com|vodkaster.com|svd.se|histoire-et-civilisations.com|malservice.aftonbladet.se|vg.no|tv.nu|tek.no|finn.no|pent.no|godt.no|aftenposten.no|omni.se|e24.no|helthjem.no
 cmp.cdntrf.com
 cmp.cls.pm
 cmp.dmgmediaprivacy.co.uk$domain=~metro.co.uk
@@ -31889,6 +31889,7 @@ cmp.pafo.fairbung.com
 cmp.parkers.co.uk$domain=parkers.co.uk
 cmp.quantcast.com$domain=gettr.com|deviantart.com|pr0gramm.com
 cmp.setupcmp.com
+cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
@@ -33161,7 +33162,7 @@ extrabux.com##.ccpabar
 extraessay.com##.cc_info
 extreme-d0wn.net###a-cn-wrapper
 exweb.exchange.uk.com###ibox
-eyeonspain.com###cp
+eyeons.com##.alternis-cookie
 eyeque.com##.disclaimer
 eyescan.nl##.cookie-cta
 ezermester.hu##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
@@ -34085,6 +34086,7 @@ hellowatt.fr###cookie-modal__container
 helmet.fi##.notification, .notifier_warning
 helpsetup.ru##.veramoy
 helpucover.co.uk###consent
+helthjem.no##.schibsted-bar
 hemglass.se##.message-popup
 hemkop.se##.ax-global-messages
 hemp.pl###cookie
@@ -35191,6 +35193,7 @@ layar.com##.remarketing-banner
 layerstack.com##.promotion-footer
 laznevbechyni.cz##.fixed-box
 laznianowa.pl##body > div:not([id]):not([class])
+lazoptics.gr##.new-cookie-supercontainer
 lbp.me###error-overlay
 lbry.tv##.nag
 lca.pl###popupDiv
@@ -38846,6 +38849,7 @@ sumcumo.com##.cookies
 sumup.de##.su-footer ~ div[class*="css"]
 suncorp.com.au##.sg-Box--neutral.one-pixel-margin-bottom
 sundhed.dk##sdk-layout-main-cookiebox
+sunglasses-shop.bg##.notification-wrapper
 suning.com###sn-sidebar-change-code
 suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
 suning.com###sn-sidebar-change-redpacket
@@ -40400,6 +40404,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 www.jianshu.com##[aria-label='lwa-ad-one']
 www.jjtyss.com##ins[class],.myui-player.clearfix p,.container p
 www.jmhongyan.com##ins[class],.container p
+www.lezhutv.com##[style='bottom: 132px;']
 www.meijuii.cc##DIV[style*='vw; display: block;']
 www.mysteel.com##div[class*="ad-flash-abort"]
 www.mysteel.com##div[class*="ad05"]
@@ -40588,6 +40593,7 @@ youmail.com##.policy-notification
 youmobile.es##.iklon
 youngcourtesans.com##.cookie-request
 youngsseafood.co.uk##.alert, #alert
+youporn.com###cookie_consent_wrapper
 yourbaroness.com###important-notice
 yourkit.com###terms-wrapper-id
 youronlinechoices.com##.fl-page.dnone, .mainContentInside .info
@@ -51366,6 +51372,7 @@ zyro.com##.zyro-cookies
 ||arbutterfreer.com^
 ||arc.io^
 ||arc.io^$third-party
+||arc.pub/clavis/training/events
 ||arcadebannerexchange.org^
 ||arcadechain.com^
 ||arcadeweb.com^
@@ -59491,6 +59498,7 @@ zyro.com##.zyro-cookies
 ||collector-*.px-client.net^
 ||collector-api.99designs.com^
 ||collector-px0py5pczn.octopart.com^
+||collector-soompi.viki.io^
 ||collector-videoplayer.5centscdn.net^
 ||collector.api.video^
 ||collector.appconsent.io^
@@ -74521,6 +74529,7 @@ zyro.com##.zyro-cookies
 ||hcqsuqq.cn^
 ||hcritiesec.xyz^
 ||hcuukwgpjiykapf.xyz^
+||hcvegu.com^
 ||hcwmnryoyf.com^
 ||hcxbokndbhw.com^
 ||hczvwi.soldejaneiro.com^
