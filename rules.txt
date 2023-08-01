@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-07-31 20:31:06（北京时间） 
+! Version: 2023-08-01 09:04:35（北京时间） 
 ! Total count: 126952
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -9666,7 +9666,6 @@
 ##.adk-cookie-wrapper
 ##.adn-cookie-panel:not(body):not(html)
 ##.adn-cookie-pannel-container
-##.ads
 ##.ads-block-warning
 ##.adsblocked
 ##.adv-cookie:not(body):not(html)
@@ -15566,6 +15565,7 @@
 ##div#liveline > l,div#liveline > ll
 ##div#nr_body.nr_all.c_nr div.show-app2
 ##div#page-back DIV.container.clearfix div > A > IMG[src]
+##div#playlistbtn > A[href='/ht.html']
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
 ##div.ad-area > [href]
 ##div.ad-frame-container
