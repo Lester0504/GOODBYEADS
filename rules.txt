@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-02 09:09:48（北京时间） 
-! Total count: 127010
+! Version: 2023-08-02 20:21:26（北京时间） 
+! Total count: 126979
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -8440,7 +8440,6 @@
 ###r-gdpr-node
 ###r42CookieBar
 ###r42CookieBar ~ #r42CookieBg
-###r9-gdpr.r9-gdpr-container
 ###r_cookie_hinweis
 ###rabCookieSlider
 ###racookiepolicy
@@ -9297,7 +9296,6 @@
 ##.CnilCookiesConfirmation
 ##.CnilCookiesWarning:not(body):not(html)
 ##.CoChOutBox:not(body):not(html)
-##.Common-Layout-StandardBody.withFooter > div[class*="Common-Layout-StyleJamSiteWideMessage"]
 ##.Common-Privacy-HeaderCookiesMessage
 ##.Component[data-component="CookieFooter"]
 ##.ConCookieInfo:not(body):not(html)
@@ -16175,7 +16173,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Cookie-GetCookieModal
 /Cookie/*$domain=nif.no
 /Cookie?merchant=
-/CookieConsent.js$domain=~cinestar.de|~blackboard.com|~kayak.pl|~gamersgate.com
+/CookieConsent.js$domain=~cinestar.de|~blackboard.com|~gamersgate.com
 /CookieDirective.js
 /CookieLayer.js$domain=multipower.com
 /CookieManagerUi.js
@@ -16313,7 +16311,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /PhoenixGoogleAnalytics.
 /Pictorium/scripts/cookie-consent
 /PingPixel.
-/Pixel/Script/Behavior?
 /PixelImg.asp
 /PixelNedstat.
 /PixelTracking.
@@ -16615,6 +16612,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ajax-track-page-view/*
 /ajax-track-view.
 /ajax/analytics/*
+/ajax/bnzai?_
+/ajax/bz?_
 /ajax/counter?ctr=
 /ajax/eulerian/*
 /ajax/heatmap-
@@ -17049,7 +17048,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /bwx-cookie-consent.js$domain=nosta.com
 /byside_webcare.
 /bytro/logs/*
-/bz?*__comet_req=
 /c.gif?
 /c.wrating.com/*
 /c22.js$domain=cd.cz
@@ -17486,7 +17484,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cookieconsent-all.min.js
 /cookieconsent.$domain=stadt-bobingen.de
 /cookieconsent.bundle.js
-/cookieconsent.js$domain=~blackboard.com|~kayak.pl|~portal.easygreenenergy.at|~oekostrom.at|~gin-rummy-online.com|~gamersgate.com|~spielemax.de|~tonershop.at
+/cookieconsent.js$domain=~blackboard.com|~portal.easygreenenergy.at|~oekostrom.at|~gin-rummy-online.com|~gamersgate.com|~spielemax.de|~tonershop.at
 /cookieconsent.klaro.
 /cookieconsent.min.js$domain=~sonnenverlauf.de|~mondverlauf.de|~leanlibrary.com|~retrogames.cc|~exagon.de|~sozialversicherung-kompetent.de|~varcevanje-energije.si|~khl.ru|~bauen-und-heimwerken.de|~carport-diagnose.de|~tricount.com|~fransdewitte.nl
 /cookieconsent/*$domain=stema.de|expert.es
@@ -17589,8 +17587,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /counter/ashow/*
 /counter/collect?
 /counter/ct.php?
-/counter/process.asp?
-/counter/r.pl
 /counter/stat.
 /counter/views/*
 /counter1.gif?
@@ -17634,7 +17630,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /csi?v=2&s=
 /csi?v=3&s=
 /csi_204?$image,other,ping,script
-/csm/analytics;
 /csp_204?
 /csp_log?
 /cta-loaded.js
@@ -17653,7 +17648,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cx_tracking.js
 /cxense-candy.js
 /cxense-entitlement.js
-/cxense-video/*
 /cxense/cx.js
 /cxf-tracking
 /d.gif?
@@ -17768,7 +17762,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /e_stat?g_id=
 /easycmp$domain=lagerhaus.at
 /eatms.js
-/ebay_analytics.
 /ebonetag.js
 /ebs/tracking.
 /ebs/tracking/*
@@ -17865,7 +17858,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /event.cgi?
 /event.gif?
 /event.php?campaign=
-/event/?ra=
 /event/beacon|
 /event/fingerprint
 /event/img?type=
@@ -17880,14 +17872,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /event/visit?
 /event?&event=
 /event?adblk=
-/event?auditLinkReceived=
 /event?eventType=
 /event?event_id=
 /event?pmo=
 /event?ref=
 /event?sendBeacon=
 /event?stat_
-/event?t=view&
 /event?token=
 /event?tub_id=
 /eventLog.ajax
@@ -18175,7 +18165,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gdpr.bundle.js$domain=mediacourant.nl
 /gdpr.js$domain=bitly.com|qcnet.com|kidstaff.com.ua
 /gdpr/*$domain=e-pages.dk|synopsys.com|broedersgezondheidswinkel.nl
-/gdpr/CookieConsent$domain=~kayak.pl
+/gdpr/CookieConsent
 /gdpr/cmp/cmpBundle.min.js
 /gdpr/consent.js
 /gdpr/cookie-notice
@@ -18395,25 +18385,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /iframe.tracker.js
 /iframetracker.
 /ilovecookies.min.js
-/image.articleview?
 /image.ng/*
 /imageTracking.
-/img/gnt.gif?
-/img/gut.gif?
 /img?eid=
-/img_stat2.
 /imgcount.cgi?
 /imgcount.php?
 /imgevent?
 /imgtracker.
 /imp.gif?
 /imp.php?
-/imp/nurl?
-/imp/rtm?
-/imp/www.
 /imp2.js?
-/imp?reqid=
-/imp?sid=
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
@@ -18426,9 +18407,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /impression.php?
 /impression.pl?
 /impression.track?
-/impression/cmp2?
 /impression/inline?
-/impression/stream/*
 /impression/track?
 /impression/widget?
 /impression?ad=
@@ -19246,7 +19225,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /page/page_view
 /page/unload?
 /pageCounter.adp?
-/pageLevelOmniture.
 /pageTag?
 /pageTracker/?
 /pageTrackerEvent.
@@ -19384,25 +19362,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixel-caffeine/*
 /pixel-events.
 /pixel-manager.js?
-/pixel-page.html
 /pixel-prod.
-/pixel-prometeo.
 /pixel-render/*
 /pixel-track.
 /pixel-track/*
 /pixel-tracking.
 /pixel.*/track/*
-/pixel.ashx?
-/pixel.aspx?
 /pixel.cgi?
 /pixel.fingerprint.
-/pixel.gif/sensor?
 /pixel.gif?
 /pixel.mathtag.com/*
 /pixel.track
-/pixel/?__tracker
-/pixel/?random_number=
-/pixel/PageStatistics.gif?
 /pixel/email/*$image
 /pixel/impression/*
 /pixel/impression?
@@ -19416,8 +19386,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixel2.gif?
 /pixel?cid=
 /pixel?id=
-/pixel?m=
-/pixel?sm_
 /pixel?tag=
 /pixel?type=
 /pixelArticolo?
@@ -19524,6 +19492,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /privacy/*$domain=patente.it|leroymerlin.fr
 /privacy/Bootstrap$domain=tescobank.com
 /privacy/popup.js$domain=cdaction.pl
+/privacy/providers/CookiesDataProvider
 /privacyConsentBar.js
 /privacyopt.js
 /privacypolicy/styles/all/template/remove_url.js
@@ -31862,7 +31831,6 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
-cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -32004,7 +31972,7 @@ cookie-consent.es5.min.js^
 cookie-policy*$domain=ubuntu.com
 cookie-use-policy.js^
 cookie.consent.is
-cookieConsent.js^$domain=~talktalk.co.uk|~blackboard.com|~kayak.pl|~gamersgate.com
+cookieConsent.js^$domain=~talktalk.co.uk|~blackboard.com|~gamersgate.com
 cookieDisclaimer.js^
 cookieInfo.js^
 cookiePolicyEUPopin*
@@ -38963,7 +38931,6 @@ tactical-equipements.fr##.warning
 tacticasdechoque.com##.jet-popup
 tadeevo.com###cookie
 tag.goadopt.io
-tag=ui/privacy/CookiesConsent
 tagsistant.net###sbox-window, #sbox-overlay
 taiga.io##.landend-infobar-dark
 takealot.com##div[class*="cookie-banner"]
@@ -113308,6 +113275,7 @@ zyro.com##.zyro-cookies
 ||tikimg.cc^
 ||tikn.hwgs.info^
 ||tiktok.com/captcha/report
+||tiktok.com/ttwid/check/
 ||tiktok.com/v1/list
 ||tiktok.com/web/report?
 ||tiktok.com/whale/
@@ -124577,6 +124545,7 @@ zyro.com##.zyro-cookies
 ||yandex.eu/clck/
 ||yandex.fr/clck/click
 ||yandex.ru/clck/
+||yandex.ru/click/
 ||yandex.ru/cycounter?
 ||yandex.ru/log?
 ||yandex.ru/metrika/
