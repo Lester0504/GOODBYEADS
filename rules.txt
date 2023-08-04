@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-03 20:29:16（北京时间） 
-! Total count: 126979
+! Version: 2023-08-04 09:00:08（北京时间） 
+! Total count: 126981
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -20723,7 +20723,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /webstats/track.php?
 /webstats_counter/*
 /webtag.js
-/webtoffee-gdpr-cookie-consent/*
+/webtoffee-gdpr-cookie-consent/*$domain=~altheaprovence.com
 /webtrack.js
 /webtracker.
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
@@ -31272,6 +31272,7 @@ bonprix.pl###JOISH987_bar
 bons-plans-voyage-new-york.com###vef-cookie-notice
 bonuszbrigad.hu###newASZFLayer
 book-n-drive.de##.modal_cookies_and_ga_compliance
+book.io##.foobar-cookie
 bookbeat.com##.banner.purple
 bookgig.com##div[class^="__alertCookies"]
 booking-channel.com###sta-cookies ~ div[class*="tpl-cookies"]
@@ -34117,7 +34118,6 @@ holzhandlung-bremerhaven.de###cp-inner
 hombresevolucionantes.com##.elementor-popup-modal
 home.barclays##.cookies
 home.jd.com###ttbar-apps > .cw-icon.dt
-homebook.pl##.hb-layout ~ div
 homebrewing.pl##.rodo-popupbox
 homecinemamagazine.nl##.opt-in
 homeful.ly###__next > .container
@@ -37980,7 +37980,7 @@ sammic.fr##.noty_cont, .noty_bar
 sammyspizza.de##.responsiveFooterBar
 samsaraubud.com###bottom-fixed
 samsonite.ro##.mainBlack
-samsung.com##.helptips__container, #cookie_component
+samsung.com##.helptips__container, #cookie_component, .js-smtc-cookie
 samsungpromotions.claims##.v-cookie-policy
 sanarmed.com###__next > nav + div > div[class*="Wrapper"]
 sane.org.uk###jxcc-bar
@@ -38408,6 +38408,7 @@ smartcockpit.com##body > div:not([id]):not([class])
 smartenergygb.org##.segb-cookiecompliance
 smarthomemagazine.nl##.opt-in
 smartsound.com##.cookie-consent
+smartthingsfind.samsung.com##.fixed.bottom-0
 smarturl.it###consent-block
 smartystreets.com##.gdpr
 smd-led.pl###__pb-cookie
@@ -125853,6 +125854,7 @@ zyro.com##.zyro-cookies
 ||zfopakkt.com^
 ||zfoqfamkaxuf.com^
 ||zfotrq.xyz^
+||zfowbr.buzz^
 ||zfoxhovh.com^
 ||zfteiv.xyz^
 ||zfticz.buzz^
@@ -126518,6 +126520,8 @@ zyro.com##.zyro-cookies
 ~aiways-u5.nl###overlay-cookie
 ~aknw.de,~stadtwerke-bonn.de##.cookie-settings__overlay
 ~alexanderhall.co.uk,~foxtons.co.uk###cookie_compliance
+~altheaprovence.com###cliSettingsPopup
+~altheaprovence.com##body:not(.cli-barmodal-open) #cookie-law-info-bar
 ~amara.org,~filmmakers.de,~kh.hu##.cookie-consent-container
 ~anadibank.com,~lotusbakeries.nl,~itextpdf.com###sliding-popup.sliding-popup-bottom
 ~analog.com###cookie-consent-container
@@ -126836,8 +126840,6 @@ zyro.com##.zyro-cookies
 ~rappjmed.ch,~biblioteka.wroc.pl##.cookie-notice-container
 ~readly.com,~ikb.at,~contentkingapp.com,~volkswagen-newsroom.com,~g-star.com,~mega.io,~mega.nz,~kh.hu,~mietz.app,~danbolig.dk##.cookie-dialog:not(body):not(html)
 ~realm667.com###redim-cookiehint
-~regioneo.pl,~czyodebrac.pl,~altheaprovence.com,~moodle.com###cliSettingsPopup
-~regioneo.pl,~czyodebrac.pl,~altheaprovence.com,~moodle.com###cookie-law-info-bar
 ~resources.techcommunity.microsoft.com###catapult-cookie-bar
 ~rituals.com##.cookie-bar-wrapper:not(body):not(html)
 ~riverisland.com##.cookie-consent__overlay ~ .cookie-consent
