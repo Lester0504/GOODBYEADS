@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-06 09:07:09（北京时间） 
-! Total count: 127059
+! Version: 2023-08-06 20:18:20（北京时间） 
+! Total count: 127062
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15061,15 +15061,16 @@
 ##A[href='http://k023055.com']
 ##A[href='http://kkyty29.cc/']
 ##A[href='http://x5123.cc/']
-##A[href='https://icrwt696.com']
 ##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
 ##A[href^='http://cszb420.tinawd81.com/']
 ##A[href^='http://h5.shangjinssp.com/sjprom'][style='display:block;']
 ##A[href^='http://www.kyty1119.com']
 ##A[href^='https://chmjmff.com/']
 ##A[href^='https://d1-dm.online/go/']
+##A[href^='https://icrwt696.com']
 ##A[href^='https://js.iconiclee.com']
 ##A[href^='https://js.pico4pro.com']
+##A[href^='https://k.izret.com']
 ##A[href^='https://tv2356.cc']
 ##A[href^='https://v.frthv.com']
 ##A[href^='https://www.nonstopclub.xyz']
@@ -17999,6 +18000,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /flushimpressions?
 /fluvius-eu-cookies.js
 /flv_tracking.
+/flying-analytics/*
 /fnGdpr.js$domain=financer.com
 /footer-tracking.js
 /footer_tag_iframe.
@@ -30716,7 +30718,7 @@ astroeder.com###acceptDisclaimer
 astroreveal.com##.EU2018
 asuntosaatio.fi##.js-disclaimer-dismiss
 asuntoslegales.com.co##.cookies
-asus.com###cookieTable
+asus.com###cookieTable, #cookie-policy-info
 asustor.com###gdpr_wrap
 asv-grosskrotzenburg.de###mb_boxcookie_banner, .bbody
 atea.ee###cookie
@@ -30839,6 +30841,7 @@ axminstertools.com##.axmcookie-notice-container, .axmcookie-notice-conatiner
 axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:dashed .5px']
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
+axutongxue.com##DIV[style='text-align:center']
 axway.com##div[id*="cookiePolicyWarning"]
 azartgaming6u.com##.sidebar-cookie
 aze.com.pl###cookie
@@ -33777,6 +33780,7 @@ gotokyo.org###tmp_local_bar
 gourmet.at##.row-wrapper.blackbox
 gouv.fr##app-cookie, .eu-popup, ods-manage-cookies-preferences-modal
 gov.br###lgpd-cookie-banner-janela, #politicaPrivacidade, .br-cookiebar
+gov.in##.cookies-wrapper
 gov.nl##div[data-ui-test="cookieAlert"]
 government.is##.session-text.active
 governmentcomputing.com##.privacy_notice
@@ -35691,7 +35695,6 @@ majkl3d.cz##.CA
 majkl3d.sk##.CA
 makandracards.com##.cookies
 makc.ru###bottom-notification
-make-it-in-germany.com###nagscreen
 make-it-in-germany.it###nagscreen
 makelaarsland.nl##.is-cookie-notice::before
 makeship.com##.consent-wrapper
@@ -35995,7 +35998,6 @@ milestonesrl.com##.uk-notification
 miliboo.ch##.m-milibooCookie
 miliboo.com##.m-milibooCookie
 militarne.pl###cookie
-millennium-nekretnine.hr###notice
 milliescookies.com##privacy-settings
 mimanchitu.it###toast, .toast
 mimio.com##.botmid
@@ -36132,6 +36134,7 @@ money.com.tr##.kvkk
 moneyfarm.com###gatsby-focus-wrapper > div[class*="header"] > div:first-child
 moneymaven.io##.consent-ui
 moneyonline.gr###cookies-shell
+moneytalksnews.com###footer-overlay
 mongars.fr###metacontainer > div:not([id]):not([class])
 monitoring.krakow.pios.gov.pl##.a-footer
 monkey-tie.com###cookiemt
@@ -37735,7 +37738,6 @@ rekonise.com##.consent-snackbar
 relago.hr##body > .container
 relojes4you.es###cookie
 relpol.pl###powiadomiony
-remax-centarnekretnina.com###notice
 remienky.sk##.cookies_panel_2022
 remitly.com##footer > [class^="footer"] ~ div
 remontnik.ru##rtk-cookies-notice
@@ -38792,6 +38794,7 @@ sudzibas.lv##.cookies
 sued.aldi-liefert.de##.modal-backdrop
 suelo.pl###modalCookies
 sugarsync.com###agreementBar
+suhrkamp.de###whcm
 sumcumo.com##.cookies
 sumup.de##.su-footer ~ div[class*="css"]
 suncorp.com.au##.sg-Box--neutral.one-pixel-margin-bottom
