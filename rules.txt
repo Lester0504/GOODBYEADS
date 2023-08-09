@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-09 09:14:11（北京时间） 
-! Total count: 127410
+! Version: 2023-08-09 20:23:11（北京时间） 
+! Total count: 127405
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -5245,6 +5245,7 @@
 ###cookiebanner-wrapper
 ###cookiebannerAH
 ###cookiebannerOverlay
+###cookiebannerWrapper
 ###cookiebanner_wrapper
 ###cookiebannerdiv
 ###cookiebar--container
@@ -8653,7 +8654,6 @@
 ###shopify-section-fixed-message
 ###shopify-section-gdpr-dialog
 ###shopify-section-gdpr-notice
-###shopillaxcookielaw-wrapper
 ###shorthand-gdpr-container
 ###showCMPreferencesBtn[onclick*="AS_OIL"]
 ###showCookie
@@ -17550,6 +17550,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cookiesjsr.min.js$domain=~northernpowergrid.com|~lcp.fr
 /cookiestarter$domain=postfinance.ch
 /cookietag?
+/cookiethough.min.js
 /cookiewall-inline-for-popup.js
 /cookiewarn.js
 /cookiewarning-nosql.js
@@ -20776,6 +20777,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-content/plugins/real-cookie-banner
 /wp-content/plugins/responsive-cookie-consent/*
 /wp-content/plugins/responsive-eu-cookie-notice
+/wp-content/plugins/rm-gtm-google-analytics-for-wordpress/*
 /wp-content/plugins/rodo/rodo_script.js
 /wp-content/plugins/rrze-legal
 /wp-content/plugins/shapepress-dsgvo/*
@@ -31881,7 +31883,6 @@ comviq.se##.alert, #alert
 conan-kolekcja.pl###cookies
 concrete-jungle.de##.banner
 concursosnobrasil.com.br###lgpd
-conduktor.io##.cookie-though
 conferencemanager.dk##.cookie
 configcat.com###configcat-consent
 conforama.es##.cookies
@@ -33339,6 +33340,7 @@ fora.pl##.pp-t-a-c
 fora.se##.alert, #alert
 foramax.hu##body > .ct, body > .cc
 foraum.de##.needsclick
+forbesenespanol.com##.fixed[data-toast*="cookies"]
 forbit.it##.page > div[id*="cookie"]
 forbot.pl###ForbotCookies
 forcepoint.com##.cookie-consent
@@ -34106,6 +34108,7 @@ horesta.dk###cookie
 horizon.tv##.notifications-manager
 horlogerie4you.fr###cookie
 hosch-kleber.hu###cinfo
+hospitaldaluz.pt###RootCookieTool
 hospitalesparque.es###gdpr-modal
 hostgator.com###alertBar
 hostgreen.com###obal
@@ -34340,6 +34343,7 @@ in-trend.biz##body > [id][style^="z-index"]
 in.puma.com##puma-cookie-banner
 inagrm.com##.cookies
 inatural.com.pl###cookie
+incogni.com##aside[class*="cookie-consent"]
 incomediary.com###cookies
 incomputer.cz##.cookies-fixed-left
 incrypted.com##.incrypted-cookie-bar
@@ -34658,7 +34662,7 @@ jman.tv###ActionBar
 jmmgc.com###cnotice
 jnjmedical.it###bottom-banner
 jobbio.com##.alert-info, .alert-warning, .alert-box
-jobbsafari.se###__next > [class^="Ufti"]
+jobbsafari.se###__next > footer ~ div
 jobdiagnosis.com###benefits
 joberty.hr##.cc-container
 jobmensa.de##.js-usermessage
@@ -36307,6 +36311,7 @@ myscript.com##.notifications
 mysearch.com###cp-banner
 myshared.ru###download_form > .uk-margin-top[style]
 myshiptracking.com##.alert_bar
+myshopify.com###shopillaxcookielaw-wrapper
 mysnapp.co.uk##.cookies-content
 myspace.com###termsOfService
 mysteriumvpn.com##.alert-popup
@@ -37677,6 +37682,7 @@ reichelt-garten.de##.uk-position-fixed
 reifen-dinser.de##.cookies
 reifen-service-rostock.de###my_cw_label
 reifenlehmann.de##.cookies
+reimaginethegame.economist.com##div[class*="tracking_banner"]
 reimbursement.institute###bla
 reimmaschine.de###cookie
 reinigungsberater.de###cCoverlay, #cC
@@ -38194,6 +38200,7 @@ shopee.fr##.shopee-progress-bar ~ div:not([class]):not([id]) + div[class]:not([i
 shopee.pl##.shopee-progress-bar ~ div:not([class]):not([id]) + div[class]:not([id])
 shopfacil.com.br##.modal-lgpd__wrapper
 shopforshop.it##body > span
+shopify.com##.tw-sticky[data-controller="cookies-notice"]
 shopmate.eu###__layout > main > div:first-child:not([id])
 shopsmartfoods.com##.privacy
 shopstyle.co.uk##.cdk-overlay-container
@@ -39523,6 +39530,7 @@ tyrdanmark.dk###C46703f08cookie
 tyrolia.at##body > form
 tysiagotuje.pl##body > div > div:not([id]):not([class])[style*="fixed"]
 tysol.pl###cooinfo
+tzdubrovnik.hr###mygdprPopupHR
 tzorg.nl##.notification
 uabstyle.it##.alert-dismissable
 uakino.club##.side-content-adblock
@@ -49903,7 +49911,6 @@ zyro.com##.zyro-cookies
 ||analytics.springboardvideo.com^
 ||analytics.spun.com.br^
 ||analytics.ss88.us^
-||analytics.staticiv.com^
 ||analytics.stg.springboardvideo.com^
 ||analytics.strangeloopnetworks.com^
 ||analytics.superstructure.ai^
@@ -49998,7 +50005,6 @@ zyro.com##.zyro-cookies
 ||analyticswizard.com^
 ||analyticswizard.com^$third-party
 ||analytik.xyz^
-||analytik.xyz^$third-party
 ||analyze.full-marke.com^
 ||analyzer*.fc2.com^
 ||analyzer.fc2.com^
@@ -72324,7 +72330,6 @@ zyro.com##.zyro-cookies
 ||gflpvq.rufflebutts.com^
 ||gfn1.ugap.fr^
 ||gforanythingam.com^
-||gfp.intuit.com^
 ||gfqquls.cn^
 ||gfrzzzx.cn^
 ||gfsdloocn.com^
@@ -72401,7 +72406,6 @@ zyro.com##.zyro-cookies
 ||ggkk.xyz^
 ||ggle.lywf.me^
 ||gglscr.online^
-||gglscr.online^$third-party
 ||gglx.me^
 ||ggmm777.com^
 ||ggpht.cn^
@@ -78303,7 +78307,6 @@ zyro.com##.zyro-cookies
 ||integrityprinciplesthorough.com^
 ||intelensafrete.stream^
 ||intelimet.com^
-||intelimet.com^$third-party
 ||intellecthosting.net^
 ||intelli-direct.com^
 ||intelli-direct.com^$third-party
@@ -87877,7 +87880,6 @@ zyro.com##.zyro-cookies
 ||metauniverse88.com^
 ||metaversemolecule.com^
 ||metaversn.site^
-||metaversn.site^$third-party
 ||metavertising.com^
 ||metavertizer.com^
 ||metaword.cn^
@@ -88568,7 +88570,6 @@ zyro.com##.zyro-cookies
 ||minero.cc^
 ||minero.cc^$third-party
 ||minero.pw^
-||minero.pw^$third-party
 ||minerva.healthcentral.com^
 ||minesage.com^
 ||minescripts.info^
@@ -90835,7 +90836,6 @@ zyro.com##.zyro-cookies
 ||netaffiliation.com^$script,third-party
 ||netagent.cz^
 ||netagent.cz^$third-party
-||netalpaca.com/beacon
 ||netapplications.com^
 ||netapplications.com^$third-party
 ||netavenir.com^
@@ -92358,7 +92358,6 @@ zyro.com##.zyro-cookies
 ||ocdouoqjvmn.com^
 ||oceanbot-steam.com^
 ||oceancode.top^
-||oceanplay.xyz/cdn-cgi/trace
 ||oceanwebcraft.com^
 ||ocelot.studio^
 ||ocexprhrknxrhe.com^
@@ -94329,7 +94328,6 @@ zyro.com##.zyro-cookies
 ||pageid.info^
 ||pagejunky.com^
 ||pagerank-backlink.eu^
-||pagerank-backlink.eu^$third-party
 ||pagerank-linkverzeichnis.de^
 ||pagerank-linkverzeichnis.de^$third-party
 ||pagerank-online.eu^
@@ -98645,6 +98643,7 @@ zyro.com##.zyro-cookies
 ||qfnvqalpgiriub.com^
 ||qfoafjopdj.com^
 ||qfoiss.lendingtree.com^
+||qfp.intuit.com^
 ||qfy.innotechx.com^
 ||qg8bq.top^
 ||qg9z.cn^
@@ -114332,7 +114331,6 @@ zyro.com##.zyro-cookies
 ||tophitbit.com^
 ||tophitbit.com^$third-party
 ||tophits4u.de^
-||tophits4u.de^$third-party
 ||tophosting101.com^
 ||topiccorruption.com^
 ||topichawaii.com^
@@ -116156,7 +116154,6 @@ zyro.com##.zyro-cookies
 ||tracking.pullsdirect.com^
 ||tracking.puustelli.com^
 ||tracking.quadient.com^
-||tracking.quillion.com^
 ||tracking.quisma.com^
 ||tracking.rapidape.com^
 ||tracking.rasierteladies.de^
@@ -116302,7 +116299,6 @@ zyro.com##.zyro-cookies
 ||trackmethod.com^
 ||trackmethod.com^$third-party
 ||trackmstr.com^
-||trackmstr.com^$third-party
 ||trackmundo.com^
 ||trackmytarget.com^
 ||trackmytarget.com^$third-party
@@ -121476,7 +121472,6 @@ zyro.com##.zyro-cookies
 ||websiteceo.com^$third-party
 ||websiteexploration.com^
 ||websiteonlinecounter.com^
-||websiteonlinecounter.com^$third-party
 ||websiteperform.com^
 ||websiteperform.com^$third-party
 ||websitepolicies.com/lib/cookieconsent$script
