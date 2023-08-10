@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-10 09:14:33（北京时间） 
-! Total count: 127407
+! Version: 2023-08-10 20:23:29（北京时间） 
+! Total count: 127415
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -2636,6 +2636,7 @@
 ###__next div[class*="CookieModal"]
 ###__next div[class*="CookieNot"]
 ###__next div[class*="CookiePolicy__Notif"]
+###__next div[class*="CookiePopup"]
 ###__next div[class*="CookieWidget"]
 ###__next div[class*="CookiesPopUp"]
 ###__next div[class*="CookiesTooltip"]
@@ -6252,6 +6253,7 @@
 ###dialogConfirmCookies
 ###dialogoCookies
 ###didomi-custom-host
+###didomiConsentOverlay
 ###diffuse-cookie-notice
 ###digipublica-cookie-shade
 ###digischool_cookie_push
@@ -30158,7 +30160,7 @@ abt-sportsline.de##.abt-cookieNotification
 abv.bg###abv-GDPR-frame
 abydos.pl##.configMessages
 academictimes.com###euPopup
-academy.com###main-content ~ div[role="complementary"]
+academy.com##.content-wrapper > div > div[role="complementary"]
 acara.cz##body > div:not([id]):not([class])
 acast.com##.acast-cookie-consent-portal, #app-root > footer ~ div > aside
 accenture.com##.cookie-nav
@@ -30438,6 +30440,7 @@ altima-sfi.com###politica
 altin.in###kvkk
 altmarkt-galerie-dresden.de##.mdl-modal__backdrop, #mdl-overlay
 alugha.com###root > div > footer ~ div
+alvexo.com##.sticky_cookies_txt
 alyt.com###ALYT_privacyCookie
 amadeus.com##.wayfinder-component, .country-lightbox.cookies
 amara.com###consent-modal
@@ -30522,7 +30525,7 @@ antiquariat.de##.confirm-cookie
 antjeroessler.de##.lawbar
 antwerpen.be##aui-cookie-consent
 antyczek.pl##.header-banner
-anwb.nl##.critical-dialog
+anwb.nl###TRCO-application
 any.run###cookies
 anybus.com##.cookie
 anydesk.com###any-cookieBar
@@ -32502,6 +32505,7 @@ donald.pl###__next > footer ~ div
 donanimhaber.com##.cookie-kutu
 donauversicherung.at##.cookies, app-cookie
 dongmanhuayuan.myheartsite.com##.card-body
+donnons.org##.noconsent-info
 doopla.pl##div[cmp]
 dopdf.com###dopdf_accept_cookies
 dopportal.ru##.footer ~ .confirm
@@ -33147,7 +33151,6 @@ federacja-konsumentow.org.pl###cu_bar
 federconsumatoripavia.it##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 fedex.com##fedex-cookie-consent, fdx-caas-cookie-consent, .fxg-alert__fdx_cookie_notice
 feed-the-beast.com##.home > .container > .is-relative > div:first-child
-feinewerkzeuge.de###cookiefeinewerkzeuge
 feld-eitorf.at##.feld-cookienotice
 feld-eitorf.de##.feld-cookienotice
 feldbusse.de##.show-cookie .footer
@@ -33235,7 +33238,6 @@ findino.ch##.CookieView
 findmypast.co.uk###skip-to-content-link + div > [style*="transform"], #skip-to-content-link ~ [style*="transform"]
 findmypast.com###appRoot > div > div > div
 findretros.com##.fuck-adblock
-fine-tools.com###cookiefeinewerkzeuge
 finect.com##div[class*="CookiesPartials"]
 finefish.cz##body > div:not([id]):not([class])
 finex.cz##.finex-cookiebar
@@ -35781,6 +35783,7 @@ mccruddens-repair.co.uk##body > div[data-rule-type="notification"]
 mcdonalds.hu##.consent
 mcfit.com###app ~ [opacity]
 mcg-digital.de##.elementor-popup-modal
+mckinseyaccelerate.com##doc-layout-cookie-policy-banner
 mckp.uj.edu.pl###cookie_filter
 mclaren.com##.messages.show
 mcmusic.ro###ccContainer
@@ -35869,6 +35872,7 @@ memorialhenrykapuzonia.pl###sc
 memorycard.guru###GDPR
 memrise.com###legal-modals, .modal-backdrop
 memsql.com###memsql-cookie-banner
+menobr.ru##div[class*="cookieContainer"]
 mensxp.com##.consent-container
 mercadao.pt##pdo-cookies-policy
 mercateo.com###header-popup-info
@@ -37102,6 +37106,7 @@ pihlajalinna.fi###root > div[role="alert"]
 pikapolonica.si##.gdpr-modal-wrapper, .modals-overlay
 pikore.com##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
 pila.pl##body > div:not([id]):not([class])
+pildorasdefe.net##.cookies
 pildyk.lt##.cookie
 pilot-frixion.fr###cookie
 pilot-frixion.uk###cookie
@@ -38845,7 +38850,7 @@ swiggle.org.uk###slide-out-div
 swimming.org##.asa-cookie-notification
 swinton.co.uk###app > div > header > small
 swishmax.pl###main-container-home ~ div > div[style*="fixed"]
-swissborg.com###main ~ div
+swissborg.com##.cookieBox + div
 swissgrid.ch##.swg-overlay-cookie
 swissict.ch###dpcc-wrapper
 swisslife.fr##.mod-disclaimer
@@ -39670,7 +39675,6 @@ usporedi.hr###privacyPolicyModal, .modal-backdrop
 uswitch.com###us-cookies
 usz.ch##.consentManagement
 uta.com###hinweisoverlay
-utensiliprofessionali.com###cookiefeinewerkzeuge
 utilities.nl##.cookie
 utlandssvenskar.com###my-welcome-message
 utopya.fr##.banner-header
@@ -48787,6 +48791,7 @@ zyro.com##.zyro-cookies
 ||airserve.net^$third-party
 ||airsoang.net^
 ||airtable.com/internal/
+||airtel.in/analytics/
 ||airthabolete.com^
 ||airticmonsoa.com^
 ||airydeservesannounce.com^
@@ -49481,6 +49486,7 @@ zyro.com##.zyro-cookies
 ||amiok.org^
 ||amira-efz.com^
 ||amirteeg.com^
+||amiunique.org/analytics.js
 ||amjoltiktor.com^
 ||amjtizfeqwz.com^
 ||amlatiosa.com^
@@ -64066,6 +64072,7 @@ zyro.com##.zyro-cookies
 ||diggtp001.com^
 ||digiad.co^
 ||digiadzone.com^
+||digianalytics.airtel.in^
 ||digianalytics.fr^
 ||digianalytics.fr^$third-party
 ||digidip.net^
@@ -115617,6 +115624,7 @@ zyro.com##.zyro-cookies
 ||tracelog-debug.aiclk.com^
 ||tracelytics.com^
 ||tracelytics.com^$third-party
+||tracemyip.org/vlg/
 ||tracemyip.org^
 ||tracemyip.org^$third-party
 ||traceparts.com/logs
@@ -116517,6 +116525,7 @@ zyro.com##.zyro-cookies
 ||transitionfrenchdowny.com^
 ||translateoatmeal.com^
 ||translationbuddy.com^
+||transmapp.com^
 ||transmittermerchant.com^
 ||transplant.care.uhssa.com^
 ||transportation.external.xerox.com^
@@ -127186,7 +127195,6 @@ zyro.com##.zyro-cookies
 ~logpay.de,~danskemedier.dk###gdpr-cookie-message
 ~magentagaming.com###___gatsby div[class*="CookieConsent"]
 ~makelaarsland.nl##.m-cookie-notice:not(body):not(html)
-~mammut.com###__next div[class*="CookiePopup"]
 ~manutd.com###root > div[class*="cookie-policy"]
 ~manutd.com##.cookie-policy-message
 ~marbles.com###___gatsby ~ div [aria-label*="cookieconsent"]
