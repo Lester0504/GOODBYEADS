@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-11 20:25:51（北京时间） 
-! Total count: 127558
+! Version: 2023-08-12 08:46:29（北京时间） 
+! Total count: 127563
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17057,6 +17057,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /bundles/cookiebar
 /bundles/metrics.
 /bunsen/events/*
+/bv-analytics.js
 /bwx-cookie-consent.js$domain=nosta.com
 /byside_webcare.
 /bytro/logs/*
@@ -39200,6 +39201,7 @@ ticnologia.pt###rt-drawer
 tidal.com##div[data-test="GDPRNotification"]
 tides4fishing.com###cookies
 tieba.baidu.com###diversBanner
+tieba.baidu.com##.activity_head
 tieba.baidu.com##.banner-wrapper
 tieba.baidu.com##.bottom-guide-box
 tieba.baidu.com##.comment-box
@@ -39215,6 +39217,7 @@ tieba.baidu.com##.open-app-guide
 tieba.baidu.com##.open-style
 tieba.baidu.com##.post-cut-guide
 tieba.baidu.com##.recommend-list
+tieba.baidu.com##.tbui_slideshow_slide
 tieba.baidu.com##.top-guide-wrap.top-guide
 tieba.baidu.com##DIV[id^='aside-ad']
 tieba.baidu.com##DIV[id^='mediago-tb-frs-list']
@@ -70428,6 +70431,7 @@ zyro.com##.zyro-cookies
 ||fmblph.xyz^
 ||fmfbyfk.cn^
 ||fmgcdgnousrww.com^
+||fmhy.net^
 ||fmild.xyz^
 ||fmjgtp.dentalspeed.com^
 ||fmkoyjqnxdj.com^
@@ -126455,6 +126459,7 @@ zyro.com##.zyro-cookies
 ||zgfckf.mobi^
 ||zgfdczj.mobi^
 ||zgfshoes.com^
+||zggrxf.life^
 ||zghs.net.cn^
 ||zghsfh.xyz^
 ||zgjckgys.com.cn^
