@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-12 08:58:42（北京时间） 
-! Total count: 127563
+! Version: 2023-08-12 20:17:54（北京时间） 
+! Total count: 127550
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18791,23 +18791,18 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /logview_new.js
 /logviewedpage?
 /logwebhit.
-/logwriter.php
 /loi/imp?
-/lotame_audiences.
 /lovelydrum.com
 /ls.gif?
 /ls.php?t=
 /lunametrics-
 /luxcookieconsent/*
-/lycostrack.js
 /lyxor-cookies-disclaimer.js
 /lzdmailer.letter.open?
 /m-email/t.png?
 /m.gif?
 /m.html?rmid=*&yd=
 /m.html?shareName=*&proxyAccount=
-/m1x1.jpg
-/m360lib.js
 /madAnalytics.js
 /magento/page-visit?
 /magento2.js
@@ -18825,19 +18820,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /matomo.php
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /maxymiser.
-/mbcom.tracking.
-/mbox/at/*
 /mcookie.aspx
 /mcount.cgi?
 /mcounter/*
-/md.js?country=
 /mdp.javascript.gdpr.min
 /mdv.cookie.js$domain=biehler-cycling.com
-/mdwtc/click_thru/*
 /meWantCookies$domain=gamigo.de|gamigo.com
-/measure/data-capture/*
 /measure/pixel/*
-/measure/spring.
 /measure/visit/*
 /media-analytics.min.
 /media-analytics/*
@@ -18865,8 +18854,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /metrics-backend/*
 /metrics-ga.
 /metrics/event?
-/metrics/ga.html?
-/metrics/image.gif?
 /metrics/init?
 /metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
 /metrics/onload
@@ -18875,11 +18862,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
-/metrics/tpi?
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
-/metricsISCS.
 /metrika/tag.js
 /metro?sc_device=webcomponent&components=cookie
 /mfe-cookies/*$domain=santander.com.br
@@ -18887,12 +18872,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mi/insite/*
 /mianalytics.
 /micado.web.dsgvo.cookie
-/micro.php?action=view&
 /microsite-consent-disclaimer.js$domain=lyxoretf.com
 /microsoft.cognitiveservices.speech.sdk.bundle.js
 /min-js?f=js/rodo.js
 /min/gtm/*
-/minder-tracker.
 /minescripts.js
 /mint/?js
 /mint/?record
@@ -64967,6 +64950,7 @@ zyro.com##.zyro-cookies
 ||donjigrad.viessmann.rs^
 ||donkeyleaf.com^
 ||donkeymob.com^
+||donnons.org/log.js
 ||donnotbipeds.com^
 ||donorenvy.com^
 ||donreach.com^
@@ -70431,7 +70415,7 @@ zyro.com##.zyro-cookies
 ||fmblph.xyz^
 ||fmfbyfk.cn^
 ||fmgcdgnousrww.com^
-||fmhy.net^
+||fmhy.net^$third-party
 ||fmild.xyz^
 ||fmjgtp.dentalspeed.com^
 ||fmkoyjqnxdj.com^
@@ -79212,6 +79196,7 @@ zyro.com##.zyro-cookies
 ||iyuedu.cn.com^
 ||iyumiao.com.cn^
 ||iyurw.xyz^
+||iyzipay.com/buyer-protection/assets/js/analytics.js
 ||izapteensuls.com^
 ||izatcloud.net^
 ||izatcloud.net^$third-party
@@ -91402,6 +91387,7 @@ zyro.com##.zyro-cookies
 ||nijnqwem.xyz^
 ||nik.io^
 ||nik.io^$third-party
+||nike.com/assets/measure/data-capture/
 ||nike666.com^
 ||nikkei.com/.resources/tracking/
 ||nikkiexxxads.com^
@@ -93202,6 +93188,7 @@ zyro.com##.zyro-cookies
 ||onthe.io^$third-party
 ||ontj.com^
 ||ontosocietyweary.com^
+||ontraport.com/opt_assets/static/js/logging.js
 ||ontraport.com/track.php
 ||onugostlyhe.info^
 ||onvertise.com^
