@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-12 20:23:42（北京时间） 
-! Total count: 127550
+! Version: 2023-08-13 08:50:43（北京时间） 
+! Total count: 127559
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15077,6 +15077,7 @@
 ##A[href^='https://k.izret.com']
 ##A[href^='https://tv2356.cc']
 ##A[href^='https://v.frthv.com']
+##A[href^='https://www.ids20.co']
 ##A[href^='https://www.nonstopclub.xyz']
 ##A[href^='https://yongle008.com']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
@@ -19240,6 +19241,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /perf-vitals.
 /perf-vitals_
 /perflog/*
+/perfmatters/js/analytics.js
 /perfmetrics.js
 /perfops-cc.
 /performance-logger.
@@ -29249,6 +29251,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
+://omni.soundestlink.com/$image
 ://parcel-api.delivery-status.*/open/$image
 ://piwik.$domain=~matomo.org|~piwik.pro
 ://segment-api.
@@ -49692,6 +49695,7 @@ zyro.com##.zyro-cookies
 ||analytics.chegg.com^
 ||analytics.churchthemes.com^
 ||analytics.cincopa.com^
+||analytics.clic2buy.com^
 ||analytics.cloud.coveo.com^
 ||analytics.cmn.com^
 ||analytics.cnblogs.com^
@@ -63654,6 +63658,7 @@ zyro.com##.zyro-cookies
 ||deqwas.net^$third-party
 ||derelictfascinatinginmate.com^
 ||derevya2sh8ka09.com^
+||derew6xbsc.xyz^
 ||deridebleatacheless.com^
 ||derowalius.com^
 ||dersoova.net^
@@ -83778,6 +83783,7 @@ zyro.com##.zyro-cookies
 ||lkme.cc^
 ||lkmhn.com^
 ||lkmxqq.com^
+||lknhrnd.com^
 ||lknlkndasda.top^
 ||lknqfn.furla.com^
 ||lkoobbpti.com^
@@ -92370,6 +92376,7 @@ zyro.com##.zyro-cookies
 ||obouckie.com^
 ||obovoidfidgets.com^
 ||oboxads.com^
+||obozrevatel.com/pixel.png
 ||obputpnbtdoy.com^
 ||obrans.com^
 ||obrightsapphir.com^
@@ -113451,6 +113458,7 @@ zyro.com##.zyro-cookies
 ||thertoldimnver.xyz^
 ||therubiqube.com^
 ||thesac2.top^
+||thesac3.top^
 ||thesac7.top^
 ||thesac8.top^
 ||thesauruspainfully.com^
@@ -120727,6 +120735,7 @@ zyro.com##.zyro-cookies
 ||vxelkrhl.info^
 ||vxhsj.cn^
 ||vxhtxt.xyz^
+||vxinzheng.xyz^
 ||vxsnk.com^
 ||vxvjgsgqyee.com^
 ||vxvtzx.xyz^
