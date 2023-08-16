@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-16 09:00:05（北京时间） 
-! Total count: 127933
+! Version: 2023-08-16 20:19:56（北京时间） 
+! Total count: 127941
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -2638,6 +2638,7 @@
 ###__next div[class*="CookiePolicy__Notif"]
 ###__next div[class*="CookiePopup"]
 ###__next div[class*="CookieWidget"]
+###__next div[class*="Cookiebar_Cookiebar"]
 ###__next div[class*="CookiesPopUp"]
 ###__next div[class*="CookiesTooltip"]
 ###__next div[class*="CookiesWrapper"]
@@ -6450,6 +6451,7 @@
 ###dvcookiechoiceinfo
 ###dvt_cookiechoiceinfo
 ###dx-coki
+###dxCookieConsentContainer
 ###dy_cookiebar_001
 ###dymek
 ###e-privacy-message
@@ -8242,7 +8244,6 @@
 ###popin-cookie
 ###popin-cookies
 ###popinCookie
-###popinCookies
 ###popin_cookie
 ###popin_cookies
 ###popin_infoscookies
@@ -9223,6 +9224,7 @@
 ###x-cookie
 ###x-cookiepopup
 ###x-core-toast-message-cookies-div
+###x13eucookies-icon
 ###x13pmcookiebar
 ###xanda-cookie-policy
 ###xcookiebar
@@ -12772,7 +12774,6 @@
 ##.footer_cookie_bar:not(body):not(html)
 ##.footer_cookie_policy
 ##.footer_cookies:not(body):not(html)
-##.footer_inscription ~ #cookie_parent
 ##.footprint_cookie:not(body):not(html)
 ##.force--consent .cc__change_settings
 ##.force-eu-cookies:not(body):not(html)
@@ -14114,6 +14115,8 @@
 ##.popin-cnil:not(body):not(html)
 ##.popin-cookies-modal:not(body):not(html)
 ##.popin-cookies:not(body):not(html)
+##.popin-is-open #popinConsents
+##.popin-is-open #popinCookies
 ##.popinCookie:not(body):not(html)
 ##.popinCookies:not(body):not(html)
 ##.popmake[data-popmake*="cookie"]
@@ -30281,6 +30284,7 @@ agenziademanio.it###bannerInfo
 ageofempires.com##.popup.disable-screen
 agglo2b.fr###tracker-warning
 agirc-arrco.fr##.cdk-overlay-container
+agoda.com##.ConsentBanner
 agrarshop-online.com###darkBack
 agria.se##body > div > div[class*="Collapse"]
 agro-eko.com.pl##.config-messages
@@ -33702,7 +33706,7 @@ gmu.edu###mason-cookie-banner
 gn-online.de###gn_maxlayer
 gnhm.gr##.gdpr
 gnosis.io###consent
-gns3.com###oio-container > div + div + div ~ div:last-child
+gns3.com###oio-container > .baseline-grid + div:not([role])
 go-fit.es###barra-informativa
 go.com##body[data-ad_system] > div[style*="fixed"], .terms-alert-fixed
 go.mail.ru##.js-adb-msg
@@ -33712,7 +33716,6 @@ go4convert.com##.disclaimer
 go4pro.lt##.wu_holder-wrapper
 gob.es###epd, .alert__msg-Wrapper, .tuss-cookies, #fondotransparencia-gris, #avisoUsoCookies, #phAvisoCookie
 gocards.nl###cbar
-godox.eu###x13eucookies-icon
 goetel.de##.cookieControl
 gog.com##body > div[data-editable="boxCookieNotification"]
 gogift.com##.iziToast-wrapper
@@ -33913,6 +33916,7 @@ hansaplast.es###popup, .popup
 hansaplast.hu###popup, .popup
 hansaplast.it###popup, .popup
 hansaplast.nl###popup, .popup
+hanse-haus-greifswald.de###cookie-law-info-bar
 hansvanwijk.nl###cookiewall-modal
 hanyu.baidu.com###J_Suspens
 hanyu.baidu.com###download-wrapper
@@ -36116,6 +36120,7 @@ monolith.xyz###root > main > footer > div:first-child
 monsieur-meuble.com##.cookies
 monster-soluce.com###cookies-pop
 monsterdoodles.co.uk###msgBox
+montaleparfums.com###montale_cookie_consent_banner
 montecarlosbm.com###cookieLab
 montecryptoscasino.com##.cookie-button
 monterail.com##.topbar__cta_full, .extended-topbar .topbar
@@ -40056,6 +40061,7 @@ weber-terranova.hu##.flash-info
 weber.dk##.flash-info
 weber.ee##.flash-info
 weberbeamix-dhz.nl##.flash-info
+webex.com###theme-provider > div[class]:first-child:not(:only-child)
 webflow.com###consent-container
 webhallen.com##.cookie-consent
 webhint.io###disclaimer
@@ -86374,6 +86380,7 @@ zyro.com##.zyro-cookies
 ||mail.bravado.co^
 ||mail.central.co.th^
 ||mail.kguapp.com^
+||mail.proton.me/api/data/v1/stats
 ||mail.qq.com/cgi-bin/getinvestigate?
 ||mail.ru/count/
 ||mail.ru/dstat?
@@ -111023,6 +111030,7 @@ zyro.com##.zyro-cookies
 ||stolefocusconstituent.com^
 ||stolenforensicssausage.com^
 ||stoltoog.net^
+||stomachscience.com^
 ||stompimp.net^
 ||stonecalcom.com^
 ||stonecalcom.com^$third-party
@@ -127539,7 +127547,6 @@ zyro.com##.zyro-cookies
 ~conso.ro,~daimler.com,~ihreapotheken.de,~filmboxlive.com###cookiePolicy:not(.reveal):not(.modal)
 ~cookieservice.aginsurance.be##.cookieConsentPopup
 ~coolmath.com##.gdpr-overlay-container
-~coolmath.com##.gdpr-overlay:not(body):not(html)
 ~correos.es,~dogedash.com,~kramp.com##.cookie-message:not(body):not(html):not(.modal-body)
 ~cottonon.com##.gdpr-sticky-container
 ~cowaymega.com,~ejot.de,~ejot.at,~ejot.cn,~ejot.co.uk,~goteborg.com,~openreach.com,~argenta.be##.cookie-popup:not(body):not(html):not(#colorbox):not(.ant-modal-wrap)
@@ -127754,6 +127761,7 @@ zyro.com##.zyro-cookies
 ~nytimes.com##.expanded.gdpr
 ~odenserundt.dk###cookie-gdpr
 ~oead.at,~kalenderwoche.de,~hawle.de,~pruadviser.co.uk,~unikrn.com,~rappjmed.ch,~biblioteka.wroc.pl,~makelaarsland.nl###cookie-notice
+~officiallondontheatre.com,~coolmath.com##.gdpr-overlay:not(body):not(html)
 ~okto.tv,~bhw.de,~dslbank.de,~metro.de,~metro.fr,~metro.at,~metro.hu,~metro.bg,~makro.nl,~axa-im.fr,~pronovabkk.de##.cookie-disclaimer:not(body):not(html)
 ~onleihe.de,~onleihe.com,~faircore4eosc.eu,~wuestenrot.at###cookiePopup
 ~onwebchange.com,~timeout.com,~timeout.fr,~timeout.cat##.cookie_banner:not(body):not(html)
