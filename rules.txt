@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-17 08:59:11（北京时间） 
-! Total count: 127945
+! Version: 2023-08-17 20:19:38（北京时间） 
+! Total count: 127960
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -14694,7 +14694,6 @@
 ##.top-holder > .cookie_dialog[style*="block"]
 ##.top-info-bar-cookie:not(body):not(html)
 ##.top-info-cookie:not(body):not(html)
-##.top-message[data-vcv-top-banner]
 ##.top-popup-gdpr:not(body):not(html)
 ##.top-row[data-container="cookiebox"]
 ##.top-wrapper-cookieinfo
@@ -14750,6 +14749,7 @@
 ##.tx-it24cookies-pi1:not(body):not(html)
 ##.tx-mp-cookie-control
 ##.tx-nim-cookie-consent
+##.tx-ppw-cookie
 ##.tx-tandncookie
 ##.tx-topt3-cookienotice
 ##.tx-we-dsgvo-cookie:not(body):not(html)
@@ -16178,6 +16178,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /BKVTrack.js
 /BlueKaiPixel/*
 /C4ATracker.
+/CKCookieConsent.js$domain=caseking.de
 /CSAdobeTracking.
 /CaptureStat.
 /Certona/*
@@ -18589,6 +18590,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /keywordlogger.
 /kissmetrics.
 /kissmetrics/*
+/kixsimpletrack/*$domain=materiel-velo.com
 /klaro$domain=tarif4you.de
 /klaro-no-css.js$domain=frag-einen-anwalt.de
 /klaro.js$domain=beckhoff.com
@@ -18854,7 +18856,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /megacounter/*
 /melindres/*$domain=televes.com
 /mendelstats.
-/messagingNoTcfApi.js$domain=svd.se|aftenbladet.no|klart.se
+/messagingNoTcfApi.js$domain=svd.se|klart.se
 /meta-analytics/*
 /meta-tracker/*
 /metatraffic/track.asp?
@@ -29880,7 +29882,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||s.btstatic.com/tag.js$domain=sephora.com
 @@||s.mvconf.f.360.cn^
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
-@@||s.yjtag.jp/tag.js$script,domain=baseball.yahoo.co.jp|soccer.yahoo.co.jp|www.epson.jp
+@@||s.yjtag.jp/tag.js$script,domain=baseball.yahoo.co.jp|bousai.yahoo.co.jp|soccer.yahoo.co.jp|www.epson.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
@@ -30069,6 +30071,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
+@@||yjtag.yahoo.co.jp/tag?$script,domain=bousai.yahoo.co.jp
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||zagaz.com/img/blogads.css
@@ -31647,6 +31650,7 @@ cewe-print.de###cookies
 cfainstitute.org###privacyWarning
 cfd.dk###cn_footerSlideContainer
 cff.ch##.messageBar
+cgd.pt###CgdCookieManager
 cgtn.com##.cg-tools-dialog
 cgtrader.com##.notice
 chahid4u.tk###unblocker
@@ -31801,7 +31805,7 @@ cm.be##.new-notification
 cm.games###cookie
 cmegroup.com###cmePermissionQuestion
 cmp-loader.choice.faktor.io
-cmp.$domain=telerama.fr|courrierinternational.com|vodkaster.com|svd.se|histoire-et-civilisations.com|malservice.aftonbladet.se|vg.no|tv.nu|tek.no|finn.no|pent.no|godt.no|aftenposten.no|omni.se|e24.no|helthjem.no|minmote.no
+cmp.$domain=telerama.fr|courrierinternational.com|vodkaster.com|svd.se|histoire-et-civilisations.com|malservice.aftonbladet.se|vg.no|tv.nu|tek.no|finn.no|pent.no|godt.no|aftenposten.no|omni.se|e24.no|helthjem.no|minmote.no|aftenbladet.no
 cmp.cdntrf.com
 cmp.cls.pm
 cmp.dmgmediaprivacy.co.uk$domain=~metro.co.uk
@@ -32723,6 +32727,7 @@ ecos.am##.cookies-modal
 ecotrade.bio##.global-alert
 ecouter-en-direct.com###cc
 ecwid.com##.gdpr-window, .ec-notices
+ed-live.de###mhCookie_container
 edclub.com##.__CC_popup
 edcom.fr###cookies
 edding.com##.e-note__cookies
@@ -33589,6 +33594,7 @@ geizhals.at##.gh-notification--type-info
 geizhals.de##.gh-notification--type-info
 geizhals.eu##.gh-notification--type-info
 gel.com###system-message, #system-messages, #system-message-container
+geld.de##.geld-layer-cookie-approval
 gelighting.com###privacy-message
 gelsia.it##.cao
 gemini.pl##.vue-portal-target ~ div:last-child, #modal-cookies
@@ -34684,6 +34690,7 @@ joberty.hr##.cc-container
 jobmensa.de##.js-usermessage
 joborgame.ru##.style__disclaimer
 jobrad.org##.generic-note
+jobs.jobconvo.com###root ~ div
 jobst-mobile.de###datenschutzBalgeNew
 jobup.ch##.c-alert
 joe.pl###j_all > div[style]
@@ -35231,6 +35238,7 @@ libertex.com##.disclaimer__item.center-md
 liberties.eu##.gdpr-window
 libmanuels.fr##ion-app ~ div
 libra.com.pl###under_footer
+librinova.com##.ln-cookie-consent
 librogame.net###system-message
 librus.pl##.x-float-wrap
 licenseglobal.com###__next > .fixed.bottom-0
@@ -35641,6 +35649,7 @@ machcomedyfest.co.uk##.wander-cookie
 machinestock.com##.cookie
 macmagazine.com.br##.adp-popup
 macorlux.pt##.cookie
+macpaw.com###root > div[class*="notification"]
 macquarie.com###alert-first
 macrojuegos.com###popupmsg_wrapper
 macrosat.pl###footer ~ .top
@@ -35981,6 +35990,7 @@ milanoajto.hu##.cdisclaimer
 milanoo.com###remember_cookie
 milanos.pl###rodo-pop
 miles-and-more-kreditkarte.com##.stoerer
+miles-mobility.com##div[data-testid="cookie-consent"]
 milestonesrl.com##.uk-notification
 miliboo.ch##.m-milibooCookie
 miliboo.com##.m-milibooCookie
@@ -36612,7 +36622,7 @@ notebookgalerie.de##.loading-mask
 notebookinfo.de##.consent, #consent
 notebookitalia.it##.uk-position-fixed
 notice.sp-prod.net
-notion.so##div + section.visibility-partial
+notion.so###__next [class*="cookiePreferencesBanner"]
 notre-planete.info###npimsg
 notrehistoire.ch###top > [data-promo*="cookie"]
 nottinghamforest.co.uk##.popup-wrapper
@@ -37402,6 +37412,7 @@ privacy-manager-v*$domain=df.eu
 privacy-policy.u-lab.nl
 privacy.claytonhomes.com
 privacy.net##.di-cookie-consent-pop
+privacysavvy.com##.ps-cookiebar
 privatbank.ua##.cookies
 privateproperty.co.za###consentManager
 privatesportshop.es##body > div:not([id]):not([class])
@@ -39772,6 +39783,7 @@ veho.fi##.z-cookie-alert
 veka.es###darkener_cookie
 velenje.com##td.style5 > table
 velkaepocha.cz##.machr-cookie-message
+velovert.com###modal_cookies
 venngage.com##.gdpr
 ventilation-system.com##.cookie-wr
 vera.com.pl##.head-page-information
@@ -39879,6 +39891,7 @@ visitwales.com##.m-noticeBar
 visnos.com##body > div:not([id]):not([class])
 vista.com##div[class*="footerNotificationWrapper"]
 vistula.pl###bottom-cookies
+visualcomposer.com##.top-message
 vitacost.com###cookieJar
 vitall.co.uk###gdpr-modal
 vitalsource.com##.dismiss-cookie, div[aria-describedby*="CookieBanner"], .App > footer + div[role="dialog"]
@@ -40293,6 +40306,7 @@ wotinfo.net###coo
 wowhead.com##.block-bgimg
 wows-gamer-blog.com###supermag-cookie-ify
 wowza.com###ck_pu
+wpbakery.com##.top-message
 wpengine.com##.opt-in-modal
 wpjslib-chunk-consent-form.js^
 wpjslib-chunk-notification.js^
@@ -40474,7 +40488,6 @@ y.qq.com##.top_operation_bar__btn
 y.qq.com##.top_operation_box
 yachtbasen.com##body > .hidden-print
 yachtclubgames.com##.cookie
-yahoo.com###guce-inline-consent-iframe, #gdpr[style*="padding"], #y-shade, #applet_p_50000174, .tdv2-applet-nagbar, .login-body + .login-footer
 yamahawaverunners.com##.modal--popover.us-popover
 yamibuy.com##.cookie
 yandex.com##.app div[class*="Cookie__cookie"], div[data-cookiebanner]
@@ -47780,6 +47793,7 @@ zyro.com##.zyro-cookies
 ||adsniper.ru^
 ||adsoftware.top^
 ||adsolution.imtt.qq.com^
+||adsolutions.com^$third-party
 ||adsomi.com^
 ||adson.awempire.com^
 ||adsonar.com^
@@ -108258,6 +108272,7 @@ zyro.com##.zyro-cookies
 ||socketviking.net^$third-party
 ||socsi.in^
 ||socsi.in^$third-party
+||socy.es^$third-party
 ||sod.onelink.me^
 ||sodahead.com^
 ||sodallay.com^
@@ -127505,6 +127520,7 @@ zyro.com##.zyro-cookies
 ~bancaditalia.it###banner-privacy
 ~bankinter.com,~melcloud.com###divCookie
 ~barcelonaled.fr,~istore.com.hr,~spielzeug-paradies.de,~sabinastore.com,~xiaomiromania.com##.cookiesplus-modal
+~bayernportal.de,~vorteile.net###cookieConsentOverlay
 ~becker-antriebe.shop###cookieNote:not(.in)
 ~bintercanarias.com###cookiesPolicy
 ~bintercanarias.com##.ui-widget[aria-labelledby*="cookie"]
@@ -127919,7 +127935,6 @@ zyro.com##.zyro-cookies
 ~vodafone.nl,~multikino.pl##.cookie-msg:not(body):not(html)
 ~voidu.com###eu-cookie-bar-notification
 ~voidu.com##.eu-cookie-bar-notification
-~vorteile.net###cookieConsentOverlay
 ~vsninfo.de,~stadtwerke-weilburg.de,~freilandmuseum-fladungen.de###cookiehinweis
 ~vsv.be,~umicore.com,~rodekruis.be,~veiligverkeer.be,~workshopsveiligverkeer.be###cookieconsent-banner
 ~wacom.com,~sap.com,~tmz.com,~proximustv.be,~proximus.be,~tripit.com,~concursolutions.com,~fortune.com,~formula1.com###consent_blackbar:not(.idcac)
