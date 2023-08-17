@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-16 20:26:26（北京时间） 
-! Total count: 127943
+! Version: 2023-08-17 08:46:56（北京时间） 
+! Total count: 127945
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15260,6 +15260,7 @@
 ##[src^='/MDassets/images/']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/banners/pr_advertising_ads_banner']
+##[src^='data:image/png;base64,iVBORw0KGgoAAAANSU'][style*='position: fixed; z-index: 2000000000; width: 30px; bottom:']
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
 ##[src^='https://dingbu.bj.bcebos.com/']
 ##[src^='https://immmg.owowqrf.cn']
@@ -29315,10 +29316,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/friendbuy.min.js$script,domain=butcherbox.com
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
-@@css.yhdmtu.xyz$domain=yinghuavideo.com
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@||/template/conch/asset/js/hlhtml.js$domain=www.gqdm.net|1anime.me
 @@||1001trackstats.com/api/$xmlhttprequest,domain=songstats.com
 @@||10086.cn/framework/modules/sdc.js$script,~third-party
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
@@ -29527,6 +29528,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cqcounter.com^$domain=cqcounter.com
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
+@@||css.yhdmtu.xyz^$domain=yinghuavideo.com
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|wpb.shueisha.co.jp
@@ -30118,7 +30120,7 @@ _stat.php?referer=
 _stat_counter.php?
 _trackWebtrekkEvents.
 _track_pixel.gif?
-_vercel/insights/*
+_vercel/insights/
 _view_pixel&$image
 _webanalytics.
 a.9game.cn##.DownBox
