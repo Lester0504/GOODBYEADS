@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-21 09:00:08（北京时间） 
-! Total count: 128217
+! Version: 2023-08-21 20:20:25（北京时间） 
+! Total count: 128234
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -6968,7 +6968,6 @@
 ###gdpr_alert
 ###gdpr_area .gdpr_area_inner
 ###gdpr_banner
-###gdpr_banner_portal
 ###gdpr_bar_frame
 ###gdpr_barretta
 ###gdpr_basic.modal.bottom
@@ -13264,6 +13263,7 @@
 ##.js-cookie-privacy
 ##.js-cookie-rgpd:not(body):not(html)
 ##.js-cookie-statement:not(body):not(html)
+##.js-cookie-wall:not(body):not(html):not([class*="modal"])
 ##.js-cookie-warning-container
 ##.js-cookie-warning:not(body):not(html)
 ##.js-cookie-widget:not(body):not(html)
@@ -20795,6 +20795,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-content/plugins/simple-gdpr-cookie-compliance/*
 /wp-content/plugins/smart-cookie-kit/*
 /wp-content/plugins/tnk-cookies
+/wp-content/plugins/viva-cookie-consent/*
 /wp-content/plugins/vp-cookies/*
 /wp-content/plugins/wp-cookie-allow/*$domain=~learndutch.org
 /wp-content/tracker.
@@ -29165,6 +29166,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 24opony.pl##.easyNotificationBck
 24sata.hr###didomi-host
 24smi.org##.cookie-modal
+24tv.ua##.private-policy
 24video.xxx##.adt
 24zdrave.bg###cookies
 2ask.de###cadvise_bar
@@ -29646,7 +29648,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||hdnumerique.com/tpl/jscript/advert.js
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
-@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|furniturevillage.co.uk|luggagehero.com
+@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
 @@||hirosystems.vscode-unpkg.net/*/clarity-lsp/$domain=github.dev|vscode.dev
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.interia.pl/iwa_core$script,~third-party
@@ -30528,6 +30530,7 @@ annualreviews.org##.ar-news-footer
 anonse.com###polityka
 anothermag.com###cookie-view
 anpost.ie###scg_banner
+answerthepublic.com##.cookie-main
 antagning.se###cookie-law
 antalis.co.uk###overlay
 antarestech.com###consent
@@ -30986,7 +30989,7 @@ bazilik.media##.bz-cookie
 bb-portal.mercedes-benz.com##.mgs-cookie
 bb-promotion.com###sf_fb_retargeting
 bb.com.br##.bb-cookies
-bbb.org##body > .MuiDrawer-root
+bbb.org##dialog[aria-label*="cookies"]
 bbbell.it###slideit
 bbc.co.uk###root > #header-content > div > div[class*="DialogBackdrop"]
 bbc.com###main-wrapper > header[role="banner"] > div:first-child
@@ -31670,6 +31673,7 @@ chaptercheats.com##.headertp
 charactercountonline.com###consentBox
 chargify.com##.gdpr
 charleslandaudentistry.co.uk###cc-container
+charliemonroe.net##.cookie
 chassis-en-bois.fr###cnil, .cnil, #CNIL
 chateauversailles.fr##.bloc-notifications
 chateauxhotels.com###notificationBar
@@ -31924,6 +31928,7 @@ connexion-francaise.com###privacy-info
 conqblade.com##.gw-cookies
 conrad-katalog.at###nagme
 conseils-thermiques.org##.display_cookies
+consensu.infor.pl
 consensu.org$domain=shinden.pl
 consensys.net##div[class*="notificationBar"]
 consent*$domain=t-mobile.cz
@@ -32074,6 +32079,7 @@ crello.com##div[class*="footerNotification"]
 crescent.se##body > div[data-am-cookie-information]
 crew-united.com##.opt-action-bar
 crex24.com##div[class*="cookies_block"]
+cricut.com###consent-tracking
 criticker.com###i_cookies
 crizal.pl###__cookies_
 cronacaqui.it###footerprivacy
@@ -32329,6 +32335,7 @@ designisthis.com##.gppr-panel
 designwebkit.com##.cookie_block
 desmo-racing.com###cookie
 desokupa.com###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
+destinations.ua##.cookies
 destockplus.com##.page_warning
 detail.mall.meizu.com##.app detail
 detail.mall.meizu.com##.bnr-link
@@ -34009,6 +34016,7 @@ hejfish.com##div[class*="CookieConsent"]
 helbling-ezone.com###statusBar
 helemaalshea.nl##.fancybox-overlay
 helicomicro.com##.cp-info-bar
+helitransair.com##.privacyoption_overlay
 helium.com##article > footer ~ div
 hella.com##.black-overlay
 hello.one###cookie
@@ -34460,6 +34468,7 @@ intermarche.be##.cookies
 internationalchips.com##.ba
 internationale-computerspielesammlung.de##.mod_lafli_notification_bar
 internet-law.ru###fab-enabled
+internetpasoapaso.com###cookie-law-info-bar
 internetspeedtracker.com###gpdr, #GPDR, #gdpr, #GDPR
 internxt.com##div[class*="cookiesBgFallback"]
 interred.de###cookieconsentmodal
@@ -34750,7 +34759,6 @@ juejin.cn##.recommend-box
 juejin.im##.extension
 juejin.im##.request-health-alert
 jufa.eu##.en-mdl-eye_catcher[data-en-tags*="cookie"]
-jumbo.com##.jum-cookie-message
 jurnalul.ro###gdpr
 jus.br##.cookies
 jus.com.br##.gdpr
@@ -35038,6 +35046,7 @@ kyokugym.nl###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
 kytta.at##button[class*="dc-cookie"]
 l-a-w.ru,mhelp.kz##.swal2-container
 l1.nl###l1_cookie_policy
+l28.nl###cookie_popup_body
 l2central.info##.notice_footer_right
 l2db.info##.access-cookies
 la-palma24.info##.dvcookies
@@ -35329,6 +35338,7 @@ livrariaalfarrabista.com###cook
 livretzesto.fr##.cookies
 livsmedelsverket.se###CookieConsent
 lizipaina.es###additional
+ljekarna-pablo.hr##.gdpr-container-wrapper
 lkh.de##.cc-blur, .cc-overlay
 llbean.com##.user-consent
 llifle.com###ad_blocker_found
@@ -39266,6 +39276,7 @@ time-to-question.com##.cookies
 timebreak.eu##.must-hide[style*="ececec"]
 timeshop4you.co.uk###cookie
 timesnownews.com##div[class*="GdprCSS-container"]
+timestore.cz###cookie
 timhortons.co.uk##.user-permission
 timing.pt##.policy, #policy, .cpolicy
 timma.fi###alert-root
@@ -39939,6 +39950,7 @@ voi-noi.gr##.bottombar
 voiceanddatazone.com###popup, .blocker
 voicegroup.co.uk##.cookie-menu
 voip.ms##.gdpr
+voissy.com###pb-navbar-cookies-accept
 volbers.com###agever
 volcanoteide.com##.cc-grower
 volimzmenu.cz##.cookies
@@ -48075,6 +48087,7 @@ zyro.com##.zyro-cookies
 ||adventureprojectiononly.com^
 ||adventurercraft.com^
 ||adventureurgently.com^
+||adventurousamount.com^
 ||adventurouscomprehendhold.com^
 ||adventurouscondensedrebuff.com^
 ||adver.qq.com^
@@ -62062,6 +62075,7 @@ zyro.com##.zyro-cookies
 ||d1qc76gneygidm.cloudfront.net^
 ||d1qggq1at2gusn.cloudfront.net^
 ||d1qk9ujrmkucbl.cloudfront.net^
+||d1qnmu4nrib73p.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1r27qvpjiaqj3.cloudfront.net^
 ||d1r2sy6oc0ariq.cloudfront.net^
@@ -70230,6 +70244,7 @@ zyro.com##.zyro-cookies
 ||filetedlawines.com^
 ||filetstaipo.com^
 ||filexan.com^
+||filext.com/pageview^
 ||filgzukroj.com^
 ||fili.cc^
 ||fili.tv^
@@ -116552,7 +116567,9 @@ zyro.com##.zyro-cookies
 ||tracker.ranker.com^
 ||tracker.roitesting.com^
 ||tracker.services.vaix.ai^
+||tracker.shanon-services.com^
 ||tracker.shopclues.com^
+||tracker.smartseminar.jp^
 ||tracker.sns.iqiyi.com^
 ||tracker.softcube.com^
 ||tracker.ssl0d.com^
@@ -126000,6 +126017,7 @@ zyro.com##.zyro-cookies
 ||yhzzzs02.com^
 ||yi.ximizi.com^
 ||yibivacaji.com^
+||yiboshangmao3.com^
 ||yicha.cn^
 ||yichengjiajupt.com^
 ||yichunrz.com^
@@ -127925,7 +127943,6 @@ zyro.com##.zyro-cookies
 ~grueneerde.com##.CookieWarningComponent
 ~healthmate.withings.com##body > #cookies.active
 ~healthmate.withings.com,~seatris.ai##.cookie_container:not(body):not(html)
-~hema.nl,~saxion.edu##.js-cookie-wall:not(body):not(html)
 ~henleyglobal.com##.cookiesbar:not(body):not(html)
 ~hettalentenhuis.nl###cookie_bar
 ~hl.co.uk##.cookieBanner:not(body):not(html):not(#sprd-main)
@@ -128211,7 +128228,7 @@ zyro.com##.zyro-cookies
 ~wirtualnemedia.pl,~footroll.pl,~shinden.pl##body > div[class^="app_gdpr"]
 ~withings.com##.cookie_modal:not(body):not(html)
 ~wwz.ch##.cookie__footer:not(body):not(html)
-~xs4all.nl,~constantcontact.com,~saxion.edu,~xmradio.nl,~pieseauto.ro##.cookie-wall:not(body):not(html):not(.cw-modal)
+~xs4all.nl,~constantcontact.com,~xmradio.nl,~pieseauto.ro##.cookie-wall:not(body):not(html):not(.cw-modal)
 ~xsports.lv##.notice-cookie:not(body):not(html)
 ~yourstorebox.com##.react-cookie-law-dialog
 ~zabkagroup.com##.cookies-footer:not(body):not(html)

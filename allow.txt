@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-08-21 09:00:08（北京时间） 
-! Total count: 3093
+! Version: 2023-08-21 20:20:25（北京时间） 
+! Total count: 3103
 @@.2o7.net/$domain=today.com
 @@.googleadservices.*.js$domain=ponominalu.ru
 @@//store.donanimhaber.com/ad/*$domain=forum.donanimhaber.com
@@ -617,7 +617,10 @@
 @@||cdn.videoplaza.tv/contrib/de-ipd/svm/homadConfigVideoplaza-rtl.json$domain=rtl.de
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5google.com|9to5mac.com|9to5toys.com|dronedj.com|electrek.co
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5mac.com|electrek.co
+@@||cdn.wazimo.com/engine/common/js/$domain=lastnighton.com
 @@||cdn.wazimo.com/engine/common/js/$domain=showsnob.com
+@@||cdn.wazimo.com/engine/static/*/images/$domain=lastnighton.com
+@@||cdn.wazimo.com/media/images/$domain=lastnighton.com
 @@||cdn.wazimo.com/media/images/$domain=showsnob.com
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
 @@||cdnb.4strokemedia.com/carousel/v4/comscore-JS-$script
@@ -721,8 +724,7 @@
 @@||collegeboard.org/webanalytics/
 @@||collusion.com/static/newrelic.js$script,~third-party
 @@||comcastresidentialservices.tt.omtrdc.net/m2/comcastresidentialservices^$domain=xfinity.com
-@@||comeresaprensasl.tt.omtrdc.net/rest/v*/delivery$domain=elcomercio.es
-@@||comeresaprensasl.tt.omtrdc.net/rest/v*/delivery?$domain=hoy.es
+@@||comeresaprensasl.tt.omtrdc.net/rest/v*/delivery$domain=elcomercio.es|eldiariomontanes.es|elcorreo.com|lasprovincias.es|hoy.es
 @@||community.brave.com/t/$xmlhttprequest
 @@||communityenergysolutions.com/ui/assets/gtm/gtm.js$script,~third-party
 @@||component-vvs.glomex.com/embed^$popup
@@ -741,8 +743,11 @@
 @@||content.gap.com/fp/check.js$script,domain=oldnavy.gap.com
 @@||content.gap.com/fp/tags.js$domain=oldnavy.gap.com
 @@||content.gap.com/fp/tags.js$script,domain=oldnavy.gap.com
+@@||content.wazimo.com/engine/common/*/css/?static=$domain=lastnighton.com
 @@||content.wazimo.com/engine/common/*/css/?static=$domain=showsnob.com
+@@||content.wazimo.com/engine/common/*/js/min/?static=$domain=lastnighton.com
 @@||content.wazimo.com/engine/common/*/js/min/?static=$domain=showsnob.com
+@@||content.wazimo.com/engine/common/css/$domain=lastnighton.com
 @@||content.wazimo.com/engine/common/css/$domain=showsnob.com
 @@||conversion.im/images/icons/google-analytics.png
 @@||convertexperiments.com/js/*.js$domain=platform.autods.com
@@ -1463,7 +1468,7 @@
 @@||googletagmanager.com/gtm.js$domain=easycredit.de
 @@||googletagmanager.com/gtm.js$domain=eda.ru
 @@||googletagmanager.com/gtm.js$domain=einthusan.ca|einthusan.tv|einthusan.com
-@@||googletagmanager.com/gtm.js$domain=elcomercio.es
+@@||googletagmanager.com/gtm.js$domain=elcomercio.es|eldiariomontanes.es|elcorreo.com|lasprovincias.es|hoy.es
 @@||googletagmanager.com/gtm.js$domain=elderscrollsonline.com
 @@||googletagmanager.com/gtm.js$domain=eldorado.com.ua
 @@||googletagmanager.com/gtm.js$domain=elnuevodia.com
@@ -1756,7 +1761,7 @@
 @@||heise.de/forum^
 @@||heise.de/news^
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
-@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|furniturevillage.co.uk|luggagehero.com
+@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
 @@||hepfinans.com/wp-content/uploads/*/Google-Adsense-$image,~third-party
 @@||heute.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
 @@||hhgregg.com/wcsstore/MadisonsStorefrontAssetStore/javascript/Analytics/AnalyticsTagDataObject.js
@@ -2065,6 +2070,8 @@
 @@||media.sosh.fr/includes/wtbase.js
 @@||media.sosh.fr/includes/wtinit.js
 @@||media.ticketmaster.*/click_track.js
+@@||media.wazimo.com/favicons/$domain=lastnighton.com
+@@||media.wazimo.com/logos/$domain=lastnighton.com
 @@||mediaite.com/decor/javascript/magnify_stats.js$domain=videos.mediaite.com
 @@||mediamarkt.com.tr^$genericblock
 @@||mediamarkt.de/*/shop^
@@ -2520,6 +2527,7 @@
 @@||script.nettix.fi/auto/extra/template/nettiauto_analytics.js$domain=nettiauto.com
 @@||scripts.demandmedia.com/wm.js$domain=ehow.com
 @@||scv.band.us/jackpotlog/*/logs$domain=m.cafe.naver.com
+@@||sdk.mrf.io/statics/marfeel-sdk.js$domain=mundodeportivo.com
 @@||sdkapi.sms.mob.com^
 @@||sdn-global-audio-adswizz-cache.3qsdn.com/*/files/$other,media,domain=noz.de
 @@||se.monetate.net/js/*/custom.js$domain=debenhams.com
@@ -2821,6 +2829,7 @@
 @@||tm.jsuol.com.br/uoltm.js$domain=batepapo.uol.com.br|noticias.uol.com.br|economia.uol.com.br|tribunapr.uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=hugogloss.uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=oantagonista.uol.com.br
+@@||tm.jsuol.com.br/uoltm.js$domain=uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
 @@||tmgrup.com.tr/bd/hb/prebid.js$domain=atv.com.tr
@@ -2996,6 +3005,7 @@
 @@||wamiz.com/css/ads.css
 @@||wappass.baidu.com/static/touch/js/lib/fingerprint.js$domain=tieba.baidu.com
 @@||wargag.ru/public/js/counter.js?
+@@||wazimo.com/engine/common/widgets/content/$domain=lastnighton.com
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||wcs.naver.net/wcslog.js$domain=ciokorea.com|adpiamall.com|live.joins.com|naver.com|jbe.go.kr|privatenote.co.kr|dabangapp.com|kyobobook.co.kr
