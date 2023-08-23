@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-22 20:26:47（北京时间） 
-! Total count: 128253
+! Version: 2023-08-23 08:48:06（北京时间） 
+! Total count: 128257
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29246,6 +29246,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 88nightmarket.com##.cookies
 8x8.vc###success > div > div:last-child
 911tabs.com##body > div:not([id]):not([class])
+91porny.com###playerJsvLayer.jsv-layer
+91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
+91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
 91porny.com/api/getPos?jspath=/
 950bergen.no##.v-overlay, .v-dialog__content
 99airdrops.com##.legal-notice
@@ -29266,12 +29269,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://collector.*/event
 ://email.*/e/o/
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
-://img.promio-connect.com/
 ://internal-matomo.
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
-://omni.soundestlink.com/$image
 ://parcel-api.delivery-status.*/open/$image
 ://piwik.$domain=~matomo.org|~piwik.pro
 ://segment-api.
@@ -34353,6 +34354,7 @@ ilovepdf.com###toast, .toast
 imaginanet.com##.cookies
 imagine-r.com###cookies
 img.ly##.cke-overlay
+img.promio-connect.com$image
 imgrutor.com,playtor.tv##div[class^="adblock-warning"]
 imgur.com##.Ad.sas.Smart
 imgw.pl###rodo
@@ -36769,6 +36771,7 @@ ombudsman-services.org##.cookie
 omdenken.nl##.cookies
 omegasoft.pl##.ui-dialog
 omg.de###CookiePlus, .modal-backdrop
+omni.soundestlink.com$image
 omnifurgone.it##.m1-footer-messages
 omnimoto.it##.m1-footer-messages
 omnires.pl##.cookie-allcontent
@@ -57068,6 +57071,7 @@ zyro.com##.zyro-cookies
 ||cars.autopia.com.au^
 ||cars.smartfleetaustralia.com.au^
 ||cars.smartleasing.com.au^
+||carsandbids.com/a/p
 ||carscannon.com^
 ||carstat.bitauto.com^
 ||cartedneogene.com^
