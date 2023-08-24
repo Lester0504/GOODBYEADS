@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-24 09:00:15（北京时间） 
+! Version: 2023-08-24 20:20:28（北京时间） 
 ! Total count: 128306
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -6258,6 +6258,7 @@
 ###dialogConfirmCookies
 ###dialogoCookies
 ###didomi-custom-host
+###didomi-host ~ #consentCover
 ###didomiConsentOverlay
 ###diffuse-cookie-notice
 ###digipublica-cookie-shade
@@ -7275,7 +7276,6 @@
 ###infocookiefr
 ###infocookies
 ###inforCookieWallPopup
-###inforcwp
 ###informacionSobreCookies
 ###informacja-o-cookies
 ###informacjaOCiasteczkach
@@ -15530,6 +15530,7 @@
 ##consent-layer.ng-star-inserted
 ##consent-notification
 ##consent-panel.ng-isolate-scope
+##consent-slide-in-component
 ##cook-disclaimer
 ##cookie > .siteCookie
 ##cookie-agreement-block
@@ -17346,7 +17347,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /confiant.js
 /config/analytics.js
 /configuration-stat.js
-/consent$domain=natune.net|hemnet.se
+/consent$domain=natune.net
 /consent-$domain=widforss.no
 /consent-banner-bootstrap
 /consent-layer/*$domain=bahn.de
@@ -30260,7 +30261,6 @@ advatus.pl##.myModal-box
 adventurecorner.de###ac-consent-overlay
 adventuregamestudio.co.uk###cookies
 adventureinsel.de##.infobox
-adverts.ie###notify-container-sticky-wrapper
 advfn.com###cnwrapper
 ae.com##div[class*="snackbar-container"]
 aefinfo.fr##.bandeau_cgv
@@ -30422,6 +30422,7 @@ alldent-zahnzentrum.de###dialog
 alldomains.hosting###adh-cookie-dnt, #adh-cookie-accept
 allegorithmic.com###root > div > div > .ui.container > .ui.inverted.segment
 allegro.eu##.idm-cookie-overlay, .idm-cookie-policy
+allegro.pl##.custom-cookie-alert
 allekabels.nl##.cookie
 allekoszyk.pl###allekoszyk > div[style*="fixed"]
 allemagne-romantique.fr###myModal
@@ -30788,6 +30789,7 @@ automobilwoche.de###ccm
 autoreflex.com###legal
 autoreisen.com##.cookie
 autoscuolacatelli.it###d_cook
+autosecurite.be###cookie-law-info-bar
 autosjbperformance.fr##.cekomeadsbottom
 autosolar.es##.cookie-configuration
 autotask.com##.alertbar
@@ -33735,6 +33737,7 @@ go4convert.com##.disclaimer
 go4pro.lt##.wu_holder-wrapper
 gob.es###epd, .alert__msg-Wrapper, .tuss-cookies, #fondotransparencia-gris, #avisoUsoCookies, #phAvisoCookie
 gocards.nl###cbar
+gocompare.com###gc-stickee-cookie-banner
 goetel.de##.cookieControl
 gog.com##body > div[data-editable="boxCookieNotification"]
 gogift.com##.iziToast-wrapper
@@ -37653,7 +37656,6 @@ rawranime.tv##.site-news[data-id="acceptcookies"]
 ray-ban.com##.wcs-top-message-container
 raygun.com##.popup-overlay
 rayjetlaser.com##.c-window
-razer.com###tos-razer, .component-sticky-dialog
 rba.hr###cd-module-main, #root ~ reach-portal > .fixed > .backdrop-filter
 rbainvest.hr###cd-module-main
 rbc.ua###privasypolicy-info, .privacy
@@ -38166,7 +38168,6 @@ selectminds.com###notify-banner, #cboxOverlay, #colorbox
 selectos.eu###selectos-cookie-background
 selexion.be###splash_footer
 selfhost.de##.cookies
-selgros.de###overlay-oiljs
 selle-proust.fr##.elementor-popup-modal
 sellmylivestock.com###app > .fixed
 sellpy.com##div[name="footerExpander"] + div ~ div:not([style])
@@ -39058,6 +39059,7 @@ teichdiscount24.de##.v-overlay, .v-dialog__content
 teijin.com###assistClone
 teknikkdeler.no##.cookies
 teknologisk.dk##.bottom-warning
+telcel.com##.telcel-banner-aviso-cookies, .comp-telcel-banner-superior
 teldust.com##.cookies-tab
 tele2.nl###targetedPopupFrame
 teleauskunft.de##.cookie-container
@@ -39726,7 +39728,6 @@ usgang.ch###rectangle-wrapper
 uslugi.gov.mk##.gdpr
 usm.com##.usm-cookie
 usporedi.hr###privacyPolicyModal, .modal-backdrop
-uswitch.com###us-cookies
 usz.ch##.consentManagement
 uta.com###hinweisoverlay
 utilities.nl##.cookie
@@ -72273,7 +72274,6 @@ zyro.com##.zyro-cookies
 ||geo.emol.cl^
 ||geo.ertya.com^
 ||geo.flurry.com^
-||geo.fr/assets/scripts/sourcepoint.js$script
 ||geo.gexo.com/geo.js$third-party
 ||geo.gfycat.com^
 ||geo.gorillanation.com^
@@ -127831,7 +127831,7 @@ zyro.com##.zyro-cookies
 ||zzycj.com^
 ||zzys.haha5.cn^
 ||zzzhuoxiaqu.online^
-~2ip.io,~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info###klaro div[class*="cookie-modal"]
+~2ip.io,~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info,~selgros.de###klaro div[class*="cookie-modal"]
 ~50five.com###___gatsby div[class*="cookie-message"]
 ~abc.es,~as.com,~hoy.es,~diariosur.es,~elcorreo.com,~surinenglish.com,~eldiariomontanes.es,~jardinage.lemonde.fr,~investir.lesechos.fr,~canarias7.es,~elcomercio.es,~laverdad.es,~ideal.es,~lasprovincias.es,~diariovasco.com,~elnortedecastilla.es,~sosoir.lesoir.be###didomi-notice
 ~abc.es,~as.com,~hoy.es,~diariosur.es,~elcorreo.com,~surinenglish.com,~eldiariomontanes.es,~jardinage.lemonde.fr,~investir.lesechos.fr,~canarias7.es,~elcomercio.es,~laverdad.es,~ideal.es,~lasprovincias.es,~diariovasco.com,~elnortedecastilla.es,~sosoir.lesoir.be##body:not(.didomi-popup-open) #didomi-host
@@ -128051,7 +128051,7 @@ zyro.com##.zyro-cookies
 ~joingoodcompany.nl##.container-cookie:not(body):not(html)
 ~joingoodcompany.nl,~mycall.no###cookie-accept:not(button):not(.btn):not([class*="button"])
 ~jostchemical.com##.privacy-banner:not(body):not(html)
-~journal.hr,~merkur.si,~dbfakt.de,~modellbau-metz.com,~d-power-modellbau.com,~der-druckerprofi.de,~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info,~costomovil.es,~tesa.com,~ns.nl,~tyg.se,~stoffe.de,~myfabrics.co.uk,~latka.cz,~global.commerce-connector.com,~rotterdammersvoorelkaar.nl,~melcloud.com,~danishfamilysearch.com,~calvinklein.de,~calvinklein.co.uk,~calvinklein.com,~calvinklein.be,~calvinklein.fr,~calvinklein.es,~calvinklein.hr,~calvinklein.ch,~calvinklein.lu,~calvinklein.fi,~calvinklein.dk,~calvinklein.ru,~calvinklein.si,~calvinklein.at,~calvinklein.lv,~calvinklein.bg,~calvinklein.se,~calvinklein.ie,~calvinklein.cz,~calvinklein.pl,~calvinklein.lt,~calvinklein.sk,~calvinklein.nl,~calvinklein.it,~calvinklein.ee,~calvinklein.pt,~calvinklein.hu,~tommy.com##.cookie-notice:not(body):not(html):not(#wrapper):not(#footer)
+~journal.hr,~merkur.si,~dbfakt.de,~modellbau-metz.com,~d-power-modellbau.com,~der-druckerprofi.de,~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info,~selgros.de,~costomovil.es,~tesa.com,~ns.nl,~tyg.se,~stoffe.de,~myfabrics.co.uk,~latka.cz,~global.commerce-connector.com,~rotterdammersvoorelkaar.nl,~melcloud.com,~danishfamilysearch.com,~calvinklein.de,~calvinklein.co.uk,~calvinklein.com,~calvinklein.be,~calvinklein.fr,~calvinklein.es,~calvinklein.hr,~calvinklein.ch,~calvinklein.lu,~calvinklein.fi,~calvinklein.dk,~calvinklein.ru,~calvinklein.si,~calvinklein.at,~calvinklein.lv,~calvinklein.bg,~calvinklein.se,~calvinklein.ie,~calvinklein.cz,~calvinklein.pl,~calvinklein.lt,~calvinklein.sk,~calvinklein.nl,~calvinklein.it,~calvinklein.ee,~calvinklein.pt,~calvinklein.hu,~tommy.com##.cookie-notice:not(body):not(html):not(#wrapper):not(#footer)
 ~joyn.de,~prosieben.de##cmp-banner
 ~kaufland.de###consentOverlay
 ~kh.hu,~ticsante.com,~techopital.com,~sandro-paris.com,~feuvert.fr###cookieConsentContainer
@@ -128190,8 +128190,8 @@ zyro.com##.zyro-cookies
 ~seb.lt,~seb.ee,~seb.lv###cookiesMessage
 ~senda.pl,~blackboard.com##.CookieConsent:not(body):not(html)
 ~senda.pl,~get-in-it.de###__next div[class*="CookieConsent"]
-~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info###klaro div[class*="cookie-notice"]
-~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info##.klaro div[class*="cookie-modal"]
+~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info,~selgros.de###klaro div[class*="cookie-notice"]
+~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info,~selgros.de##.klaro div[class*="cookie-modal"]
 ~shop4tesla.com,~warpedsense.com###cookie-consent-dialogBox
 ~skfbearingselect.com##.privacy-notice:not(.form-text):not(html)
 ~snowthority.com###usercentrics-button
