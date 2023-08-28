@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-27 20:24:04（北京时间） 
-! Total count: 128407
+! Version: 2023-08-28 08:49:59（北京时间） 
+! Total count: 128398
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17119,6 +17119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
+/cdn-cgi/trace|$xmlhttprequest
 /cdn-cgi/zaraz/*
 /cdn_cookie_service.$image
 /cdnperf-rum.
@@ -30017,6 +30018,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||tracking-protection.cdn.mozilla.net^
 @@||tracking.epicgames.com^
 @@||trackings.post.japanpost.jp^
+@@||trackjs.com/agent/$script,domain=delta.com
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||trbo.com/plugin/trbo_$script,domain=blau.de
@@ -46063,7 +46065,6 @@ zyro.com##.zyro-cookies
 ||abwattfrutex.com^
 ||abwhyag.com^
 ||abyamaskor.com^
-||abysscdn.com/cdn-cgi/trace
 ||abyssesbathman.com^
 ||ac-3.mix.tokyo^
 ||ac-ebis-stb.usen.com^
@@ -50575,6 +50576,7 @@ zyro.com##.zyro-cookies
 ||api.atdmt.com^
 ||api.autopilothq.com^
 ||api.bailingjiankang.com^
+||api.baomoi.com^$image
 ||api.bayimob.com^
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||api.bit.ly/*/clicks?$third-party
@@ -60768,6 +60770,7 @@ zyro.com##.zyro-cookies
 ||countertrck.com^
 ||counterviews.net^
 ||counterviews.net^$third-party
+||countervov.emitech.vn^
 ||countessbridge.com^
 ||counthis.com^
 ||counthis.com^$third-party
@@ -71237,7 +71240,6 @@ zyro.com##.zyro-cookies
 ||freepeople.com/tN88Q85M/init.js
 ||freepik.*/download.gif?
 ||freepik.com/_ga?
-||freeplayervideo.com/cdn-cgi/trace
 ||freeprivacypolicy.com/cookie-consent$script
 ||freeprivacypolicy.com/track/
 ||freeprivacypolicy.com^
@@ -76198,9 +76200,6 @@ zyro.com##.zyro-cookies
 ||hqoqbs.xyz^
 ||hqpass.com^
 ||hqpgfxt.com^
-||hqq.ac/cdn-cgi/trace
-||hqq.to/cdn-cgi/trace
-||hqq.tv/cdn-cgi/trace
 ||hqq.tv/js/counters.js
 ||hqqpw.mobi^
 ||hqs1.cnzz.com^
@@ -84008,7 +84007,6 @@ zyro.com##.zyro-cookies
 ||linkxchanger.com^$third-party
 ||linkybank.com^
 ||linnechaya.com^
-||linris.xyz/cdn-cgi/trace
 ||lintensciurid.top^
 ||lintfeintshindig.com^
 ||linuozhiyao.xyz^
@@ -88259,7 +88257,6 @@ zyro.com##.zyro-cookies
 ||megae-aqn.com^
 ||megaevent.cc^
 ||megajoy.com^
-||megaplay.cc/cdn-cgi/trace
 ||megapodacutest.digital^
 ||megapopads.com^
 ||megavisites.com^
@@ -88850,7 +88847,6 @@ zyro.com##.zyro-cookies
 ||metsaubs.net^
 ||metumpscageful.com^
 ||meubonus.com^
-||meucdn.vip/cdn-cgi/trace
 ||meueeq.xyz^
 ||mevarabon.com^
 ||mewe.com/ubk4jrxn.js
@@ -91501,7 +91497,6 @@ zyro.com##.zyro-cookies
 ||netund.com^
 ||netupdater.info^
 ||netupdater.info^$third-party
-||netuplayer.top/cdn-cgi/trace
 ||netvigie.com^
 ||netvigie.com^$third-party
 ||network-n.com^
@@ -92528,7 +92523,6 @@ zyro.com##.zyro-cookies
 ||nturnm.unisport.dk^
 ||nturyremovem.com^
 ||ntv.io^
-||ntvid.online/cdn-cgi/trace
 ||ntvk1.ru^
 ||ntvpevents.com^
 ||ntvpever.com^
@@ -95528,7 +95522,6 @@ zyro.com##.zyro-cookies
 ||pcdstm.petbarn.com.au^
 ||pcejuyhjucmkiny.ru^
 ||pcfg.wps.cn^
-||pcgamesn.com/cdn-cgi/trace
 ||pci.aon.com^
 ||pcidata.cn^
 ||pclicks.com^
@@ -96318,7 +96311,9 @@ zyro.com##.zyro-cookies
 ||pihu.xxxpornhd.pro^
 ||pijlpuofkgz.com^
 ||pijper.io/visits/
+||pikabu.ru/ajax/analytics.php
 ||pikabu.ru/apps/*/analytics.js
+||pikabu.ru/stat/
 ||pikacn.com^
 ||pikbest.com/?m=Stats&
 ||pikdtipujmr.com^
@@ -96926,7 +96921,6 @@ zyro.com##.zyro-cookies
 ||playbook88a2.com^
 ||playboyconformhusband.com^
 ||playcvn.com^
-||player-cdn.com/cdn-cgi/trace
 ||player-telemetry.vimeo.com^
 ||player.avplayer.com^
 ||player.ex.co^
@@ -97044,7 +97038,6 @@ zyro.com##.zyro-cookies
 ||plunderthetics.digital^
 ||plungeideals.life^
 ||plusclick.biz^
-||plushd.bio/cdn-cgi/trace
 ||pluso.ru/counter.php?
 ||pluso.ru/ping.php?
 ||pluto.r.powuta.com^
@@ -121552,6 +121545,7 @@ zyro.com##.zyro-cookies
 ||vzoosjtwatu.com^
 ||vzvvifw.cn^
 ||vzzexalcirfgrf.ru^
+||w-api.baomoi.com^$image
 ||w-profiling.cibc.com^
 ||w-profiling.cibc.com^$script
 ||w-profiling.simplii.com^
@@ -121667,7 +121661,6 @@ zyro.com##.zyro-cookies
 ||waatch.hbvl.be^
 ||waatch.nieuwsblad.be^
 ||waati.quechoisir.org^
-||waaw.to/cdn-cgi/trace
 ||wabsgz.studocu.com^
 ||wackeerd.com^
 ||wackotracko.com^
@@ -123161,7 +123154,6 @@ zyro.com##.zyro-cookies
 ||wizhumpgyros.com^
 ||wizkrdxivl.com^
 ||wizliebeg.com^
-||wiztube.xyz/cdn-cgi/trace
 ||wizwarsum.site^
 ||wj.jiancai365.cn^
 ||wjaqc.xyz^
@@ -125943,7 +125935,6 @@ zyro.com##.zyro-cookies
 ||yandex.ru/log?
 ||yandex.ru/metrika/
 ||yandexadexchange.net^
-||yandexcdn.com/cdn-cgi/trace
 ||yandui.com^
 ||yang17.xyz^
 ||yanghetp.com^
