@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-29 20:21:48（北京时间） 
-! Total count: 128418
+! Version: 2023-08-29 20:27:31（北京时间） 
+! Total count: 128411
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16185,7 +16185,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /BlueKaiPixel/*
 /C4ATracker.
 /CKCookieConsent.js$domain=caseking.de
-/CSAdobeTracking.
 /CaptureStat.
 /Certona/*
 /Chartbeatanalytics.
@@ -16223,8 +16222,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /CreateAnalytics.js
 /CreateCookieSSO_
 /Criteo/*
-/CrossDomainTracking/*
-/CustomTrackingScript.
+/CustomTrackingScript.js
 /Custom_clubhinweis$domain=ofdb.de
 /DG/DEFAULT/rest/*
 /DNSCheck.js
@@ -17640,7 +17638,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /countly.min.js
 /countpixel.
 /countstat.php?
-/countubn.
 /countus.php
 /cp.gap.com/o/*$image
 /cp01.js$domain=jzzo.com
@@ -17655,9 +17652,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /criteoRTA.
 /criteo_
 /cross-domain-cookie?
-/crtracker.
 /crypta.js
-/cs_api/log
 /csct.js
 /csi?v=*&action=
 /csi?v=*&action=$domain=tellows.de
@@ -17669,21 +17664,19 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cta-loaded.js
 /ctd-sourcepoint.
 /ctd-tealium.
-/ctr_tracker.
-/ctr_tracking.
+/ctr_tracking.php?
 /ctracker/*$domain=~charmtracker.com
 /cui-cookie-policy$domain=congstar.de
 /custom-analytics.js
 /cv/conversion.js
-/cv_pixel.
-/cvborder.gif?
+/cv_pixel.js
 /cwTRACK.js
-/cx-tracking.
+/cx-tracking.js
 /cx_tracking.js
 /cxense-candy.js
 /cxense-entitlement.js
 /cxense/cx.js
-/cxf-tracking
+/cxf-tracking@
 /d.gif?
 /d1VisitsCounter.
 /data-consent.$domain=stadtwerke-luebz.de
