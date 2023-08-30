@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-30 09:01:39（北京时间） 
-! Total count: 128398
+! Version: 2023-08-30 20:20:32（北京时间） 
+! Total count: 128361
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16309,14 +16309,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /NielsenData/*
 /NielsenTracking.
 /NitroCookies.js
-/Omniture/Tracking/*
-/OmnitureAkamai.
-/OmnitureAnalytics.
-/OmnitureTracking_
-/OpinionLab_Tag.
 /Optimost/*
-/OptimostFooter.
-/OptimostPageCode.
 /OtAutoBlock.js
 /PBSTrackingPlugIn.
 /PKAnalytics.
@@ -16402,7 +16395,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /TrackViews/*
 /TrackVisitors/*
 /TrackWebPage?
-/Tracking/TrackPage
 /Tracking?id=
 /Tracking?t=
 /TrackingCookieCheck.
@@ -16575,6 +16567,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /addons/consent_manager/*
 /addpageview/*
 /adds/counter.js
+/adf-tm-base-min.js
 /adjs
 /adlogger.
 /adm_tracking.js
@@ -17332,7 +17325,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /comscore-min.js
 /comscore-pageview-
 /comscore/pageview_
-/comscore/streamsense.
 /comscore?
 /comscore_beacon/*
 /comscore_pageview
@@ -19068,39 +19060,28 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ocount.php
 /ocounter.
 /odoscope.js
-/oewa_pixel_
 /oil$domain=tv2.dk
-/olx/tracker.
 /om-gdpr-cookie-consent.js
 /om.gif?
 /om_cookie_main.js
-/om_ctrack.
 /om_tracking_
-/omni-tracking.
-/omniture-scode-prod.
-/omniture.do;
+/omni-tracking.min.js
 /omniture/script.
-/omniture/sphere
 /omniture/tracking.
 /omniture/uuid.
-/omniture/visitorapi.
+/omniture/visitorapi.js
 /omniture?
-/omnitureAMP.
 /omniture_tracking.
 /omniunih.js
-/oms_analytics_
 /onedot.php?
 /onestat.js
 /onetag/*
 /onl/track.php?
 /onlinecount.php
 /onlinemanufaktur-cookie-notice/*
-/onsitegeo.
-/onstuimig-tag-
 /onstuimig-tag-manager/base/adf-tm-base-min.js
 /opbox-gdpr-consents/*
 /opbox-rodo-consent-modal/index
-/opdc.gif?
 /opdc.js
 /open.aspx?
 /open.html?$image
@@ -19108,27 +19089,15 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /opens.jscrambler.com/*$image
 /opentag-
 /opentag/*
-/openxblank.gif?
-/openxtargeting.js
 /opinionlab.js
 /optInCookies.min.js
 /optiextension.dll?$script
-/optimization-perf.js
 /optimizelyjs/*
 /optimost-
 /optimost.
-/optimostBody1.
-/optimostBody2.
-/optimostHeader.
-/optimostHeader1.
-/optimostHeader2.
 /optimost_
-/optimostfoot.
-/optimosthead.
-/optimosthead/*
 /optmzly/*
 /orejime.js
-/ositTracker.
 /ossleads_analytics.js
 /otBannerSdk.js$domain=dhl.com|gusto.at|mintos.com|thetrainline.com|pons.com|coca-cola-deutschland.de|avast.com|avg.com|washingtonpost.com|mendeley.com|coca-cola.pl|coca-cola.co.uk|coca-cola.dk|technics.com|fyens.dk|mtb-news.de|rennrad-news.de|emtb-news.de|springerprofessional.de
 /otBannerSdk.js$domain=winfuture.de
@@ -20251,15 +20220,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracker_pixel.
 /trackerpixel.js
 /trackga.
-/trackhandler.ashx?
-/trackimage/*
 /trackimps?
 /tracking-analytics-
 /tracking-cookie.
 /tracking-events.js
-/tracking-hits.
 /tracking-info.gif?
-/tracking-init.
 /tracking-links.js
 /tracking-opt-in.min.js
 /tracking-permission-dialog.js
@@ -20269,24 +20234,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracking.fanbridge.com/*
 /tracking.jsp?sid=
 /tracking.srv2.de/op/*$image
-/tracking/?ID=
-/tracking/?c_
-/tracking/addview/*
-/tracking/adobe.js
-/tracking/adobe/*
 /tracking/airdog
-/tracking/beacon/?
-/tracking/click?
-/tracking/clicks
 /tracking/common.
-/tracking/comscore/*
-/tracking/cookies/*
-/tracking/create?
-/tracking/digitalData.
+/tracking/digitaldata.js
 /tracking/email.php
 /tracking/events/*
 /tracking/events?
-/tracking/fingerprint/*
 /tracking/freewheel/*
 /tracking/impression
 /tracking/ipify
@@ -20297,10 +20250,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracking/open?
 /tracking/pageview.
 /tracking/pixel.
-/tracking/pixel_
 /tracking/referrer?
 /tracking/thirdpartytag.js
-/tracking/ts?
+/tracking/trackpageview
 /tracking/user_sync_widget?
 /tracking/views/*
 /tracking/xtcore.
@@ -52445,6 +52397,7 @@ zyro.com##.zyro-cookies
 ||awstrack.me^
 ||awstrack.me^$third-party
 ||awsurveys.com^
+||awswaf.com^$third-party
 ||awtks.com^
 ||awtqbjylk.com^
 ||awuapj.landwatch.com^
@@ -65167,6 +65120,7 @@ zyro.com##.zyro-cookies
 ||dopor.info^
 ||doppiocdn.com/healthcheck
 ||doppiocdn.org/healthcheck
+||doppler-beacon.cbsivideo.com^
 ||doppler-beacons.cbsivideo.com^
 ||doppler-reporting.cbsivideo.com^
 ||doprinplupr.com^
@@ -68504,6 +68458,7 @@ zyro.com##.zyro-cookies
 ||eseemyresumef.xyz^
 ||esefurthere.buzz^
 ||esescvyjtqoda.xyz^
+||esfbs.com/site/stat?
 ||esgher.fun^
 ||esgher.site^
 ||eshaurie.xyz^
@@ -68911,6 +68866,7 @@ zyro.com##.zyro-cookies
 ||events.nuance.com^
 ||events.ocdn.eu^
 ||events.onet.pl^
+||events.paramount.tech^
 ||events.pingan.com^
 ||events.practo.com^
 ||events.prd.api.max.com^
@@ -70597,6 +70553,7 @@ zyro.com##.zyro-cookies
 ||flowerstreatment.com^$third-party
 ||flowerycreature.com^
 ||floweryfact.com^
+||floweryfact.com^$third-party
 ||floweryflavor.com^
 ||floweryflavor.com^$third-party
 ||floweryoperation.com^
@@ -91933,6 +91890,7 @@ zyro.com##.zyro-cookies
 ||ningtoldrop.ru^
 ||ningukmodu.one^
 ||ninja.akamaized.net^
+||ninja.data.olxcdn.com/ninja-olxba.js
 ||ninja.onap.io^
 ||ninjacat.io^
 ||ninjacat.io^$third-party
@@ -101147,6 +101105,7 @@ zyro.com##.zyro-cookies
 ||reportlog.dftoutiao.com^
 ||reports-api.sqreen.io^
 ||reports-tsi.tangerine.io^
+||reports.hibu.com^
 ||reports.pagesuite-professional.co.uk^
 ||reports.sdiapi.com^
 ||reports.tunein.com^
@@ -102332,6 +102291,7 @@ zyro.com##.zyro-cookies
 ||rtbtrail.com^
 ||rtbxnmhub.com^
 ||rtbxnmlive.com^
+||rtc.hibuwebsites.com/feature/metrics
 ||rtc.multiscreensite.com^
 ||rtcegcp.cn^
 ||rtclx.com^
@@ -116792,6 +116752,7 @@ zyro.com##.zyro-cookies
 ||tracking.changehealthcare.com^
 ||tracking.chem-agilent.com^
 ||tracking.chilipiper.com^
+||tracking.christianpost.com^
 ||tracking.coldspringusa.com^
 ||tracking.compactappliance.com^
 ||tracking.connect.nicklaushealth.org^
@@ -117805,6 +117766,7 @@ zyro.com##.zyro-cookies
 ||trribbup.xyz^
 ||trrsf.com.br/metrics/
 ||trrsf.com/metrics/
+||trsbf.com/static/fbs.min.js
 ||trskwvl.com^
 ||trslw.cn^
 ||trstplse.com^
@@ -126114,6 +126076,7 @@ zyro.com##.zyro-cookies
 ||yext-pixel.com^
 ||yext-pixel.com^$third-party
 ||yext.com/plpixel?
+||yextevents.com^$third-party
 ||yeyemo4.com^
 ||yezilm.com^
 ||yf5.voyage-prive.at^
