@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-08-31 09:02:05（北京时间） 
-! Total count: 128366
+! Version: 2023-08-31 20:20:36（北京时间） 
+! Total count: 128356
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17588,7 +17588,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /count.png?
 /count/count.cgi?
 /count?pid=
-/countHits.
 /count_js.
 /count_stats/*
 /countbk.
@@ -17620,10 +17619,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /counter_2.php?
 /counter_3.php
 /counter_access.php
-/counter_image.gif?
-/counter_liveinternet.
-/countercgi.
-/countertab.js?
+/countertab.js
 /countinj.cgi?
 /countly.js
 /countly.min.js
@@ -17633,18 +17629,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cp.gap.com/o/*$image
 /cp01.js$domain=jzzo.com
 /cp_cookieconsent.js
-/cpeEvent.
-/cpeEventTracking.
 /cpol/cookiepolicy.php
 /cpresources/cookieconsent/js/cookies.min.js
-/cqcounter.
 /create-lead.js
 /criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com
 /criteoRTA.
 /criteo_
-/cross-domain-cookie?
 /crypta.js
-/csct.js
 /csi?v=*&action=
 /csi?v=*&action=$domain=tellows.de
 /csi?v=2&s=
@@ -17653,7 +17644,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /csp_204?
 /csp_log?
 /cta-loaded.js
-/ctd-sourcepoint.
 /ctd-tealium.
 /ctr_tracking.php?
 /ctracker/*$domain=~charmtracker.com
@@ -18291,7 +18281,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hm.html?s=*=http
 /hm.js?$third-party
 /hmapxy.js
-/hnpprivacy-min.
+/hnpprivacy-min.js
 /hockeystack.min.js
 /homeCounter.
 /honeybadger.js$third-party
@@ -18311,7 +18301,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /i?siteid=
 /i?stm=
 /iCookie/*$domain=h-supertools.com
-/iMAWebCookie.
+/iMAWebCookie.js
 /i_CookieConsent.js
 /ibeat.min.js
 /ibeugdpr.min.js
@@ -18321,17 +18311,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /icf-analytics.js
 /ico_cookies.js
 /id?d_visid_
-/ident/hit.js
-/identify?data=
-/identify?fp=
-/idg_clarity.
 /idgy_gdpr.js$domain=metallumnovum.lt
-/iframe-tracker.js
-/iframe.tracker.js
-/iframetracker.
 /ilovecookies.min.js
 /image.ng/*
-/imageTracking.
 /img?eid=
 /imgcount.cgi?
 /imgcount.php?
@@ -18431,6 +18413,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /jquery.cookiekit.js$domain=dgeg.gov.pt
 /jquery.cookiesdirective.js$domain=~servizionline.gruppoascopiave.it
 /jquery.google-analytics.
+/jquery.iframetracker-
+/jquery.iframetracker.
 /jquery.ihavecookies.$domain=~wisla-plock.pl|~danskemedier.dk
 /jquery.rgpd-cookies.js
 /jquery.tipsy.cookie.js
@@ -49638,6 +49622,7 @@ zyro.com##.zyro-cookies
 ||analytics-sg.tiktok.com^
 ||analytics-ssl.allconnect.com^
 ||analytics-ssl.bradyid.com^
+||analytics-stamp.confi.com.vc^
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics-tracking.meetup.com^
 ||analytics-zone-1.api.leadfamly.com^
@@ -49893,6 +49878,7 @@ zyro.com##.zyro-cookies
 ||analytics.shareaholic.com^
 ||analytics.shop.hisense.com^
 ||analytics.shopncaasports.com^
+||analytics.shorte.st^
 ||analytics.silktide.com^
 ||analytics.sitewit.com^
 ||analytics.sixfigureswine.com^
@@ -68075,6 +68061,7 @@ zyro.com##.zyro-cookies
 ||engine64.com^
 ||engine64.com^$third-party
 ||enginedriverhaw.com^
+||engineering.com/scripts/$script,domain=eng-tips.com
 ||engineertrick.com^
 ||engineseeker.com^
 ||enginey.altex.ro/events/
@@ -70219,6 +70206,7 @@ zyro.com##.zyro-cookies
 ||finallysuburblaunching.com^
 ||finance-hot-news.com^
 ||finance2you.org^
+||financefear.com^
 ||finbiznews.com^
 ||fincbiqavgoe.com^
 ||finchesvaster.website^
@@ -94516,6 +94504,7 @@ zyro.com##.zyro-cookies
 ||ovsliqrcwqsqfxf.xyz^
 ||ovsrhikuma.com^
 ||ovvwunawrt.com^
+||ovyerus.com/js/script.js
 ||ovyondkggnqhmt.xyz^
 ||ow.biqugego.com^
 ||ow.s1.shuhuangge.org^
@@ -113937,6 +113926,7 @@ zyro.com##.zyro-cookies
 ||thalto.com^
 ||thalubse.net^
 ||thaninncoos.com^
+||thank-you.io^$third-party
 ||thankful-conference.pro^
 ||thanks.olivesitter.com^
 ||thanks.tsubaki-musicschool.com^
