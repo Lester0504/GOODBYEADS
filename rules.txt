@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-04 09:02:27（北京时间） 
-! Total count: 128562
+! Version: 2023-09-04 20:20:54（北京时间） 
+! Total count: 128539
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15261,6 +15261,7 @@
 ##[src='/images/c_l.png']
 ##[src='http://m.guangzhoubingqing.com/88888.jpg']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
+##[src^="https://img.sobot.com/chatres/"][title="sb"]
 ##[src^='/MDassets/images/']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/banners/pr_advertising_ads_banner']
@@ -15593,6 +15594,7 @@
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
 ##div.ad-area > [href]
 ##div.ad-frame-container
+##div.am-gallery-item > a
 ##div.appad
 ##div.bf_qy DIV.copy_div_btn
 ##div.callApp_fl_btn.an
@@ -16297,7 +16299,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /NNAnalytics.
 /NNAnalytics/*
 /NNAnalyticsWPSites.
-/NavMultiTracking.
 /Nielsen.v53.
 /Nielsen53.
 /NielsenAnalytics.
@@ -16849,6 +16850,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /app/get*?t=*http$third-party
 /app/market/*/%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%8%A8.apk
 /appGoogleTagManager-
+/appdynamics/adrum-
 /appinsightor.min.js
 /apprise$domain=podrozerowerowe.info
 /aptrk.js
@@ -18861,71 +18863,40 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mormont.js
 /mouseover-tracker.
 /mpel/mpel.js
-/mpf-mediator.
 /mpixel.js
-/mpl/mpulse.
 /mpulse.js
 /mpulse.min.js
 /mq_cookieconsent/*
 /ms.analytics-
-/msftaudience.
 /msmCookieConsent.js$domain=moneysupermarket.com
 /mstat/*
 /mstats.
-/mstrack/*
-/mt.gif?
 /mtc.js
-/mtiFontTrackingCode.
-/mtrack.nl/js/*
+/mtiFontTrackingCode.js
 /mtracking.
-/mttag/*
 /mtvi_reporting.js
-/mvTracker.
-/mv_Visit2.
 /mwTag.js
 /mws-cookie-solution.min.js
-/myImage.track?
 /myTracking.js
-/mycounter/counter_in.php?
-/myopslogger.
-/mystats.asp?
-/mystats/track.js
 /mystats2.px?
 /nLoggerJB_
 /nStat/*
 /naLogImpressions?
-/natero_analytics.
+/natero_analytics.min.js
 /nativendo.js
 /navbar-analytics.js
-/naveggQry-
 /naytev.min.js
-/nbc-stats/*
 /ncj-pixel.js
-/ncp/checkBrowser?
-/nct.php?nid=
 /nedstat.
 /neilson.js
-/neo/analytics/*
 /neocounter.
 /neocounter/*
-/netconversions.
-/netcounter?
-/netgraviton.net/*
-/netizen_track.
-/netmind-$script
 /netmining.js
-/netratings.js
 /netresults.js
-/netrum.
-/netstat.
-/nettracker.js
-/nettracker/*
-/netupdate/live.php?
-/neustar.beacon.
+/neustar.beacon.js
 /new-client/trackers.
 /new-cookie-policy.
 /new-relic.$~stylesheet
-/new.cnt.aspx?
 /newCookieChoice.js$domain=vape-phone.fr
 /newSophus/*
 /new_Cookiebanner.js
@@ -29585,7 +29556,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||lightning.bleacherreport.com^*/launch-$~third-party
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
-@@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,third-party
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
@@ -49794,6 +49764,7 @@ zyro.com##.zyro-cookies
 ||analytics.nascar.com^
 ||analytics.naturequant.com^
 ||analytics.ncaa.com^
+||analytics.neoogilvy.uy^
 ||analytics.netshops.com^
 ||analytics.newscred.com^
 ||analytics.nike.com^
@@ -84042,8 +84013,9 @@ zyro.com##.zyro-cookies
 ||listing-a8-itp.hello-storage.com^
 ||listingcafe.com^
 ||listlog.baofeng.net^
+||listrakbi.com/activity/
+||listrakbi.com/api/ActivityEvents/
 ||listrakbi.com^
-||listrakbi.com^$third-party
 ||lists.ccmbg.com^
 ||lit.connatix.com^
 ||lite-cdn.com^
@@ -89745,6 +89717,7 @@ zyro.com##.zyro-cookies
 ||mockingfish.com^
 ||mockingfish.com^$third-party
 ||mocmubse.net^
+||moco.yukata.dev/get/$image,third-party
 ||modanisa.com/al/j/analytics.js
 ||moddersithen.com^
 ||modelsgonebad.com^
@@ -91513,6 +91486,7 @@ zyro.com##.zyro-cookies
 ||netsolads.com^
 ||netsop.cn^
 ||netstam.com^
+||netstat.yunnan.cn^
 ||netstats.dk^
 ||netstats.dk^$third-party
 ||nettlyphosis.com^
@@ -109811,6 +109785,7 @@ zyro.com##.zyro-cookies
 ||ssstuitui1999.com^
 ||sssvd.china.com^
 ||sssxwsry.com^
+||sstats.adobe.com^
 ||sstats.cotswoldoutdoor.com^
 ||sstats.daicompanies.com^
 ||sstats.deloitte.com^
@@ -116906,6 +116881,7 @@ zyro.com##.zyro-cookies
 ||tracking.care.salinasvalleyhealth.com^
 ||tracking.carsales.com.au^
 ||tracking.cat898.com^
+||tracking.cdiscount.com^
 ||tracking.cengage.com^
 ||tracking.cerdmann.com^
 ||tracking.changehealthcare.com^
@@ -122751,6 +122727,7 @@ zyro.com##.zyro-cookies
 ||wellmov.com^
 ||wellness.palomarhealth.org^
 ||wellnesszap.com^
+||wellsfargo.com/as/jsLog
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
 ||wellsfargo.com/tracking/
