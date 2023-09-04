@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-03 20:24:16（北京时间） 
-! Total count: 128561
+! Version: 2023-09-04 08:50:20（北京时间） 
+! Total count: 128563
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15174,6 +15174,7 @@
 ##IMG[src*='qmfcybwbf']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
+##IMG[style='height:120px;width:100%;'][src*='/sucai/']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##INS.adsbygoogle
@@ -15592,6 +15593,7 @@
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
 ##div.ad-area > [href]
 ##div.ad-frame-container
+##div.am-gallery-item > a
 ##div.appad
 ##div.bf_qy DIV.copy_div_btn
 ##div.callApp_fl_btn.an
@@ -16129,6 +16131,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .zippingcare.com/beacon/$image
 /*/*.add.*.add
 /*_*_aubi.js$third-party
+/.webscale/rum?
 /.well-known/shopify/monorail
 /0.gif?
 /0c.gif?
@@ -16991,6 +16994,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /bicomscore.
 /bicomscore_
 /bigREDcat.js?$third-party
+/bigREDdog.css?
 /bineos.min.js
 /bing-bat.js
 /bingimpression?
@@ -18923,10 +18927,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /new-cookie-policy.
 /new-relic.$~stylesheet
 /new.cnt.aspx?
-/new/2*.html
-/new/4*.html
-/new/5*.html
-/new/8*.html
 /newCookieChoice.js$domain=vape-phone.fr
 /newSophus/*
 /new_Cookiebanner.js
@@ -19657,6 +19657,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sensorsdata.$domain=~sensorsdata.cn
 /sentry-browser.
 /sentry-logger.js
+/sentry/bundle.min.js
 /seo.taCo.min.js
 /seostats/*
 /seotracker/*
@@ -29628,7 +29629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||motika.com.mk/wp-content/plugins/ajax-hits-counter/display-hits.rapid.php$~third-party
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
-@@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
+@@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|gymshark.com|motortrendondemand.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
 @@||munchkin.marketo.net/munchkin.js$domain=telus.com
@@ -29953,7 +29954,6 @@ CheckCookiePolicy*$domain=remixshop.com
 CookieAccept/affirmation.js
 Mplay/kk1.js
 _/bigREDcat.css?
-_/bigREDdog.css?
 _/bigREDdog.js
 _Clicktale.
 _WebVitalsReporter_
@@ -43209,6 +43209,7 @@ zyro.com##.zyro-cookies
 ||9857064.hello.spriggy.com.au^
 ||9857064.notice.spriggy.com.au^
 ||9868.online^
+||986qka.cn^
 ||9876.cc^
 ||98765432100.online^
 ||98765432100.site^
@@ -64200,6 +64201,7 @@ zyro.com##.zyro-cookies
 ||digg.analytics.live.com^
 ||digg.com/library/tracker.js
 ||diggtp001.com^
+||digi-ping.com^
 ||digiad.co^
 ||digiadzone.com^
 ||digianalytics.airtel.in^
