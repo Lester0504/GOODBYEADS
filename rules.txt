@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-05 09:00:48（北京时间） 
-! Total count: 128195
+! Version: 2023-09-05 20:20:46（北京时间） 
+! Total count: 128207
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -3007,6 +3007,7 @@
 ###apoptin[src*="api.autopilothq"]
 ###apoptin[src*="rapidzebra.io"]
 ###app .cookie-curtain
+###app .pageContainer > div[class*="cookieConsent"]
 ###app > #analytics-consent
 ###app > #consent-panel.legal-consent
 ###app > #cookiesStrip
@@ -5511,6 +5512,7 @@
 ###cookies-aviso
 ###cookies-banner-overlay
 ###cookies-bar
+###cookies-bar-bottom
 ###cookies-bar-en
 ###cookies-bar-etro
 ###cookies-bar-pl
@@ -7332,6 +7334,7 @@
 ###itv-glob-cookie-policy
 ###iubenda-cs-banner ~ #pushiub
 ###iubenda-cs-banner-new
+###iubenda-cs-banner.iubenda-cs-visible
 ###iw-cookie-banner
 ###iw-cookie-message
 ###iwcc-background[data-domain-name]
@@ -9449,7 +9452,6 @@
 ##.GDPR.ng-star-inserted
 ##.GDPRConsent--widget
 ##.GDPRPanel--visible:not(body):not(html)
-##.GDPRPanel-root:not(body):not(html)
 ##.GPCookieDirective:not(body):not(html)
 ##.GRU_BiscuitsAlert-layer
 ##.GdprBanner:not(body):not(html)
@@ -20641,7 +20643,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-powerstat/*
 /wp-rum/*
 /wp-slimstat/*
-/wp-statistics/v2/hit?
+/wp-statistics/v2/*
 /wp-stats-manager/js/wsm_new.js
 /wp-useronline/useronline.
 /wp_stat.php?
@@ -30926,6 +30928,7 @@ bgee.org###bgee_privacy_banner
 bgfermer.bg###cookie-b
 bhaskar.com###db-portal ~ div:not([style]), div[id*="gdpr"], .gdrpOverlay
 bho_infobar.js^$domain=ruecken-zentrum.de
+biancodipuro.ch##.ngcookiewarning
 biathlonresults.com##popup-container
 bib-cclachatrestesevere.net###info_message
 bibleserver.com###CybotCookiebotDialog
@@ -31342,9 +31345,6 @@ calorieking.com##footer ~ .MuiPaper-root
 calorielijst.nl###loading, #loading + .noblur
 calovo.com##.ga-opt-in
 calovo.de##.ga-opt-in
-cam4.com###promptArea
-cam4.es###promptArea
-cam4.fr###promptArea
 camara.net##.activebar-container
 camcom.it###fine
 camelcamelcamel.com###cmp-ui-iframe
@@ -31648,6 +31648,7 @@ cm-fima.com###cookie
 cm.be##.new-notification
 cm.games###cookie
 cmegroup.com###cmePermissionQuestion
+cmo.de##.toast-container
 cmp-loader.choice.faktor.io
 cmp.$domain=telerama.fr|courrierinternational.com|vodkaster.com|svd.se|histoire-et-civilisations.com|malservice.aftonbladet.se|vg.no|tv.nu|tek.no|finn.no|pent.no|godt.no|aftenposten.no|omni.se|e24.no|helthjem.no|minmote.no|aftenbladet.no
 cmp.cdntrf.com
@@ -32838,6 +32839,7 @@ eservice.pl###zwcc
 eset.com###cook, .oks_pp_msgs
 eshop.silicmedia.cz##.box.notify
 esinvesticijos.lt###pre_header
+esjobogarden.se###cookie-consent-modal, .modal-backdrop
 esklep-sbs.pl###cibMessage
 esko-catering.de##.cookie
 esmarket.gr###mstm-cookie
@@ -33151,6 +33153,7 @@ flanco.ro###cc-wrapper
 flane.de##.nagmsg
 flatcast.net##.h_dataprot
 flatme.it###ic
+fler.cz##div[class*="unit-cookies"]
 flertkontakt.com###overlay-content
 fleurop.nl##.app-info
 flevoland.nl##.cookie-consent
@@ -33650,6 +33653,7 @@ graze.com###graze-cookie-message
 grazia-magazin.de##.safeSpaceForClose
 grdf.fr###ckieBnr_banner
 greatis.com###cookie-greatis
+greatone.pl###zamknij_cookies
 grebbeberg.nl###acceptscp2012
 greek-weather.org##.notice-top
 green-circle.co##body > [style*="fixed"]
@@ -35218,6 +35222,7 @@ londontechweek.com##.festival-cookie
 londynek.net###ldnk-cookie
 lonelyplanet.com##.alert, #alert
 long-covid.at###consent
+loombard.pl##.modal[id*="cookieconsent"]
 loot.io###app > main > div:first-child
 lopolis.si##.ui-widget, .ui-widget-overlay
 lordicon.com###cookies
@@ -35720,6 +35725,7 @@ medlibrary.org###cks
 medlon.nl###globalmessage_holder
 medpets.fr##.tw-fixed[ref="cookie-modal"]
 medspa.bg##.popup-policy
+meduza.io##.GDPRPanel-module-root
 mee.com###cboxOverlay
 meetic.fr##.main-frame-bottom-strip
 mega-mania.com.pt##.pl-cookies
@@ -35729,6 +35735,7 @@ megashopbot.com###alertBar
 megasvet.cz##.elementor-popup-modal
 megatest.online##.msg-AdBlock
 megawrzuta.pl##.slickModal.isActive, .notification
+megfoglak.hu##.modal.consent
 megogo.net##[data-widget*="adblockOverlayEnabled"] .notifications
 megustaleer.com##.cookie, .cookie_mobile
 mein-apothekenmanager.de###cn-wrapper
@@ -37206,6 +37213,7 @@ postel.it###postel-cookies
 postermywall.com###user-consent-form
 posti.fi###consent-popup
 postnauka.ru##notifications
+postnl.be##pnl-cookie-wall-widget
 postnl.nl##pnl-cookie-wall-widget
 postoffice.co.uk###app > .absolute.w-full
 postrabbit.pl##.alert-info, .alert-warning, .alert-box
@@ -37534,6 +37542,7 @@ record.com.mx###zone-user-wrapper
 recordplanet.nl##body > div[id^="WG"]
 records.team##.sqs-announcement-bar
 recordsale.de##.personalization-request
+recortelirico.com.br##div[class*="s-gdpr-c-c"]
 recurly.com##.recurly-gdpr
 red-carparts.de###disclaimer
 redaccionmedica.com##.iframe_cookies
@@ -52262,6 +52271,7 @@ zyro.com##.zyro-cookies
 ||awstrack.me^
 ||awstrack.me^$third-party
 ||awsurveys.com^
+||awswaf.com^*/telemetry
 ||awtks.com^
 ||awtqbjylk.com^
 ||awuapj.landwatch.com^
@@ -72100,6 +72110,7 @@ zyro.com##.zyro-cookies
 ||generaltracking.de^$third-party
 ||generationscloveinappropriate.com^
 ||generatorgenuinelyupcoming.com^
+||generic-function-log-data-7il2midpaa-nn.a.run.app^$domain=telus.com
 ||genericlink.com^
 ||genesis.malwarebytes.com^
 ||genesismedia.com^
@@ -110209,6 +110220,7 @@ zyro.com##.zyro-cookies
 ||statistics.riskommunal.net^
 ||statistics.ro^
 ||statistics.ro^$third-party
+||statistics.streamdav.com^
 ||statistics.tattermedia.com^
 ||statistics.tuv.com^
 ||statistics.wibiya.com^
@@ -118095,7 +118107,6 @@ zyro.com##.zyro-cookies
 ||tushwjp.icu^
 ||tuskercampe.life^
 ||tusno.com^
-||tut.by/stat/
 ||tutfuqc.com^
 ||tutorthing.com^
 ||tutsterblanche.com^
@@ -123086,6 +123097,7 @@ zyro.com##.zyro-cookies
 ||wl.xsoftmall.com^
 ||wlafx4trk.com^
 ||wlawpzx.com^
+||wlct-one.de^
 ||wlct-two.de^
 ||wledconsi.xyz^
 ||wlfcwkijsknted.xyz^
@@ -127937,7 +127949,7 @@ zyro.com##.zyro-cookies
 ~ivolta.pl##.cookies_footer:not(body):not(html)
 ~jku.at,~oekolandbau.de,~wu.ac.at###cookieman-modal:not([style])
 ~jobcenter-ge.de,~arbeitsagentur.de##.cookieDialog:not(body):not(html)
-~jobcenter-ge.de,~arbeitsagentur.de,~routershop.nl,~headsetwinkel.nl,~researchaffiliates.com###cookieDialog
+~jobcenter-ge.de,~arbeitsagentur.de,~researchaffiliates.com###cookieDialog:not([aria-modal])
 ~joingoodcompany.nl##.container-cookie:not(body):not(html)
 ~joingoodcompany.nl,~mycall.no###cookie-accept:not(button):not(.btn):not([class*="button"])
 ~jostchemical.com##.privacy-banner:not(body):not(html)
