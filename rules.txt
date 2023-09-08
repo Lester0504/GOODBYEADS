@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-07 20:27:20（北京时间） 
+! Version: 2023-09-08 08:49:29（北京时间） 
 ! Total count: 128186
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -29091,7 +29091,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/event
-://utm.$domain=~utm.akindi.com|~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.lol|~utm.md|~utm.openskies.sh|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
 ://www.vinted.*/relay/events
 :8007/*/*?is_not=
 :8008/*/*?is_not=
@@ -66747,6 +66746,7 @@ zyro.com##.zyro-cookies
 ||eb5232b35d.com^
 ||ebannertraffic.com^
 ||ebay.com/delstats/
+||ebay.com/gh/dfpsvc?
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebay.com^*/customer_image_service?
 ||ebayadservices.com/marketingtracking/
