@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-09 09:00:04（北京时间） 
-! Total count: 128462
+! Version: 2023-09-09 20:18:13（北京时间） 
+! Total count: 128447
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16220,7 +16220,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /CookieWall/clb.js$domain=innogy.pl
 /CookiesDirective
 /CookiesManager/CookiesManager.js
-/CountContent?
 /Counter.ashx?
 /CreateAnalytics.js
 /CreateCookieSSO_
@@ -17567,26 +17566,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /count/count.cgi?
 /count?pid=
 /count_js.
-/count_stats/*
-/countbk.
 /counter-js.php
 /counter.asp?
 /counter.aspx?
 /counter.cgi/*
 /counter.cgi?
-/counter.do?
 /counter.js.php
-/counter.lt?
 /counter.php?chcounter_mode=
 /counter.php?width=
 /counter.pl?
-/counter.visit?
 /counter/acnt.php?
-/counter/action_
-/counter/article?
-/counter/ashow/*
 /counter/collect?
-/counter/ct.php?
 /counter/stat.
 /counter/views/*
 /counter1.gif?
@@ -17601,7 +17591,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /countinj.cgi?
 /countly.js
 /countly.min.js
-/countpixel.
+/countpixel.asp
 /countstat.php?
 /countus.php
 /cp.gap.com/o/*$image
@@ -17622,9 +17612,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /csp_204?
 /csp_log?
 /cta-loaded.js
-/ctd-tealium.
 /ctr_tracking.php?
-/ctracker/*$domain=~charmtracker.com
 /cui-cookie-policy$domain=congstar.de
 /custom-analytics.js
 /cv/conversion.js
@@ -17641,15 +17629,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /data-consent.$domain=stadtwerke-luebz.de
 /data.mistat.
 /data_collect.js
-/datacapture/track
 /datacollectionapi-client/*
 /datadome/*
-/dataunlocker-prod.
+/dataunlocker-prod.js
 /dataunlocker.js
 /datawrapper.gif?
 /datenschutz.min.js
-/dbdm-events.
-/dbdm-events/*
 /dc-cookie-privacy-settings.min.js
 /dc_components/site/cookie-control/*
 /dcjs/prod/*
@@ -17662,9 +17647,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /demdex.js
 /demdex/*
 /detm-container-
-/device-fingerprint.
 /dg-governance/*$domain=nytimes.com|inyt.com
-/dg/default/cs?
 /dgsvo/script.js
 /dh-analytics-prod/*
 /dh-anti-adblocker/*
@@ -36738,6 +36721,7 @@ overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
 ovplaza.nl##.cookie-consent
+ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -69959,6 +69943,7 @@ zyro.com##.zyro-cookies
 ||fengying5.com^
 ||fengyukun03.cn^
 ||fengyx.com^
+||fenix.walkerllaw.org^
 ||fenixm.com^
 ||fenqihome.com^
 ||fensi.plus^*/tracking/
