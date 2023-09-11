@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-11 09:03:01（北京时间） 
-! Total count: 128848
+! Version: 2023-09-11 20:21:11（北京时间） 
+! Total count: 128847
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -2433,7 +2433,6 @@
 ###GruUiWrapper.GRU_banner
 ###GruUiWrapper.GRU_modal
 ###HCECookieManagerContainer
-###HFS_CookieHint
 ###HFS_CookieHintBg
 ###HGLCookieWarning
 ###Header-react-component [class*="cookie-banner"]
@@ -2957,7 +2956,6 @@
 ###allow-cookie-bar
 ###allow-cookie-container
 ###allow-cookie-message
-###allow-cookies
 ###allow-cookies-popup
 ###allowCookieDiv
 ###allowCookieMsg
@@ -8753,7 +8751,7 @@
 ###snippet--cookieSettings
 ###snippet--cookies
 ###snippet-cookieAllow-cookieAllow
-###snippet-cookieControl-cookieInfo
+###snippet-cookieSettings-cookieInfo
 ###snippet-cookiesAgreementControl-bar
 ###snippet-cookiesConsent-cookiesconsent
 ###social-opt-in[data-imprint-privacy-url]
@@ -11508,6 +11506,7 @@
 ##.cookie__consent[style*="display"]
 ##.cookie__floating--bottom
 ##.cookie__floating--bottom-right
+##.cookie__floating--top-right
 ##.cookie__message:not(body):not(html)
 ##.cookie__modal.modal-bottom
 ##.cookie__notice
@@ -12967,6 +12966,7 @@
 ##.gdpr_cookie_banner:not(body):not(html)
 ##.gdpr_cookie_bar:not(body):not(html)
 ##.gdpr_cookie_bar_cont
+##.gdpr_cookie_notice
 ##.gdpr_cookies
 ##.gdpr_disclaimer
 ##.gdpr_gdpr-composer-panel__toolbar
@@ -30567,7 +30567,6 @@ automobilwoche.de###ccm
 autoreflex.com###legal
 autoreisen.com##.cookie
 autoscuolacatelli.it###d_cook
-autosecurite.be###cookie-law-info-bar
 autosjbperformance.fr##.cekomeadsbottom
 autosolar.es##.cookie-configuration
 autotask.com##.alertbar
@@ -30995,6 +30994,7 @@ blog.mega-energie.fr###cookiesModal
 blog200porcento.com###consent_200
 blog2social.com##.cookie-cover
 blogfree.net##body > .jnote
+blogger.com##div[data-noticekey*="EuCookieNotice"]
 blogs-r.com##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 blogs.timesofisrael.com###message, .message
 blokas.io###__layout > div .bg-success
@@ -32751,7 +32751,6 @@ eportugal.gov.pt###section-cookies
 epravda.com.ua###checkUPcookies
 epresse.fr##.cookies
 epri.com##.cookie-sheet, .md-scroll-mask
-equalexchange.co.uk###cookie-law-info-bar
 era.int###__COOKIE_CONFIRM__
 eralsolution.com###stato
 ercomer.pl###cookie
@@ -32846,6 +32845,7 @@ europe-pharm.com##.ep_cookies
 eurosender.com###__next > div[class*="container"]
 eurosportplayer.com###app div[class^="cookie-policy"]
 eurozine.com##.cookies
+euskadi.eus###cookies-block
 eutelsat.com###header_higher
 eutraining.eu###eutraining-cookibar
 evai.pl###cffc
@@ -33724,7 +33724,6 @@ hansaplast.es###popup, .popup
 hansaplast.hu###popup, .popup
 hansaplast.it###popup, .popup
 hansaplast.nl###popup, .popup
-hanse-haus-greifswald.de###cookie-law-info-bar
 hansvanwijk.nl###cookiewall-modal
 hanyu.baidu.com###J_Suspens
 hanyu.baidu.com###download-wrapper
@@ -34255,7 +34254,6 @@ intermarche.be##.cookies
 internationalchips.com##.ba
 internationale-computerspielesammlung.de##.mod_lafli_notification_bar
 internet-law.ru###fab-enabled
-internetpasoapaso.com###cookie-law-info-bar
 internetspeedtracker.com###gpdr, #GPDR, #gdpr, #GDPR
 internxt.com##div[class*="cookiesBgFallback"]
 interred.de###cookieconsentmodal
@@ -37064,7 +37062,6 @@ pobieralnia.org###close
 pocketracy.com##.dsclmr
 podatnik.info##.p14-footer > div:not([class])
 podbean.com##body > div:not([id]):not([class])
-podcaliptus.com###cookie-law-info-bar
 podchaser.com###app > div > div:last-child:not(:only-of-type)
 podcloud.fr###rgpd-modal
 podcrto.si###cc-note
@@ -37249,7 +37246,6 @@ profiloptik.dk##.message-large
 proglib.io###cookie
 programiz.com##.privacy-policy
 programyzadarmo.net.pl##.notice--primary
-prohardver.hu###accept-container
 prohibita.pl##.ciachbtm-wrap-container
 projects.newforma.com##.banner, #banner
 promet.si###REALISCCBAR
@@ -38455,7 +38451,6 @@ square-enix.com##div[class^="notice_Notices"]
 squarehabitat.fr##.TelerikModalOverlay, div[id*="Rgpd"]
 squash4you.pl###cookie
 srazenazver.cz##.cookies
-srf.ch##.personalizationMessageWrapper
 ssangyong.es###eltexto
 ssi.dk##.cookie
 sslmarket.de###cookiesModal
@@ -39128,6 +39123,7 @@ tomford.co.uk##.ui-widget-overlay, .newsletter-signup
 tomtom.com###themeFooter, div[data-component-name="Footer"] ~ .fixed
 toner-dumping.de##.js--overlay
 toner.shop##.CookiesOk
+tonerlagret.se##.cookie-cutter
 tonerpartner.cz##.CookiesOk
 tonhalle.de###CookieModal
 tonies.com###cookies
@@ -39623,7 +39619,6 @@ veritas-shop.com##body > form
 veritasbooksonline.com##.notice-wrap
 verkeerplaza.nl##.cookie-consent
 verkehrsinformation.de##.growl-bottom .alert
-verkkokauppa.com##.vk-cookie-notification
 verktygsboden.se##header > div:nth-child(2) .sd-surface-subtop > .sd-object-if
 verkuendung-bayern.de##.vkp-cookie-message
 versace.com##.first-visit-banner
@@ -43128,6 +43123,7 @@ zyro.com##.zyro-cookies
 ||99997aaa.com^
 ||99999999.club^
 ||999d.com^
+||999gg.net^
 ||999pro.top^
 ||99click.com^
 ||99counters.com^
@@ -58077,6 +58073,7 @@ zyro.com##.zyro-cookies
 ||cictivesmuha.xyz^
 ||cidbulmkwtaxe.xyz^
 ||cidhdgv.xyz^
+||cidrap.umn.edu/core/modules/statistics
 ||cieh.mx^
 ||cifaumsy.net^
 ||cifflattie.com^
@@ -83126,6 +83123,7 @@ zyro.com##.zyro-cookies
 ||lessonpunk.com^
 ||lessplay.com^
 ||lestv1.icu^
+||lestv10.icu^
 ||let1.devialet.com^
 ||letao.com^
 ||letaotaojishi.com^
@@ -128671,7 +128669,7 @@ zyro.com##.zyro-cookies
 ~odenserundt.dk###cookie-gdpr
 ~oead.at,~kalenderwoche.de,~hawle.de,~pruadviser.co.uk,~unikrn.com,~rappjmed.ch,~biblioteka.wroc.pl,~makelaarsland.nl###cookie-notice
 ~officiallondontheatre.com,~coolmath.com##.gdpr-overlay:not(body):not(html)
-~okto.tv,~bhw.de,~dslbank.de,~metro.de,~metro.fr,~metro.at,~metro.hu,~metro.bg,~makro.nl,~axa-im.fr,~pronovabkk.de##.cookie-disclaimer:not(body):not(html)
+~okto.tv,~bhw.de,~dslbank.de,~axa-im.fr,~pronovabkk.de##.cookie-disclaimer:not(body):not(html)
 ~onleihe.de,~onleihe.com,~faircore4eosc.eu,~wuestenrot.at###cookiePopup
 ~onwebchange.com,~timeout.com,~timeout.fr,~timeout.cat##.cookie_banner:not(body):not(html)
 ~openjobmetis.it###cookie_msg:not(.idcac)
@@ -128708,6 +128706,7 @@ zyro.com##.zyro-cookies
 ~rappjmed.ch,~biblioteka.wroc.pl##.cookie-notice-container
 ~readly.com,~ikb.at,~contentkingapp.com,~volkswagen-newsroom.com,~g-star.com,~mega.io,~mega.nz,~kh.hu,~mietz.app,~danbolig.dk##.cookie-dialog:not(body):not(html)
 ~realm667.com###redim-cookiehint
+~reiseauskunft.insa.de###HFS_CookieHint
 ~resources.techcommunity.microsoft.com###catapult-cookie-bar
 ~rituals.com##.cookie-bar-wrapper:not(body):not(html)
 ~riverisland.com##.cookie-consent__overlay ~ .cookie-consent
@@ -128739,6 +128738,7 @@ zyro.com##.zyro-cookies
 ~skfbearingselect.com##.privacy-notice:not(.form-text):not(html)
 ~snowthority.com###usercentrics-button
 ~sonchek.com##.cookie_notice_wrapper
+~sovendus.com,~sternwarte-muenchen.de###BorlabsCookieBox
 ~sparda.de,~sparda-n.de,~sparda-bw.de,~sparda-hessen.de,~sparda-west.de##.cookieLayer:not(body):not(html)
 ~spilger.de##.cookiebar:not(body):not(html):not(button):not(#page):not(.content-section)
 ~sportsbikeshop.co.uk###cookie_policy
@@ -128750,7 +128750,6 @@ zyro.com##.zyro-cookies
 ~starmoney.de##.tx-om-cookie-consent
 ~statik.be###cookiebanner-overlay
 ~statik.be,~mym.fans,~duvel.com,~freo.nl##.cookie__wrapper:not(body):not(html)
-~sternwarte-muenchen.de,~sovendus.com###BorlabsCookieBox
 ~stilord.pl,~stilord.it,~stilord.es,~stilord.de,~stilord.fr,~stilord.com##.cookie-info-box:not(body):not(html)
 ~stilord.pl,~stilord.it,~stilord.es,~stilord.de,~stilord.fr,~stilord.com##.widget-cookie-bar
 ~stilord.pl,~stilord.it,~stilord.es,~stilord.de,~stilord.fr,~stilord.com,~stromnetz-hamburg.de,~epochtimes.fr,~clasohlson.com,~cafe-royal.com,~rituals.com##.cookie-bar:not(body):not(html)
@@ -128766,7 +128765,7 @@ zyro.com##.zyro-cookies
 ~svenskakyrkan.se##.cookies-message-container
 ~svenskakyrkan.se##.cookies__bar
 ~svt.se,~app.revolut.com,~readly.com,~dunelm.com###root div[class*="CookieConsent"]:not([class*="modal"]):not([class*="root"])
-~swedbank.com,~sevdesk.de,~sevdesk.at,~metro.de,~metro.fr,~metro.at,~metro.hu,~metro.bg,~makro.nl##.cookie-banner-overlay
+~swedbank.com,~sevdesk.de,~sevdesk.at##.cookie-banner-overlay
 ~swedbank.se,~sparbankentanum.se###cookie-consent-dialog
 ~swedbank.se,~sparbankentanum.se##div[data-cookie-banner]:not([class*="modal"])
 ~swrag.de###cookie-layer[style*="display"]
