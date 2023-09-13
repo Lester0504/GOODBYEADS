@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-12 20:27:16（北京时间） 
-! Total count: 128851
+! Version: 2023-09-13 08:51:08（北京时间） 
+! Total count: 128862
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -8588,6 +8588,7 @@
 ###root div[data-testid*="cookie-message"]
 ###root div[data-testid*="cookies-banner"]
 ###root div[data-testid*="cookies-overlay"]
+###root div[data-testid*="jet-cookie-consent"]
 ###root footer div[class*="cookieLayerWrapper"]
 ###root footer[class*="CookieBanner"]
 ###root music-notification-ribbon
@@ -11188,6 +11189,8 @@
 ##.cookie-tip-wrap:not(body):not(html)
 ##.cookie-tips
 ##.cookie-to-top:not(body):not(html)
+##.cookie-toast-wrap
+##.cookie-toast:not(body):not(html)
 ##.cookie-toaster
 ##.cookie-tool-container
 ##.cookie-toolbar:not(body):not(html)
@@ -15311,6 +15314,7 @@
 ##a.gggg[href^="https"]
 ##a.optanon-show-settings
 ##a[href*=".com?s="]
+##a[href*='html?channelCode'] > IMG[src*='.gif'][width='100%']
 ##a[href^="/ad.html?url="]
 ##a[href^="https://91keep.tv"]
 ##accept-cookie-box
@@ -15868,7 +15872,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -coin-hive/$script
 -didomi.js
 -ga-tracker.
--ga-tracking/
 -gatracker.
 -gdpr-min.js^
 -geoIP.js
@@ -17714,6 +17717,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
+/ecg-js-ga-tracking/*
 /echonetcookie$domain=muenchenticket.de
 /echonetcookie.js
 /ecom/status.jsp?
@@ -18800,6 +18804,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /module/analytics/*
 /module/kabimba_cookie/*
 /moduleTracker.
+/modules/cookie_policy/frontend/*
 /modules/cookiechoices.js
 /modules/cookieconsent/js/*
 /modules/cookiesplus/views/js/cookiesplus.js
@@ -30127,7 +30132,6 @@ akcneletaky.sk###infoCoo
 akeebabackup.com###akeeba-dccc-banner-container
 akemi.de###tw-cookie
 akf-shop.de##.akf__cookie
-akh.hu###macookie
 akme.hu##.cookie
 ako-uctovat.sk###message_wrap
 akpool.de###consent
@@ -30174,7 +30178,6 @@ alexfilm.cc##.panel-primary
 alexia.fr###_cc_a, ._cc_op::before
 alexmor.ru##.b-accept-cookie
 alfabank.ru###alfa > .platform > noindex, #agreement-popup
-alfabusinessweek.ru###t-footer > div[style*="padd"]
 alfakan.si##.jquery-bar
 alfakassan.se###cookies
 alfred.camera##.noty_layout
@@ -31562,6 +31565,7 @@ clickatell.com##.cookie-show
 clickbus.com.br###footer-policy
 cliente.enerxenia.it##.commons-alert-overlay, .commons-alert-box
 cliffordchance.com###div_cc_cc
+clinic3.ru###agreedBanner
 clinique-veterinaire.fr##.alert, #alert
 clinique.co.uk###bt_notification
 clinique.com###bt_notification
@@ -33622,6 +33626,7 @@ groen.be###disclaimer
 groovy.bot###__layout > div > .bottom-0
 grotekleren-webwinkel.nl##.consent, #consent
 grottapalazzese.it##.modal-strip
+ground.news##.fixed.bottom-0
 groupeelectrogene.com###cFrame
 groupelaposte.com###root > div > div
 grouperf.com###rgpdModal
@@ -34515,7 +34520,6 @@ journaldugeek.com##.banner__content
 journalist.de###cc
 journalisten.no##.adn-window, .adn-editButton
 jovempan.com.br##.custom-container-lgpd
-jpgames.de###ingameCookie
 jpmorgan.com##.jpm-wm-general-cookie-banner
 jpopasia.com##body > div:not([id]):not([class])
 jpost.com##body > div[class*="ADORIC"] > div[style*="111"]
@@ -34882,6 +34886,7 @@ lamoda.ru##.page > [class*="widget"], .unipop__container ~ div
 lamoda.ua##.page > .vue-widget
 lamuscle.com###info_banner
 landg.com###st_box
+landi.ch##.ccm-root
 landkreis-ostallgaeu.de###cookie
 landtag.de###matomo-cookie-consent
 lanebypost.com##.sqs-announcement-bar
@@ -34972,7 +34977,7 @@ legalstart.fr###pop
 legebatterijen.nl###cookie
 legend.rs##.cookie
 legnica.pl###popupDiv
-lego.com##div[class*="CookieDisclaimer"], #footer ~ [class*="emotion-cache"], #prompt-footer, div[data-test="cookie-sign-posting"]
+lego.com##div[data-testid="cookie-overlay-container"]
 legolas.pl###kuki
 legomastersloteria.pl###cookies_modal
 legs.com.pl##.cookie
@@ -35222,6 +35227,7 @@ luminpdf.com###app > div[style=""]:nth-child(2)
 lunamum.de##.cookies
 lunchtime.de##.overlay_gray_bg
 luoqiuzw.com##DIV[id^="a-loading-"]
+lupine.de##.cookie-consent
 lurker.pl##.uk-alert
 luxicarshireltd.co.uk##body > div[data-rule-type]
 luxmeble.eu###cookie
@@ -35810,6 +35816,7 @@ mind-ware.nl##.dcd-avg-banner, .dcd-avg-banner-bg
 mindennapkonyv.hu###wrapper > div[style*="fixed"]
 mindmeister.com###cb-wrapper
 minecraft-serverlist.net###ingameCookie
+minecraftfortress.org###t-footer div[class*="banner"]
 ming-fahrschull.de##.notification[data-cookie*="cookies_demo"]
 mini.it##.md-custom-overlay, .md-custom-overlay-veil
 mini.yyrtv.com##.right-gg
@@ -35926,6 +35933,7 @@ monedo.pl##.NotificationBar
 monespaceclient.cnp.fr###cookie
 monety.it##.disclaimer
 money.com.tr##.kvkk
+moneycontrol.com###ccw
 moneyfarm.com###gatsby-focus-wrapper > div[class*="header"] > div:first-child
 moneymaven.io##.consent-ui
 moneyonline.gr###cookies-shell
@@ -36707,7 +36715,7 @@ otr-max.de##body > div[style*="scroll"]
 otto-office.com###top-notification_accept-machmichweg-guidelines, .ooB-black-overlay-machmichweg
 ottobock.de###ottobock-usercentrics
 otzyvua.net###gdpr
-ouraring.com##.tailwind > .fixed
+ouraring.com##div[data-cy*="consent-manager-banner"]
 oushop.com##body > div:not([id]):not([class])
 outbyte.com###privacy-popup
 outl1.se##footer ~ div:not([style*="fixed"])
@@ -37228,6 +37236,7 @@ privatesportshop.fr##body > div:not([id]):not([class])
 privatesportshop.it##body > div[style*="FFFFE1"]
 privfile.com###scNotiBanner
 prixtel.com###wpx_cookie
+prk24.pl##.rk-cookie-overlay
 pro-alarm.nl##.mgz-flex-position-bottom-center
 pro-bikegear.com###message, .message
 pro-housing.nl##.accept-alert
@@ -39065,7 +39074,6 @@ tifon.hr##.tifon_cookies
 tigase.net##.MuiSnackbar-root
 tigota.it###ckInfo
 tiktok.com##tiktok-cookie-banner
-tilda.cc###t-footer > div > div[data-storage-item*="cookie"]
 tim.it###privacy_disclaimer
 timberfarm.de###block-timberfarm-cms-cookie
 timberland.com.tw##.container-component > .dialog ~ div:last-child
@@ -39179,6 +39187,7 @@ toysrus.pt##body > div:not([id]):not([class])
 tp-link.com##div[id*="tp-cookie"]
 tp.lpp.si##body > table[height="20"]
 tpd.sk##.header__notice
+tproger.ru##.tp-cookie-notify
 tproger.ru#?#article.type-post:-abp-has([href="/adblock"])
 trachten.de##.page-wrap > div[class*="cookie"]
 tracker.com##.ccModal
@@ -39862,6 +39871,7 @@ waterfordinyourpocket.com##.ntm_optin_popup
 waterfordwhispersnews.com##.wwn-gdpr-modal
 watfordfc.com##.wfc-m-cookie
 watispilling.nl##.fancybox-overlay
+watson.ch##.watson-cookie-footer
 wattsindustries.com###header1_overlay2
 wattsindustries.nl###header1_overlay2
 waven-game.com##.privacy-notification
@@ -40158,6 +40168,7 @@ wwdmag.com##.intercom-snippet > [class*="gdpr"]
 wwf.ru##.is-header-message-dock
 www-youtube-com.translate.goog##ytd-consent-bump-v2-lightbox, tp-yt-iron-overlay-backdrop
 www.123pan.com##IMG[src*='-banner'],.ant-carousel
+www.67tool.com##.footer-banner
 www.aiwuav.xyz##A.toptxt,IMG[src*='.gif'][alt],SPAN[class^="clobox"],IMG[width='100%'][src*='.gif']
 www.apkmirror.com##.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
@@ -50346,6 +50357,7 @@ zyro.com##.zyro-cookies
 ||api.bugly.qq.com^
 ||api.bugsnag.com^
 ||api.bunzlaucastle.com^
+||api.byscuit.com/data/client$script
 ||api.callget.cn^
 ||api.cdnbye.com^
 ||api.chcatv.hismarttv.com^
@@ -128488,13 +128500,14 @@ zyro.com##.zyro-cookies
 ~e-domizil.de,~statik.be,~dwd.de,~nerdstar.tv,~bund.de,~bafin.de,~onlinezugangsgesetz.de,~duvel.com,~dagvandewetenschap.be,~materna.de,~thw.de,~bka.de,~bmbf.de,~bafa.de,~advodan.dk,~technikmuseum.berlin##.cookiebanner:not(body):not(html):not(#header)
 ~e-domizil.de,~statik.be,~login.nos.pt,~mit-dem-rad-zur-arbeit.de,~dwd.de,~nerdstar.tv,~bund.de,~bafin.de,~onlinezugangsgesetz.de,~duvel.com,~dagvandewetenschap.be,~materna.de,~thw.de,~bka.de,~bmbf.de,~bafa.de,~bamf.de###cookiebanner:not(.modal)
 ~e-zikoapteka.pl##.cookies-info:not(body):not(html)
-~e-zikoapteka.pl,~autoersatzteile.de,~autoteiledirekt.de,~nike.com##.cookies-popup:not(body):not(html)
 ~easyswimportal.com##.cookiepopup:not(body):not(html)
 ~easyticket.de###cookie_consent_popup
 ~easyticket.de,~barnardos.org.uk,~vattenfall.com,~nsinternational.com,~nintendo.com,~tyg.se,~stoffe.de,~myfabrics.co.uk,~latka.cz,~rittal.com##.cookie-overlay:not(body):not(html)
 ~eboo.lu##.cookies-dialog:not(body):not(html)
 ~eboo.lu,~developer.ing.com###cookiesDialog
 ~educhel.ru,~eduface.ru,~edumsko.ru##.cookies_popup:not(body):not(html)
+~effector.pl,~e-zikoapteka.pl,~autoersatzteile.de,~autoteiledirekt.de,~nike.com##.cookies-popup:not(body):not(html)
+~effector.pl,~finom.co,~lmt.lv,~dish.co,~pagetiger.com,~bynco.com,~bakken.nl##.cookie-info:not(body):not(html)
 ~ejot.de,~ejot.at,~ejot.cn,~ejot.co.uk,~sparda.de,~sparda-n.de,~sparda-bw.de,~sparda-hessen.de,~sparda-west.de,~inwerk.de,~bioplanete.com,~miltenyibiotec.com,~brabus.com,~nobilia.de,~springlane.de###cookieLayer
 ~elavon.pl##.cookiePolicyMessage
 ~elavon.pl,~smythstoys.com##.cookiePolicy:not(.reveal):not(body):not(html)
@@ -128516,7 +128529,6 @@ zyro.com##.zyro-cookies
 ~fil-luge.org##.CookieBar:not(body):not(html)
 ~finnair.com,~barnardos.org.uk,~rapidonline.com,~fotopuzzle.de,~monpuzzlephoto.fr,~newpharma.be,~markets.com,~bmihealthcare.co.uk,~puzzleyou.be,~fotondo.cz##.cookie-policy:not(body):not(html)
 ~finom.co##.cookie-info__container
-~finom.co,~lmt.lv,~dish.co,~pagetiger.com,~bynco.com,~bakken.nl##.cookie-info:not(body):not(html)
 ~fleurop.de,~esm-computer.de##.cookie-permission-container
 ~flex-tools.com##.cookieBar:not(body):not(html)
 ~fm-systeme.de,~restaurant-ranglisten.de###tx_cookies
@@ -128706,7 +128718,6 @@ zyro.com##.zyro-cookies
 ~puydufou.com##.accept-cookie:not(body):not(html):not(a):not([class*="btn"])
 ~qatarairways.com###cookieContainer
 ~qinetiq.com###cookiePolicyBanner
-~radicigroup.com##.cookie-toast:not(body):not(html)
 ~rappjmed.ch,~biblioteka.wroc.pl##.cookie-notice-container
 ~readly.com,~ikb.at,~contentkingapp.com,~volkswagen-newsroom.com,~g-star.com,~mega.io,~mega.nz,~kh.hu,~mietz.app,~danbolig.dk##.cookie-dialog:not(body):not(html)
 ~realm667.com###redim-cookiehint
