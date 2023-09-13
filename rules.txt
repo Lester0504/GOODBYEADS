@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-13 09:03:01（北京时间） 
-! Total count: 128862
+! Version: 2023-09-13 20:21:09（北京时间） 
+! Total count: 128870
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -2452,6 +2452,7 @@
 ###JDCookieNotifier
 ###JM_Cookie_Container
 ###JM_cookielayer
+###JOISH987_bar
 ###JS_cookiesLawAcceptation
 ###JScookieInfo
 ###KBBCookieNotifier
@@ -10579,7 +10580,6 @@
 ##.content-legale-cookie
 ##.content-wrapper > #gdpr[style*="display"]
 ##.contentCookieBox:not(body):not(html)
-##.contentasset[data-cid="DATA_PRIVACY_BAR"]
 ##.coo_banner-notice:not(body):not(html)
 ##.coockie-bar
 ##.coockie-notification-block
@@ -17105,6 +17105,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ccm19/public/*
 /ccm19_$domain=~ccm19.de
 /ccm19os/*
+/ccm_$domain=kro-ncrv.nl
 /ccnst/ccbundle.min.js
 /ccp-sites/components/structure/cookie-notification/*
 /ccpa/*$domain=lakesideparkmodels.com
@@ -17467,6 +17468,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cookie_msg.js
 /cookie_overlay.js
 /cookie_policy/ack.js
+/cookie_popup.js
 /cookie_warning.js
 /cookieaccept.js
 /cookieajx$domain=goettgen.de
@@ -29467,7 +29469,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com|rubex.efilecabinet.net
-@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
+@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.tv.itc.cn/gg.seed.js
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||jsrdn.com/s/$script,domain=distro.tv
@@ -31050,7 +31052,6 @@ bonn.de##.SP-ConsentBanner__spacer
 bonnejournee-by-up.fr##.bandeau
 bonopoly.de###hinweis_button
 bonpreuesclat.cat##.site--content > div[class*="toast"]
-bonprix.pl###JOISH987_bar
 bons-plans-voyage-new-york.com###vef-cookie-notice
 bonuszbrigad.hu###newASZFLayer
 book-n-drive.de##.modal_cookies_and_ga_compliance
@@ -33819,6 +33820,7 @@ hellospain.de##.st_notification_wrap
 hellostudent.co.uk##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
 hellowatt.fr###cookie-modal__container
 helmet.fi##.notification, .notifier_warning
+helmholtz.software##.fixed[data-testid="cookie-consent-matomo"]
 helpsetup.ru##.veramoy
 helpucover.co.uk###consent
 helthjem.no##.schibsted-bar
@@ -35889,7 +35891,7 @@ mobylines.de##.cookies
 mobylines.fr##.cookies
 mocnopomocni.pl##body > div:not([id]):not([class])
 mocopinus.com##.disclaimer
-mod.io###achtung-overlay
+mod.io###container ~ .tw-fixed
 moddrop.com###app > .cm-row
 model-bazar.cz###cookie
 model-kartei.de##.cookie
@@ -36754,6 +36756,7 @@ paginasamarillas.es###m-notification--bottom
 painart.ru##body > div[id][style^="display: block"][style*="background: red"]
 paivyri.fi##body > center > table[style*="width:100%"]
 paladins.com##section.footer ~ div
+palit.com###pp_overlay, #pp_info
 palixi.com##.cookies-wrapper
 palixi.net##.cookies-wrapper
 pallottinum.pl##body > div:not([id]):not([class])
@@ -40358,6 +40361,7 @@ yogenfruz.pl##.shotimoo
 yoigo.com##.bw-overlay-cookies, .bw-overlay-cookies ~ div
 yokanavi.com##.agreement
 yola.com##.notification
+yomiuri.co.jp###consentModal
 yomoni.fr##.header__cook
 yonos.pt##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 you.163.com###j-yx-cp-m-siteNav > DIV.yx-cp-row > DIV.yx-cp-siteNav-r:last-child > DIV.yx-cp-siteNavItem:last-child > DIV.yx-cp-siteNavItemHd.pipe:first-child
@@ -50037,6 +50041,7 @@ zyro.com##.zyro-cookies
 ||anon-stats.eff.org^
 ||anonstat.pw^
 ||anonymestupes.website^
+||anonymised.io^$third-party
 ||anonymousads.com^
 ||anonymouswrangle.com^
 ||anopportunitytost.info^
@@ -65697,6 +65702,7 @@ zyro.com##.zyro-cookies
 ||dti-ranker.com^$third-party
 ||dtiserv2.com^
 ||dtjhtp.xyz^
+||dtksoft.com/ajax/log^
 ||dtlog.szy.cn^
 ||dtmm9h2satghl.cloudfront.net^
 ||dtmpub.com^
@@ -78547,6 +78553,7 @@ zyro.com##.zyro-cookies
 ||ingeniousestateinvolving.com^
 ||ingenioustech.biz^
 ||ingenioustech.biz^$third-party
+||ingest-lr.com^$third-party
 ||ingest.make.rvapps.io^
 ||ingest.make.rvohealth.com^
 ||ingforanythinga.com^
@@ -96461,6 +96468,7 @@ zyro.com##.zyro-cookies
 ||piaozhouyyds.com^
 ||piarecdn.com^
 ||piasterpoleyns.com^
+||piazza.cc/public/app.js$script
 ||pibaba.com.cn^
 ||pibgornspooks.top^
 ||pic.0597kk.com^
@@ -118354,7 +118362,7 @@ zyro.com##.zyro-cookies
 ||trustarc.mgr.consensu.org/get?
 ||trustbummler.com^
 ||trustcommander.net/iab-tcfapi/
-||trustcommander.net/privacy$script,domain=~tf1info.fr|~tf1.fr|~edeka.de
+||trustcommander.net/privacy$script,domain=~tf1info.fr|~tf1.fr|~edeka.de|~ravensburger.de|~ravensburger.co.uk
 ||trusted-click-host.com^
 ||trusted-web-seal.cybertrust.ne.jp^
 ||trustedcpmrevenue.com^
