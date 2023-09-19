@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-19 09:02:50（北京时间） 
-! Total count: 129387
+! Version: 2023-09-19 20:21:35（北京时间） 
+! Total count: 129359
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -5317,6 +5317,7 @@
 ###cookieconsentmgr-cookie-box
 ###cookieconsentmgr-overlay
 ###cookieconsentpopup
+###cookieconsentwarning
 ###cookiecontainer
 ###cookiecontainert[class*="cookie"]
 ###cookiecontent
@@ -15420,7 +15421,6 @@
 ##body > #ldb ~ #cono
 ##body > #legalbar.legal
 ##body > #legcooki[style*="fixed"]
-##body > #page-privacy > .page-privacy__dialog_banner
 ##body > #policy-info
 ##body > #pop_contact.pop_box[style*="bottom"][style*="block"]
 ##body > #privacy-note[style*="block"]
@@ -16209,11 +16209,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Chartbeatanalytics.
 /ClickTail.
 /ClickTrack.
-/ClickTracksCookies.
 /CofinaHits.
 /Consent.js$domain=gaming-style.com
 /ConsentInit.min.js$domain=smartphonehoesjes.nl
 /ConsentManager,Sticky
+/ConsentManager/*$domain=flvw.de
 /ContextLogResource/*
 /Cookie-GetCookieModal
 /Cookie/*$domain=nif.no
@@ -16268,7 +16268,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /GoogleAnalyticsPlus/*
 /Gpdr/assets/ccc-script.js
 /HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
-/HiroBeacon?
 /Hit.ashx?
 /Hit.aspx?
 /HitCounter.
@@ -16321,7 +16320,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Optimost/*
 /OtAutoBlock.js
 /PBSTrackingPlugIn.
-/PKAnalytics.
 /PageCount.php?
 /PageHit.ashx
 /PageHitPixel.
@@ -16335,14 +16333,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /PhoenixGoogleAnalytics.
 /Pictorium/scripts/cookie-consent
 /PingPixel.
-/PixelImg.asp
-/PixelNedstat.
 /PixelTracking.
-/PlayerDashboardLoggingService.svc/json/StartSession?
 /Plumrocket_CookieConsent/*
-/PmsPixel?
-/PointRoll.
-/PointRollAnonymous.
 /PoliticaCookies.js$domain=fincaraiz.com.co
 /PopUpPriva/PopPrivacymin.js
 /Public/wap/zymk/js/guanggao.js
@@ -17214,10 +17206,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /clicktracker.
 /clicktracking.
 /clicktracking/*
-/clickx-tracker.
 /clicky.js
-/client-event-logger.
-/client-logging-bundle-
 /client-metrics/?target
 /client.rum.
 /clientEventLog/*
@@ -17232,7 +17221,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cls_report?
 /cm-body.js$domain=tarnkappe.info
 /cm/*$domain=howatherm.de
-/cm_segments.php?cookie
 /cmail2.com/t/*
 /cmapp/*$domain=ccm19.de
 /cmp$domain=schwaebische.de|gameswelt.ch|gameswelt.de|gameswelt.at
@@ -17513,6 +17501,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cookienotice-bootstrap.js
 /cookienotice.js$domain=~betterworldbooks.com
 /cookienotice/Js/*
+/cookienoticepro.script.js
 /cookieopt-min.js
 /cookieplugin/cookie.js
 /cookiepolicy.js
@@ -17704,6 +17693,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dv_t3_consent_management/*
 /dwanalytics-
 /dxcookieconsent/*
+/dy-coll-nojq-min.js
 /dynaTraceMonitor^
 /dynamic.ziftsolutions.com/*
 /dynamicyield/*
@@ -18171,23 +18161,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gtm.min.js
 /gtm/gtm-
 /gtmTracking.
-/gujTracker.
 /gv-analytics/*
 /gweb/analytics/*
 /h.gif?
 /handsomelyhealth.com
-/hash_stat/*
-/hash_stat_bulk/*
 /hatefulrequest.com
 /hawk.js
 /hawkeye.js
 /hawklinks.js
 /hc/activity
-/hc_pixel.gif?
 /he-consent/*$domain=dennree.de
-/headupstats.gif?
-/healthanalytics.js
-/heatmap_log.js
 /helper-scripts/cookieconsent/*
 /hg?hc=&hb=*&vjs=
 /hgct?hc=&hb=*&vjs=
@@ -18205,8 +18188,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hit/tracker
 /hit2.php
 /hit?aff_id=$xmlhttprequest
-/hit?artefactId=
-/hit?t=*&__seed=
 /hit?time=
 /hitCount.
 /hit_count?
@@ -18216,11 +18197,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hitcount/*
 /hitcount?
 /hitcount_
-/hitlog.mpl?
 /hitlog.php?
-/hits.count?
 /hits/logger?
-/hitslink.
+/hitslink.js
 /hittrack.cgi?
 /hitv4.php
 /hlog.asp
@@ -19142,8 +19121,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pix.fcg?
 /pix.fly/*
 /pix.gif?
-/pixLogVisit.
-/pixMark.png?
 /pix_st.php?
 /pix_st_v2.php?
 /pixall.min.js
@@ -19166,55 +19143,40 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixel/impression?
 /pixel/nvrwe?
 /pixel/sbs?
-/pixel/stats/?
-/pixel/stream/*
 /pixel/view?
 /pixel/visit?
 /pixel1/impression.
 /pixel2.gif?
 /pixel?cid=
-/pixel?id=
 /pixel?tag=
 /pixel?type=
-/pixelArticolo?
 /pixelNew.js
-/pixelTargetingCacheBuster.
 /pixel_V2.
-/pixel_event_data?
 /pixel_identifier.
 /pixel_iframe.
 /pixel_tag.
 /pixel_track.
 /pixel_tracking.
 /pixel_tracking?
-/pixelappcollector.
 /pixelcounter.$domain=~pixelcounter.co.uk|~pixelcounter.com|~pixelcounter.dev|~pixelcounter.org|~pixelcounters.co.uk|~pixelcounters.uk
-/pixelframe/*
 /pixeljs/*
 /pixellog.
-/pixelpropagate.
+/pixelpropagate.js
 /pixels.jsp?
 /pixels/track?
 /pixelstats/*
-/pixeltag.
+/pixeltag.js
 /pixeltrack.
 /pixeltracker.
 /pixeltracking/*
-/pixiedust-build.js
 /pixy.gif?
-/planetstat.
+/planetstat.php
 /plausible.js$domain=~plausible.io
 /plausible.outbound-links.js$domain=~plausible.io
 /player-test-impression?
 /player/stats.php?
-/player_counter.ashx?
-/playerlogger.
-/playerstats.gif?
-/playertracking/*
 /pleasantpump.com
 /plg_system_vpcookieconsent/*
-/plgtrafic.
-/plingatracker.
 /plog?id
 /plogger/*
 /pltk.js$domain=goodcontent.pl
@@ -19235,23 +19197,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /plugins/userinfo.gif?
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
-/plzcrawlme.js
 /pm/pixel.
 /pmc-cxense.js
 /pmc-pp-tou/privacy.min.js$domain=rollingstone.com
-/pmspxl.
-/point_roll.
 /pointeur.gif?
 /policies/gdpr.js
 /politica-cookies/leyCookies.js
 /polityka-prywatnosci/js/cookie-overlay
 /pomegranate.js
-/popanalytics.
 /popup/adblocker
 /popup/rodo.min.js
 /popupConsent/*$domain=the-fence.com
-/popupCookieWriter.
-/popuplog/*
 /post-tracking/*
 /post.pinterest.com/q/*$image
 /postcounter.php?
@@ -30286,7 +30242,7 @@ amundi.pl###disclaimer_amundi
 amw.com.pl##.cookies
 anaciroma.it##.w2t-banner
 anacom.pt##div[id^="cookieDiv"]
-analytics-consent-manager.azureedge.net
+analytics-consent-manager*$domain=terveystalo.com
 andevice.ru,dietdo.ru##.adb-def
 andinet.de##.coo.show
 andreaminini.com##.privacy
@@ -31522,6 +31478,7 @@ cimetieres-de-france.fr###js-header-cookie
 cimoc.com###styleUp
 cinch.co.uk###___gatsby > [data-testid="overlay"], #___gatsby > div > [data-testid="cookie-banner"]
 cinemacity.sk##.policy, #policy, .cpolicy
+cinemark.cl###modal-cookies-template
 cinemotion-kino.de###cookie-layer
 cinquantamila.it###privacy_advisor
 cioreview.com###footerr
@@ -32658,6 +32615,7 @@ eltern-bildung.at###notice
 elternchecker.de##.cc_container
 eltim.eu##.consent, #consent
 eltima.com##.float-message__wrap
+eltrox.pl##.modal-gdpr, .overlay-gdpr
 elumbus-reisen.de##.alert-info, .alert-warning, .alert-box
 eluniverso.com##.block-eluniverso-gdpr
 elvah.de###__nuxt > div > section:first-child
@@ -32683,7 +32641,6 @@ endemolshine.de###cookies
 endesaclientes.com###GeneralCookies
 endless-space.com##div[id^="cookies-policy"]
 endlessdungeon.game##.cookies
-eneba.com###app > footer ~ div, main > div + div + div:last-child
 enel.it##.message-notification
 enel.ro##.message-notification
 enelgreenpower.com##.message-notification
@@ -34620,6 +34577,7 @@ kemkik.hu###alert-box
 kempa-satellite.com###mc_top_bar
 kempenhaeghe.nl##.overlay2
 kennisopenbaarbestuur.nl##.jqmConfirm, #cookieStatus
+kensington.com##.Promotional-corner
 kent.ac.uk###kent-cookie-bar
 kentbank.hr###overlayCookie, #overlayContentCookie, .otvori_cookie_dialog
 keolis.com##vad-cookie
@@ -34980,6 +34938,7 @@ lekiosk.com##btb-app > banner
 lekker.de###cookieboxBackgroundModal
 lelieuunique.com##.cookies
 lelivrescolaire.fr##.Cookie_modal
+lemmofuture.com##.policy-initiative-ask-box-cover
 lemoiszerozero.fr###root > div:not([id])
 lemoncode.net##.sqs-announcement-bar
 lemondeencommun.info##.elementor-popup-modal
@@ -35891,6 +35850,7 @@ modesens.com###tip_container
 modr.pl##.region-gdpr
 modrinth.com##.container > .banner
 moises.ai##.floating-banner
+mojandroid.sk###cookie-law-info-bar
 mojapogoda.com###IR
 mojbrzuch.pl###__cookies_
 mojcomp.net##.q-ico-container
@@ -36240,6 +36200,7 @@ negrita.fr###slidebox
 neilpatel.com###bottom-bar
 nekedterem.hu##.cookie_sav
 nelipyora.fi##.gw-cookie-consent
+nemocnicepribram.cz###cookies_lista_2022
 neo24.pl##div[class*="cookiesBlock"]
 neobiznes.pl###cpolicyHolder
 neon-service.pl##.cookie
@@ -36986,7 +36947,7 @@ pizzahut.pl###__next > div > div + div:last-child
 pjmedia.com###policy-warning-container
 pkl.pl##.popup-pkl
 pkmods.com##body > div[style*="z-index"][style*="background"]
-pkobp.pl###pko-cookie-rodo-first, .js-ajax-overlay
+pkobp.pl###footer ~ div[class*="pkobp"], .pko-cookie-rodo
 pkspolonus.pl###popek
 placeandsee.com###bnrckie
 placedumarche.fr##.sky-cookies-banner
@@ -37991,6 +37952,7 @@ severin.de##.veil
 sexipedia.gr##.cookies
 sexomercadobcn.com##.hidder, .disclamer
 sexvideoall.com##.fixed-nav-bar
+seznam.cz$domain=firmy.cz
 sf.gr###cookiesManagement
 sfera.com###dis_cookie.cab_cookies
 sfinks.org.pl##body > div:not([id]):not([class])
@@ -39422,6 +39384,7 @@ umm.nordpoolgroup.com###modal-overlay
 umziehen.de###mcCookie
 unaparolaalgiorno.it##.cookie
 unbound.com###js-cookies
+unclutterapp.com##.useCookiesAccept
 uncomo.com##.consent, .app_gdpr--2
 underarmour.it##.l-consent_banner
 undo.net###fullpersonal, #fullboxpersonal
@@ -39845,6 +39808,7 @@ warka.com.pl###rodo_env, .cookies
 warmbat.nl##.cookie
 warp2search.net##.alert-warning
 warrantydirect.co.uk##.consent, #consent
+warspotting.net##.toast-message
 warszawa.so.gov.pl###cookies
 warthunder.com##.wt-cb
 was-reimt-sich-auf.de###cookies-modal, #cookies-backdrop
@@ -40089,6 +40053,7 @@ wkv.com###priv-notice-container
 wmeentertainment.com##.notification
 wnt.com###trackerBanner
 wo-ist-greta.de##.disclaimer
+woccu.org###cookie_area
 wodka-gorbatschow.de##.legacy
 wofox.com##.main-privacy-popup
 wohnkonzept.co.at##.ConsentBanner
@@ -40271,7 +40236,7 @@ xs.cz##.cookie
 xscode.com##xsc-cookies-consent
 xsplit.com##.Toastify
 xt500parts.com##.amgdprcookie-modal-container
-xtremmedia.com###mensacok
+xtremmedia.com##.gdprModal
 xuite.net###privacyDeclare
 xuletas.es###privacy_w
 xunta.gal##.bandaAceptacion
@@ -51405,6 +51370,7 @@ zyro.com##.zyro-cookies
 ||as.yomonda.de^
 ||as1.m.hao123.com^
 ||as1.wenku.baidu.com^
+||as3.io^
 ||as5000.com^
 ||as89de.top^
 ||asa2.cn^
@@ -52604,6 +52570,7 @@ zyro.com##.zyro-cookies
 ||b5media.com/bbpixel.php
 ||b6143975c9.com^
 ||b62.xyz^
+||b629.electronicdesign.com^
 ||b67.xyz^
 ||b6750bc2a1.com^
 ||b6880ffb9a.com^
@@ -76901,6 +76868,7 @@ zyro.com##.zyro-cookies
 ||hyperactivate.com^$third-party
 ||hyperbanner.net^
 ||hypercomments.com/widget/*/analytics.html
+||hyperdx.io^$third-party
 ||hyperlinksecure.com^
 ||hyperoi.com^
 ||hyperpromote.com^
@@ -105926,7 +105894,8 @@ zyro.com##.zyro-cookies
 ||seyfwl.maxmodels.pl^
 ||seyfwl.okazjum.pl^
 ||seyfwl.pomponik.pl^
-||seznam.cz/js/cmp$script
+||seznam.cz/js/cmp2/scmp-external.js$script
+||seznam.cz/js/cmp2/scmp.js$script
 ||sezvc.com^
 ||sezzle.com/v1/event/log
 ||sf*-be-pack.pglstatp-toutiao.com^
@@ -112361,6 +112330,7 @@ zyro.com##.zyro-cookies
 ||streamdefence.com^
 ||streamdream.ws^
 ||streaming-illimite5.com^
+||streamlabs.com/web/data/ping
 ||streamoptim.com/log.js
 ||streamoptim.com/log/report?
 ||streamplay.me^
@@ -117937,6 +117907,7 @@ zyro.com##.zyro-cookies
 ||tracking.seakeeper.com^
 ||tracking.searchmarketing.com^
 ||tracking.sembox.it^$third-party
+||tracking.server.bytecon.com^
 ||tracking.sexcash.com^
 ||tracking.sezzle.com^
 ||tracking.sharplink.us^
@@ -122702,6 +122673,7 @@ zyro.com##.zyro-cookies
 ||walbusch.de^$ping
 ||walkamorous.com^
 ||walkedcreak.com^
+||walkerllaw.org^
 ||walkinglive.org^
 ||walknotice.com^
 ||wall.static.youmi.net^
@@ -129028,7 +129000,6 @@ zyro.com##.zyro-cookies
 ~eboo.lu##.cookies-dialog:not(body):not(html)
 ~eboo.lu,~developer.ing.com###cookiesDialog
 ~educhel.ru,~eduface.ru,~edumsko.ru##.cookies_popup:not(body):not(html)
-~effector.pl,~e-zikoapteka.pl,~autoersatzteile.de,~autoteiledirekt.de,~nike.com##.cookies-popup:not(body):not(html)
 ~effector.pl,~finom.co,~lmt.lv,~dish.co,~pagetiger.com,~bynco.com,~bakken.nl##.cookie-info:not(body):not(html)
 ~ejot.de,~ejot.at,~ejot.cn,~ejot.co.uk,~sparda.de,~sparda-n.de,~sparda-bw.de,~sparda-hessen.de,~sparda-west.de,~inwerk.de,~bioplanete.com,~miltenyibiotec.com,~brabus.com,~nobilia.de,~springlane.de###cookieLayer
 ~elavon.pl##.cookiePolicyMessage
@@ -129172,6 +129143,7 @@ zyro.com##.zyro-cookies
 ~mea.com,~mitsubishielectric.com##.cookie_policy:not(body):not(html):not(#Content):not(#page)
 ~medicijnnodig.nu##.cw_message_box_main:not(body):not(html)
 ~meinbildkalender.de###cookieNotify
+~mercedes-benz.cr,~effector.pl,~e-zikoapteka.pl,~autoersatzteile.de,~autoteiledirekt.de,~nike.com##.cookies-popup:not(body):not(html)
 ~merkur.si##.cookie-notice-box:not(body):not(html)
 ~merkur.si##.cookie-notice-wrapper:not(.mfp-ready)
 ~meteoblue.com##.gdpr-message:not(body):not(html)
