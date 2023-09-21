@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-21 09:02:01（北京时间） 
-! Total count: 129474
+! Version: 2023-09-21 20:21:33（北京时间） 
+! Total count: 129461
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16241,14 +16241,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Distribute/Distribute_g/butterfly/*
 /Dock/DockContent/Cards/GDPRCard/index.js
 /DynamicAnalytics.js
-/EWTRACK_
 /EmailOpenTrackLog.aspx?$image
 /EmbedAsyncLogger.
 /EndpointTracker/*
 /Engagement/TrackEventAsync
 /EventLog.axd?
 /Events/Impression?
-/FacebookTracking.
 /Flurrybox_EnhancedPrivacy/*
 /GAInit.js|
 /GDPR/GDPR.js
@@ -17034,6 +17032,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /bundles/cookiebar
 /bundles/metrics.
 /bunsen/events/*
+/busting/facebook-tracking/*
 /bv-analytics.js
 /bwx-cookie-consent.js$domain=nosta.com
 /byside_webcare.
@@ -17813,56 +17812,40 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /eventtracking-
 /eventtracking.
 /eventtracking/*
-/evercookie.
-/evercookie/*
-/evercookie_
-/evergage-script.
+/evercookie.js
+/evercookie/swfobject-2.2.min.js
 /evergage.js
-/evergage.min-
 /evergage.min.js
 /evt.gif?
-/evtrack-
 /ewcookienoteext.js
-/ewtrack.
 /exactag.js
-/exittracker.
+/exittracker.js
 /exmo.email/open.html
-/expcount/*
+/expcount/additional.php
 /ext/zt_popupcookies/*
-/extendedAnalytics.
-/external-tracking.
+/extendedanalytics.js
+/external-tracking.min.js
 /external/ico.cookie.
-/external/nielsen_
 /extimages/scripts/ukcookie.js
-/ezytrack.
+/ezytrack.js
 /f.gif?
-/facebook-retargeting-
-/facebook-tracking/*
 /facebook/pixel.js
-/facebook_fbevents.
-/facebook_pixel_
-/facebookpixel.
-/facebookpixel/*
-/facebookproductad/*$script
+/facebook_fbevents.js
+/facebook_pixel_3_1_2.js
+/facebookpixel.js
 /faciliti-tag.min.js
-/fairfax_tracking.js
-/fastcounter.
-/fb-pixel-
+/fb-pixel-scripts?
 /fb-tracking.js
-/fb_pixel_page_
-/fbanalytics/*
-/fbcounter/*
-/fbevents-amd.js
+/fb_pixel_page_view
+/fbanalytics.js
+/fbcounter/counter.cgi
 /fbevents.js
 /fbevents.min.js
-/fbo-collect.
 /fbpix-events-
-/fbpixel.
+/fbpixel.js
 /fbpixel/*
 /fc_cookie.js$domain=bosch-stiftung.de
 /fcc-cookie-consent.js
-/fdlogger.
-/fdlogger/*
 /fe/track/*
 /fe_logger?
 /fearlessfaucet.com
@@ -18545,6 +18528,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /log?uuid=
 /logAdv.
 /logAjaxErr_
+/logAutoMicroConversion?
 /logEvent?
 /logExecutionStats?
 /logHandler.
@@ -40521,7 +40505,6 @@ zyro.com##.zyro-cookies
 ||011211.cn^
 ||01220b75a7.com^
 ||0123kjz.com^
-||0123movie.net/cdn-cgi/trace
 ||013572.cn^
 ||018520.com^
 ||019103.com^
@@ -50882,7 +50865,7 @@ zyro.com##.zyro-cookies
 ||appdistracted.com^
 ||appdriver.cn^
 ||appdriver.com.cn^
-||appdynamics.com/geo/$third-party
+||appdynamics.com^$third-party
 ||appealinformationevent.com^
 ||appearancecustomerobliterate.com^
 ||appearancefingerprintabet.com^
@@ -56123,6 +56106,7 @@ zyro.com##.zyro-cookies
 ||byrledmtscmd.com^
 ||byscy.cn^
 ||byspot.com^
+||byspotify.com^
 ||bysqbtyuugub.com^
 ||bytedance.com/pixel/
 ||bytemgdd.com^
@@ -69075,6 +69059,7 @@ zyro.com##.zyro-cookies
 ||everestjs.net^$third-party
 ||everesttech.net^
 ||evergage.com/beacon/
+||evergage.com^$third-party
 ||everprobation.com^
 ||everyaction.com/v1/Track/
 ||everydayporn.co^
@@ -69948,6 +69933,7 @@ zyro.com##.zyro-cookies
 ||fbmedia-ckl.com^
 ||fbmedia-dhs.com^
 ||fbmjc.39yst.com^
+||fbo-statistics-collector-tc.is.flippingbook.com^
 ||fbooksluts.com^
 ||fbot.me/error
 ||fbot.me/events/
@@ -84947,6 +84933,7 @@ zyro.com##.zyro-cookies
 ||log.ttbc-hcm.gov.vn^
 ||log.tv.moliv.cn^
 ||log.umsns.com^
+||log.v.ssp.yahoo.com^
 ||log.v2.hunantv.com^
 ||log.vcdn.io^
 ||log.vcgame.cn^
