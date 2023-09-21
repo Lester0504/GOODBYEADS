@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-20 20:28:07（北京时间） 
-! Total count: 129495
+! Version: 2023-09-21 08:50:01（北京时间） 
+! Total count: 129474
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16196,8 +16196,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /AppMeasurementCustom.
 /AppMeasurement_Module_
 /Article/ViewCount/*
-/ArticleCounterLogger.
-/ArticleViewTracking/*
 /AutoTracker.js
 /BKVTrack.js
 /BlueKaiPixel/*
@@ -16820,8 +16818,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/ipv4check?
 /api/log-visit
 /api/log?
-/api/lt/ref?
-/api/metrics$other
 /api/pageactivity
 /api/pageview?
 /api/pagevisits
@@ -16830,8 +16826,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/rest/settings/public?fields=endUserAgreement
 /api/snippets/js/consent-banner
 /api/stat?
-/api/statz
-/api/tracing?
 /api/track?guid
 /api/trk?
 /api/v1/firehose?_
@@ -16843,9 +16837,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
-/api_ip_info.
+/api_ip_info.php
 /apilog?
-/apixel?
 /app-measurement?
 /app.dsgvo.min.js
 /app/*/%E6%B5%8F%E8%A7%88%E5%99%A8.apk
@@ -16859,11 +16852,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ard.png?
 /aria-web-telemetry-
 /arlinablock.js
-/arstat?
 /art/stats/*
-/article-tracking.js
 /article/count?
-/articleOmnitureTracking.
+/articleOmnitureTracking.js
 /article_counter.php?
 /article_hit.php?
 /asfile/m/gudings.js
@@ -16878,10 +16869,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /assets/mnd-cookie-consent
 /assets/smarttag-$script
 /astrack.js
-/astracker.
-/astracker/*
-/asyncggtracking.
-/async~sentry-
+/astracker.js
+/astracker/ast.php
 /at-composer.js
 /at.gif?
 /atapixel.js
@@ -16891,14 +16880,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /atrk.gif?
 /atrk.js
 /audience-extraction.js
-/audience-meter.
-/audience-science.
 /audience.gif?
 /audience.min.js
-/audienceScience.
-/audience_science-
-/audience_science.
-/audience_science_
+/audienceScience.js
 /autotrack.carbon.js
 /autotrack.custom.js
 /autotrack.custom.min.js
@@ -16907,26 +16891,20 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /avia-bootstrap/js/klaro/*
 /avia-snippet-cookieconsent.js
 /avisopcdidomi$domain=~as.com
-/avtstats.
 /aw-cookie.min.js$domain=soprema.fr
-/aw-tracker.
-/awAnalytics.
 /awin?awc=$image
 /awp.log
 /awpys.log
-/aws-analytics.js
 /awstats.js
 /awstats_misc_tracker
 /azion-pulse.js
-/aztrack.
-/aztracker.
+/aztracker.js
 /b.banners.impress.
 /b.gif?
 /b/s/beacon
 /b/ss/*&aqe=
 /b/ss/*&events=
 /b/ss/*&ndh=
-/b/ss/*&pagename=
 /b/ss/*/JS-
 /b/ss?AQB=
 /b/stats?
@@ -16943,26 +16921,18 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /base-nf.js$domain=lecanardenchaine.fr
 /base/es5/bundle.js
 /base/es6/bundle.js
-/basesdc.js
-/basicMetricsTracking.
 /basketballbelieve.com
 /batch.gif?
 /batch/1/OE/*
 /batch/1/OP/*
 /batch/action/_:
-/baynote-$script
-/baynote.
-/baynote/*
-/baynote_
-/bb-analytics-
+/baynote.js
+/bb-analytics-inline.min.js
 /bb_cookieconsent/*
-/bc-track.
 /bc/clk?
 /bcn.gif?
 /bcsensor.js
-/bctrackers/*
 /bdg.gif?
-/beacon-cookie.
 /beacon.cgi?
 /beacon.gif?
 /beacon.js
@@ -46395,6 +46365,7 @@ zyro.com##.zyro-cookies
 ||adap.tv^
 ||adapd.com^
 ||adapex.io^
+||adapf.com^$third-party
 ||adapi.izuiyou.com^
 ||adapi.lenovogame.com^
 ||adapi.shouji.360.cn^
@@ -49489,6 +49460,7 @@ zyro.com##.zyro-cookies
 ||analytics-stamp.confi.com.vc^
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics-tracking.meetup.com^
+||analytics-wcms.joins.net^
 ||analytics-zone-1.api.leadfamly.com^
 ||analytics.126.net^
 ||analytics.163.com^
@@ -56328,6 +56300,7 @@ zyro.com##.zyro-cookies
 ||c.rssnzw.cn^
 ||c.sayhi.360.cn^
 ||c.sd1.fr/cn/cn.min.js$script
+||c.seznam.cz^
 ||c.sibnet.ru^
 ||c.silvinst.com^
 ||c.sixiuwl.cn^
@@ -56816,6 +56789,7 @@ zyro.com##.zyro-cookies
 ||capriciouscorn.com^
 ||caprissandhi.website^
 ||caprizecaprizeretrievaltattoo.com^
+||caprofitx.com^$third-party
 ||capsquirrel.com^
 ||captainad.com^
 ||captaintassie.com^
@@ -73179,6 +73153,7 @@ zyro.com##.zyro-cookies
 ||glam.com^*/log.act?
 ||glami.com.tr/tracker/
 ||glami.gr/js/compiled/pt.js
+||glamipixel.com^
 ||glamorousdescend.com^
 ||glancecdn.net^$third-party,domain=~glance.net
 ||glancingambulance.com^
@@ -98373,6 +98348,7 @@ zyro.com##.zyro-cookies
 ||prealpha.go.levelbank.com^
 ||prebid-server.newsbreak.com^
 ||prebid.org^
+||prebidmanager.com^$third-party
 ||prebidwrapper.com^
 ||precedechampion.com^
 ||precedenowadaysbarbecue.com^
@@ -98448,6 +98424,7 @@ zyro.com##.zyro-cookies
 ||premiumimpression.com^
 ||premiumimpression.com^$third-party
 ||premiummangle.com^
+||premiumprogrammatic.com.br^$third-party
 ||premiumredir.ru^
 ||premiumstats.xyz^
 ||premiumvertising.com^
@@ -119673,6 +119650,7 @@ zyro.com##.zyro-cookies
 ||uc.qq.uuaoz.com^
 ||uc.ucweb.com^
 ||uc.whkwpzz.cn^
+||uc.xddi.ru^
 ||uc.xiansuper.com^
 ||uc123.com^
 ||uc610.com^
@@ -124070,6 +124048,7 @@ zyro.com##.zyro-cookies
 ||widgetly.com^
 ||widgets.outbrain.com/outbrain.js
 ||widgets.pinterest.com^
+||widgets.solutions^$third-party
 ||widgets.sprinklecontent.com/v2/sprinkle.js
 ||widgets.trustedshops.com^$third-party
 ||widgetserver.com/metrics/
