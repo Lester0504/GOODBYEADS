@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-22 09:02:39（北京时间） 
-! Total count: 129464
+! Version: 2023-09-22 20:20:43（北京时间） 
+! Total count: 129434
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16245,10 +16245,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Dock/DockContent/Cards/GDPRCard/index.js
 /DynamicAnalytics.js
 /EmailOpenTrackLog.aspx?$image
-/EmbedAsyncLogger.
-/EndpointTracker/*
+/EmbedAsyncLogger.js
+/EndpointTracker/allendpoints?
 /Engagement/TrackEventAsync
-/EventLog.axd?
 /Events/Impression?
 /Flurrybox_EnhancedPrivacy/*
 /GAInit.js|
@@ -17594,11 +17593,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cxense/cx.js
 /cxf-tracking@
 /d.gif?
-/d1VisitsCounter.
 /data-consent.$domain=stadtwerke-luebz.de
-/data.mistat.
 /data_collect.js
-/datacollectionapi-client/*
+/datacollectionapi-client/index.js
 /datadome/*
 /dataunlocker-prod.js
 /dataunlocker.js
@@ -17611,11 +17608,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /deadblocker/*
 /default/pAnalytics
 /delivery/lg.
-/demandbase.
-/demandbase_
-/demdex.js
-/demdex/*
-/detm-container-
+/detm-container-ftr.js
+/detm-container-hdr.js
 /dg-governance/*$domain=nytimes.com|inyt.com
 /dgsvo/script.js
 /dh-analytics-prod/*
@@ -17642,12 +17636,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /doctracking.js
 /dolWebAnalytics.js
 /dom-event-tracker.min.js
-/domcount.nsf/*
+/domcount.nsf/WebCounter?
 /dometic/dist/components/cookiescomponent
 /doria.js$domain=lactease.com
 /dot.asp?
 /dot.gif?
-/dotmetrics.min.
 /dow_analytics.js
 /dpistat/updater.php
 /drdsgvo-consent-script.js
@@ -17666,14 +17659,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dwanalytics-
 /dxcookieconsent/*
 /dy-coll-nojq-min.js
-/dynaTraceMonitor^
+/dynaTraceMonitor?
 /dynamic.ziftsolutions.com/*
 /dynamicyield/*
 /dywc.js$domain=radioschwaben.de
 /e-privacy.min.js
 /e.customeriomail.com/e/o/*$image
 /e.gif?
-/eTagP/*
 /e_stat?g_id=
 /easycmp$domain=lagerhaus.at
 /eatms.js
@@ -17692,21 +17684,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /edgecastcdn.net
 /edmonds.js
 /eea$domain=psychcentral.com
-/effectivemeasure.
 /efxanalytics.js
 /egcs/v2/collect
 /eloqua$domain=visma.fi|visma.no|visma.se|visma.nl|visma.com
-/eloqua.
-/eloqua_
-/elqcfg-$script
+/eloqua.js
 /elqcfg.js
 /elqcfg.min.js
 /elqfcs.js
 /elqidg.js
 /elqimg.js
-/elqnow/*
 /elqscr.js
-/elqtracking.
 /elqtrk.
 /elt.gif?
 /eluminate?
@@ -17720,12 +17707,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /emg-framework/assets/js/gdpr
 /emg-framework/public/js/gdpr
 /emimp/*$image
-/emos2.js$~xmlhttprequest
-/emstrack.
-/emtj_tracker.
-/endpoint/stats.
+/emos2.js
+/emstrack.js
+/emtj_tracker.js
+/emtj_tracker.min.js
+/endpoint/stats.php?
 /engage.indeed.com/*$image
-/engine/ping?
 /ensighten/*$domain=britishairways.com|ba.com
 /ent_counter?
 /entry_stats?
@@ -17734,67 +17721,42 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /epaas.consentdrawer.bundle
 /eprivacy/js/eprivacy.js
 /epsilon.v2.
-/epvplytics.
 /ercookiebar.
 /err/js/?url=
 /error/js/log?
 /esb-privacy.js$domain=erstebank.hr
-/estat.$domain=~estat.ly|~estat.stat.ee
+/estat.js
 /estatistica.js
 /eta/events?
-/etag?
 /etagen_cookie/*
-/etarget/*
 /etrack01.com/*$image
-/etracker.
-/etracker/*
 /eu-cookie-law.js?browserId
-/eu-survey.js
 /eu_cookie_compliance.js
 /eu_cookie_compliance_override.js
 /eucd/eucd.min.js
 /eulerian.js
-/eumcollector/*
+/eumcollector/beacons/*
 /euopties.js
 /eurogdpr$domain=jcbeurope.eu
-/eva-analytics.
-/event-log/*
+/eva-analytics.min.js
 /event-log?
-/event-report?
-/event-tracking.
+/event-tracking.js
 /event-tracking/*
 /event.cgi?
 /event.gif?
 /event.php?campaign=
-/event/beacon|
-/event/fingerprint
-/event/img?type=
-/event/impression/*
-/event/pageview/*
 /event/pageview?
-/event/rumdata?
 /event/track?
 /event/tracking
 /event/trigger?
-/event/v3?
 /event/visit?
-/event?&event=
-/event?adblk=
 /event?eventType=
 /event?event_id=
-/event?pmo=
-/event?ref=
-/event?sendBeacon=
-/event?stat_
-/event?token=
-/event?tub_id=
 /eventLog.ajax
 /eventLogServlet?
 /event_log/*
 /event_logger
 /event_logging/*
-/event_tracker?_
-/eventcnt.php?
 /eventing.coursera.org/img/*
 /eventlog.js
 /eventproxy/track
@@ -18926,7 +18888,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ouibounce.min.js
 /ovstats.
 /ow_analytics.
-/owa.Analytics.
+/owa.Analytics.m.js
 /owa.tracker-combined-min.js
 /ox-trackings.
 /oxAnalytics.
@@ -41992,6 +41954,7 @@ zyro.com##.zyro-cookies
 ||4rabettraff.com^
 ||4rw6x0b.cn^
 ||4sexmail.com^
+||4shared.com/js/d1VisitsCounter.4min.js
 ||4stats.de^
 ||4stats.de^$third-party
 ||4taps.me/analytics/
@@ -59476,6 +59439,7 @@ zyro.com##.zyro-cookies
 ||collect.rebelmouse.io^
 ||collect.rewardstyle.com^
 ||collect.state.centrum24.pl^
+||collect.stepstone.co.uk^
 ||collect.thunder-io.com^
 ||collect.usefathom.com^
 ||collectconsent.com^
@@ -66056,6 +66020,7 @@ zyro.com##.zyro-cookies
 ||dynad.net^
 ||dynamic-dns.net^
 ||dynamic.aol.com^
+||dynamic.ziftsolutions.com^
 ||dynamic.zol.com.cn^
 ||dynamicadx.com^
 ||dynamicapl.com^
@@ -113957,6 +113922,7 @@ zyro.com##.zyro-cookies
 ||tags.op-palvelut.fi^
 ||tags.refinery89.com^
 ||tags.soloway.ru^
+||tags.stepstone.com^
 ||tags4.revdepo.com^
 ||tagsrvcs.com^
 ||tagsrvcs.com^$third-party
@@ -116229,6 +116195,9 @@ zyro.com##.zyro-cookies
 ||totalcoolblog.com^
 ||totalcsgo.com/ctrack/
 ||totalfreshwords.com^
+||totaljobs.com/analytics/
+||totaljobs.com/chatbot/webhook/analytics
+||totaljobs.com/chatbot/webhook/logger
 ||totallifeguru.com^
 ||totallylayouts.com/tumblr/visitor-counter/counter.js
 ||totalnicefeed.com^
@@ -122376,6 +122345,7 @@ zyro.com##.zyro-cookies
 ||vr.vivareal.com^
 ||vraatdwugla.com^
 ||vrbmhngqjh.com^
+||vrbo.com/edap/elo/v1/event/beacon
 ||vrbo.com/serp/api/metrics
 ||vrcamdl.istaging.com^
 ||vreephay.com^
