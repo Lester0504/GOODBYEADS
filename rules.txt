@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-21 20:28:29（北京时间） 
-! Total count: 129461
+! Version: 2023-09-22 08:50:26（北京时间） 
+! Total count: 129464
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -6210,6 +6210,7 @@
 ###data-protection.data-protection-overlay
 ###data-security-wrapper.data-security-banner
 ###data-store-permission-popup
+###data-tracking-banner
 ###data2-gdpr
 ###dataCollectPolicy
 ###dataPrivacyDialog
@@ -7497,6 +7498,7 @@
 ###kindleApp_eucookie_banner_center
 ###kk-cookieCompliance
 ###klaro .cooki-modal
+###klaro > .klaro > .bg
 ###klaro div[class*="cooker-modal"]
 ###klaroDIV .klaro
 ###km-cookie-accept
@@ -12704,6 +12706,7 @@
 ##.fixedCookiePolicy:not(body):not(html)
 ##.fixed[data-cookie-notice]
 ##.fixed[data-cookiebar]
+##.fixed[data-cy*="cookie-notice"]
 ##.fixed[data-target="gdpr.notice"]
 ##.fixed[x-data*="AcceptCookies"]
 ##.fixed[x-data*="CookieBanner()"]
@@ -16812,6 +16815,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/bfb_write_log
 /api/cmp_tracker
 /api/drpStats
+/api/event-rfkj/*
 /api/getPos?jspath=/videos/view//*
 /api/ipv4check?
 /api/log-visit
@@ -31012,7 +31016,6 @@ boxannunci.com##.terms
 boxcryptor.com##.mdl-layout__inner-container > .mdl-layout__header ~ div[style*="transform"]
 boxeez.no##.bz-no-click
 boxer.se##div[class*="CookieBar"]
-boxtal.com###privacy, .privacy
 boyden.ca###site-terms
 boylove.today,boylove1.cc,boyloves.fun,boylove3.cc##DIV[style='bottom: 80px;']
 bpm.it###inline-cookie-tab
@@ -31107,8 +31110,6 @@ budgetmobiel.nl###cookie-wall
 budni.de###__next > div > footer ~ div
 budowniczy.com.pl##.configMessages
 budport.com.ua##body > div[style^="position:fixed;"][style*="z-index"][style*="background"]
-buecher-sale.de###klaro
-buecher.de###klaro
 bueffelbill.com##.cn
 buelow-palais.de###confirmation
 buerger.de###consent-modal, .reveal-modal-bg
@@ -31314,7 +31315,7 @@ cdlens.com##.jsPrivacy
 cdn.appconsent.io$domain=~lefigaro.fr
 cdn.civiccomputing.com$domain=metoffice.gov.uk|churchofengland.org|yodel.co.uk|totalwar.com|gfps.com|mann.tv|lawgazette.co.uk|gfms.com
 cdn.cookiecode.nl
-cdn.opencmp.net$domain=~foraum.de|~idowa.de
+cdn.opencmp.net
 cdn.realpeoplemedia.co.uk
 cdn.truendo.com
 cdn.userdatatrust.com
@@ -32243,6 +32244,7 @@ dopravnakarta.sk###CookieAgree
 dormando.de###up-cookie
 dormezbien.fr###cnil, .cnil, #CNIL
 dotacedestovka.cz##fnx-cc
+dotnetconf.net###cookie-consent
 douban.com##.lnk-doubanapp
 douyu.com###FansFestival2003Tips
 douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
@@ -33074,7 +33076,6 @@ footroll.pl##body > div:not([id]):not([class])
 fora.pl##.pp-t-a-c
 fora.se##.alert, #alert
 foramax.hu##body > .ct, body > .cc
-foraum.de##.needsclick
 forbesenespanol.com##.fixed[data-toast*="cookies"]
 forbit.it##.page > div[id*="cookie"]
 forbot.pl###ForbotCookies
@@ -33996,7 +33997,6 @@ idera.com##.idCookiePolicyBanner
 ideya-biznesa.ru##.admania_adblock_detector
 idgspa.it###showimage
 idopontfoglalo.kh.gov.hu###cookie
-idowa.de##.needsclick
 ids-imaging.com###privacycheck
 idw-online.de###idwcookie
 iebschool.com##.content-bottom-drawer
@@ -36659,7 +36659,6 @@ paecklipunkt.ch##pp-cookie-dialog
 paf.es##.mo-notification-bar-fixed
 pagefly.io##.cookie.card
 pagellapolitica.it##.alert, #alert
-pagespeed.web.dev##c-wiz > div > div > div > div[jscontroller][jsaction$=");"]
 paginasamarillas.es###m-notification--bottom
 painart.ru##body > div[id][style^="display: block"][style*="background: red"]
 paivyri.fi##body > center > table[style*="width:100%"]
@@ -36795,6 +36794,7 @@ perfumesclub.com##.cookies
 periodex.co##.p-banner
 permettezmoideconstruire.fr##.alert-overlay
 permisecole.com###rgpd
+pernambucanas.com.br##div[class*="CookieContent"]
 perplexity.ai##main > div > .fixed.bottom-sm
 persgroepwielerspel.nl###st_popup, #st_overlay
 personal.natwest.com##.cookie
@@ -37431,6 +37431,7 @@ refurbished.sk##.cookies
 regen.network###gatsby-focus-wrapper > div:not([class]) + div
 regielive.ro###cc-mesaj-box-wrapper
 regio15.nl##body > div[class*="app"] > div[class*="popup"]
+regioactive.de###dialogconsent, .reveal-modal-bg
 regiobank.nl###cleanPageContainer
 regionalnetze-linzgau.de###backgroundMessagebox
 regione.abruzzo.it###system-message
@@ -39520,6 +39521,7 @@ venta-unica.com###vu_consent
 vente-unique.be###vu_consent
 vente-unique.ch###vu_consent
 vente-unique.com###vu_consent
+vente-unique.es###vu_consent
 vente-unique.it###vu_consent
 vente-unique.lu###vu_consent
 vente-unique.nl###vu_consent
@@ -39854,7 +39856,7 @@ weedmaps.com##div[data-testid="notification"]
 weekday.com##.m-error-banner
 weequizz.com##.bt_cookie
 weerg.com###blultpdfbanner
-weerstatistieken.nl###darker
+weerstatistieken.nl###ccWrapper
 weersvoorspelling.nl##body > div:not([id]):not([class])
 weespreventief.nl###popup, .popup
 weetabix.co.uk##.oCookie
@@ -74286,6 +74288,7 @@ zyro.com##.zyro-cookies
 ||groameeb.com^
 ||groansnoosed.space^
 ||grobido.info^
+||groceries.asda.com/px/PX1UGLZTko/init.js
 ||grocmaish.com^
 ||groglezapto.pro^
 ||groguzoo.net^
@@ -129154,7 +129157,6 @@ zyro.com##.zyro-cookies
 ~gift.be###div_cookiespolicy_notification
 ~global.commerce-connector.com##.no-cookies:not(body):not(html)
 ~go-e.com###__next [data-testid*="cookie-banner"]
-~go-e.com,~canalplus.com,~hansapark.de##div[class*="CookieBanner"]:not([class*="page"]):not([class*="Layout"]):not(.app)
 ~gongfm.de##.radioplayer-cookie-consent
 ~goteborg.com###__layout div[class*="cookie-popup"]
 ~gov.lv,~riga.lv##.cookieBackground:not(body):not(html)
@@ -129231,8 +129233,8 @@ zyro.com##.zyro-cookies
 ~leserservice.ch,~pocketbook.de,~thesocialmedwork.com##.cookie[role*="alert"]
 ~leslipfrancais.fr###nq_cnilbanner
 ~libelium.com###gdpr-cookie-consent-bar
-~libelium.com,~music.yandex.ru,~music.yandex.com,~totalcasino.pl##.gdpr-popup:not(body):not(html)
 ~libelium.com,~tikkio.com,~pekao.com.pl###gdpr-popup
+~libelium.com,~totalcasino.pl##.gdpr-popup:not(body):not(html)
 ~lifepointspanel.com##.region-cookie-banner
 ~logpay.de,~danskemedier.dk###gdpr-cookie-message
 ~magentagaming.com###___gatsby div[class*="CookieConsent"]
@@ -129275,6 +129277,7 @@ zyro.com##.zyro-cookies
 ~niko.eu##.c-cookie:not(body):not(html)
 ~noodweer.be##cookie-notice
 ~northernpowergrid.com,~lcp.fr###cookiesjsr
+~nova-web.de,~go-e.com,~canalplus.com,~hansapark.de##div[class*="CookieBanner"]:not([class*="page"]):not([class*="Layout"]):not(.app)
 ~nuri.com###___gatsby div[class*="cookie-consent"]
 ~nytimes.com##.expanded.gdpr
 ~odenserundt.dk###cookie-gdpr
