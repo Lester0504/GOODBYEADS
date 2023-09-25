@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-24 20:24:47（北京时间） 
-! Total count: 129620
+! Version: 2023-09-25 08:50:57（北京时间） 
+! Total count: 129610
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16282,10 +16282,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ImpressionsEvent.js
 /InsightTrk/*
 /IntegerNet_CookieConsent/*
-/KISSmetricsTrackCode.
-/Kelkooid?
-/KenticoActivityLogger/*
-/KochavaAnalytics.
+/KenticoActivityLogger/Logger.js
 /LandingPageHitLog.aspx?
 /LdCookieConsent.js$domain=landkreis-eichstaett.de
 /Libs/cookies$domain=nadeta.cz
@@ -16719,6 +16716,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics.*/ping/?
 /analytics.*/track
 /analytics.ad.
+/analytics.analytics/*
 /analytics.bundled.js
 /analytics.collect.
 /analytics.config.js
@@ -17880,27 +17878,26 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /frontend/ajax/cookies$domain=romstal.ro
 /fsrscripts/*
 /fusion/lucid/data/*
-/g2insights.
 /g_track.php?
-/ga-async-
 /ga-audiences?
 /ga-collect?
 /ga-events.js
 /ga-links.js
-/ga-lite.
+/ga-lite.min.js
 /ga-local.js
-/ga-multidomain.
-/ga-script.
+/ga-multidomain.js
+/ga-script.js
 /ga-scroll-events.js
 /ga-se-async.js
 /ga-targets.js
-/ga-track-
-/ga-track.
-/ga-tracker-
-/ga-tracker.
+/ga-track-code.js
+/ga-track-external.js
+/ga-track.js
+/ga-track.min.js
+/ga-tracker.js
 /ga-tracking-
-/ga-tracking.
-/ga-tracking/*
+/ga-tracking.js
+/ga-tracking.min.js
 /ga.gif?
 /ga.js?grid
 /ga.jsp?$image
@@ -18140,6 +18137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hs_track.
 /hsc/trk/*
 /ht.js?site_
+/hubspot-ga-tracking.js
 /hw-cookie-consent/*
 /hw-cookie-dialog.js
 /i.gif?
@@ -18225,7 +18223,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /instantpage.js
 /instart.js
 /interaction/beacon
-/intercept.js
+/intercept/intercept.js
 /intuCookieConsent.js$domain=intu.co.uk
 /ip-consent.min.js$domain=weersverwachting.nl
 /ipdvdc/*
@@ -18356,19 +18354,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /json?mbox=
 /json?referer=
 /jsonp_geoip?
-/jsstat.
+/jsstat.cgi?
 /jst_eu_cookie/*
 /jstatphp.
 /jstats.php
-/jstats/js/*
-/jtracking/*
 /jump/?jl=
-/jump/clk1.
+/jump/clk1.php
 /jw.cookies.js$domain=jacquelinewilson.co.uk
 /kaiseki/script.php
 /kaiseki/track.php?
 /kaizentrack/*
-/kameleoon-iframe.
+/kameleoon-iframe.html
 /kameleoon.js
 /kameleoon.js$domain=hanseaticbank.de
 /kameleoon.min.js
@@ -18376,22 +18372,19 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /kbv-cookieconsent.js
 /keen-tracker.
 /keen-tracking-
-/keen-tracking.
+/keen-tracking.js
+/keen-tracking.min.js
 /keen.min.js
-/keenio.min.js
-/kelkooSponsoredLinks.
 /keypress.js$script
 /keywee.js
-/keywordlogger.
-/kissmetrics.
-/kissmetrics/*
+/kissmetrics.js
 /kixsimpletrack/*
 /klaro$domain=tarif4you.de
 /klaro-no-css.js$domain=frag-einen-anwalt.de
 /klaro.js$domain=beckhoff.com
 /klaro/*$domain=salesviewer.com
 /klaro/klaro-pe.js
-/klaviyo_analytics.
+/klaviyo_analytics.js
 /klicks.nebenan.de/q/*$image
 /koko-analytics-collect.php
 /koko-analytics/assets/dist/js/*
@@ -18408,7 +18401,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /levelmaxblock.js
 /lgpd-cookie/*
 /lhnhelpouttab-current.min.js
-/lib/analytics.
+/lib/analytics.js
 /lib/snowplow-
 /libraries/google/do-not-track.js
 /library/svy/broker.js
@@ -19381,34 +19374,28 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rrweb-script.
 /rrweb.js
 /rrweb.min.js
-/rt_tag.
-/rt_track.
-/rt_track_
+/rt_tag.js
+/rt_tag.ofs.js
+/rt_track.js
 /rtac/gif?
 /rtd.js
 /rtkbeacon.gif?
 /rtm-tracking.
 /rtoaster.js
-/rtracker.
-/rubics_trk
-/rudder-analytics.
-/rum-dytrc.
+/rtracker.min.js
+/rtracker/ofs.rtt.js
+/rudder-analytics.js
+/rudder-analytics.min.js
 /rum-telemetry/*
 /rum-track?
 /rum.gif?
 /rum.js/*
-/rum.min.
+/rum.min.js
 /rum/events
 /rum/id?
 /rum/performance
-/rum?ddsource=
 /rum_analytics/*
-/rum_cmp?
-/rumcdn.
-/rumstat.
-/rumtag.
 /run/perf
-/runtimejs/intercept/*
 /ruxitagentjs_
 /rwtag.gif?
 /rwtag.js
@@ -29097,6 +29084,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.huangye.miui.com^
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
+@@||api.nocturnal-narwhal.buzz^$domain=webtor.io
 @@||api.onedrive.com^
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
@@ -53210,6 +53198,7 @@ zyro.com##.zyro-cookies
 ||bcuiaw.com^
 ||bcvxfgy.xyz^
 ||bcwxcwvwmcsplf.xyz^
+||bd-a-1.appmobile.cn^
 ||bd-china-1.appmobile.cn^
 ||bd-gl.com^
 ||bd-js.baixing.net^
@@ -92781,6 +92770,7 @@ zyro.com##.zyro-cookies
 ||noqukjy.com^
 ||nora7nice.com^
 ||norakseemlyntr.com^
+||nordace.com/track.js
 ||nordeela.com^
 ||nordicresearch.com^
 ||nordicresearch.com^$third-party
