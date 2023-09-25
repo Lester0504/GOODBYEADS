@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-25 09:03:10（北京时间） 
-! Total count: 129610
+! Version: 2023-09-25 20:21:53（北京时间） 
+! Total count: 129620
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -2679,6 +2679,7 @@
 ###__next div[data-testid*="banner-cookie"]
 ###__next div[data-testid*="consent-banner"]
 ###__next div[data-testid*="consent-manager"]
+###__next div[data-testid*="cookie-permission"]
 ###__next div[data-testid*="cookiePopup"]
 ###__next div[data-testid*="privacy-popup"]
 ###__next section[class*="Cookiebar"]
@@ -2796,7 +2797,7 @@
 ###accept_cookie_container
 ###accept_cookie_div
 ###accept_cookie_widget
-###accept_cookies:not(button):not([class*="btn"])
+###accept_cookies:not(button):not([class*="btn"]):not(.modal)
 ###accept_cookies_banner
 ###accept_cookies_div
 ###acceptance-cookie-modal
@@ -3892,6 +3893,7 @@
 ###cookie-alert-outer-wrapper
 ###cookie-alert-section
 ###cookie-alerte
+###cookie-alerts
 ###cookie-allow
 ###cookie-announcement
 ###cookie-app-flyout
@@ -8338,7 +8340,6 @@
 ###privacy-notice-box
 ###privacy-notice-container
 ###privacy-police
-###privacy-policies-banner.privacy-policies-banner
 ###privacy-policy-agreement.active
 ###privacy-policy-banner
 ###privacy-policy-bar
@@ -17650,6 +17651,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /drive-analytics/*
 /drwebstat.js
 /dsgvo-opt-in.css$domain=kosta.at
+/dsgvo/js/cookiemonster
 /dsgvoCC.js$domain=strabag-pfs.de
 /dsgvo_2018.js
 /dsgvoinit.min.js
@@ -29584,6 +29586,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||skyapi.live.net^
 @@||skyapi.onedrive.live.com^
 @@||skydrivesync.policies.live.net^
+@@||smog.moja-ostroleka.pl/mapa/sensorsdata.json$~third-party
 @@||smotrim.ru/js/stat.js$script
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
@@ -30982,7 +30985,6 @@ bpp.com###consentDiv
 bpsa.co.uk###terms_container
 bptour.pl##body > div:not([id]):not([class])
 br-automation.com###siwa-cookiebar, .modal-backdrop
-br.de###__next > .fixed, #__next [class*="CookieContainer"]
 brabilligt.se##.uk-notification
 brack.ch###b2c-consent
 brady.de##.CampaignType--floating
@@ -32795,6 +32797,7 @@ faktograf.hr##.elementor-popup-modal
 falano.de###overlay
 fallentitans.com##.footer
 falriver.co.uk###gpdr, #GPDR, #gdpr, #GDPR
+fameplay.tv##.privacy-wrapper
 famework.io##.notifications
 familycarebadanti.it###toast, .toast
 familylawweek.co.uk###zeus_box
@@ -33305,7 +33308,6 @@ getdigital.de##.privacy-wrapper
 getem.pl###polityka
 getfilecloud.com###gdpr_accept
 getgrover.com##.snackbar-enter-done
-getir.com###__next > [class*="Drawer"]
 getmailbird.com###mb-footer-lawmsg
 getrad.co##.cookie-policy-modal
 getraenke089.de##.DS_banner_wrapper
@@ -34216,6 +34218,7 @@ issuu.com##.icc-Root
 istockphoto.com##.banner.warning
 istotne.pl##.notification
 ists.pl##.polityka
+isybank.com##.cookie-modal, .modal-backdrop
 it-cc.index.js^$domain=boellhoff.com
 it-enginer.ru##body > #modal[style*="blur"]
 it-shop24.pl###cookie
@@ -35095,6 +35098,7 @@ lurker.pl##.uk-alert
 luxicarshireltd.co.uk##body > div[data-rule-type]
 luxmeble.eu###cookie
 luxplus.dk###lp-euc
+lvgmc.lv##.cookies__container
 lvhn.org###block-lvhnconsentpopup
 lvr.de###cookie
 lvsas.sk##.cookies
@@ -37061,6 +37065,7 @@ pravda.ru##.cookie-container
 prawdaobiektywna.pl###mcpc
 prawdziwyonline.pl###pp-consent
 prawobrzeze.info##body > div:not([id]):not([class])
+praxisplan.at###consent-modal
 predathor.pl##.spu-bg, .spu-box
 preferred411.com##.toasterCookie
 premier.one##.notifications-container
@@ -37090,7 +37095,7 @@ printer-care.de##.wwwschutz_cmp_showing
 printerman.pt##body > div:not([id]):not([class])
 printn1.ru###info-bott-message
 privacidade.api.milvus.com.br
-privacy-center.org$domain=elconfidencial.com|diariodecadiz.es|lavozdegalicia.es|publico.es|diariodesevilla.es|eleconomista.es|granadahoy.com|malagahoy.es|diariodealmeria.es|lavozdeasturias.es|culturainquieta.com|segre.com|mappy.com|radioplayer.fr|goplay.be|lavoixdunord.fr|muyinteresante.es|t-mobile.pl|autocasion.com|europasur.es|pisos.com|lagacetadesalamanca.es|meilleure-innovation.com|huelvainformacion.es|futura-sciences.com|elpais.com|diariodejerez.es|leonoticias.com|france24.com|retinatendencias.com|eldiadecordoba.es
+privacy-center.org$domain=elconfidencial.com|diariodecadiz.es|lavozdegalicia.es|publico.es|diariodesevilla.es|eleconomista.es|granadahoy.com|malagahoy.es|diariodealmeria.es|lavozdeasturias.es|culturainquieta.com|segre.com|mappy.com|radioplayer.fr|goplay.be|lavoixdunord.fr|muyinteresante.es|t-mobile.pl|autocasion.com|europasur.es|pisos.com|lagacetadesalamanca.es|meilleure-innovation.com|huelvainformacion.es|futura-sciences.com|elpais.com|diariodejerez.es|leonoticias.com|france24.com|retinatendencias.com|eldiadecordoba.es|fameplay.tv
 privacy-manager-v*$domain=df.eu
 privacy-policy.u-lab.nl
 privacy.claytonhomes.com
@@ -38693,6 +38698,7 @@ tecedo.at##.msg-banner
 tech-elektro.pl###cookie
 tech.sina.com.cn##.zc-app
 tech.sina.com.cn##.zc-app-btn.right-bar-btn
+techedubyte.com###ckWrap
 techem.de##.cookie
 techgig.com##.gdpr-info
 techguard.ie###popup, .popup
@@ -57095,6 +57101,7 @@ zyro.com##.zyro-cookies
 ||cclink.carfax.com^
 ||ccm.ceasy.de/public/app.js$script
 ||ccm.entire-media.de/public/app.js$script
+||ccm.f1st.de/app.js?apiKey$script
 ||ccm.land24.de/app.js?apiKey$script
 ||ccm1.dlr.de^
 ||ccm19.de/app.js$script
@@ -90973,6 +90980,7 @@ zyro.com##.zyro-cookies
 ||mundanenail.com^
 ||mundanenail.com^$third-party
 ||mundanepollution.com^
+||mundodesconocido.com/tracker/
 ||munero.me^
 ||mungfali.com^
 ||munion.mediav.com^
@@ -107500,6 +107508,7 @@ zyro.com##.zyro-cookies
 ||smarteucookiebanner.upsell-apps.com^
 ||smartfarming.cn^
 ||smarthint.co/track/
+||smartlink-api.amuse.io/api/analytics/
 ||smartlnk.com^
 ||smartlook.com^
 ||smartlook.com^$third-party
@@ -109353,6 +109362,7 @@ zyro.com##.zyro-cookies
 ||smuggleturnstile.com^
 ||smugmuseumframe.com^
 ||smugturner.com^
+||smutty.com/ajax/trcking/
 ||smuwitafmac.com^
 ||smy.iheart.com^
 ||smyfbkk.com^
@@ -129204,7 +129214,7 @@ zyro.com##.zyro-cookies
 ~carry.pl##.lgcookieslaw_banner
 ~case-score.de,~gov.lv,~riga.lv,~cexpr.es,~correosexpress.com,~correosexpress.pt,~travelchannel.co.uk##.cookie-wrapper:not(body):not(html)
 ~cashconverters.es,~cashconverters.pt##.privacy_policy_message_box
-~cdu-fraktion.berlin.de###cookie-disclaimer:not(.modal)
+~cdu-fraktion.berlin.de###cookie-disclaimer:not([class*="modal"])
 ~cexpr.es,~correosexpress.com,~correosexpress.pt##.message-cookie:not(body):not(html)
 ~cgi.com,~otpbank.ro,~anadibank.com,~lotusbakeries.nl,~itextpdf.com##.eu-cookie-compliance-banner
 ~clasohlson.com###js-cookie-notification
