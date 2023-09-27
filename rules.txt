@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-26 20:28:34（北京时间） 
-! Total count: 129716
+! Version: 2023-09-27 08:51:01（北京时间） 
+! Total count: 129721
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28980,6 +28980,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
+@#div[class$="_0"]@www.jianshu.com
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
 @@/adsbygoogle.js$script,domain=arabiaweather.com
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
@@ -36023,7 +36024,7 @@ myparcel.me##.card.fixed-bottom
 myparliament.info###data-disclaimer
 mypeopledoc.com##.tall .update
 myproducts.bandce.co.uk##.banner, #banner
-myqqjd.com##.adsbygoogle
+myqqjd.com##.adsbygoogl
 myscience.org###footer ~ .block
 myscript.com##.notifications
 mysearch.com###cp-banner
@@ -36640,6 +36641,8 @@ pamgolding.co.za###popi-notification
 pamiec.pl##.JSWrapper
 pampling.com###mensaje_aprobacion
 pan.baidu.com##.nd-operate-guidance
+pan.baidu.com##A.active-msg
+pan.baidu.com##div.content DIV.photo-banner
 pan.baidu.com##div.nd-main-layout:first-child > div.nd-operate-guidance:last-child
 panasonicproclub.com###over
 panattasport.com##.notification-block
@@ -40078,6 +40081,7 @@ www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
 www.jianshu.com##[aria-label='lwa-ad-one']
+www.jianshu.com#@#div[class$="_0"]
 www.jjtyss.com##ins[class],.myui-player.clearfix p,.container p
 www.jmhongyan.com##ins[class],.container p
 www.lezhutv.com##[style='bottom: 132px;']
@@ -59214,6 +59218,7 @@ zyro.com##.zyro-cookies
 ||cnt.trvdp.com^
 ||cnt.viptube.com^
 ||cnt.vivatube.com^
+||cnt.xhamster.com^
 ||cnt1.net^
 ||cnt1.net^$third-party
 ||cntingyun.com^
