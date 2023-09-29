@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-28 20:28:16（北京时间） 
-! Total count: 129728
+! Version: 2023-09-29 08:50:40（北京时间） 
+! Total count: 129738
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15081,6 +15081,8 @@
 ##A#floating-banner
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
+##A[href*='-fghgdf.com']
+##A[href*='-fghhjj.com']
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
@@ -29730,8 +29732,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 @@||widget.1688.com^
+@@||widget.ezidebit.com.au^
 @@||widget.intercom.io^
 @@||widget.myrentacar.me^$script,subdocument
+@@||widget.rave.office.net^
 @@||widget.trustpilot.com/bootstrap/$script,domain=amartfurniture.com.au|exodus.co.uk|imyfone.com
 @@||widget.weibo.com^
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
@@ -46946,6 +46950,7 @@ zyro.com##.zyro-cookies
 ||admax.network^
 ||admax.space^
 ||admaxim.com^
+||admaxium.com^
 ||admd.housefun.com.tw^
 ||admd.yam.com^
 ||adme-net.com^
@@ -50843,7 +50848,6 @@ zyro.com##.zyro-cookies
 ||appchannel.html5.qq.com^
 ||appcloud.appyreward.com^
 ||appcloud2.in.zhihu.com^
-||appcloud2.zhihu.com^
 ||appcloudactive.com^
 ||appcloudcore.com^
 ||appcloudgroup.com^
@@ -95527,6 +95531,8 @@ zyro.com##.zyro-cookies
 ||p1-be-endcard.pglstatp-toutiao.com^
 ||p1-feedback.byteimg.com^
 ||p1-lm.adkwai.com^
+||p1-play.edge4k.com^
+||p1-play.kgslb.com^
 ||p1.adkwai.com^
 ||p1.chinakaoyan.com^
 ||p1.danskebank.dk^
@@ -95538,6 +95544,7 @@ zyro.com##.zyro-cookies
 ||p13vtlg7n362.clariti.app^
 ||p188.cn^
 ||p1corn.com^
+||p2-play.edge4k.com^
 ||p2.danskebank.dk^
 ||p2.danskebank.fi^
 ||p2.danskebank.se^
@@ -97678,6 +97685,7 @@ zyro.com##.zyro-cookies
 ||play.fanslide.com^
 ||play.google.com/log
 ||play.ht/views/
+||play.kakao.com^
 ||play.qs01.cn^
 ||play.rheo.tv^
 ||play.scavos.com^
@@ -111427,6 +111435,7 @@ zyro.com##.zyro-cookies
 ||statisfy.net^$third-party
 ||statista.com/data/ptm.gif
 ||statistic-data.com^
+||statistic.audima.co^
 ||statistic.date^
 ||statistic.jac-systeme.de^
 ||statistic.qzone.qq.com^
@@ -114689,6 +114698,7 @@ zyro.com##.zyro-cookies
 ||technorati.com/technoratimedia-pixel.js
 ||technoratimedia.com^
 ||technoshadows.com^
+||techpump.com^
 ||techreviewtech.com^
 ||techservices.trapptechnology.com^
 ||techspecndt.com^
