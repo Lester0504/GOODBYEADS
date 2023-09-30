@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-09-30 09:01:20（北京时间） 
+! Version: 2023-09-30 20:18:44（北京时间） 
 ! Total count: 129912
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -17,7 +17,7 @@
 # Create an issue at https://github.com/AdAway/adaway.github.io/issues
 # Description: Blocks Xiaomi Ads,Trackers.
 # Developer & Maintainer: Jerry [jerryn70] XDA Senior Member
-# Entries: 279
+# Entries: 278
 # Fetch the latest version of this file:
 # Format: Hosts
 # Further changes and contributors maintained in the commit history at
@@ -29,7 +29,7 @@
 # Project home page:
 # Source: https://github.com/jerryn70/GoodbyeAds
 # Title: GoodbyeAds-Xiaomi-AdBlock
-# Updated: Mar 12 12:32:31 GMT+05:30 2023
+# Updated: Sep 30 10:32:31 GMT+05:30 2023
 # [163.com]
 # [1mobile.com]
 # [1rx.io]
@@ -20712,7 +20712,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 0.0.0.0 mini.cpc.sogou.com
 0.0.0.0 mis.g.mi.com
 0.0.0.0 mis.migc.xiaomi.com
-0.0.0.0 mis.migc.xiaomi.comfile.m
 0.0.0.0 mishop.cdn.pandora.xiaomi.com
 0.0.0.0 mishop.pandora.xiaomi.com
 0.0.0.0 mitunes.game.xiaomi.com
@@ -49430,6 +49429,7 @@ zyro.com##.zyro-cookies
 ||analytics-1.cavai.com^
 ||analytics-api.dvdfab.
 ||analytics-api.samsunghealthcn.com^
+||analytics-batch.blitz.gg^
 ||analytics-beacon.p.uliza.jp^
 ||analytics-cdiscount.com^$third-party
 ||analytics-cms.whitebeard.me^
