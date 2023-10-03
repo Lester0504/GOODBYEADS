@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-02 20:28:30（北京时间） 
-! Total count: 130052
+! Version: 2023-10-03 08:51:27（北京时间） 
+! Total count: 130060
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19396,6 +19396,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rum/events
 /rum/id?
 /rum/performance
+/rum?ddsource=
 /rum_analytics/*
 /run/perf
 /ruxitagentjs_
@@ -30558,6 +30559,7 @@ baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##[class*='index_godCard'][class*='index_noGuaranteeTag'][class*='index_adTextPosition'],[class^='index_brandEntry__'],[data-show*='swan-ad-fc-swiper-banner']
 baidu.com##[class^='ball-wrapper']
 baidu.com##[data-tpl='adv_wenku_fc']
+baidu.com##[data-video-player='true']
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##div[class$="-ecom-ads"]
 baidu.com#@##header > div:last-child
@@ -38146,6 +38148,7 @@ smzdm.com##a[class^="fixed-logo"]
 snowmagazine.com###mixcookies
 so.com###card_container > div.hot-news-card.clearfix:last-child
 so.com###side
+so.toutiao.com##.relative.pointer-events-none
 so.toutiao.com##DIV[id^='ad_']
 so.toutiao.com##section.commonbox.hasfooter
 soakandsleep.com###wagento-cp-wrap
@@ -57129,6 +57132,7 @@ zyro.com##.zyro-cookies
 ||cc.conforama.es^
 ||cc.dace.hupu.com^
 ||cc.dalten.cz/ccJs$script
+||cc.dalten.cz^
 ||cc.diewebsitemacherei.de/app.js$script
 ||cc.gofile.io^
 ||cc.idasui.cn^
@@ -86340,6 +86344,7 @@ zyro.com##.zyro-cookies
 ||m.dgouf.com^
 ||m.dh19y.cn^
 ||m.diogv.com^
+||m.diyibanzhu.buzz/17mb/script/
 ||m.djhhy.com^
 ||m.djunf.com^
 ||m.dkd21.cn^
@@ -117926,6 +117931,7 @@ zyro.com##.zyro-cookies
 ||trace.m1905.cn^
 ||trace.qq.com^
 ||trace.rtbasia.com^
+||trace.swaven.com^
 ||trace.ynet.com^
 ||tracead.com^
 ||tracead.com^$third-party
@@ -119247,6 +119253,7 @@ zyro.com##.zyro-cookies
 ||trk02.knect365.com^
 ||trk023.com^
 ||trk1.17admob.com^
+||trk2-wtb.swaven.com^
 ||trk3000.com^
 ||trk4.com^
 ||trkad.network^
@@ -128042,6 +128049,7 @@ zyro.com##.zyro-cookies
 ||ynbojie.com^
 ||yncfwy.net^
 ||yncjsc.cn^
+||yndhi.com^
 ||yneationsliee.xyz^
 ||ynet.da.mgtv.com^
 ||ynfxxbp.xyz^
