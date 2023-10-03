@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-03 20:21:44（北京时间） 
-! Total count: 130061
+! Version: 2023-10-03 20:22:56（北京时间） 
+! Total count: 130063
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -38013,6 +38013,8 @@ sina.cn##div[class^=m-client-call]
 sina.cn##span[class*=callApp]
 sina.cn#?#.m_f_a_r:-abp-contains(打开APP)
 sina.cn#?#article.single-pic.article:-abp-contains(APP专享)
+sina.cn#@#.j_callST
+sina.cn#@#.look_more_a, .j_callST
 sina.com.cn###SFA_NV_POP
 sina.com.cn##.part-a-l > .mod-02
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
