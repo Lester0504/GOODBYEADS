@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-08 20:25:34（北京时间） 
-! Total count: 129896
+! Version: 2023-10-09 08:51:06（北京时间） 
+! Total count: 129909
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15196,9 +15196,12 @@
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src$='tywheying/vv2-960x80.gif']
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
+##IMG[src*='//img4.qv1.ru/data/game/']
+##IMG[src*='/ds3/ssmh/']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
 ##IMG[src*='qimanwu_wap/static/adimages/']
 ##IMG[src*='qmfcybwbf']
+##IMG[src='/adBanner']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
 ##IMG[style='height:120px;width:100%;'][src*='/sucai/']
@@ -15656,6 +15659,7 @@
 ##div.row > DIV.md-r-panel
 ##div.row > div[id] > ul > li.cpn > a
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
+##div.slide-baidu IMG[src='/images/aw1.gif']
 ##div.stui-pannel__bd > #t-img-box
 ##div.stui-player.col-pd DIV[style='text-align:center']
 ##div.swiper-slide > A[rel='nofollow noopenner']
@@ -28893,7 +28897,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 4sgm.com###policy-bar
 4webs.es###cookiesdiv
 51degrees.com###pop-wrapper
-52movieba.com,bimibimi.me,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
+52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
 5ingredients15minutes.com##.gpdr-agreement
 5ka.ru###app > .message
@@ -38025,8 +38029,6 @@ sina.cn##div[class^=m-client-call]
 sina.cn##span[class*=callApp]
 sina.cn#?#.m_f_a_r:-abp-contains(打开APP)
 sina.cn#?#article.single-pic.article:-abp-contains(APP专享)
-sina.cn#@#.j_callST
-sina.cn#@#.look_more_a, .j_callST
 sina.com.cn###SFA_NV_POP
 sina.com.cn##.part-a-l > .mod-02
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
@@ -42369,6 +42371,7 @@ zyro.com##.zyro-cookies
 ||6519114.mktg.almosafer.com^
 ||6519114.mktg.tajawal.com^
 ||6532208.com^
+||65432.pw^
 ||6554.net^
 ||658bbb.us^
 ||6593167243.com^
@@ -42927,6 +42930,7 @@ zyro.com##.zyro-cookies
 ||8kjdbfkgdfgdd88.monster^
 ||8le8le.com^
 ||8mfty.com^
+||8mhcc.top^
 ||8nc8shot.txxx.com^
 ||8ox.cn^
 ||8pay.wang^
@@ -43046,6 +43050,7 @@ zyro.com##.zyro-cookies
 ||9868.online^
 ||986qka.cn^
 ||9876.cc^
+||98765.pw^
 ||98765432100.online^
 ||98765432100.site^
 ||988878.com^
@@ -45315,6 +45320,7 @@ zyro.com##.zyro-cookies
 ||aab-check.me^
 ||aabbfwupxfbcrz.com^
 ||aabbttuu.com^
+||aabeautiful.cn^
 ||aabproxydomaintests.top^
 ||aabproxytests.top^
 ||aabproxytestsdomain.top^
@@ -48383,6 +48389,7 @@ zyro.com##.zyro-cookies
 ||agooxouy.net^
 ||agorahtag.tech^
 ||agorahtag.tech^$third-party
+||agossuoeach.com^
 ||agoutafrecket.digital^
 ||agqankaz.com^
 ||agqovdqajj.com^
@@ -67345,6 +67352,7 @@ zyro.com##.zyro-cookies
 ||edesf.xyzxmark.cn^
 ||edgar2al2larngpoer.com^
 ||edgbas.com^
+||edge-client^$script,domain=barrons.com
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.org/ping
 ||edge.bigbrothercanada.ca^
@@ -79750,6 +79758,7 @@ zyro.com##.zyro-cookies
 ||irs01.net^
 ||irs03.com^
 ||irs09.com^
+||irtefs.xyz^
 ||irtya.com^
 ||irtyf.com^
 ||iruacwa.xyz^
@@ -92550,6 +92559,7 @@ zyro.com##.zyro-cookies
 ||nhalcyw.com^
 ||nhamformane.com^
 ||nhatubo.com^
+||nhcdn.cn^
 ||nheappyrincen.info^
 ||nheappyrincenev.info^
 ||nhfalufsl.com^
@@ -120301,6 +120311,7 @@ zyro.com##.zyro-cookies
 ||ukgfxw.satofull.jp^
 ||ukiyoyechromy.com^
 ||ukjphn.vitaminler.com^
+||ukjwyv.icu^
 ||ukmlastityty.info^
 ||ukmnlp.techbang.com^
 ||ukndaspiratioty.info^
@@ -124722,6 +124733,7 @@ zyro.com##.zyro-cookies
 ||wko.at/css-js/scripts/cookie.js$script
 ||wko.at/gcm/cookie.js$script
 ||wkqcnkstso.com^
+||wkrcbszi.xyz^
 ||wkyfgxxabvu.xyz^
 ||wkympu.agnesb.co.jp^
 ||wkzrqq.com^
@@ -127268,6 +127280,7 @@ zyro.com##.zyro-cookies
 ||xxe2.com^
 ||xxeden.com^
 ||xxf.mobi/hit
+||xxfphsg.cn^
 ||xxgqsbfwbmtqa.com^
 ||xxgslt.com^
 ||xxguan.cn^
