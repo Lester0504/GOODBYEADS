@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-10 09:02:40（北京时间） 
-! Total count: 129913
+! Version: 2023-10-10 20:21:27（北京时间） 
+! Total count: 129914
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -4298,6 +4298,7 @@
 ###cookie-popup-wrapper
 ###cookie-popup2-sticky-wrapper
 ###cookie-powiadomienie
+###cookie-pref-disclaimer
 ###cookie-prefs
 ###cookie-prevent
 ###cookie-privacy-banner
@@ -8597,7 +8598,6 @@
 ###root div[data-testid*="jet-cookie-consent"]
 ###root footer div[class*="cookieLayerWrapper"]
 ###root footer[class*="CookieBanner"]
-###root music-notification-ribbon
 ###root section[class*="CookiesConsent"]
 ###root ~ div > div[data-ausw-test-cookiemessage]
 ###root ~ div[class*="consent-banner"]
@@ -11291,7 +11291,6 @@
 ##.cookieAd:not(body):not(html)
 ##.cookieAdvice:not(body):not(html)
 ##.cookieAdvise:not(body):not(html)
-##.cookieAgreement:not(body):not(html)
 ##.cookieAlert:not(body):not(html)
 ##.cookieAlertBarContainer
 ##.cookieAlertBarMessage
@@ -12799,6 +12798,7 @@
 ##.forum-cookie-notices
 ##.foundation-cookie-consent-modal
 ##.fp-cookie-consent:not(body):not(html)
+##.fp-cookie-modal
 ##.fr-c-message-wrap
 ##.fr-consent-banner
 ##.fr_showCookieLegalInfo
@@ -18018,7 +18018,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /geoip_cc
 /geomap.js?
 /geov2.js
-/getCookieConsent
+/getCookieConsent$domain=~lydshop.no
 /get_geoip?
 /get_site_data?requestUUID=
 /getbglog.js
@@ -30149,8 +30149,7 @@ amaterky.sk##body > div:not([id]):not([class])
 amazeta.com###gpdr, #GPDR, #gdpr, #GDPR
 amazingfables.com###cookie_consent ~ #overlay
 amazingmarvin.com###live-chat-banner
-amazon.co.uk###cookie-pref-disclaimer
-amazon.com##.accept-cookies--modal
+amazon.com##.accept-cookies--modal, .a20m-cookie-consent-banner
 ambientedirect.com##.ConsentOverlay, .ModalBackground
 ambitionspersonnel.com##body > div:not([id]):not([class])
 amcharts.com###notices
@@ -31619,7 +31618,7 @@ consent.$domain=seeandso.com|deutsches-schulportal.de
 consent.23g.io
 consent.autopflege24.net$domain=autopflege24.net
 consent.comply-app.com
-consent.cookiebot.com$domain=~deutschesapothekenportal.de|~storyhouseegmont.dk|~storyhouseegmont.no|~storyhouseegmont.se|~egmont.com|~plaion.com|~runescape.com|~jyllands-posten.dk|~tme.eu|~stadtmobil.de|~wwf.fi|~login.nos.pt|~asambeauty.com|~cineplex.de|~berlingske.dk|~digimon.kochfilms.de|~kino.dk|~hoyavision.com|~koeln.de|~cliente.nos.pt|~parkerlebnis.de|~deadwalk.io|~linak.es|~linak.de|~cajamar.es|~digitaltrends.com|~mein-grundeinkommen.de|~werder.de|~finanzmarktwelt.de|~danbolig.dk|~bt.dk|~scubadiving.com|~biomarkt.de|~harzwasserwerke.de|~stern.de|~dasinvestment.com|~derivate.bnpparibas.com|~werkenbijlidl.nl|~swspremberg.de|~nngroup.com|~bankia.es|~bergbauernmilch.de|~ekstrabladet.dk|~epochtimes.de
+consent.cookiebot.com$domain=~deutschesapothekenportal.de|~storyhouseegmont.dk|~storyhouseegmont.no|~storyhouseegmont.se|~egmont.com|~plaion.com|~runescape.com|~jyllands-posten.dk|~apoteket.se|~tme.eu|~stadtmobil.de|~wwf.fi|~login.nos.pt|~asambeauty.com|~cineplex.de|~berlingske.dk|~digimon.kochfilms.de|~kino.dk|~hoyavision.com|~koeln.de|~cliente.nos.pt|~parkerlebnis.de|~deadwalk.io|~linak.es|~linak.de|~cajamar.es|~digitaltrends.com|~mein-grundeinkommen.de|~werder.de|~finanzmarktwelt.de|~danbolig.dk|~bt.dk|~scubadiving.com|~biomarkt.de|~harzwasserwerke.de|~stern.de|~dasinvestment.com|~derivate.bnpparibas.com|~werkenbijlidl.nl|~swspremberg.de|~nngroup.com|~bankia.es|~bergbauernmilch.de|~ekstrabladet.dk|~epochtimes.de
 consent.cookiefirst.com$domain=~parken-in-mainz.de
 consent.js^$domain=zitatezumnachdenken.com
 consent.maerkischekiste.de$domain=maerkischekiste.de
@@ -35129,6 +35128,7 @@ lycos.es###nomnom
 lycos.fr###nomnom
 lycos.social###nomnom
 lycoschat.com###nomnom
+lydshop.no###cookie-consent-modal, .modal-backdrop
 lykke.com##div[class*="privacy-settings"]
 lyleandscott.com###cookieCont
 lynkco.com##footer ~ div[style*="fixed"]
@@ -38232,6 +38232,7 @@ sonax.de##.snx-notification
 sondagenational.com###legalCookies
 sonicstate.com###concord-banner-container
 sonnenverlauf.de###cc_div
+sonomix.ch###rgpd
 sonypictures.net###sp-nettrack
 sonypicturesreleasing.es###track-layer
 soonnight.com##.display_natural
@@ -129570,7 +129571,7 @@ zyro.com##.zyro-cookies
 ~faircore4eosc.eu###cookiePopupContainer
 ~fega-schmitt.de##.cookieOverlay:not(body):not(html)
 ~fega-schmitt.de##.cookieWarning:not(body):not(html)
-~fello.se,~telia.se##cookie-consent
+~fello.se##cookie-consent
 ~ffm.to,~orcd.co,~ditto.fm,~backl.ink,~forbidmedia.com##.privacy-notice-gdpr
 ~fiftysix.nl,~wuestenrot.at##.cookiePopup:not(body):not(html):not(.reveal)
 ~fil-luge.org##.CookieBar:not(body):not(html)
