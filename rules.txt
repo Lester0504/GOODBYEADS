@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-12 09:00:51（北京时间） 
-! Total count: 130017
+! Version: 2023-10-12 20:21:50（北京时间） 
+! Total count: 130021
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -5675,6 +5675,7 @@
 ###cookies-wiadomosc-box
 ###cookies-window
 ###cookies-wrap
+###cookies-wrapper
 ###cookies.alert
 ###cookies.alert-box
 ###cookies.alert-dismissible
@@ -9731,7 +9732,7 @@
 ##.alert-cookies:not(body):not(html)
 ##.alert-cookiewarning:not(body):not(html)
 ##.alert-dismissable.cook_info
-##.alert-dismissible[id*="cookiechoice"]
+##.alert-dismissible[id*="cookie"]
 ##.alert-gdpr
 ##.alert-info[aria-label*="GDPR"]
 ##.alert-info[data-block-track*="CookieNotice"]
@@ -12675,6 +12676,7 @@
 ##.fc-cookies:not(body):not(html)
 ##.fc_foot
 ##.fcs-cookie-component
+##.fd-consent-main
 ##.fed-part-advs.fed-text-center.fed-font-xvi
 ##.feedback-message.cookie
 ##.ff-ads
@@ -17138,7 +17140,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cklink.gif?
 /cklog.js
 /cknotiz.js
-/ckpl-webc.min.js$domain=cinkciarz.pl
+/ckpl-webc.min.js
 /clear.gif?
 /click-analytics.
 /click.*/q/*$image
@@ -18328,6 +18330,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/indextools/*
 /js/js4.js
+/js/klaro-no-
 /js/lead-tracking
 /js/library/cmp/cmp.bundle-
 /js/livestats_
@@ -18393,7 +18396,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /kissmetrics.js
 /kixsimpletrack/*
 /klaro$domain=tarif4you.de
-/klaro-no-css.js$domain=frag-einen-anwalt.de
 /klaro.js$domain=beckhoff.com
 /klaro/*$domain=salesviewer.com
 /klaro/klaro-pe.js
@@ -19432,6 +19434,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /satismeter.js
 /sauron-analytics/*
 /scmetrics.*/b/ss/*
+/scmp-int.js$domain=mapy.cz
 /screencount?vcid=
 /scribd_events?
 /script/ico.cookie.
@@ -32008,8 +32011,8 @@ deofhet.nl###gatsby-focus-wrapper > div > footer ~ div
 deployhq.com##.crumbs-banner
 depo-diy.ee##.depo-cookies
 depo-diy.lt##.depo-cookies
-depo.ee##.depo-cookies, .w-full.fixed.bottom-0
-depo.lv##.depo-cookies, .w-full.fixed.bottom-0
+depo.ee##.depo-cookies
+depo.lv##.depo-cookies
 depv.de###root > div > div:first-child[class]
 der-arzneimittelbrief.de###LabelAnzeigeCookie, #LinkButtonDatenschutz, #ButtonAnzeigeSchließen
 der-audio-verlag.de###notification
@@ -33575,6 +33578,7 @@ gurtshop.de##.sticky-wrapper
 guthaben.de##.cookie
 gutscheinsammler.de##.gs-privacy-policy-widget
 gv.at###am-cookie, #l42-cc__body
+gvg-glasfaser.de##.Container_CookieHint
 gw2mists.com##.gm-cookie-consent
 gw2treasures.com###notifications
 gwdang.com###tool-menu > li.fl.item:nth-of-type(2)
@@ -33903,7 +33907,7 @@ huaweipolska.pl##.huawei-cookie
 huaweivenicemarathon.it###cp-cont
 hudo.com##.cookie-screen
 hudsonsbay.nl##.gk-stickymessage
-hudy.cz##.info-bar
+hudy.cz##.cookie-modal
 huge.se##.section-cookies-notice-outer
 huidkanker.nl###persistent-messages
 huiles-et-sens.com##body > div[id^="webp_popup_banner"]
@@ -36395,7 +36399,7 @@ nxtbookmedia.com###gdpr-pop
 nyan.ax##.gdpr
 nypost.com##.nyp-sitewide-notice
 nytco.com##.a-cookie
-nytimes.com##.gdpr.expanded-dock + div, .CookieBanner > .banner__container, #alertBannerMount
+nytimes.com###dock-container[data-testid*="gdpr"]
 nyulcipobolt.hu##.cookie-container, .cookie-button
 nyx-arch.ch###ab-pop-up
 o2family.cz###o2fCookieConsentDialog
@@ -60827,6 +60831,7 @@ zyro.com##.zyro-cookies
 ||coysotown.com^
 ||coyward.com^
 ||cozesplacebo.com^
+||cozyhillside.com^
 ||cp.003store.com^
 ||cp.5jjx.net^
 ||cp.7y7.com^
@@ -129619,7 +129624,6 @@ zyro.com##.zyro-cookies
 ~clo3d.com,~fimfiction.net##.cookie-consent-popup
 ~clo3d.com,~uktv.co.uk###app .cookie-consent:not(.lightbox)
 ~cloud.im,~ikb.at,~wolters-rundreisen.de,~schulze-immobilien.de,~harry-gerlach.de,~veygo.com,~hotelsbarriere.com,~ufz.de,~voltadol.at,~gsk-gebro.at,~shop.halebop.se,~icould.com,~evaair.com###cookie-banner:not(a)
-~conotoxia.com###cookies-wrapper
 ~conso.ro,~daimler.com,~ihreapotheken.de,~filmboxlive.com###cookiePolicy:not(.reveal):not(.modal)
 ~cookieservice.aginsurance.be##.cookieConsentPopup
 ~coolmath.com##.gdpr-overlay-container
