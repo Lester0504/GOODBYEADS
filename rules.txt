@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-11 20:28:47（北京时间） 
-! Total count: 130010
+! Version: 2023-10-12 08:48:43（北京时间） 
+! Total count: 130017
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -2056,6 +2056,7 @@
 # https://github.com/AdAway/adaway.github.io/commits/master
 # https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
 # √ S A Y  G O O D B Y E  T O  A D S
+## + js(set-cookie, consentAll, 1)
 ###ACClayerBackground
 ###AF_GDPR
 ###APP div[id*="PrivacyPolicyToast"]
@@ -29248,6 +29249,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dw.iask.com.cn^
 @@||dxcloud.episerver.net^
+@@||dynamicyield.com/scripts/*/dy-coll-nojq-min.js$domain=gigasport.at|gigasport.ch|gigasport.de
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
@@ -29579,6 +29581,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||sascdn.com/tag/$script,domain=filmweb.pl
 @@||sax.sina.com.cn^
 @@||sc.omtrdc.net^$domain=cibc.com
+@@||sc.youmaker.com/site/article/count?
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||sdkapi.sms.mob.com^
@@ -35239,6 +35242,8 @@ m.jd.com###imk2FixedBottom
 m.jd.com###imk2FixedSideText
 m.jd.com###m_common_tip_div
 m.jd.com###pannelSeat
+m.jd.com##DIV.modal__mask
+m.jd.com##DIV.modal__wrap
 m.jiemian.com##.app-open
 m.jiemian.com##.box-home
 m.jiemian.com##.download
@@ -62364,6 +62369,7 @@ zyro.com##.zyro-cookies
 ||d2qnx6y010m4rt.cloudfront.net^
 ||d2qz7ofajpstv5.cloudfront.net^
 ||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js
+||d2r1yp2w7bby2u.cloudfront.net^
 ||d2r2yqcp8sshc6.cloudfront.net^
 ||d2r3rw91i5z1w9.cloudfront.net^
 ||d2rnkf2kqy5m6h.cloudfront.net^
@@ -85271,6 +85277,7 @@ zyro.com##.zyro-cookies
 ||logger.treexml.baofeng.com^
 ||logger.uol.com.br^
 ||logger.yp.ca^
+||logger007.cam4.com^
 ||logging.api.intuit.com^
 ||logging.carambo.la^
 ||logging.je-apps.com^
