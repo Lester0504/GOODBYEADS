@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-12 20:28:40（北京时间） 
-! Total count: 130021
+! Version: 2023-10-13 08:52:05（北京时间） 
+! Total count: 129989
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16354,12 +16354,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /RecordClick.
 /RecordClickv2.
 /RecordHit?
-/RegisterWebPageVisit.
-/RemoteTargetingService.
-/RequestTrackerServlet?
-/ResonateAnalytics.
+/ResonateAnalytics.min.js
 /Resources/Public/js/cookiebar.
-/RevenueScienceAPI.
 /RioTracking2.
 /Ronis_Cookie/*$domain=slaters.co.uk
 /SAPOWebAnalytics/*
@@ -19288,62 +19284,30 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /recstatsv2.
 /redbaiduct.com?s=
 /redir.inxmail-commerce.com/r/*$image
-/redirectexittrack.php?
-/redis_stats/*
-/reelevant.js
-/ref_analytics.
-/refer-tracking.
 /referadd?
-/referal-cookie.
-/referer.gif?
 /referer/visitor/*
-/refererRecord.
-/referral-tracking.
-/referral_tracker.
-/referral_tracking.
+/referral-tracking.js
+/referral_tracking.js
 /referrer.js
 /referrer.php?*http
-/referrer_invisible.js?
-/referrer_tracking.
-/refresh_uid?$script
-/refstats.asp?
-/reftracker.
-/reg_stat.php?
-/register_pageview?
-/register_stats.php?
-/registeradevent?
+/referrer_invisible.js
+/referrer_tracking.js
+/reftracker.js
 /remote-weblab-triggers/*
 /remote/v1/cookie-notification
-/render?trackingId=
 /renderTimingPixel.
-/report/click?
-/report/impression?
-/report?event_
-/report_visit.
-/reporting.do?
-/reporting/analytics.js
+/report_visit.php
 /reporting/metrics
-/request_tracker+
-/resmeter.js
 /resource?zones=
 /resources/CookieConsent/cookies.js
 /resources/js/cookie/cookie-bar
 /resources/onetrust/js/consent.js
-/resourcestat.
 /rest/analytics/*
-/restats_
-/resxclsa.
-/resxclsa_
+/resxclsa.js
 /resxclsx.js
-/ret_pixels/*
-/retarget_pixel.
-/retargeting-pixels.
-/retargetingScript/*
-/revenue-science.
-/revenuescience.
-/revenuescience_
+/retarget_pixel.php
+/retargeting-pixels.php
 /revinit.js
-/revsci.
 /revtracking/*
 /rg-gdpr.js$domain=lombardafiltri.it
 /rgea.min.js
@@ -29600,6 +29564,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||service-public.fr^*/assets/js/eulerian/eulerian.js$~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
+@@||services.chipotle.com/__imp_apg__/$~third-party
 @@||settings-win.data.microsoft.com^
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||shahid.mbc.net^$generichide
@@ -81416,6 +81381,7 @@ zyro.com##.zyro-cookies
 ||jubbie.de^
 ||jubiitag.dk^
 ||jubiitag.dk^$third-party
+||jubilantcanyon.com^
 ||jubileeirresponsibilityforfeit.com^
 ||jubna.com^
 ||jubnaadserve.com^
@@ -99658,6 +99624,7 @@ zyro.com##.zyro-cookies
 ||pubhotmax.com^
 ||pubianmending.space^
 ||pubimageboard.com^
+||pubimgs.com^
 ||public.app.autohome.com.cn^
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.message-business.com/Javascript/mb.privacyManager$script
@@ -124443,6 +124410,7 @@ zyro.com##.zyro-cookies
 ||whiskerssituationdisturb.com^
 ||whiskyqueue.com^
 ||whisperingbadge.com^
+||whisperingcascade.com^
 ||whisperingcrib.com^
 ||whisperingsummit.com^
 ||whispermeeting.com^
