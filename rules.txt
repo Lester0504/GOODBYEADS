@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-14 09:01:31（北京时间） 
-! Total count: 130101
+! Version: 2023-10-14 20:19:13（北京时间） 
+! Total count: 130090
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19896,10 +19896,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track?referrer=
 /trackBatchEvents?
 /trackClickEvent.js
-/trackEvent.js?
-/trackEvent.min.js?
-/trackGAEvents.
-/trackImpression/*
+/trackEvent.js
 /trackIt.js
 /trackPage.js?
 /trackPageView/*
@@ -19932,29 +19929,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracker/emos2_
 /tracker/event?
 /tracker/imp?
-/tracker/log?
-/tracker/track?
-/tracker/trackView?
-/tracker/visitor/*
-/trackerGif?
 /trackerPageAnalytics.js
-/tracker_article
-/tracker_async.
-/tracker_pageview.
-/tracker_pixel.
-/trackerpixel.js
-/trackga.
-/trackimps?
-/tracking-analytics-
-/tracking-cookie.
+/tracker_async.js
+/trackga.js
+/trackga.min.js
+/tracking-analytics-events.js
+/tracking-cookie.js
 /tracking-events.js
-/tracking-info.gif?
 /tracking-links.js
 /tracking-opt-in.min.js
 /tracking-permission-dialog.js
-/tracking-pixel.
-/tracking-pixel/*
-/tracking.*/impression?
 /tracking.fanbridge.com/*
 /tracking.jsp?sid=
 /tracking.srv2.de/op/*$image
@@ -40055,6 +40039,8 @@ ww-ag.com##.WW-cookiemodul
 wwdmag.com##.intercom-snippet > [class*="gdpr"]
 wwf.ru##.is-header-message-dock
 www-youtube-com.translate.goog##ytd-consent-bump-v2-lightbox, tp-yt-iron-overlay-backdrop
+www.123pan.com##.advBanner
+www.123pan.com##DIV.app-adv-container
 www.123pan.com##IMG[src*='-banner'],.ant-carousel
 www.3ppp.net##DIV.bottom_fixed
 www.67tool.com##.footer-banner
@@ -110055,6 +110041,7 @@ zyro.com##.zyro-cookies
 ||solapoka.com^
 ||solar.sunpowercorp.com^
 ||solaranalytics.org^
+||solarislabyrinth.com^
 ||solarmosa.com^
 ||solaron.top^
 ||solatesozzle.life^
@@ -116877,6 +116864,7 @@ zyro.com##.zyro-cookies
 ||tp.ackermann.ch^
 ||tp.ambria.de^
 ||tp.baur.de^
+||tp.convertiser.com^
 ||tp.frankonia.at^
 ||tp.frankonia.com^
 ||tp.frankonia.de^
@@ -118326,6 +118314,7 @@ zyro.com##.zyro-cookies
 ||tracking.bettingexpert.com^
 ||tracking.bizarrladies.de^
 ||tracking.blackboard.com^
+||tracking.bloomberg.com^
 ||tracking.bokfinancial.com^
 ||tracking.bradyid.com^
 ||tracking.brandmentions.com^
