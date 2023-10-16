@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-15 20:25:47（北京时间） 
-! Total count: 130077
+! Version: 2023-10-16 08:51:58（北京时间） 
+! Total count: 130095
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16486,6 +16486,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /__wsm.gif
 /_blazor/*$ping
 /_ga?send&
+/_ga?sponsor_pixel=
 /_gz/counter.php?
 /_hcms/perf
 /_hw_cookie_dialog.js
@@ -17928,6 +17929,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gaTracker.
 /ga_anonym.js
 /ga_cookie_track
+/ga_event_tracking.js
 /ga_events.js
 /ga_external.
 /ga_footer.
@@ -20419,6 +20421,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-content/plugins/rm-gtm-google-analytics-for-wordpress/*
 /wp-content/plugins/rodo/rodo_script.js
 /wp-content/plugins/rrze-legal
+/wp-content/plugins/s2f-referral-tracking/*
 /wp-content/plugins/shapepress-dsgvo/*
 /wp-content/plugins/simple-gdpr-cookie-compliance/*
 /wp-content/plugins/smart-cookie-kit/*
@@ -29736,6 +29739,7 @@ _ad_impression.
 _adblock_killer.
 _adblock_stat.
 _adblocker_detected
+_adobe_analytics.js
 _beacon?
 _c.gif?c=
 _chartbeat.js
@@ -49508,6 +49512,7 @@ zyro.com##.zyro-cookies
 ||analytics.dev.springboardvideo.com^
 ||analytics.developer.riotgames.com^
 ||analytics.digitalpfizer.com^
+||analytics.disney.go.com^
 ||analytics.disneyinternational.com^
 ||analytics.dspunion.com^
 ||analytics.dvidshub.net^
@@ -51670,6 +51675,7 @@ zyro.com##.zyro-cookies
 ||atgsvcs.com/js/atgsvcs.js
 ||atgthkqt.com^
 ||atheismashamedcomfort.com^
+||athena-event-provider.n11.com^
 ||athena.wan.sogou.com^
 ||athenainstitute.biz^
 ||athenainstitute.biz^$third-party
@@ -54139,6 +54145,8 @@ zyro.com##.zyro-cookies
 ||bigtracker.com^$third-party
 ||bigvids.online^
 ||bigvids.space^
+||bigw.com.au/api/event/
+||bigw.com.au/events/
 ||bihaipack.com^
 ||bihake.com^
 ||bihunekus.com^
@@ -58722,6 +58730,7 @@ zyro.com##.zyro-cookies
 ||client-api.ele.me^
 ||client-dmp.suishenyun.cn^
 ||client-log.box.com^
+||client-logger.beta.salemove.com^
 ||client-logger.salemove.com^
 ||client-metrics.chess.com^
 ||client.bayimob.com^
@@ -61265,6 +61274,7 @@ zyro.com##.zyro-cookies
 ||cs1.wpc.v0cdn.net^
 ||cs1863sbeda.glaucoma-arrest.net^
 ||cs2113sbeda.hokto-onlineshop.jp^
+||cs42.pikabu.ru^
 ||csad.cc^
 ||csaimall.com^
 ||csbew.com^
@@ -62540,6 +62550,7 @@ zyro.com##.zyro-cookies
 ||d3lk5upv0ixky2.cloudfront.net^
 ||d3lliyjbt3afgo.cloudfront.net^
 ||d3ln1qrnwms3rd.cloudfront.net^
+||d3lqotgbn3npr.cloudfront.net^
 ||d3lvr7yuk4uaui.cloudfront.net^
 ||d3lw2k94jnkvbs.cloudfront.net^
 ||d3m4hp4bp4w996.cloudfront.net^
@@ -66228,6 +66239,7 @@ zyro.com##.zyro-cookies
 ||dzdkw9.cn^
 ||dzeoiizhixuyvg.com^
 ||dzgg.com^
+||dzgwautxzdtn9.cloudfront.net^
 ||dzhjmp.com^
 ||dzhss.cn^
 ||dzienkudrow.com^
@@ -74957,6 +74969,7 @@ zyro.com##.zyro-cookies
 ||h.imedia.cz^
 ||h.laojiayoufang.com^
 ||h.msn.com^
+||h.n11.com^
 ||h.pcd.autohome.com.cn^
 ||h.rickysblast.cn^
 ||h.seznam.cz/hit/
@@ -77488,6 +77501,7 @@ zyro.com##.zyro-cookies
 ||idbkfy.kango-roo.com^
 ||idc9pk.com^
 ||idcot.com^
+||idd1.com^
 ||iddeyrdpgq.com^
 ||iddhui.com^
 ||iddjpop.com^
@@ -80524,6 +80538,7 @@ zyro.com##.zyro-cookies
 ||jestthankfulcaption.com^
 ||jesulf.com^
 ||jesupe.com^
+||jetbluevacations.com/apis/v2-analytics/
 ||jetordinarilysouvenirs.com^
 ||jetsomkhulda.com^
 ||jetsowilk.com^
@@ -99165,6 +99180,7 @@ zyro.com##.zyro-cookies
 ||programs.mellanox.com^
 ||programwrest.com^
 ||progressinvestment.actonservice.com^
+||progressive.com/Log/
 ||progressproceeding.com^
 ||prohibitedhalfway.com^
 ||proj2018.xyz^
@@ -103572,6 +103588,7 @@ zyro.com##.zyro-cookies
 ||rtc.hibuwebsites.com/feature/metrics
 ||rtc.multiscreensite.com^
 ||rtclx.com^
+||rtds.progressive.com^
 ||rtdxqq.com^
 ||rte.fuoo1.top^
 ||rtfmakw.com^
@@ -118255,6 +118272,7 @@ zyro.com##.zyro-cookies
 ||tracking*.euroads.fi^$third-party
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||tracking-api.hotmart.com^
+||tracking-api.mangopulse.net^
 ||tracking-explore.agilent.com^
 ||tracking-live.kr3m.com^
 ||tracking-secure.csob.cz^
