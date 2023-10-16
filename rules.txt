@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-16 09:04:24（北京时间） 
-! Total count: 130095
+! Version: 2023-10-16 20:22:30（北京时间） 
+! Total count: 130076
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16206,7 +16206,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Amasty_GdprCookie$domain=~planet-cards.co.uk|~sunkost.no|~pervaco.no|~wondrium.com|~nova-motors.de|~moleonline.com|~durstexpress.de|~littlelunch.com|~twinpack.nl|~eckeroline.fi|~eilles.de|~xt500parts.com|~norli.no|~matthys.net|~leserservice.ch
 /Analytics/Visitor.
 /AnalyticsDataLayer.
-/AnalyticsEvent.
+/AnalyticsEvent.js
 /AppMeasurement.js
 /AppMeasurement.min.js
 /AppMeasurement2.js
@@ -16655,7 +16655,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /almacmp$domain=ampparit.com|etuovi.com|vuokraovi.com|arvopaperi.fi|nettikaravaani.com|nettimoto.com|kotikokki.net
 /alog.min.js
 /aloofvest.com
-/alweb.rfk.
 /am2-gdpr-public.js
 /amadeus-plugin-cookies/*
 /amazon-affiliate-
@@ -16760,7 +16759,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/layer
 /analytics/mbox_
 /analytics/metric/*
-/analytics/newrelic_
 /analytics/page_view.
 /analytics/pageview
 /analytics/rt?
@@ -16776,42 +16774,25 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/trackers?
 /analytics/trackevent
 /analytics/visit/*
-/analytics/wss?
-/analytics?body=
 /analytics?http_referer
 /analytics?token=
-/analyticsConfig?
-/analyticsFooter.
-/analyticsScript.
-/analytics_embed.
-/analytics_frame.
-/analytics_id.
-/analytics_js/*
-/analytics_min.
-/analytics_ping.
-/analytics_prod.
-/analytics_push.
-/analytics_tag.
-/analytics_tracker
+/analyticsFooter.js
+/analytics_js/client.js
+/analytics_prod.js
+/analytics_tag.js
+/analytics_tracker.js
 /analytics_v2.js
-/analytics_wbc.
-/analytics_www.
-/analyticsid.
-/analyticsjs.
+/analytics_wbc.min.js
+/analytics_www.js
+/analyticsjs.js
 /analyticsjs/*
-/analyticsscript_
-/analyticstick.
-/analyticstrack.
-/analyticstracking.
-/analyticstracking?
-/analyticstracking_
-/analytix/events
-/anametrix/*
+/analyticsscript.ashx
+/analyticstrack.js
+/analyticstracking.js
+/anametrix/cas.js
 /anapixel.
 /anclytic-ajax.
-/angular-tag.
-/angular-tag_
-/angularlytics.
+/angular-tag.js
 /anonymous_user_guid.gif?
 /antiadblockmsg.
 /ap.lijit.com/*
