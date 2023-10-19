@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-18 20:28:48（北京时间） 
-! Total count: 130196
+! Version: 2023-10-19 08:50:56（北京时间） 
+! Total count: 130210
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17040,6 +17040,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /c?siteID=$image,script
 /c_track.php?
 /cache/analytics.
+/cache_warmer/track/*
 /cached-scripts/analytics.js
 /caixinlog.js
 /call-tracking.js
@@ -17246,6 +17247,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /collect?r=
 /collect?tid=
 /collect?type=
+/collect?v=
 /collectStats;
 /collect_data.php?
 /collect_stat.
@@ -18594,6 +18596,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mail.sparksport.co.nz/forms/read/*
 /mail.sparksport.co.nz/mail/read/*
 /maillist.*/t/*$image
+/marfeelanalytics.js
 /marked-cookie-consent-web/*
 /marketing-analytics.js
 /martypixel?
@@ -20307,17 +20310,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /webtag.js
 /webtoffee-gdpr-cookie-consent/*$domain=~altheaprovence.com
 /webtrack.js
-/webtracker.
+/webtracker.dll
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
-/webtraxs.
+/webtraxs.js
 /webtrekk_mediaTracking.
 /webtrekk_teaserTracking.
-/webtrends.min.
-/webtrends/webtrends.
+/webtrends.js
+/webtrends.min.js
 /webxmr.js
 /wecoma-lite.js
-/weizenbock/dist/*
 /wf-beacon-
 /wf/open?upn=$image
 /wffm-cookies.
@@ -54051,6 +54053,7 @@ zyro.com##.zyro-cookies
 ||bhvpdupimb.xyz^
 ||bhyysbpapbx.com^
 ||bhzejltg.info^
+||bi.banggood.com^
 ||bi.irisdating.com^
 ||bi.medscape.com^
 ||bialithicket.com^
@@ -69233,6 +69236,7 @@ zyro.com##.zyro-cookies
 ||events.verticurl.com^
 ||events.whisk.com^
 ||events.yourcx.io^
+||events2.www.edenfantasys.com^
 ||events3alt.adcolony.com^
 ||eventsbands.com^
 ||eventstream.dodopizza.com^
@@ -71871,6 +71875,8 @@ zyro.com##.zyro-cookies
 ||ftuaxqokbxow.com^
 ||ftv-publicite.fr^
 ||ftwnwght.net.anwalt.de^
+||ftwo-feedback.autohome.com.cn^
+||ftwo-receiver.autohome.com.cn^
 ||ftwpcn.com^
 ||ftysya.aboutyou.de^
 ||ftz.io^
@@ -77536,6 +77542,7 @@ zyro.com##.zyro-cookies
 ||id-visitors.com^
 ||id-visitors.com^$third-party
 ||id-ward.com/static/idw_plugin$script
+||id-ward.com^
 ||id.google.com/verify/
 ||id.jiathis.com^
 ||id.juzi.cn^
@@ -77590,6 +77597,7 @@ zyro.com##.zyro-cookies
 ||idkmgzkdhanmz.com^
 ||idledifficulty.pro^
 ||idm-su.baidu.com^
+||idm.api.autohome.com.cn^
 ||idm.bce.baidu.com^
 ||idmchina.net^
 ||idnbckbknxurmf.xyz^
@@ -89652,6 +89660,7 @@ zyro.com##.zyro-cookies
 ||metrigo.com^$third-party,domain=~metrigo.de
 ||metrika-informer.com^
 ||metrika-informer.com^$third-party
+||metrika.cdn112.com^
 ||metrika.kontur.ru^
 ||metrika.yandex.ru^
 ||metriweb.be^
@@ -96646,6 +96655,7 @@ zyro.com##.zyro-cookies
 ||pdown.stat.360safe.com^
 ||pdrtcgfx.cn^
 ||pds-midea.com^
+||pds.auction.co.kr^
 ||pdsgaj.piquadro.com^
 ||pdst.fm^$script,third-party
 ||pdsxp.cn^
@@ -101861,6 +101871,7 @@ zyro.com##.zyro-cookies
 ||rebursteaseful.com^
 ||rebuxoos.xyz^
 ||rec.api.baifendian.com^
+||rec.banggood.com^
 ||rec.g.163.com^
 ||rec.moviebox.baofeng.net^
 ||rec1.smt.docomo.ne.jp/bcn_access_log/
@@ -116021,6 +116032,7 @@ zyro.com##.zyro-cookies
 ||tiemerry.com^
 ||tiendeo.*/_statsapi/
 ||tierbignews.com^
+||tieszhu.com/e.html
 ||tiexing.com^
 ||tif.ionos.com^
 ||tiffanypinworm.tech^
@@ -120658,6 +120670,7 @@ zyro.com##.zyro-cookies
 ||ummerciseha.com^
 ||ummihaqhu.xyz^
 ||ummnam.xyz^
+||umnico.com/tracker/
 ||umnstoodthe.com^
 ||umoughtcallm.com^
 ||umpteenimpave.guru^
@@ -121513,6 +121526,7 @@ zyro.com##.zyro-cookies
 ||utript.com^
 ||utrius.com^
 ||uts.auction.co.kr^
+||utsssl.auction.co.kr^
 ||utstancecaricit.com^
 ||utsukbrewst.website^
 ||uttack.com^
