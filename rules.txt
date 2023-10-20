@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-19 20:28:45（北京时间） 
-! Total count: 130154
+! Version: 2023-10-20 08:50:46（北京时间） 
+! Total count: 130160
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -12494,7 +12494,6 @@
 ##.dvscookies-banner-container
 ##.dwcc-cookieconsent:not(body):not(html)
 ##.dynamic-cookies-banner__container
-##.e-consents-alert
 ##.e-cookie .e-cookie-wrapper
 ##.e-cookie-info:not(body):not(html)
 ##.e-cookie-message:not(body):not(html)
@@ -13693,6 +13692,7 @@
 ##.modal-accept-cookie.custom-modal
 ##.modal-accept-cookies
 ##.modal-box-cookie-policy-message
+##.modal-consents > .side-modal-mask
 ##.modal-content-cookie-message
 ##.modal-cookie ~ .modal-backdrop
 ##.modal-popup[class*="gdpr"] ~ .modals-overlay
@@ -30242,7 +30242,6 @@ astroeder.com###acceptDisclaimer
 astroreveal.com##.EU2018
 asuntosaatio.fi##.js-disclaimer-dismiss
 asuntoslegales.com.co##.cookies
-asus.com###cookieTable, #cookie-policy-info
 asustor.com###gdpr_wrap
 asv-grosskrotzenburg.de###mb_boxcookie_banner, .bbody
 atea.ee###cookie
@@ -31436,6 +31435,7 @@ commentseruiner.com###uec_wrap
 commonsense.org###cse-cookie-consent-message
 commonsensemedia.org##.region.region-top
 commsec.com.au##.announcements
+communitynotes.twitter.com##div[aria-labelledby="notice-floating-ui-3-heading"]
 como-se-escribe.com###pck
 companycheck.co.uk##footer .news-bar
 comparably.com##.section.cppa
@@ -32980,6 +32980,7 @@ foxrenderfarm.com###gatsby-focus-wrapper > div[class*="Contact"] ~ div
 foxtrail.fjallraven.com##main ~ section
 fr.hujiang.com###regModule
 fr.hujiang.com###uzt-mask
+fraenkische-rezepte.de##div[aria-labelledby*="cmpbox"]
 fragasyv.se###siteflash
 framar.bg##.consent, #consent
 framatube.org##.row.privacy-concerns
@@ -33051,7 +33052,6 @@ fundingchoices.google.com
 fundingchoicesmessages.google.com$domain=~rtl.hr|~kledgeb.blogspot.com|~fernsehserien.de|~bbc.com|~iol.pt|~stooq.pl|~stooq.com|~adshnk.com
 funkypigeon.com##.fp_cookies
 funnelytics.io##.elementor-popup-modal
-funpot.net###message, .message
 funshop.ch##.ds_cookiebar_container
 fupro.de##.modal-backdrop
 furnitex.pl##.bottomWarning
@@ -35503,6 +35503,7 @@ metal-shop.eu###nextcreBotDialog
 metallumnovum.lt###parent-container-idgy
 metalshop.cz###nextcreBotDialog
 metar-taf.com##.cookies
+metaratings.ru##div[class*="CookieAllowance"]
 metatrader4.com###float-vertical-panel
 metcheck.com###EUModal, .reveal-modal-bg
 meteo.lt###ecl
@@ -36270,6 +36271,7 @@ oberharz.de##.consent-popup--bg, .consent-popup
 oberlo.com###oberloGdpr
 oberlo.es###oberloGdpr
 objavlenija.respublika.cz##.sweet-alert,.sweet-overlay
+obligacjeskarbowe.pl##.cookie
 ocaso.es##.modal__container.modal-cookies
 occhiox.com###consenso
 occrp.org##.occrp-cookie-overlay, .cookie
@@ -39550,6 +39552,7 @@ voiceanddatazone.com###popup, .blocker
 voicegroup.co.uk##.cookie-menu
 voip.ms##.gdpr
 voissy.com###pb-navbar-cookies-accept
+volanbusz.hu##.accept-cookies
 volbers.com###agever
 volcanoteide.com##.cc-grower
 volimzmenu.cz##.cookies
@@ -48236,6 +48239,7 @@ zyro.com##.zyro-cookies
 ||agdewasmnjktfrdewqjgdser.top^
 ||ageandinone.xyz^
 ||agency2.ru^
+||agency360.io^$third-party
 ||agent.sj.qq.com^
 ||agentanalytics.com^
 ||agentanalytics.com^$third-party
@@ -66042,6 +66046,7 @@ zyro.com##.zyro-cookies
 ||dvmdwmnyj3u4h.cloudfront.net^
 ||dvnfo.com^
 ||dvnfo.com^$third-party
+||dvnqhdmze.xyz^
 ||dvnsdo.com^
 ||dvr8.com^
 ||dvrnszf.cn^
@@ -83856,6 +83861,7 @@ zyro.com##.zyro-cookies
 ||library.minghui.org^
 ||librarymanagement.cn^
 ||librato-collector.genius.com^
+||libs.platform.californiatimes.com/meteringjs/
 ||libs.tvmao.cn^
 ||libsloppier.guru^
 ||libstat.com^
@@ -129944,6 +129950,7 @@ zyro.com##.zyro-cookies
 ~mifcom.de,~mifcom.ch###js-cookienotice
 ~milliman.com##.cookieMessage:not(body):not(html)
 ~mmafighting.com,~theverge.com##.m-privacy-consent:not(body):not(html)
+~monese.com,~nova-web.de,~go-e.com,~canalplus.com,~hansapark.de##div[class*="CookieBanner"]:not([class*="page"]):not([class*="Layout"]):not(.app)
 ~montanacolors.com##.divcookie:not(body):not(html)
 ~motocombo.pl###topInfoContainer0:not(.idcac)
 ~motofaktor.pl##.rodo > .rodo__container
@@ -129967,7 +129974,6 @@ zyro.com##.zyro-cookies
 ~niko.eu##.c-cookie:not(body):not(html)
 ~noodweer.be##cookie-notice
 ~northernpowergrid.com,~lcp.fr###cookiesjsr
-~nova-web.de,~go-e.com,~canalplus.com,~hansapark.de##div[class*="CookieBanner"]:not([class*="page"]):not([class*="Layout"]):not(.app)
 ~nuri.com###___gatsby div[class*="cookie-consent"]
 ~odenserundt.dk###cookie-gdpr
 ~oead.at,~kalenderwoche.de,~hawle.de,~pruadviser.co.uk,~unikrn.com,~rappjmed.ch,~biblioteka.wroc.pl,~makelaarsland.nl###cookie-notice
@@ -130090,7 +130096,7 @@ zyro.com##.zyro-cookies
 ~tomshw.it,~nablawave.com,~repubblica.it,~multiplayer.it###iubenda-cs-banner.iubenda-cs-visible
 ~tomshw.it,~nablawave.com,~repubblica.it,~multiplayer.it,~skuola.net,~tgcom24.mediaset.it,~mediasetplay.mediaset.it##.iubenda-cs-content
 ~toni-maccaroni.de,~pizza-pepe-volkach.de##.cookiemessage:not(body):not(html)
-~towerhousewares.co.uk,~stadtwerke-flensburg.de,~hepster.com,~zentrale-pruefstelle-praevention.de,~bookmygarage.com,~deineapotheke.at,~swedbank.se,~sparbankentanum.se,~swedbank.com,~planeo.de,~dogedash.com,~teacheconomy.de,~sevdesk.de,~sevdesk.at,~nintendo.com,~veygo.com,~puratos.pl,~bike-components.de,~bremerhaven.de,~onlinedepartment.nl,~voltadol.at,~gsk-gebro.at,~shop.halebop.se,~monese.com,~nuxeo.com,~opngo.com,~sachsenallee.de,~melcloud.com,~intersport.de##.cookie-banner:not(body):not(html)
+~towerhousewares.co.uk,~stadtwerke-flensburg.de,~hepster.com,~zentrale-pruefstelle-praevention.de,~bookmygarage.com,~deineapotheke.at,~swedbank.se,~sparbankentanum.se,~swedbank.com,~planeo.de,~dogedash.com,~teacheconomy.de,~sevdesk.de,~sevdesk.at,~nintendo.com,~veygo.com,~puratos.pl,~bike-components.de,~bremerhaven.de,~onlinedepartment.nl,~voltadol.at,~gsk-gebro.at,~shop.halebop.se,~nuxeo.com,~opngo.com,~sachsenallee.de,~melcloud.com,~intersport.de##.cookie-banner:not(body):not(html)
 ~toyotabank.pl##.js-cookies:not(body):not(html)
 ~trading212.com###__next div[class*="cookies-notice"]
 ~trading212.com,~fysikoaerioellados.gr##.cookies-consent-popup
