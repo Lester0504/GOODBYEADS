@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-21 09:01:23（北京时间） 
-! Total count: 130274
+! Version: 2023-10-21 20:19:14（北京时间） 
+! Total count: 130276
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15886,7 +15886,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 &pagegroup=*&url=$script
 &refer=http$script
 &t=pageview&
-&visitorUuid=
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
 */letv-gug/$media,object-subrequest,xhr
@@ -15899,14 +15898,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -adobe-analytics/
 -adobeDatalayer_
 -amp-error-reporting.
--analytics-events.
--appanalytics-
 -click-tracker.
 -client-tracking.goodgamestudios.com/
 -coin-hive.js
 -coin-hive/$script
 -didomi.js
--ga-tracker.
 -gatracker.
 -gdpr-min.js^
 -geoIP.js
@@ -15915,14 +15911,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -logging.nextmedia.com^
 -monero-miner-
 -monero-miner/
--optimization-metrics.
--quantcast-measurement.
 -scroll-tracker.js
 -track-email-open?
 -track-inview.
 -tracking-pixel.
--tracking?referrer=
--trackingScript.
 -universal-analytics/
 .1.1.1.l80.js^$third-party
 .EventTracking.
@@ -16196,7 +16188,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /?swift-performance-tracking
 /?tx_z7cookiemanager
 /AD/PageHits.
-/AIT_Analytics.
+/AIT_Analytics.js
 /ASPixel.js
 /AccessCounter/index.cgi?
 /AdCount/*
@@ -16624,19 +16616,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /affilinetRetargeting.
 /afftrack.
 /afftracking.
-/aftrack.
+/aftrack.asp
 /aggbug.aspx?
 /ahoy/events
 /ahoy/visits
 /ajax-hits-counter/*
 /ajax-track-page-view/*
-/ajax-track-view.
 /ajax/analytics/*
 /ajax/bnzai?_
 /ajax/bz?_
 /ajax/counter?ctr=
 /ajax/eulerian/*
-/ajax/heatmap-
 /ajax/libs/cookieconsent2$domain=~membersuite.com|~la-becanerie.com|~rijbewijskeuringennederland.nl|~download.pixelexperience.org|~ceramtec-group.com
 /ajax/log?
 /ajax/stat/*
@@ -16676,17 +16666,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /amp/log.json
 /amp/pingback?
 /amp_pingback/*
-/ampmetrics.
 /analyse.js
 /analysis-logger/*
 /analysisTag.js
 /analytic-client.
-/analytic/context?
 /analytic/pageview
-/analytic?publisher
-/analyticReporting.
 /analytics-amplitude-
-/analytics-assets/*
 /analytics-beacon-
 /analytics-cdn.
 /analytics-client-
@@ -16790,8 +16775,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analyticstrack.js
 /analyticstracking.js
 /anametrix/cas.js
-/anapixel.
-/anclytic-ajax.
+/anclytic-ajax.html
 /angular-tag.js
 /anonymous_user_guid.gif?
 /antiadblockmsg.
@@ -16802,7 +16786,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/ComScorePageView
 /api/LM/Report?placeUUID=$third-party
 /api/ad/*
-/api/bfb_write_log
 /api/cmp_tracker
 /api/drpStats
 /api/event-rfkj/*
@@ -17813,14 +17796,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
-/fbpixel/*
 /fc_cookie.js$domain=bosch-stiftung.de
 /fcc-cookie-consent.js
-/fe/track/*
 /fe_logger?
 /fearlessfaucet.com
 /feoCookies.min.js
-/figanalytics/*
+/figanalytics-short-ttl.js
 /fileadmin/cookieconsent/*
 /fileadmin/template/js/cconsent.js
 /fileadmin/templates/cookie/fc_thin.js
@@ -19202,6 +19183,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pvcounter.
 /pvcounter/*
 /pvcounter?
+/pvevents.gif?
 /pvmax.js
 /pvnoju.js
 /px.gif?
@@ -28896,14 +28878,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|ssrn.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|ssrn.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
-@@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|usanetwork.com|vanityfair.com|wired.com|wowway.net
+@@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
-@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|auspost.com.au|backcountry.com|bmw.com.au|canadapost-postescanada.ca|ceair.com|collegeboard.org|conad.it|costco.com|crackle.com|crackle.com.ar|crackle.com.br|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|crave.ca|crimewatchdaily.com|dhl.de|directline.com|elgiganten.se|elkjop.no|eonline.com|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|gigantti.fi|godigit.com|hellobank.fr|hgtv.com|hrw.com|ilsole24ore.com|jeep.com|laredoute.be|laredoute.ch|laredoute.co.uk|laredoute.com|laredoute.es|laredoute.fr|laredoute.it|laredoute.pl|laredoute.pt|laredoute.ru|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|nrj.fr|oprah.com|oracle.com|pnc.com|poweredbycovermore.com|radiko.jp|realtor.com|redbull.tv|repco.co.nz|sbb.ch|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sony.jp|stuff.co.nz|subaru.com|support.nec-lavie.jp|telegraph.co.uk|timewarnercable.com|tou.tv|usanetwork.com|vanityfair.com|vtr.com|wayin.com|wired.com|wowway.net
-@@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|telus.com
+@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|auspost.com.au|backcountry.com|bmw.com.au|canadapost-postescanada.ca|ceair.com|collegeboard.org|conad.it|costco.com|crackle.com|crackle.com.ar|crackle.com.br|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|crave.ca|crimewatchdaily.com|dhl.de|directline.com|elgiganten.se|elkjop.no|eonline.com|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|gigantti.fi|godigit.com|hellobank.fr|hgtv.com|hrw.com|ilsole24ore.com|jeep.com|laredoute.be|laredoute.ch|laredoute.co.uk|laredoute.com|laredoute.es|laredoute.fr|laredoute.it|laredoute.pl|laredoute.pt|laredoute.ru|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|nrj.fr|oprah.com|oracle.com|pnc.com|poweredbycovermore.com|radiko.jp|realtor.com|redbull.tv|repco.co.nz|sbb.ch|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sony.jp|stuff.co.nz|subaru.com|support.nec-lavie.jp|telegraph.co.uk|timewarnercable.com|tou.tv|usanetwork.com|vanityfair.com|vtr.com|wayin.com|wired.com|wowway.net
+@@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|as.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|telus.com
 @@||adobetag.com/d2/telecomitalia/live/Aggregato119TIM.js$domain=tim.it
 @@||ads.95516.com^
 @@||ads.alafish.cn^
@@ -41790,6 +41772,7 @@ zyro.com##.zyro-cookies
 ||4336wang.cn^
 ||435a63dad5.com^
 ||4399.com/js/4399stat.js
+||4399.com/plugins/tj/event?
 ||4399stat.5054399.com^
 ||43bb528775.com^
 ||43gw.cn^
@@ -43036,6 +43019,7 @@ zyro.com##.zyro-cookies
 ||9fwz.com^
 ||9gag.com/event/
 ||9gag.com/track/
+||9game.cn/stat/
 ||9gg23.com^
 ||9h1111.com^
 ||9h5qq.cn^
@@ -45775,6 +45759,7 @@ zyro.com##.zyro-cookies
 ||accessorydistantdepths.com^
 ||accesstrade.net^
 ||accesstrade.net^$third-party
+||accesstrade.vn/js/trackingtag/
 ||accesswire.com/img.ashx
 ||accid.xyz^
 ||accidentalinfringementfat.com^
@@ -50280,6 +50265,7 @@ zyro.com##.zyro-cookies
 ||api.dt.gl^
 ||api.e-cg.cn^
 ||api.e.mi.com^
+||api.ea3w.com/hits.js
 ||api.edgeoffer.microsoft.com^
 ||api.elliehuxtable.com^
 ||api.eu.hismarttv.com^
@@ -57419,6 +57405,7 @@ zyro.com##.zyro-cookies
 ||cdnware.com^
 ||cdnware.io^
 ||cdp.cloud.unity3d.com^
+||cdp.yna.co.kr^
 ||cdrhjt.com^
 ||cdrive.compellent.com^
 ||cdrvrs.com^
@@ -81219,6 +81206,7 @@ zyro.com##.zyro-cookies
 ||js.daxueshengqiandai.com^
 ||js.dkqapp.cn^
 ||js.duotegame.com^
+||js.ea3w.com/pv.js
 ||js.ea3w.com^
 ||js.fanglinwang.cn^
 ||js.fc090.com^
@@ -88705,6 +88693,7 @@ zyro.com##.zyro-cookies
 ||mcs-va.tiktokv.com^
 ||mcs.snssdk.com^
 ||mcs.us.tiktokv.com^
+||mcs.zijieapi.com^
 ||mcssl.com^*/track.ashx?
 ||mct01.com^
 ||mctailqwjke.com^
@@ -90671,6 +90660,7 @@ zyro.com##.zyro-cookies
 ||mon.ingservices.nl^
 ||mon.snssdk.com^
 ||mon.us.tiktokv.com^
+||mon.zijieapi.com^
 ||monad.network^
 ||monadplug.com^
 ||monadvs.com^
@@ -96941,6 +96931,7 @@ zyro.com##.zyro-cookies
 ||perpetualprovoke.com^
 ||perplexkutch.guru^
 ||perr.h-cdn.com^
+||perr.hola.org^
 ||perrege.ru^
 ||perryvolleyball.com^
 ||persesgnetum.com^
@@ -100286,6 +100277,7 @@ zyro.com##.zyro-cookies
 ||px.adhigh.net^
 ||px.ads.linkedin.com^
 ||px.derstandard.at^
+||px.dmp.zaloapp.com^
 ||px.effirst.com^
 ||px.marchex.io^
 ||px.mountain.com^
@@ -103263,6 +103255,7 @@ zyro.com##.zyro-cookies
 ||rnvlkhahv.com^
 ||rnybul.gismeteo.kz^
 ||rnybul.gismeteo.lv^
+||ro.aiwan4399.com^
 ||ro55cpi1.xhamster.com^
 ||roabmyrevngqqk.com^
 ||roachoavi.com^
@@ -104709,6 +104702,7 @@ zyro.com##.zyro-cookies
 ||saltsspectacles.com^
 ||salutationcheerlessdemote.com^
 ||salutationdove.com^
+||saluton.cizion.com^
 ||salvador24.com^
 ||salwaysesureto.info^
 ||salzwerk.viessmann.de^
@@ -111337,6 +111331,7 @@ zyro.com##.zyro-cookies
 ||sswmetrics.omanair.com^
 ||ssxd.mediav.com^
 ||ssy7.destinia.com.ua^
+||st-a.cdp.asia^
 ||st-a8.tscubic.com^
 ||st-n.ads3-adnow.com^
 ||st-nlyss1.plala.or.jp^
@@ -116272,6 +116267,7 @@ zyro.com##.zyro-cookies
 ||tj.g.pptv.com^
 ||tj.haiwainet.cn^
 ||tj.ijinshan.com^
+||tj.img4399.com^
 ||tj.jinyuewang.cn^
 ||tj.koudaitong.com^
 ||tj.kugou.com^
@@ -121604,6 +121600,7 @@ zyro.com##.zyro-cookies
 ||uunak.cn^
 ||uusee.adsame.com^
 ||uusimaa.viessmann.fi^
+||uuu9.com/s.php?
 ||uuuwhrxqnf.com^
 ||uuuxyjh.cn^
 ||uuzlytbpmmhfm.com^
@@ -124257,6 +124254,7 @@ zyro.com##.zyro-cookies
 ||webstat.kuwo.cn^
 ||webstat.net^$third-party
 ||webstat.no^$third-party
+||webstat.qiumibao.com^
 ||webstat.se^$third-party
 ||webstat.ws.126.net^
 ||webstatistik.odav.de^
@@ -128788,6 +128786,7 @@ zyro.com##.zyro-cookies
 ||z9.cnzz.com^
 ||z91f4.top^
 ||za.qeeq.com^
+||za.zalo.me^
 ||za.zdn.vn^
 ||za5.net^
 ||zabanit.xyz^
@@ -128947,6 +128946,7 @@ zyro.com##.zyro-cookies
 ||zcnnn.com^
 ||zcode12.me^
 ||zcode7.me^
+||zcool.com.cn/track/
 ||zcoptry.com^
 ||zcoup.com^
 ||zcpsc.top^
@@ -129467,6 +129467,7 @@ zyro.com##.zyro-cookies
 ||zogoluggers.com^
 ||zoileanfinbone.com^
 ||zoiqrudc.com^
+||zol-img.com.cn^*/logger.js
 ||zombieslayer.kano.link^
 ||zombiharshen.top^
 ||zona.pl^
@@ -129497,6 +129498,7 @@ zyro.com##.zyro-cookies
 ||zoopsame.com^
 ||zoopy.xyz^
 ||zooshawo.com^
+||zoosk.com/cs/tp.png?
 ||zoosnet.net^$third-party
 ||zoossoft.cn^
 ||zoossoft.net^
