@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-22 09:07:26（北京时间） 
-! Total count: 130271
+! Version: 2023-10-22 20:19:04（北京时间） 
+! Total count: 130225
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16311,14 +16311,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Maxymiser/*
 /ModalCookiesPrivacy.php
 /ModalEngage,ConsentManager,Sticky
-/NNAnalytics.
-/NNAnalytics/*
-/NNAnalyticsWPSites.
-/Nielsen.v53.
-/Nielsen53.
-/NielsenAnalytics.
-/NielsenData/*
-/NielsenTracking.
 /NitroCookies.js
 /Optimost/*
 /OtAutoBlock.js
@@ -18720,17 +18712,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mws-cookie-solution.min.js
 /myTracking.js
 /mystats2.px?
-/nLoggerJB_
-/nStat/*
 /naLogImpressions?
 /natero_analytics.min.js
 /nativendo.js
 /navbar-analytics.js
 /naytev.min.js
 /ncj-pixel.js
-/nedstat.
 /neilson.js
-/neocounter.
 /neocounter/*
 /netmining.js
 /netresults.js
@@ -18742,45 +18730,22 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /newSophus/*
 /new_Cookiebanner.js
 /newlog.php?
-/newrelic-browser.
-/newrelic-google-
-/newrelic-gpt.
-/newrelic.browser.
-/newrelic.iframe.
+/newrelic-browser.js
+/newrelic-browser.min.js
 /newrelic.js
 /newrelic.min.js
-/newrelicKpis-
-/newrelicKpisFooter-
 /newsletter/log/*$image
 /newsletter/read?s=$image
 /newslink.reuters.com/img/*$image
-/newsstat/*
-/newstat/*
-/newstatsinc.
 /newtrackingscript.
 /nextPerformanceRetargeting.
-/next_analytics.
 /nielsen.htm
 /nielsen.js
-/nielsen.min.
-/nielsen.track
-/nielsen_geotarget/*
-/nielsen_v53.
-/nielsenscv53.$script
-/nielson/track
-/nielson_stats.
-/nikioWSJCallback.
 /ninemsn.tracking.
 /njs.gif?
 /nl-cookie-law.js
 /nlogger.js
 /nm/itracking?
-/nm_ga_bottom.
-/nm_ga_top_
-/nm_tr_combined-min.js
-/nm_tr_combined.js
-/nm_track.js
-/nm_trck.gif?
 /nm_trck.gif?$domain=spiegel.de
 /no-impression.gif?
 /nonAdBlock/*
@@ -18790,46 +18755,34 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /npm/ez-consent
 /npm/perfops-rom
 /npsblocker/js/ads.
-/npssurvey.
 /nr-spa-1216.min.js
 /nsd-cookie-banner.js
-/nsimpression/*
 /nsmg-tracking/*
-/ntpagetag-
-/ntpagetag.
-/ntpagetag_
-/ntpagetaghttps.
+/ntpagetag.gif
+/ntpagetag.js
 /ntrack.asp?
 /null.gif?
-/numericAnalyticsFramework.
-/nv-loaded.js
-/nx_stat.
 /o.gif?
-/o.jpg?*&ref=
 /o_code.js
-/o_tealium.
+/o_tealium.js
 /oa-tracking?
-/oas_analytics.
+/oas_analytics.js
 /obPixelFrame/*
 /obj/ad-app-package
-/object_stats.
 /observations/capture?
 /ocean-cookie-notice/*
 /ocount.php
-/ocounter.
+/ocounter.php
 /odoscope.js
 /oil$domain=tv2.dk
 /om-gdpr-cookie-consent.js
 /om.gif?
 /om_cookie_main.js
-/om_tracking_
 /omni-tracking.min.js
-/omniture/script.
-/omniture/tracking.
-/omniture/uuid.
+/omniture/uuid.js
 /omniture/visitorapi.js
 /omniture?
-/omniture_tracking.
+/omniture_tracking.js
 /omniunih.js
 /one-plugin-analytics-comscore/*
 /onedot.php?
@@ -29001,6 +28954,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
+@@||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5mac.com|electrek.co
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
 @@||cdnb.4strokemedia.com/carousel/v4/comscore-JS-$script
