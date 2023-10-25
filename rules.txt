@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-24 20:27:31（北京时间） 
-! Total count: 130293
+! Version: 2023-10-25 08:50:45（北京时间） 
+! Total count: 130301
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15981,6 +15981,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com:10446/*/get*.html
 .com:8001/*/*?*=$third-party
 .com:8004/*/*?*=$third-party
+.com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8010/cc/
@@ -16308,6 +16309,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Maxymiser/*
 /ModalCookiesPrivacy.php
 /ModalEngage,ConsentManager,Sticky
+/NNAnalyticsWPSites.js
 /NitroCookies.js
 /Optimost/*
 /OtAutoBlock.js
@@ -18224,7 +18226,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js/cookielaw_mip.js
 /js/cookies_bar
 /js/count.js.
-/js/counter.js
+/js/counter.js?
 /js/cpb.min.js
 /js/dart.js
 /js/datenschutz.js
@@ -18334,6 +18336,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /libs/gdpr/cmp/cmp.bundle.js
 /libs/tracker.js
 /liferay-analytics-api.js
+/liferay-analytics-processor.js
 /lightspeed_tracker.js
 /lightweight-cookie-notice/*
 /link-tracker-
@@ -18665,6 +18668,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mws-cookie-solution.min.js
 /myTracking.js
 /mystats2.px?
+/nLoggerJB_
 /naLogImpressions?
 /natero_analytics.min.js
 /nativendo.js
@@ -20214,6 +20218,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-content/tracker.js
 /wp-content/uploads/an-temp/*$script,stylesheet
 /wp-js/analytics.js
+/wp-slimstat.js
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
 /wp-statistics/assets/js/tracker.js
@@ -41183,6 +41188,7 @@ zyro.com##.zyro-cookies
 ||272829.cc^
 ||273knt.xyz^
 ||2777d013fc.com^
+||277txt.com/da/*.js
 ||27a25cc598.com^
 ||27admin.com^
 ||27fys.xyz^
@@ -122432,6 +122438,7 @@ zyro.com##.zyro-cookies
 ||video.google.com/api/stats/
 ||video.market.xiaomi.com^
 ||video.mediaset.it/polymediashowanalytics/
+||video.mobile.yahoo.com/log|$xmlhttprequest
 ||video.mpush.qq.com^
 ||video.new-eve.com^
 ||video.oms.eu^
@@ -128739,6 +128746,7 @@ zyro.com##.zyro-cookies
 ||z.nowscore.com^
 ||z.sora.yoyi.com.cn^
 ||z.tudouxy01.com^
+||z0a1b2c3d4.com^
 ||z0s9n.xhamster.com^
 ||z0uolej1qnxzub1.info^
 ||z1.bohuaqiche.com^
