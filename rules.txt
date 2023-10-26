@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-25 20:27:32（北京时间） 
-! Total count: 130227
+! Version: 2023-10-26 08:49:45（北京时间） 
+! Total count: 130233
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28655,6 +28655,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||939394.xyz^
 @@||a8.net/svt/$image,domain=samplefan.com
 @@||ab.blogs.es/abtest.png$domain=trendencias.com|xataka.com
+@@||account.adobe.com/newrelic.js$~third-party
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||actiris.be/urchin.js
 @@||ad-gone.com^
@@ -28947,6 +28948,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||getpublica.com/playlist.m3u8$xmlhttprequest
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
 @@||glookup.info/api/json/$domain=grabify.link
+@@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|carnesvizzera.ch|cmoa.jp|enmotive.com|healthrangerstore.com|hobbyhall.fi|infoconso-multimedia.fr|jackbox.tv|k2radio.com|koel.com|kowb1290.com|ligtv.com.tr|meritonsuites.com.au|nabortu.ru|news.gamme.com.tw|novatv.bg|papajohns.com|poiskstroek.ru|rzd.ru|saturn.at|schweizerfleisch.ch|skaties.lv|stressless.com|teddyfood.com|tracking.narvar.com|tradera.com|tribuna.com|truwin.com|tuasaude.com|tv3play.no|unicef.de|viandesuisse.ch|vox.de|westernunion.com|worldsbiggestpacman.com|xxl.se
 @@||google-analytics.com/ga.js$domain=meritonsuites.com.au
@@ -29201,6 +29203,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||qhres2.com^$domain=baike.so.com
 @@||qpython.club^$generichide
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
+@@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/gaAnalytics.js$~third-party
@@ -70179,6 +70182,7 @@ zyro.com##.zyro-cookies
 ||female-yard.pro^
 ||femalehasslegloss.com^
 ||femefaih.com^
+||femetrics.grammarly.io^
 ||femin.online^
 ||femsoahe.com^
 ||fen.dkdlsj.com^
@@ -75404,6 +75408,7 @@ zyro.com##.zyro-cookies
 ||headstonerinse.com^
 ||headup.com^
 ||headusuallyopener.com^
+||headydegree.com^
 ||headyhook.com^
 ||healflowers.com^
 ||healte.de^
@@ -75429,6 +75434,7 @@ zyro.com##.zyro-cookies
 ||hearinglizards.com^
 ||hearob.klix.ba^
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
+||hearstnp.com/log?
 ||heartacheeasellikeness.com^
 ||heartbeat.pmd.444.hu^
 ||heartbidxmlfeed.monster^
