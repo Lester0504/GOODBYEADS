@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-26 20:27:31（北京时间） 
-! Total count: 130196
+! Version: 2023-10-27 08:49:56（北京时间） 
+! Total count: 130287
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15977,10 +15977,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/z-*-*?123$third-party
 .com:10446/*/get*.html
 .com:8001/*/*?*=$third-party
+.com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
 .com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
+.com:8008/sc/*?n=$third-party
 .com:8010/cc/
 .consent-$domain=pcgames.de
 .content_tracking.
@@ -18827,7 +18829,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ping?referrer=
 /ping?rid=
 /ping?spacedesc
-/ping?token=
 /ping?utm_
 /pingAudience?
 /pingServerAction?
@@ -28660,6 +28661,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ads.pinterest.com^
 @@||ads.privacy.qq.com^
 @@||ads.smartmidea.net^
+@@||ads.snapchat.com^
 @@||ads.spotify.com^
 @@||ads.taboola.com^
 @@||ads.twitter.com^
@@ -28917,7 +28919,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||googleoptimize.com/optimize.js$domain=binglee.com.au|grasshopper.com|in.bookmyshow.com|inquirer.com|investing.com|lacomer.com.mx|lodgecastiron.com|tentree.ca|virginmedia.com
 @@||googleoptimize.com/optimize.js?$domain=eventim.de
 @@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
-@@||googletagmanager.com/gtm.js$domain=3djuegosguias.com|3djuegospc.com|acehardware.com|acornonline.com|ads.spotify.com|aeromexico.com|afisha.timepad.ru|aliexpress.com|animeanime.jp|anond.hatelabo.jp|applesfera.com|aruba.it|arvopaperi.fi|atptour.com|autobild.de|autorevue.cz|axeptio.eu|backcountry.com|bbcgoodfood.com|benesse-style-care.co.jp|besplatka.ua|beterbed.nl|betten.de|binglee.com.au|book.impress.co.jp|bsa-whitelabel.com|bunte.de|bybit.com|bybitglobal.com|capital.it|carcareplus.jp|carhartt-wip.com|casa.it|ccleaner.com|cdek.ru|cdon.fi|chipotle.com|chronopost.fr|cinemacafe.net|clickup.com|cmoa.jp|como.fi|complex.com|compradiccion.com|computerbild.de|coolermaster.com|costco.co.jp|crello.com|cyclestyle.net|cyclingnews.com|cypress.io|dazeddigital.com|deejay.it|dengekionline.com|dholic.co.jp|directoalpaladar.com|dlsite.com|dmv.ca.gov|doodle.com|dropps.com|e15.cz|easternbank.com|edwardjones.com|elnuevodia.com|enmotive.com|episodi.fi|eprice.it|ergotron.com|espinof.com|euronics.it|expressvpn.com|fandom.com|feex.co.il|festoolusa.com|finanzen.at|finanzen.ch|finanzen.net|flytap.com|focus.de|formula1.com|fortress.com.hk|fortune.com|freenet-funk.de|fum.fi|gamebusiness.jp|gamespark.jp|genbeta.com|glamusha.ru|gorillamind.com|grandhood.dk|gravitydefyer.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|hatenacorp.jp|headlightrevolution.com|herculesstands.com|hobbyhall.fi|hostingvergelijker.nl|houseofbilocca.com|idealo.at|idealo.de|iexprofs.nl|iltalehti.fi|independent.co.uk|inferno.fi|inside-games.jp|insiderstore.com.br|iphoneitalia.com|jalan.net|jn.pt|journaldunet.com|jreastmall.com|junonline.jp|kakuyomu.jp|karriere.at|kedronparkhotel.com.au|komputronik.pl|konami.com|la7.it|larousse.fr|lastampa.it|lecker.de|level.travel|lift.co.za|linternaute.com|lippu.fi|luko.eu|m1.com|m2o.it|mainichi.jp|makitani.net|mangaseek.net|mcgeeandco.com|mecindo.no|mediamarkt.nl|mediuutiset.fi|mercell.com|meritonsuites.com.au|mikrobitti.fi|mirapodo.de|mobilmania.cz|montcopa.org|mycar-life.com|mysmartprice.com|nap-camp.com|netcombo.com.br|newscafe.ne.jp|nflgamepass.com|nielsendodgechryslerjeepram.com|nihontsushin.com|nordvpn.com|nourison.com|oakandfort.com|odia.ig.com.br|oetker-shop.de|okwave.jp|olx.ro|onlineshop.ocn.ne.jp|papajohns.com|pccomponentes.com|petsathome.com|pgatoursuperstore.com|pioneer.eu|plaion.com|plantsome.ca|poprosa.com|post.ch|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|radiko.jp|radio-canada.ca|radiorur.de|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|rocketnews24.com|rtl.de|rumba.fi|runescape.com|rustih.ru|sanwacompany.co.jp|saraiva.com.br|saturn.at|savethechildren.it|scan.netsecurity.ne.jp|sciencesetavenir.fr|scotsman.com|soranews24.com|soundguys.com|soundi.fi|spektrum.de|sport-wear.com.ua|sport1.de|sportmaster.ru|spyder7.com|stage.parco.jp|store-jp.nintendo.com|stressless.com|subscribe.greenbuildingadvisor.com|superesportes.com.br|support.brother.com|support.creative.com|swarajyamag.com|swb.de|talent.lowes.com|talouselama.fi|teddyfood.com|tekniikkatalous.fi|telia.no|theretrofitsource.com|tilt.fi|tivi.fi|tn.com.ar|topper.com.br|toyota-forklifts.se|trademe.co.nz|tradera.com|trendencias.com|trendenciashombre.com|tribuna.com|tugatech.com.pt|tumi.com|tv-asahi.co.jp|type.jp|uclabruins.com|unieuro.it|uniqlo.com|upc.pl|upwork.com|uqr.to|veho.fi|vidaextra.com|video.repubblica.it|vip.de|virginmedia.com|vitonica.com|viviennewestwood-tokyo.com|vox.de|vtvgo.vn|wamiz.com|wowma.jp|www.kauppalehti.fi|www.nicovideo.jp|www.uusisuomi.fi|xatakamovil.com|xxl.se|ymobile.jp|youpouch.com|zakzak.co.jp|zazzle.com|zennioptical.com|zf1.tohoku-epco.co.jp|zinio.com|zive.cz|zozo.jp
+@@||googletagmanager.com/gtm.js$domain=3djuegosguias.com|3djuegospc.com|acehardware.com|acornonline.com|ads.spotify.com|aeromexico.com|afisha.timepad.ru|aliexpress.com|animeanime.jp|anond.hatelabo.jp|applesfera.com|aruba.it|arvopaperi.fi|atptour.com|autobild.de|autorevue.cz|axeptio.eu|backcountry.com|bbcgoodfood.com|benesse-style-care.co.jp|besplatka.ua|beterbed.nl|betten.de|binglee.com.au|book.impress.co.jp|bsa-whitelabel.com|bunte.de|bybit.com|bybitglobal.com|capital.it|carcareplus.jp|carhartt-wip.com|casa.it|ccleaner.com|cdek.ru|cdon.fi|chipotle.com|chronopost.fr|cinemacafe.net|clickup.com|cmoa.jp|como.fi|complex.com|compradiccion.com|computerbild.de|coolermaster.com|costco.co.jp|crello.com|cyclestyle.net|cyclingnews.com|cypress.io|dazeddigital.com|deejay.it|dengekionline.com|dholic.co.jp|directoalpaladar.com|dlsite.com|dmv.ca.gov|doodle.com|dropps.com|e15.cz|easternbank.com|edwardjones.com|elnuevodia.com|enmotive.com|episodi.fi|eprice.it|ergotron.com|espinof.com|euronics.it|expressvpn.com|fandom.com|feex.co.il|festoolusa.com|finanzen.at|finanzen.ch|finanzen.net|flytap.com|focus.de|formula1.com|fortress.com.hk|fortune.com|freenet-funk.de|fum.fi|gamebusiness.jp|gamespark.jp|genbeta.com|glamusha.ru|gorillamind.com|grandhood.dk|gravitydefyer.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|hatenacorp.jp|headlightrevolution.com|herculesstands.com|hobbyhall.fi|hostingvergelijker.nl|houseofbilocca.com|idealo.at|idealo.de|iexprofs.nl|iltalehti.fi|independent.co.uk|inferno.fi|inside-games.jp|insiderstore.com.br|iphoneitalia.com|jalan.net|jn.pt|journaldunet.com|jreastmall.com|junonline.jp|kakuyomu.jp|karriere.at|kedronparkhotel.com.au|komputronik.pl|konami.com|la7.it|larousse.fr|lastampa.it|lecker.de|level.travel|lift.co.za|linternaute.com|lippu.fi|luko.eu|m1.com|m2o.it|mainichi.jp|makitani.net|mangaseek.net|mcgeeandco.com|mecindo.no|mediamarkt.nl|mediuutiset.fi|mercell.com|meritonsuites.com.au|mikrobitti.fi|mirapodo.de|mobilmania.cz|montcopa.org|mycar-life.com|mysmartprice.com|nap-camp.com|netcombo.com.br|newscafe.ne.jp|nflgamepass.com|nielsendodgechryslerjeepram.com|nihontsushin.com|nordvpn.com|nourison.com|oakandfort.com|odia.ig.com.br|oetker-shop.de|okwave.jp|olx.ro|onlineshop.ocn.ne.jp|papajohns.com|pccomponentes.com|petsathome.com|pgatoursuperstore.com|pioneer.eu|plaion.com|plantsome.ca|poprosa.com|post.ch|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|radiko.jp|radio-canada.ca|radiorur.de|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|rocketnews24.com|rtl.de|rumba.fi|runescape.com|rustih.ru|sanwacompany.co.jp|saraiva.com.br|saturn.at|savethechildren.it|scan.netsecurity.ne.jp|sciencesetavenir.fr|scotsman.com|soranews24.com|soundguys.com|soundi.fi|spektrum.de|sport-wear.com.ua|sport1.de|sportmaster.ru|spyder7.com|stage.parco.jp|store-jp.nintendo.com|stressless.com|subscribe.greenbuildingadvisor.com|superesportes.com.br|support.brother.com|support.creative.com|swarajyamag.com|swb.de|talent.lowes.com|talouselama.fi|teddyfood.com|tekniikkatalous.fi|telia.no|theretrofitsource.com|tide.com|tilt.fi|tivi.fi|tn.com.ar|topper.com.br|toyota-forklifts.se|trademe.co.nz|tradera.com|trendencias.com|trendenciashombre.com|tribuna.com|tugatech.com.pt|tumi.com|tv-asahi.co.jp|type.jp|uclabruins.com|unieuro.it|uniqlo.com|upc.pl|upwork.com|uqr.to|veho.fi|vidaextra.com|video.repubblica.it|vip.de|virginmedia.com|vitonica.com|viviennewestwood-tokyo.com|vox.de|vtvgo.vn|wamiz.com|wowma.jp|www.kauppalehti.fi|www.nicovideo.jp|www.uusisuomi.fi|xatakamovil.com|xxl.se|ymobile.jp|youpouch.com|zakzak.co.jp|zazzle.com|zennioptical.com|zf1.tohoku-epco.co.jp|zinio.com|zive.cz|zozo.jp
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
 @@||grattable.com/blogads.css
@@ -41213,6 +41215,7 @@ zyro.com##.zyro-cookies
 ||2ts55ek00.de^
 ||2tty.overstappen.nl^
 ||2tyne.icu^
+||2u3v4w5x6y.com^
 ||2v6624.myrebo.com^
 ||2vv.cc^
 ||2yqcaqbfnv.nextgen.shareablee.com^
@@ -41513,6 +41516,7 @@ zyro.com##.zyro-cookies
 ||404.safedog.cn^
 ||4073284684.com^
 ||407433bfc441.com^
+||4087aa0dc1.com^
 ||40caidaylimpia.catzolab.net^
 ||40ceexln7929.com^
 ||40e82f6c27.com^
@@ -41937,6 +41941,7 @@ zyro.com##.zyro-cookies
 ||5jdhbfjdfg4.monster^
 ||5jhome.com^
 ||5jhsbdjfsdf5.monster^
+||5jzu5t.com^
 ||5kmm.top^
 ||5kmp7.top^
 ||5lfgdju.com^
@@ -42272,6 +42277,7 @@ zyro.com##.zyro-cookies
 ||7a6a4e9e27.com^
 ||7a75ebcbd7.com^
 ||7a7f07591f.com^
+||7abf0af03c.com^
 ||7anfpatlo8lwmb.com^
 ||7b3937119b.com^
 ||7b763dbdf3.com^
@@ -42474,6 +42480,7 @@ zyro.com##.zyro-cookies
 ||8882915.com^
 ||8886i.top^
 ||88885aaa.com^
+||888bb666cc.com^
 ||888fr.xyz^
 ||888lianmeng.com^
 ||888media.net^
@@ -42493,6 +42500,7 @@ zyro.com##.zyro-cookies
 ||88lajs1.com^
 ||88lajs2.com^
 ||88lajs3.com^
+||88lajs4.com^
 ||88ng.com^
 ||88nu.info^
 ||88shu.cn^
@@ -49626,6 +49634,7 @@ zyro.com##.zyro-cookies
 ||angsrvr.com^
 ||anguac.com^
 ||anguished-child.pro^
+||anguishedjudgment.com^
 ||anguishexperimental.com^
 ||anguishleague.com^
 ||anguishlonesome.com^
@@ -50841,6 +50850,7 @@ zyro.com##.zyro-cookies
 ||arbourrenewal.com^
 ||arbourtalessterile.com^
 ||arbtrnskid.com^
+||arbutintentie.com^
 ||arbutterfreer.com^
 ||arc.io^
 ||arc.io^$third-party
@@ -53485,6 +53495,7 @@ zyro.com##.zyro-cookies
 ||bermudaamowt.com^
 ||berriesresound.com^
 ||berryhillfarmgwent.com^
+||berrynicolo.com^
 ||berserkpl.net.pl^
 ||berses.com^
 ||berthformttet.com.ua^
@@ -53754,6 +53765,7 @@ zyro.com##.zyro-cookies
 ||bhalukecky.com^
 ||bhaoea.cn^
 ||bharalhallahs.com^
+||bharsilked.com^
 ||bhcnmrn.icu^
 ||bhcont.com^
 ||bhcostefja.com^
@@ -54116,6 +54128,7 @@ zyro.com##.zyro-cookies
 ||bjtgds.xyz^
 ||bjtrld.com^
 ||bjvvqu.cn^
+||bjwqqohwtgbbs.com^
 ||bjws.xyz^
 ||bjxiangcao.com^
 ||bjxiaohua.com^
@@ -55342,6 +55355,7 @@ zyro.com##.zyro-cookies
 ||brominer.com^
 ||brominer.com^$third-party
 ||brominewf.guru^
+||bromisescapose.com^
 ||bromoilnapalms.com^
 ||bromusic.site^
 ||bronto.com^
@@ -55557,6 +55571,7 @@ zyro.com##.zyro-cookies
 ||buckeyekantars.com^
 ||bucklemail.com/a/$image
 ||buckonealodies.com^
+||bucojjqcica.com^
 ||budapebluest.com^
 ||buddedpetrie.space^
 ||buddhamoduli.com^
@@ -57403,6 +57418,7 @@ zyro.com##.zyro-cookies
 ||cfyhym.weightwatchers.fr^
 ||cgbaybqywso.com^
 ||cgbmjsasm.xyz^
+||cgbswl.icu^
 ||cgdh.fenbengpan.cn^
 ||cgeckmydirect.biz^
 ||cgi.connect.qq.com^
@@ -61148,6 +61164,7 @@ zyro.com##.zyro-cookies
 ||cten10010.com^
 ||ctengine.io^
 ||cteripre.com^
+||cthbini.xyz^
 ||cthisismoych.com^
 ||cti.w55c.net^
 ||ctiavxtakmw.com^
@@ -61453,6 +61470,7 @@ zyro.com##.zyro-cookies
 ||cxnre.xyz^
 ||cxojob.com.cn^
 ||cxovwczosr.com^
+||cxpjrqa.cn^
 ||cxpublic.com^
 ||cxrfns.gu-global.com^
 ||cxs.mibaoge.com^
@@ -63018,6 +63036,7 @@ zyro.com##.zyro-cookies
 ||datingtopgirls.com^
 ||datingvr.ru^
 ||datouniao.com^
+||dattoswitches.com^
 ||datum.appfleet.com^
 ||datvantage.com^
 ||datvantage.com^$third-party
@@ -63244,6 +63263,7 @@ zyro.com##.zyro-cookies
 ||ddjagedfbifdfejagaca.world^
 ||ddjnocookie.com/prod_public$script
 ||ddkep.xyz^
+||ddkh59.com^
 ||ddkkrrla.m.qxs.la^
 ||ddl.3g567.com^
 ||ddlbr.timesclub.co^
@@ -63933,6 +63953,7 @@ zyro.com##.zyro-cookies
 ||dg.yiran686.cn^
 ||dg0hrtzcus4q4.cloudfront.net^
 ||dg186.cn^
+||dg6gu9iqplusg.cloudfront.net^
 ||dgafgadsgkjg.top^
 ||dgaxxjq.cn^
 ||dgayibf.icu^
@@ -64074,6 +64095,7 @@ zyro.com##.zyro-cookies
 ||dianxin.com^
 ||dianyilm.com^
 ||dianying-1304791696.cos.ap-shanghai.myqcloud.com^
+||diaocaixiaq.cn^
 ||diaoguoshi.mobi^
 ||diaopic.14bobo.com^
 ||diaperhumanpurify.com^
@@ -65352,6 +65374,7 @@ zyro.com##.zyro-cookies
 ||dqhezw.com^
 ||dqhi3ea93ztgv.cloudfront.net^
 ||dqjojx.xyz^
+||dqlfabc.cn^
 ||dqlgpnljfgmlqs.xyz^
 ||dqs3.darjeeling.fr^
 ||dqsft.com^
@@ -65558,6 +65581,7 @@ zyro.com##.zyro-cookies
 ||dsandmaroons.com^
 ||dsb6jelx4yhln.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
+||dsbfpt.xyz^
 ||dsbjdeh.cn^
 ||dsbt7.com^
 ||dscex7u1h4a9a.cloudfront.net^
@@ -65781,6 +65805,7 @@ zyro.com##.zyro-cookies
 ||dunlopfermi.com^
 ||dunnedemicant.com^
 ||dunowmymmexmd.com^
+||dunrnd.com^
 ||duobaoqj.com^
 ||duobyj.icu^
 ||duodada.com/Tpl/default/system.js
@@ -67487,6 +67512,7 @@ zyro.com##.zyro-cookies
 ||egrvkoqigygqk.com^
 ||egsxdp.cn^
 ||egvemw.aboutyou.ee^
+||egxxlvyguirt.com^
 ||egynvnnlhywq.com^
 ||egyptianintegration.com^
 ||egyptpolarity.com^
@@ -70612,6 +70638,7 @@ zyro.com##.zyro-cookies
 ||flare-analytics.com^$third-party
 ||flarebania.com^
 ||flarefilter.cacafly.com^
+||flarytapuyan.com^
 ||flash-counter.com^
 ||flash-counter.com^$third-party
 ||flash.2144.com^
@@ -70797,6 +70824,7 @@ zyro.com##.zyro-cookies
 ||fluxy.xyz^
 ||flv.dotmore.com.tw^
 ||flv.ytshuirun.com^
+||flw.camcaps.ac^
 ||flx1.com^
 ||flx1.com^$third-party
 ||flxpxl.com^
@@ -72436,6 +72464,7 @@ zyro.com##.zyro-cookies
 ||geiybze.com^
 ||geiyujieda.com^
 ||gejeegho.net^
+||gejhhh.cn^
 ||gejulm1314.com^
 ||gekroome.com^
 ||gelbjvl.cn^
@@ -72975,6 +73004,7 @@ zyro.com##.zyro-cookies
 ||ghastlyrejectionrest.com^
 ||ghattiwongsky.com^
 ||ghatwalplunker.live^
+||ghbdsbfd.com^
 ||ghdlry.greetz.nl^
 ||gheraosonger.com^
 ||ghethe.com^
@@ -73190,6 +73220,7 @@ zyro.com##.zyro-cookies
 ||glaunsun.net^
 ||glaurtas.com^
 ||glauvoob.com^
+||glauxoaw.xyz^
 ||glaxaukr.net^
 ||glazegha.com^
 ||glazilyvenues.com^
@@ -73424,6 +73455,8 @@ zyro.com##.zyro-cookies
 ||gmx28.top^
 ||gmx29.top^
 ||gmx30.top^
+||gmx42.top^
+||gmx44.top^
 ||gmx45.top^
 ||gmx46.top^
 ||gmx47.top^
@@ -73457,6 +73490,7 @@ zyro.com##.zyro-cookies
 ||gnrdomimplementation.com^
 ||gnreyt.toom.de^
 ||gnrnws.cn^
+||gnuoipb.cn^
 ||go-mpulse.net^
 ||go-rillatrack.com^
 ||go-test.bigspring.io^
@@ -73889,6 +73923,7 @@ zyro.com##.zyro-cookies
 ||gongyuxinxi.xyz^
 ||goniforas.com^
 ||gonpc.com^
+||gontent.powzers.lol^
 ||goo.ne.jp^*/vltracedmd.js
 ||gooblesdd.com^
 ||good4younow.club^
@@ -74129,6 +74164,7 @@ zyro.com##.zyro-cookies
 ||gqdfgyz.cn^
 ||gqgfrgx.cn^
 ||gqilaywrqy.com^
+||gqleov.icu^
 ||gqubkbuinx.com^
 ||gr-business.vodafone.com^
 ||gr.a23.in^
@@ -76098,6 +76134,7 @@ zyro.com##.zyro-cookies
 ||hkk456.cc^
 ||hkkeafj.cn^
 ||hkoxlirf.com^
+||hkrytf.xyz^
 ||hkscldggm.xyz^
 ||hksmstpzsnlj.com^
 ||hktedu.site^
@@ -76861,6 +76898,7 @@ zyro.com##.zyro-cookies
 ||huodong.ios.shouji.360.cn^
 ||huodong.mobilem.360.cn^
 ||huodonghezi.cn^
+||huohuo.huamuwo.com^
 ||huoju.asia^
 ||huomob.com^
 ||huoxingtan66.com^
@@ -77000,6 +77038,7 @@ zyro.com##.zyro-cookies
 ||hylmxing.com^
 ||hyloistmithan.com^
 ||hylomysslipper.digital^
+||hynahyqq.xyz^
 ||hynteroforion.com^
 ||hype-ads.com^
 ||hype.zlipa.com^
@@ -77010,6 +77049,7 @@ zyro.com##.zyro-cookies
 ||hyperactivate.com^$third-party
 ||hyperbanner.net^
 ||hypercomments.com/widget/*/analytics.html
+||hypercounter.com^
 ||hypercounter.com^$third-party
 ||hyperdx.io^
 ||hyperdx.io^$third-party
@@ -77306,6 +77346,7 @@ zyro.com##.zyro-cookies
 ||icgp.ie/overview/js/tracker.php
 ||ichaosheng.com^
 ||ichauphy.com^
+||ichc1.xinglinpukang.com^
 ||iche88.cn^
 ||ichimaip.net^
 ||icicleapplicationinvestigator.com^
@@ -77543,6 +77584,7 @@ zyro.com##.zyro-cookies
 ||ignorantrigidpreferred.com^
 ||ignoringinconvenience.com^
 ||ignoringpromisingonce.com^
+||ignulsniy.com^
 ||igoognou.xyz^
 ||igrid.org^
 ||igroazie.com^
@@ -80103,6 +80145,7 @@ zyro.com##.zyro-cookies
 ||jacobsyrma.live^
 ||jacragatztit.com^
 ||jacsmuvkymw.com^
+||jactantsplodgy.com^
 ||jadcenter.com^
 ||jadedhide.pro^
 ||jadedjoke.com^
@@ -80713,6 +80756,7 @@ zyro.com##.zyro-cookies
 ||jmeeersdkmoir.xyz^
 ||jmged.xyz^
 ||jmgehn.cn^
+||jmhngn.com^
 ||jmlinks.cn^
 ||jmlk.co^
 ||jmm8a.xyz^
@@ -80733,6 +80777,7 @@ zyro.com##.zyro-cookies
 ||jngdg.top^
 ||jnhdmksj.top^
 ||jnhgm.com^
+||jnkmhn.com^
 ||jnkmwr.xyz^
 ||jnkqnf.cifraclub.com.br^
 ||jnm.o41qed.cn^
@@ -81340,6 +81385,7 @@ zyro.com##.zyro-cookies
 ||jujwhjmtidgp.com^
 ||julia-liz.com^
 ||julidanroebuck.com^
+||juljrd.xyz^
 ||julkkoazfkh.com^
 ||jullyambery.net^
 ||julolecalve.website^
@@ -81628,6 +81674,7 @@ zyro.com##.zyro-cookies
 ||k9x.net^
 ||ka.ilius.net^
 ||ka5188.com^
+||kaaqgf.icu^
 ||kaayqbkwnbqja.top^
 ||kablic.com^
 ||kabokc.webuy.com^
@@ -82893,6 +82940,7 @@ zyro.com##.zyro-cookies
 ||l33tsite.info^
 ||l3g3media.com^
 ||l3r6p0d5.com^
+||l404k.com^
 ||l44mobileinter.com^
 ||l45fciti2kxi.com^
 ||l4efwdtg.icu^
@@ -84640,6 +84688,8 @@ zyro.com##.zyro-cookies
 ||liuxiangxiang.top^
 ||liuyi22.cn^
 ||liuyimin5.cn^
+||liuyingtv.com/common/api_getAcode.php
+||liuyuhuaa.cn^
 ||liuyun.name^
 ||live-a-live.com^
 ||live-ifs.tanx.com^
@@ -85542,6 +85592,7 @@ zyro.com##.zyro-cookies
 ||lr-ingest.com^$third-party
 ||lr-ingest.io^
 ||lr-ingest.io^$third-party
+||lr-intake.com^
 ||lr-intake.com^$third-party
 ||lr-port.de/tracker/
 ||lrah0.top^
@@ -87213,6 +87264,7 @@ zyro.com##.zyro-cookies
 ||magnetisemedia.com^
 ||magnetmail1.net^
 ||magnetmail1.net^$third-party
+||magnificent-listen.com^
 ||magnificentflametemperature.com^
 ||magnificentmanlyyeast.com^
 ||magnificentmeasure.com^
@@ -89052,6 +89104,7 @@ zyro.com##.zyro-cookies
 ||mergaksi.net^
 ||mergedlava.com^
 ||mergerpep.com^
+||mergessidi.com^
 ||meritedgasser.com^
 ||meritiny.top^
 ||meriwest.actonservice.com^
@@ -92784,6 +92837,7 @@ zyro.com##.zyro-cookies
 ||njmaq.com^
 ||njmpacc.com^
 ||njogejt.icu^
+||njppuaj.cn^
 ||njqyjlyh.com^
 ||njs.imagicskin.com^
 ||njs.reliancevalve.com^
@@ -93503,6 +93557,7 @@ zyro.com##.zyro-cookies
 ||nyetm2mkch.com^
 ||nyfoknamlrqxc.com^
 ||nygwcwsvnu.com^
+||nyhgvn.xyz^
 ||nyhpyq.com^
 ||nyhrgss.com^
 ||nyjprod-msevent.applovin.com^
@@ -93727,6 +93782,7 @@ zyro.com##.zyro-cookies
 ||obsessivepetsbean.com^
 ||obsessivepossibilityminimize.com^
 ||obsidiancutter.top^
+||obsignphippe.com^
 ||obsors.com^
 ||obspkoirhnvq.xyz^
 ||obssiyjiachvh.xyz^
@@ -94419,6 +94475,7 @@ zyro.com##.zyro-cookies
 ||onecount.net/onecount/oc_track/
 ||onedirectioncutefacts.net.anwalt.de^
 ||onedmp.com^
+||onedragon.win^
 ||oneegrou.net^
 ||onefeed.co.uk^
 ||onefeed.co.uk^$third-party
@@ -94595,6 +94652,7 @@ zyro.com##.zyro-cookies
 ||oodsauns.net^
 ||oodsoobe.com^
 ||oodsotso.com^
+||ooeciumpokable.com^
 ||ooegpip.cn^
 ||ooeogk.xyz^
 ||ooexkqj.cn^
@@ -96521,6 +96579,7 @@ zyro.com##.zyro-cookies
 ||pdn-5.com^
 ||pdn.applovin.com^
 ||pdown.stat.360safe.com^
+||pdridjiviq.com^
 ||pdrtcgfx.cn^
 ||pds-midea.com^
 ||pds.auction.co.kr^
@@ -96943,6 +97002,7 @@ zyro.com##.zyro-cookies
 ||ph.thenextweb.com^
 ||phadia.thermo.com^
 ||phadia.thermofisher.com^
+||phaglalt.com^
 ||phague.com^
 ||phaignux.xyz^
 ||phaikroo.net^
@@ -97245,6 +97305,7 @@ zyro.com##.zyro-cookies
 ||picture.duokan.com^
 ||picturecorrespond.com^
 ||pictureturn.com^
+||pidurrmu.xyz^
 ||pie.net.pk^
 ||pieproficientcurve.com^
 ||pierchestnut.com^
@@ -97700,6 +97761,7 @@ zyro.com##.zyro-cookies
 ||planetarium-planet.com^
 ||planetconstituent.com^
 ||planetradio.co.uk/crystal/log
+||planetvids.online^
 ||plankbritish.com^
 ||planktab.com^
 ||planmybackup.co^
@@ -98554,6 +98616,7 @@ zyro.com##.zyro-cookies
 ||povbdf.cn^
 ||povlnlq.com^
 ||povoarge.com^
+||powchro.com^
 ||powderjourney.com^
 ||powdermealfilth.com^
 ||powderprofit.com^
@@ -98910,6 +98973,7 @@ zyro.com##.zyro-cookies
 ||princessallotgather.com^
 ||princetonreview.com/logging/
 ||principlede.info^
+||principledecliner.info^
 ||principlessilas.com^
 ||pringed.space^
 ||prinkedgigtree.tech^
@@ -98976,6 +99040,7 @@ zyro.com##.zyro-cookies
 ||privateadx.com^
 ||privateclient.hubinternational.com^
 ||privatediamond.pro^
+||privatedqualizebrui.info^
 ||privateleaflet.com^
 ||privatelookhack.com^
 ||privateseiten.net^
@@ -99438,6 +99503,7 @@ zyro.com##.zyro-cookies
 ||pshtrkg.com^
 ||psikoofack.com^
 ||psilikaki.openapp.link^
+||psirdain.com^
 ||psirsoor.com^
 ||psirsugn.net^
 ||psma01.com^
@@ -99595,6 +99661,7 @@ zyro.com##.zyro-cookies
 ||ptp22.com^
 ||ptp24.com^
 ||ptpfict.space^
+||ptpoeyc.com^
 ||ptracker.nurturehq.com^
 ||ptrenx.vidaxl.com.au^
 ||ptrfc.com^
@@ -100341,6 +100408,7 @@ zyro.com##.zyro-cookies
 ||qbd3.site^
 ||qbd4.site^
 ||qbdgame.com^
+||qbhjokk.xyz^
 ||qbhmz3.com^
 ||qbl4.ecetech.fr^
 ||qblcyqgn.com^
@@ -100352,6 +100420,7 @@ zyro.com##.zyro-cookies
 ||qbreport.html5.qq.com^
 ||qbrrrlawwrvbv.top^
 ||qbse.intuit.com^
+||qbswezw.cn^
 ||qbtd.xyz^
 ||qc.newyorker.com^
 ||qc.qualicocommunitieswinnipeg.com^
@@ -105167,6 +105236,7 @@ zyro.com##.zyro-cookies
 ||scptp1.com^
 ||scptpx.com^
 ||scpxth.xyz^
+||scqaaf.cn^
 ||scrankysickish.life^
 ||scrap.me^
 ||scrapebust.com^
@@ -105235,6 +105305,7 @@ zyro.com##.zyro-cookies
 ||scubaenterdane.com^
 ||scuddedsisals.com^
 ||scudspulsedrail.com^
+||scullerropeman.digital^
 ||sculpturelooking.com^
 ||scupio.com/js/ad.js
 ||scupio.com^
@@ -105342,6 +105413,7 @@ zyro.com##.zyro-cookies
 ||sdkdfjksl.com^
 ||sdkfjxjertertry.com^
 ||sdkinit.taobao.com^
+||sdkl.info^
 ||sdklog.uu.cc^
 ||sdkm.w.inmobi.cn^
 ||sdkm.w.inmobi.com^
@@ -107121,6 +107193,7 @@ zyro.com##.zyro-cookies
 ||shuzilm.com^
 ||shweflix.com^
 ||shwomettleye.com^
+||shx11.xyz^
 ||shydastidu.com^
 ||shyhuetub.site^
 ||shyseed.com^
@@ -109665,6 +109738,7 @@ zyro.com##.zyro-cookies
 ||smisto.com^
 ||smists.com^
 ||smithamenamel.com^
+||smithumbewreck.com^
 ||smitry.com^
 ||smjulynews.com^
 ||smjxarmaflpmxj.com^
@@ -110829,6 +110903,7 @@ zyro.com##.zyro-cookies
 ||sreamyourvids.online^
 ||sreamyourvids.space^
 ||srefrukaxxa.com^
+||sregfle.cn^
 ||srf.ch/udp/tracking/
 ||srgev.com^
 ||srglobal.actonservice.com^
@@ -111734,6 +111809,7 @@ zyro.com##.zyro-cookies
 ||statistiche.ws^$third-party
 ||statistichegratis.net^
 ||statistichegratis.net^$third-party
+||statisticplatform.com^
 ||statisticresearch.com^
 ||statistics.csob.cz^
 ||statistics.daktilo.com^
@@ -112717,6 +112793,7 @@ zyro.com##.zyro-cookies
 ||stgcdn.com^
 ||stgowan.com^
 ||sthenicrefunds.com^
+||sthoutte.com^
 ||stialt.com^
 ||sticalsdebaticalfe.info^
 ||stichosxylenol.guru^
@@ -112860,6 +112937,7 @@ zyro.com##.zyro-cookies
 ||stotchou.com^
 ||stotoowu.net^
 ||stougnee.com^
+||stouksom.xyz^
 ||stoushgowds.com^
 ||stovearmpitagreeable.com^
 ||stovecharacterize.com^
@@ -112988,6 +113066,7 @@ zyro.com##.zyro-cookies
 ||strickenenergetic.com^
 ||strictgrittwine.com^
 ||strident-writing.com^
+||stridentbedroom.pro^
 ||strikead.com^
 ||strikeadcdn.s3.amazonaws.com^
 ||strikenurse.usnursing.com^
@@ -114979,6 +115058,7 @@ zyro.com##.zyro-cookies
 ||teasernet.ru^
 ||teaservizio.com^
 ||teasimilarman.com^
+||teatycacicus.com^
 ||teazledbyes.com^
 ||tebadu.com^
 ||tecaavdsy.com^
@@ -118202,6 +118282,7 @@ zyro.com##.zyro-cookies
 ||trackedlink.net^$third-party
 ||trackedweb.net^
 ||trackedweb.net^$third-party
+||tracker*.qcloud.com^
 ||tracker-00.qvb.qcloud.com^
 ||tracker-2.com^
 ||tracker-aa.pafbetscore.lv^
@@ -119998,6 +120079,7 @@ zyro.com##.zyro-cookies
 ||tyjryuk.cn^
 ||tykor.net^
 ||tylfgkf.com^
+||tylocintriones.com^
 ||tylosischewer.com^
 ||tyluslandmil.com^
 ||tymh2022.xyz^
@@ -121514,6 +121596,7 @@ zyro.com##.zyro-cookies
 ||uvcourse.net^
 ||uvgxhu.ezgif.com^
 ||uviticketway.com^
+||uviu.com/activity/
 ||uvnjlm.cn^
 ||uvoovoachee.com^
 ||uvqvvh.avva.com.tr^
@@ -122751,6 +122834,7 @@ zyro.com##.zyro-cookies
 ||vizacasa.xyz^
 ||vizagtobfx.com^
 ||vizcloud.co/ping/
+||vizhtd.xyz^
 ||vizisense.net^
 ||vizisense.net^$third-party
 ||vizofnwufqme.com^
@@ -122908,6 +122992,7 @@ zyro.com##.zyro-cookies
 ||voldarinis.com^
 ||volgograd-info.ru^
 ||volgograd-info.ru^$third-party
+||volgreal.com^
 ||volksbund-cookie.de^
 ||volkswagen-italia.it^*/tracking/
 ||volna2babla1dh1.com^
@@ -125177,6 +125262,7 @@ zyro.com##.zyro-cookies
 ||wopsedoaltuwn.com^
 ||wopsedoaltuwo.com^
 ||wopsedoaltuwp.com^
+||wopweb.net/services/counters/
 ||woqcfy.sony.ru^
 ||wordbodily.com^
 ||wordc.ga^
@@ -125581,6 +125667,7 @@ zyro.com##.zyro-cookies
 ||wuqconn.com^
 ||wuqdebjfhjas.bid^
 ||wurstsmikael.life^
+||wuruigroup.com^
 ||wussucko.com^
 ||wutou20230201.live^
 ||wutrroqixat.com^
@@ -128080,6 +128167,7 @@ zyro.com##.zyro-cookies
 ||yiteattends.tech^
 ||yitongfang.com^
 ||yitongwl.cn^
+||yivkzvog.xyz^
 ||yiw2iei.icu^
 ||yiwanuu.com^
 ||yiwk.com^
@@ -128471,6 +128559,7 @@ zyro.com##.zyro-cookies
 ||yuanchengxiezuo.com^
 ||yuanlin15.cn^
 ||yuanmengbi.com^
+||yuanxiaa.cn^
 ||yuanxiab.cn^
 ||yuanxiang19.fun^
 ||yubingyuan.top^
@@ -129217,6 +129306,7 @@ zyro.com##.zyro-cookies
 ||zigreroa.net^
 ||zigzag-ruin.pro^
 ||zigzaggodmotheragain.com^
+||zigzagrowy.com^
 ||zihogchfaan.com^
 ||zihuiguochao.top^
 ||zijaipse.com^
@@ -129273,6 +129363,7 @@ zyro.com##.zyro-cookies
 ||zj66.net^
 ||zjai.xyz^
 ||zjbdt.com^
+||zjdruhn.xyz^
 ||zjemch.ru^
 ||zjgfq.com^
 ||zjj.xhdccz.com^
