@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-27 20:27:05（北京时间） 
-! Total count: 130224
+! Version: 2023-10-28 08:48:56（北京时间） 
+! Total count: 130222
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -7068,6 +7068,7 @@
 ###gp-cookie-agreements
 ###gpdr-oberlay.overlay
 ###gpdr-prompt
+###gpe-cookies-warn
 ###gpf-cookiebar
 ###gpsecCookieInformationContainer
 ###grdp_barre_maxi
@@ -15883,7 +15884,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 &ev=PageView&
 &event=view&
 &hitType=pageview&
-&http_referer=$script,xmlhttprequest,domain=~facebook.com|~jobscore.com
+&http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &mi_ecmp=
 &pagegroup=*&url=$script
 &refer=http$script
@@ -16356,14 +16357,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /TrackClick.
 /TrackPageview?
 /TrackShopAnalytics.aspx?
+/TrackView/*$xmlhttprequest
 /TrackViews/*
 /TrackVisitors/*
 /TrackWebPage?
 /Tracking?id=
 /Tracking?t=
-/TrackingCookieCheck.
-/TrackingCookieCheck?
-/TrackingHandler.
+/TrackingHandler.js
 /TrackingPixel/*
 /TrafficCookie.js
 /UniqueUserVisit?
@@ -18525,6 +18525,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mms/get_loaders?
 /mn-collector.php
 /mngi/tracking/*
+/mnppixellibrary.min.js
 /mnt/imp?
 /moapt-action-iq-analytics.
 /moat/yield.js
@@ -19034,6 +19035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rmntracking.js
 /rntracking.js
 /rodo-agreement-$domain=gremimedia.pl|zw.com.pl
+/rodo-agreement-popup.min.js
 /rodo.js?pp_pr=
 /rodo/rodo.js
 /rodo_rmf
@@ -19488,6 +19490,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tcf-cmp.min.js
 /tcf/cookie.js
 /tcf2.js$domain=0calc.com|0rechner.de|0calc.fr
+/tcfapi/tcfapi.umd.js
 /tck/gif/*
 /teal-comscore-
 /teal-gcianalytics-
@@ -19648,39 +19651,31 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracking/log?
 /tracking/networktrackingservlet
 /tracking/open?
-/tracking/pageview.
 /tracking/pixel.
 /tracking/referrer?
 /tracking/thirdpartytag.js
 /tracking/trackpageview
 /tracking/user_sync_widget?
 /tracking/views/*
-/tracking/xtcore.
-/tracking202/*
+/tracking/xtcore.js
+/tracking202/static/landing.php
 /tracking?referrer
 /tracking?vs=
 /trackingCode-
 /trackingCode.js
 /trackingDTM.js
 /trackingEventsBlocks/*
-/trackingFooter.
+/trackingFooter.js
 /trackingGA.js
 /trackingImpression/*
 /trackingPixel.
-/trackingScriptLoader.
 /trackingTools.
-/trackingVtm.
-/tracking_ajax.
-/tracking_frame_
-/tracking_headerJS_
+/trackingVtm.js
 /tracking_id_
-/tracking_iframe.
-/tracking_pix.
 /tracking_pixel
 /tracking_unitary/*
-/trackingab?
 /trackingcookies.
-/trackingheader.
+/trackingheader.js
 /trackingp.gif
 /trackit.php?
 /trackit.pl?
@@ -19689,20 +19684,18 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracklog.
 /trackmerchant.js
 /trackmvisit?
-/tracknat.
 /trackopen.cgi?
 /trackpagecover?
-/trackpageview.
+/trackpageview.js
+/trackpageview.php
 /trackpixel?
 /trackpush.min.js
 /trackpxl?
 /trackstats?
 /trackui.min.js
 /trackvisit?
-/traffic-source-cookie.
-/traffic-source-cookie/*
+/traffic-source-cookie.min.js
 /traffic/status.gif?
-/traffic/track^
 /traffic_record.php?
 /traffictrade/*
 /trafic.js
@@ -20036,7 +20029,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-content/uploads/an-temp/*$script,stylesheet
 /wp-js/analytics.js
 /wp-monero-miner-class.js
+/wp-monero-miner-util.min.js
 /wp-monero-miner.js
+/wp-monero-miner.min.js
 /wp-slimstat.js
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
@@ -28484,6 +28479,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://blue.*/script.js
 ://collect.*/pageview
 ://collector.*/event
+://elqtrk.
 ://email.*/e/o/
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
@@ -29310,6 +29306,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||www.ups.com/WebTracking/processInputRequest
 @@||wwwimage-tve.cbsstatic.com^
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
+@@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yandex.ru/ads/system/context.js|$script,domain=playground.ru
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
@@ -35228,8 +35225,8 @@ midparts.com.pl###simple-modal, #simple-modal-overlay
 midwestgunworks.com###privBanner
 mieszko.pl###privacy, .privacy
 migliori-siti-di-incontri.it##.disclaimer
+migros.ch##[data-js-module*="cookie-banner"]
 migros.com.tr##fe-product-cookie-indicator
-migusto.migros.ch##[data-js-module*="cookie-banner"]
 mijn-artikel.nl##.ui-widget, .ui-widget-overlay
 mijndomein.nl###dd_overlay, #dd_popup
 mijnleninginzicht.nl##body > div:not([id]):not([class])
@@ -36793,7 +36790,6 @@ qbilon.net##.cookie
 qdaily.com##.app
 qdaily.com##.clearfix.com-header-brief
 qitec.de###QiCookieOptin
-qiwi.com###app > div > div:first-child
 qixxit.com##.policy-container
 qliro.com###react-app > div > [open]
 qmee.com##div[class*="CookieDialog"]
@@ -75383,6 +75379,7 @@ zyro.com##.zyro-cookies
 ||heaterrobotscompute.com^
 ||heatertried.com^
 ||heathertravelledpast.com^
+||heatmap.com^$third-party
 ||heatmap.it^
 ||heatmap.it^$third-party
 ||heatmap.services^
@@ -118865,6 +118862,7 @@ zyro.com##.zyro-cookies
 ||trafficroots.com^
 ||trafficroots.com^$third-party
 ||trafficsan.com^
+||trafficscanner.pl^$third-party
 ||trafficshop.com^
 ||trafficstars.com$third-party
 ||trafficstars.com^
@@ -130109,7 +130107,6 @@ zyro.com##.zyro-cookies
 ~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info,~selgros.de,~frischeparadies.de##.klaro div[class*="cookie-modal"]
 ~shop4tesla.com,~warpedsense.com###cookie-consent-dialogBox
 ~skfbearingselect.com##.privacy-notice:not(.form-text):not(html)
-~snowthority.com###usercentrics-button
 ~sonchek.com##.cookie_notice_wrapper
 ~sovendus.com,~sternwarte-muenchen.de###BorlabsCookieBox
 ~sparda.de,~sparda-n.de,~sparda-bw.de,~sparda-hessen.de,~sparda-west.de##.cookieLayer:not(body):not(html)
@@ -130213,6 +130210,7 @@ zyro.com##.zyro-cookies
 ~wgv.de###cookie_overlay:not(.modal)
 ~what3words.com##.CookieNotice-Drawer
 ~winparts.nl,~winparts.be,~winparts.eu,~winparts.ie,~winparts.fr,~winparts.se,~thule.com,~indiearenabooth.com##.cookie-consent-box
+~wir-machen-druck.de###usercentrics-button
 ~wirtualnemedia.pl,~footroll.pl,~shinden.pl##body > div[class^="app_gdpr"]
 ~withings.com##.cookie_modal:not(body):not(html)
 ~wwz.ch##.cookie.cookie--active
