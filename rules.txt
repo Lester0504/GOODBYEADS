@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-28 20:24:46（北京时间） 
+! Version: 2023-10-29 08:53:45（北京时间） 
 ! Total count: 130222
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -15976,7 +15976,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
-.com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
@@ -15986,7 +15985,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .cookiehub.eu
 .ct.sendgrid.net/$image
 .cyou/redbaiduct.com
-.cyou/xling_*_
+.cyou/xling_*_$third-party
 .de/h.gif?
 .de/l.gif?
 .delivery-status.com/open?
@@ -16045,7 +16044,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .live/hm.js$third-party
 .live/o.js
 .live/r/*/*_r=*
-.live/ty/*-*-*
+.live/ty/*-*-*$third-party
 .live:*/o.js
 .lms-analytics/
 .mail.odysee.com/o/$image
@@ -28432,7 +28431,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 3g.163.com#?#article.card-type-news.news-card:-abp-contains(打开APP)
 3sairbrushkunst.be##.cookie__block
 3t.no###notification
-3zmmm.net/ggxx/
 4-72.com.co##.cookies
 420tv.com###appBarHeaderContainer
 4algeria.com###exposeMask
@@ -28502,6 +28500,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://www.vinted.*/relay/events
 :8007/*/*?is_not=
 :8008/*/*?is_not=
+:8891/v*$third-party
 ::1  localhost
 ::1 localhost
 ?[AQB]&ndh=1&t=
@@ -35889,7 +35888,6 @@ novema-nova.hr###cookie
 noventis.cz##body > div[id*="object"]
 novibet.gr##.setCookies
 novostroy-m.ru###advert_result
-novret.com/?clickid=
 nowaelektro.pl##body > div:not([id]):not([class])
 nowfoods.com##.block-sd-cookie-consent-block
 nowlive.eu###overlayPopup1, #opacity
@@ -41439,6 +41437,7 @@ zyro.com##.zyro-cookies
 ||3xy1.dvv9dkv.site^
 ||3yej.xyz^
 ||3z7qn.cn^
+||3zmmm.net/ggxx/
 ||4-interads.com^
 ||4.up.qingdaonews.com^
 ||4008813318.com.cn^
@@ -93145,6 +93144,7 @@ zyro.com##.zyro-cookies
 ||novitrk7.com^
 ||novitrk8.com^
 ||novostisporta.info^
+||novret.com/?clickid=
 ||now.cummins.com^
 ||now.cumminsfiltration.com^
 ||now.cumminspower.com^
