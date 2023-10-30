@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-10-29 20:25:14（北京时间） 
-! Total count: 130131
+! Version: 2023-10-30 08:51:23（北京时间） 
+! Total count: 130133
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16201,7 +16201,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /BKVTrack.js
 /BlueKaiPixel/*
 /CKCookieConsent.js$domain=caseking.de
-/CaptureStat.
+/CaptureStat.asmx
 /ClickTail.
 /ClickTrack.
 /CofinaHits.
@@ -16457,8 +16457,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_xa/ads?
 /_xa/ads_
 /a.gif?
-/a8c-analytics.
-/a8c-analytics/*
+/a/performance_timing/*
+/a8c-analytics.js
 /aap/stats
 /ab_track.
 /abb-msg.js
@@ -16482,7 +16482,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /activity.gif?
 /acton/bn/tracker
 /ad-blocking-advisor/*
-/adb-analytics
 /adb-watch.
 /adb.policy.js
 /adb1.gif?
@@ -16507,7 +16506,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /adblock_alerter/*
 /adblock_erreur.
 /adblock_gate/images/animated.gif?
-/adblock_logging.
 /adblock_notify.js
 /adblocker-check.
 /adblocker-detected.
@@ -16533,6 +16531,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /admiral.js
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.js
+/adobe-analytics/*$script
 /adobe-analytics2.js
 /adobe-prd/*
 /adobe.visitor-
@@ -16728,6 +16727,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/LM/Report?placeUUID=$third-party
 /api/ad/*
 /api/adplogger/*
+/api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
 /api/getPos?jspath=/videos/view//*
@@ -18696,6 +18696,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pageTag?
 /pageTracking.js
 /page_analytics.js
+/page_counter.js
 /page_perf_log?
 /pagead/conversion_async.js
 /pagedot.gif?
@@ -18720,6 +18721,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pageviews?token=
 /pandectes-core.js
 /parsely.js
+/particles/analytics.js
 /partner-analytics/*
 /partner/transparent_pixel-$image
 /partnermetrics.js
@@ -18739,6 +18741,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /performance.fcgi?
 /performance/metrics
 /performanceMetrics?
+/perimeterx/px.
 /permission/*$domain=1und1.de
 /permutiveIdGenerator.js
 /pg*.js?PID=$xmlhttprequest
@@ -19881,6 +19884,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /vj2/*$third-party
 /vj3/*$third-party
 /vjslog?
+/vli-platform/adb-analytics@
 /vs-track.js
 /vs.gif?
 /vsl/imp?
@@ -59987,8 +59991,7 @@ zyro.com##.zyro-cookies
 ||coolstreamsearch.com^
 ||cooltui.com^
 ||coolyi.com^
-||coomer.party/api/event
-||coomer.su/api/event
+||coomer.su/api/v1/event
 ||coonandeg.xyz^
 ||coonceder.space^
 ||coonilyciwies.guru^
@@ -81720,8 +81723,7 @@ zyro.com##.zyro-cookies
 ||kelpmetorealiu.xyz^
 ||kelteruncos.com^
 ||kelun13.top^
-||kemono.party/api/event
-||kemono.su/api/event
+||kemono.su/api/v1/event
 ||kempitepterin.com^
 ||ken.kenxq.com^
 ||kendingfa.com^
