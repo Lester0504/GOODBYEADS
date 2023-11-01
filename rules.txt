@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-01 09:07:18（北京时间） 
-! Total count: 130242
+! Version: 2023-11-01 20:21:12（北京时间） 
+! Total count: 130231
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16119,6 +16119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .tripadvisor.com/MptUrl?$image
 .tripadvisor.com/q/$image
 .umusic-online.com^*/o.gif
+.useinsider.com/pixel?$image
 .v4.analytics.
 .warehousefashion.com/warehouse/e/$image
 .webex.com/q/
@@ -16186,7 +16187,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /AccessCounter/index.cgi?
 /AdblockMessage.
 /Amasty_GdprCookie$domain=~planet-cards.co.uk|~sunkost.no|~pervaco.no|~wondrium.com|~nova-motors.de|~moleonline.com|~durstexpress.de|~littlelunch.com|~twinpack.nl|~eckeroline.fi|~eilles.de|~xt500parts.com|~norli.no|~matthys.net|~leserservice.ch
-/Analytics/visit.jsp
 /AnalyticsDataLayer.min.
 /AnalyticsEvent.js
 /AppMeasurement.js
@@ -16287,7 +16287,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Magento_Cookie/js/notices
 /MailIsRead?$image
 /Manolo_CookieConsent/*$domain=manoloblahnik.com
-/Maxymiser/*
 /ModalCookiesPrivacy.php
 /ModalEngage,ConsentManager,Sticky
 /NNAnalyticsWPSites.js
@@ -16365,7 +16364,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /TrackingPixel/*
 /TrafficCookie.js
 /UniqueUserVisit?
-/Universal-Federated-Analytics.
 /UserTraceCookie?
 /ViewCounter/*
 /VisitCounter.
@@ -16610,6 +16608,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytic-client.
 /analytic/pageview
 /analytics-amplitude-
+/analytics-async-loader.js
 /analytics-cdn.
 /analytics-client-identification/*
 /analytics-collector
@@ -16630,6 +16629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
+/analytics-prod.js
 /analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.js
@@ -16653,7 +16653,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/abtest/*
 /analytics/adtags?
 /analytics/amp/*
-/analytics/analytics.$~xmlhttprequest
+/analytics/analytics.js
+/analytics/analytics.min.js
 /analytics/beacons/*
 /analytics/call-tracking.js
 /analytics/capture/*
@@ -16671,6 +16672,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/track_event/*
 /analytics/tracker.js
 /analytics/trackers?
+/analytics/visit.jsp
+/analytics/visit.php
 /analytics?http_referer
 /analytics?token=
 /analyticsFooter.js
@@ -17477,7 +17480,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /data-consent.$domain=stadtwerke-luebz.de
 /data_collect.js
 /datacollectionapi-client/index.js
-/datadome/*
 /dataunlocker-prod.js
 /dataunlocker.js
 /datawrapper.gif?
@@ -17749,7 +17751,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fpcookie?
 /fpcount.exe
 /fprnt.min.js
-/fps/check.
+/fps/check.php
 /fptrk.min.js
 /fpv2.js
 /freecgi/count.cgi?
@@ -17893,6 +17895,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /getbglog.js
 /getclicky.js
 /getdisclaimer$domain=wikifolio.com
+/getintent.js
 /getlog.gif
 /getstats.js.php
 /gigyaGAIntegration.js
@@ -18201,7 +18204,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js_tracker.js
 /js_tracker.min.js
 /js_tracking?
-/jscounter.
+/jscounter.js
+/jscounter.php
 /jscripts/analytics.js
 /jserrLog?
 /jslibrary/cookiewarning?
@@ -18327,7 +18331,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /log/sentry/*
 /log/server?
 /log/track/*
-/log/ux_analytics^
 /log/views/*
 /log/web?
 /log2.php?
@@ -18351,7 +18354,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /logExecutionStats?
 /logImpressions?
 /logPerf?
-/logViewImpression/*
 /log_agent.php
 /log_amp_item_set?
 /log_beacon.js
@@ -18420,7 +18422,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /matomo.js$domain=~github.com
 /matomo.php
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
-/maxymiser.
 /mcookie.aspx
 /mcount.cgi?
 /mcounter/*
@@ -18430,19 +18431,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /measure/pixel/*
 /measure/visit/*
 /media-analytics.min.
-/media-analytics/*
 /media.sailthru.com/5ik/1k4/9/*.gif
 /media/cmp/int_cmp_banner
 /media/plg_system_cookieconfirm
 /media/plg_system_eprivacy$domain=~reshade.me
-/media_viewed_tracking.
-/medialaanUniversalTracker.
+/medialaanUniversalTracker.js
 /mediametrie.js
 /mediamus-cookie.js$domain=swl-unser-stadtwerk.de
 /mediateGA.js
 /megacounter/*
 /melindres/*$domain=televes.com
-/mendelstats.
+/mendelstats.js
 /messagingNoTcfApi.js$domain=svd.se|klart.se
 /meta-analytics/*
 /meta-tracker/*
@@ -18452,7 +18451,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /metrica/sp.js
 /metricool.js
 /metrics-backend/*
-/metrics-ga.
 /metrics/bambuser.min.js
 /metrics/event?
 /metrics/ga.js
@@ -18461,7 +18459,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /metrics/onload
 /metrics/ping?
 /metrics/rum
-/metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
 /metrics/track/*
@@ -19573,21 +19570,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /trackTimings.gif?
 /trackVisit/*
 /track_click?
-/track_clicks_
 /track_event.
 /track_framework_metrics?
-/track_general_stat.
+/track_general_stat.php
 /track_js/?
-/track_metric/*
-/track_outbound_
 /track_page_view?
 /track_pageview?
 /track_pixel?
 /track_proxy?
 /track_stat?
-/track_video.php?id=
-/track_views.
-/track_visit.
+/track_visit.js
 /track_visit?
 /track_visitor?
 /trackconversion?
@@ -19595,8 +19587,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
-/tracker/app.
-/tracker/emos2_
 /tracker/event?
 /tracker/imp?
 /trackerPageAnalytics.js
@@ -19613,7 +19603,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracking.jsp?sid=
 /tracking.srv2.de/op/*$image
 /tracking/airdog
-/tracking/common.
+/tracking/common.html
 /tracking/cookies?
 /tracking/digitaldata.js
 /tracking/email.php
@@ -19627,7 +19617,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracking/log?
 /tracking/networktrackingservlet
 /tracking/open?
-/tracking/pixel.
 /tracking/referrer?
 /tracking/thirdpartytag.js
 /tracking/trackpageview
@@ -19710,6 +19699,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tvp-tcfapi.js
 /tw-track.js
 /twcdisclaimer.js
+/twiga.js
 /tynt.js
 /typo3conf/ext/ab1d_cookieconsent/*
 /typo3conf/ext/aip_cookie_law
@@ -19746,13 +19736,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /unagi.amazon.
 /unbxdAnalytics.js
 /unitb-cmp$domain=juedische-allgemeine.de
-/universal-trackers/*
-/universal-tracking-
 /updatestats.js
 /urchin.gif?
 /urchin.html?
 /urchin.js
-/urchinstats.
 /usage/Clickstream?
 /usage/ReportEvent?
 /user-consent-management/*$domain=americanexpress.com
@@ -65304,6 +65291,7 @@ zyro.com##.zyro-cookies
 ||dropbox.com/jse
 ||dropbox.com/log/
 ||dropbox.com/log_
+||dropbox.com/prompt/log_impression?
 ||dropboxfingerprintjs.com^
 ||dropboxfingerprintjs.com^$third-party
 ||dropkickmedia.com^
@@ -81503,6 +81491,7 @@ zyro.com##.zyro-cookies
 ||k42kw.top^
 ||k4umr0wuc.com^
 ||k50.rtl2.de^
+||k50.ru/tracker/
 ||k54nw.pw^
 ||k55p9ka2.de^
 ||k5a.io^
