@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-01 08:56:29（北京时间） 
-! Total count: 130267
+! Version: 2023-11-01 09:07:18（北京时间） 
+! Total count: 130242
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16185,11 +16185,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ASPixel.js
 /AccessCounter/index.cgi?
 /AdblockMessage.
-/AdobeAnalyticsAndTargetOverwrites.
-/AffiliateClick.
 /Amasty_GdprCookie$domain=~planet-cards.co.uk|~sunkost.no|~pervaco.no|~wondrium.com|~nova-motors.de|~moleonline.com|~durstexpress.de|~littlelunch.com|~twinpack.nl|~eckeroline.fi|~eilles.de|~xt500parts.com|~norli.no|~matthys.net|~leserservice.ch
-/Analytics/Visitor.
-/AnalyticsDataLayer.
+/Analytics/visit.jsp
+/AnalyticsDataLayer.min.
 /AnalyticsEvent.js
 /AppMeasurement.js
 /AppMeasurement.min.js
@@ -16268,6 +16266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /HitTracking.
 /Hits/collect/*
 /Hmm24_Cookiebanner/*$domain=zaehlerschrank24.de
+/IOL.Analytics.Tracking.min.js
 /IPbeacon.min.js
 /ImpressionsEvent.js
 /InsightTrk/*
@@ -16543,6 +16542,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /adobe/target/*
 /adobe/visitor-
 /adobeAnalytics/*
+/adobeanalyticsandtargetoverwrites.min.
 /ads/rgpd.js
 /adsct?
 /adsmatcher-anti-adblock/*
@@ -16554,20 +16554,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /advstats.js
 /aff_i?offer_id=
 /aff_land?referrer
-/affiliate-track.
-/affiliate-tracker.
-/affiliate.track?
-/affiliate/track?
-/affiliateTracking.
-/affiliatetracking/*
-/affilinetRetargeting.
-/afftrack.
-/afftracking.
+/affiliate-tracker.js
+/affiliatetracking.js
 /aftrack.asp
 /aggbug.aspx?
 /ahoy/events
 /ahoy/visits
-/ajax-hits-counter/*
+/ajax-hits-counter/increment-hits/index.php
 /ajax-track-page-view/*
 /ajax/analytics/*
 /ajax/bnzai?_
@@ -16648,7 +16641,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics.ad.
 /analytics.analytics/*
 /analytics.bundled.js
-/analytics.collect.
 /analytics.config.js
 /analytics.do
 /analytics.gif?
@@ -16657,47 +16649,28 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics.prod.$domain=~fifteen.eu
 /analytics.sitecatalyst.js
 /analytics.v1.js
-/analytics/?event
+/analytics/?event=
 /analytics/abtest/*
 /analytics/adtags?
 /analytics/amp/*
 /analytics/analytics.$~xmlhttprequest
 /analytics/beacons/*
-/analytics/call-
+/analytics/call-tracking.js
 /analytics/capture/*
 /analytics/click?
 /analytics/collect?
-/analytics/collector.
-/analytics/collector/*
 /analytics/comscore.js
-/analytics/dist/*
+/analytics/dist/analytics.min.js
 /analytics/embed/*
-/analytics/engine/*
 /analytics/event
-/analytics/ga.
-/analytics/ga/*
-/analytics/ga?
-/analytics/geoip/*
-/analytics/inboundAnalytics.
-/analytics/initSession
+/analytics/ga.js
 /analytics/layer
-/analytics/mbox_
 /analytics/metric/*
-/analytics/page_view.
 /analytics/pageview
-/analytics/rt?
-/analytics/script/*
-/analytics/searches
-/analytics/smarttag-
-/analytics/tagx-
-/analytics/timing
-/analytics/track-
-/analytics/track?
-/analytics/track_
-/analytics/tracker.
+/analytics/searches?
+/analytics/track_event/*
+/analytics/tracker.js
 /analytics/trackers?
-/analytics/trackevent
-/analytics/visit/*
 /analytics?http_referer
 /analytics?token=
 /analyticsFooter.js
@@ -18086,6 +18059,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /in.gif?url=
 /in.php?referer=
 /in2cookiemodal
+/inboundAnalytics.min.js
 /inbox.*/imp?$image
 /inc/antiblock.
 /inc/cookiechoices.js
@@ -18514,6 +18488,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mixpanel-init.
 /mixpanel.$domain=~mixpanel.com
 /mixpanel_tracker.
+/mlb-ml-analytics.min.js
 /mlopen_track.
 /mm_track/*
 /mmclient.js
