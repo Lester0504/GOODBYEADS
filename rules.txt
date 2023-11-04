@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-03 20:27:55（北京时间） 
-! Total count: 130279
+! Version: 2023-11-04 08:50:44（北京时间） 
+! Total count: 130267
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -9908,7 +9908,6 @@
 ##.b-page_inner div[data-component*="Cookieprivacy"]
 ##.b-policy-info.b-policy-info_status_visible
 ##.b-stripe_content_cookie
-##.b-system-dialog.is-open.is-cookies
 ##.b10-cookie-notification
 ##.b_cookienotice:not(body):not(html)
 ##.ba-banner-disclaimer
@@ -15052,7 +15051,6 @@
 ##.x-cookie-disclaimer:not(body):not(html)
 ##.x-cookies-banner
 ##.x-cookies-modal
-##.x-cookies.b-system-dialog
 ##.x-danone-cookies:not(body):not(html)
 ##.x-el[data-aid*="COOKIE_BANNER"]
 ##.x-modal-accept-cookie
@@ -16194,12 +16192,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Article/ViewCount/*
 /AutoTracker.js
 /BKVTrack.js
-/BlueKaiPixel/*
 /CKCookieConsent.js$domain=caseking.de
 /CaptureStat.asmx
-/ClickTail.
-/ClickTrack.
-/CofinaHits.
+/ClickTail.js
+/ClickTrack.js
+/CofinaHits.js
 /Consent.js$domain=gaming-style.com
 /ConsentInit.min.js$domain=smartphonehoesjes.nl
 /ConsentManager,Sticky
@@ -16843,14 +16840,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /beacon/user-data
 /beacon/v1/batch?
 /beacon?cust=
-/beaconconfigs/*
 /beaconimages.netflix.net/*$image
-/beacons-external.
 /beacons?data=
 /beautiful-and-responsive-cookie-consent/*
 /behavior/web/pv?
-/benchmarketingsmarttag/*
-/better-analytics/*
+/benchmarketingsmarttag/get?
+/better-analytics/js/loader.php
 /bf.gif?ac=
 /bigREDcat.js?$third-party
 /bigREDdog.css?
@@ -16871,20 +16866,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /blockadblock.$script,xmlhttprequest
 /blockblock.jquery.
 /blogcounter.js
-/blueKaiAnalytics.
-/bluekai.
-/bluekai/*
-/bluekaicookieinfo.
+/bluekai.js
 /bluelabs-gdpr/*
-/bluetracker/*
 /blxn_*_*_*?*$third-party
-/bm-bam-trk.
 /boldCookie_custom.js$domain=investice.cz
 /bom/analytics/*
-/boomLogger.
 /boomerang-latest.js
 /boomerang-latest.min.js
-/boomerang-minified-
 /boomerang.js
 /boomerang/beacon
 /boomr.js
@@ -16899,19 +16887,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /bower_components/fp/fp.js
 /bpsma.js
 /brabo-cookie/*$domain=brandpreventiewinkel.nl
-/branchMetrics.
+/branchMetrics.js
 /brandAnalytics.js
 /brd_cookies_consent/*
 /brightTag-min.js
-/brightcove/tracking/*
 /brightedge.js
 /brightspot/analytics/*
 /browserinfo?f.sid=
 /bsgdprcookies/*
-/bsp-analytics.
+/bsp-analytics.min.
 /bstat.js
 /btrack.php?
-/buffermetrics/*
 /bugcounter.php?
 /bugsnag.min.js$third-party
 /bundle-analytics.js
@@ -16970,7 +16956,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cdn-cgi/zaraz/*
 /cdn_cookie_service.html
 /cedexis.js
-/cedexis/*
+/cedexis.radar.js
 /census/RecordHit
 /certifica-js14.js
 /certifica.js
@@ -17043,29 +17029,22 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /clicks.email.$image
 /clicks/servlet/*
 /clickscript.js
-/clickstats.
+/clickstats.php
 /clickstream.aspx?
 /clickstream.js
 /clickstream/visit?
-/clicktag.
-/clicktale-
-/clicktale.
-/clicktale/*
-/clicktale_
-/clicktalecdn.
+/clicktag.js
+/clicktale.js
 /clicktrack?
-/clicktracker.
-/clicktracking.
-/clicktracking/*
+/clicktracker.js
+/clicktracker.php
+/clicktracking.js
 /clicky.js
 /client-metrics/?target
-/client.rum.
-/clientEventLog/*
-/clientPageLog/*
 /client_204?$image,other,ping,script
 /client_pathlog.asp?
 /clientele/reports/*
-/clientlib-analytics-
+/clientlib-analytics-core.
 /clientlib-webpack-publish/js/CookiesApp-
 /clientlibs/components/content/cookie/cookielayer
 /clientstat?
@@ -17094,7 +17073,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cn-fe-stats/*
 /cn-track?
 /cnst.js$domain=tauschticket.de
-/cnstats.
+/cnstats.js
 /cnstats/*
 /cnt-combined.php?
 /cnt.aspx?
@@ -17103,11 +17082,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cnt/cnt.php?
 /cnt/start.php?
 /cnt_js.php?
-/cntpixel.
 /cnvtr.js
 /cocoon-master/lib/analytics/access.
 /coherentpath.link/o/*$image
-/cohesion-latest.
+/cohesion-latest.min.js
 /coinhive.min.js
 /coinimp-cache/*
 /collect.gif?
@@ -17741,7 +17719,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fp/tags.js
 /fp/top_fp.
 /fp2.compressed.js
-/fp2.min.js
+/fp2.min.js$domain=~spweb.auction.co.kr
 /fp_204?
 /fpc/cookie_js.php
 /fpcookie?
@@ -18438,7 +18416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /megacounter/*
 /melindres/*$domain=televes.com
 /mendelstats.js
-/messagingNoTcfApi.js$domain=svd.se|klart.se
+/messagingNoTcfApi.js$domain=svd.se
 /meta-analytics/*
 /meta-tracker/*
 /metatraffic/track.asp?
@@ -19442,6 +19420,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /taganalyticscnil.js
 /tagcommander/prd/*
 /tagcommander/privacy_
+/tagcommander/tc_
 /tagmanager/event?
 /tagmanager/pptm.js
 /tags.js?org_id=
@@ -19724,7 +19703,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /uedata?
 /uem-ep.js
 /ufti/uftiLoader.min.js
-/ui/analytics/*
 /uisprime/track
 /ujam_tracking/*$domain=ujam.com
 /umami.js
@@ -19785,6 +19763,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /vecapture.js
 /vendor/analytics.js
 /vendor/analytics/*
+/vendor/cedexis/*
 /vendor/cookies$domain=norma-connect.de
 /vendor/weka/privacykit/*
 /vendor/xtcore.js
@@ -28437,6 +28416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://analytics.*/pageview/
 ://beacon.*/track
 ://blue.*/script.js
+://client.rum.
 ://collect.*/pageview
 ://collector.*/event
 ://elqtrk.
@@ -29656,7 +29636,7 @@ ambitionspersonnel.com##body > div:not([id]):not([class])
 amcharts.com###notices
 amcongmbh.de##.consent, #consent
 amd.com###privacy-popup
-ameli.fr###idPopupWARecueilConsentement
+ameli.fr###idPopupWARecueilConsentement, #bandeauConsentement, #pageConsentement
 american-historama.org###outer-consent
 americancentury.com###instruction_message
 americangreetings.com###privacy_manager
@@ -29917,6 +29897,7 @@ atticadps.gr###cookies
 atwonline.com##.gdpr
 auchan.ru###root > div > footer ~ div
 audacity-kurs.de##.elo-snackbar
+audacityteam.org##astro-island[component-url*="CookieConsent"]
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
 audio-parts.de##.popup_notification
 audiocite.net##div[class*="fondcookies"]
@@ -30988,7 +30969,7 @@ cm.games###cookie
 cmegroup.com###cmePermissionQuestion
 cmo.de##.toast-container
 cmp-loader.choice.faktor.io
-cmp.$domain=telerama.fr|courrierinternational.com|vodkaster.com|svd.se|histoire-et-civilisations.com|malservice.aftonbladet.se|vg.no|tv.nu|tek.no|finn.no|pent.no|godt.no|aftenposten.no|omni.se|e24.no|helthjem.no|minmote.no|aftenbladet.no
+cmp.$domain=telerama.fr|courrierinternational.com|vodkaster.com|svd.se|histoire-et-civilisations.com|malservice.aftonbladet.se|vg.no|tv.nu|tek.no|finn.no|pent.no|godt.no|aftenposten.no|omni.se|e24.no|helthjem.no|minmote.no|aftenbladet.no|klart.se
 cmp.cdntrf.com
 cmp.cls.pm
 cmp.dmgmediaprivacy.co.uk$domain=~metro.co.uk
@@ -31981,6 +31962,7 @@ ehs.tv##.st_notification_wrap
 eib.org###eib-popup-policy, .cookies-home_overlay
 eibtron.com##.dijitDialog, .dijitDialogUnderlayWrapper
 eichsfeld.de###notification
+eiendomsmegler1.no###opt-in
 eifel-antik.de##.jmg-googlemaps-dsgvo-notification
 einbuergerungstest-online.eu###header + .alert
 einkaufsbahnhof.de##.btn--cookies, .cookies
@@ -32703,7 +32685,7 @@ fxsolver.com###tframe
 fydeos.com##.cookie-modal
 fzone.cz##.sys-alert
 g-sport.si##.fff
-g2a.com##.agreements-container
+g2a.com##div[data-test-id="cookie-modal"], .agreements-container
 g2g.com##.q-page ~ div > .fixed-bottom
 g5tiregala.it###n1_popup
 gab-umweltservice.de###rcpm
@@ -37749,6 +37731,7 @@ sondagenational.com###legalCookies
 sonicstate.com###concord-banner-container
 sonnenverlauf.de###cc_div
 sonomix.ch###rgpd
+sonusparadisi.cz###cookie-form
 sonypictures.net###sp-nettrack
 sonypicturesreleasing.es###track-layer
 soonnight.com##.display_natural
@@ -39270,6 +39253,7 @@ wallpaperdirect.com##footer ~ .fixed-bottom
 wallpaperhub.app##body > div > div > .dropshadow > p
 wallpapermania.eu##.uk-alert
 wallpapershome.com##.cc-dialog
+walmart.ca##.sticky.nav-clickable-padded[role="banner"]
 walserprivatbank.com##.block_consent
 wander-community.de###privacy-bar
 wandermap.net##.messages.temporary
@@ -46635,7 +46619,7 @@ zyro.com##.zyro-cookies
 ||adobe.io/web/v1/metrics
 ||adobe.sodimac.cl^
 ||adobedc.net/collector/
-||adobedtm.com^$third-party,domain=~adobe.com
+||adobedtm.com^$third-party,domain=~adobe.com|~costco.com
 ||adobetag.com^
 ||adobetag.com^$third-party
 ||adobetarget.com^
@@ -47915,6 +47899,7 @@ zyro.com##.zyro-cookies
 ||aglocobanners.com^
 ||agloogly.com^
 ||agloowie.com^
+||agma-analytics.de^
 ||agmtrk.com^
 ||agn.aty.cp45.ott.cibntv.net^
 ||agn.aty.snmsohu.aisee.tv^
@@ -58236,6 +58221,7 @@ zyro.com##.zyro-cookies
 ||clicktale.net^
 ||clicktale.net^$domain=focus.de
 ||clicktale.net^$third-party
+||clicktalecdn.sslcs.cdngc.net^
 ||clickterra.net^
 ||clickthru.lefbc.com^
 ||clickthru.lefbc.com^$third-party
@@ -112287,6 +112273,7 @@ zyro.com##.zyro-cookies
 ||stats.nddmed.com^
 ||stats.nebula.fi^
 ||stats.netbopdev.co.uk^
+||stats.netdriven.com^
 ||stats.newsweek.com^
 ||stats.nexagon.dk^
 ||stats.nhk.or.jp^
@@ -122500,6 +122487,7 @@ zyro.com##.zyro-cookies
 ||viewpointscissorsfolks.com^
 ||views.arabnews.com^
 ||views.asura.gg^
+||views.asurascans.com^
 ||views.b1tv.ro^
 ||views.cancan.ro^
 ||views.romaniatv.net^
