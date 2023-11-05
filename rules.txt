@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-05 08:56:28（北京时间） 
-! Total count: 130106
+! Version: 2023-11-05 08:57:42（北京时间） 
+! Total count: 130094
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -16249,7 +16249,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /IOL.Analytics.Tracking.min.js
 /IPbeacon.min.js
 /ImpressionsEvent.js
-/InsightTrk/*
+/InsightTrk/guuidSkeleton.do?
+/InsightTrk/tracker.do?
 /IntegerNet_CookieConsent/*
 /KenticoActivityLogger/Logger.js
 /LandingPageHitLog.aspx?
@@ -16538,6 +16539,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ahoy/events
 /ahoy/visits
 /ajax-hits-counter/increment-hits/index.php
+/ajax-link-tracker.js
 /ajax-track-page-view/*
 /ajax/analytics/*
 /ajax/bnzai?_
@@ -17676,10 +17678,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fingerprint2.min.js
 /fingerprint3.js
 /fingerprint3.min.js
-/fingerprintjs2.
-/firebase-performance-
+/firebase-performance-compat.js
+/firebase-performance-standalone.js
 /firebox-gdpr.js$domain=thelittleboxoffice.com
-/firestats/*
+/firestats/js/fs.js.php
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
@@ -17844,7 +17846,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /geoLocationData/v1/*
 /geocc.js
 /geocompteur.php
-/geoip.html
 /geoip/detect?
 /geoip?
 /geoip_cc
@@ -17915,7 +17916,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gtm.min.js
 /gtm/gtm-
 /gtmTracking.js
-/gv-analytics/*
+/gv-analytics/riveted.js
 /gweb/analytics/*
 /h.gif?
 /handsomelyhealth.com
@@ -17998,7 +17999,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /imgcount.cgi?
 /imgcount.php?
 /imgevent?
-/imgtracker.
 /imp.gif?
 /imp.php?
 /imp2.js?
@@ -18026,7 +18026,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /inbox.*/imp?$image
 /inc/antiblock.
 /inc/cookiechoices.js
-/include/js/ga-
+/include/js/ga-set.js
 /increment_page_counter.jsp
 /index.html?channelCode=
 /index.php?consent_manager$domain=papierkram.de
@@ -18037,9 +18037,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /inline-pixel.js
 /inpl.measure.jssc
 /insales_counter.js?
-/insights-collector.
 /insights/reportEvent/*
-/insitemetrics/*
+/insitemetrics/uRMJ/ujutilv2sll.js
 /instantpage.js
 /instart.js
 /interaction/beacon
@@ -18053,7 +18052,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ishop-plugins/ishop-cp
 /it-cc.js$domain=geze.de|geze.pl
 /it_nsc.min.js$domain=nonsolocap.it
-/iterable/track/*
+/iterable/track/views/*
 /itgdtracksdk.js
 /itmdp_code.js
 /iubenda_cs$domain=~radiomontecarlo.net|~tomshw.it|~repubblica.it|~video.lastampa.it|~nablawave.com|~buondi.it|~tgcom24.mediaset.it|~mediasetinfinity.mediaset.it|~telerama.fr|~skuola.net
@@ -18231,7 +18230,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /liferay-analytics-processor.js
 /lightspeed_tracker.js
 /lightweight-cookie-notice/*
-/link-tracker-
 /link-tracker?*&l=open&
 /link.coindesk.com/img/*
 /link.divenewsletter.com/img/*$image
@@ -18243,7 +18241,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /link.theatlantic.com/img/*
 /link.thrillist.com/img/*$image
 /link_track.js
-/link_tracking/*
 /linkinformer.js
 /linkpulse.js
 /links1.strava.com/*$image
@@ -18253,7 +18250,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /livecounter.php?wid=
 /livestats.js
 /livezilla/server.php?request=track&
-/ljcounter/*
 /ll_cookie_bar.js
 /load_analytics.php
 /loader/counter.js
@@ -18403,8 +18399,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /melindres/*$domain=televes.com
 /mendelstats.js
 /messagingNoTcfApi.js$domain=svd.se
-/meta-analytics/*
-/meta-tracker/*
 /metatraffic/track.asp?
 /metric/?mid=
 /metric/?wid=
@@ -18440,14 +18434,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mint/?record
 /mintstats/?js
 /misites/*
-/mistat-data/*
-/mistats/*
-/mixpanel-init.
+/mistat-data/onetrack/onetrack.js
+/mixpanel-init.js
 /mixpanel.$domain=~mixpanel.com
-/mixpanel_tracker.
 /mlb-ml-analytics.min.js
 /mlopen_track.
-/mm_track/*
 /mmclient.js
 /mmcore.js
 /mmetrix.mobi/*
@@ -18457,7 +18448,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mngi/tracking/*
 /mnppixellibrary.min.js
 /mnt/imp?
-/moapt-action-iq-analytics.
 /moat/yield.js
 /moatanalytics-
 /mobileanalytics.
@@ -18467,7 +18457,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /modal-consent-component.min.js
 /modal-gdpr.umd.js
 /modal/cookie-wall/?modal_view=true$domain=~100partnerprogramme.de
-/modoweb-tracking/*
 /module-rgpd/*
 /module/analytics/*
 /module/kabimba_cookie/*
@@ -18515,7 +18504,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /naytev.min.js
 /ncj-pixel.js
 /neilson.js
-/neocounter/*
+/neoworx_tracker.php
 /netmining.js
 /netresults.js
 /neustar.beacon.js
@@ -18524,7 +18513,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /new-relic.js
 /new-relic.min.js
 /newCookieChoice.js$domain=vape-phone.fr
-/newSophus/*
 /new_Cookiebanner.js
 /newlog.php?
 /newrelic-browser.js
@@ -18552,7 +18540,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /npsblocker/js/ads.
 /nr-spa-1216.min.js
 /nsd-cookie-banner.js
-/nsmg-tracking/*
 /ntpagetag.gif
 /ntpagetag.js
 /ntrack.asp?
@@ -18602,8 +18589,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /optInCookies.min.js
 /optiextension.dll?$script
 /optimizelyjs/*
-/optimost_
-/optmzly/*
 /orejime.js
 /ossleads_analytics.js
 /otBannerSdk.js$domain=dhl.com|gusto.at|mintos.com|thetrainline.com|pons.com|coca-cola-deutschland.de|avast.com|avg.com|washingtonpost.com|mendeley.com|coca-cola.pl|coca-cola.co.uk|coca-cola.dk|technics.com|fyens.dk|mtb-news.de|rennrad-news.de|emtb-news.de|springerprofessional.de
@@ -18716,7 +18701,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik1.
 /piwik2.
-/piwikTracker.
+/piwikTracker.js
 /piwikapi.js
 /pix-ddc-fp.min.js
 /pix.fcg?
@@ -18776,6 +18761,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /plugins/gdpr/gdpr_ncoi.js
 /plugins/gdprprivacysetup/*
 /plugins/nimiq/*$script
+/plugins/nsmg-tracking/*
 /plugins/pageviews-counter/*
 /plugins/stat-dfp/*
 /plugins/status.gif?
@@ -28131,6 +28117,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://email.*/e/o/
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
+://insights-collector.
 ://internal-matomo.
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
@@ -84359,6 +84346,7 @@ zyro.com##.zyro-cookies
 ||liveintent.com^
 ||livejasmin.com^
 ||livejasmin.tv^
+||livejournal.com/ljcounter/
 ||livejournal.com/log?
 ||liveleadtracking.com^
 ||livelib.ru/service/pinger
