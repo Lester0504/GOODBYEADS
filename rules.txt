@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-06 09:06:13（北京时间） 
-! Total count: 130389
+! Version: 2023-11-06 20:22:27（北京时间） 
+! Total count: 130393
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -4267,7 +4267,6 @@
 ###cookie-policy-info-bg
 ###cookie-policy-layer
 ###cookie-policy-message
-###cookie-policy-modal ~ .modal-backdrop
 ###cookie-policy-msg:not(.modal)
 ###cookie-policy-notice
 ###cookie-policy-notification
@@ -4528,6 +4527,7 @@
 ###cookieConsentGTM
 ###cookieConsentHolder
 ###cookieConsentLovato
+###cookieConsentMainContainer
 ###cookieConsentModal ~ .lean-overlay
 ###cookieConsentModal ~ .modal-backdrop
 ###cookieConsentMsg
@@ -5997,6 +5997,7 @@
 ###cookiescript_wrapper
 ###cookiesdialog
 ###cookiesdirective
+###cookiesdirective-container
 ###cookiesdisplay
 ###cookiesdiv.setrappelcookies
 ###cookieseal-banner
@@ -7589,8 +7590,6 @@
 ###lgpd_banner
 ###lh-consent-dialog
 ###light_cookies_bar
-###lightbox-cnil
-###lightbox-cnil ~ .dijitDialogUnderlayWrapper
 ###lineCookieInfo
 ###lisa-consent-container
 ###litespot-pro-cookie-ify
@@ -10300,6 +10299,7 @@
 ##.cc-dialog[aria-label="cookieconsent"]
 ##.cc-individual-cookie-settings
 ##.cc-individual-cookie-settings-overlay
+##.cc-modal-backdrop
 ##.cc-overlay.blur.bottom
 ##.cc-policy-overlay
 ##.cc-policy:not(body):not(html)
@@ -11705,6 +11705,7 @@
 ##.cookiebar-block
 ##.cookiebar-close:not(body):not(html)
 ##.cookiebar-disclaimer
+##.cookiebar-overlay
 ##.cookiebar-tpl:not(body):not(html)
 ##.cookiebar-wrapper:not(body):not(html)
 ##.cookiebar_container:not(body):not(html)
@@ -17157,7 +17158,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /consent-manager/lazy-consent-manager
 /consent-page.js$domain=wz.de
 /consent-panel-vue.chunk.js
-/consent.$domain=strato.de|strato.nl|strato.fr|strato.es|strato.se|strato-hosting.co.uk
+/consent.$domain=strato.de|strato.nl|strato.fr|strato.es|strato.se|strato-hosting.co.uk|onlinestempel.ch
 /consent.js$domain=tryinteract.com|mobilejob.com|op.fi|finanz-forum.de|carhartt.com
 /consent.webmasterplan.com/v2
 /consent/*$domain=renault.de|ultraleicht-trekking.com
@@ -18478,6 +18479,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /modules/cookiechoices.js
 /modules/cookieconsent/js/*
 /modules/cookiesplus/views/js/cookiesplus.js
+/modules/gdprpro/*
 /modules/hicookielaw/*
 /modules/idxcookies/*
 /modules/mod_eu_cookies/*
@@ -29888,6 +29890,7 @@ atwonline.com##.gdpr
 auchan.ru###root > div > footer ~ div
 audacity-kurs.de##.elo-snackbar
 audacityteam.org##astro-island[component-url*="CookieConsent"]
+audental.co.uk##.DmxlabsKooke
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
 audio-parts.de##.popup_notification
 audiocite.net##div[class*="fondcookies"]
@@ -30892,6 +30895,7 @@ cirkwi.com##.mb_popin
 cirquedusoleil.com##div[data-cookie="cookieWarning"]
 cirrus.com##.page-canvas .links-are-reversed
 cision.com###cision-cookie-policy-banner
+citibankonline.pl###cookiePolicyBanner.show
 citifirst.com###popup-disclaimer
 citilink.ru###__next main ~ div
 citizenticket.co.uk###haveacookie[action*="cookie-policy"]
@@ -32240,6 +32244,7 @@ evs.com##.language-switcher
 ewebtrans.com###webtrans_cookie_bar
 ewinner.pl##.cookiesComponent
 excellent-hemd.de##.fixed-bottom .btn[onclick*="cookieModal"]
+exitlag.com###cookie-exitlag
 exki.be##.lang-cookie
 exler.ru##.adblock-pls
 expertoanimal.com##.consent, #consent
@@ -36532,7 +36537,6 @@ portwell.com.tw##.ui-dialog[aria-describedby="dialog-confirm"], .ui-widget-overl
 posao.ba###posaoba-footer + div + div
 poscielrodzinie.pl###cookie
 positronx.io###cookie
-post.ch##.ppm-cookie-banner
 posta.si###cookieModals, .modal-backdrop, tn-theme-posta-cookie
 posta.sk##iframe[src*="cookies-consents/dialog/sk"]
 postcodeloterij.nl###container ~ [class]
@@ -38945,8 +38949,8 @@ vaadin.com###haas-cookie-dialog
 vacancesbleues.fr##.vb-cnil--banner
 vacuubrand.com###cc_container
 vacuumclinic.ie##.ec-notices
-vakantieveilingen.be###__next > div > div:first-child
-vakantieveilingen.nl###__next > div > div:first-child
+vakantieveilingen.be###__next > div[class*="variable"] > .MuiBox-root:first-child > .MuiBox-root:first-child
+vakantieveilingen.nl###__next > div[class*="variable"] > .MuiBox-root:first-child > .MuiBox-root:first-child
 vakcinainfo.gov.hu##app-cookie
 valais.ch##.notification
 valasztas.hu##footer ~ .position-fixed
@@ -59114,6 +59118,7 @@ zyro.com##.zyro-cookies
 ||collectloopblown.com^
 ||collector-*.px-client.net^
 ||collector-api.99designs.com^
+||collector-api.frspecifics.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector-soompi.viki.io^
 ||collector-videoplayer.5centscdn.net^
@@ -129925,7 +129930,6 @@ zyro.com##.zyro-cookies
 ~aion.eu##.cookies-notification:not(body)
 ~airam.fi##.main .cookie-consent:not(.btn)
 ~airastana.com###cookies-modal.cookies-modal
-~airbaltic.com,~portal.by.aok.de,~segeln-lernen.de,~bootsfuehrerschein.de,~sportbootfuehrerschein.de,~job-impulse.com,~studio-eight.com##.cookie-alert:not(body):not(html)
 ~aiways-u5.nl###overlay-cookie
 ~aknw.de,~stadtwerke-bonn.de##.cookie-settings__overlay
 ~alexanderhall.co.uk,~foxtons.co.uk###cookie_compliance
@@ -129938,7 +129942,6 @@ zyro.com##.zyro-cookies
 ~aptoide.com###__next div[class*="cookie-notice"]
 ~archimag.com##.eupopup-container:not(body):not(html)
 ~aubi-plus.de###cookie-manager
-~audemarspiguet.com,~flybe.com###cookie-policy-modal
 ~aurumcars.de##.c-cookie-consent:not(body):not(html)
 ~autodily-pema.cz,~invk.nl##.cookieConsent:not(body):not(html)
 ~autoersatzteile.de,~autoteiledirekt.de##.cookies-popup__wrapper
@@ -130015,7 +130018,7 @@ zyro.com##.zyro-cookies
 ~digitaltrends.com###dtcookie-container
 ~dish.co###euCookieBanner
 ~dnbeiendom.no###cookieInfoBanner
-~dodo.fr,~falter.at##.amgdprcookie-bar-template
+~dodo.fr##.amgdprcookie-bar-template
 ~dogedash.com##.react-cookie-banner
 ~dominospizza.pl##.m-Cookies[aria-describedby="cookie-message"]
 ~dominospizza.pl,~penny.hu,~penny.cz###cookie-message
@@ -130276,6 +130279,7 @@ zyro.com##.zyro-cookies
 ~skfbearingselect.com##.privacy-notice:not(.form-text):not(html)
 ~sonchek.com##.cookie_notice_wrapper
 ~sovendus.com,~sternwarte-muenchen.de###BorlabsCookieBox
+~sp215.info,~airbaltic.com,~portal.by.aok.de,~segeln-lernen.de,~bootsfuehrerschein.de,~sportbootfuehrerschein.de,~job-impulse.com,~studio-eight.com##.cookie-alert:not(body):not(html)
 ~sparda.de,~sparda-n.de,~sparda-bw.de,~sparda-hessen.de,~sparda-west.de##.cookieLayer:not(body):not(html)
 ~spilger.de##.cookiebar:not(body):not(html):not(button):not(#page):not(.content-section)
 ~sportsbikeshop.co.uk###cookie_policy
