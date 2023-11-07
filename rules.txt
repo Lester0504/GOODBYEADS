@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-07 09:04:53（北京时间） 
+! Version: 2023-11-07 20:20:55（北京时间） 
 ! Total count: 130393
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -15896,7 +15896,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -adobe-analytics.
 -adobe-analytics/
 -adobeDatalayer_bridge.js
--amp-error-reporting.
 -click-tracker.
 -client-tracking.goodgamestudios.com/
 -didomi.js
@@ -15912,7 +15911,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -universal-analytics/
 .1.1.1.l80.js^$third-party
 .EventTracking.
-.Google.Tracker.js
 .acemlna.com/Prod/link-tracker?$image
 .acemlnb.com/Prod/link-tracker?$image
 .alcmpn.com/
@@ -15952,20 +15950,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/dc.gif?
 .com/g.gif?
 .com/gg.js
-.com/hitlog?
 .com/js/g.js
 .com/log/?
-.com/log?event
 .com/o.js$third-party
-.com/pvlog?
 .com/qq.js$third-party
 .com/sh/*.js$third-party
 .com/sh/to/$third-party
-.com/stats.ashx?
-.com/stats.aspx?
 .com/track?$~object
-.com/tracking?
-.com/vtrack|
 .com/xz/*?token8=
 .com/z-*-*?123$third-party
 .com:10446/*/get*.html
@@ -18230,6 +18221,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /lasso-ga.js
 /leadgen/ga.js
 /leadtag.js
+/leage.google.tracker.js
 /legal-consent/*$domain=meineapotheke.de
 /legal/*$domain=kamkabel.ru
 /levelmaxblock.js
@@ -18878,6 +18870,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pvcounter.js
 /pvcounter/*
 /pvevents.gif?
+/pvlog.js
 /pvmax.js
 /pvnoju.js
 /px.gif?
@@ -19359,6 +19352,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /storeAdvImpression.
 /stp.gif?
 /stracking.js
+/strak.php?t=
 /stream/log.html?
 /streamify-gdpr.js$domain=streamingbolaget.se
 /streamsense.min.js
@@ -28970,6 +28964,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
+@@||openfpcdn.io/fingerprintjs/v3/iife.min.js$script,domain=mos03education.ru
 @@||optimove.net^$domain=app.touchnote.com
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
@@ -49067,6 +49062,7 @@ zyro.com##.zyro-cookies
 ||analytics.crowdkeep.com^
 ||analytics.cycleworld.com^
 ||analytics.daasrv.net^
+||analytics.data.visenze.com^
 ||analytics.designspiration.com^
 ||analytics.deutscher-apotheker-verlag.de^
 ||analytics.dev.htmedia.in^
@@ -57818,6 +57814,7 @@ zyro.com##.zyro-cookies
 ||ck.houyi.baofeng.net^
 ||ck.juicyads.com^
 ||ck.kejet.net^
+||ck123.io^
 ||ck33.top^
 ||ckeckstatus.biz^
 ||ckerw.xyz^
@@ -79950,6 +79947,7 @@ zyro.com##.zyro-cookies
 ||izearanks.com^
 ||izearanks.com^$third-party
 ||izhevskinfo.ru/count/
+||izinal.com/log
 ||izitrckr.com^
 ||izlunwgx.com^
 ||izmssk.xyz^
@@ -85026,6 +85024,7 @@ zyro.com##.zyro-cookies
 ||log.cpex.cz^
 ||log.cs.pp.cn^
 ||log.da.hunantv.com^
+||log.dance^
 ||log.daqi.com^
 ||log.dpa.com^
 ||log.ecgh.dk^
@@ -91654,6 +91653,7 @@ zyro.com##.zyro-cookies
 ||n7e4t5trg0u3yegn8szj9c8xjz5wf8szcj2a5h9dzxjs50salczs8azls0zm.com^
 ||n9s74npl.de^
 ||na.ads.yahoo.com^
+||na.groupondata.com^
 ||na.nawpush.com^
 ||na1r.services.adobe.com^
 ||na2m-pr.licenses.adobe.com^
