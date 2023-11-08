@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-07 20:27:36（北京时间） 
-! Total count: 130393
+! Version: 2023-11-08 08:51:50（北京时间） 
+! Total count: 130405
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18241,6 +18241,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /link.coindesk.com/img/*
 /link.divenewsletter.com/img/*$image
 /link.e-mail.*/mo/*$image
+/link.email.usmagazine.com/img/*$image
 /link.morningbrew.com/img/*.gif
 /link.news.*/mo/*$image
 /link.oneplus.com/mo$image
@@ -18540,6 +18541,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /nm_trck.gif?$domain=spiegel.de
 /no-impression.gif?
 /nonAdBlock/*
+/notifications.google.com/g/img/*$image
 /notifications.googleapis.com/email/t/*
 /notifications/beacon/*
 /np?log=
@@ -19003,6 +19005,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rtracker/ofs.rtt.js
 /rudder-analytics.js
 /rudder-analytics.min.js
+/rum-collector/*
 /rum-telemetry/*
 /rum-track?
 /rum.gif?
@@ -19536,6 +19539,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track_pixel?
 /track_proxy?
 /track_stat?
+/track_video.php?id=
 /track_visit.js
 /track_visit?
 /track_visitor?
@@ -28483,6 +28487,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ad.ext.azure.cn^
 @@||ad.ext.azure.com^
 @@||ad.jp^
+@@||ad.nl^
 @@||ad.siemens.com.cn^
 @@||ad.vivo.com.cn^
 @@||adashx.ut.dingtalk.com^
@@ -28656,6 +28661,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||cmp.telerama.fr/js/telerama.min.js$~third-party
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
+@@||code.sms.mob.com^
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net
 @@||cohesionapps.com/cohesion/$domain=bankrate.com|frontier.com
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
@@ -29221,6 +29227,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||widget.intercom.io^
 @@||widget.myrentacar.me^$script,subdocument
 @@||widget.rave.office.net^
+@@||widget.sndcdn.com^
 @@||widget.trustpilot.com/bootstrap/$script,domain=amartfurniture.com.au|exodus.co.uk|imyfone.com
 @@||widget.weibo.com^
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
@@ -49933,7 +49940,6 @@ zyro.com##.zyro-cookies
 ||api.nexx.cloud/*/session/
 ||api.nobeta.com.br^
 ||api.odysee.com/locale/get
-||api.open.uc.cn^
 ||api.pingstart.com^
 ||api.poll.aiseet.atianqi.com^
 ||api.popin.cc/conversion2.js
@@ -68116,6 +68122,7 @@ zyro.com##.zyro-cookies
 ||environmentalanalogous.com^
 ||environmentalchangingnative.com^
 ||environmentaltallrender.com^
+||envoke.com^$third-party
 ||envyblundercollide.com^
 ||envyindebted.com^
 ||envylavish.com^
@@ -76001,6 +76008,7 @@ zyro.com##.zyro-cookies
 ||hkk456.cc^
 ||hkkeafj.cn^
 ||hkoxlirf.com^
+||hkrpg-log-upload.mihoyo.com^
 ||hkrytf.xyz^
 ||hkscldggm.xyz^
 ||hksmstpzsnlj.com^
@@ -115188,6 +115196,7 @@ zyro.com##.zyro-cookies
 ||telanggyppery.com^
 ||tele.trafficmanager.net^
 ||telechargementdirect.net^
+||telecome.cn^
 ||telecommand.telemetry.microsoft.com.nsatc.net^
 ||telecommand.telemetry.microsoft.com^
 ||teledai.com^
@@ -118807,6 +118816,7 @@ zyro.com##.zyro-cookies
 ||trackingca.com^
 ||trackingca.com^$third-party
 ||trackingcareers.accenture.com^
+||trackingio.com^
 ||trackinglabs.com^
 ||trackinglabs.com^$third-party
 ||trackingmembers.com^
@@ -120971,6 +120981,7 @@ zyro.com##.zyro-cookies
 ||union2.50bang.org^
 ||union55.com^
 ||unionbig.com^
+||unioncom.cc^
 ||unioncpm.com^
 ||uniondm.cz88.net^
 ||unionimage.baidu.com^
@@ -123828,6 +123839,7 @@ zyro.com##.zyro-cookies
 ||watson.ppe.telemetry.microsoft.com^
 ||watson.telemetry.microsoft.com.nsatc.net^
 ||watson.telemetry.microsoft.com^
+||wattpad.com/js/tracker/app.
 ||watwait.com^
 ||waudeesestew.com^
 ||waudit.cz^
