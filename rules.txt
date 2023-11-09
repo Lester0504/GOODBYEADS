@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-08 20:27:35（北京时间） 
-! Total count: 130178
+! Version: 2023-11-09 08:51:42（北京时间） 
+! Total count: 130192
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15216,6 +15216,7 @@
 ##IMG[src='/adBanner']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
+##IMG[src^='https://dzfzfv.xyz/']
 ##IMG[style='height:120px;width:100%;'][src*='/sucai/']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
@@ -15537,6 +15538,7 @@
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body#nr_body.nr_all.c_nr > section[id]
+##body#read.read DIV[style$=' width: 100vw; position: relative;']
 ##body#reader-m-fix IMG[src*='.gif'][style='width:100%;height:100%']
 ##body#wrapper A[ontouchstart='this.click();']
 ##body._cookiebanner::after
@@ -15952,7 +15954,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/gg.js
 .com/js/g.js
 .com/log/?
-.com/o.js$third-party
 .com/qq.js$third-party
 .com/sh/*.js$third-party
 .com/sh/to/$third-party
@@ -15964,6 +15965,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
+.com:8005/*&n=$third-party
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
@@ -28785,8 +28787,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googleoptimize.com/optimize.js$domain=binglee.com.au|grasshopper.com|in.bookmyshow.com|inquirer.com|investing.com|lacomer.com.mx|lodgecastiron.com|tentree.ca|virginmedia.com
 @@||googleoptimize.com/optimize.js?$domain=eventim.de
-@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
-@@||googletagmanager.com/gtm.js$domain=3djuegosguias.com|3djuegospc.com|acehardware.com|acornonline.com|ads.spotify.com|aeromexico.com|afisha.timepad.ru|aliexpress.com|animeanime.jp|anond.hatelabo.jp|applesfera.com|aruba.it|arvopaperi.fi|atptour.com|autobild.de|autorevue.cz|axeptio.eu|backcountry.com|bbcgoodfood.com|benesse-style-care.co.jp|besplatka.ua|beterbed.nl|betten.de|binglee.com.au|book.impress.co.jp|bsa-whitelabel.com|bunte.de|bybit.com|bybitglobal.com|capital.it|carcareplus.jp|carhartt-wip.com|casa.it|ccleaner.com|cdek.ru|cdon.fi|chipotle.com|chronopost.fr|cinemacafe.net|clickup.com|cmoa.jp|como.fi|complex.com|compradiccion.com|computerbild.de|coolermaster.com|costco.co.jp|crello.com|cyclestyle.net|cyclingnews.com|cypress.io|dazeddigital.com|deejay.it|dengekionline.com|dholic.co.jp|directoalpaladar.com|dlsite.com|dmv.ca.gov|doodle.com|dropps.com|e15.cz|easternbank.com|edwardjones.com|elnuevodia.com|enmotive.com|episodi.fi|eprice.it|ergotron.com|espinof.com|euronics.it|expressvpn.com|fandom.com|feex.co.il|festoolusa.com|finanzen.at|finanzen.ch|finanzen.net|flytap.com|focus.de|formula1.com|fortress.com.hk|fortune.com|freenet-funk.de|fum.fi|gamebusiness.jp|gamespark.jp|genbeta.com|glamusha.ru|gorillamind.com|grandhood.dk|gravitydefyer.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|hatenacorp.jp|headlightrevolution.com|herculesstands.com|hobbyhall.fi|hostingvergelijker.nl|houseofbilocca.com|idealo.at|idealo.de|iexprofs.nl|iltalehti.fi|independent.co.uk|inferno.fi|inside-games.jp|insiderstore.com.br|iphoneitalia.com|jalan.net|jn.pt|join.kazm.com|journaldunet.com|jreastmall.com|junonline.jp|kakuyomu.jp|karriere.at|kedronparkhotel.com.au|komputronik.pl|konami.com|la7.it|larousse.fr|lastampa.it|lecker.de|level.travel|lift.co.za|linternaute.com|lippu.fi|luko.eu|m1.com|m2o.it|mainichi.jp|makitani.net|mangaseek.net|mcgeeandco.com|mecindo.no|mediamarkt.nl|mediuutiset.fi|mercell.com|meritonsuites.com.au|mikrobitti.fi|mirapodo.de|mobilmania.cz|montcopa.org|mycar-life.com|mysmartprice.com|nap-camp.com|netcombo.com.br|newscafe.ne.jp|nflgamepass.com|nielsendodgechryslerjeepram.com|nihontsushin.com|nordvpn.com|nourison.com|oakandfort.com|odia.ig.com.br|oetker-shop.de|okwave.jp|olx.ro|onlineshop.ocn.ne.jp|papajohns.com|pccomponentes.com|petsathome.com|pgatoursuperstore.com|pioneer.eu|plaion.com|plantsome.ca|poprosa.com|post.ch|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|radiko.jp|radio-canada.ca|radiorur.de|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|rocketnews24.com|rtl.de|rumba.fi|runescape.com|rustih.ru|sanwacompany.co.jp|saraiva.com.br|saturn.at|savethechildren.it|scan.netsecurity.ne.jp|sciencesetavenir.fr|scotsman.com|soranews24.com|soundguys.com|soundi.fi|spektrum.de|sport-wear.com.ua|sport1.de|sportmaster.ru|spyder7.com|stage.parco.jp|store-jp.nintendo.com|stressless.com|subscribe.greenbuildingadvisor.com|superesportes.com.br|support.brother.com|support.creative.com|swarajyamag.com|swb.de|talent.lowes.com|talouselama.fi|teddyfood.com|tekniikkatalous.fi|telia.no|theretrofitsource.com|tide.com|tilt.fi|tivi.fi|tn.com.ar|topper.com.br|toyota-forklifts.se|trademe.co.nz|tradera.com|trendencias.com|trendenciashombre.com|tribuna.com|tugatech.com.pt|tumi.com|tv-asahi.co.jp|type.jp|uclabruins.com|unieuro.it|uniqlo.com|upc.pl|upwork.com|uqr.to|veho.fi|vidaextra.com|video.repubblica.it|vip.de|virginmedia.com|vitonica.com|viviennewestwood-tokyo.com|vox.de|vtvgo.vn|wamiz.com|wowma.jp|www.kauppalehti.fi|www.nicovideo.jp|www.uusisuomi.fi|xatakamovil.com|xxl.se|ymobile.jp|youpouch.com|zakzak.co.jp|zazzle.com|zennioptical.com|zf1.tohoku-epco.co.jp|zinio.com|zive.cz|zozo.jp
+@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|skylar.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
+@@||googletagmanager.com/gtm.js$domain=3djuegosguias.com|3djuegospc.com|acehardware.com|acornonline.com|ads.spotify.com|aeromexico.com|afisha.timepad.ru|aliexpress.com|animeanime.jp|anond.hatelabo.jp|applesfera.com|aruba.it|arvopaperi.fi|atptour.com|autobild.de|autorevue.cz|axeptio.eu|backcountry.com|bbcgoodfood.com|benesse-style-care.co.jp|besplatka.ua|beterbed.nl|betten.de|binglee.com.au|book.impress.co.jp|bsa-whitelabel.com|bunte.de|bybit.com|bybitglobal.com|capital.it|carcareplus.jp|carhartt-wip.com|casa.it|ccleaner.com|cdek.ru|cdon.fi|chipotle.com|chronopost.fr|cinemacafe.net|clickup.com|cmoa.jp|como.fi|complex.com|compradiccion.com|computerbild.de|coolermaster.com|costco.co.jp|crello.com|cyclestyle.net|cyclingnews.com|cypress.io|dazeddigital.com|deejay.it|dengekionline.com|dholic.co.jp|directoalpaladar.com|dlsite.com|dmv.ca.gov|doodle.com|dropps.com|e15.cz|easternbank.com|edwardjones.com|elnuevodia.com|enmotive.com|episodi.fi|eprice.it|ergotron.com|espinof.com|euronics.it|expressvpn.com|fandom.com|feex.co.il|festoolusa.com|finanzen.at|finanzen.ch|finanzen.net|flytap.com|focus.de|formula1.com|fortress.com.hk|fortune.com|freenet-funk.de|fum.fi|gamebusiness.jp|gamespark.jp|genbeta.com|glamusha.ru|gorillamind.com|grandhood.dk|gravitydefyer.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|hatenacorp.jp|headlightrevolution.com|herculesstands.com|hobbyhall.fi|hostingvergelijker.nl|houseofbilocca.com|idealo.at|idealo.de|iexprofs.nl|iltalehti.fi|independent.co.uk|inferno.fi|inside-games.jp|insiderstore.com.br|iphoneitalia.com|jalan.net|jn.pt|join.kazm.com|journaldunet.com|jreastmall.com|junonline.jp|kakuyomu.jp|karriere.at|kedronparkhotel.com.au|komputronik.pl|konami.com|la7.it|larousse.fr|lastampa.it|lecker.de|level.travel|lift.co.za|linternaute.com|lippu.fi|luko.eu|m1.com|m2o.it|mainichi.jp|makitani.net|mangaseek.net|mcgeeandco.com|mecindo.no|mediamarkt.nl|mediuutiset.fi|mercell.com|meritonsuites.com.au|mikrobitti.fi|mirapodo.de|mobilmania.cz|montcopa.org|mycar-life.com|mysmartprice.com|nap-camp.com|netcombo.com.br|newscafe.ne.jp|nflgamepass.com|nielsendodgechryslerjeepram.com|nihontsushin.com|nordvpn.com|nourison.com|oakandfort.com|odia.ig.com.br|oetker-shop.de|okwave.jp|olx.ro|onlineshop.ocn.ne.jp|papajohns.com|pccomponentes.com|petsathome.com|pgatoursuperstore.com|pioneer.eu|plaion.com|plantsome.ca|poprosa.com|post.ch|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|radiko.jp|radio-canada.ca|radiorur.de|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|rocketnews24.com|rtl.de|rumba.fi|runescape.com|rustih.ru|sanwacompany.co.jp|saraiva.com.br|saturn.at|savethechildren.it|scan.netsecurity.ne.jp|sciencesetavenir.fr|scotsman.com|soranews24.com|soundguys.com|soundi.fi|spektrum.de|sport-wear.com.ua|sport1.de|sportmaster.ru|spyder7.com|stage.parco.jp|store-jp.nintendo.com|stressless.com|subscribe.greenbuildingadvisor.com|superesportes.com.br|support.brother.com|support.creative.com|swarajyamag.com|swb.de|talent.lowes.com|talouselama.fi|teddyfood.com|tekniikkatalous.fi|telia.no|theretrofitsource.com|tide.com|tilt.fi|tivi.fi|tn.com.ar|topper.com.br|toyota-forklifts.se|trademe.co.nz|tradera.com|trendencias.com|trendenciashombre.com|tribuna.com|tugatech.com.pt|tumi.com|tv-asahi.co.jp|type.jp|uclabruins.com|unieuro.it|uniqlo.com|upc.pl|upwork.com|uqr.to|veho.fi|vidaextra.com|video.repubblica.it|vip.de|virginmedia.com|vitonica.com|viviennewestwood-tokyo.com|vox.de|vtvgo.vn|wamiz.com|watsons.com.tr|wowma.jp|www.kauppalehti.fi|www.nicovideo.jp|www.uusisuomi.fi|xatakamovil.com|xxl.se|ymobile.jp|youpouch.com|zakzak.co.jp|zazzle.com|zennioptical.com|zf1.tohoku-epco.co.jp|zinio.com|zive.cz|zozo.jp
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
 @@||grattable.com/blogads.css
@@ -48087,7 +48089,7 @@ zyro.com##.zyro-cookies
 ||airserve.net^$third-party
 ||airsoang.net^
 ||airtable.com/internal/
-||airtel.in/analytics/
+||airtel.in/analytics/pixel?
 ||airthabolete.com^
 ||airticmonsoa.com^
 ||airydeservesannounce.com^
@@ -48099,6 +48101,7 @@ zyro.com##.zyro-cookies
 ||aishowbger.com^
 ||aisnj.cn^
 ||aisouk.cn^
+||aispyd.icu^
 ||aisrvyvstyq.xyz^
 ||aistekso.net^
 ||aistgsgxvsrywhf.com^
@@ -50903,6 +50906,7 @@ zyro.com##.zyro-cookies
 ||asdx55.com^
 ||asdxntvjpsyl.com^
 ||asdyui16.cn^
+||asdzxc1.top^
 ||asearch.alicdn.com^
 ||asecarenterhosi.xyz^
 ||asecv.xyz^
@@ -63827,6 +63831,7 @@ zyro.com##.zyro-cookies
 ||dictysoph.website^
 ||did-it.com^
 ||did-it.com^$third-party
+||dididy.xyz^
 ||didiessyrt.com^
 ||didinejaspoid.com^
 ||didit.com^
@@ -65781,6 +65786,7 @@ zyro.com##.zyro-cookies
 ||dzdgfp673c1p0.cloudfront.net^
 ||dzdkw9.cn^
 ||dzeoiizhixuyvg.com^
+||dzfzfv.xyz^
 ||dzgg.com^
 ||dzgwautxzdtn9.cloudfront.net^
 ||dzhjmp.com^
@@ -79915,6 +79921,7 @@ zyro.com##.zyro-cookies
 ||jack.okkkk.com^
 ||jackalvindictive.com^
 ||jackao.net^
+||jackdd.xyz^
 ||jackettrain.com^
 ||jacketzerobelieved.com^
 ||jackpotbeautifulsulky.com^
@@ -80787,6 +80794,7 @@ zyro.com##.zyro-cookies
 ||jqr-cdn.download^
 ||jqrcdn.download^
 ||jqsex.com^
+||jqtkzuco.xyz^
 ||jqtree.com^
 ||jqtzw.xyz^
 ||jquerrycdn.download^
@@ -91133,6 +91141,7 @@ zyro.com##.zyro-cookies
 ||muxing.city^
 ||muxingkj.com^
 ||muyoozrkkyr.com^
+||muyxmmz.cn^
 ||muzarabeponym.website^
 ||muzoohat.net^
 ||muzsj.com^
@@ -91318,6 +91327,7 @@ zyro.com##.zyro-cookies
 ||mygsyv.com^
 ||mygtmn.com^
 ||mygtmn.com^$third-party
+||myhaitang.xyz/assets/public/
 ||myhao.club^
 ||myhard.com^
 ||myhg.healthgrades.com^
@@ -91842,6 +91852,7 @@ zyro.com##.zyro-cookies
 ||ncyksuw.xyz^
 ||nda3456.com^
 ||ndapus.cn^
+||ndbaxn.xyz^
 ||ndbegantoti.xyz^
 ||ndblowthroug.info^
 ||ndbriolenproc.buzz^
@@ -96712,7 +96723,6 @@ zyro.com##.zyro-cookies
 ||persistentadequate.com^
 ||perso.aws.arc.pub^
 ||personaclick.com^
-||personaclick.com^$third-party
 ||personal.sonicwall.com^
 ||personalityvillainlots.com^
 ||personifyallege.com^
@@ -97281,6 +97291,7 @@ zyro.com##.zyro-cookies
 ||pintour.com^
 ||pinttalewag.com^
 ||pinwalerompers.com^
+||pinyuege.net/template/pinygm/public/js/
 ||pinzhitmall.com^
 ||pio.wir-sehen-uns-im-juni.de^
 ||pioneercomparatively.com^
@@ -107267,6 +107278,7 @@ zyro.com##.zyro-cookies
 ||singlesgetmatched.com^
 ||singlesternlyshabby.com^
 ||singmwn51g.com^
+||singmwn54g.com^
 ||singroot.com^
 ||siniantrill.com^
 ||sinisterbatchoddly.com^
@@ -126921,6 +126933,7 @@ zyro.com##.zyro-cookies
 ||xfyjz.cn^
 ||xfyqlex.com^
 ||xfyxtg.buyautoparts.com^
+||xfztgxt.com^
 ||xfzyun.com^
 ||xg.hbcygs518.com^
 ||xg4ken.com^
@@ -128070,6 +128083,7 @@ zyro.com##.zyro-cookies
 ||yjtag.jp^
 ||yjtag.jp^$third-party
 ||yjtag.yahoo.co.jp^
+||yjuhqy.xyz^
 ||yjuxkncvy.com^
 ||yk-ssp.ad.youku.com^
 ||ykad-data.youku.com^
