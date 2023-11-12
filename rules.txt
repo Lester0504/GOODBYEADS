@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-12 09:08:48（北京时间） 
-! Total count: 130287
+! Version: 2023-11-12 20:19:26（北京时间） 
+! Total count: 130295
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15273,6 +15273,7 @@
 ##[href^='https://analytics.woozooo.com/jump.php?url=']
 ##[href^='https://ccs.holor0803.cn']
 ##[href^='https://dc.vvsmse72']
+##[href^='https://down.erperweima.top/']
 ##[href^='https://dt.mydrivers.com/b.ashx']
 ##[href^='https://fcc.hxaxfcc.cn/']
 ##[href^='https://gougew.lanzoub.com/']
@@ -29143,6 +29144,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||taboola.com/libtrc/$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
+@@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 @@||tag.search.sensefuel.live/tag/$script,domain=bricomart.es
 @@||tagcommander.com^*/tc_$script
@@ -39595,6 +39597,7 @@ wwdmag.com##.intercom-snippet > [class*="gdpr"]
 wwf.ru##.is-header-message-dock
 www-youtube-com.translate.goog##ytd-consent-bump-v2-lightbox, tp-yt-iron-overlay-backdrop
 www.123pan.com##.advBanner
+www.123pan.com##.banner-container-h5
 www.123pan.com##DIV.app-adv-container
 www.123pan.com##IMG[src*='-banner'],.ant-carousel
 www.3ppp.net##DIV.bottom_fixed
@@ -55263,6 +55266,7 @@ zyro.com##.zyro-cookies
 ||btcadtop.com^
 ||btcnews.one^
 ||btdirectnav.com^
+||btdmp.com^
 ||btdnav.com^
 ||btescs.fun^
 ||btg360.com.br^
@@ -59608,6 +59612,7 @@ zyro.com##.zyro-cookies
 ||console.uxlens.com^
 ||consoupow.com^
 ||constablecuisinehamster.com^
+||constellation.networknmedia.com/cdn-cgi/trace
 ||constellationdelightfulfull.com^
 ||consternationbale.com^
 ||constintptr.com^
@@ -60609,6 +60614,7 @@ zyro.com##.zyro-cookies
 ||credibilitystakehemisphere.com^
 ||credibilityyowl.com^
 ||credible.com/api/logs-fe
+||credistory.ru/api/v1/LiveMetrics/
 ||creditcreature.com^
 ||creditcreature.com^$third-party
 ||creditorapido.xyz^
@@ -110221,6 +110227,7 @@ zyro.com##.zyro-cookies
 ||soonbigo.com^
 ||soopsulo.xyz^
 ||soopukib.net^
+||sooqr.com^$third-party
 ||soorbka.cn^
 ||sooreejy.xyz^
 ||soosooka.com^
@@ -127788,6 +127795,7 @@ zyro.com##.zyro-cookies
 ||yandex.com/clck/
 ||yandex.eu/clck/
 ||yandex.fr/clck/click
+||yandex.net/expjs/latest/exp.js
 ||yandex.ru/clck/
 ||yandex.ru/click/
 ||yandex.ru/cycounter?
