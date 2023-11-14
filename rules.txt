@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-14 20:22:20（北京时间） 
-! Total count: 130377
+! Version: 2023-11-14 20:27:43（北京时间） 
+! Total count: 130381
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -3502,6 +3502,7 @@
 ###ccc > #ccc-icon
 ###ccc > #ccc-notify
 ###ccc > #ccc-overlay
+###ccc > #ccc-overlay ~ div[id^="ccc"]
 ###ccc > .ccc-banner
 ###ccc > .ccc-popup
 ###ccconsent
@@ -5350,6 +5351,7 @@
 ###cookiefy_bar
 ###cookiegap
 ###cookieheader
+###cookiehint
 ###cookiehinw
 ###cookiehinweisbox_wrapper
 ###cookiehinweisboxback
@@ -13326,6 +13328,7 @@
 ##.js-cookies-box:not(body):not(html)
 ##.js-cookies-consent:not(body):not(html)
 ##.js-cookies-eu:not(.modal)
+##.js-cookies-info
 ##.js-cookies-message
 ##.js-cookies-note-block
 ##.js-cookies-notice:not(body):not(html)
@@ -13581,6 +13584,7 @@
 ##.mask_gdrp:not(body):not(html)
 ##.mast-c-banners-cookie
 ##.max_wp_cookie_notification
+##.mb-0[data-cookie-wall-dialog]
 ##.mb-ol-privacy-box-footer
 ##.mbt-cookie__notice:not(body):not(html)
 ##.mcd-cookie-manager-layer
@@ -15914,6 +15918,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -track-inview.
 -tracking-pixel.
 -universal-analytics/
+.0.0.1 ww13.smartadserver.com
 .1.1.1.l80.js^$third-party
 .EventTracking.
 .acemlna.com/Prod/link-tracker?$image
@@ -16882,7 +16887,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /boost_stats.php
 /bootstrap-cookie-consent-settings.js
 /bootstrap/metrics.js
-/borlabs-cookie$domain=finance-magazin.de
 /bosch-privacy-settings-
 /botd.gif?
 /bottom.js$domain=herokuapp.com
@@ -19910,6 +19914,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-content/plugins/ag-consentmanager-no-bootstrap/*
 /wp-content/plugins/bc-cookie-consent
 /wp-content/plugins/better_cookie_consent/*
+/wp-content/plugins/borlabs-cookie/*
 /wp-content/plugins/cc-cookie-consent/*
 /wp-content/plugins/cc/js/cc.min.js
 /wp-content/plugins/confection/bridge.php
@@ -29579,6 +29584,7 @@ ali213.net##.placeholderforpromotion
 aliciagame.com##.region-inner > #block-system-main ~ .block
 aliexpress.com###gdpr-new-container, #voyager-gdpr
 aliexpress.ru##div[class*="PrivacyPolicyBanner"]
+aliexpress.us###gdpr-new-container, #voyager-gdpr
 alipaczka.pl###bottom-charm, .cookies
 aliveachiever.com$domain=dailydot.com
 alivecolors.com##.alert, #alert
@@ -29883,11 +29889,6 @@ atlants.lv##.atlants_cook_wrapper
 atlas-roslin.pl##.tytul > span
 atlasdepoesia.blogcindario.com##body > div[id][class]:not(#math_parentdiv):not(#pagina)
 atlasformen.ch###modalCookies, .modal-backdrop
-atlasformen.co.uk###modalCookies, .modal-backdrop
-atlasformen.de###modalCookies, .modal-backdrop
-atlasformen.hu###modalCookies, .modal-backdrop
-atlasformen.nl###modalCookies, .modal-backdrop
-atlasformen.pl###modalCookies, .modal-backdrop
 atlasruraldegrancanaria.com###cookies
 atlasstoked.com##.gdprModal
 atlatszo.hu###the_popup
@@ -32248,6 +32249,7 @@ eventwide.com##.privacy-blanket, .privacy-dialog
 evercast.us##.ck-cookie-w, .cookie-preference-button
 everettspharmacy.co.uk##body > div[class]:not([style]):not([id])
 evermotion.org##.full-overlay
+evernote.com##footer ~ .fixed.w-full
 eversheds-sutherland.com###cp-cookie-popup
 evertiq.se##.cc-box
 every-tuesday.com###et-gdpr-popup
@@ -32442,6 +32444,7 @@ findbolig.nu##.cookie
 findhs.codes###PrivacyAlert
 findicons.com##.navbar-qards
 findino.ch##.CookieView
+findmcserver.com##.ant-notification
 findmypast.co.uk###skip-to-content-link + div > [style*="transform"], #skip-to-content-link ~ [style*="transform"]
 findmypast.com###appRoot > div > div > div
 findretros.com##.fuck-adblock
@@ -32783,7 +32786,7 @@ gel.com###system-message, #system-messages, #system-message-container
 geld.de##.geld-layer-cookie-approval
 gelighting.com###privacy-message
 gelsia.it##.cao
-gemini.pl##.vue-portal-target ~ div:last-child, #modal-cookies
+gemini.pl###modal-cookies
 gemius.mgr.consensu.org
 gemu-group.com###notification
 gen-i.si##.cookie, .cookies_new
@@ -34864,6 +34867,7 @@ madhumanshow.com###SITE_ROOT ~ .siteAspectsContainer
 madison.nl##.avg-toaster
 madrid.es##div[id*="iam-cookie"]
 madrid.org###emCookieWrapper
+magadanmedia.ru##.cookies-wrap
 magazineexchange.co.uk##.ui-widget, .ui-widget-overlay
 magazineluiza.com.br##main > section ~ div[width="100%"]
 magazynpracy.pl##body > div:not([id]):not([class])
@@ -34994,6 +34998,7 @@ maxicoffee.com##.cookie-statement
 maxict.nl##.wallpop-overlay
 maxifoot.fr###mfcok1
 maxmind.com###mm-ccpa-notice
+maxoutil.com##.fixed[x-data*="Amasty.Cookie"]
 mayflower.org.uk##.bottomBanner
 mazda-autohaus-butz-und-muehlbach-andernach.de###root > div:not([class*=" "])
 mazda-autohaus-gollan-hamm.de###root > div:not([class*=" "])
@@ -37414,6 +37419,7 @@ sexomercadobcn.com##.hidder, .disclamer
 sexvideoall.com##.fixed-nav-bar
 seznam.cz$domain=firmy.cz
 sf.gr###cookiesManagement
+sfc.edu##.fixed[x-data*="noticeAccepted"]
 sfera.com###dis_cookie.cab_cookies
 sfinks.org.pl##body > div:not([id]):not([class])
 sfr.re##body > .cc
@@ -37475,6 +37481,7 @@ shsu.blackboard.com##.lb-overlay, .lb-wrapper-absolute
 shuba.life##.md\:u-block
 shuba.life##img[height][src^="https://shuba.life/static/banners/placeholders/"]
 shueisha.co.jp###app > div > div[class*="styles"] > div[class*="yellow"], #app > div > div[class*="styles"] > div[class*="yellow"] ~ *
+shuttle.rs###__next > div > div[class*="bottom"]
 si-vreme.com###siv_cookieBanner
 siamsport.co.th###popup-ss
 siberianhealth.com##.top-informer-container
@@ -38120,7 +38127,6 @@ swissict.ch###dpcc-wrapper
 swisslife.fr##.mod-disclaimer
 swissre.com##.Notification
 swisstours.com##.cookiesApproval
-switchbay.com##.ant-notification
 switcher-shop.ch##.ec-notices
 switcher.com##.ec-notices
 swm.de##.mod-029
@@ -125098,6 +125104,7 @@ zyro.com##.zyro-cookies
 ||wknd.ai^
 ||wko.at/css-js/scripts/cookie.js$script
 ||wko.at/gcm/cookie.js$script
+||wko.at/static/ct/consent.js$script
 ||wkqcnkstso.com^
 ||wkrcbszi.xyz^
 ||wkyfgxxabvu.xyz^
@@ -129917,7 +129924,6 @@ zyro.com##.zyro-cookies
 ~aiways-u5.nl###overlay-cookie
 ~aknw.de,~stadtwerke-bonn.de##.cookie-settings__overlay
 ~alexanderhall.co.uk,~foxtons.co.uk###cookie_compliance
-~allecco.pl,~e-zikoapteka.pl,~zikodermo.pl##.cookies-info:not(body):not(html)
 ~altheaprovence.com###cliSettingsPopup
 ~altheaprovence.com##body:not(.cli-barmodal-open) #cookie-law-info-bar
 ~amara.org,~filmmakers.de,~kh.hu##.cookie-consent-container
@@ -130076,7 +130082,6 @@ zyro.com##.zyro-cookies
 ~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de,~fransdewitte.nl##.cc-banner:not(body):not(html)
 ~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de,~fransdewitte.nl##.cc-window[aria-describedby*="consent"]
 ~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de,~fransdewitte.nl##.cc-window[aria-label*="consent"]
-~gruenderservice.at,~wko.at###cookiehint
 ~grueneerde.com##.CookieWarningComponent
 ~healthmate.withings.com##body > #cookies.active
 ~healthmate.withings.com,~seatris.ai##.cookie_container:not(body):not(html)
@@ -130158,7 +130163,7 @@ zyro.com##.zyro-cookies
 ~mea.com,~mitsubishielectric.com##.cookie_policy:not(body):not(html):not(#Content):not(#page)
 ~medicijnnodig.nu##.cw_message_box_main:not(body):not(html)
 ~meinbildkalender.de###cookieNotify
-~mercedes-benz.cr,~effector.pl,~allecco.pl,~e-zikoapteka.pl,~zikodermo.pl,~autoersatzteile.de,~autoteiledirekt.de,~nike.com##.cookies-popup:not(body):not(html)
+~mercedes-benz.cr,~effector.pl,~autoersatzteile.de,~autoteiledirekt.de,~nike.com##.cookies-popup:not(body):not(html):not(.open)
 ~merkur.si##.cookie-notice-box:not(body):not(html)
 ~merkur.si##.cookie-notice-wrapper:not(.mfp-ready)
 ~meteoblue.com##.gdpr-message:not(body):not(html)
@@ -130340,7 +130345,6 @@ zyro.com##.zyro-cookies
 ~vattenfall.com##.cookiedisclaimer:not(body):not(html)
 ~vectorizer.io###cookiesmsg
 ~vias.be###cookies-banner
-~videogameschronicle.com###ccc > #ccc-overlay ~ div[id^="ccc"]
 ~viennahouse.com###cookie-box
 ~viennahouse.com###cookies-panel
 ~vietnamairlines.com##.cookie-accept-box:not(body):not(html)
