@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-16 09:06:50（北京时间） 
-! Total count: 130387
+! Version: 2023-11-16 20:22:00（北京时间） 
+! Total count: 130390
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28781,6 +28781,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||gemius.pl/gstream.js
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geoip-db.com/jsonp/$script,third-party
+@@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||get.geojs.io/v1/ip/geo.json$domain=namlih.my.id|shop.critrole.com
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
@@ -50859,6 +50860,7 @@ zyro.com##.zyro-cookies
 ||artsai.com^
 ||artsrookpassed.com^
 ||artsybutchercluster.com^
+||arttrk.com^
 ||aruba.it/servlet/counterserver?
 ||arukmstgnlaper.xyz^
 ||aruyevdqsnd.xyz^
@@ -70220,6 +70222,7 @@ zyro.com##.zyro-cookies
 ||finalid.com^$third-party
 ||finalizeforce.com^
 ||finallysuburblaunching.com^
+||finalyticsdata.com^$third-party
 ||finance-hot-news.com^
 ||finance2you.org^
 ||financefear.com^
@@ -84542,6 +84545,7 @@ zyro.com##.zyro-cookies
 ||list.z.qingting.fm^
 ||list1holp.com^
 ||listat.biz^
+||listen.audiohook.com/*/pixel.png
 ||listen.trakks.com^
 ||listen.tunein.com^
 ||listenlayer.com^
@@ -90821,7 +90825,6 @@ zyro.com##.zyro-cookies
 ||mp3dance.today^
 ||mp3pro.xyz^
 ||mp3vizor.com^
-||mp3vizor.com^$third-party
 ||mp4.res.hunantv.com^
 ||mp4ba.qucaigg.com^
 ||mp83fkx.cn^
