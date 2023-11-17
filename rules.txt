@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-17 09:06:35（北京时间） 
-! Total count: 130527
+! Version: 2023-11-17 20:21:23（北京时间） 
+! Total count: 130538
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -12593,6 +12593,9 @@
 ##.eu-cookie-wrapper:not(body):not(html)
 ##.eu-cookie:not(body):not(html)
 ##.eu-cookies-alert:not(body):not(html)
+##.eu-cookies-bar-cookies-bar-settings-wrap
+##.eu-cookies-bar-cookies-bar-wrap
+##.eu-cookies-bar-cookies-settings-call-container
 ##.eu-cookies-bar:not(body):not(html)
 ##.eu-cookies-kalisek:not(body):not(html)
 ##.eu-cookies-message:not(body):not(html)
@@ -15713,7 +15716,6 @@
 ##div[data-cookie-warning]
 ##div[data-cookie="on"]
 ##div[data-cookie="uso-accept-cookies"]
-##div[data-cookiebar]
 ##div[data-cookietoast]
 ##div[data-corgi-component="cookie-banner"]
 ##div[data-gdpr-consent-prompt]
@@ -15973,6 +15975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com:7891/stats$third-party
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
+.com:8003/sc/*?n=$third-party
 .com:8004/*/*?*=$third-party
 .com:8005/*&n=$third-party
 .com:8007/*/*?*=$third-party
@@ -17939,6 +17942,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gv-analytics/riveted.js
 /gweb/analytics/*
 /h.gif?
+/hallowedinvention.com
 /handsomelyhealth.com
 /hatefulrequest.com
 /hawk.js
@@ -18118,7 +18122,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js/ads
 /js/adsconsent.min.js
 /js/analitics.js
-/js/bundle/GDPRConsent/*
 /js/components/cookiescomponent
 /js/components/es6/PrivacyPolicy
 /js/comun/avisopcgdpr.js
@@ -22522,7 +22525,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 127.0.0.1 c.medialytics.com
 127.0.0.1 c.mgid.com
 127.0.0.1 c.mse.360.cn
-127.0.0.1 c.msn.com
 127.0.0.1 c.oracleinfinity.io.edgekey.net
 127.0.0.1 c.pub.network
 127.0.0.1 c.riskified.com
@@ -29995,6 +29997,7 @@ axa.cz##.axa-cookies
 axioart.com##.cookie
 axisbank.com###HomePageStrip
 axminstertools.com##.axmcookie-notice-container, .axmcookie-notice-conatiner
+axo-actifs.fr###cookies_frame
 axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:dashed .5px']
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
@@ -31180,7 +31183,7 @@ cookiewarning.js^
 cookiewarning2.js^
 cookiewarning4.js^
 cookmedical.eu##.cook-cookie-banner
-cookpad.com##.flex[data-id="cookie_dialog"]
+cookpad.com##div[data-controller*="cookies-consent"]
 cookshop.gr###cookies-region
 coolapk.com##.mobile-header-content
 coolbet.com###main-layout > .main-container ~ div
@@ -57021,6 +57024,7 @@ zyro.com##.zyro-cookies
 ||cdu.cc^
 ||cduamwclb.com^
 ||cduygiph.com^
+||cdvsd9.com^
 ||cdwbjlmpyqtv.com^
 ||cdwehdnnprdntse.com^
 ||cdxjt.mobi^
@@ -82043,6 +82047,7 @@ zyro.com##.zyro-cookies
 ||kign.biluzhang.cn^
 ||kihudevo.pro^
 ||kihwmtvzvi.com^
+||kiitsl.icu^
 ||kiki.rireetchansons.fr^
 ||kikibobo.top^
 ||kikiloobily.com^
@@ -105549,6 +105554,7 @@ zyro.com##.zyro-cookies
 ||sdtieta.com^
 ||sdu.adwo.com^
 ||sdvfvgj.cn^
+||sdvsv.com^
 ||sdxitong.com^
 ||sdyongyan.com.cn^
 ||sdzhongke.cn^
@@ -127515,6 +127521,7 @@ zyro.com##.zyro-cookies
 ||xlwaluyw.com^
 ||xlxknf.xyz^
 ||xlylqx.com^
+||xman.asia^
 ||xmangoculture.com^
 ||xmas-xmas-wow.com^
 ||xmaswrite.com^
@@ -128653,6 +128660,7 @@ zyro.com##.zyro-cookies
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
 ||youtubecenter.net^
+||youtubee.top^
 ||youtubekids.com/api/stats/ads?
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
@@ -129524,6 +129532,7 @@ zyro.com##.zyro-cookies
 ||zi8ivy4b0c7l.com^
 ||ziaratjs.tech^
 ||zibaweva.com^
+||ziccattws.com^
 ||zichenit.com^
 ||zidgrrfgb.com^
 ||zidoudsa.net^
@@ -130029,6 +130038,7 @@ zyro.com##.zyro-cookies
 ||zzjs2.firefang.cn^
 ||zzkwsosixkdu.com^
 ||zzm.cn^
+||zzmyrz.com^
 ||zzngisyq.xyz^
 ||zzpush.58.com^
 ||zzpzero.com^
@@ -130160,7 +130170,6 @@ zyro.com##.zyro-cookies
 ~dominospizza.pl,~penny.hu,~penny.cz###cookie-message
 ~durchblick-durch-daten.de,~leeway.tech,~evarazdin.hr##.cookie-warning:not(body):not(html):not(#Web):not(#Container)
 ~dvwg.de,~renishaw.fr,~renishaw.it,~renishaw.se,~renishaw.de,~renishaw.es,~renishaw.hu,~renishaw.nl,~renishaw.pl,~renishaw.si,~renishaw.jp,~renishaw.com,~renishaw.co.kr,~renishaw.com.cn,~renishaw.com.tw,~renishaw.com.br,~renishaw.com.tr,~adtipp.de,~bk.com###cookie-popup
-~e-domizil.de,~statik.be,~dwd.de,~nerdstar.tv,~bund.de,~bafin.de,~onlinezugangsgesetz.de,~duvel.com,~dagvandewetenschap.be,~materna.de,~thw.de,~bka.de,~bmbf.de,~bafa.de,~advodan.dk,~technikmuseum.berlin##.cookiebanner:not(body):not(html):not(#header)
 ~e-domizil.de,~statik.be,~login.nos.pt,~mit-dem-rad-zur-arbeit.de,~dwd.de,~nerdstar.tv,~bund.de,~bafin.de,~onlinezugangsgesetz.de,~duvel.com,~dagvandewetenschap.be,~materna.de,~thw.de,~bka.de,~bmbf.de,~bafa.de,~bamf.de###cookiebanner:not(.modal)
 ~easyswimportal.com##.cookiepopup:not(body):not(html)
 ~easyticket.de###cookie_consent_popup
@@ -130274,6 +130283,8 @@ zyro.com##.zyro-cookies
 ~kika.ee,~kika.lt##.cookie_bar:not(body):not(html)
 ~kika.ee,~kika.lt,~fitx.de,~freenet-energy.de##.cookie_overlay:not(body):not(html)
 ~kitsound.co.uk###cookie_consent_container
+~kkh.de##div[data-cookiebar]
+~kkh.de,~e-domizil.de,~statik.be,~dwd.de,~nerdstar.tv,~bund.de,~bafin.de,~onlinezugangsgesetz.de,~duvel.com,~dagvandewetenschap.be,~materna.de,~thw.de,~bka.de,~bmbf.de,~bafa.de,~advodan.dk,~technikmuseum.berlin##.cookiebanner:not(body):not(html):not(#header)
 ~kps.com###js-cookieInfo
 ~kruk.eu###cookie-agreement
 ~kruk.eu###cookie_accept
