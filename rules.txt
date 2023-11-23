@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-23 09:06:00（北京时间） 
-! Total count: 130655
+! Version: 2023-11-23 20:21:32（北京时间） 
+! Total count: 130784
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -10757,7 +10757,6 @@
 ##.cookie-consent-bar:not(body):not(html)
 ##.cookie-consent-block
 ##.cookie-consent-comp:not(body):not(html)
-##.cookie-consent-component
 ##.cookie-consent-container-v2
 ##.cookie-consent-ctr
 ##.cookie-consent-darkener
@@ -11698,6 +11697,7 @@
 ##.cookiebanner--js:not(body):not(html)
 ##.cookiebanner-grid:not(body):not(html)
 ##.cookiebanner-legacy
+##.cookiebanner-overlay
 ##.cookiebanner-warning
 ##.cookiebannerpopup
 ##.cookiebar ~ .wrapper > .background-fade
@@ -29419,7 +29419,6 @@ addgene.org##.alert-info
 additioapp.com###btn-cookies
 addnorth.se##footer ~ .messages
 addons.prestashop.com###cookie
-adeccomedical.fr##.bannerContainer
 adelaida.ro###barwrap
 adernats.cat###cookies
 adfc.de##body > .ember-view > .ember-view:first-child
@@ -29576,7 +29575,6 @@ aldeparty.eu###disclaimer
 aldiventskalender.de##.cookie-consent-nord-app
 ale.se##.MuiSnackbarContent-root
 alecoair.ro###notice
-alectia.com###NavigationHeader > .smart-object[style*="white"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 alexfilm.cc##.panel-primary
 alexia.fr###_cc_a, ._cc_op::before
@@ -30263,7 +30261,9 @@ bezuzyteczna.pl##.cookies
 bgbasket.com###private_info
 bgdnes.bg###cookie-b
 bgee.org###bgee_privacy_banner
+bgextras.co.uk##body > div[class*="opts"]
 bgfermer.bg###cookie-b
+bhaptics.com###__next > .fixed.w-full
 bhaskar.com###db-portal ~ div:not([style]), div[id*="gdpr"], .gdrpOverlay
 bho_infobar.js^$domain=ruecken-zentrum.de
 biancodipuro.ch##.ngcookiewarning
@@ -30636,7 +30636,6 @@ buzzaar.eu##.cookies-modal
 buzzfil.net###popup1
 buzzpeoplemag.com##.sca.block
 bvkaiserslautern.de###cookies
-bw-online-shop.com##.modal-mask-class.show-modal
 bws.net##.block--cookie
 bycard.by,goodfon.ru,old-games.ru,satsis.info,swordmaster.org##.adb
 byclickeat.fr##.cdk-overlay-container
@@ -31124,7 +31123,7 @@ consent.$domain=seeandso.com|deutsches-schulportal.de
 consent.23g.io
 consent.autopflege24.net$domain=autopflege24.net
 consent.comply-app.com
-consent.cookiebot.com$domain=~deutschesapothekenportal.de|~storyhouseegmont.dk|~storyhouseegmont.no|~storyhouseegmont.se|~egmont.com|~plaion.com|~runescape.com|~jyllands-posten.dk|~apoteket.se|~tme.eu|~stadtmobil.de|~wwf.fi|~login.nos.pt|~asambeauty.com|~cineplex.de|~berlingske.dk|~digimon.kochfilms.de|~kino.dk|~hoyavision.com|~koeln.de|~cliente.nos.pt|~parkerlebnis.de|~deadwalk.io|~linak.es|~linak.de|~cajamar.es|~digitaltrends.com|~mein-grundeinkommen.de|~werder.de|~finanzmarktwelt.de|~danbolig.dk|~bt.dk|~scubadiving.com|~biomarkt.de|~harzwasserwerke.de|~dasinvestment.com|~derivate.bnpparibas.com|~werkenbijlidl.nl|~swspremberg.de|~nngroup.com|~bankia.es|~bergbauernmilch.de|~ekstrabladet.dk|~epochtimes.de
+consent.cookiebot.com$domain=~deutschesapothekenportal.de|~storyhouseegmont.dk|~storyhouseegmont.no|~storyhouseegmont.se|~egmont.com|~plaion.com|~runescape.com|~jyllands-posten.dk|~apoteket.se|~tme.eu|~stadtmobil.de|~wwf.fi|~login.nos.pt|~asambeauty.com|~cineplex.de|~berlingske.dk|~digimon.kochfilms.de|~kino.dk|~hoyavision.com|~koeln.de|~cliente.nos.pt|~parkerlebnis.de|~deadwalk.io|~linak.es|~linak.de|~cajamar.es|~digitaltrends.com|~mein-grundeinkommen.de|~werder.de|~finanzmarktwelt.de|~danbolig.dk|~bt.dk|~scubadiving.com|~biomarkt.de|~harzwasserwerke.de|~dasinvestment.com|~derivate.bnpparibas.com|~werkenbijlidl.nl|~swspremberg.de|~nngroup.com|~bankia.es|~bergbauernmilch.de|~ekstrabladet.dk|~epochtimes.de|~ub.edu
 consent.cookiefirst.com$domain=~parken-in-mainz.de
 consent.js^$domain=zitatezumnachdenken.com
 consent.maerkischekiste.de$domain=maerkischekiste.de
@@ -31267,6 +31266,7 @@ crex24.com##div[class*="cookies_block"]
 cricut.com###consent-tracking
 criticker.com###i_cookies
 crizal.pl###__cookies_
+crocoblock.com###modal-cookie
 cronacaqui.it###footerprivacy
 crosig.hr##.cookieControl__Bar, co-message
 cross.bg##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
@@ -31836,6 +31836,7 @@ durszlak.pl##.privacy-layer
 duschmeister.de##.dm--cookie-consent-banner
 dutchbirding.nl###cookies
 dutchcarparts.nl##.cookie
+duunitori.fi##.gdpr-modal
 dvb-t2-portal.de###coPolicyMain
 dvdbluray.hu###sutibox
 dvdfab.cn##.cookie-opa
@@ -32513,7 +32514,6 @@ flintshire.gov.uk##.fcc-cookie-consent
 flip.pt###access
 flipdish-cookie-consent*
 flipsnack.com##.modal-backdrop
-flitsers.nl###cc_overlay
 flockler.com##.fl-cookie-banner[data-state="open"]
 floriantravel.com##.cookieatata
 florinus.lt##.blah_blah_blah_holder
@@ -33028,7 +33028,6 @@ gruene-bundestag.de##.cn-wrapper
 grugliasco.to.it###cookie
 grunerundjahr.de##.cookie
 gruntwork.io###gruntyCookie
-grupazywiec.pl###apollo-bar
 grupovaughan.com##.st_notification_wrap
 gruppocarraro.it##body > div:not([id]):not([class])
 gruppodimensione.com##.floatFooter
@@ -33799,6 +33798,7 @@ jamesgalway.com##.sqs-announcement-bar
 jamiebalfour.scot###cookies
 janrain.com##.wptbbarheaddiv
 janto.es###Transparente, #widgetCookiesPpal
+janushenderson.com###ccc-action-button
 japanmotors.pl##.cookie
 jasmin.com###cookie_container ~ div[style=""]:not([id])
 jastrzebieonline.pl###rodo_popup
@@ -34919,6 +34919,7 @@ manetti.com##.fancybox-overlay, .fancybox-wrap
 manga.bilibili.com##.app-button.download-app
 mangaclassics.mboards.com##body > div[id][class]
 mango.com###cookies
+mangooutlet.com###cookies
 manikowski.de###notify2
 manporn.xxx##.copyrights ~ .black-bg
 manualslib.com##.policy, #policy, .cpolicy
@@ -36445,6 +36446,7 @@ playvalorant.com##.riotbar-alert
 plcnext-community.net##.overlay
 pldspace.com##.uk-position-fixed
 pleternica.hr###footer
+plex.tv##section[class*="CookieBar"]
 pln-pskov.ru###check_ad_block
 plodine.hr##.cookies
 plos.org###cookie-consent
@@ -36831,7 +36833,6 @@ ragazzon.com##body > div:not([id]):not([class])
 ragusanews.com###barra
 raider.bg###cookie_script
 raiffeisen-laborservice.de##.nptbccm
-raikaritten.it##.bottom_note
 rail-sim.de##.popupBase.notification
 rail.phototrans.eu##body > div:not([id]):not([class])
 rainforest-alliance.org###modalOverlay
@@ -37824,6 +37825,7 @@ spiking.io##.PopupCookies
 spinbackup.com##.spin-ai-gtm-banner
 spinnaker-watches.com##.fixedbar
 spirou.com##.modal-cookies
+spitfireaudio.com##.cookie-consent
 spk.no##.MuiDialog-root
 splu-engineers.com###frontpage-banner-cover
 spoferan.com##.fixed.overlay--active
@@ -38273,7 +38275,6 @@ telcel.com##.telcel-banner-aviso-cookies, .comp-telcel-banner-superior
 teldust.com##.cookies-tab
 tele2.nl###targetedPopupFrame
 teleauskunft.de##.cookie-container
-telefonoassistenza.net###window
 telegram.hr##.disclaimer
 telehit.com##.Privacy.Telehit
 telekom.de###main ~ #cookies
@@ -38977,7 +38978,6 @@ valtra.de##.disclaimer
 valuetech.de###GDPR
 valvolgyikisvasut.hu###SITE_ROOT + div
 vanderpoelmontage.nl##.cookie-settings
-vanitybamboo.com###div_c
 vanostassenenkoffers.nl##.cookie_text_container
 vanrobaeysrevolution.com###privacyConsentInfo
 vansforbands.co.uk##.cookie2019-settings-icon, .cookie2019-settings-icon-inner, #mySidenav
@@ -40332,6 +40332,7 @@ zyro.com##.zyro-cookies
 ||11.96131.com.cn^
 ||11.yiqig.cn^
 ||1100058268.rsc.cdn77.org^
+||1102734998.rsc.cdn77.org^
 ||1104piaoba2022.xyz^
 ||1105yh.com^
 ||110628.cn^
@@ -40360,6 +40361,7 @@ zyro.com##.zyro-cookies
 ||116b.com^
 ||116bea31bf.com^
 ||1170555.com^
+||1176528718.rsc.cdn77.org^
 ||1178.shucong.com^
 ||1187531871.rsc.cdn77.org^
 ||1188.com^
@@ -40512,6 +40514,7 @@ zyro.com##.zyro-cookies
 ||166br.com^
 ||166f.com^
 ||1675450967.rsc.cdn77.org^
+||1678970469.rsc.cdn77.org^
 ||168.it168.com^
 ||1680660.com^
 ||1680go.com^
@@ -41255,6 +41258,7 @@ zyro.com##.zyro-cookies
 ||38499.com^
 ||387635.com^
 ||3889082.dev.att.llabs.io^
+||38bw0.space^
 ||38c99.com^
 ||38d9953876.com^
 ||38kmute.xyz^
@@ -41383,6 +41387,7 @@ zyro.com##.zyro-cookies
 ||4135.com^
 ||413dfe9f11.com^
 ||4140690839.com^
+||415677.com^
 ||4171764.fls.doubleclick.net^
 ||4199tv.com^
 ||41f6f373a2.com^
@@ -45432,6 +45437,7 @@ zyro.com##.zyro-cookies
 ||accwww9.53kf.com^
 ||acdbidoxmfu.com^
 ||acdcdn.com^
+||acdcmarimo.com^
 ||acdn.adnxs.com^
 ||acdn01.vidox.net^
 ||acecounter.com^
@@ -45497,6 +45503,7 @@ zyro.com##.zyro-cookies
 ||acoossu.top^
 ||acootaul.net^
 ||acor1sign.com^
+||acostaom.com^
 ||acousticsapparel.com^
 ||acoxcv.cn^
 ||acpprograms.org^
@@ -46338,6 +46345,7 @@ zyro.com##.zyro-cookies
 ||adi.ni.com^
 ||adi2007.cnool.net^
 ||adicate.com^
+||adiingsinspiri.org^
 ||adikteev.com^
 ||adim.pinduoduo.com^
 ||adimages.go.com^
@@ -46658,6 +46666,7 @@ zyro.com##.zyro-cookies
 ||adoptim.com^
 ||adoptum.net^
 ||adorableanger.com^
+||adorableattention.com^
 ||adorableold.com^
 ||adorablespace.pro^
 ||adorerabid.com^
@@ -48056,6 +48065,7 @@ zyro.com##.zyro-cookies
 ||aihaoduo.cn^
 ||aihoasso.net^
 ||aiia.xin^
+||aiiaqw.xyz^
 ||aijiamao.top^
 ||aikat-vim.com^
 ||aikboypeoriqk.com^
@@ -48912,6 +48922,7 @@ zyro.com##.zyro-cookies
 ||amysaghurtful.com^
 ||amywhereby.com^
 ||amzargfaht.com^
+||amzbtuolwp.com^
 ||amzosmcuhci.com^
 ||amzpzylzo.com^
 ||an.biocoop.cn^
@@ -50616,6 +50627,7 @@ zyro.com##.zyro-cookies
 ||apus.tech^
 ||apuwpigjno.com^
 ||apvdr.com^
+||apvnzvg.xyz^
 ||apx.moatads.com^
 ||apxl.io^
 ||apxlv.com^
@@ -54021,6 +54033,7 @@ zyro.com##.zyro-cookies
 ||bleandworld.xyz^
 ||bleatflirtengland.com^
 ||bleedingofficecontagion.com^
+||bleedlight.com^
 ||blehcourt.com^
 ||blemishwillingpunishment.com^
 ||blend.com/event/
@@ -55623,6 +55636,7 @@ zyro.com##.zyro-cookies
 ||buzzads.com^
 ||buzzardcraizey.com^
 ||buzzcity.net^
+||buzzdancing.com^
 ||buzzdeck.com^
 ||buzzdeck.com^$third-party
 ||buzzfeed.at/bi/bootstrap/
@@ -56940,6 +56954,7 @@ zyro.com##.zyro-cookies
 ||cdn12359286.ahacdn.me^
 ||cdn2.crispadvertising.com^
 ||cdn2.moji002.com^
+||cdn22904910.ahacdn.me^
 ||cdn259.talksport.com^
 ||cdn28786515.ahacdn.me^
 ||cdn2cdn.me^
@@ -56973,6 +56988,7 @@ zyro.com##.zyro-cookies
 ||cdncounter.top^
 ||cdncreative-onead.cdn.hinet.net^
 ||cdnfile.xyz^
+||cdnfimgs.com^
 ||cdnfreemalva.com^
 ||cdngain.com^
 ||cdngcloud.com^
@@ -57066,6 +57082,8 @@ zyro.com##.zyro-cookies
 ||ceekougy.net^
 ||ceeleeca.com^
 ||ceemoptu.xyz^
+||ceeqgwt.com^
+||cegadazwdsp.com^
 ||cegrithy.net^
 ||ceh.cehbh.com^
 ||cehuiy.com^
@@ -57274,8 +57292,10 @@ zyro.com##.zyro-cookies
 ||chairgaubsy.com^
 ||chairmansmile.com^
 ||chairscrack.com^
+||chairsdonkey.com^
 ||chairwaydenew.site^
 ||chaisewharry.top^
+||chaistos.net^
 ||chajagibbous.com^
 ||chalaips.com^
 ||chalkoil.com^
@@ -57611,6 +57631,7 @@ zyro.com##.zyro-cookies
 ||chokedstarring.com^
 ||chokeweaknessheat.com^
 ||chokupsupto.com^
+||cholatetapalos.com^
 ||cholo101.cn^
 ||cholo215.cn^
 ||cholor201015.cn^
@@ -57864,6 +57885,7 @@ zyro.com##.zyro-cookies
 ||ckjyck.qxs.la^
 ||cklithuw.xyz^
 ||ckmap.mediav.com^
+||ckmbig.xyz^
 ||ckofrnk.com^
 ||ckohixbcyzm.com^
 ||ckozwx.n11.com^
@@ -58224,6 +58246,7 @@ zyro.com##.zyro-cookies
 ||clickonometrics.pl^$third-party
 ||clickopop1000.com^
 ||clickosmedia.com^
+||clickoutcare.io^
 ||clickpapa.com^
 ||clickpathmedia.com^
 ||clickpathmedia.com^$third-party
@@ -60046,6 +60069,7 @@ zyro.com##.zyro-cookies
 ||coop.pop.baofeng.com^
 ||coop.vmware.com^
 ||cooperation.html5.qq.com^
+||cooperativechuckledhunter.com^
 ||cooperativepassenger.com^
 ||coordinatedbedroom.com^
 ||coordinatedcoat.com^
@@ -60653,8 +60677,10 @@ zyro.com##.zyro-cookies
 ||creative-bars1.com^
 ||creative-serving.com^
 ||creative-thought.pro^
+||creative.141live.com^
 ||creative.favy.cam^
 ||creative.jdkic.com^
+||creative.kbnmnl.com^
 ||creative.live.javhdporn.net^
 ||creative.live.javmix.tv^
 ||creative.live.missav.com^
@@ -61089,6 +61115,7 @@ zyro.com##.zyro-cookies
 ||culture.intermedes.com^
 ||culturedcamera.com^
 ||culturedcrayon.com^
+||culturedfeather.com^
 ||cumbersomeastonishedsolemn.com^
 ||cumbersomebonus.com^
 ||cumbersomecake.com^
@@ -61901,6 +61928,7 @@ zyro.com##.zyro-cookies
 ||d2i55s0cnk529c.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
 ||d2it3a9l98tmsr.cloudfront.net^
+||d2izcn32j62dtp.cloudfront.net^
 ||d2j042cj1421wi.cloudfront.net^
 ||d2j1fszo1axgmp.cloudfront.net^
 ||d2j71mqxljhlck.cloudfront.net^
@@ -62510,6 +62538,7 @@ zyro.com##.zyro-cookies
 ||dangerouslyblemishsweater.com^
 ||dangerouslyeragruff.com^
 ||dangerouslygluttony.com^
+||dangerouswinter.com^
 ||dangerswitty.com^
 ||dangongshijie.com^
 ||danitemalus.life^
@@ -63167,6 +63196,7 @@ zyro.com##.zyro-cookies
 ||dearlyseedsad.com^
 ||dearlystoop.com^
 ||deatchshipsmotor.com^
+||deathssm.com^
 ||deavynuotbrohw.xyz^
 ||deb1.refleximmo-recrutement.com^
 ||debartoloqbacademy.com^
@@ -63239,6 +63269,7 @@ zyro.com##.zyro-cookies
 ||decordingaudied.site^
 ||decoroustitle.com^
 ||decoycreation.com^
+||decreasetome.com^
 ||decreertenet.website^
 ||decurvepon.com^
 ||dedcrfvdj.xyz^
@@ -63998,6 +64029,7 @@ zyro.com##.zyro-cookies
 ||dig.ultimedia.com^
 ||dig.zjurl.cn^
 ||digadser.com^
+||digestiondrawer.com^
 ||digestionheartlesslid.com^
 ||digg.analytics.live.com^
 ||digg.com/library/tracker.js
@@ -64117,6 +64149,7 @@ zyro.com##.zyro-cookies
 ||diningprefixmyself.com^
 ||diningroombutt.com^
 ||diningsovereign.com^
+||dinnerquartz.com^
 ||dinocraft-test.animocabrands.com^
 ||dinomicrummies.com^
 ||dinosaurrestore.com^
@@ -65271,9 +65304,11 @@ zyro.com##.zyro-cookies
 ||draweesjabbers.com^
 ||drawerfontactual.com^
 ||drawermice.com^
+||drawingsingmexican.com^
 ||drawingsugarnegative.com^
 ||drawingwaved.com^
 ||drawingwheels.com^
+||drawlycusec.com^
 ||drawnperink.com^
 ||drawpad.org^
 ||drawservant.com^
@@ -65639,6 +65674,7 @@ zyro.com##.zyro-cookies
 ||dulcormutated.com^
 ||dulewang.com^
 ||dulillipupan.com^
+||dullstory.pro^
 ||dulogav.com^
 ||dulojet.com^
 ||dulosqatkrk.com^
@@ -66626,6 +66662,7 @@ zyro.com##.zyro-cookies
 ||eacla.com^$third-party
 ||eadirtlseivid.xyz^
 ||eads.to^
+||eafb9d5abc.com^
 ||eagazi.com^
 ||eage.it/count2.php?
 ||eagle-insight.com^
@@ -66758,6 +66795,7 @@ zyro.com##.zyro-cookies
 ||easyvids.space^
 ||eat.newtrina.com^
 ||eat9.thebeat925.ca^
+||eatablesquare.com^
 ||eatasesetitoefanyo.info^
 ||eatencurvature.com^
 ||eatengossipyautomobile.com^
@@ -66948,6 +66986,7 @@ zyro.com##.zyro-cookies
 ||ecipientconcertain.info^
 ||ecityalittl.buzz^
 ||eclatedpewy.com^
+||eclatssaic.guru^
 ||eclebgjz.com^
 ||eclick.120ask.com^
 ||eclick.360doc.com^
@@ -67497,6 +67536,7 @@ zyro.com##.zyro-cookies
 ||elbowfixes.com^
 ||elbowrevolutionary.com^
 ||elbowsmouldoral.com^
+||elderlybean.com^
 ||elderlyinsect.com^
 ||elderlyscissors.com^
 ||elderlytown.com^
@@ -69108,6 +69148,7 @@ zyro.com##.zyro-cookies
 ||exhno.com^
 ||exi8ef83z9.com^
 ||exinepenname.top^
+||existencethrough.com^
 ||existingcraziness.com^
 ||exists-mazard.icu^
 ||existsdesist.com^
@@ -69299,6 +69340,7 @@ zyro.com##.zyro-cookies
 ||eyomusbsxrib.com^
 ||eyouv.cn^
 ||eypeole.com^
+||eypqbjju.xyz^
 ||eyq3nog.icu^
 ||eyquvllh.com^
 ||eyrarbuggers.com^
@@ -69414,6 +69456,7 @@ zyro.com##.zyro-cookies
 ||f48d1c06e4.com^
 ||f4906b7c15ba.com^
 ||f4961f1b2e.com^
+||f4nfg.site^
 ||f5.dfcwg.com^
 ||f5.mtqys.com^
 ||f5.track-mv-01.com^
@@ -69565,6 +69608,7 @@ zyro.com##.zyro-cookies
 ||faithcollarhook.com^
 ||faithfulfacultativeladder.com^
 ||faithfullyprotectionundo.com^
+||faithiqs.com^
 ||faitis.com^
 ||faiverty-station.com^
 ||fakeallow.com^
@@ -70032,6 +70076,7 @@ zyro.com##.zyro-cookies
 ||feignoccasionedmound.com^
 ||feignthat.com^
 ||feih.com.cn^
+||feijied.xyz^
 ||feild.xyz^
 ||feiln.xyz^
 ||feiriegershon.com^
@@ -70201,6 +70246,7 @@ zyro.com##.zyro-cookies
 ||fgre9.top^
 ||fgrvbkquwurttn.com^
 ||fgttbz.xyz^
+||fguhyg.cn^
 ||fgxfnkiojgs.com^
 ||fh259by01r25.com^
 ||fhddnh.xyz^
@@ -71233,6 +71279,7 @@ zyro.com##.zyro-cookies
 ||frailoffer.com^
 ||frailshootingexamination.com^
 ||frame.enet.com.cn^
+||framebanana.com^
 ||framentyder.pro^
 ||frameperfect.speedrun.com^
 ||frameworkdeserve.com^
@@ -71784,6 +71831,7 @@ zyro.com##.zyro-cookies
 ||fwcdn3.com^
 ||fweia.xyz^
 ||fwepd.xyz^
+||fwhhcpj.xyz^
 ||fwix.com/ref.js
 ||fwix.com^
 ||fwix.com^*/trackclicks_
@@ -71827,6 +71875,7 @@ zyro.com##.zyro-cookies
 ||fyreball.com^
 ||fyreball.com^$third-party
 ||fyrsbckgi-c.global.ssl.fastly.net^
+||fytpft.xyz^
 ||fywfld.fjellsport.no^
 ||fywuywf.cn^
 ||fyznhp8inq9x.jaywilsonwebsolutions.com^
@@ -71927,6 +71976,7 @@ zyro.com##.zyro-cookies
 ||g.zhoukaika.com^
 ||g.zx-jsp.com^
 ||g0cu3.top^
+||g0fc3.com^
 ||g0gr67p.de^
 ||g0wow.net^
 ||g1.08160.cn^
@@ -72280,6 +72330,7 @@ zyro.com##.zyro-cookies
 ||gc.zgo.at^$third-party
 ||gcapi.sy.kugou.com^
 ||gcbflvx.cn^
+||gcbtgh26.xyz^
 ||gccmembershiprewards.americanexpress.it^
 ||gcejdac.cn^
 ||gcgggct.cn^
@@ -72904,6 +72955,7 @@ zyro.com##.zyro-cookies
 ||ggsafe.com^
 ||ggsbjzyo.com^
 ||ggsfq.com^
+||ggsfq.xyz^
 ||ggtp-1255424916.cos.ap-chengdu.myqcloud.com^
 ||ggv.cmvideo.cn^
 ||ggw.gusuwang.com^
@@ -73037,8 +73089,10 @@ zyro.com##.zyro-cookies
 ||github.dev/diagnostic?
 ||gitoku.com^
 ||giufjcfjdv.com^
+||giveesqtnq.com^
 ||givemysoft.ru^
 ||givenconserve.com^
+||givesboranes.com^
 ||givevacation.com^
 ||givevacation.com^$third-party
 ||givide.com^
@@ -74145,6 +74199,7 @@ zyro.com##.zyro-cookies
 ||grandeursway.com^
 ||grandfathercancelling.com^
 ||grandfatherguitar.com^
+||grandiosefire.com^
 ||grandioseguide.com^
 ||grandlay.pro^
 ||grandmotherfoetussadly.com^
@@ -74715,6 +74770,7 @@ zyro.com##.zyro-cookies
 ||gynicsperdy.top^
 ||gypowdr.com^
 ||gypsiedjilt.com^
+||gypufahuyhov.xyz^
 ||gyq3bew.icu^
 ||gyqifa.com^
 ||gyradiko.openapp.link^
@@ -74868,6 +74924,7 @@ zyro.com##.zyro-cookies
 ||hacde5.icu^
 ||hacde6.icu^
 ||hackeraa.xyz^
+||hadabqhbewcrt.com^
 ||hades.qyer.com^
 ||hadesleta.com^
 ||hadeti.xyz^
@@ -75068,6 +75125,7 @@ zyro.com##.zyro-cookies
 ||harborcub.com^
 ||hardboileddearlyaccomplish.com^
 ||hardboiledraspexisting.com^
+||harderdaubpetty.com^
 ||hardilyshook.com^
 ||hardtofindmilk.com^
 ||hardwaretakeoutintimidate.com^
@@ -75195,6 +75253,7 @@ zyro.com##.zyro-cookies
 ||hawsuffer.com^
 ||haxbyq.com^
 ||haxd7.top^
+||haxqxd.xyz^
 ||hayfatduh.com^
 ||haymarket.com/injector/deliver/
 ||haymarketstat.de^
@@ -75835,6 +75894,7 @@ zyro.com##.zyro-cookies
 ||hingfruitiesma.info^
 ||hinkhimunpra.info^
 ||hinkhimunpractical.com^
+||hinm.online^
 ||hinoglauk.com^
 ||hinoidczarist.com^
 ||hinowlfuhrz.com^
@@ -76087,6 +76147,7 @@ zyro.com##.zyro-cookies
 ||hkjjfpkghxec.xyz^
 ||hkk456.cc^
 ||hkkeafj.cn^
+||hkljed.xyz^
 ||hkoxlirf.com^
 ||hkrpg-log-upload.mihoyo.com^
 ||hkrytf.xyz^
@@ -76251,6 +76312,7 @@ zyro.com##.zyro-cookies
 ||hola.xebel.co^
 ||holder.com.ua^
 ||holder.com.ua^$third-party
+||holdntlc.com^
 ||holdonstranger.com^
 ||holdonstranger.com^$third-party
 ||holdsbracketsherry.com^
@@ -76319,6 +76381,7 @@ zyro.com##.zyro-cookies
 ||hoo1luha.com^
 ||hoodcapunbane.digital^
 ||hoodline.com^
+||hooe.top^
 ||hoofexcessively.com^
 ||hoogajee.net^
 ||hoojique.xyz^
@@ -77261,6 +77324,7 @@ zyro.com##.zyro-cookies
 ||ibdjdtmkq.xyz^
 ||ibeat-analytics.com^
 ||ibeat-analytics.com^$third-party
+||ibeelten.net^
 ||ibf.smrtp.link^
 ||ibgksw.xyz^
 ||ibidemkorari.com^
@@ -77678,6 +77742,7 @@ zyro.com##.zyro-cookies
 ||ileacfaretta.digital^
 ||ilealscathes.com^
 ||ileeckut.com^
+||ileled.xyz^
 ||ilepai.com^
 ||ilepwo.bonprix.at^
 ||iletterismyper.info^
@@ -78508,6 +78573,7 @@ zyro.com##.zyro-cookies
 ||inauknceiwouldlikuk.info^
 ||inbbredraxing.com^
 ||inbdmaza.com^
+||inbdorenda.com^
 ||inboldoreer.com^
 ||inbornsodcharms.com^
 ||inbound-analytics.pixlee.co^
@@ -78832,6 +78898,7 @@ zyro.com##.zyro-cookies
 ||infoq.com/metrics/
 ||inform.fsm.kz^
 ||inform.janssenpro.eu^
+||informantbartonharass.com^
 ||informatics.filamentcolors.xyz^
 ||informatie.communicatie.nn.nl^
 ||informatie.mail.nn.nl^
@@ -79133,6 +79200,7 @@ zyro.com##.zyro-cookies
 ||instapage.com^$third-party,domain=~pagedemo.co
 ||instapagemetrics.com^
 ||instapagemetrics.com^$third-party
+||instaruptilt.com^
 ||insteadprincipleshearted.com^
 ||insticator.com^
 ||instiengage.com^
@@ -79522,6 +79590,7 @@ zyro.com##.zyro-cookies
 ||ip2phrase.com^
 ||ip2phrase.com^$third-party
 ||ip7prksb2muxvmmh25t6rxl2te0tfulc.lambda-url.eu-west-1.on.aws^
+||ipad.pc899.cn^
 ||ipaddresslabs.com^
 ||ipaddresslabs.com^$third-party
 ||ipadf.xyz^
@@ -80186,6 +80255,8 @@ zyro.com##.zyro-cookies
 ||jamsoulsfriday.com^
 ||jan19.zhiyueit.com^
 ||jandaqwe.com^
+||jane1.top^
+||jane2.top^
 ||janendark.life^
 ||jangomail.com^*?UID$third-party
 ||jangonetwork.com^
@@ -81599,6 +81670,7 @@ zyro.com##.zyro-cookies
 ||jystea.com^
 ||jyt58.top^
 ||jytjw.com^
+||jyuirxswk.com^
 ||jyvith.xyz^
 ||jyxfvp.xyz^
 ||jyz.fjtzjy.com^
@@ -82067,6 +82139,7 @@ zyro.com##.zyro-cookies
 ||khayatarai.com^
 ||khekwufgwbl.com^
 ||khfiwx.sephora.com.br^
+||khfpcxqwrauj.com^
 ||khg.xinrongblg.com^
 ||khgj.cn^
 ||khgjfm16.com^
@@ -82348,6 +82421,7 @@ zyro.com##.zyro-cookies
 ||kmjbwejnr.xyz^
 ||kmjndas.com^
 ||kmkixuha.com^
+||kmlpgjh.xyz^
 ||kmlvdhequlpli.com^
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||kmmsfoqbhc.xyz^
@@ -82474,6 +82548,7 @@ zyro.com##.zyro-cookies
 ||koatkm.xyz^
 ||kob.adxkj.com^
 ||kobeden.com^
+||kocairdo.net^
 ||kocaisin.xyz^
 ||kochava.com/track/$third-party
 ||kochava.com^
@@ -82838,6 +82913,7 @@ zyro.com##.zyro-cookies
 ||kxm1b0u.com^
 ||kxmav2.com^
 ||kxmrwu.ibarakinews.jp^
+||kxnaaxml.com^
 ||kxnggkh2nj.com^
 ||kxrcjhogag.ru^
 ||kxshyo.com^
@@ -83709,6 +83785,7 @@ zyro.com##.zyro-cookies
 ||lewd.ninja^
 ||lewdlygrips.top^
 ||lewenma.com/js/read.js
+||lewhrzv.xyz^
 ||lewqiiy.xyz^
 ||lexemeowhere.digital^
 ||lexicoggeegaw.website^
@@ -84897,6 +84974,7 @@ zyro.com##.zyro-cookies
 ||lknqfn.furla.com^
 ||lkoobbpti.com^
 ||lkoqtvvajktpjsk.xyz^
+||lkot.top^
 ||lkpmprksau.com^
 ||lkqd.net^
 ||lkqpxhw.com^
@@ -84924,6 +85002,7 @@ zyro.com##.zyro-cookies
 ||llk.dlingtalk.cn^
 ||llkdiu.chacos.com^
 ||llmeocaptainh.com^
+||llmxt.fun^
 ||llntrack.messe-duesseldorf.de^
 ||llnw.net^
 ||llnxdx.xyz^
@@ -85293,6 +85372,7 @@ zyro.com##.zyro-cookies
 ||logging.api.intuit.com^
 ||logging.carambo.la^
 ||logging.je-apps.com^
+||logging.pw.adn.cloud^
 ||loggingapi.spingo.com^
 ||loggly.com^$third-party
 ||loggychops.paulsmith.site^
@@ -85663,6 +85743,7 @@ zyro.com##.zyro-cookies
 ||lrkenrerjkljb.top^
 ||lrlsrz.xyz^
 ||lrp7.carrefour-banque.fr^
+||lrqknpk.com^
 ||lrqpyhn.icu^
 ||lrqvmaverkabb.top^
 ||lrswl.com^
@@ -89757,6 +89838,7 @@ zyro.com##.zyro-cookies
 ||mhxk.com^*/main/entry.common.$script
 ||mhysbwo.xyz^
 ||mhz-design.actonservice.com^
+||mhzftye.xyz^
 ||mi-de-ner-nis3.info^
 ||mi.academy.com/p/js/1.js
 ||mi.com/stat/
@@ -89975,6 +90057,7 @@ zyro.com##.zyro-cookies
 ||miniapp.bilibili.com^
 ||miniapp.qiluyidian.mobi^
 ||miniaturechain.pro^
+||miniatureoffer.pro^
 ||minidcsc.kugou.com^
 ||miniglobalcitizens.com^
 ||minimumacquitteam.com^
@@ -91340,6 +91423,7 @@ zyro.com##.zyro-cookies
 ||muntiglesia.com^
 ||muppvq.cocooncenter.co.uk^
 ||mupyfpimgnvqdgy.com^
+||muragetunnel.com^
 ||muragon.com/js/normal/gtag-event.js
 ||muralattentive.com^
 ||muralshelvesdeposition.com^
@@ -93669,6 +93753,7 @@ zyro.com##.zyro-cookies
 ||nyfgpbsc.xyz^
 ||nyfoknamlrqxc.com^
 ||nygwcwsvnu.com^
+||nyhgjmlg.xyz^
 ||nyhgvn.xyz^
 ||nyhpyq.com^
 ||nyhrgss.com^
@@ -94954,6 +95039,7 @@ zyro.com##.zyro-cookies
 ||operateheavilyswiftinfo-file.info^
 ||operatepreciseheavilyinfo-product.info^
 ||operationchicken.com^
+||operationnail.com^
 ||operch.com^
 ||operms.com^
 ||opgge.xyz^
@@ -95289,6 +95375,7 @@ zyro.com##.zyro-cookies
 ||oslbahk.top^
 ||osm-onead.cdn.hinet.net^
 ||osmanlikaraite.com^
+||osmatecosh.com^
 ||osmosewatch.top^
 ||osmost.com^
 ||osmoticchalah.com^
@@ -95594,6 +95681,7 @@ zyro.com##.zyro-cookies
 ||ouyhh.xyz^
 ||ouypyu.xyz^
 ||ouzavamt.com^
+||ouzeelre.net^
 ||ouzekomtok.com^
 ||ovalweek.com^
 ||ovariesutopia.com^
@@ -95685,6 +95773,7 @@ zyro.com##.zyro-cookies
 ||owiurjngsd.com^
 ||owjbiwpkaoc.com^
 ||owjqox.vacansoleil.de^
+||owkmmo.xyz^
 ||owktyvky.com^
 ||owkuwquf.com^
 ||owlcongratulate.com^
@@ -95735,6 +95824,7 @@ zyro.com##.zyro-cookies
 ||oxlfhifzfynll.com^
 ||oxmqzeszyo.com^
 ||oxo.jilinfurong.com^
+||oxrvfsi.xyz^
 ||oxthrilled.com^
 ||oxtracking.com^
 ||oxtrmw.marinarinaldi.com^
@@ -96505,6 +96595,7 @@ zyro.com##.zyro-cookies
 ||paucityirido.space^
 ||pauewr4cw2xs5q.com^
 ||pauhoano.com^
+||paujudih.xyz^
 ||paulinruntime.digital^
 ||paulty.com^
 ||paurozel.net^
@@ -98118,6 +98209,7 @@ zyro.com##.zyro-cookies
 ||player.ooyala.com/errors/report?
 ||player.quankan.tv^
 ||player.sendtonews.com^
+||playeranyd.org^
 ||playerassets.info^
 ||playercdn.net^
 ||playerseo.club^
@@ -98385,6 +98477,7 @@ zyro.com##.zyro-cookies
 ||poined.com^
 ||poinsk.com^
 ||pointclicktrack.com^
+||pointdigestion.com^
 ||pointed-deal.pro^
 ||pointeddifference.com^
 ||pointillist.com^
@@ -99489,6 +99582,7 @@ zyro.com##.zyro-cookies
 ||prosecutorcommaeligible.com^
 ||prosecutorkettle.com^
 ||proseoverlook.com^
+||prositzapas.com^
 ||prospectconductorcheerfully.com^
 ||prospecteye.com^
 ||prospecteye.com^$third-party
@@ -99635,6 +99729,7 @@ zyro.com##.zyro-cookies
 ||psbiaf.converse.com^
 ||psclicks.com^
 ||psdn.xyz^
+||pseeghud.com^
 ||pseekree.com^
 ||pseekseecm.com^
 ||pseemsee.com^
@@ -100674,6 +100769,7 @@ zyro.com##.zyro-cookies
 ||qgoqkcpw.xyz^
 ||qgrnyis.cn^
 ||qgsgnqhqgjw.com^
+||qgsjtgvjz.com^
 ||qgumjp.asiae.co.kr^
 ||qguwoq.cn^
 ||qgxbluhsgad.com^
@@ -100977,6 +101073,7 @@ zyro.com##.zyro-cookies
 ||qqkzjpupluv.com^
 ||qqlnvwjtjhve.com^
 ||qqlogo.qq.com^
+||qqmhh.com^
 ||qqmvwjvrlyery.top^
 ||qqnde.xyz^
 ||qqnggnsy.fun^
@@ -101016,6 +101113,7 @@ zyro.com##.zyro-cookies
 ||qrius.me^
 ||qrjxween.com^
 ||qrlsx.com^
+||qroagwadndwy.com^
 ||qrprobopassor.com^
 ||qrrhvh.propertyfinder.ae^
 ||qrrl.cwj2h.cn^
@@ -101476,6 +101574,7 @@ zyro.com##.zyro-cookies
 ||radeant.com^
 ||radiancethedevice.com^
 ||radiancewoebun.com^
+||radiantcanopy.com^
 ||radiantskilled.com^
 ||radiateb2b.com^
 ||radiateb2b.com^$third-party
@@ -102026,6 +102125,7 @@ zyro.com##.zyro-cookies
 ||recds7.icu^
 ||recds8.icu^
 ||recedewell.com^
+||receiptcent.com^
 ||recentalsindu.com^
 ||recentlymourning.com^
 ||recentrecentboomsettlement.com^
@@ -102413,6 +102513,7 @@ zyro.com##.zyro-cookies
 ||relateimpulse.com^
 ||relatelocateapology.com^
 ||relatf.com^
+||relationrest.com^
 ||relations.extrahop.com^
 ||relationsquiver.com^
 ||relativefraudulentprop.com^
@@ -102906,6 +103007,7 @@ zyro.com##.zyro-cookies
 ||retrievebuoyancy.com^
 ||retrosshowily.com^
 ||retryngs.com^
+||rett.top^
 ||rettica.com^
 ||rettica.com^$third-party
 ||retty.me/gen204.php
@@ -103051,6 +103153,7 @@ zyro.com##.zyro-cookies
 ||rgiixp.sperry.com^
 ||rglymepfbvdeb.xyz^
 ||rgnlaigz.fun^
+||rgpujh.xyz^
 ||rgrd.xyz^
 ||rgtcqif.com^
 ||rgtqgsgwkopgnf.com^
@@ -103687,6 +103790,7 @@ zyro.com##.zyro-cookies
 ||rqnomljdot.xyz^
 ||rqnvci.com^
 ||rqpcgvey.com^
+||rqrvfp.xyz^
 ||rqtrk.eu^
 ||rqtrk.eu^$domain=stern.de
 ||rqtrk.eu^$third-party
@@ -106643,6 +106747,7 @@ zyro.com##.zyro-cookies
 ||sessionstack.com^$third-party
 ||sestat.baidu.com^
 ||sethiteblindly.guru^
+||setitoefanyor.org^
 ||setonhill.actonservice.com^
 ||setopsdata.com^
 ||setqfx.cn^
@@ -108020,6 +108125,7 @@ zyro.com##.zyro-cookies
 ||slipperysack.com^
 ||slipstream.skyscanner.net^
 ||sljkj.com^
+||slkdfg.com^
 ||sllo.top^
 ||slobcarpstun.com^
 ||sloeri.com^
@@ -110033,6 +110139,7 @@ zyro.com##.zyro-cookies
 ||snailsengine.com^
 ||snailteasesimulator.com^
 ||snakemineral.com^
+||snakeslang.com^
 ||snakesshop.com^
 ||snakesstone.com^
 ||snakestanothia.xyz^
@@ -110171,6 +110278,7 @@ zyro.com##.zyro-cookies
 ||soap-wash.com^
 ||soaperdeils.com^
 ||soapfighters.com^
+||soapps.net^
 ||soaprange.com^
 ||soapsmoke.com^
 ||soapsmoke.com^$third-party
@@ -110249,6 +110357,7 @@ zyro.com##.zyro-cookies
 ||socy.es^$third-party
 ||sod.onelink.me^
 ||sodahead.com^
+||sodainquired.com^
 ||sodallay.com^
 ||sodamash.com^
 ||sodamidhankie.com^
@@ -110477,7 +110586,6 @@ zyro.com##.zyro-cookies
 ||somvprqshxr.com^
 ||son-in-lawmorbid.com^
 ||sonalrecomefuk.info^
-||sonar.viously.com^
 ||sonar6.xy.fbcdn.net.iberostar.com^
 ||soneticscorp.actonservice.com^
 ||song.fanxing.kugou.com^
@@ -113055,6 +113163,7 @@ zyro.com##.zyro-cookies
 ||stingsquirrel.com^
 ||stingsquirrel.com^$third-party
 ||stingycrush.com^
+||stingyshoe.com^
 ||stingystoopedsuccession.com^
 ||stinicf.com^
 ||stinicl.com^
@@ -113304,6 +113413,7 @@ zyro.com##.zyro-cookies
 ||stripe.com/?event=
 ||stripe.com/tracking/
 ||stripe.com^$script,domain=~nextdns.io|~obsidian.md
+||stripedbat.com^
 ||stripedburst.com^
 ||stripedcollar.net^
 ||stripedcollar.net^$third-party
@@ -113407,6 +113517,7 @@ zyro.com##.zyro-cookies
 ||styld-by.com^
 ||styleui.ru^
 ||stylewhiskerscreepy.com^
+||stylishar.com^
 ||stylitics.com/api/engagements
 ||stylliyote.com^
 ||styrianauf.com^
@@ -114106,7 +114217,9 @@ zyro.com##.zyro-cookies
 ||syinga.com^
 ||syjkscy.cn^
 ||sykc.madeindesign.ch^
+||sykfmgu.com^
 ||sylvatealonely.com^
+||sylxisys.com^
 ||symaj.cn^
 ||symbio.actonservice.com^
 ||symbolizebeast.com^
@@ -116735,6 +116848,7 @@ zyro.com##.zyro-cookies
 ||tmmp.io^
 ||tmmp.io^$third-party
 ||tmnbocewmddu.com^
+||tmnsstf.com^
 ||tmochyf.cn^
 ||tmp.hnshanju.com^
 ||tmpbr.getgifted.com^
@@ -116756,6 +116870,7 @@ zyro.com##.zyro-cookies
 ||tmtarget.com/tracking/
 ||tmtrck.com^
 ||tmuseum.com.cn^
+||tmvebl.xyz^
 ||tmvtp.com^
 ||tmvtp.com^$third-party
 ||tmwbszn.icu^
@@ -117225,6 +117340,7 @@ zyro.com##.zyro-cookies
 ||toyota.com/analytics/
 ||toysrestrictcue.com^
 ||tozoruaon.com^
+||tozwrqnq.xyz^
 ||tp.ackermann.ch^
 ||tp.ambria.de^
 ||tp.baur.de^
@@ -120088,6 +120204,7 @@ zyro.com##.zyro-cookies
 ||tunedecided.com^
 ||tunein.com/api/v1/log/
 ||tunerschold.com^
+||tuneshave.com^
 ||tunf12.info^
 ||tunggu.hasdukmerahputih.com^
 ||tunggu.indonesiya.com^
@@ -121456,6 +121573,7 @@ zyro.com##.zyro-cookies
 ||uppereugene.com^
 ||uppilequavers.website^
 ||uppitypartie.website^
+||uppitytime.com^
 ||uppons.com^
 ||uppsyduckan.com^
 ||upravel.com^
@@ -121557,6 +121675,7 @@ zyro.com##.zyro-cookies
 ||urh.tylll.com^
 ||uri6.com^
 ||urimnugocfr.com^
+||urimtats.com^
 ||urinehere.com^
 ||uringherenurew.info^
 ||uriokr.bauhaus.es^
@@ -122099,6 +122218,7 @@ zyro.com##.zyro-cookies
 ||vacant-writer.com^
 ||vacationambulancekin.com^
 ||vacationinvolve.com^
+||vaccinationinvalidphosphate.com^
 ||vaccinationwear.com^
 ||vaccinegrownparliamentary.com^
 ||vacuolewhilter.com^
@@ -122121,6 +122241,7 @@ zyro.com##.zyro-cookies
 ||vaigowoa.com^
 ||vaikdxjegts.com^
 ||vaikijie.net^
+||vaikrywlbmca.com^
 ||vailedapetaly.com^
 ||vainews.cn^
 ||vainfulkmole.com^
@@ -122416,6 +122537,7 @@ zyro.com##.zyro-cookies
 ||velvetnova.com^
 ||vemflutuartambem.com^
 ||vempozah.net^
+||vemtecko.net^
 ||vemtourt.com^
 ||venator.link^
 ||vendexo.com^
@@ -122442,6 +122564,7 @@ zyro.com##.zyro-cookies
 ||venomousclassesjolt.com^
 ||venomoussolidhow.com^
 ||venomousteenage.com^
+||venomousvessel.com^
 ||vente-unique.*^
 ||ventilatorcorrupt.com^
 ||ventivmedia.com^
@@ -122707,6 +122830,7 @@ zyro.com##.zyro-cookies
 ||video.wap.mpush.qq.com^
 ||video231.oss-cn-beijing.aliyuncs.com^
 ||videoaccess.xyz^
+||videoamp.com^
 ||videoamp.com^$third-party
 ||videobaba.xyz^
 ||videocampaign.co^
@@ -123431,6 +123555,7 @@ zyro.com##.zyro-cookies
 ||vroaafoi.com^
 ||vroom.be^*/stats.js?
 ||vroom.be^*/stats.php?
+||vrosqolcg.com^
 ||vrr.name^
 ||vrstage.com^
 ||vrtzads.com^
@@ -125048,6 +125173,7 @@ zyro.com##.zyro-cookies
 ||whotrundledthe.com^
 ||whoumtip.xyz^
 ||whoungoz.net^
+||whounoag.xyz^
 ||whourgie.com^
 ||whoursie.com^
 ||whoururt.xyz^
@@ -129222,6 +129348,7 @@ zyro.com##.zyro-cookies
 ||zatloudredr.com^
 ||zatnoh.com^
 ||zatsubitown.com/mailfriend/kaiseki
+||zattdf.xyz^
 ||zaubanel.com^
 ||zaucharo.xyz^
 ||zauglomo.net^
@@ -129561,6 +129688,7 @@ zyro.com##.zyro-cookies
 ||zhangxinzhixun.com^
 ||zhangyumo.top^
 ||zhangyunxiawinner.top^
+||zhangyuting04.cn^
 ||zhannei-dm.csdn.net^
 ||zhantai.com^
 ||zhanzhang.baidu.com/push.js
@@ -130154,6 +130282,7 @@ zyro.com##.zyro-cookies
 ||zzhssy.cn^
 ||zzisnvb.cn^
 ||zzjs2.firefang.cn^
+||zzjwblqbwlrnj.top^
 ||zzkwsosixkdu.com^
 ||zzm.cn^
 ||zzmyrz.com^
