@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-24 09:04:40（北京时间） 
-! Total count: 130785
+! Version: 2023-11-24 20:21:10（北京时间） 
+! Total count: 130776
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18393,6 +18393,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /magento/page-visit?
 /magento2.js
 /magnet/render.
+/magpie.js
 /mail-stat.airdroid.com/*$image
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
@@ -50508,7 +50509,7 @@ zyro.com##.zyro-cookies
 ||appmetrica.yandex.com^
 ||appmetrica.yandex.com^$third-party
 ||appmetrica.yandex.ru^
-||appmifile.com^*/stat/
+||appmifile.com/webfile/globalweb/stat/
 ||appn.center^
 ||appn.center^$third-party
 ||appnext.com^
@@ -51345,7 +51346,7 @@ zyro.com##.zyro-cookies
 ||atticshepherd.com^
 ||attitudeflycinema.com^
 ||attlesuling.com^
-||attn.tv/impression?
+||attn.tv/tag/
 ||attn.tv^*/dtag.js
 ||attr-2p.com^
 ||attr-2p.com^$third-party
@@ -52448,8 +52449,6 @@ zyro.com##.zyro-cookies
 ||banggood.com/collectException
 ||bangingpunk.com^
 ||bangkokpost.com/hits/
-||bango.net/exid/*.gif?
-||bango.net/id/*.gif?
 ||bangrighteous.com^
 ||bangrongjinfu.com^
 ||bangtopads.com^
@@ -52524,7 +52523,7 @@ zyro.com##.zyro-cookies
 ||baptisttop1000.com^
 ||baptisttop1000.com^$third-party
 ||baptrqyesunv.xyz^
-||baqend.com/v1/rum/$third-party
+||baqend.com/v1/rum/
 ||bar.baidu.com^
 ||barbabridgeoverprotective.com^
 ||barbariannumerous.com^
@@ -52689,7 +52688,6 @@ zyro.com##.zyro-cookies
 ||baywttgdhe.do^
 ||baywttgdhe.download^
 ||bazaarvoice.com/sid.gif
-||bazaarvoice.com^*/magpie.js
 ||bazaki.xyz^
 ||bazamodov.ru^
 ||bazhigu.com^
@@ -55410,7 +55408,6 @@ zyro.com##.zyro-cookies
 ||buezsud.com^
 ||buf.lemonde.fr^
 ||buffaloexemptdropped.com^
-||bufferapp.com/wf/open?upn=$third-party
 ||buffersling.com^
 ||bufpieyk.com^
 ||buggerygruffed.com^
@@ -56680,8 +56677,6 @@ zyro.com##.zyro-cookies
 ||cbs.wondershare.com^
 ||cbsaavideo.com/measurements/
 ||cbsi.com.cn/js/dw.js
-||cbsi.com/lib/api/client-info
-||cbsistatic.com^*/siteTracking.js
 ||cbsivideo.com/measurements/
 ||cbtmyonynqhrcdp.xyz^
 ||cbtrk.net^
@@ -56927,7 +56922,6 @@ zyro.com##.zyro-cookies
 ||cdn.tianmidian.com^
 ||cdn.tinglian.com^
 ||cdn.trafficexchangelist.com^
-||cdn.trafficexchangelist.com^$third-party
 ||cdn.upthinking.cn^
 ||cdn.usefathom.com^
 ||cdn.viccscxz.cn^
@@ -56964,7 +56958,6 @@ zyro.com##.zyro-cookies
 ||cdn3.hentaihaven.fun^
 ||cdn3.icast.cn^
 ||cdn3.mancdn88.com^
-||cdn3.net/pixe/
 ||cdn3reference.com^
 ||cdn44221613.ahacdn.me^
 ||cdn4ads.com^
@@ -57138,7 +57131,6 @@ zyro.com##.zyro-cookies
 ||centerattractivehimself.com^
 ||centerblog.net/stats.js
 ||centeredfailinghotline.com^
-||centerix.ru^*/count.msl?
 ||centerresourceseducational.com^
 ||central-core-7.com^
 ||centralcore7.com^
@@ -57425,7 +57417,6 @@ zyro.com##.zyro-cookies
 ||check.ddos-guard.net^
 ||check.ddos-guard.net^$third-party
 ||check.deadlinefunnel.com^
-||check.deadlinefunnel.com^$third-party
 ||checkcdn.net^
 ||checkcriey.website^
 ||checke.biz^
@@ -57627,7 +57618,6 @@ zyro.com##.zyro-cookies
 ||choice.microsoft.com.nsatc.net^
 ||choice.microsoft.com^
 ||choicedorm.top^
-||choicestream.com^*/pixel/
 ||chokedsmelt.com^
 ||chokedstarring.com^
 ||chokeweaknessheat.com^
@@ -57689,9 +57679,6 @@ zyro.com##.zyro-cookies
 ||chsfdfkwsrjwe.xyz^
 ||chshcms.net^
 ||chsrkred.com^
-||chtah.com/a/*/spacer-0.gif$third-party
-||chtah.com^*/1x1.gif
-||chtah.net/a/*/spacer-0.gif$third-party
 ||chtbl.com^$script,third-party,xmlhttprequest
 ||chtntr.com^
 ||chuanmen.mobi^
@@ -60261,6 +60248,7 @@ zyro.com##.zyro-cookies
 ||counter.cam-content.com^
 ||counter.cnw.cz^
 ||counter.cropvid.com^
+||counter.darkreader.app^
 ||counter.de^$third-party
 ||counter.dev^$third-party
 ||counter.drom.ru^
@@ -60574,6 +60562,7 @@ zyro.com##.zyro-cookies
 ||cqfqrvghjgu.com^
 ||cqfygc.xyz^
 ||cqishr.mobile.de^
+||cqloud.com/measurements/
 ||cqlsewa.com^
 ||cqlupb.com^
 ||cqmjjx.cn^
@@ -62588,7 +62577,8 @@ zyro.com##.zyro-cookies
 ||darkestfertil.com^
 ||darking*.tk^
 ||darkoccasion.pro^
-||darkreader.org/elements/statistics.js
+||darkreader.org/data/top-backers.json
+||darkreader.org/elements/backers-
 ||darlingfrightenunit.com^
 ||darneluretic.com^
 ||darren01.oss-cn-beijing.aliyuncs.com^
@@ -63168,6 +63158,7 @@ zyro.com##.zyro-cookies
 ||de17a.com^$third-party
 ||de2nsnw1i3egd.cloudfront.net^
 ||deadlineevaporate.com^
+||deadlinefunnel.com^$third-party
 ||deadly-variety.pro^
 ||deadlyheart.pro^
 ||deadlyrelationship.com^
@@ -65017,6 +65008,7 @@ zyro.com##.zyro-cookies
 ||doppiocdn.org/healthcheck
 ||doppler-beacon.cbsivideo.com^
 ||doppler-beacons.cbsivideo.com^
+||doppler-client-events.cbsivideo.com^
 ||doppler-reporting.cbsivideo.com^
 ||doprinplupr.com^
 ||doptik.ru^
@@ -67810,7 +67802,6 @@ zyro.com##.zyro-cookies
 ||email.info.virginpulse.eu^
 ||email.inteng-testing.com^
 ||email.link.flipgive.com^
-||email.mediafire.com/wf/open?$third-party
 ||email.member.theknot.com^
 ||email.mg.everyonesocial.com^
 ||email.mg.everyonesocial.com^$image,script
@@ -105567,7 +105558,7 @@ zyro.com##.zyro-cookies
 ||screenshot.ninebox.cn^
 ||scribblemidday.com^
 ||scribblestring.com^
-||scribd.com^*/events
+||scribd.com/api/v1/events
 ||scribe.twitter.com^
 ||scribe.wongnai.com^
 ||scribol.com/traffix/widget_tracker/
