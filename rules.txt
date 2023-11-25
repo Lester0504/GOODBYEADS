@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-25 09:03:41（北京时间） 
-! Total count: 130779
+! Version: 2023-11-25 20:19:31（北京时间） 
+! Total count: 130772
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29138,6 +29138,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
+@@||src.litix.io/videojs/*/videojs-mux.js$domain=plus.nasa.gov
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
@@ -58180,15 +58181,10 @@ zyro.com##.zyro-cookies
 ||clickdimensions.com/ts.js
 ||clickening.com^
 ||clickening.com^$third-party
-||clicker.com^*pageurl$third-party
 ||clickexperts.net^
 ||clickeye.cn^
 ||clickferret.com^
 ||clickferret.com^$third-party
-||clickfunnels.com/assets/pushcrew.js$third-party
-||clickfunnels.com/cf.js
-||clickfunnels.com/userevents/
-||clickfunnels.com^*/track?
 ||clickfuse.com^
 ||clickgate.biz^
 ||clickgate08.biz^
@@ -58204,8 +58200,6 @@ zyro.com##.zyro-cookies
 ||clickinc.com^
 ||clickintext.com^
 ||clickintext.net^
-||clickiocdn.com/clickiotag_log/
-||clickiocdn.com/consent/log/
 ||clickiocdn.com/utr/
 ||clickiocmp.com^
 ||clickjs.cnzz.com^
@@ -76660,8 +76654,7 @@ zyro.com##.zyro-cookies
 ||hsdn.org^
 ||hsdn.org^$third-party
 ||hsfbpp.xyz^
-||hsforms.com^*/counters.gif
-||hsforms.com^*/timings.gif$image
+||hsforms.com/embed/v3/counters.gif
 ||hsiaik.com^
 ||hskj88.cn^
 ||hskywgpickh.com^
