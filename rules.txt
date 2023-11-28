@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-27 20:29:10（北京时间） 
-! Total count: 130885
+! Version: 2023-11-28 08:54:21（北京时间） 
+! Total count: 130925
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28650,6 +28650,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-msp*.18comic.*^
 @@||cdn-net.com/cc.js
+@@||cdn.cquotient.com/js/$domain=fender.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
@@ -28751,6 +28752,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||dynamicyield.com/scripts/*/dy-coll-nojq-min.js$domain=gigasport.at|gigasport.ch|gigasport.de
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
+@@||e.cquotient.com/recs/$script,domain=fender.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
@@ -33505,6 +33507,7 @@ ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV
 ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-sns:first-child > DIV.c-header-sns__wrapper > DIV.c-header-sns__about:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
 ifema.es###cookies
 ifeng.com##[class^='index_bottom_box']
+ifeng.com##[class^='index_fixSlideBox']
 ifeng.com##[class^='index_pageBottomBrand']
 ifeng.com##[class^='index_wutong']
 ifeng.com##[href^='https://mall.ifeng.com'],IMG[class^='picMark-'][src^='https://x0.ifengimg.com/']
@@ -45487,6 +45490,7 @@ zyro.com##.zyro-cookies
 ||achuphaube.com^
 ||achurt.com^
 ||achyrepeatitchy.com^
+||acidicstraw.com^
 ||acidpigs.com^
 ||acinicmislaid.com^
 ||acint.net^
@@ -45535,6 +45539,7 @@ zyro.com##.zyro-cookies
 ||acrakjrzonm.com^
 ||acrepantherrecite.com^
 ||acrevenene.com^
+||acridangle.com^
 ||acridtubsource.com^
 ||acridtwist.com^
 ||acro.egghead.link^
@@ -47951,6 +47956,7 @@ zyro.com##.zyro-cookies
 ||agrantsem.com^
 ||agrarianbeepsensitivity.com^
 ||agreeable-target.pro^
+||agreeablearch.com^
 ||agreeableopinion.pro^
 ||agreeablestew.com^
 ||agreeabletouch.com^
@@ -51075,6 +51081,7 @@ zyro.com##.zyro-cookies
 ||aspignitean.com^
 ||aspireetopee.com^
 ||aspirerrehedge.life^
+||aspiringapples.com^
 ||aspiringattempt.com^
 ||aspservice.jp^
 ||aspservice.jp^$third-party
@@ -51614,6 +51621,7 @@ zyro.com##.zyro-cookies
 ||automaticallyindecisionalarm.com^
 ||automaticflock.com^
 ||automaticside.com^
+||automaticturkey.com^
 ||automizely-analytics.com^
 ||automizely-analytics.com^$third-party
 ||automobile.it/fb/
@@ -52381,6 +52389,7 @@ zyro.com##.zyro-cookies
 ||bait4role.com^
 ||baitaiad.com^
 ||baitaiz.com^
+||baitbaseball.com^
 ||baithoph.net^
 ||baitikoam.com^
 ||baitu1llbkotsfthllcjeg.com^
@@ -52542,6 +52551,7 @@ zyro.com##.zyro-cookies
 ||bar.baidu.com^
 ||barbabridgeoverprotective.com^
 ||barbariannumerous.com^
+||barbarousbase.com^
 ||barbarousnerve.com^
 ||barbedabout.com^
 ||barbedgoodnight.com^
@@ -57303,6 +57313,7 @@ zyro.com##.zyro-cookies
 ||chainwalladsy.com^
 ||chaiphuy.com^
 ||chaiptut.xyz^
+||chaireggnog.com^
 ||chairgaubsy.com^
 ||chairmansmile.com^
 ||chairscrack.com^
@@ -58453,6 +58464,7 @@ zyro.com##.zyro-cookies
 ||clorec2.net^
 ||closed-consequence.com^
 ||closedcows.com^
+||closefriction.com^
 ||closvisarga.com^
 ||clotezar.com^
 ||clotfun.mobi^
@@ -60709,6 +60721,7 @@ zyro.com##.zyro-cookies
 ||creativesumo.com^
 ||creativetourlips.com^
 ||creator.zmags.com^
+||creatorcherry.com^
 ||creatorcloakroomborrowed.com^
 ||creawww.top^
 ||crectipumlu.com^
@@ -66852,6 +66865,7 @@ zyro.com##.zyro-cookies
 ||ebaystatic.com^*/pulsar.js
 ||ebaystatic.com^*/rover_$script
 ||ebaystatic.com^*/tracking_RaptorheaderJS.js
+||ebaystatic.com^*tracking/configuration.js
 ||ebbetsgourded.com^
 ||ebc1.capifrance.fr^
 ||ebcfjgnjw.com^
@@ -68189,6 +68203,7 @@ zyro.com##.zyro-cookies
 ||enterprises.proximus.be^
 ||entertainedshook.com^
 ||entertainingeyes.com^
+||entertainskin.com^
 ||enthronesacrifice.com^
 ||enthusiastgaming.net^
 ||enthusiasticdad.com^
@@ -69316,6 +69331,7 @@ zyro.com##.zyro-cookies
 ||extremiu.top^
 ||extrer.com^
 ||extstat.com^
+||exuberantedge.com^
 ||exuberanteyes.com^
 ||exuberantsoda.com^
 ||exultantdrop.com^
@@ -69614,6 +69630,7 @@ zyro.com##.zyro-cookies
 ||fairfaxgeorgianayourself.com^
 ||fairfeeling.com^
 ||fairieflame.com^
+||fairiesbranch.com^
 ||fairiesresorts.com^
 ||fairnesschangingenamel.com^
 ||fairnessels.com^
@@ -71030,6 +71047,7 @@ zyro.com##.zyro-cookies
 ||forgerylimit.com^
 ||forgeryweave.com^
 ||forgetfulflowers.com^
+||forgetfulsnail.com^
 ||forgetinnumerablelag.com^
 ||forgiemaulvi.com^
 ||forgivenesscourtesy.com^
@@ -72524,6 +72542,7 @@ zyro.com##.zyro-cookies
 ||gentian-frd.hjapi.com^
 ||gentlecountries.com^
 ||gentlementoplessrest.com^
+||gentlemoonlight.com^
 ||gentlynudegranny.com^
 ||gentssepa.buzz^
 ||genued.com^
@@ -74208,6 +74227,7 @@ zyro.com##.zyro-cookies
 ||grahamsbandbox.com^
 ||graibsah.xyz^
 ||grailtie.xyz^
+||grainmass.com^
 ||grainsprogenymonarchy.com^
 ||grainsslaughter.com^
 ||grairgos.net^
@@ -74665,6 +74685,7 @@ zyro.com##.zyro-cookies
 ||gullible-lawyer.pro^
 ||gullibleanimated.com^
 ||gulliblecamp.com^
+||gulliblegrip.com^
 ||gullibleguitar.com^
 ||gulperstaunted.website^
 ||gulsyangtao.guru^
@@ -75024,6 +75045,7 @@ zyro.com##.zyro-cookies
 ||halldata.com^$third-party
 ||halleyperson.pro^
 ||hallothoulap.top^
+||hallowedinvention.com^
 ||halltrasy.com^
 ||hallucinatebotany.com^
 ||hallucinatecompute.com^
@@ -75066,6 +75088,7 @@ zyro.com##.zyro-cookies
 ||handlingattic.com^
 ||handlingblare.com^
 ||handll.com^
+||handnorth.com^
 ||handsenvious.com^
 ||handsomehose.com^
 ||handsomeindustry.com^
@@ -75137,6 +75160,7 @@ zyro.com##.zyro-cookies
 ||haphazardbleeding.com^
 ||haphazardfraudulent.com^
 ||hapic1.zhuangxiu22.com^
+||haplessland.com^
 ||haplic.com^
 ||happen.spkt.io^
 ||happenhistory.com^
@@ -75180,6 +75204,7 @@ zyro.com##.zyro-cookies
 ||harmlesstacticalhonorable.com^
 ||harmoniousfamiliar.pro^
 ||harmonypix.com^
+||harmonywing.com^
 ||harn8.info^
 ||harpra-companion-test.harvinar.com^
 ||harpra-companion.harvinar.com^
@@ -76494,6 +76519,7 @@ zyro.com##.zyro-cookies
 ||hosity.com^
 ||hospitablehall.com^
 ||hospitablehall.com^$third-party
+||hospitablehat.com^
 ||hospitabletradition.pro^
 ||hospitality-optimizer.com^
 ||hospitality-optimizer.com^$third-party
@@ -77804,6 +77830,7 @@ zyro.com##.zyro-cookies
 ||illfatedsnail.com^
 ||illfriendship.com^
 ||illicitdandily.cam^
+||illinvention.com^
 ||illips.com^
 ||illishrastus.com^
 ||illiterate-estate.pro^
@@ -84045,6 +84072,7 @@ zyro.com##.zyro-cookies
 ||lightblue.red^
 ||lightboxcdn.com/static/identity.html
 ||lightcushion.com^
+||lightenafterthought.com^
 ||lightfoot.top^
 ||lightlybreathlesspronunciation.com^
 ||lightminer.co^
@@ -89229,6 +89257,7 @@ zyro.com##.zyro-cookies
 ||mellow-game.pro^
 ||mellowbike.com^
 ||mellowbike.com^$third-party
+||mellowmailbox.com^
 ||mellowmd.com^
 ||mellsrecta.com^
 ||meloads.com^
@@ -89257,6 +89286,7 @@ zyro.com##.zyro-cookies
 ||memorandumdismissquietly.com^
 ||memoriagamine.com^
 ||memorizeaestheticspiders.com^
+||memorizeline.com^
 ||memorizematch.com^
 ||memorizeneck.com^
 ||memorycobweb.com^
@@ -91527,6 +91557,7 @@ zyro.com##.zyro-cookies
 ||mutecrane.com^
 ||muteknife.com^
 ||muteknife.com^$third-party
+||mutemailbox.com^
 ||mutenessdollyheadlong.com^
 ||muterange.com^
 ||muterange.com^$third-party
@@ -105473,6 +105504,7 @@ zyro.com##.zyro-cookies
 ||scaredsong.com^
 ||scaredstory.com^
 ||scaredswing.com^
+||scarefowl.com^
 ||scarflaremorally.com^
 ||scarfsmash.com^
 ||scarfsmash.com^$third-party
@@ -106667,6 +106699,7 @@ zyro.com##.zyro-cookies
 ||separatepattern.pro^
 ||separateshow.com^
 ||separatesilver.com^
+||separatesort.com^
 ||separationreverttap.com^
 ||sephur.com^
 ||sepstough.com^
@@ -107060,6 +107093,7 @@ zyro.com##.zyro-cookies
 ||shanorin.com^
 ||shanxicloud.net^
 ||shanyi.info^
+||shapecomb.com^
 ||shapelcounset.xyz^
 ||shapeonefoldonefoldmagistrate.com^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
@@ -111182,6 +111216,7 @@ zyro.com##.zyro-cookies
 ||springmetrics.com^$third-party
 ||springraptureimprove.com^
 ||springsister.com^
+||springsnails.com^
 ||sprintainokeg.xyz^
 ||sprintrade.com^
 ||spritfrees.com^
@@ -113590,6 +113625,7 @@ zyro.com##.zyro-cookies
 ||stupidityficklecapability.com^
 ||stupidscene.com^
 ||stupidsnake.com^
+||sturdysnail.com^
 ||stuted.com^
 ||stuttgarter-nachrichten.de/cre-1.0/tracking/device.js
 ||stvkr.com^
@@ -115107,6 +115143,7 @@ zyro.com##.zyro-cookies
 ||tangxu.xyz^
 ||tangyamount.com^
 ||tangyamount.com^$third-party
+||tangycover.com^
 ||tanjs.com^
 ||tank3pull.com^
 ||tankastapia.com^
@@ -121303,6 +121340,7 @@ zyro.com##.zyro-cookies
 ||unemploymentnumeric.com^
 ||unentsimmends.xyz^
 ||unequalbrake.com^
+||unequaltrail.com^
 ||unequaltravelresearch.com^
 ||unetall.com^
 ||unevenobjective.com^
@@ -121539,6 +121577,7 @@ zyro.com##.zyro-cookies
 ||unwice.com^
 ||unwieldyhealth.com^
 ||unwieldyhealth.com^$third-party
+||unwieldyimpulse.com^
 ||unwieldyplastic.com^
 ||unwieldyplastic.com^$third-party
 ||unwillingsnick.com^
@@ -125164,6 +125203,7 @@ zyro.com##.zyro-cookies
 ||whilefitsaltered.com^
 ||whiletilth.com^
 ||whillfortis.life^
+||whimsicalgrove.com^
 ||whimsoplynx.com^
 ||whineattempt.com^
 ||whinecapicha.space^
