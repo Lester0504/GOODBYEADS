@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-29 20:28:33（北京时间） 
-! Total count: 130793
+! Version: 2023-11-30 08:53:48（北京时间） 
+! Total count: 130796
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16677,6 +16677,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/trackers?
 /analytics/visit.jsp
 /analytics/visit.php
+/analytics/visit?
 /analytics?http_referer
 /analytics?token=
 /analyticsFooter.js
@@ -18110,6 +18111,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /jquery.gatracker.js
 /jquery.google-analytics.js
 /jquery.iframetracker-
+/jquery.iframetracker.min.js
 /jquery.ihavecookies.$domain=~wisla-plock.pl|~danskemedier.dk
 /jquery.rgpd-cookies.js
 /jquery.tipsy.cookie.js
@@ -68123,7 +68125,6 @@ zyro.com##.zyro-cookies
 ||environmentalchangingnative.com^
 ||environmentaltallrender.com^
 ||envoke.com^
-||envoke.com^$third-party
 ||envyindebted.com^
 ||envylavish.com^
 ||enwerzaqqbqnj.top^
@@ -70221,6 +70222,7 @@ zyro.com##.zyro-cookies
 ||file.chanet.com.cn^
 ||file.ipinyou.com.cn^
 ||file3size.com^
+||files.envoke.com^*/adt_nvk_tracking.js
 ||files2.sogou.com^
 ||filesdots.com^
 ||filese.me^
@@ -72019,6 +72021,7 @@ zyro.com##.zyro-cookies
 ||gamblingliquidate.com^
 ||gambolspumicer.com^
 ||game-clicks.com^
+||game-i.daa.jp/skin/analytics.php
 ||game-motivatead.aiclk.com^
 ||game-res.meizu.com^
 ||game.466.com^
