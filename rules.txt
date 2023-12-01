@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-11-30 20:28:33（北京时间） 
-! Total count: 130806
+! Version: 2023-12-01 08:58:26（北京时间） 
+! Total count: 130796
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -11069,6 +11069,7 @@
 ##.cookie-options-hook
 ##.cookie-outer-container
 ##.cookie-outer:not(body):not(html)
+##.cookie-overLay
 ##.cookie-overlay + .cp-wrap
 ##.cookie-overlay-box:not(body):not(html)
 ##.cookie-overlay-modal-box
@@ -15941,7 +15942,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .bmetrack.com/c/$image
 .buzz$domain=btsj6.com|yinghua8.tv|yinghuavideo.com|dm99.me
 .buzz/*0*0*0*==$third-party
-.cc/o.js$third-party
 .chat.bilibili.com
 .cmail19.com/t/$image
 .cmail19.com/ti/$image
@@ -15950,7 +15950,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .cn/2023/*/*.txt$third-party
 .cn/ack?s=*$third-party
 .cn/bid?url=*$third-party
-.cn/o.js$third-party
 .cn/redbaiduct.com?s=$third-party
 .cn:*/vh5$third-party
 .cn:8001/*/*?*=$third-party
@@ -16047,10 +16046,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .klclick.com/$image
 .list-manage.com/track/
 .live/hm.js$third-party
-.live/o.js
 .live/r/*/*_r=*
 .live/ty/*-*-*$third-party
-.live:*/o.js
 .lms-analytics/
 .mail.odysee.com/o/$image
 .mailbutler.io/tracking/
@@ -16145,7 +16142,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .xyz/hm.js?$third-party
 .xyz/jque*.js?$third-party
 .xyz/mithril?$third-party
-.xyz/o.js$third-party
 .xyz/qby_*.js?$third-party
 .xyz/st?gp=*$third-party
 .xyz/svelte?$third-party
@@ -17444,6 +17440,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /criteoRTA.
 /criteo_
 /crypta.js
+/cs_consent_modal.js
 /csi?v=*&action=
 /csi?v=*&action=$domain=tellows.de
 /csi?v=2&s=
@@ -29372,7 +29369,6 @@ about.me##.bubble[class*="cookie_notice"]
 abramsbooks.com###abr_cookie_modal
 abrdn.com##.cookie-policy-modal
 abschied-nehmen.info##.tscUiNotificationWrapper
-abt-s.pl###myModal, .modal-backdrop, .reveal-modal-bg
 abt-sportsline.de##.abt-cookieNotification
 abv.bg###abv-GDPR-frame
 abydos.pl##.configMessages
@@ -29807,7 +29803,6 @@ arcolresistors.com###close-me
 arconvert.it###reveal-cookies, .reveal-modal-bg
 arcor.de###cmpWrapper
 ardanta.nl###cookie-bar-ardanta
-ardes.bg##.c-msg
 ardmediathek.de###root > div > div > [class*="Root"] > [class*="Message"]
 areatour.pl###topbar
 arena.pl###__next > footer ~ div
@@ -30267,6 +30262,7 @@ betvictor.com##.bvs-overlay
 beuc.eu##.beuc-cookie
 bewustnieuwbouw.nl###c-bar
 beyondthebox.it##.elementor-popup-modal
+bezpiecznedane.gov.pl##.cookie-popup-modal, .modal-backdrop
 bezux.com##.cookies
 bezuzyteczna.pl##.cookies
 bgbasket.com###private_info
@@ -31055,7 +31051,7 @@ cofp.ru##.admitad-checker-popup
 cofunds.co.uk###idrMasthead .idrPageRow .smContainer
 cogentoa.com##.legal-banner
 coherent.com##body > div:not([id]):not([class])
-coinbase.com###root > div > [class*="backgroundAlternate"], div[class*="ContentHub__FooterWrapper"] ~ div:last-child, #popup-root ~ div[class*="Layout"] ~ div:not([data-element])
+coinbase.com###root > div > [class*="backgroundAlternate"], #popup-root ~ div[class*="Layout"] ~ div:not([data-element])
 coindix.com###xbanner
 coingate.com##.MuiSnackbar-root
 coinloan.io##.cookies
@@ -31909,7 +31905,6 @@ easyeda.com##.priv-tips
 easylife.co.uk###cookie-consent
 easypark.fr##.header > [style*="visible"]
 easyparkitalia.it##.rah-static
-eaux-de-normandie.fr###notifybar
 eb2b.com.pl###footer ~ .x-css-shadow, #footer ~ .x-window
 ebc.com.br###sliding-popup, #viewlet-disclaimer
 ebi.ac.uk###interpro-root > div[style*="fixed"]
@@ -32244,7 +32239,6 @@ euroiphone.eu##.div-download-v
 eurojackpot.it##.popup-view.modal
 euromaxx.nu##.ui-widget, .ui-widget-overlay
 euromoney.com##.CookiePromo
-euronics.hu##.cookie-overLay
 euronova-italia.it##.cc-customdialog
 europa-vrachtwagens.nl###cookie
 europa.eu###edp-cookies-banner, .customCookie, .cookie-section
@@ -32780,7 +32774,7 @@ gcpat.com##.ms-dlgOverlay, .ms-dlgContent
 gdekluet.ru##body > div[class^="stop-block"]
 gdjenamore.com##.kolacic
 gdpr-banner.awsmpsa.com
-gdpr-wrapper.privacymanager.io$domain=~kinuskikissa.fi|~geenstijl.nl|~dailybuzz.nl|~futurezone.at|~verkeerplaza.nl|~profil.at|~kurier.at|~weeronline.nl|~vesti.bg
+gdpr-wrapper.privacymanager.io$domain=~kinuskikissa.fi|~geenstijl.nl|~dailybuzz.nl|~verkeerplaza.nl|~profil.at|~kurier.at|~weeronline.nl|~vesti.bg
 gdpr.internetbrands.com
 gea.com##.language-detection__cookie
 gebag.de###cookie
@@ -33222,6 +33216,7 @@ hellostudent.co.uk##.alert-dismissible, .alert-dismissable, .alert--dismissable,
 hellowatt.fr###cookie-modal__container
 helmet.fi##.notification, .notifier_warning
 helmholtz.software##.fixed[data-testid="cookie-consent-matomo"]
+help.coinbase.com###__next > div > div[style*="fixed"]
 helpsetup.ru##.veramoy
 helpucover.co.uk###consent
 helthjem.no##.schibsted-bar
@@ -34554,7 +34549,6 @@ locservice.fr###CookiesInfos, #CookiesInfosPrefix
 lodz.pl###stpdueckmsg, .sticked-widgets__widget-trigger[href*="ochrona-danych-osobowych"]
 loewe.tv##.cookey-pop
 loggly.com##.promotion
-login.coinbase.com##div[data-testid="banner-container"]
 logitec.co.jp##datasign-widget-web-component
 logitech.com##.cForum_Footer
 logout.hu###accept_container
@@ -35025,7 +35019,6 @@ mbc.net###DGPR
 mbl.is###cookie-consent
 mcafeestore.com##.cookie_module
 mcc.live##.cookies
-mcclic.com###dialog
 mccruddens-repair.co.uk##body > div[data-rule-type="notification"]
 mcdonalds.hu##.consent
 mcfit.com###app ~ [opacity]
@@ -35506,7 +35499,6 @@ musica.com###priv
 musicalfreedom.com##.terms-and-policy-layer
 musicclub.eu##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
 musicglue.com##.CookieFooter
-musicworks.it###infromativap
 musikguru.de###CookieBox
 musikki.com##.status-cookies
 musikzirkus.eu##.infobox
@@ -35746,7 +35738,7 @@ nexusmods.com##.areplacer
 nexusmods.com##div[style="float: left; width: 728px; height: 90px; background: #313131;"]
 nfpa.org###fixed_footer
 nfs.as###toast, .toast
-nft.coinbase.com##footer ~ .fixed[class*="bottom"]
+nft.coinbase.com##footer ~ div[style*="bottom"][style*="fixed"]
 nfumutual.co.uk##section[aria-describedby="cookiedesc"]
 nginx.com##div[id*="nx_gdpr_modal"]
 nhc.no###dpm-consent-form
@@ -36658,7 +36650,7 @@ pro-alarm.nl##.mgz-flex-position-bottom-center
 pro-bikegear.com###message, .message
 pro-housing.nl##.accept-alert
 pro-tools-expert.com##.sqs-announcement-bar
-pro.coinbase.com###page_content > div + div:last-child
+pro.coinbase.com###page_content > div > div > div + div:not([style])
 procookie.by.nf
 procurator.com##py-anonymous-consent-management
 procycles43.fr###divacacher
@@ -36675,7 +36667,7 @@ programyzadarmo.net.pl##.notice--primary
 prohibita.pl##.ciachbtm-wrap-container
 projects.newforma.com##.banner, #banner
 promet.si###REALISCCBAR
-promobit.com.br###__next .fixed.bottom-0
+promobit.com.br###__next > .fixed[class*="bottom"]
 promobricks.de##body > [data-bg]
 promosejours.com##.privacy
 promotionbasis.de###c_test_box
@@ -36828,7 +36820,7 @@ radiofamily-sound.de##.jq-toast-single.jq-icon-warning
 radiofreccia.it##.off-canvas-content > div[style]
 radiogdansk.pl###rodoModal
 radiologie-dachau.de###zcookie
-radiologie-mannheim.de###myModal, .modal-backdrop, .reveal-modal-bg
+radiologie-mannheim.de###cookie_bar_v2
 radioluisteren.fm###cbar
 radioplay.se###root > div > div:first-child
 radiosetv.com##.fck
@@ -37262,9 +37254,9 @@ savevideo.me##td > div[class]:not([id])[style*="important"]
 savio.it###box-overlay
 sax.co.uk##.notify
 sazka.cz##.consent-bar
-sberbank.com##.personal-data-warning
+sberbank.com##div[class*="CookieWarning"], #__next footer ~ div
 sberbankdirect.de##.cm
-sbermarket.ru##.alerts + div
+sbermarket.ru##div[class*="Cookies"]
 sbnation.com###chorus_notifiations
 sbonline.net###footer.tekst
 sbsr.fm##.bl-block[data-bl-name="CokiesWrap"]
@@ -38518,7 +38510,6 @@ tipsmidler.dk###lbmodal-overlay, #lbmodal
 tise.com###app > nav + div ~ div
 tl.net##body > div:not([id]):not([class])
 tldallas.com###cookies
-tma-winding.com###system-message, #system-messages, #system-message-container
 tmall.com###J_smartloader
 tmall.com##.mui-mbar-tab-logo-qrcode.mui-mbar-tab-logo
 tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
@@ -39107,7 +39098,6 @@ vigo-krankenversicherung.de###cwarning
 vigo.de##.wx_consentbanner
 vigszinhaz.hu##.cookie
 villaguardia.co.it###cookie
-villamadruzzo.com##.tpca
 ville-ideale.fr###cookies
 ville-rail-transports.com###cookies_b
 villeneuve92.com###cnil, .cnil, #CNIL
