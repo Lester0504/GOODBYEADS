@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-03 09:10:07（北京时间） 
-! Total count: 130280
+! Version: 2023-12-03 20:19:51（北京时间） 
+! Total count: 130291
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -7766,6 +7766,7 @@
 ###modal-cookie-setting.cmp-modal
 ###modal-cookiedisclaimer
 ###modal-cookies ~ .modal-backdrop
+###modal-cookies-template
 ###modal-rodo-info ~ .reveal-modal-bg
 ###modal-root .RgpdPopup
 ###modalAceptCookies
@@ -10168,6 +10169,7 @@
 ##.c-consent__bar
 ##.c-consentcookie.c-consentcookie--active
 ##.c-cookie-banner--default
+##.c-cookie-banner:not(body):not(html)
 ##.c-cookie-block:not(body):not(html)
 ##.c-cookie-box:not(body):not(html)
 ##.c-cookie-compliance:not(body):not(html)
@@ -13260,6 +13262,7 @@
 ##.js-cookie-advert-container
 ##.js-cookie-agreement
 ##.js-cookie-banner-blur
+##.js-cookie-banner-container
 ##.js-cookie-close:not(body):not(html)
 ##.js-cookie-compliance:not(body)
 ##.js-cookie-confirm:not(body):not(html)
@@ -17172,7 +17175,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /consent.$domain=strato.de|strato.nl|strato.fr|strato.es|strato.se|strato-hosting.co.uk|onlinestempel.ch
 /consent.js$domain=tryinteract.com|mobilejob.com|op.fi|finanz-forum.de|carhartt.com
 /consent.webmasterplan.com/v2
-/consent/*$domain=renault.de|ultraleicht-trekking.com
+/consent/*$domain=renault.de|ultraleicht-trekking.com|verbund.com
 /consent/civic-bundle.js
 /consent/message.js$domain=ksta.de
 /consentMgmt/*$domain=comdirect.de
@@ -17534,6 +17537,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /duel-analytics.js
 /dv_t3_consent_management/*
 /dwanalytics-
+/dwanalytics.js
 /dxcookieconsent/*
 /dy-coll-nojq-min.js
 /dynaTraceMonitor?
@@ -18108,6 +18112,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /jquery.cookie.js$domain=sexmarkt.nl
 /jquery.cookiefy/*
 /jquery.cookiekit.js$domain=dgeg.gov.pt
+/jquery.cookiepolicy.js
 /jquery.cookiesdirective.js$domain=~servizionline.gruppoascopiave.it
 /jquery.gatracker.js
 /jquery.google-analytics.js
@@ -18944,6 +18949,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /realtimeapi/impression?
 /realytics-1.2.min.js
 /realytics.js
+/recomm-apps-upm/privacy-manager
 /recommendtrack?
 /record-impressions?
 /record-stats?
@@ -19154,8 +19160,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /showhits.php?
 /shreddit/perfMetrics
 /si-tracking.
-/sibbo-cmp-core.js$domain=~atresplayer.com
 /sibbo-cmp-loader.js
+/sibbo-cmp-router.js
 /sidtracker.
 /sikcomscore_
 /silveregg_cookie?
@@ -30930,8 +30936,8 @@ cimetieres-de-france.fr###js-header-cookie
 cimoc.com###styleUp
 cinch.co.uk###___gatsby > [data-testid="overlay"], #___gatsby > div > [data-testid="cookie-banner"]
 cinemacity.sk##.policy, #policy, .cpolicy
-cinemark.cl###modal-cookies-template
 cinemotion-kino.de###cookie-layer
+cineplanet.com.pe##.consent
 cinquantamila.it###privacy_advisor
 cint.com##.cint-cookiebot
 cioreview.com###footerr
@@ -31668,7 +31674,6 @@ discoup.com##.ch2
 discoverbooks.com###privacy_div
 discoverychannel.it##body > div:not([id]):not([class])
 discoveryfrance.fr##.elementor-popup-modal
-dish.co##.mod-cookie-consent
 dish.com##.ccpa
 disidentia.com###snppopup-welcome
 disk-o.cloud###root div[class^="src-ui-Cookie"]
@@ -32293,7 +32298,6 @@ explaineverything.com##footer + div
 explicite.info###privacy, .privacy
 explo.hu###marketingConsent
 expocasa.it##.cc-window
-expogatemilano.org##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
 exponea.com##.exp-cookies
 exporterhub.io##main > div > section > [style*="fixed"]
 exposition-osiris.com##.notice
@@ -33185,7 +33189,6 @@ hbkik.hu###alert-box
 hbo.pl###overlay
 hboespana.com###main-warning
 hbs.hu###sapper > footer
-hd.se##.gdpr
 hdg.de###cookiebg, #hdg-cookie-accept
 hdi.global##.js-top-header
 hdr-photographer.com###rn_container
@@ -33307,6 +33310,7 @@ hobby.porn##.sgdpr-box
 hobbyfarms.com##.cookieTkd
 hochparterre.ch##.cookie
 hoelangnog.nl##body > .container.transparency h3
+hoer.live##.cookie-consent
 hohesalve.at##.c-window
 hoklartherm.de##.grey_ovarlay
 holadoctor.com##.gdpr-space
@@ -33897,7 +33901,6 @@ jmmgc.com###cnotice
 jnjmedical.it###bottom-banner
 jobbio.com##.alert-info, .alert-warning, .alert-box
 jobbsafari.se###__next > footer ~ div
-jobdiagnosis.com###benefits
 joberty.hr##.cc-container
 jobmensa.de##.js-usermessage
 joborgame.ru##.style__disclaimer
@@ -34193,7 +34196,6 @@ krediidiraportid.ee##.kred-cookiemessage
 kremer-pigmente.com###cclayer
 kreoart.com.pl###popupContact
 kreuzwerker.de##.cookies
-kreuzwort-raetsel.net##body > div:not([id]):not([class])
 kristeligt-dagblad.dk##.consent, #consent
 kristo-friseure.de##.cookies-holder
 krombacher.de##.trackingNotice
@@ -34571,7 +34573,6 @@ lolja.com.br###lgpd-popup
 londonreal.tv###notify-consent
 londontechweek.com##.festival-cookie
 londynek.net###ldnk-cookie
-lonelyplanet.com##.alert, #alert
 long-covid.at###consent
 loombard.pl##.modal[id*="cookieconsent"]
 loot.io###app > main > div:first-child
@@ -34999,7 +35000,6 @@ mathcitymap.eu###mcm-cookie-notice
 mathematiques-lycee.com##body > div:not([id]):not([class])
 mathsisfun.com###cookOK
 matkahuolto.fi###gatsby-focus-wrapper > div > div > div
-matoga.com.pl##body > div:not([id]):not([class])
 matratzen-concord.ch##.cookie
 matratzen-concord.de##.cookie
 matrixgames.com##.globalAnnouncement, .blockingOverlay
@@ -35576,7 +35576,6 @@ myswitzerland.com###notification_alert
 myth-weavers.com###consent_container
 mythemeshop.com###mts_gdpr_popup
 mytheresa.com###privacy-overlay, #privacy-container
-myunidays.com##.toast
 myvalue.com##.chivato.uso_cookies
 mywebook.com##.cui-coks
 mywheels.nl##.di-popup-container.isVisible
@@ -37179,7 +37178,6 @@ ryzerobotics.com##footer > div[class*="pop-up"]
 rzeszow.pl###__next > .fixed
 s2studio.cz##.cookies
 s4c.cymru##.s4c-cookie-alert
-sabrain.com##.message-panel[data-notice-id="brainscookienotice"]
 sachsen-tourismus.de###xcm-bar
 sachsen.de##.privacy-modal, .ld_container
 sacoorbrothers.com##.legal-warning
@@ -37572,6 +37570,7 @@ sintaxis.org###hsup
 siriusxm.com###UserAgreement[data-componenttype="CookieBar"]
 siropsport.fr##.analytics
 sita.aero###privacyPopupOverlay, .privacyPopup
+sites.google.com##div[data-cookie-path]
 sixt-neuwagen.de##.user-consent
 sixt.co.uk##.cro-background-shadow
 sixthcontinent.com##.MuiSnackbar-root
@@ -38110,7 +38109,6 @@ sw-greifswald.de##.swCookie
 swaego.ru##body > .special-message-wrapper
 swann-morton.com###easyNotification
 swaper.com###confirm-stripe
-swarovskioptik.com###cpp-wrapper
 swdec.de##.noty_cont, .noty_bar
 swedoffice.se###cbckchangeholderFirst
 swedoor.dk###swedoor_privacy_widget
@@ -39186,7 +39184,6 @@ vogue.com.tr##.cookie-item
 vogue.pt##.cookies
 voguebusiness.com##.app > div[class*="FadeWrap"]
 voi-noi.gr##.bottombar
-voiceanddatazone.com###popup, .blocker
 voicegroup.co.uk##.cookie-menu
 voip.ms##.gdpr
 voissy.com###pb-navbar-cookies-accept
@@ -39460,6 +39457,7 @@ wikifixes.com###privacy-popup
 wikihow.com###contribute_footer
 wiking.de###nagme
 wilanow-palac.pl###cookie
+wildberries.by##.modal--cookie
 wilko.com##.cookies
 willys.se##.ax-global-messages
 wiltmann.de###cde
@@ -49034,6 +49032,7 @@ zyro.com##.zyro-cookies
 ||analytics.hotelclub.com^
 ||analytics.humanautomation.ai^
 ||analytics.hz.netease.com^
+||analytics.idfnet.net^
 ||analytics.ikyu.com^
 ||analytics.infobae.com^
 ||analytics.iraiser.eu^
@@ -59305,6 +59304,7 @@ zyro.com##.zyro-cookies
 ||config.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||configurationluxuriantinclination.com^
+||configurator.ecom-mobile-samsung.com/api/logger
 ||confinedexception.com^
 ||confinehindrancethree.com^
 ||confirm.aon.com^
@@ -66789,6 +66789,7 @@ zyro.com##.zyro-cookies
 ||ecmb.bdimg.com^
 ||ecmc.bdimg.com^
 ||ecmwsx.icu^
+||ecn-ldr.de^
 ||eco-tag.jp^
 ||eco-tag.jp^$third-party
 ||eco.chng5.xyz^
@@ -70082,7 +70083,7 @@ zyro.com##.zyro-cookies
 ||file.chanet.com.cn^
 ||file.ipinyou.com.cn^
 ||file3size.com^
-||files.envoke.com^*/adt_nvk_tracking.js
+||files.envoke.com^*_nvk_tracking.js
 ||files2.sogou.com^
 ||filesdots.com^
 ||filese.me^
@@ -89857,6 +89858,7 @@ zyro.com##.zyro-cookies
 ||mitel.qm-g.com^
 ||miteredgasbags.com^
 ||mitour.de^
+||mitself.net^
 ||mitt.3.se^
 ||mittencattle.com^
 ||mittenheatdied.com^
@@ -94982,6 +94984,7 @@ zyro.com##.zyro-cookies
 ||oshaista.xyz^
 ||oshatratkvc.com^
 ||oshdarvitop.com^
+||oshkosh.com/0F3091f3/init.js
 ||oshunooy.xyz^
 ||oshxhofaf.com^
 ||osiaffiliate.com^
@@ -104599,6 +104602,7 @@ zyro.com##.zyro-cookies
 ||samsclub.com/px/PXsLC3j22K/init.js
 ||samsienshrivel.com^
 ||samsung-com.112.2o7.net^
+||samsung.com/us/web/internal/logger
 ||samsungacr.com^
 ||samsungadhub.com^
 ||samsungads.com^
@@ -104726,6 +104730,7 @@ zyro.com##.zyro-cookies
 ||sapiaostremma.com^
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
+||sapphire-api.target.com^
 ||sappmetrics.sprint.com^
 ||sapsixysho.pro^
 ||saptiledispatch.com^
@@ -107279,6 +107284,7 @@ zyro.com##.zyro-cookies
 ||simrubwan.com^
 ||simscale.actonservice.com^
 ||simsoque.net^
+||simulateswing.com^
 ||simuld.com^
 ||simultaneouslyagreeingcontradiction.com^
 ||sin.di2y21.top^
@@ -107556,6 +107562,7 @@ zyro.com##.zyro-cookies
 ||skinnynovembertackle.com^
 ||skinsdefinitely.com^
 ||skipdearbeautify.com^
+||skiphop.com/0F3091f3/init.js
 ||skipperx.net^
 ||skivesdaggles.com^
 ||skjrfysmve.com^
@@ -114697,6 +114704,11 @@ zyro.com##.zyro-cookies
 ||tapstream.com^$third-party
 ||taraponrigodon.guru^
 ||tardangro.com^
+||target-us.samsung.com^
+||target.com/consumers/v1/ingest/web/eventstream?
+||target.com/consumers/v1/ttms/events?
+||target.com/rum_analytics/
+||target.com/telemetry_data/
 ||target.connect.nicklaushealth.org^
 ||target.mirtesen.ru^
 ||target.mixi.media^
@@ -119807,7 +119819,7 @@ zyro.com##.zyro-cookies
 ||turbansembiid.space^
 ||turbansour.com^
 ||turboadv.com^
-||turbobit.*/js/analytics/
+||turbobit.*/fdUserFingerprintToken.js
 ||turbocap.net^
 ||turboeagle.co^
 ||turbolion.io^
@@ -121335,6 +121347,7 @@ zyro.com##.zyro-cookies
 ||usailtuwhe.com^
 ||usancit.top^
 ||usao.77gog.com^
+||usaoptimizedby.increasingly.co^
 ||usbanners.com^
 ||use.fvr.to^
 ||use.lunos.app^
@@ -129904,7 +129917,7 @@ zyro.com##.zyro-cookies
 ~depop.com###__next div[data-testid*="cookieBanner"]
 ~diebayerische.de###cookie-consent-layer
 ~digitaltrends.com###dtcookie-container
-~dish.co###euCookieBanner
+~dish.co,~hd.digital###euCookieBanner
 ~dnbeiendom.no###cookieInfoBanner
 ~dodo.fr##.amgdprcookie-bar-template
 ~dogedash.com##.react-cookie-banner
@@ -129919,7 +129932,7 @@ zyro.com##.zyro-cookies
 ~eboo.lu##.cookies-dialog:not(body):not(html)
 ~eboo.lu,~developer.ing.com###cookiesDialog
 ~educhel.ru,~eduface.ru,~edumsko.ru##.cookies_popup:not(body):not(html)
-~effector.pl,~finom.co,~lmt.lv,~dish.co,~pagetiger.com,~bynco.com,~bakken.nl##.cookie-info:not(body):not(html)
+~effector.pl,~finom.co,~lmt.lv,~dish.co,~hd.digital,~pagetiger.com,~bynco.com,~bakken.nl##.cookie-info:not(body):not(html)
 ~ejot.de,~ejot.at,~ejot.cn,~ejot.co.uk,~sparda.de,~sparda-n.de,~sparda-bw.de,~sparda-hessen.de,~sparda-west.de,~inwerk.de,~bioplanete.com,~miltenyibiotec.com,~brabus.com,~nobilia.de,~springlane.de###cookieLayer
 ~elavon.pl##.cookiePolicyMessage
 ~elavon.pl,~smythstoys.com##.cookiePolicy:not(.reveal):not(body):not(html)
@@ -130080,8 +130093,6 @@ zyro.com##.zyro-cookies
 ~musti.no,~vetzoo.se,~animail.se,~arkenzoo.se,~mustijamirri.fi,~petenkoiratarvike.com##.cookie_info:not(body):not(html)
 ~muziker.com,~muziker.at,~muziker.be,~muziker.bg,~muziker.hr,~muziker.cz,~muziker.nu,~muziker.ee,~muziker.fi,~muziker.fr,~muziker.de,~muziker.gr,~muziker.hu,~muziker.ie,~muziker.it,~muziker.lv,~muziker.lt,~muziker.lu,~muziker.nl,~muziker.pl,~muziker.pt,~muziker.ro,~muziker.sk,~muziker.si,~muziker.es,~muziker.se,~muziker.co.uk##.cookies-backdrop
 ~myrobotcenter.de,~myrobotcenter.at,~myrobotcenter.co.uk##.ec-gtm-cookie-directive
-~myunidays.com##.c-cookie-banner:not(body):not(html)
-~myunidays.com##.js-cookie-banner-container
 ~n26.com###gdpr-notice
 ~naekranie.pl###modal-rodo-info
 ~nationalgallery.co.uk###cookiePolicyPopup
