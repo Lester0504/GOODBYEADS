@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-04 20:28:26（北京时间） 
-! Total count: 130266
+! Version: 2023-12-05 08:54:36（北京时间） 
+! Total count: 130280
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17743,6 +17743,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /freecgi/count.cgi?
 /friendbuy.min.js
 /frontend-core/js/cookieBox.js
+/frontend-gtag.js
 /frontend-gtag.min.js
 /frontend-metrics/*
 /frontend-sentry-
@@ -19422,6 +19423,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /taunton-user-consent-eu
 /taunton-user-consent.js
 /tc_analytics.
+/tc_imp.gif?
 /tc_privacy/*$domain=matmut.fr
 /tccl.min.js
 /tcf-cmp.min.js
@@ -28692,6 +28694,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||coremetrics.com*/eluminate.js
 @@||counter-strike.net^
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
+@@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
+@@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 @@||cqcounter.com^$domain=cqcounter.com
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||css.yhdmtu.xyz^$domain=yinghuavideo.com|yinghua8.tv
@@ -29939,6 +29943,7 @@ autodoc.de##.gdpr-panel
 autogaleria.hu###info-suti
 autohaus-brandt.com###notify2
 autohaus-eberstein.de###notify2
+autohome.com.cn##ol > li,.evade-operate
 autohus.de##.c-toast-notification
 autokiila.fi##.cookie-box
 autoklicecz.cz###cookiesI
@@ -34638,7 +34643,6 @@ m.163.com##footer > span
 m.acfun.cn##.flex-center.down-app-button
 m.acfun.cn##.header-ico
 m.acfun.cn##.shown.open-app-btn
-m.autohome.com.cn##ol > li,.evade-operate
 m.baidu.com###bottom
 m.baidu.com###navs
 m.baidu.com###page-copyright
@@ -34752,14 +34756,12 @@ m.lianjia.com##.fadeDown.download_topfixed.mod_download
 m.lianjia.com##.mod_app.mod_sub_tit.mod_tit
 m.lianjia.com##div.mod_download:nth-of-type(1) 
 m.mi.com##.download-app-go
-m.nxnba.com##.bootom-fixed
 m.peruzzosrl.com##body > div:not([id]):not([class])
 m.qidian.com###footerApp
 m.qidian.com##A.catalog-download
 m.qidian.com##I.icon-logo
 m.qidian.com##P.text-content
 m.qidian.com##div.book-detail-btn:nth-of-type(3)
-m.qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
 m.sogou.com##.recommend-pop.vr-recommend
 m.sohu.com###artLifeService
@@ -35869,6 +35871,7 @@ nuuvem.com##.consent-warning
 nv.ua##.cookie-label
 nv.ua##img[src="/images/dis_blocker_big.jpg"]
 nxm.ro##.footer_notif
+nxnba.com##.bootom-fixed
 nxtbookmedia.com###gdpr-pop
 nyan.ax##.gdpr
 nypost.com##.nyp-sitewide-notice
@@ -36121,6 +36124,7 @@ oysteryachts.com##.top-header
 ozcouponscode.com##.policy_footer
 ozon.ru##div[data-widget="cookieBubble"]
 pabo.nl##.disclaimer_wrapper
+pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 pacesuite.com###notification-cont
 pacjent.gov.pl###cookies, #zgoda.sekcja-ciasteczka
 packrafting-store.de###basharModal
@@ -36727,6 +36731,7 @@ qbasic.at###ckkasten-container
 qbilon.net##.cookie
 qdaily.com##.app
 qdaily.com##.clearfix.com-header-brief
+qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 qitec.de###QiCookieOptin
 qixxit.com##.policy-container
 qliro.com###react-app > div > [open]
@@ -38374,6 +38379,7 @@ thenounproject.com##div[data-callback*="CookiesBanner"]
 theonlinesurgery.co.uk##.alert.ue-content
 theoutlinerofgiants.com###toog-cookies
 thepaper.cn##.download
+thepaper.cn##[class^='index_footer_banner']
 thephoblographer.com###nebothemeCookieBar
 thephone.coop##.ll_banner
 thephuketnews.com##.fixed-bottom
@@ -39604,7 +39610,6 @@ www.mysteel.com##div[class*="adtop2 swiper-container"]
 www.mysteel.com##div[class*="tmLink ADload"]
 www.mysteel.com##div[class*="topAD"]
 www.olevod.com##.B1Lss,.B1Rss
-www.pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 www.xda-developers.com##.adzone-above-latest
@@ -40736,6 +40741,7 @@ zyro.com##.zyro-cookies
 ||208622.top^
 ||20bd.pandasuite.io^
 ||20dollars2surf.com^
+||20min.ch/ana/
 ||20szp.com^
 ||20tracks.com^
 ||21.cizhibaogao.org^
@@ -53553,6 +53559,7 @@ zyro.com##.zyro-cookies
 ||bikini.hasdukmerahputih.com^
 ||bikini.indonesiya.com^
 ||bikrurda.net^
+||bilder11.markt.de^
 ||bildirim.eu^
 ||bildirnet.com^
 ||bildirt.com^
@@ -56019,6 +56026,7 @@ zyro.com##.zyro-cookies
 ||calltracks.com^$third-party
 ||calltrk.com/companies/
 ||callyourinformer.com^
+||calm.com/api/12Xk43jk/init.js
 ||calmcactus.com^
 ||calmcactus.com^$third-party
 ||calmcough.com^
@@ -58641,6 +58649,7 @@ zyro.com##.zyro-cookies
 ||cnt.trvdp.com^
 ||cnt.viptube.com^
 ||cnt.vivatube.com^
+||cnt.wetteronline.de^
 ||cnt.xhamster.com^
 ||cnt1.net^
 ||cnt1.net^$third-party
@@ -76264,6 +76273,7 @@ zyro.com##.zyro-cookies
 ||housemaiddevolution.com^
 ||housewifecheeky.com^
 ||housewifehaunted.com^
+||houston.advgo.net^
 ||houstonchronicle.com/413gkwMT/init.js
 ||houtai.2345.com^
 ||houzz.com/hsc/aetrk/
@@ -84426,6 +84436,7 @@ zyro.com##.zyro-cookies
 ||listlog.baofeng.net^
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
+||listrakbi.com^$third-party
 ||lists.ccmbg.com^
 ||lit.connatix.com^
 ||lite-cdn.com^
@@ -114464,6 +114475,7 @@ zyro.com##.zyro-cookies
 ||tagmanager.cn^$third-party
 ||tagmngrs.com^
 ||tagmngrs.com^$third-party
+||tagon.co^$third-party
 ||tagoutlookignoring.com^
 ||tags.aljazeera.com^
 ||tags.aljazeera.net^
@@ -115525,6 +115537,7 @@ zyro.com##.zyro-cookies
 ||thathechoxe.com^
 ||thathislitt.ru^
 ||thatincidentwad.com^
+||thatmonkeybites3.com^
 ||thatobjective.pro^
 ||thatresha.com^
 ||thaudray.com^
@@ -127780,6 +127793,7 @@ zyro.com##.zyro-cookies
 ||yahoo.com/_td_api/beacon/
 ||yahoo.com/beacon/
 ||yahoo.com/beacon?
+||yahoo.com/pageview?
 ||yahoo.com/sync/casale/
 ||yahoo.net/pixel.gif
 ||yahugg.com^
