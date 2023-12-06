@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-06 09:07:24（北京时间） 
-! Total count: 130447
+! Version: 2023-12-06 20:22:06（北京时间） 
+! Total count: 130442
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15922,7 +15922,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -gdpr-min.js^
 -geoIP.js
 -inview-tracker.
--logabpstatus.
 -logging.nextmedia.com^
 -scroll-tracker.js
 -track-email-open?
@@ -16032,6 +16031,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .inxmail-commerce.com/tracking/$image
 .inxserver.com/transparent.gif
 .jp/pv?
+.jp/static/js/track.js
 .js?*&ssid=$third-party
 .keap-link003.com/$image
 .keap-link004.com/$image
@@ -16460,11 +16460,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /a/performance_timing/*
 /a8c-analytics.js
 /aap/stats
-/ab_track.
+/ab_track.js
 /abb-msg.js
 /abc.gif?
 /acc.consent.js
 /acc.cookienotification.js
+/acc/acctag.js
 /accept-ad-targeting/cookie.js
 /accept-cookies.js
 /accept.js$domain=oreluniver.ru
@@ -16499,7 +16500,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /adblock-notice-
 /adblock-notify-by-bweb/*
 /adblock-warning-teaser/*
-/adblock?action=
 /adblockDetector.
 /adblockLogger/*
 /adblock_alerter.
@@ -16507,11 +16507,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /adblock_erreur.
 /adblock_gate/images/animated.gif?
 /adblock_notify.js
-/adblocker-check.
 /adblocker-detected.
 /adblocker-feature?
 /adblocker/modal.
-/adblocker/pixel.
 /adblocker_message_
 /addEvent?action=
 /addLinker.js
@@ -17101,7 +17099,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /collect/pv?
 /collect/sdk?$domain=~iugu.com
 /collect/stats?
-/collect/tracking.
 /collect/view?
 /collect/view_count?
 /collect?appName
@@ -17116,7 +17113,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /collect?tid=
 /collect?type=
 /collect?v=
-/collectStats;
 /collect_data.php?
 /collect_stat.js
 /collector/hit?
@@ -17125,8 +17121,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /collector?report=
 /collectsysteminfo?
 /colossalchance.com
-/com_joomla-visites/*
-/com_joomlawatch/*
+/com_joomlawatch/img.php
 /common/analytics.js
 /common/cpol/cookiepolicy.php
 /common/disclaimer/load.min.js
@@ -17397,7 +17392,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /counter-js.php
 /counter.asp?
 /counter.aspx?
-/counter.cgi/*
 /counter.cgi?
 /counter.js.php
 /counter.php?width=
@@ -17467,7 +17461,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dcs_tag.js
 /deadblocker/*
 /default/pAnalytics
-/delivery/lg.
 /detm-container-ftr.js
 /detm-container-hdr.js
 /dg-governance/*$domain=nytimes.com|inyt.com
@@ -17493,7 +17486,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dlpageping?
 /dm.gif?
 /dmp/pixel.js
-/dmu2panalytics/views/*
+/dmu2panalytics/ajax_call.php?
 /dock-privacy-settings.esm.js
 /docroot/js/app/modules/cookies-selection.js
 /doctracking.js
@@ -17507,7 +17500,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dow_analytics.js
 /dpistat/updater.php
 /drdsgvo-consent-script.js
-/drive-analytics/*
 /drwebstat.js
 /dsgvo-opt-in.css$domain=kosta.at
 /dsgvo/js/cookiemonster
@@ -17535,8 +17527,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /easycmp$domain=lagerhaus.at
 /eatms.js
 /ebonetag.js
-/ebs/tracking.
-/ebs/tracking/*
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
@@ -17701,6 +17691,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
+/flowplayer.drive-analytics.min.js
 /flushimpressions?
 /fluvius-eu-cookies.js
 /flv_tracking.
@@ -17963,7 +17954,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hit2.php
 /hit?aff_id=$xmlhttprequest
 /hit?time=
-/hitCount.
+/hitCount.js
+/hitCount.php
 /hit_count?
 /hit_counter
 /hit_img.cfm?
@@ -18086,6 +18078,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /jcookie/*$domain=javhd.com
 /jgs_portal_log_bildschirm.php?
 /jimmsconsent$domain=jimms.fi
+/joomla-visites.php
 /jppol-consent/js/bootstrap.js
 /jquery-cookies-alert.min.js
 /jquery-gatracker.js
@@ -18114,7 +18107,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js/CookieConsentNew
 /js/CookieManager.js
 /js/Widgets/cookieWidget$domain=~losteria.de
-/js/_analytics/*
+/js/_analytics.js
 /js/admiral-
 /js/ads
 /js/adsconsent.min.js
@@ -18154,7 +18147,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/js4.js
 /js/klaro-no-
-/js/lead-tracking/*
 /js/library/cmp/cmp.bundle-
 /js/lmdas.js
 /js/logger?
@@ -18176,7 +18168,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js/webflow-consent-manager
 /jsLib/gdpr/cookie.js
 /js_cookies_legal.js
-/js_event_tracking/*
 /js_ibeat_ext.cms
 /js_log_error.js
 /js_logger.php
@@ -18233,6 +18224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /krux.js
 /kssCookieManager/*
 /lasso-ga.js
+/lead-tracking.min.js
 /leadgen/ga.js
 /leadtag.js
 /leage.google.tracker.js
@@ -18387,7 +18379,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /magento-storefront-event-collector@
 /magento/page-visit?
 /magento2.js
-/magnet/render.
 /magpie.js
 /mail-stat.airdroid.com/*$image
 /mail-tracking/*$image
@@ -18601,6 +18592,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /onlinecount.php
 /onlinemanufaktur-cookie-notice/*
 /onstuimig-tag-manager/base/adf-tm-base-min.js
+/oo/*/l.js
+/oo/*/lsync.js
+/oo/cl*.js?rd=
 /opbox-gdpr-consents/*
 /opbox-rodo-consent-modal/index
 /opdc.js
@@ -18623,6 +18617,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ot_e404.gif?
 /otlp/traces
 /ouibounce.min.js
+/outLoging.js
+/outLoging2.js
 /owa.Analytics.m.js
 /owa.tracker-combined-min.js
 /oxAnalytics.js
@@ -18922,7 +18918,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rcAnalyticsLib.js
 /rcs_cpmt/*$domain=open.online|style.corriere.it|giroditalia.it
 /rdir.baur.de/g.html?uid=$image
-/re-engage/render.
 /readReceipt/notify/?img=$image
 /readthedocs-analytics.js
 /realtimeapi/impression?
@@ -19157,6 +19152,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sitetrek.js
 /sizes.gif?*=
 /sizzlegdpr.snippet.min.js
+/sk-logabpstatus.php
 /skinCss/website/js/cookie/cookie.js
 /skype-analytics.js
 /sli.*/imp?$image
@@ -19346,10 +19342,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /stattracker-
 /status-beacon/*
 /status/impression?
-/stcollection.
 /stdlog?
 /storage/ui/cookies-banner
-/storeAdvImpression.
+/storeAdvImpression.jsp
 /stp.gif?
 /stracking.js
 /strak.php?t=
@@ -19364,7 +19359,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /stylecc$domain=immozentral.com
 /styleguide/mxqasqco.js
 /submission/pageview
-/supercookie.
+/supercookie.asp
+/supercookie.js
 /superficialeyes.com
 /superstats.$domain=~superstats.com|~superstats.dk
 /surbma-yes-no-popup/*$domain=bysarahkhan.com
@@ -19389,8 +19385,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /t/event?
 /t?referer=
 /t?tcid=
-/tab_impression_logging/*
-/tablytics.
 /tac.js$domain=avenuedelabrique.com
 /tacoda.
 /tacoda_
@@ -19408,7 +19402,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tags.js?org_id=
 /tailtarget.js
 /talpa-analytics-
-/targeting/render.
 /tarteaucitron.css
 /tarteaucitron.js$domain=intex.fr
 /tarteaucitron/*$domain=ratp.fr|arena-now.de|flaine.com
@@ -29275,7 +29268,6 @@ _Clicktale.
 _WebVitalsReporter_
 _ad_impression.
 _adblock_killer.
-_adblock_stat.
 _adblocker_detected
 _adobe_analytics.js
 _beacon?
@@ -29286,7 +29278,6 @@ _gpt_bootstrap_
 _hits_stat.
 _imp?Log=
 _logHuman=
-_mongo_stats/
 _nedstat.js
 _newrelic_min.
 _nielsen.js
@@ -36102,7 +36093,6 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
-ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -54066,6 +54056,7 @@ zyro.com##.zyro-cookies
 ||blotburn.com^
 ||blowlanternradical.com^
 ||blox.minexmr.com^
+||blozoo.info/js/ranktool/
 ||blsenpg.cn^
 ||blu5fdclr.com^
 ||blubberobsessionsound.com^
@@ -88392,6 +88383,7 @@ zyro.com##.zyro-cookies
 ||mayhemsixtydeserves.com^
 ||mayi360.cn^
 ||mayiad.com^
+||mayla.jp/TRACKING/
 ||maylnk.com^
 ||maymooth-stopic.com^
 ||mayorfound.com^
@@ -93853,6 +93845,7 @@ zyro.com##.zyro-cookies
 ||odoscope.com^$third-party
 ||odoursguard.website^
 ||odrmaztzeaj.com^
+||odsyms15.com/impression?
 ||odylespiacle.com^
 ||odysee.com/api/v1/metric/
 ||odysee.com/log/
@@ -101378,6 +101371,7 @@ zyro.com##.zyro-cookies
 ||rakiblinger.com^
 ||rakuten-static.com/com/rat/
 ||rakuten.actonservice.com^
+||rakuten.co.jp/com/js/omniture/
 ||rakuten.co.jp/gw.js
 ||rakuten.com/rmsgjs/soj2.js
 ||rakutenmarketing.com^
@@ -104676,6 +104670,7 @@ zyro.com##.zyro-cookies
 ||sallyoxenstops.com^
 ||salsadistune.digital^
 ||salshissed.com^
+||salsify-ecdn.com/sdk/
 ||salsify-ecdn.com^
 ||saltantpipped.live^
 ||saltateblit.com^
