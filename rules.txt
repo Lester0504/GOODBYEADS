@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-08 09:07:36（北京时间） 
-! Total count: 130603
+! Version: 2023-12-08 20:21:26（北京时间） 
+! Total count: 130607
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -2618,7 +2618,6 @@
 ###__next .cookie-drawer.drawer-transition-appear-done
 ###__next > [data-test-id*="CookieNotification"]
 ###__next > section[class*="cookies__Wrapper"]
-###__next [class*="cookieBanner"]
 ###__next [data-debug-name*="cookie-consent"]
 ###__next aside[class*="CookiesBar"]
 ###__next div[aria-describedby*="cookie-banner-dialog"]
@@ -10689,6 +10688,8 @@
 ##.cookie-banner-outer:not(body):not(html)
 ##.cookie-banner-section
 ##.cookie-banner-shadow
+##.cookie-banner-tm
+##.cookie-banner-tm__overlay
 ##.cookie-banner-view
 ##.cookie-banner-window
 ##.cookie-banner-wrapper
@@ -18420,6 +18421,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /metrica/sp.js
 /metricool.js
 /metrics-backend/*
+/metrics-reporter-bundle.js
 /metrics/bambuser.min.js
 /metrics/event?
 /metrics/ga.js
@@ -28603,7 +28605,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
-@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
+@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
 @@||businessclick.ch/index.js$domain=finanzen.ch
@@ -29753,6 +29755,7 @@ arbetsformedlingen.se##.af-cookie
 arbetsmarknadsnytt.se###warning
 arbiton.com##.cookies
 arburg.com###field_popup
+arbys.com##div[class*="cookieBanner"]
 arc.dev###__next > div > header ~ div[class]:last-child
 arcadja.com###headerTopLog > center
 arcgames.com###gdpr-wall
@@ -29993,6 +29996,7 @@ babanet.hu###cookie
 babil.com##.bbl-cookie-consent
 babylonhealth.com##.web-app__GlobalAlert__globalAlert
 babysensepolska.pl##.configMessages
+babyshop.com###root > popup-window.z-alert
 bacelic.hr##.cookies
 back4app.com##footer ~ .w-full.fixed
 backhaus-mildenberger.de##.uk-position-fixed
@@ -30995,7 +30999,6 @@ cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
 cnig.es###layerCookie
-cnn.com##.m-truste, #new-tos-privacy, #js-tos-prompt, head + div, .user-msg, #notification-legal, .popup_tosEdition
 cnnbrasil.com.br###pop__gdpr
 co-opinsurance.co.uk###noticePanel
 co.aptoide.com###news
@@ -31248,7 +31251,6 @@ crocoblock.com###modal-cookie
 cronacaqui.it###footerprivacy
 crosig.hr##.cookieControl__Bar, co-message
 cross.bg##body > div:not([id]):not([class])[style*="fixed"], body > div:not([id]):not([class])[style*="absolute"]
-crosscall.com##.consent-tracking
 crossfit.com###app ~ #modal, #globalMenu ~ div[style*="fixed"]
 crowd1.com##.cookie-concent
 crowdfinder.be##.cookie
@@ -31842,7 +31844,6 @@ e-elektron.pl##body > div:not([id]):not([class])
 e-fellows.net###efnCookieConsent
 e-file.pl###cookiemodal
 e-fo.fr###spanLien > div:first-child
-e-food.gr###smartbanner-container + div > div:last-child:not(:only-child)
 e-gratka.info###pojemnik
 e-lawresources.co.uk##.topbarBox
 e-marcom.pl###cook
@@ -32742,7 +32743,7 @@ gcpat.com##.ms-dlgOverlay, .ms-dlgContent
 gdekluet.ru##body > div[class^="stop-block"]
 gdjenamore.com##.kolacic
 gdpr-banner.awsmpsa.com
-gdpr-wrapper.privacymanager.io$domain=~kinuskikissa.fi|~geenstijl.nl|~dailybuzz.nl|~verkeerplaza.nl|~profil.at|~kurier.at|~weeronline.nl|~vesti.bg
+gdpr-wrapper.privacymanager.io$domain=~kinuskikissa.fi|~geenstijl.nl|~dailybuzz.nl|~verkeerplaza.nl|~profil.at|~weeronline.nl|~vesti.bg
 gdpr.internetbrands.com
 gea.com##.language-detection__cookie
 gebag.de###cookie
@@ -33516,6 +33517,7 @@ iloveimg.com###toast, .toast
 ilovepdf.com###toast, .toast
 imaginanet.com##.cookies
 imagine-r.com###cookies
+imdb.com##div[data-testid="consent-banner"]
 img.ly##.cke-overlay
 img.promio-connect.com$image
 imgrutor.com,playtor.tv##div[class^="adblock-warning"]
@@ -34108,7 +34110,6 @@ konkurrensverket.se##.alert-info, .alert-warning, .alert-box
 konsbud-hifi.com.pl###stickyFooter, .sticky-footer
 konsumenternas.se###tc-consent
 kontaktlinsenforum.de##.m-cookie
-kontist.com###__next > .fixed[class*="bg"], #__next > .fixed[class*="bottom"]
 kontorsmaterial.se##body > div[id^="cbck"]
 kontra.hu###consent
 konversionskraft.de##.kkcb_portal
@@ -34154,7 +34155,6 @@ kreuzwerker.de##.cookies
 kristeligt-dagblad.dk##.consent, #consent
 kristo-friseure.de##.cookies-holder
 krombacher.de##.trackingNotice
-krone.bz##div[class*="cookie-banner"]
 kronikaonline.ro###page-mask
 kropelka.com###back-lightbox
 krosnocity.pl###polcia
@@ -35087,6 +35087,7 @@ mercola.com##.gdpr-container
 mercusys.com###mercusys-cookie
 meridionews.it##.leaderboard
 merixstudio.pl###message, .message
+merrell.pl##div[class*="cookieBanner"]
 merseyfire.gov.uk###popup_box
 mesago.de###privacy_overlay
 mesampoulesgratuites.fr###popup, .popup
@@ -35925,6 +35926,7 @@ olhardigital.com.br###lgpd_optall
 olib.oclc.org###userMessaging
 oliverfischer.de##.fullContainer.bgNoRepeat.noBorder
 olsztyn.com.pl##.rodoaccept
+olx.ua##div[data-testid="cookies-overlay__container"]
 olymp.com##.legal-banner
 olympiasports.net##.consent-notification
 omaweetraad.nl##.cookies
@@ -38149,6 +38151,7 @@ tally-weijl.com##.cookie, .overlay
 talonai.lt###root ~ div
 tammah.com##.slideInUp
 tan.io###panel_11 .widget.plgText
+tandem.net##section[class*="cookieBanner"]
 tang-freres.fr##.welcome
 tangent.co.uk##div[class*="CookieMsg"]
 tango.me###root > div + div:last-child
@@ -38571,7 +38574,7 @@ traconelectric.com##.cookie-row
 trade.bisonapp.com###root > div:first-child
 traderepublic.com##.consentCard
 tradeville.eu###AccCooTab
-tradingview.com##div[class^="toast-positioning-wrapper"]
+tradingview.com##article[class*="cookiesNotification"]
 traefik.io##.site-footer ~ div
 trafficjunky.com$third-party
 trafiken.nu##.cookie
@@ -118354,6 +118357,7 @@ zyro.com##.zyro-cookies
 ||track.auckland.ac.nz^
 ||track.bannedcelebs.com^
 ||track.bestbuy.ca^
+||track.btdmp.com^
 ||track.buyma.com^
 ||track.byzon.swelen.net^$third-party
 ||track.cedsdigital.it^
@@ -130133,8 +130137,8 @@ zyro.com##.zyro-cookies
 ||zzyy20.top^
 ~2ip.io,~senec.com,~taschenhirn.de,~pyroweb.de,~fussballgucken.info,~selgros.de,~frischeparadies.de###klaro div[class*="cookie-modal"]
 ~50five.com###___gatsby div[class*="cookie-message"]
-~abc.es,~as.com,~hoy.es,~diariosur.es,~elcorreo.com,~surinenglish.com,~eldiariomontanes.es,~jardinage.lemonde.fr,~investir.lesechos.fr,~canarias7.es,~elcomercio.es,~laverdad.es,~ideal.es,~lasprovincias.es,~diariovasco.com,~elnortedecastilla.es,~sosoir.lesoir.be###didomi-notice
-~abc.es,~as.com,~hoy.es,~diariosur.es,~elcorreo.com,~surinenglish.com,~eldiariomontanes.es,~jardinage.lemonde.fr,~investir.lesechos.fr,~canarias7.es,~elcomercio.es,~laverdad.es,~ideal.es,~lasprovincias.es,~diariovasco.com,~elnortedecastilla.es,~sosoir.lesoir.be##body:not(.didomi-popup-open) #didomi-host
+~abc.es,~as.com,~hoy.es,~diariosur.es,~elcorreo.com,~surinenglish.com,~eldiariomontanes.es,~canarias7.es,~elcomercio.es,~laverdad.es,~ideal.es,~lasprovincias.es,~diariovasco.com,~elnortedecastilla.es,~sosoir.lesoir.be###didomi-notice
+~abc.es,~as.com,~hoy.es,~diariosur.es,~elcorreo.com,~surinenglish.com,~eldiariomontanes.es,~canarias7.es,~elcomercio.es,~laverdad.es,~ideal.es,~lasprovincias.es,~diariovasco.com,~elnortedecastilla.es,~sosoir.lesoir.be##body:not(.didomi-popup-open) #didomi-host
 ~abo24.de###cookie-consent-wrapper
 ~ad.win.nl###cookieConsentBox
 ~adidas.co.za,~adidas.com.eg###consent-tracking.show
@@ -130469,7 +130473,6 @@ zyro.com##.zyro-cookies
 ~roli.com,~qatarairways.com,~schuurman-schoenen.nl###cookie-notification
 ~saa.nl##.popup-cookie:not(body):not(html)
 ~sabinastore.com,~xiaomiromania.com###cookiesplus-modal-container
-~samsonite.ch,~samsonite.de,~samsonite.fr,~samsonite.nl,~samsonite.cz,~samsonite.it,~samsonite.es,~samsonite.at,~samsonite.pl,~samsonite.be,~samsonite.hu,~samsonite.se,~samsonite.dk,~samsonite.no,~samsonite.co.uk##.cookie-consent-overlay
 ~sap.com,~tmz.com,~proximustv.be,~proximus.be,~tripit.com,~concur.com,~concur.de,~concursolutions.com,~fortune.com###truste-consent-track
 ~sap.com,~tmz.com,~proximustv.be,~proximus.be,~tripit.com,~concur.com,~concur.de,~concursolutions.com,~fortune.com##.truste_box_overlay
 ~sap.com,~tmz.com,~proximustv.be,~proximus.be,~tripit.com,~concur.com,~concur.de,~concursolutions.com,~fortune.com##.truste_overlay:not(body):not(html)
@@ -130547,6 +130550,7 @@ zyro.com##.zyro-cookies
 ~travelchannel.co.uk###cookie-body
 ~trixonline.be,~airam.fi##.footer + .cookie-consent
 ~truepartnercapital.com###cookie-disclaimer-popup
+~tumi.com,~samsonite.ch,~samsonite.at,~samsonite.be##.cookie-consent-overlay
 ~tuttitalia.it###cookieChoiceInfo
 ~tyg.se,~stoffe.de,~myfabrics.co.uk,~latka.cz###cookieOverlay
 ~ubiwayretail.be##.mod-cookiewarning:not(body):not(html)
