@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-13 09:07:05（北京时间） 
-! Total count: 130228
+! Version: 2023-12-13 20:21:38（北京时间） 
+! Total count: 130239
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15110,6 +15110,7 @@
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
 ##A[href*='exuvu.com']
+##A[href*='jdbfknsbkldns.com']
 ##A[href*='jialu6699h.vip']
 ##A[href*='xzzkx.com']
 ##A[href*='youqu.buzz']
@@ -15195,6 +15196,7 @@
 ##DIV[class^='ads_border_']
 ##DIV[data-text-ad]
 ##DIV[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''],[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''] + div
+##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;']
 ##DIV[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important; height: 150px !important;']
 ##DIV[style*='.xyz/gif/']
 ##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
@@ -15206,6 +15208,7 @@
 ##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
 ##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
+##DIV[style='position: fixed; left: 0px; bottom: 0px; width: 100%; height: 120px; z-index: 2147483647 !important;']
 ##DIV[style='position: fixed; line-height: 100vh; width: 100vw; top: 0px; left: 0px;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='box-sizing: border-box; position: relative; left: 0px; z-index: 214748']
@@ -16137,6 +16140,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
+.xyz//qby_*.js$third-party
 .xyz/?token=
 .xyz/ack?s=$third-party
 .xyz/alpine?$third-party
@@ -28932,7 +28936,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|gymshark.com|motortrendondemand.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
-@@||munchkin.marketo.net/munchkin.js$domain=telus.com
+@@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=eloan.co.il
 @@||mxpnl.com^$domain=mixpanel.com
@@ -71496,6 +71500,7 @@ zyro.com##.zyro-cookies
 ||futuristicfifth.com^
 ||futuristicfold.com^
 ||futuristicframe.com^
+||fuvbbjl.xyz^
 ||fuz.cc^
 ||fuzakumpaks.com^
 ||fuzeelamby.com^
@@ -91942,6 +91947,7 @@ zyro.com##.zyro-cookies
 ||neezausu.net^
 ||nefbjp.xyz^
 ||nefdcnmvbt.com^
+||nefrpt.top^
 ||neg2zos.icu^
 ||negationsome.com^
 ||negbxdfn.xyz^
@@ -106117,6 +106123,7 @@ zyro.com##.zyro-cookies
 ||separatesilver.com^
 ||separatesort.com^
 ||separationreverttap.com^
+||sephreoqy.com^
 ||sephur.com^
 ||sepstough.com^
 ||septfd2em64eber.com^
@@ -119946,6 +119953,7 @@ zyro.com##.zyro-cookies
 ||txtad.jijiplayer.com^
 ||txtcompert.com^
 ||txtxz.org.cn^
+||txtyuzhaiwu.com/astyle/wap.js
 ||txv0.destinia.hu^
 ||txvoin.with2.net^
 ||txwhfmxlmu.com^
@@ -124458,6 +124466,7 @@ zyro.com##.zyro-cookies
 ||weus2watcab02.blob.core.windows.net^
 ||wevbgr.vidaxl.it^
 ||wew.dushiwenxue.net^
+||wewlkq.com^
 ||wexfhjpmvhnakq.com^
 ||weyyae.com^
 ||wezmklgd.com^
@@ -124890,6 +124899,7 @@ zyro.com##.zyro-cookies
 ||winlinebet.ru^
 ||winneradsmedia.com^
 ||winnersolutions.net^
+||winniephc.com^
 ||winningdotaltar.com^
 ||winnockhagship.guru^
 ||winnye.com^
@@ -129721,6 +129731,7 @@ zyro.com##.zyro-cookies
 ||zzbb1.top^
 ||zzbmanavblkaw.top^
 ||zzbmxl.xyz^
+||zzccseo.com/statics/js/di.js
 ||zzcmjn.com^
 ||zzcw.office-mall.net^
 ||zzd6.com^
