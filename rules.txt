@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-13 20:28:36（北京时间） 
-! Total count: 130239
+! Version: 2023-12-14 08:53:25（北京时间） 
+! Total count: 130221
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16025,6 +16025,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .gif?stat=open
 .goodwell18.com/track/
 .google-analytics.com/
+.heytapmobi.com
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
 .icu/?token=$third-party
@@ -16265,9 +16266,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /GoogleAnalytics?utmac=
 /GoogleAnalyticsEvents.js
 /GoogleAnalyticsModule.min.js
-/GoogleAnalyticsPlus/*
+/GoogleAnalyticsPlus/distilled.FirstTouch.js
 /Gpdr/assets/ccc-script.js
-/HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
+/HeatmapSessionRecording/configs.php
+/HeatmapSessionRecording/tracker.min.js
 /Hit.ashx?
 /Hit.aspx?
 /HitCounter.
@@ -16305,7 +16307,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /OtAutoBlock.js
 /PageCount.php?
 /PageHit.ashx
-/PageStatistics/*
 /PageStats.asp
 /PageStats.js
 /PageTrack.js
@@ -16351,14 +16352,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Sticky2,ConsentManager
 /SvgAdblockDetected/*
 /T/OFC4/*$image
-/TargetAnalyticsAPI-
 /TeaLeaf.js
 /TeaLeafCfg.js
 /TealeafSDK.js
 /TealeafSDKConfig.js
-/TealeafTarget.
 /Team23_SimpleCookie/*$domain=kleiderhelden.com
-/TouchClarity.
+/TouchClarity.js
 /Track.aspx/*
 /Track/Capture.aspx?
 /TrackClick.
@@ -16671,6 +16670,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/embed/*
 /analytics/event
 /analytics/ga.js
+/analytics/google.js
 /analytics/layer
 /analytics/metric/*
 /analytics/pageview
@@ -17667,7 +17667,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /facebookproductad/views/js/pixel.
 /faciliti-tag.min.js
 /fairfax_tracking.js
-/fb-pixel-$script
+/fb-pixel-dsgvo/*
+/fb-pixel-tracking.js
 /fb-tracking.js
 /fb_pixel_page_view
 /fbanalytics.js
@@ -17739,7 +17740,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /frontend-metrics/*
 /frontend-sentry-
 /frontend/ajax/cookies$domain=romstal.ro
-/fsrscripts/*
+/fsrscripts/triggerParams.js
 /fusion/lucid/data/*
 /g_track.php?
 /ga-events.js
@@ -17888,8 +17889,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /goAnalytics.js
 /gogl_detector$script,domain=meddaily.ru|newsru.com
 /google-adblock.
-/google-analyticator/*
-/google-analytics/*$domain=~stackexchange.com|~superuser.com
+/google-analyticator/external-tracking.min.js
 /google-nielsen-analytics.js
 /google/analytics.js
 /google/autotrack.custom.js
@@ -17913,7 +17913,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /googletag.js
 /googletagmanageranalytics.js
 /googletrack.js
-/googletracker/*
 /gp/r.html?$image
 /gridinbound.blob.core.
 /grt-cookie-consent.js
@@ -17934,7 +17933,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gtm/gtm-
 /gtmTracking.js
 /gv-analytics/riveted.js
-/gweb/analytics/*
+/gweb/analytics/autotrack.js
 /h.gif?
 /hallowedinvention.com
 /handsomelyhealth.com
@@ -17949,9 +17948,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
 /histats.js
-/histats/*
 /hit-counter.
-/hit-counter/*
 /hit.asp?
 /hit.c?
 /hit.php?
@@ -18243,7 +18240,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /lgpd-cookie/*
 /lhnhelpouttab-current.min.js
 /lib/analytics.js
-/lib/snowplow-
 /libraries/google/do-not-track.js
 /library/svy/broker.js
 /libs/gdpr/cmp/cmp.bundle.js
@@ -18398,19 +18394,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /marked-cookie-consent-web/*
 /marketing-analytics.js
 /martypixel?
-/matomo-tracking.
+/matomo-tracking.js
 /matomo.js$domain=~github.com
 /matomo.php
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /mcookie.aspx
 /mcount.cgi?
-/mcounter/*
 /mdp.javascript.gdpr.min
 /mdv.cookie.js$domain=biehler-cycling.com
 /meWantCookies$domain=gamigo.de|gamigo.com
 /measure/pixel/*
 /measure/visit/*
-/media-analytics.min.
 /media.sailthru.com/5ik/1k4/9/*.gif
 /media/cmp/int_cmp_banner
 /media/plg_system_cookieconfirm
@@ -18419,7 +18413,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mediametrie.js
 /mediamus-cookie.js$domain=swl-unser-stadtwerk.de
 /mediateGA.js
-/megacounter/*
+/megacounter.php
 /melindres/*$domain=televes.com
 /mendelstats.js
 /messagingNoTcfApi.js$domain=svd.se
@@ -18462,19 +18456,15 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mixpanel-init.js
 /mixpanel.$domain=~mixpanel.com
 /mlb-ml-analytics.min.js
-/mlopen_track.
+/mlopen_track.html
 /mmclient.js
 /mmcore.js
-/mmetrix.mobi/*
 /mms.*/pv?
 /mms/get_loaders?
 /mn-collector.php
-/mngi/tracking/*
 /mnppixellibrary.min.js
 /mnt/imp?
 /moat/yield.js
-/moatanalytics-
-/mobileanalytics.
 /mod_ablockdetector/*
 /mod_jt_cookies/*
 /mod_pixim_cookie/*
@@ -18483,7 +18473,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /modal-gdpr.umd.js
 /modal/cookie-wall/?modal_view=true$domain=~100partnerprogramme.de
 /module-rgpd/*
-/module/analytics/*
 /module/kabimba_cookie/*
 /modules/cookie_policy/frontend/*
 /modules/cookiechoices.js
@@ -18652,9 +18641,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pagead/conversion_async.js
 /pagedot.gif?
 /pagedot.gif?$domain=focus.de
-/pagehits/*
 /pagelogger/connector.php?
-/pagestat/*
 /pagestat?
 /pagestats/*
 /pagetag.gif?
@@ -18687,7 +18674,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /perf-vitals_
 /perfmatters/js/analytics.js
 /perfmetrics.js
-/performance-logger.
 /performance-metrics.js
 /performance.fcgi?
 /performance/metrics
@@ -18725,7 +18711,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pingd?
 /pinger.cgi?
 /pinterest-pixels.js
-/pistats/cgi-bin/*
 /piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik-consent-banner-script.js
 /piwik.$domain=wetter.com
@@ -18742,6 +18727,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixel-caffeine/build/frontend.js
 /pixel-manager.js?
 /pixel-prod.
+/pixel-tracker.js
 /pixel-tracking.
 /pixel.*/track/*
 /pixel.cgi?
@@ -18772,8 +18758,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixelstats/*
 /pixeltag.js
 /pixeltrack.
-/pixeltracker.
-/pixeltracking/*
+/pixeltracker.bundle.js
+/pixeltracker.js
+/pixeltracking/sdk-worker.js
 /pixelyoursite/dist/scripts/public.js
 /pixy.gif?
 /planetstat.php
@@ -18784,7 +18771,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pleasantpump.com
 /plg_system_vpcookieconsent/*
 /plog?id
-/plogger/*
 /pltk.js$domain=goodcontent.pl
 /plugins/CookiePop/*
 /plugins/catman/*
@@ -18827,6 +18813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ppp/js/permission-client$domain=mein.web.de|meinaccount.gmx.net|hilfe.gmx.net
 /pqt.email/o/*$image
 /pr.php?
+/prebid.pro.js
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
@@ -19057,7 +19044,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /scribd_events?
 /script/ico.cookie.
 /script/pixel.js
-/scriptAnalytics.
+/scriptAnalytics.js
 /scripts.kissmetrics.com/*
 /scripts/clickjs.php
 /scripts/cookiebar
@@ -19096,6 +19083,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sentry-logger.js
 /sentry/bundle.min.js
 /seo.taCo.min.js
+/seo/pageStat/*
 /seostats.php
 /seotracking-v3.js
 /server.php?request=track&output=
@@ -19108,13 +19096,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /session/preparecookies?$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /session/referer
 /session/update-beacon
+/sessioncam.js
 /sessioncam.min.$script
 /sessioncam.recorder.js
-/sessioncam/*
 /set-cookie.gif?
-/setAdStatEV?
 /setPrivacyCookie.min.js
-/setTDUID.do?
 /set_cookie.php?
 /set_optimizely_cookie.js
 /set_tracking.js
@@ -19128,12 +19114,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /shinystat_
 /shopify-boomerang-
 /shopify-event.gif?
-/shopify/track$domain=~github.com
+/shopify/track.js
 /shopify_stats.js
 /shopsshort/privacy/*
 /shoutout.wix.com/*$image
 /show_ads_
-/showcounter.$domain=~showcounter.com
+/showcounter.js
+/showcounter.php
 /showhits.php?
 /shreddit/perfMetrics
 /sibbo-cmp-loader.js
@@ -19171,7 +19158,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sm-policy-banner.js$domain=storage-mart.com
 /smart-eu-cookies.min.js
 /smart-pixel.min.js
-/smartTag.bundle.
+/smartTag.bundle.js
 /smartpixel-1.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
 /smartserve-
@@ -19185,10 +19172,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /smmch-own.js
 /snap-popup.js$domain=maggiore.it|amicoblu.it
 /snowman.gif?p=
-/snowplow.js$script,third-party
+/snowplow.js
 /snowplow/*$script
 /snowplow_$script
-/snowplowjs.
 /socialTracking.js
 /social_tracking.js
 /socialtracking.min.js
@@ -19411,13 +19397,15 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tagmanager/pptm.js
 /tags.js?org_id=
 /tailtarget.js
-/talpa-analytics-
+/talpa-analytics-pro/*
 /tarteaucitron.css
 /tarteaucitron.js$domain=intex.fr
 /tarteaucitron/*$domain=ratp.fr|arena-now.de|flaine.com
+/tatari-shopify/tracker-snippet-latest.min.js
 /taunton-user-consent-eu
 /taunton-user-consent.js
-/tc_analytics.
+/tc_analytics.js
+/tc_analytics.min.js
 /tc_imp.gif?
 /tc_privacy/*$domain=matmut.fr
 /tccl.min.js
@@ -19430,12 +19418,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /teal-gcianalytics-
 /tealeaf.min.js
 /tealeaftarget?
-/tealium-analytics.
 /tealium-external/*$domain=weltverbesserer.de
 /tealium-external/utag.js
-/tealium-utag-
-/tealiumAnalytics.
-/tealiumTagsData.
+/tealium-utag-set.js
+/tealiumAnalytics.js
+/tealiumTagsData.js
 /teenytinycellar.com
 /template/mytheme/statics/js/listing.js
 /templates/rodo/rodo.js
@@ -19448,21 +19435,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ticimax/analytics.js
 /tide_stat.js
 /tilda-stat-
-/timingcg.
-/tjp_beacon.
-/tjx-tracking-
+/timingcg.min.js
+/tjp_beacon.js
+/tjx-tracking-data.js
 /tking/ajax_track_stats?
 /tm-gdpr-consent/*
 /tmo_cookies/Resources/Public/Javascript/CookieSettings.js
-/tms/metrics.
 /tncms/tracking.js
-/tnsCounter.
-/tnsmetrix/*
 /token?referer=
 /tongji.js
 /toplytics.js
-/touch-clarity.
-/touchclarity/*
+/touchclarity/logging.js
 /tr.gif?
 /tr/pageview/*
 /trace-Update.php?
@@ -19474,12 +19457,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track-event.
 /track-focus.min.js
 /track-imp?
-/track-internal-links.
+/track-internal-links.js
 /track-opening/*
-/track-page-view.
 /track-pixel.
-/track-the-click/*
-/track-visit-event?
+/track-the-click-public.js
 /track-visit?
 /track.ads/*
 /track.ashx?*=http
@@ -39949,7 +39930,7 @@ zyro.com##.zyro-cookies
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
 |http://x.o2.pl^
-|https://$script,subdocument,popup,3p,domain=btsow.mom|dandanzan10.top|dandanzan.*|nunuyingyuan.com|nunuyy5.org|rarbgprx.org
+|https://$script,subdocument,popup,3p,domain=btsow.mom|rarbgprx.org
 |https://a.pr-cy.ru^$third-party
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
@@ -92988,6 +92969,7 @@ zyro.com##.zyro-cookies
 ||notiks.io^$third-party
 ||notiksio.com^
 ||notiksio.com^$third-party
+||notion.so/api/v*/teV1
 ||notionsshrivelcustomer.com^
 ||notitiarondino.live^
 ||notix.io^
