@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-15 09:07:53（北京时间） 
-! Total count: 130525
+! Version: 2023-12-15 20:21:30（北京时间） 
+! Total count: 130518
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16020,6 +16020,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .gif?stat=open
 .goodwell18.com/track/
 .google-analytics.com/
+.heytapmobi.com
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
 .icu/?token=$third-party
@@ -16873,6 +16874,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /blockadblock.$script,xmlhttprequest
 /blockblock.jquery.
 /blogcounter.js
+/bloomreach.js
 /bluekai.js
 /bluekai.min.js
 /bluelabs-gdpr/*
@@ -17088,6 +17090,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cnt_js.php?
 /cnvtr.js
 /cocoon-master/lib/analytics/access.
+/codesters-analytics.
 /coherentpath.link/o/*$image
 /cohesion-latest.min.js
 /coinhive.min.js
@@ -17533,7 +17536,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
-/ecg-js-ga-tracking/*
+/ecg-js-ga-tracking/index.
 /echonetcookie$domain=muenchenticket.de
 /echonetcookie.js
 /ecom/status.jsp?
@@ -17797,7 +17800,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gajs/analytics.js
 /gameapk/*/hongbao.apk
 /ganalytics.js
-/ganalytics/*
 /gapro.js
 /gascript.js
 /gasocialtracking.js
@@ -17977,7 +17979,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /homeCounter.php
 /honeybadger.js
 /honeybadger.min.js
-/host-analyticsjs-local/*
+/host-analyticsjs-local/cache/local-ga.js
 /hs_track.js
 /hsc/trk/*
 /ht.js?site_
@@ -18275,7 +18277,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /log.aspx?
 /log.cfm?
 /log.gif?
-/log.htm?$domain=~192.168.0.1|~192.168.1.1
 /log.jsp?
 /log.php?*http
 /log.php?id
@@ -18750,7 +18751,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixelpropagate.js
 /pixels.jsp?
 /pixels/track?
-/pixelstats/*
 /pixeltag.js
 /pixeltrack.
 /pixeltracker.bundle.js
@@ -18945,7 +18945,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /retarget_pixel.php
 /retargeting-pixels.php
 /revinit.js
-/revtracking/*
+/revtracking/revinit.js
 /rg-gdpr.js$domain=lombardafiltri.it
 /rgea.min.js
 /rgpd/js/cookies.js
@@ -19007,30 +19007,22 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rum-telemetry/*
 /rum-track?
 /rum.gif?
-/rum.js/*
 /rum.min.js
 /rum/events
-/rum/id?
-/rum/performance
-/rum?ddsource=
 /run/perf
 /ruxitagentjs_
 /rwtag.gif?
 /rwtag.js
 /s-pcjs.php
-/s.ashx?u=
-/s.aspx?r=
 /s.gif?
 /s4s-privacy-module/*
 /sTrackStats.js
 /s_code_global_context.js
 /s_trans.gif?
-/sa-tracker-
 /sa.gif?
 /safelinkconverter.js
 /salog.js
 /satismeter.js
-/sauron-analytics/*
 /scmetrics.*/b/ss/*
 /scmp-int.js$domain=mapy.cz
 /screencount?vcid=
@@ -19104,7 +19096,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /shared/sentry/*
 /sherlock.gif?
 /shinystat.cgi
-/shinystat_
 /shopify-boomerang-
 /shopify-event.gif?
 /shopify/track.js
@@ -19135,7 +19126,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sitestat.
 /sitestats.gif?
 /sitetrek.js
-/sizes.gif?*=
 /sizzlegdpr.snippet.min.js
 /sk-logabpstatus.php
 /skinCss/website/js/cookie/cookie.js
@@ -19572,6 +19562,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /trackingcookies.
 /trackingheader.js
 /trackingp.gif
+/trackingpixel.php
 /trackit.php?
 /trackit.pl?
 /trackjs.$domain=~trackjs.com
@@ -28805,8 +28796,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|corriereadriatico.it|couriermail.com.au|dailyexaminer.com.au|fanpage.it|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ipswichadvertiser.com.au|la7.it|last.fm|leggo.it|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|quotidianodipuglia.it|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||indeed.com/rpc/log/myjobs/$~third-party
-@@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|tesco.com
-@@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.hu
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 @@||insideruser.microsoft.com^
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
@@ -48718,6 +48708,7 @@ zyro.com##.zyro-cookies
 ||amshroomishan.com^
 ||amtracking01.com^
 ||amtropiusr.com^
+||amuckafternoon.com^
 ||amucksballone.com^
 ||amuletasslike.guru^
 ||amunfezanttor.com^
@@ -58237,7 +58228,6 @@ zyro.com##.zyro-cookies
 ||cloudfront.net/customers/24868.min.js
 ||cloudfront.net/dough/*/recipe.js
 ||cloudfront.net/esf.js
-||cloudfront.net/events
 ||cloudfront.net/i?v=
 ||cloudfront.net/js/ca.js
 ||cloudfront.net/js/grin-sdk.js
@@ -65141,12 +65131,14 @@ zyro.com##.zyro-cookies
 ||drop.com/impressionsBeacon
 ||drop.com/statBeacon
 ||dropbox.com/2/client_metrics
+||dropbox.com/2/ml_platform/log_predictions_events
 ||dropbox.com/2/pap_event_logging
 ||dropbox.com/alternate_
 ||dropbox.com/jse
 ||dropbox.com/log/
-||dropbox.com/log_
+||dropbox.com/log_js_sw_data
 ||dropbox.com/prompt/log_impression?
+||dropbox.com/unity_connection_log
 ||dropboxfingerprintjs.com^
 ||dropboxfingerprintjs.com^$third-party
 ||dropkickmedia.com^
@@ -68539,6 +68531,7 @@ zyro.com##.zyro-cookies
 ||euugbutvb.com^
 ||euz.net^
 ||ev-dating.com^
+||ev.moneymade.io^
 ||ev.stellarlabs.ai^
 ||ev.tpocdm.com^
 ||evadav.indonesiya.com^
