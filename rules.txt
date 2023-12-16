@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-15 20:28:14（北京时间） 
-! Total count: 130517
+! Version: 2023-12-16 08:53:16（北京时间） 
+! Total count: 130523
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18265,6 +18265,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /livecounter.php?wid=
 /livestats.js
 /livezilla/server.php?request=track&
+/ljcounter/?d=
 /ll_cookie_bar.js
 /load_analytics.php
 /loader/counter.js
@@ -28391,6 +28392,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/event
+://tracking.*/tracking.js
 ://www.vinted.*/relay/events
 :8007/*/*?is_not=
 :8008/*/*?is_not=
@@ -33639,6 +33641,11 @@ ipodnikatel.cz##.footer-banner-container
 ipon.hu##div[x-data="cookiePolicy"]
 ipper.ru##body > div:not([id]):not([class])
 iproeb.ro###gg
+iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
+iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
+iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
+iqiyi.com##.black-screen[data-cupid=adblock-blackscreen]
+iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
 iqiyi.com##.header__ele
 iqiyi.com##.header_app.iqiyi-h5-empty
 iqiyi.com##.hotWords-wrap
@@ -33651,7 +33658,6 @@ iqiyi.com##div[class="vue-portal-target "]
 iqiyi.com##div[class^=style_appDownload]
 iqiyi.com##div[class^=style_toApp]
 iqiyi.com##div[class^=styles_openApp]
-iqiyi.com##div[data-adzone],#block-V
 iqiyi.com##section[class^="ChannelHomeBanner"]
 iqoption.com##div[data-test-id="notification-position-container-block"]
 irebu.pl###COOKIE
@@ -36693,15 +36699,13 @@ qmee.com##div[class*="CookieDialog"]
 qobuz.com##.alert.alert-info, .alert.alert-cnil
 qpony.pl##.rodo-wrapper
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,ads ad.pause adList.item)
+qq.com##+js(json-prune,material.video.url)
 qq.com##+js(no-fetch-if,/trace\.|beacon\./)
 qq.com##+js(no-xhr-if,/trace\.|\/collect/)
-qq.com##+js(set,RTCPeerConnection,null)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
-qq.com#@#+js(nowebrtc)
 qr.cz###eu-fck
 qrd.by##.keckse
 qrzcq.com##body > div:not([id]):not([class])
@@ -39913,7 +39917,6 @@ zyro.com##.zyro-cookies
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
 |https://r.i.ua^
-|https://static.cloudflareinsights.com/beacon.min.js^$xhr,script
 |https://tellme.pw/go/jav$popup
 ||*-analytics*.huami.com^
 ||*.mmstat.com^
@@ -41896,6 +41899,7 @@ zyro.com##.zyro-cookies
 ||71692fai4cc0.com^
 ||71a30cae934e.com^
 ||71ec0646e6.com^
+||71edge.com/videos/other/202$xmlhttprequest
 ||71zrh.cn^
 ||720-trail.co.uk^
 ||720-trail.co.uk^$third-party
@@ -50110,9 +50114,7 @@ zyro.com##.zyro-cookies
 ||app.payments.53.com^
 ||app.poconoraceway.com^
 ||app.post.vertafore.com^
-||app.posthog.com/e/?compression=
-||app.posthog.com/e/?ip=
-||app.posthog.com/static/array.js
+||app.posthog.com^$script,xmlhttprequest
 ||app.profile.purina.com^
 ||app.pultegroup.com^
 ||app.purduesports.com^
@@ -53100,6 +53102,7 @@ zyro.com##.zyro-cookies
 ||bestaryua.com^
 ||bestaybuzzed.website^
 ||bestboundary.com^
+||bestbuy.com/~assets/bby/_js/ext/optmzly/
 ||bestcasinopartner.com^
 ||bestclicktitle.com^
 ||bestcoinsignals.com^
@@ -75585,6 +75588,7 @@ zyro.com##.zyro-cookies
 ||highfalutinhoney.com^
 ||highfalutinroom.com^
 ||highjournalistbargain.com^
+||highlight.run^$third-party
 ||highmaidfhr.com^
 ||highmetrics.com^
 ||highmetrics.com^$third-party
@@ -79468,6 +79472,7 @@ zyro.com##.zyro-cookies
 ||iqiyi.com/dsp_track3
 ||iqiyi.com/pixel?
 ||iqiyi.com/track2?
+||iqiyi.com/videos/other/202$xmlhttprequest
 ||iqiyi.irs01.com^
 ||iqiyi.kim^
 ||iqiyi.m.cn.miaozhen.com^
@@ -93405,8 +93410,6 @@ zyro.com##.zyro-cookies
 ||nunciosmegasse.website^
 ||nunhoefey.com^
 ||nuniceberg.com^
-||nunuyingyuan.tk/serviceworker.js^$script
-||nunuyy.cf/serviceworker.js^$script
 ||nunxhv.com^
 ||nupdhyzetb.com^
 ||nupharbakongo.com^
@@ -118599,6 +118602,7 @@ zyro.com##.zyro-cookies
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.enlist.com^
 ||tracking.ent.oviahealth.com^
+||tracking.epicgames.com^
 ||tracking.epsilon.com^
 ||tracking.erfahreneladies.de^
 ||tracking.escorts24.de^
@@ -118618,6 +118622,7 @@ zyro.com##.zyro-cookies
 ||tracking.fkk24.de^
 ||tracking.flowofwork.adp.com^
 ||tracking.foodblog.it^$script
+||tracking.fortnite.com^
 ||tracking.ftitechnology.com^
 ||tracking.fupa.net^
 ||tracking.g2crowd.com^
@@ -121702,6 +121707,7 @@ zyro.com##.zyro-cookies
 ||uts.auction.co.kr^
 ||utsssl.auction.co.kr^
 ||utstancecaricit.com^
+||utt.pm/utm/
 ||uttack.com^
 ||utterlyfunding.com^
 ||uttermosthobbies.com^
