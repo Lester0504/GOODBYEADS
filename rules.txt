@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-16 09:06:09（北京时间） 
-! Total count: 130520
+! Version: 2023-12-16 20:19:31（北京时间） 
+! Total count: 130518
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19780,7 +19780,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /vtrack.php?
 /vtrack?vid=
 /vue/components/cookie-monster
-/vwFiles/analytics/$file/analytics.js
+/vwFiles/analytics/*
 /w.gif?
 /w4.cookiebar.js
 /wa.gif?
@@ -32360,8 +32360,8 @@ filman.cc###cookies
 filmelier.com##.lgpd
 filmfront.no##.pvern
 filminstitutet.se##.info-banner
-filmix.biz,filmix.life,filmix.tech,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
-filmix.biz,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
+filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
+filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
 filmmakers.de##.Aligner
 filmnow.ro###gpdr, #GPDR, #gdpr, #GDPR
 filmon.com###design-switcher
@@ -36699,9 +36699,8 @@ qmee.com##div[class*="CookieDialog"]
 qobuz.com##.alert.alert-info, .alert.alert-cnil
 qpony.pl##.rodo-wrapper
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,ad material.video.url)
+qq.com##+js(json-prune, ads ad material.video)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
-qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .adWrap, .iwan-wrapper
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
 qr.cz###eu-fck
@@ -38895,7 +38894,7 @@ uwartsonline.nl###cookie-consent-modal
 uwec.edu###_pc
 uzdrowisko-wieniec.pl###statement
 v.qq.com###pc_client > .quick_link
-v.qq.com##.quick_games.quick_item,div.card-wrap
+v.qq.com##.quick_games.quick_item
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
 v.qq.com##div[class*="mod_row_box mod_row_box_special"]
@@ -82765,8 +82764,6 @@ zyro.com##.zyro-cookies
 ||l.player.ooyala.com^
 ||l.post2b.com^
 ||l.prk.bz^
-||l.qq.com/livemsg?
-||l.qq.com/lview?
 ||l.qq.com^
 ||l.rovo.co^
 ||l.sharethis.com^
@@ -100742,6 +100739,7 @@ zyro.com##.zyro-cookies
 ||qq.com/dataimport/
 ||qq.com/heatmap/
 ||qq.com/kvcollect?
+||qq.com/livemsg?
 ||qq.com/p?
 ||qq.com/ping.js?
 ||qq.com/qqcom/
