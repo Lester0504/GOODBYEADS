@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-16 20:25:54（北京时间） 
-! Total count: 130518
+! Version: 2023-12-17 08:57:37（北京时间） 
+! Total count: 130515
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18097,7 +18097,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /jquery.gatracker.js
 /jquery.google-analytics.js
 /jquery.iframetracker-
-/jquery.iframetracker.min.js
 /jquery.ihavecookies.$domain=~wisla-plock.pl|~danskemedier.dk
 /jquery.rgpd-cookies.js
 /jquery.tipsy.cookie.js
@@ -28392,7 +28391,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/event
-://tracking.*/tracking.js
 ://www.vinted.*/relay/events
 :8007/*/*?is_not=
 :8008/*/*?is_not=
@@ -50502,7 +50500,7 @@ zyro.com##.zyro-cookies
 ||archeswethers.live^
 ||archgrotesqueiso.com^
 ||archiecheekydecline.com^
-||archive.org^*/analytics.js
+||archive.org/includes/analytics.js
 ||archlycadetclutch.com^
 ||archseebloated.com^
 ||archswimming.com^
@@ -57063,7 +57061,7 @@ zyro.com##.zyro-cookies
 ||channel.arubanetworks.com^
 ||channel.cummins.com^
 ||channel.fanxing.kugou.com^
-||channel.io^*/events
+||channel.io/front/v6/channels/1/events
 ||channel.m.163.com^
 ||channel.togo666.com^
 ||channeladvisor.com^
@@ -63487,6 +63485,7 @@ zyro.com##.zyro-cookies
 ||df-long.cn^
 ||df-srv.de^
 ||df-srv.de^$third-party
+||df.infra.shopee.ph^
 ||df.tanx.com^
 ||df.telemetry.microsoft.com^
 ||df253f3b96.com^
@@ -94904,7 +94903,7 @@ zyro.com##.zyro-cookies
 ||oqyiapj.cn^
 ||ora.tv/j/ora_evttracking.js
 ||oracle.com/visitorinfo/
-||oracleimg.com^*/metrics/
+||oracleimg.com/us/assets/metrics/ora_docs.js
 ||oracleinfinity.io^
 ||oracleinfinity.io^$third-party
 ||oracletechnology.arrow.com^
@@ -101727,7 +101726,6 @@ zyro.com##.zyro-cookies
 ||realcounters.com^$third-party
 ||realeducation.kangan.edu.au^
 ||realescowbell.com^
-||realestate.com.au^*/p.js
 ||realevalbs.com^
 ||realhumandeals.com^
 ||realist.gen.tr^
@@ -103218,8 +103216,9 @@ zyro.com##.zyro-cookies
 ||robescampus.com^
 ||robflea.com^
 ||robindefensivedancing.com^
+||roblox.com/_/_/1px.gif
 ||roblox.com/report
-||roblox.com^*/_/1px.gif
+||roblox.com/www/e.png?
 ||robotadserver.com^
 ||robotflowermobile.com^
 ||robsardri.com^
@@ -107046,7 +107045,6 @@ zyro.com##.zyro-cookies
 ||shopbreakfast.com^
 ||shopee.tw/__t__
 ||shopee.tw/v2/shpsec/web/report
-||shopeemobile.com/*/tr/
 ||shopfulaments.com^
 ||shopify.com/shopifycloud/consent-tracking-api/
 ||shopify.com/shopifycloud/privacy-banner$script
@@ -118597,7 +118595,6 @@ zyro.com##.zyro-cookies
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.enlist.com^
 ||tracking.ent.oviahealth.com^
-||tracking.epicgames.com^
 ||tracking.epsilon.com^
 ||tracking.erfahreneladies.de^
 ||tracking.escorts24.de^
@@ -118617,7 +118614,6 @@ zyro.com##.zyro-cookies
 ||tracking.fkk24.de^
 ||tracking.flowofwork.adp.com^
 ||tracking.foodblog.it^$script
-||tracking.fortnite.com^
 ||tracking.ftitechnology.com^
 ||tracking.fupa.net^
 ||tracking.g2crowd.com^
@@ -119973,7 +119969,7 @@ zyro.com##.zyro-cookies
 ||turbansembiid.space^
 ||turbansour.com^
 ||turboadv.com^
-||turbobit.*/fdUserFingerprintToken.js
+||turbobit.net/js/analytics/
 ||turbocap.net^
 ||turboeagle.co^
 ||turbolion.io^
@@ -120441,6 +120437,7 @@ zyro.com##.zyro-cookies
 ||ubmcmm.baidustatic.com^
 ||uboungera.com^
 ||ubpekn.sivillage.com^
+||ubt.tracking.shopee.ph^
 ||ubuwwswnceqmjtg.xyz^
 ||ubuyanalytics.ubuy.com^
 ||ubvsjh.pointtown.com^
