@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-17 20:26:07（北京时间） 
-! Total count: 130622
+! Version: 2023-12-18 08:55:02（北京时间） 
+! Total count: 130630
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15321,6 +15321,7 @@
 ##[src$='/dibu.adadadad']
 ##[src*='zdmbl.xyz']
 ##[src='/images/c_l.png']
+##[src='/static/ads.png']
 ##[src='http://m.guangzhoubingqing.com/88888.jpg']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
 ##[src^="https://img.sobot.com/chatres/"][title="sb"]
@@ -29105,6 +29106,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||storage.live.com^
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
+@@||stripe.com$domain=pay.openai.com
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||taboola.com/libtrc/$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
@@ -40951,6 +40953,7 @@ zyro.com##.zyro-cookies
 ||2pwja.cn^
 ||2qgsjjy90x.com^
 ||2qj7mq3w4uxe.com^
+||2qpqwkx.cn^
 ||2re6rpip2.de^
 ||2rid9fii9chx.www.atlaslane.com^
 ||2rlgdkf7s.de^
@@ -40971,6 +40974,7 @@ zyro.com##.zyro-cookies
 ||2u3v4w5x6y.com^
 ||2v6624.myrebo.com^
 ||2vv.cc^
+||2xmzazd.cn^
 ||2yqcaqbfnv.nextgen.shareablee.com^
 ||2yt.cn^
 ||2znp09oa.com^
@@ -50131,8 +50135,11 @@ zyro.com##.zyro-cookies
 ||app.payments.53.com^
 ||app.poconoraceway.com^
 ||app.post.vertafore.com^
+||app.posthog.com/e/?compression=
+||app.posthog.com/e/?ip=
+||app.posthog.com/static/array.js
+||app.posthog.com/static/recorder-v2.js
 ||app.posthog.com^
-||app.posthog.com^$script,xmlhttprequest
 ||app.profile.purina.com^
 ||app.pultegroup.com^
 ||app.purduesports.com^
@@ -51915,6 +51922,7 @@ zyro.com##.zyro-cookies
 ||b5h7.com^
 ||b5j6itccyluq.nofluffjobs.com^
 ||b5media.com/bbpixel.php
+||b5v0m3q8.com^
 ||b6143975c9.com^
 ||b629.electronicdesign.com^
 ||b65415fde6.com^
