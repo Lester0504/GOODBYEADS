@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-19 20:28:05（北京时间） 
-! Total count: 130636
+! Version: 2023-12-20 08:43:20（北京时间） 
+! Total count: 130643
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -12457,6 +12457,7 @@
 ##.dot-cc-wrapper + body > .dot-body-overlay
 ##.dot-cc-wrapper:not(body):not(html)
 ##.dot-cookie-prompt:not(body):not(html)
+##.download_full_box
 ##.doyoulikecookies:not(body):not(html)
 ##.dp--cookie-consent .mm-page::after
 ##.dp--wrapper.cookie--permission
@@ -15266,7 +15267,10 @@
 ##[href*='.lookxmh3']
 ##[href*='.top/?token=']
 ##[href*='.xacg.info/']
+##[href*='anrvl.com']
+##[href*='snnrb.com']
 ##[href*='sohu.com/hy-op']
+##[href*='zthbe.com']
 ##[href="/ad/007.html"]
 ##[href='/ad.html']
 ##[href='/ad/bfy.html']
@@ -66816,6 +66820,7 @@ zyro.com##.zyro-cookies
 ||ecsxtrhfgvs.com^
 ||ecthymaalgodon.com^
 ||ectuallyenitwas.info^
+||ectyet.top^
 ||ecudsc.cn^
 ||ecuebovjrnn.com^
 ||ecusemis.com^
@@ -110555,6 +110560,7 @@ zyro.com##.zyro-cookies
 ||souvenirsflex.com^
 ||souvlatraffic.com^
 ||souvoana.xyz^
+||sovelswpq.com^
 ||sovereignidentificationconfirmed.com^
 ||sovism.com^
 ||sovrn.com^
@@ -120578,6 +120584,7 @@ zyro.com##.zyro-cookies
 ||ucjevgue.xyz^
 ||uckbcroqkb.com^
 ||uckbrokennailsa.xyz^
+||uckgqa.xyz^
 ||uckmee.xyz^
 ||ucmetrics.unicredit.it^
 ||ucmetrics.unicreditbanca.it^
