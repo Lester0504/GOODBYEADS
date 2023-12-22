@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-22 09:05:04（北京时间） 
-! Total count: 130889
+! Version: 2023-12-22 20:20:25（北京时间） 
+! Total count: 130894
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16432,6 +16432,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /__imp_apg__/*
 /__rmn.gif?
 /__ssobj/core.js
+/__ssobj/rum?
 /__ssobj/sync?$image
 /__sttm.gif?
 /__ub.gif?
@@ -16734,6 +16735,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/video/stats/*$xmlhttprequest
 /api_ip_info.php
 /apilog?
+/apmrum.min.js
 /app-measurement?
 /app.dsgvo.min.js
 /app/*/%E6%B5%8F%E8%A7%88%E5%99%A8.apk
@@ -19177,6 +19179,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /spd.js$domain=sportal.bg
 /spd/spd.js$domain=woman.bg|novini.bg
 /splunk-logging-v2.js
+/spresso.sdk.tracking.web.js
 /sptracking.
 /spymonitor.js
 /sr.gif?
@@ -103696,6 +103699,7 @@ zyro.com##.zyro-cookies
 ||rouseindecentworth.com^
 ||roushath.xyz^
 ||route-stats.dreport.meituan.net^
+||route.com/collect
 ||routeapp.io/route-analytics/
 ||routeit.one^
 ||routeme.one^
@@ -111101,6 +111105,7 @@ zyro.com##.zyro-cookies
 ||spreebogbean.com^
 ||spreewaldkarte.de/t.gif
 ||sprengaivr.digital^
+||spresso.com/pim/public/events
 ||sprettyruckus.com^
 ||spriedfines.com^
 ||sprigsrecon.com^
