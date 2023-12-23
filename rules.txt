@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-22 20:26:56（北京时间） 
-! Total count: 130894
+! Version: 2023-12-23 08:50:58（北京时间） 
+! Total count: 130901
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16670,6 +16670,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/google.js
 /analytics/layer
 /analytics/metric/*
+/analytics/pagestats
 /analytics/pageview
 /analytics/searches?
 /analytics/track_event/*
@@ -50948,6 +50949,7 @@ zyro.com##.zyro-cookies
 ||assets.instacart.com^
 ||assets.mikeroulston.com^
 ||assets.modeathletics.com^
+||assets.moneymade.io/js/fp.min.js
 ||assets.newsletters.signify.com^
 ||assets.servedby-buysellads.com^
 ||assets.sheetmusicplus.com^
@@ -55716,7 +55718,7 @@ zyro.com##.zyro-cookies
 ||c.panqis.cn^
 ||c.panqishu.com^
 ||c.paypal.com^
-||c.paypal.com^$script
+||c.paypal.com^$image,script
 ||c.pc.qq.com^
 ||c.pcswtw.cn^
 ||c.pengmingx.cn^
@@ -70581,6 +70583,7 @@ zyro.com##.zyro-cookies
 ||floccischlump.com^
 ||flockflame.com^
 ||flockgallies.com^
+||flockrocket.io^$third-party
 ||flocktory.com^
 ||flocktory.com^$third-party
 ||flocktory.com^*/tracks/
@@ -110981,6 +110984,7 @@ zyro.com##.zyro-cookies
 ||spinbox.net^
 ||spinbox1.com^
 ||spinderirpe.com^
+||spindl.link/events
 ||spinfo.wps.cn^
 ||spinna.online^
 ||spinna.shop^
@@ -111199,6 +111203,8 @@ zyro.com##.zyro-cookies
 ||sqtivj.vidaxl.hr^
 ||sqtpks3.1391.com^
 ||squalidscrew.com^
+||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
+||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarelovin.com^
 ||squarepicket.com^
 ||squarespace.com/api/1/performance/
@@ -114483,6 +114489,7 @@ zyro.com##.zyro-cookies
 ||t.ao.argyleforum.com^
 ||t.ao.consumerfinancereport.com^
 ||t.appsflyer.com^
+||t.arcade.show^
 ||t.arizonawildcats.com^
 ||t.arkansasrazorbacks.com^
 ||t.arrows-hitech.com^
