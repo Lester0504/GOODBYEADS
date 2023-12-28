@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2023-12-27 20:26:47（北京时间） 
-! Total count: 131411
+! Version: 2023-12-28 08:51:40（北京时间） 
+! Total count: 131416
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29693,6 +29693,8 @@ api.cookielaw-script.it
 api.cookielaw.eu
 api.usercentrics.eu$domain=ing.de
 apidura.com###hiddenCookie
+apkcombo.com##.diseanmevrtt
+apkcombo.com##[data-d-ad-id]
 aplikuj.pl##div[x-data="cookie"]
 apllogistics.com##.disclaimer
 apmg-international.com##.status-messages
@@ -33369,9 +33371,11 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com###matchComponent4
 huya.com###player-download-guide-tip
 huya.com###sidebarBanner
+huya.com###template
 huya.com##.jump-to-phone
 huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
 huya.com##.wrap-income.chat-wrap-panel
+huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 huya.com##div[class*="NavDownload"]
 huzaro.pl###cookie
 hw-zuschuss.daimler.com##.cdk-overlay-container
@@ -39558,7 +39562,6 @@ www.haijiao.com##.addbox,.bannerliststyle,.van-swipe-item,.crossbutton
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
-www.huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -75954,6 +75957,7 @@ zyro.com##.zyro-cookies
 ||hightech24h.com^
 ||hightopnews.com^
 ||hightopnewstoday.com^
+||highway.cablecar.sph.com.sg^
 ||highwaycpmrevenue.com^
 ||highwaydizzy.com^
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
@@ -113782,6 +113786,7 @@ zyro.com##.zyro-cookies
 ||streamplay.me^
 ||streamplay.to^
 ||streampsh.top^
+||streams.cablecar.sph.com.sg^
 ||streamsb.net^
 ||streamsearchclub.com^
 ||streamsend.com^
