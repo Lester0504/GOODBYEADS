@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-01-02 20:27:28（北京时间） 
-! Total count: 131786
+! Version: 2024-01-03 08:53:33（北京时间） 
+! Total count: 131771
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28573,6 +28573,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ausha.tsbluebox.com^$media,domain=podcast.ausha.co
 @@||ausujet.com/skins/common/ads.js
 @@||autocomplete.clearbit.com^$xmlhttprequest,domain=dzone.com
+@@||awswaf.com/*/telemetry$domain=platform.ledn.io
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||azureedge.net^*/analytics/eventtracking.js$script,domain=crimemapping.com
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
@@ -30976,7 +30977,6 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
-cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -45553,7 +45553,6 @@ zyro.com##.zyro-cookies
 ||actyle.com^
 ||actyot.com^
 ||acuityplatform.com^
-||acuityplatform.com^$third-party
 ||aculturerpa.info^
 ||acuratecraneplan.inthere.link^
 ||acutepropose.com^
@@ -45604,7 +45603,6 @@ zyro.com##.zyro-cookies
 ||ad-log.dable.io^
 ||ad-m.asia^
 ||ad-plus.cn^
-||ad-score.com^$third-party
 ||ad-server.co.za^
 ||ad-serverparc.nl^
 ||ad-sh-sz-zb.wagbridge.tanx.alimama.com^
@@ -47176,7 +47174,6 @@ zyro.com##.zyro-cookies
 ||adtive.com^
 ||adtive.com^$third-party
 ||adtlgc.com^
-||adtlgc.com^$third-party
 ||adtlvnxmht.com^
 ||adtng.com^
 ||adtoadd.com^
@@ -47979,7 +47976,6 @@ zyro.com##.zyro-cookies
 ||aida.de/assets/coobann/$script
 ||aidaicn.com^
 ||aidata.io^
-||aidata.io^$third-party
 ||aidata.me^
 ||aider-res.meizu.com^
 ||aidmat.icu^
@@ -48879,7 +48875,6 @@ zyro.com##.zyro-cookies
 ||analitica.webrpp.com^
 ||analitik.bik.gov.tr^
 ||analitits.com^
-||analitits.com^$third-party
 ||analitycs.net^
 ||analitycs.net^$third-party
 ||analoganalytics.com^
@@ -49650,7 +49645,6 @@ zyro.com##.zyro-cookies
 ||aorms.com^
 ||aornkmae.com^
 ||aorpum.com^
-||aorta.clickagy.com^
 ||aos-creative.prf.hn^
 ||aos.prf.hn^
 ||aosmicdossety.website^
@@ -58178,7 +58172,6 @@ zyro.com##.zyro-cookies
 ||clickinc.com^
 ||clickintext.com^
 ||clickintext.net^
-||clickiocdn.com/utr/
 ||clickiocdn.com^
 ||clickiocmp.com^
 ||clickjs.cnzz.com^
@@ -61026,7 +61019,6 @@ zyro.com##.zyro-cookies
 ||ctm-media.com^
 ||ctmdtrvikipjfv.xyz^
 ||ctnsnet.com^
-||ctnsnet.com^$third-party
 ||ctobsnssdk.com^
 ||ctoosqtuxgaq.com^
 ||ctoziphius.com^
@@ -61802,7 +61794,6 @@ zyro.com##.zyro-cookies
 ||d1yu67rmchodpo.cloudfront.net^
 ||d1yyhdmsmo3k5p.cloudfront.net^
 ||d1z1vj4sd251u9.cloudfront.net^
-||d1z2jf7jlzjs58.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^$rewrite=abp-resource:blank-js,domain=voici.fr
 ||d1z58p17sqvg6o.cloudfront.net^
 ||d1z9vm58yath60.cloudfront.net^
@@ -69272,7 +69263,6 @@ zyro.com##.zyro-cookies
 ||existsvolatile.com^
 ||exitachieve.myre.io^
 ||exitbee.com^
-||exitbee.com^$third-party
 ||exitenmitynotwithstanding.com^
 ||exitexplosion.com^
 ||exitgames.com/photon/m/?ping
@@ -69442,7 +69432,6 @@ zyro.com##.zyro-cookies
 ||eyein.com^$third-party
 ||eyenider.com^
 ||eyeota.net^
-||eyeota.net^$third-party
 ||eyepoi.xyz^
 ||eyere.com^
 ||eyereturn.com^
@@ -99352,7 +99341,6 @@ zyro.com##.zyro-cookies
 ||post-redirecting.com^
 ||post.ra.icast.cn^
 ||postaffiliatepro.com^
-||postaffiliatepro.com^$third-party
 ||postageapp.com/receipt/$third-party
 ||postalfranticallyfriendship.com^
 ||postalusersneatly.com^
@@ -104920,7 +104908,6 @@ zyro.com##.zyro-cookies
 ||s.cdn.u17t.com^
 ||s.ciouwap.com^
 ||s.clickiocdn.com/t/consent_$script
-||s.clickiocdn.com^
 ||s.clientes.construrama.com^
 ||s.clkservice.youdao.com^
 ||s.columbiathreadneedle.co.uk^
@@ -115660,7 +115647,6 @@ zyro.com##.zyro-cookies
 ||tags.bluekai.com^
 ||tags.catapultx.com^
 ||tags.cdn.circlesix.co^
-||tags.clickagy.com^
 ||tags.cmp.tail.digital^
 ||tags.dxmdp.com^
 ||tags.esri.com^
@@ -120023,7 +120009,6 @@ zyro.com##.zyro-cookies
 ||traffboost.net^
 ||traffdaq.com^
 ||traffer.net^
-||traffer.net^$third-party
 ||traffic-gate-service.info^
 ||traffic-gate.com^
 ||traffic-info-service.info^
