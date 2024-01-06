@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-01-06 09:05:35（北京时间） 
-! Total count: 144106
+! Version: 2024-01-06 20:19:26（北京时间） 
+! Total count: 144113
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28572,6 +28572,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
 @@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||bam.nr-data.net^$script,domain=kapwing.com
+@@||bam.nr-data.net^$xmlhttprequest,domain=abema.tv
 @@||baozhang.baidu.com^
 @@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
@@ -28818,6 +28819,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||jeuxvideo-live.com/js/ads.js
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
+@@||js-agent.newrelic.com^$script,domain=abema.tv
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
@@ -54427,6 +54429,7 @@ zyro.com##.zyro-cookies
 ||badword.xyz^
 ||bae5tracker.com^
 ||baect.com^
+||baeldung.com/*/library/dist/js/ad-recovery.min.js
 ||baelungilt.guru^
 ||baepjnwgwh.xyz^
 ||baetrf.com^
@@ -67857,6 +67860,7 @@ zyro.com##.zyro-cookies
 ||djs.baomihua.com^
 ||djsdmdbwlpbab.com^
 ||djssdvbo.com^
+||djuf7jb483wz1.cloudfront.net/p/l.jpg
 ||djv99sxoqpv11.cloudfront.net^
 ||djvby0s5wa7p7.cloudfront.net^
 ||djxfar6.com^
@@ -76301,6 +76305,7 @@ zyro.com##.zyro-cookies
 ||gainings.biz/counter.php?
 ||gainmoneyfast.com^
 ||gaiphaud.xyz^
+||gaipuzui.com^
 ||gaiqgs.xyz^
 ||gaisteem.net^
 ||gaitheed.com^
@@ -87118,6 +87123,7 @@ zyro.com##.zyro-cookies
 ||jsdelivr.net/gh/sensitiveio/sbtracker@master/
 ||jsdelivr.net/npm/@finsweet/cookie-consent$script
 ||jsdelivr.net/npm/cookify$script
+||jsdelivr.net/npm/navigator.sendbeacon
 ||jsdelivr.net/wp/wp-slimstat$script
 ||jsdelivr.net^*/fp.min.js
 ||jsdelvr.com^
@@ -131722,6 +131728,7 @@ zyro.com##.zyro-cookies
 ||trk-imps.com^
 ||trk-maiorum.com^
 ||trk-vod.com^
+||trk.a-dsp.com^
 ||trk.adbutter.net^
 ||trk.admmontreal.com^
 ||trk.admtoronto.com^
