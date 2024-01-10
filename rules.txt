@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-01-09 20:28:38（北京时间） 
-! Total count: 142653
+! Version: 2024-01-10 08:54:54（北京时间） 
+! Total count: 142655
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28928,6 +28928,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||new.abb.com/ruxitagentjs_$~third-party
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de
 @@||news-app.abumedia.yql.yahoo.com^
+@@||next.co.uk/static-content/gtm-sdk/gtm.js$~third-party
 @@||nf.pl/js/libs/cookiesDirective.js$script
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
@@ -108407,6 +108408,7 @@ zyro.com##.zyro-cookies
 ||pushub.net^
 ||pushup.wtf^
 ||pushvip.ru^
+||pushvisit.xyz^
 ||pushwelcome.com^
 ||pushwhy.com^
 ||pushwize.com^
