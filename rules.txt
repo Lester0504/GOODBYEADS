@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-01-18 09:07:27（北京时间） 
-! Total count: 143224
+! Version: 2024-01-18 20:21:57（北京时间） 
+! Total count: 143229
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17730,6 +17730,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fp/top_fp.
 /fp2.compressed.js
 /fp2.min.js$domain=~spweb.auction.co.kr|~spweb.gmarket.co.kr
+/fp3.min.js
 /fp_204?
 /fpc/cookie_js.php
 /fpcookie?
@@ -18546,6 +18547,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /nielsen.js
 /njs.gif?
 /nl-cookie-law.js
+/nlRUM.js
 /nlogger.js
 /nm/itracking?
 /nm_trck.gif?$domain=spiegel.de
@@ -28859,6 +28861,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
+@@||letmegpt.com/js/gpt.js$~third-party
 @@||level.travel/tracker/tracker.js$script,~third-party
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 @@||lightning.bleacherreport.com^*/launch-$~third-party
@@ -69416,6 +69419,7 @@ zyro.com##.zyro-cookies
 ||e.cdngeek.com^
 ||e.cdntlz.cn^
 ||e.cfenl.com^
+||e.channelexco.com^
 ||e.chenyonghua.cn^
 ||e.chfuw.com^
 ||e.cj59c.cn^
@@ -133031,6 +133035,7 @@ zyro.com##.zyro-cookies
 ||upwate.com^
 ||upwelf.com^
 ||upwkcv.vidaxl.ro^
+||upwork.com/upi/jslogger
 ||upwwgd.zentempel.com^
 ||upyerxzn.xyz^
 ||upz1.destinia.lt^
