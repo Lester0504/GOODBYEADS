@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-01-31 20:25:33（北京时间） 
-! Total count: 145156
+! Version: 2024-02-01 08:53:25（北京时间） 
+! Total count: 145162
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15958,7 +15958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .birdsend.net/o/$image
 .bluekai.com/*?e_id_
 .bmetrack.com/c/$image
-.buzz$domain=btsj6.com|yinghua8.tv|yinghuavideo.com|dm99.me
+.buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .buzz/*0*0*0*==$third-party
 .chat.bilibili.com
 .cmail19.com/t/$image
@@ -15985,7 +15985,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/log/?
 .com/qq.js$third-party
 .com/sh/*.js$third-party
-.com/sh/to/$third-party
+.com/sh/to/$third-partyyhdmba.net
 .com/stats.aspx?
 .com/track?$~object
 .com/vtrack
@@ -16144,7 +16144,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .warehousefashion.com/warehouse/e/$image
 .webex.com/q/
 .wix.com/_api/ping/
-.xyz$domain=btsj6.com|yinghua8.tv|yinghuavideo.com|dm99.me
+.xyz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
@@ -29980,6 +29980,8 @@ aziendasicura.net###FrstCksDiv
 azimutyachts.com##.floatFooter
 azimutyachts.cz##.floatFooter
 azorek.pl##.giodoContainer
+azrotv.com##.adbn-wrap
+azrotv.com##div[id^="laoad_Adb"]
 azubiheft.de###CookieModal
 azurewebsites.net###legal-info
 b-travel.com###fb-cd
@@ -32327,6 +32329,7 @@ fc-koeln.de##.mod-alert
 fc.de##.mod-alert
 fcarreras.org##.NoticesBox
 fctables.com###privacy-optin
+fctvhd.com##.mw-adblock
 fdb.pl##.consent, #consent
 fdjesport.fr##.fdj__footer
 fdrive.cz##.sys-alert
@@ -51240,6 +51243,7 @@ zyro.com##.zyro-cookies
 ||api.byscuit.com/data/client$script
 ||api.callget.cn^
 ||api.cdnbye.com^
+||api.channel.io/*/events
 ||api.chcatv.hismarttv.com^
 ||api.cloudmobi.net^
 ||api.collarity.com/cws/*http
@@ -59901,7 +59905,7 @@ zyro.com##.zyro-cookies
 ||channel.cummins.com^
 ||channel.fanxing.kugou.com^
 ||channel.informaengage.com^
-||channel.io/front/v6/channels/1/events
+||channel.io/front/v*/channels/*/events
 ||channel.m.163.com^
 ||channel.togo666.com^
 ||channeladvisor.com^
@@ -101062,6 +101066,7 @@ zyro.com##.zyro-cookies
 ||n3.zuoyebang.cc^
 ||n33d0nem0re.com^
 ||n3567.com^
+||n3xpjc.xyz^
 ||n4.zuoyebang.cc^
 ||n49seircas7r.com^
 ||n4kb43cl2bsw.creatordrop.com^
@@ -102046,6 +102051,7 @@ zyro.com##.zyro-cookies
 ||nfh.cnshef.com^
 ||nfjpykkvvqet.com^
 ||nfkq8jy5db0b.com^
+||nfl9j.com^
 ||nfldgbt.xyz^
 ||nflks.cn^
 ||nflshop.com/api/track
