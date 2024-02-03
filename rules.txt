@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-03 09:01:49（北京时间） 
-! Total count: 145063
+! Version: 2024-02-03 20:18:38（北京时间） 
+! Total count: 145062
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28609,7 +28609,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-msp*.18comic.*^
 @@||cdn-net.com/cc.js
-@@||cdn.cquotient.com/js/$domain=fender.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
@@ -28711,7 +28710,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||dynamicyield.com/scripts/*/dy-coll-nojq-min.js$domain=gigasport.at|gigasport.ch|gigasport.de
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
-@@||e.cquotient.com/recs/$script,domain=fender.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
@@ -63455,7 +63453,6 @@ zyro.com##.zyro-cookies
 ||cqubdd.metro.co.uk^
 ||cqubdd.thisismoney.co.uk^
 ||cquotient.com^
-||cquotient.com^$third-party
 ||cqwajn.com^
 ||cqygmb.com^
 ||cqz6fn6aox.aporia.com^
@@ -65050,6 +65047,7 @@ zyro.com##.zyro-cookies
 ||d2ykons4g8jre6.cloudfront.net^
 ||d2ywv53s25fi6c.cloudfront.net^
 ||d2yyd1h5u9mauk.cloudfront.net^
+||d2z0bn1jv8xwtk.cloudfront.net^
 ||d2z51a9spn09cw.cloudfront.net^
 ||d2zbpgxs57sg1k.cloudfront.net^
 ||d2zcblk8m9mzq5.cloudfront.net^
@@ -70461,7 +70459,6 @@ zyro.com##.zyro-cookies
 ||eb5232b35d.com^
 ||ebannertraffic.com^
 ||ebay.com/delstats/
-||ebay.com/gh/dfpsvc?
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebay.com^*/customer_image_service?
 ||ebayadservices.com/marketingtracking/
@@ -105593,6 +105590,7 @@ zyro.com##.zyro-cookies
 ||p.cab.ua^
 ||p.classroombookings.com^
 ||p.clkservice.youdao.com^
+||p.cquotient.com^
 ||p.ctpost.com/article?
 ||p.data.cctv.com^
 ||p.delivery.net^
@@ -140117,6 +140115,7 @@ zyro.com##.zyro-cookies
 ||www.east2pony.com^
 ||www.easy0bark.com^
 ||www.easyrecoverychina.com^
+||www.ebay.*/gh/dfpsvc?
 ||www.ed-clr-01.com^
 ||www.ediuschina.com^
 ||www.efvrgb12.com^
