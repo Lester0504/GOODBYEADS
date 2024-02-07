@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-07 09:01:09（北京时间） 
-! Total count: 145079
+! Version: 2024-02-07 20:19:21（北京时间） 
+! Total count: 145081
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28791,6 +28791,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||hdnumerique.com/tpl/jscript/advert.js
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
+@@||helix.videotron.com/js/api/fingerprint.js$~third-party
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.interia.pl/iwa_core$script,~third-party
@@ -126992,6 +126993,7 @@ zyro.com##.zyro-cookies
 ||tad.suning.com^
 ||tadadamads.com^
 ||tadamads.com^
+||tadpull.com^$third-party
 ||tadsbelver.com^
 ||tae0t.site^
 ||taembed.com^
