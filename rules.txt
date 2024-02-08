@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-07 20:25:18（北京时间） 
-! Total count: 145081
+! Version: 2024-02-08 08:50:16（北京时间） 
+! Total count: 145051
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15927,7 +15927,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 *_ad_$media,domain=youtube.com,3p
 -adblock-notice-
 -adblock-notice/*
--adobe-analytics.
 -adobe-analytics/
 -adobeDatalayer_bridge.js
 -click-tracker.
@@ -16008,7 +16007,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .ct.sendgrid.net/$image
 .cyou/redbaiduct.com
 .cyou/xling_*_$third-party
-.de/h.gif?
 .de/l.gif?
 .delivery-status.com/open?
 .demdex.net/event?
@@ -16946,7 +16944,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cache_warmer/track/*
 /cached-scripts/analytics.js
 /caixinlog.js
-/call-tracking.js
 /call.tracker.js
 /callbacks/stats?
 /capture_client.js
@@ -17039,7 +17036,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /clicklog.js
 /clicklog4pc.js
 /clickm.js
-/clickmap.js
 /clickpathmedia.js
 /clicks.*/q/*$image
 /clicks.email.$image
@@ -17897,11 +17893,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /goAnalytics.js
 /gogl_detector$script,domain=meddaily.ru|newsru.com
 /google-adblock.
-/google-analyticator/external-tracking.min.js
 /google-nielsen-analytics.js
 /google/analytics.js
-/google/autotrack.custom.js
-/google/autotrack.js
 /googleAnal.js
 /googleAnalytics1.js
 /googleAnalytics4.js
@@ -17941,7 +17934,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gtm/gtm-
 /gtmTracking.js
 /gv-analytics/riveted.js
-/gweb/analytics/autotrack.js
 /h.gif?
 /hallowedinvention.com
 /handsomelyhealth.com
@@ -18587,7 +18579,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /om_cookie_main.js
 /omni-tracking.min.js
 /omniture/uuid.js
-/omniture/visitorapi.js
 /omniture?
 /omniture_tracking.js
 /omniunih.js
@@ -18649,7 +18640,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /page_analytics.js
 /page_counter.js
 /page_perf_log?
-/pagead/conversion_async.js
 /pagedot.gif?
 /pagelogger/connector.php?
 /pagestat?
@@ -18958,13 +18948,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /retarget_pixel.php
 /retargeting-pixels.php
 /revinit.js
-/revtracking/revinit.js
 /rg-gdpr.js$domain=lombardafiltri.it
 /rgea.min.js
 /rgpd/js/cookies.js
 /rh-cookieconsent-microsites.min.js
 /risk_fp_log?
-/riveted.js
 /riveted.min.js
 /rivraddon.js
 /rkrt_tracker-viajs.php
@@ -19303,7 +19291,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /stats/v2/visit?
 /stats/visitors
 /stats/welcome.php?
-/stats/xtcore.
 /stats?aid=
 /stats?blog_
 /stats?callback=
@@ -19517,7 +19504,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track_visit?
 /track_visitor?
 /trackconversion?
-/tracker.do?
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
@@ -19557,7 +19543,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracking/trackpageview
 /tracking/user_sync_widget?
 /tracking/views/*
-/tracking/xtcore.js
 /tracking202/static/landing.php
 /tracking?referrer
 /tracking?vs=
@@ -19568,7 +19553,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /trackingFooter.js
 /trackingGA.js
 /trackingImpression/*
-/trackingPixel.
 /trackingTools.
 /trackingVtm.js
 /tracking_id_
@@ -19726,7 +19710,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /vendor/cedexis/*
 /vendor/cookies$domain=norma-connect.de
 /vendor/weka/privacykit/*
-/vendor/xtcore.js
 /vestigo/v1/measure
 /vfConsentCookies
 /vglnk.js
@@ -47725,7 +47708,6 @@ zyro.com##.zyro-cookies
 ||adobeanalytics.serveone.co.kr^
 ||adobeanalytics.teksystems.com^
 ||adobeanalytics.vice.com^
-||adobedc.demdex.net^
 ||adobedc.net/collector/
 ||adobedtm.com^$third-party,domain=~adobe.com|~costco.com
 ||adobeedge.morganstanley.com^
@@ -64635,6 +64617,7 @@ zyro.com##.zyro-cookies
 ||d1hgdmbgioknig.cloudfront.net^
 ||d1hnmxbg6rp2o6.cloudfront.net^
 ||d1hogxc58mhzo9.cloudfront.net^
+||d1hyarjnwqrenh.cloudfront.net^
 ||d1i11ea1m0er9t.cloudfront.net^
 ||d1i3h541wbnrfi.cloudfront.net^
 ||d1i76h1c9mme1m.cloudfront.net^
@@ -64984,7 +64967,6 @@ zyro.com##.zyro-cookies
 ||d2qn0djb6oujlt.cloudfront.net^
 ||d2qnx6y010m4rt.cloudfront.net^
 ||d2qz7ofajpstv5.cloudfront.net^
-||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||d2r2yqcp8sshc6.cloudfront.net^
 ||d2r3rw91i5z1w9.cloudfront.net^
@@ -69625,7 +69607,6 @@ zyro.com##.zyro-cookies
 ||e-learning.brainshark.com^
 ||e-libra.ru^
 ||e-merchant.com/^*/edr.js$third-party
-||e-nls.com/disp_cnt.php
 ||e-p4p.163.com^
 ||e-pagerank.fr/bouton.gif?$third-party
 ||e-pagerank.net^
@@ -87814,6 +87795,7 @@ zyro.com##.zyro-cookies
 ||jssearch.net^
 ||jssiiamvbuqqkb.com^
 ||jssufsqeisye.com^
+||jst.ai/vck.js
 ||jstatic.org^
 ||jstclphsy.com^
 ||jstimiz.xyz^
@@ -88253,7 +88235,6 @@ zyro.com##.zyro-cookies
 ||k8s-tracking-tracking-6c17add7fc-253503024.eu-central-1.elb.amazonaws.com^
 ||k99.cc^
 ||k9w4m.xyz^
-||ka.ilius.net^
 ||ka5188.com^
 ||kaaqgf.icu^
 ||kaascypher.com^
@@ -90390,7 +90371,6 @@ zyro.com##.zyro-cookies
 ||ledaren.cn^
 ||lederer.nl/incl/stats.js.php?
 ||ledevoir.com/js/pianoAnalyticsTags.js
-||ledger-enquirer.com/lz-isbnoyo/pdp.gif?
 ||ledgesprimely.com^
 ||ledgeviewpartners.actonservice.com^
 ||ledhatbet.com^
@@ -95207,7 +95187,6 @@ zyro.com##.zyro-cookies
 ||marketing.bluebox.net^
 ||marketing.bluebusiness.com^
 ||marketing.bluefcu.com^
-||marketing.bluekai.com^
 ||marketing.bluemarblepayroll.com^
 ||marketing.bluvue.com^
 ||marketing.bmlwealth.net^
@@ -97146,7 +97125,6 @@ zyro.com##.zyro-cookies
 ||medisante.actonservice.com^
 ||mediuln.com^
 ||medium.com/_/batch
-||medium.com/_/clientele/reports/performance/
 ||mediumpimpin.com^
 ||mediwebinars.com^
 ||medleyads.com^
@@ -104755,7 +104733,6 @@ zyro.com##.zyro-cookies
 ||optimize.mcafee.com^
 ||optimized-by.rubiconproject.com^
 ||optimizely.com/client_storage/
-||optimizely.com/js/geo
 ||optimizely.com/js/geo.js
 ||optimizely.com/log
 ||optimizely.com/public/
@@ -105914,7 +105891,6 @@ zyro.com##.zyro-cookies
 ||pagesense.io^$third-party
 ||pageshow.dftoutiao.com^
 ||pagesinxt.com^
-||pagesix.com/blaize/datalayer
 ||pagesjaunes.fr/stat/
 ||pagesocket.glam.com^
 ||pagespeed.report.qq.com^
@@ -112154,6 +112130,7 @@ zyro.com##.zyro-cookies
 ||reachmax.cn^
 ||reachmax.cn^$third-party
 ||reachmode.com^
+||react-admin-telemetry.marmelab.com^
 ||reactandshare.com^
 ||reactful.com^
 ||reactful.com^$third-party
@@ -114405,7 +114382,6 @@ zyro.com##.zyro-cookies
 ||rumanalytics.com^$third-party
 ||rumandwaterv.info^
 ||rumble.com/l/
-||rumble.com^$ping,third-party
 ||rumimorigu.com^
 ||rumlesswithing.com^
 ||rummagemason.com^
@@ -116883,7 +116859,6 @@ zyro.com##.zyro-cookies
 ||secure.valleymed.org^
 ||secure.valpak.com^
 ||secure.vane3alga.com^
-||secure.venture-365-inspired.com^
 ||secure.venture-enterprising.com^
 ||secure.venture365office.com^
 ||secure.vice4beek.com^
@@ -125696,8 +125671,6 @@ zyro.com##.zyro-cookies
 ||sunbowskraal.com^
 ||sundayceremonytitanic.com^
 ||sundayscrewinsulting.com^
-||sundaysky.com/sst.gif?
-||sundaysky.com/vop/$third-party
 ||sundaysky.com^
 ||sundaysky.com^$third-party
 ||sunderport.com.cn^
@@ -126160,7 +126133,6 @@ zyro.com##.zyro-cookies
 ||swishu.com^
 ||swiss-counter.com^
 ||swiss-counter.com^$third-party
-||swisscom.ch/eumcollector/beacons/
 ||swissinside.easyjet.com.edgekey.net.easyjet.com^
 ||swisstoothpastelipstick.com^
 ||switchadhub.com^
@@ -140714,7 +140686,6 @@ zyro.com##.zyro-cookies
 ||www.star-cntr-5.com^
 ||www.startappexchange.com^
 ||www.statcounter.com^
-||www.strawberry.basf.com^
 ||www.sugh8yami.com^
 ||www.sundady.online^
 ||www.svr-prc-01.com^
@@ -142923,7 +142894,6 @@ zyro.com##.zyro-cookies
 ||you75.youpornsexvideos.com^
 ||youa.net^
 ||youate.co^
-||youborafds01.com/data?
 ||youborafds01.com^
 ||youboranqs01.com^
 ||youday.cn^
