@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-12 20:26:08（北京时间） 
-! Total count: 152249
+! Version: 2024-02-13 08:51:20（北京时间） 
+! Total count: 152250
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17607,7 +17607,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /eva-analytics.min.js
 /event-log?
 /event-tracking.js
-/event-tracking/*
+/event-tracking/*$domain=~github.com
 /event.cgi?
 /event.gif?
 /event.php?campaign=
@@ -28249,6 +28249,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 18virginsex.com##.cookie
+1905.com##.pauseInfoWrap:remove()
 1aautoservice.de##.mod-layer
 1avisum.de##.announcement
 1mot.net###cp
@@ -48852,7 +48853,6 @@ zyro.com##.zyro-cookies
 ||adversespurt.com^
 ||adversesuffering.com^
 ||advert.mting.info^
-||advertisementafterthought.com^
 ||advertising-api-eu.amazon.com^
 ||advertising.apple.com^
 ||advertising.com^$third-party
@@ -106182,6 +106182,7 @@ zyro.com##.zyro-cookies
 ||nlnmfkr.com^
 ||nlntrk.com^
 ||nlog.baidu.com^
+||nlog.naver.com^
 ||nlop.xyz^
 ||nlp-japan.life-and-mind.com^
 ||nlqqrsgr.com^
@@ -129782,7 +129783,6 @@ zyro.com##.zyro-cookies
 ||stat.ovh^
 ||stat.pandora.xiaomi.com^
 ||stat.pchome.net^
-||stat.pet^
 ||stat.pl^
 ||stat.pl^$third-party
 ||stat.pptv.com^
@@ -134858,6 +134858,7 @@ zyro.com##.zyro-cookies
 ||theirpervasivegrid.com^
 ||thejierou.net^
 ||thekat.se^
+||thekitchn.com/jAYekY18/init.js
 ||thekromp.com^
 ||theladders.com/api/user-tracking/
 ||thelifeisbinary.ddns.net^
