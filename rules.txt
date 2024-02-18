@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-18 08:56:16（北京时间） 
-! Total count: 152534
+! Version: 2024-02-18 09:06:25（北京时间） 
+! Total count: 152531
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -33659,10 +33659,7 @@ ipodnikatel.cz##.footer-banner-container
 ipon.hu##div[x-data="cookiePolicy"]
 ipper.ru##body > div:not([id]):not([class])
 iproeb.ro###gg
-iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
-iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
-iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
-iqiyi.com##.black-screen[data-cupid=adblock-blackscreen]
+iqiyi.com##.black-screen[data-cupid=adblock-blackscreen], .qy-plist-ad
 iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
 iqiyi.com##.header__ele
 iqiyi.com##.header_app.iqiyi-h5-empty
