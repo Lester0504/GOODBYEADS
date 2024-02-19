@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-19 09:03:48（北京时间） 
-! Total count: 152538
+! Version: 2024-02-19 20:20:13（北京时间） 
+! Total count: 152542
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15105,6 +15105,7 @@
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
+##A[href*='ds2f1sd31g.vip']
 ##A[href*='exuvu.com']
 ##A[href*='jdbfknsbkldns.com']
 ##A[href*='jialu6699h.vip']
@@ -28839,6 +28840,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
+@@||komplett.no/gtm.js$script,~third-party
 @@||krok8.com/wp-content/plugins/pageviews/pageviews.min.js$script,~third-party
 @@||ktu.sv2.biz/sv3/advertisement.js
 @@||ku.dk^
@@ -50790,6 +50792,7 @@ zyro.com##.zyro-cookies
 ||analytics.eggoffer.com^
 ||analytics.eikko.ai^
 ||analytics.eikondigital.it^
+||analytics.eip.telegraph.co.uk^
 ||analytics.emol.com^
 ||analytics.erepublic.com^
 ||analytics.ericafischerphotography.com^
@@ -131493,6 +131496,7 @@ zyro.com##.zyro-cookies
 ||stluserehtem.com^
 ||stm-cdn.cn.miaozhen.com^
 ||stm-collect.cn.miaozhen.com^
+||stm.komplett.no^
 ||stmetrics.bbva.com.ar^
 ||stmetrics.bbva.com.co^
 ||stmetrics.bbva.es^
