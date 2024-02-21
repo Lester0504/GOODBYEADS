@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-21 09:02:49（北京时间） 
+! Version: 2024-02-21 20:19:57（北京时间） 
 ! Total count: 152673
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -15967,7 +15967,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .cmail19.com/t/$image
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
-.cn##.vp-vivo-app
 .cn/2022/*/*.txt$third-party
 .cn/2023/*/*.txt$third-party
 .cn/ack?s=*$third-party
@@ -28862,6 +28861,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||level.travel/tracker/tracker.js$script,~third-party
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 @@||lightning.bleacherreport.com^*/launch-$~third-party
+@@||lightning.cnn.com^$script,domain=wfmz.com
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
 @@||live.rezync.com^$script,domain=batteriesplus.com
