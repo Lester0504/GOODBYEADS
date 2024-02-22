@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-21 20:26:05（北京时间） 
-! Total count: 152673
+! Version: 2024-02-22 08:50:22（北京时间） 
+! Total count: 152681
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29240,6 +29240,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||wwwimage-tve.cbsstatic.com^
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
+@@||yacine-app.com^$generichide
 @@||yandex.ru/ads/system/context.js|$script,domain=playground.ru
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
@@ -51864,6 +51865,8 @@ zyro.com##.zyro-cookies
 ||api.newsfeed.intl.miui.com^
 ||api.nexx.cloud/*/session/
 ||api.odysee.com/locale/get
+||api.ouedkniss.com/health/
+||api.ouedkniss.com^*&xTrackId=
 ||api.pingstart.com^
 ||api.poll.aiseet.atianqi.com^
 ||api.popin.cc/conversion2.js
@@ -57704,6 +57707,7 @@ zyro.com##.zyro-cookies
 ||bonitrust.de^
 ||bonitrust.de^$third-party
 ||bonjonetwork.com^
+||bonmed.se/monitoring?
 ||bonne-terre-data-layer.com^
 ||bonnettaking.com^
 ||bonnieradnetwork.se^
@@ -68537,6 +68541,7 @@ zyro.com##.zyro-cookies
 ||df-srv.de^
 ||df-srv.de^$third-party
 ||df.infra.shopee.
+||df.infra.sz.shopee.
 ||df.tanx.com^
 ||df.telemetry.microsoft.com^
 ||df63x.xyz^
@@ -86602,6 +86607,7 @@ zyro.com##.zyro-cookies
 ||impresionesweb.com^
 ||impress.vcita.com^
 ||impresseastsolo.com^
+||impression-tracker-service-5eimuebuhq-lz.a.run.app^
 ||impression.appsflyer.com^
 ||impression.clickinc.com^
 ||impression.gridsumdissector.com^
@@ -93114,6 +93120,7 @@ zyro.com##.zyro-cookies
 ||ldfeqvkunqawgru.com^
 ||ldforeyesheha.info^
 ||ldfr-cloud.net^
+||ldgnrtn.com^
 ||ldgxsr.locasun-vp.fr^
 ||ldhteg.mooihorloge.nl^
 ||ldisgmftfxanwb.com^
@@ -112095,6 +112102,7 @@ zyro.com##.zyro-cookies
 ||pjgaez.autouncle.at^
 ||pjh7.us.chantelle.com^
 ||pjhbyaaadlw.com^
+||pji.nu/libs/pjpixel/
 ||pjivapiumeb.com^
 ||pjjpp.com^
 ||pjlufuwtxv.com^
