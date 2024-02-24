@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-24 08:59:40（北京时间） 
-! Total count: 153025
+! Version: 2024-02-24 20:17:44（北京时间） 
+! Total count: 153031
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19451,6 +19451,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track.ads/*
 /track.ashx?*=http
 /track.php?domain=
+/track.php?toggle=
 /track.png?
 /track.srv.
 /track.v2.js
@@ -92144,6 +92145,7 @@ zyro.com##.zyro-cookies
 ||kneesettingflashing.com^
 ||knewsportingappreciate.com^
 ||knewwholesomecharming.com^
+||knewz.com/api/event
 ||kneylhewould.xyz^
 ||knfhxszj.xyz^
 ||kngcjx.com^
@@ -109758,6 +109760,7 @@ zyro.com##.zyro-cookies
 ||outbrain.com/widgetOBUserSync/
 ||outbrain.com^
 ||outbrain.com^*/widgetStatistics.js
+||outbrainimg.com^$third-party
 ||outburststudying.com^
 ||outclaydola.com^
 ||outdilateinterrupt.com^
@@ -113016,6 +113019,7 @@ zyro.com##.zyro-cookies
 ||pokreess.com^
 ||pol3.cheque-domicile.fr^
 ||polanders.com^
+||polaranalytics.com^$third-party
 ||polarbearyulia.com^
 ||polarbyte.com^
 ||polarbyte.com^$third-party
@@ -117653,6 +117657,7 @@ zyro.com##.zyro-cookies
 ||rencontresparis2015.com^
 ||rendchewed.com^
 ||render-server.cdn.bcebos.com^
+||renderbetter.net^$third-party
 ||rendfy.com^
 ||rendimportinaugurate.com^
 ||renewalsuspiciousrattle.com^
@@ -146161,6 +146166,7 @@ zyro.com##.zyro-cookies
 ||whairtoa.com^
 ||whaishub.net^
 ||whaiweel.com^
+||whale.camera^$third-party
 ||whale3.io^
 ||whaleads.com^
 ||whalecloud.com^
