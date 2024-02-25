@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-24 20:23:33（北京时间） 
-! Total count: 153031
+! Version: 2024-02-25 08:54:12（北京时间） 
+! Total count: 153034
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28673,10 +28673,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||css.yhdmtu.xyz^$domain=iyinghua.io|yinghua8.tv
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|wpb.shueisha.co.jp|wsj.com
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|computerbild.de|cyclestyle.net|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|wsj.com
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|tvnet.lv|wpb.shueisha.co.jp|wsj.com
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|computerbild.de|cyclestyle.net|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 @@||cxense.com/document/search?
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|wsj.com
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cyberdean.fr/js/advertisement.js
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
@@ -50535,6 +50535,7 @@ zyro.com##.zyro-cookies
 ||amplitude.com^$third-party
 ||amplitudesheriff.com^
 ||amplitudewassnap.com^
+||ampltd.medal.tv^
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
 ||ampproject.org/preconnect.gif
@@ -91023,6 +91024,7 @@ zyro.com##.zyro-cookies
 ||justanswer.com/jatag/
 ||justanswer.com^
 ||justasimple.top^
+||justdial.com/jd-trkr
 ||justey.com^
 ||justgetitfaster.com^
 ||justicejudo.com^
@@ -100669,6 +100671,7 @@ zyro.com##.zyro-cookies
 ||med.viibrydhcp.com^
 ||med.vraylar.com^
 ||medal.blog.csdn.net^
+||medal.tv^$ping
 ||medals.bizrate.com^
 ||medals.bizrate.com^$third-party
 ||meddleachievehat.com^
