@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-02-27 20:25:14（北京时间） 
-! Total count: 153251
+! Version: 2024-02-28 08:50:04（北京时间） 
+! Total count: 153256
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19944,6 +19944,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wpengine-analytics/js/main.js
 /wps-visitor-counter/styles/js/custom.js
 /wpstatistics/v1/hit?
+/wrapper/metrics/v1/custom-metrics?
 /wrapperMessagingWithoutDetection$domain=politico.eu|lovelybooks.de|idealo.de|idealo.at|idealo.es|idealo.fr|idealo.it|idealo.co.uk|femmeactuelle.fr|hausjournal.net|lepoint.fr|chefkoch.de|caradisiac.com|anderes-wort.de
 /wrapperMessagingWithoutDetection.js$domain=vg.no|boerse.de|bt.no|liberation.fr
 /wreport.js
@@ -29026,6 +29027,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||qhres2.com^$domain=baike.so.com
+@@||qm.redbullracing.com/gtm.js$~third-party
 @@||qpython.club^$generichide
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
@@ -53269,6 +53271,7 @@ zyro.com##.zyro-cookies
 ||ar.interiordefine.com^
 ||ar.quadient.com^
 ||ar.umeng.com^
+||ar1.aza.io^
 ||ar1nvz5.com^
 ||ar611.xyz^
 ||arabdevastatingpatty.com^
@@ -80074,6 +80077,7 @@ zyro.com##.zyro-cookies
 ||girls.xyz^
 ||girlsflirthere.life^
 ||girlsglowdate.life^
+||girlsofdesire.org/images/girlsofdesire.org/analytics.js
 ||gis.edge45.testandtarget.omniture.com^
 ||gishejuy.com^
 ||gistblemishparking.com^
@@ -110077,6 +110081,7 @@ zyro.com##.zyro-cookies
 ||owandlk.top^
 ||owascryingforthem.info^
 ||oweltysegnos.website^
+||owen.prolitteris.ch^
 ||owenexposure.com^
 ||oweoumoughtcal.com^
 ||owesdgagvkclmi.xyz^
