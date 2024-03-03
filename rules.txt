@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-03-02 20:23:39（北京时间） 
-! Total count: 153525
+! Version: 2024-03-03 08:53:22（北京时间） 
+! Total count: 153530
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19336,6 +19336,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /stdlog?
 /storage/ui/cookies-banner
 /storeAdvImpression.jsp
+/storefront.google-analytics-4.min.js
 /stp.gif?
 /stracking.js
 /strak.php?t=
@@ -28926,6 +28927,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=eloan.co.il
 @@||mxpnl.com^$domain=mixpanel.com
+@@||my.goabode.com/assets/js/fp2.min.js$script,~third-party
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||mycleverpush.com/iframe?$domain=bsdex.de
@@ -48840,6 +48842,7 @@ zyro.com##.zyro-cookies
 ||adupwewdsk.com^
 ||adurr.com^
 ||adutp.com^
+||adutp.com^$third-party
 ||aduu.cn^
 ||adv-adserver.com^
 ||adv-ettoday.cdn.hinet.net^
@@ -51978,6 +51981,7 @@ zyro.com##.zyro-cookies
 ||api.ssp.adoceans.com^
 ||api.ssp.zxrtb.com^
 ||api.tacotax.fr/v2/amplitude_trackers
+||api.takealot.com^$ping
 ||api.tdp.u7u9.com^
 ||api.tr.blismedia.com^
 ||api.ts.feedback.qy.net^
@@ -83333,6 +83337,7 @@ zyro.com##.zyro-cookies
 ||hellobody.online^
 ||helloextend.com/tracking
 ||hellogalaxy.cn^
+||hellopeter.com/api/consumer-tracking/
 ||helloretail.com/serve/collect/
 ||hellosherpa.com^
 ||hellosherpa.com^$third-party
