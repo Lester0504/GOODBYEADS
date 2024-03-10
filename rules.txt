@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-03-09 20:23:04（北京时间） 
-! Total count: 153662
+! Version: 2024-03-10 08:54:06（北京时间） 
+! Total count: 153671
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -9695,6 +9695,7 @@
 ##.advertise
 ##.advertising-cookie-use
 ##.advice-cookie:not(body):not(html)
+##.adwap
 ##.afe-cookie-banner:not(body):not(html)
 ##.affenkekse:not(body):not(html)
 ##.aficionado--cookies-wrapper
@@ -15271,6 +15272,9 @@
 ##[at*='尼斯人注册送']
 ##[class$="_main_outstream"][style="right: 0px;"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
+##[class][style*='px; bottom: 0px; left: 0px; z-index'][style$='width: 100vw; position: fixed;']
+##[class][style*='px; top: 0px; left: 0px; z-index'][style$='width: 100vw; position: fixed;']
+##[class][style*='px; top: 0px; left: 0px; z-index'][style$='width: 100vw; position: relative;']
 ##[class^="chapter_"] > .baiduCenter
 ##[data^='/banners/pr_advertising_ads_banner']
 ##[href$='/ads.aspx']
@@ -15280,6 +15284,7 @@
 ##[href*='.top/?token=']
 ##[href*='.xacg.info/']
 ##[href*='anrvl.com']
+##[href*='pojuko.buzz']
 ##[href*='slkdnlkfnskl.com']
 ##[href*='snnrb.com']
 ##[href*='sohu.com/hy-op']
@@ -15301,6 +15306,7 @@
 ##[href^='http://j6597v.hjlego.com']
 ##[href^='http://jg.awaliwa.com/']
 ##[href^='http://mm.alameinv.com/']
+##[href^='https://31jrx5y7.com/']
 ##[href^='https://65564535.com']
 ##[href^='https://97749516.com/']
 ##[href^='https://analytics.woozooo.com/jump.php?url=']
@@ -35890,6 +35896,7 @@ nytco.com##.a-cookie
 nytimes.com###dock-container[data-testid*="gdpr"]
 nyulcipobolt.hu##.cookie-container, .cookie-button
 nyx-arch.ch###ab-pop-up
+o-ad.sm.cn
 o2family.cz###o2fCookieConsentDialog
 o2online.es##.cookies
 oase-teichbau.de##div[x-data*="app.components.cookieConsent"]
@@ -41229,6 +41236,7 @@ zyro.com##.zyro-cookies
 ||37.sinawap.com^
 ||370cabd5.space^
 ||3798.com^
+||37bhof.com^
 ||37bvsblobprodcus311.blob.core.windows.net^
 ||37cs.com^
 ||37dv.com^
@@ -116407,6 +116415,7 @@ zyro.com##.zyro-cookies
 ||qriqiz.lifeisgood.com^
 ||qrirud.xyz^
 ||qrius.me^
+||qrjsz.top^
 ||qrjxween.com^
 ||qrkhwe.xyz^
 ||qrlsx.com^
