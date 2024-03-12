@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-03-11 20:26:48（北京时间） 
-! Total count: 153888
+! Version: 2024-03-12 08:50:20（北京时间） 
+! Total count: 153894
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16720,6 +16720,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analyticstracking.js
 /anametrix/cas.js
 /anclytic-ajax.html
+/anclytic.htm
 /angular-tag.js
 /anonymous_user_guid.gif?
 /antiadblockmsg.
@@ -16737,7 +16738,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/getPos?jspath=/videos/view//*
 /api/ipv4check?
 /api/log-visit
-/api/log?
 /api/metrics/collect
 /api/pageactivity
 /api/pageview?
@@ -19052,6 +19052,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /scmp-int.js$domain=mapy.cz
 /screencount?vcid=
 /scribd_events?
+/script.tagged-events.outbound-links.js
 /script/ico.cookie.
 /script/pixel.js
 /scriptAnalytics.js
@@ -28868,6 +28869,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
 @@||komplett.no/gtm.js$script,~third-party
+@@||kozkutak.hu/getdata.php?v*=pageview$~third-party
 @@||krok8.com/wp-content/plugins/pageviews/pageviews.min.js$script,~third-party
 @@||ktu.sv2.biz/sv3/advertisement.js
 @@||ku.dk^
@@ -83022,6 +83024,7 @@ zyro.com##.zyro-cookies
 ||hatedgeographical.com^
 ||hatefulgirlfriend.com^
 ||hatefulrequest.com^
+||hatena.ne.jp/api/log?
 ||hatevery.info^
 ||hatmiso.net^
 ||hatmiso.net^$third-party
@@ -84652,6 +84655,7 @@ zyro.com##.zyro-cookies
 ||houthaub.xyz^
 ||houtouchekan.space^
 ||houzz.com/hsc/aetrk/
+||houzz.com/j/ajax/client-error-light?
 ||houzz.com/js/log?
 ||hoverr.co^
 ||hoverr.media^
@@ -92112,6 +92116,7 @@ zyro.com##.zyro-cookies
 ||kghgmn.top^
 ||kglqjacmqmns.com^
 ||kgmobilestat.kugou.com^
+||kgoma.com/v1/stat/
 ||kgqipyttin.com^
 ||kgqxzw.blue-tomato.com^
 ||kgqzgj.rougegorge.com^
@@ -106378,6 +106383,7 @@ zyro.com##.zyro-cookies
 ||netstats.dk^$third-party
 ||nettlyphosis.com^
 ||nettube.top^
+||netu.ac/cdn-cgi/trace
 ||netund.com^
 ||netupdater.info^
 ||netupdater.info^$third-party
