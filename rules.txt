@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-03-14 20:27:08（北京时间） 
-! Total count: 154125
+! Version: 2024-03-15 08:51:20（北京时间） 
+! Total count: 154130
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18448,7 +18448,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /metrics/event?
 /metrics/ga.js
 /metrics/init?
-/metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
+/metrics/metrics$domain=~docs.datadoghq.com|~source.dot.net|~spatineo.com
 /metrics/onload
 /metrics/ping?
 /metrics/rum
@@ -18533,7 +18533,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /myTracking.js
 /mystats2.px?
 /nLoggerJB_
-/naLogImpressions?
+/naLogImpressions^
 /natero_analytics.min.js
 /nativendo.js
 /navbar-analytics.js
@@ -28939,6 +28939,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|gymshark.com|motortrendondemand.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
+@@||multitest.ua/static/bower_components/boomerang/boomerang.js$~third-party
 @@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=eloan.co.il
@@ -29047,6 +29048,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||pushpushgo.com/js/$script,domain=centrumriviera.pl
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
+@@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||qhres2.com^$domain=baike.so.com
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||qpython.club^$generichide
@@ -55426,6 +55428,7 @@ zyro.com##.zyro-cookies
 ||bamgrid.com/dust$domain=~disneyplus.com
 ||bamgrid.com/telemetry
 ||ban-host.ru^
+||ban.su^$third-party
 ||banalrestart.com^
 ||banana.le.com/
 ||banana.le.com^
@@ -75294,6 +75297,7 @@ zyro.com##.zyro-cookies
 ||eventos.ubmmexico.com^
 ||eventos.usj.es^
 ||eventrhina.com^
+||events-ingestion.services.gorgias.com^
 ||events-logs.doctolib.com^
 ||events-prod.autolist.com^
 ||events-tracker.deliveroo.net^
@@ -124634,6 +124638,7 @@ zyro.com##.zyro-cookies
 ||simpledkrivu.com^
 ||simplehitcounter.com^
 ||simplehitcounter.com^$third-party
+||simplelogin.io/p/api/event
 ||simplemidday.com^
 ||simplereach.com^
 ||simplereach.com^$third-party
