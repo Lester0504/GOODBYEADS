@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-03-15 20:25:38（北京时间） 
-! Total count: 154129
+! Version: 2024-03-16 08:49:56（北京时间） 
+! Total count: 154134
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18308,6 +18308,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /log/?pixel=
 /log/analytics
 /log/browser/event
+/log/client/messages
 /log/collect/*
 /log/counter?
 /log/debug?
@@ -19469,6 +19470,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track-visit?
 /track.ads/*
 /track.ashx?*=http
+/track.gif?data=
 /track.php?domain=
 /track.php?toggle=
 /track.png?
@@ -50743,6 +50745,7 @@ zyro.com##.zyro-cookies
 ||analytics-zone-1.api.leadfamly.com^
 ||analytics.163.com^
 ||analytics.30m.com^
+||analytics.3c5.com^
 ||analytics.aasaam.com^
 ||analytics.academy.com^
 ||analytics.ad.daum.net^
@@ -50846,6 +50849,7 @@ zyro.com##.zyro-cookies
 ||analytics.convertlanguage.com^
 ||analytics.cookiefirst.dev^
 ||analytics.corusent.com^
+||analytics.crazygames.com^
 ||analytics.crowdkeep.com^
 ||analytics.cycleworld.com^
 ||analytics.cyrillus.be^
@@ -143180,6 +143184,7 @@ zyro.com##.zyro-cookies
 ||upstats.ru^
 ||upstats.ru^$third-party
 ||upstats.yadro.ru^
+||upstract.com/tokei/
 ||upsweephalms.com^
 ||upswingmethyl.com^
 ||uptafashib.com^
