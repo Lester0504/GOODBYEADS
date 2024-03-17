@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-03-16 20:26:27（北京时间） 
-! Total count: 154137
+! Version: 2024-03-17 08:54:10（北京时间） 
+! Total count: 154138
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16445,6 +16445,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^(\S+\.)?widgets?\./
 /^(\S+\.)?xpj[0-9]\.net$/
 /^(\S+\.)?ylx-[0-9].com$/
+/^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,third-party
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
