@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-03-18 09:03:39（北京时间） 
-! Total count: 154668
+! Version: 2024-03-18 20:19:45（北京时间） 
+! Total count: 154672
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16481,6 +16481,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_stat/log_
 /_tracking/*
 /_vercel/insights/script.js
+/_vercel/speed-insights/script.js
 /_visitcount?
 /_xa/ads?
 /_xa/ads_
@@ -35713,6 +35714,7 @@ new.m.taobao.com##[style*="top: 0px"]
 new.qq.com###Recomend
 new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com##.cms-bar
+new.qq.com##.godown.qqcom_fb-item
 new.qq.com##.group-pic-bar
 new.qq.com##.hot-choice-bar
 new.qq.com##.original-bar
@@ -39105,6 +39107,7 @@ videosection.com##body > div:not([id]):not([class])
 videosmile.ru###accept_q
 viennaticketoffice.com###hinweis
 vienormali.it##.info
+view.inews.qq.com##div[class^="bottom-bar_buttonWrap"]
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
@@ -39112,6 +39115,7 @@ view.inews.qq.com##div[class^="main-video_"]
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
 view.inews.qq.com##div[class^="new-recommend_wrapper"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
+view.inews.qq.com##div[class^="slider-top-bar_newSliderWrapper"]
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 viewsonic.com##.alert-dismissible
 viewsoniceurope.com##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
@@ -42641,7 +42645,6 @@ zyro.com##.zyro-cookies
 ||9ywl0cwf7e37m5yi.tapin.gg^
 ||Media.net^
 ||XiaoQiang^
-||_tcp.academyofconsciousleadership.net^
 ||a-94interdads.com^
 ||a-ad.adwo.com^
 ||a-ads.com^
@@ -82979,6 +82982,7 @@ zyro.com##.zyro-cookies
 ||hacde5.icu^
 ||hacde6.icu^
 ||hackeraa.xyz^
+||hacksplaining.com/track
 ||hadabqhbewcrt.com^
 ||hades.qyer.com^
 ||hadesleta.com^
