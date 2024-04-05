@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-04-04 20:26:50（北京时间） 
-! Total count: 156148
+! Version: 2024-04-05 08:52:04（北京时间） 
+! Total count: 156149
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18418,6 +18418,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
 /mail.sparksport.co.nz/mail/read/*
+/mailings/opened/*$image
 /maillist.*/t/*$image
 /marfeelanalytics.js
 /marked-cookie-consent-web/*
@@ -29292,7 +29293,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yacine-app.com^$generichide
-@@||yandex.ru/ads/system/context.js|$script,domain=playground.ru
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
@@ -30924,7 +30924,7 @@ cian.ru##div[data-name="CookiesNotification"]
 ciasteczka.org.pl###ciasteczka\.org\.pl
 cibaipuki.com##.table2
 cibaipuki.com##.topnotice a:not([href='http://7a7c.com'])
-cibaipuki.com##A[href^='/article-list-id'][target='_blank']
+cibaipuki.com##A[href^='/article-list-id']
 cibaipuki.com##IMG[border='0'][width='100%']
 cibaipuki.com##SECTION[id^='download_']
 cibaipuki.com##[href*=":"]
@@ -50714,6 +50714,7 @@ zyro.com##.zyro-cookies
 ||ampcr.io^
 ||amplify.outbrain.com^$third-party
 ||amplifypixel.outbrain.com^
+||amplitude.chess.com^
 ||amplitude.com^
 ||amplitude.com^$third-party
 ||amplitudesheriff.com^
