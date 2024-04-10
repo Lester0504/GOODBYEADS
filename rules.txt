@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-04-09 20:27:30（北京时间） 
-! Total count: 156218
+! Version: 2024-04-10 08:51:37（北京时间） 
+! Total count: 156225
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16846,7 +16846,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /banalytics.js
 /bandeau_cookie.js
 /banners/pr_advertising_ads_banner
-/bar/*.js$domain=yinghuavideo.com|yinghua8.tv
 /base-nf.js$domain=lecanardenchaine.fr
 /base/es5/bundle.js
 /base/es6/bundle.js
@@ -19462,6 +19461,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /toplytics.js
 /touchclarity/logging.js
 /tr.gif?
+/tr/lp/intg.js
 /tr/pageview/*
 /trace-Update.php?
 /trace/link/*$image
@@ -60566,6 +60566,7 @@ zyro.com##.zyro-cookies
 ||castcream.com^
 ||castcream.com^$third-party
 ||casterpretic.com^
+||castify-trk.playitviral.com^
 ||castingmannergrim.com^
 ||castorndpollux.com^
 ||castpallium.com^
@@ -80809,7 +80810,6 @@ zyro.com##.zyro-cookies
 ||getpopunder.com^
 ||getpos.de/ext/
 ||getpublica.com^
-||getpublica.com^$third-party
 ||getpush.net^
 ||getpush.net^$third-party
 ||getpushmonkey.com^
@@ -97444,6 +97444,7 @@ zyro.com##.zyro-cookies
 ||logs.mezmo.com^
 ||logs.nandu.com^
 ||logs.naukri.com^
+||logs.netflix.com^
 ||logs.spilgames.com^
 ||logs.thebloggernetwork.com^
 ||logs.theccaa.com^
@@ -107721,6 +107722,7 @@ zyro.com##.zyro-cookies
 ||netflame.cc^
 ||netflame.cc^$third-party
 ||netflare.info^
+||netflix.com/ichnaea/log
 ||netflix.com/msl/playapi/cadmium/logblob/
 ||netflopin.com^
 ||netgraviton.net^
@@ -111178,6 +111180,7 @@ zyro.com##.zyro-cookies
 ||optiads.org^
 ||opticalwornshampoo.com^
 ||opticca.actonservice.com^
+||opticksprotection.com^
 ||opticlygremio.com^
 ||optidownloader.com^
 ||optifiantsion.carte-gr.total.fr^
@@ -114486,6 +114489,7 @@ zyro.com##.zyro-cookies
 ||pl.hitthefrontpage.com^
 ||pl.kanbanmail.app^
 ||pl.kis-nagy.art^
+||pl.letsblock.it^
 ||pl.maya-astro.fi^
 ||pl.mynorthstarapp.com^
 ||pl.sharpmarketing.eu^
@@ -125203,6 +125207,7 @@ zyro.com##.zyro-cookies
 ||service.trustpid.com^
 ||service.vmos.cn^
 ||service.vrp.com^
+||service.webgoto.net/*?wAnalytics
 ||service4refresh.info^
 ||servicegetbook.net^
 ||serviceo.comcast.net^
@@ -142902,6 +142907,7 @@ zyro.com##.zyro-cookies
 ||trk.planta.pt^
 ||trk.plantafin.fr^
 ||trk.plasticstoday.com^
+||trk.playitviral.com^
 ||trk.powderandbulkshow.com^
 ||trk.powderandbulksolids.com^
 ||trk.powerdms.com^
@@ -151087,6 +151093,7 @@ zyro.com##.zyro-cookies
 ||www.hazy4cant.com^
 ||www.hblinwei.com^
 ||www.hdhkwl.com^
+||www.hdmp4.cc/js/foot.js
 ||www.head3high.com^
 ||www.healthcare-distribution.com^
 ||www.hear8crew.com^
