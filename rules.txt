@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-04-15 20:26:48（北京时间） 
-! Total count: 157259
+! Version: 2024-04-16 08:51:57（北京时间） 
+! Total count: 157272
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16033,6 +16033,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .doubleclick.net/$image
 .duolingo.com/open/
 .efeedbacktrk.com/$third-party
+.elaine-asp.de/action/view/$image
 .eloqua.js
 .email.*/tr/op/$image
 .emltrk.com/
@@ -18023,6 +18024,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /i.png?id=
 /i2a.js
 /i2yesCounter.js
+/i?aid=*&se_ac=open&$image
 /i?e=pv&url=
 /i?siteid=
 /i?stm=
@@ -18457,7 +18459,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /metrics/event?
 /metrics/ga.js
 /metrics/init?
-/metrics/metrics$domain=~docs.datadoghq.com|~source.dot.net|~spatineo.com
+/metrics/metrics$domain=~docs.datadoghq.com|~github.com|~source.dot.net|~spatineo.com
 /metrics/onload
 /metrics/ping?
 /metrics/rum
@@ -28946,6 +28948,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||metrics.icloud.com^
 @@||metrics.vrch.at^
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
+@@||miaozhen.com^$domain=miaozhen.com
 @@||microsoftazuresponsorships.com^
 @@||mixpanel.com/track/?data=$xmlhttprequest,domain=eloan.co.il
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
@@ -31779,6 +31782,7 @@ douyu.com##.ToolbarActivityArea
 douyu.com##.ToolbarActivityArea > div:nth-of-type(1) > div:nth-of-type(1) > div.ActivityItem:nth-of-type(3)
 douyu.com##.is-active.UPlayerLotteryEnter
 douyu.com##.is-mask.MedalUserGuide
+douyu.com##a[href^="https://g.wan."]
 douyu.com##div.Title-row:nth-of-type(3)
 douyu.com##div.is-normal.Title-col:nth-of-type(2)
 douyu.com##div[class*=LiveRoomDianzan]
@@ -31786,7 +31790,6 @@ douyu.com##li.RightNavigate-item:nth-of-type(1)
 douyu.com##li.RightNavigate-item:nth-of-type(1) > [href^="/client"]
 douyu.com##li.RightNavigate-item:nth-of-type(2)
 douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
-douyu.com,huya.com##a[href^="https://g.wan."]
 dovizborsa.com###tools > div[style*="bottom"]
 dow.com##.screenBlockOverlay
 download-manager.online##.cookie-bottom
@@ -33448,6 +33451,7 @@ huya.com##.jump-to-phone
 huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
 huya.com##.wrap-income.chat-wrap-panel
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
+huya.com##a[href^="https://wan."]
 huya.com##div[class*="NavDownload"]
 huzaro.pl###cookie
 hw-zuschuss.daimler.com##.cdk-overlay-container
@@ -39662,7 +39666,8 @@ www.haijiao.com##.addbox,.bannerliststyle,.van-swipe-item,.crossbutton
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
-www.huya.com##.main-ab-close-mode, div.sidebar-banner
+www.huya.com###public-screen-ab
+www.huya.com##.sidebar-banner
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -42010,6 +42015,7 @@ zyro.com##.zyro-cookies
 ||6v6.work^
 ||6vhao.kkcaicai.com^
 ||6ye.com.cn^
+||6yfcuuw.com^
 ||6ynyejkv0j1s.app.tapmyback.com^
 ||6zfem.icu^
 ||6zhewang.com^
@@ -42859,6 +42865,7 @@ zyro.com##.zyro-cookies
 ||a.micorp.com^
 ||a.mjlnbx.cn^
 ||a.mobify.com^
+||a.msstatic.com/huya/main3/components/OnTVLottery/$script
 ||a.mts.ru^
 ||a.munters.com.au^
 ||a.munters.com.mx^
@@ -54726,6 +54733,7 @@ zyro.com##.zyro-cookies
 ||avazutracking.net^
 ||avbdf.com^
 ||avbtkz.locknlockmall.com^
+||ave-caesar-mas.modivo.io^
 ||avebedencathy.info^
 ||avenaryconcent.com^
 ||avencio.de^
@@ -55920,6 +55928,7 @@ zyro.com##.zyro-cookies
 ||bastwmrkgs.com^
 ||baszlo.com^
 ||bat.bing.com^
+||bat.bing.net^
 ||bat.maydream.com^
 ||batangam.digital^
 ||batataslavify.guru^
@@ -75691,6 +75700,7 @@ zyro.com##.zyro-cookies
 ||eroadvertising.com^
 ||eroar.lionsclubs.org^
 ||erofherlittleboy.com^
+||eropuru.com/plugin/tracking/
 ||erosionyonderviolate.com^
 ||erosyndc.com^
 ||erotikdating.com^
@@ -92068,6 +92078,7 @@ zyro.com##.zyro-cookies
 ||jmbluyxkl.xyz^
 ||jmcnwr.bricoprive.com^
 ||jmeeersdkmoir.xyz^
+||jmesxbe.icu^
 ||jmgehn.cn^
 ||jmghfyieixqw.com^
 ||jmhngn.com^
@@ -97200,6 +97211,7 @@ zyro.com##.zyro-cookies
 ||liuyuhuaa.cn^
 ||liuyun.name^
 ||live-a-live.com^
+||live-cover.msstatic.com/huyalive/*.jpg?$image
 ||live-ifs.tanx.com^
 ||live-partner.com/tags?
 ||live.alljobs.co.il^
@@ -106827,7 +106839,6 @@ zyro.com##.zyro-cookies
 ||mssp.baidu.com^
 ||msspjh.emarbox.com^
 ||msspsvr.emarbox.com^
-||msstatic.com/huya/*/p2plib.js$script
 ||mstat.zol.com.cn^
 ||mstkvnya.xyz^
 ||mstlewdhec.com^
@@ -144635,6 +144646,7 @@ zyro.com##.zyro-cookies
 ||tx-ad.a.yximgs.com^
 ||tx-br-cdn.kwai.net.iberostar.com^
 ||tx-kmpaudio.pull.yximgs.com^
+||tx-live-cover.msstatic.com/huyalive/*.jpg?$image
 ||tx-pro-pull.kwai.net.iberostar.com^
 ||tx.ctrmi.cn^
 ||tx.icast.cn^
@@ -146838,6 +146850,7 @@ zyro.com##.zyro-cookies
 ||va-endpoint.com^
 ||va-endpoint.com^$third-party
 ||va.gxpan.cn^
+||va.huya.com^
 ||va.tawk.to/log
 ||va.videojj.com^
 ||vabsirte.xyz^
