@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-04-22 09:06:43（北京时间） 
-! Total count: 158002
+! Version: 2024-04-22 20:22:27（北京时间） 
+! Total count: 158010
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16086,7 +16086,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .live/hm.js$third-party
 .live/r/*/*_r=*
 .live/ty/*-*-*$third-party
-.lms-analytics/
 .mail.odysee.com/o/$image
 .mailbutler.io/tracking/
 .mailgun.patreon.com/o/$image
@@ -18267,6 +18266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /levelmaxblock.js
 /lgpd-cookie/*
 /lhnhelpouttab-current.min.js
+/li.lms-analytics/insight.min.js
 /lib/analytics.js
 /libraries/google/do-not-track.js
 /library/svy/broker.js
@@ -31389,7 +31389,7 @@ damianharriscycles.co.uk###info-message
 dan.mgr.consensu.org
 dana.at##.theCookie
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
-dandanzan.com,dandanzan10.top,nunuyy5.org##.gm-fp-body video:style(max-height:100%!important)
+dandanzan.com,nnyy.in##.gm-fp-body video:style(max-height:100%!important)
 dandomain.dk##.no-cookie-wrapper
 dangdang.com###fix_erweima
 dangdang.com##.bottom_fixed
@@ -31732,7 +31732,6 @@ douyu.com###douyu_room_normal_player_proxy_box > .PlayerSuspendedBallAd
 douyu.com###js-player-dialog
 douyu.com###js-player-guessgame
 douyu.com###js-room-activity
-douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 douyu.com##.Bottom
 douyu.com##.ChatEffect
 douyu.com##.ConfigBroadcast.ani-broadcast
@@ -84817,6 +84816,7 @@ zyro.com##.zyro-cookies
 ||hdpdrandpd.xyz^
 ||hdpreview.com^
 ||hdshapvscudndgy.xyz^
+||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$script,redirect=noop.js
 ||hdslb.com/bfs/sycp/creative_img/$image
 ||hdsqvypdt.com^
 ||hdsrc-a.akamaihd.net^
@@ -127004,6 +127004,12 @@ zyro.com##.zyro-cookies
 ||sharing-is-caring.info^
 ||sharing.kptncook.com^
 ||sharion.xyz^
+||shark2.douyucdn.cn/front-publish/live-master/js/player_first/qvbp2p_douyu$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/CloseVideoAd_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/FreeTimeAd_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/ScreenBannerAd_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/SuspendedBallAd_$script
+||shark2.douyucdn.cn/front-publish/live-master/js/room/topBanner_$script
 ||sharkbleed.com^
 ||sharkflowing.com^
 ||sharpay.io^
@@ -131872,6 +131878,7 @@ zyro.com##.zyro-cookies
 ||sobeycloud.com/Services/Stat.
 ||sobin.wang^
 ||sobnineteen.com^
+||sobot.com^
 ||socalledattestation.com^
 ||socalledscanty.com^
 ||soccajoeys.actonservice.com^
@@ -152692,6 +152699,7 @@ zyro.com##.zyro-cookies
 ||www.domainanalytics.net^
 ||www.doulaikanapp.com^
 ||www.doumob.com^
+||www.douyu.com/webSocket.worker_$script
 ||www.dqsft.com^
 ||www.dragonib.com^
 ||www.dtc-330d.com^
