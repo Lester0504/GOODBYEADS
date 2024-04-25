@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-04-24 20:32:22（北京时间） 
-! Total count: 157814
+! Version: 2024-04-25 08:55:04（北京时间） 
+! Total count: 157823
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15285,6 +15285,7 @@
 ##[href*='.top/?token=']
 ##[href*='.xacg.info/']
 ##[href*='anrvl.com']
+##[href*='baidugg123.cc']
 ##[href*='pojuko.buzz']
 ##[href*='slkdnlkfnskl.com']
 ##[href*='snnrb.com']
@@ -34654,6 +34655,7 @@ lzinios.lt##body > div:not([id]):not([class])
 m-a.org.uk##.alert-dismissible
 m-plan.com##.modal
 m-strana.ru##.agreement-cookie
+m.163.com##.floatMenu-logo
 m.163.com##footer > span
 m.acfun.cn##.flex-center.down-app-button
 m.acfun.cn##.header-ico
@@ -34819,6 +34821,7 @@ m.tv.sohu.com##.btn-xz-app
 m.tv.sohu.com##.js-app-topbanner.actv-banner
 m.ugc.fr##.md-dialog-container
 m.v.qq.com##.at-app-banner
+m.v.qq.com##.bottom-wrapper
 m.v.qq.com##.btn_sharpness
 m.v.qq.com##.js_open_app.btn_user_hd
 m.v.qq.com##.mod_app_banner
@@ -34829,6 +34832,8 @@ m.v.qq.com##.mod_open
 m.v.qq.com##.mod_rec
 m.v.qq.com##.mod_rec__animate.mod_rec
 m.v.qq.com##.mod_source
+m.v.qq.com##.old-open.open-app
+m.v.qq.com##.open-app
 m.v.qq.com##.site-top__open-app
 m.v.qq.com##.swiper-container-android.swiper-container-horizontal.mod_source_box_fixed.mod_source_box
 m.weathercn.com##.red-package
@@ -36770,7 +36775,6 @@ qobuz.com##.alert.alert-info, .alert.alert-cnil
 qpony.pl##.rodo-wrapper
 qq.com##+js(json-prune, ad)
 qq.com##+js(json-prune, ads ad material.video)
-qq.com##+js(no-fetch-if, beacon.)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
@@ -38977,9 +38981,11 @@ uwartsonline.nl###cookie-consent-modal
 uwec.edu###_pc
 uzdrowisko-wieniec.pl###statement
 v.qq.com###pc_client > .quick_link
+v.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
 v.qq.com##.quick_games.quick_item, div.game-switch-ad
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
+v.qq.com##.video-card-module > .card-wrap
 v.qq.com##div[class*="mod_row_box mod_row_box_special"]
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v10.pl##body > div[style*="width"]
@@ -39637,7 +39643,7 @@ www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
 www.huya.com##.duya-header-right,#public-screen-ab
-www.huya.com##.sidebar-banner
+www.huya.com##.sidebar-banner, a.J_g_resource
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -91236,6 +91242,7 @@ zyro.com##.zyro-cookies
 ||ivzfpwm.cn^
 ||iw.pentonmarketingsvcs.com^
 ||iwa.iplsc.com^
+||iwan-s.video.qq.com^
 ||iwan.sogou.com^
 ||iwandlo.top^
 ||iwantglobal.actonservice.com^
@@ -100680,6 +100687,7 @@ zyro.com##.zyro-cookies
 ||malinesmanses.com^
 ||maling.dn.no^
 ||maljxp.cn^
+||mall.video.qq.com/m/activity/h5/$subdocument
 ||mall0.qiyipic.com^
 ||mallcom.com^
 ||malletaskewbrittle.com^
@@ -132507,6 +132515,7 @@ zyro.com##.zyro-cookies
 ||sp.wvoil.com^
 ||sp.yixui.com^
 ||sp3.cndm.com^
+||sp5vip.com/h.js
 ||spa-tracker.spapi.io^
 ||spa.admissions.ucdenver.edu^
 ||spacash.com^
