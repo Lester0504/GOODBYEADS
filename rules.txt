@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-04-25 09:07:16（北京时间） 
-! Total count: 157823
+! Version: 2024-04-25 20:17:47（北京时间） 
+! Total count: 157819
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16246,7 +16246,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ConsentInit.min.js$domain=smartphonehoesjes.nl
 /ConsentManager,Sticky
 /ConsentManager/*$domain=flvw.de
-/ContextLogResource/*
 /Cookie-GetCookieModal
 /Cookie-Interfrog/*
 /Cookie/*$domain=nif.no
@@ -16347,7 +16346,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /PoliticaCookies.js$domain=fincaraiz.com.co
 /PopUpPriva/PopPrivacymin.js
 /Public/wap/zymk/js/guanggao.js
-/PushexSDK.
+/PushexSDK.js
 /PvCountUp.action
 /Quantcast/cmp_v2.js
 /QuotaService.RecordEvent?
@@ -16369,7 +16368,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /SharedComponents/bundle-scripts/cookie-consent
 /SiteElements/Scripts/CookieBanner.js
 /SiteSearchAnalytics.js
-/SourcePoint_JS_Files/*
 /StatCms/ViewCount?
 /StatRecorder.asp?
 /StatSNA.js
@@ -16458,7 +16456,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /_/api/v2/analytics/?
 /_/lite/performance/*
-/_/trace/trace/*
 /__enzuzo-cookiebar.js
 /__imp_apg__/*
 /__rmn.gif?
@@ -17092,7 +17089,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cmanalytics.min.js
 /cmapp/*$domain=ccm19.de
 /cmp$domain=schwaebische.de|gameswelt.ch|gameswelt.de|gameswelt.at
-/cmp-hello.
 /cmp-v2/*$domain=youmath.it
 /cmp.$domain=o2.cz
 /cmp.js$domain=behindthename.com
@@ -17610,7 +17606,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /eon-com-tracking-consent$domain=eon.com
 /epaas.consentdrawer.bundle
 /eprivacy/js/eprivacy.js
-/epsilon.v2.
 /ercookiebar.
 /err/js/?url=
 /error/js/log?
@@ -18712,7 +18707,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /perimeterx/px.
 /permission/*$domain=1und1.de
 /permutiveIdGenerator.js
-/pg*.js?PID=$xmlhttprequest
 /pgdpr.min.js
 /ph-cookie-helper-mu/*$domain=uwartsonline.nl
 /ph-tracking-1.2.js
@@ -18893,8 +18887,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /push-analytics.js
 /pushlog.min.js
 /pushlog.php
-/pushly-sdk.
-/pushly-sw.
+/pushly-sdk.min.js
 /pv.gif?
 /pv/?aid=
 /pv2.gif?
@@ -19021,7 +19014,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rr/t?step=
 /rrweb-record-pack.js
 /rrweb-record.min.js
-/rrweb-script.
+/rrweb-script.js
 /rrweb.js
 /rrweb.min.js
 /rt_tag.js
@@ -19324,7 +19317,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /statscounter/*
 /statscript.js
 /statsd_proxy
-/statslogresource/*
 /statstracker.
 /statstracker/*
 /statstracker?
@@ -19732,7 +19724,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /vestigo/v1/measure
 /vfConsentCookies
 /vglnk.js
-/vgwort/*
 /vh2/*$third-party
 /vhs-assets-cookie-control-js.js$domain=planet-beruf.de
 /vhyoydie_*_*.js$third-party
@@ -67076,6 +67067,7 @@ zyro.com##.zyro-cookies
 ||d1yyhdmsmo3k5p.cloudfront.net^
 ||d1z1vj4sd251u9.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^$rewrite=abp-resource:blank-js,domain=voici.fr
+||d1z3r0i09bwium.cloudfront.net^
 ||d1z58p17sqvg6o.cloudfront.net^
 ||d1z9vm58yath60.cloudfront.net^
 ||d1zjpzpoh45wtm.cloudfront.net^
@@ -107420,6 +107412,7 @@ zyro.com##.zyro-cookies
 ||mwbrnpmixxtu.com^
 ||mwcxljdywq.com^
 ||mwdwepok.xyz^
+||mwed.jp/assets/packs/js/measurements/
 ||mwefgc.pazolini.com^
 ||mwfdaciicqhyrj.com^
 ||mwfyab.icu^
@@ -108808,6 +108801,7 @@ zyro.com##.zyro-cookies
 ||newscgp.com/cs/sync/
 ||newscom.com/js/v2/ga.js
 ||newsdeutschland.com/RPC.php
+||newsdig.tbs.co.jp/op/analytics.js
 ||newser.com/utility.aspx?
 ||newsfeedscroller.com^
 ||newsfeedzscrollz.com^
@@ -115099,6 +115093,7 @@ zyro.com##.zyro-cookies
 ||pinptg.milleni.com.tr^
 ||pinremembrance.com^
 ||pint-dev-branch.airship.com^
+||pinterest.com/_/_/$xmlhttprequest
 ||pintlecylix.top^
 ||pintour.com^
 ||pintoutcryplays.com^
@@ -138631,6 +138626,7 @@ zyro.com##.zyro-cookies
 ||taxoxz.xyz^
 ||taxpillsqueal.com^
 ||taylorshellfish.actonservice.com^
+||taz.de/count/
 ||tazagdv.com^
 ||tazm9p7tso.trade^
 ||taznfx.renters.pl^
