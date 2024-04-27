@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-04-27 09:04:20（北京时间） 
-! Total count: 158034
+! Version: 2024-04-27 20:18:47（北京时间） 
+! Total count: 158040
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16052,7 +16052,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .gif?stat=open
 .goodwell18.com/track/
 .google-analytics.com/
-.heytapmobi.com
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
 .icu/?token=$third-party
@@ -18799,6 +18798,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pltk.js$domain=goodcontent.pl
 /plugins/CookiePop/*
 /plugins/catman/*
+/plugins/civic-science/js/pixel.js
 /plugins/cookies-and-content-security-policy/*
 /plugins/cookies/tinybox.js
 /plugins/duracelltomi-google-tag-manager/*
@@ -19043,6 +19043,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rwtag.js
 /s-pcjs.php
 /s.gif?
+/s/vestigo/measure
 /s4s-privacy-module/*
 /sTrackStats.js
 /s_code_global_context.js
@@ -58443,6 +58444,7 @@ zyro.com##.zyro-cookies
 ||bouncepilot.com^$third-party
 ||bouncex.com^
 ||bouncex.com^$third-party
+||bouncex.net^
 ||bouncingbalconysuperior.com^
 ||bouncingtiger.online^
 ||bouncy-collar.com^
@@ -61289,6 +61291,7 @@ zyro.com##.zyro-cookies
 ||cdnvideo3.com^
 ||cdnware.com^
 ||cdnware.io^
+||cdnwidget.com^
 ||cdolhlwq.xyz^
 ||cdosagebreakfast.com^
 ||cdp.cifinancial.com^
@@ -62253,6 +62256,7 @@ zyro.com##.zyro-cookies
 ||citysearch.com/tracker/
 ||citysex.com^
 ||citysite.net^
+||cityspark.com^$third-party
 ||cityua.net^
 ||cityua.net^$third-party
 ||cityzen.io/Pixel/
@@ -81283,6 +81287,7 @@ zyro.com##.zyro-cookies
 ||getbeamer.com^
 ||getbestpolojpob.org^
 ||getbiggainsurvey.top^
+||getblue.io^$third-party
 ||getblueshift.com^
 ||getblueshift.com^$third-party
 ||getbrowbeatgroup.com^
@@ -93956,6 +93961,7 @@ zyro.com##.zyro-cookies
 ||kgeesh.site^
 ||kgelugaz.com^
 ||kgeshe.site^
+||kget.com/CvbtpUrj/init.js
 ||kgfjrb711.com^
 ||kgfrstw.com^
 ||kggikf.icu^
@@ -114167,6 +114173,7 @@ zyro.com##.zyro-cookies
 ||pcookie.cnzz.com^
 ||pcookie.cnzz.net^
 ||pcookie.tanx.com^
+||pcp.coupert.com^
 ||pcpednygt.com^
 ||pcpqqnlvw.xyz^
 ||pcqsajr.icu^
@@ -117051,7 +117058,6 @@ zyro.com##.zyro-cookies
 ||preyersbowe.top^
 ||prf.vagnt.com^
 ||prfct.co^
-||prfct.co^$third-party
 ||prfctmney.com^
 ||prftonnes.com^
 ||prhbdkmdtobn.com^
@@ -138114,6 +138120,7 @@ zyro.com##.zyro-cookies
 ||t7z.cupid.iqiyi.com^
 ||t7z.cupid.ptqy.gitv.tv^
 ||t8.mailperformance.com^
+||t810.ctpost.com^
 ||t8ac8a8f8.jingfeed.com^
 ||t9h2.ricardocuisine.com^
 ||t9k3a.jeanpaulfortin.com^
@@ -157307,7 +157314,6 @@ zyro.com##.zyro-cookies
 ||ztrpm.lu.sogou.com^
 ||ztshg.cn^
 ||ztsrv.com^
-||ztsrv.com^$third-party
 ||zttgwpb.com^
 ||zttuvj.xyz^
 ||ztumuvofzbfe.com^
