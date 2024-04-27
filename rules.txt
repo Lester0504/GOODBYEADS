@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-04-26 20:27:32（北京时间） 
-! Total count: 158032
+! Version: 2024-04-27 08:52:18（北京时间） 
+! Total count: 158033
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28282,7 +28282,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 24tv.ua##.private-policy
 24video.xxx##.adt
 24zdrave.bg###cookies
-27.0.0.1 max.adsame.com
 2ask.de###cadvise_bar
 2captcha.com##.app-level-notifications__item_cookies-policy
 2fast4buds.com##.popup_secure
@@ -28847,6 +28846,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kilimall.co.ke/sensorsdata.min.js$~third-party
 @@||kilimall.co.tz/sensorsdata.min.js$~third-party
+@@||kilimall.com&*/js/sensorsdata.min.js$script,domain=kilimall.co.ke
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
 @@||komplett.no/gtm.js$script,~third-party
@@ -31951,6 +31951,7 @@ ef.com.es##.aa
 efax.fr##.stickyFooter
 efinancialcareers.com##.alert-dismissible
 efinancialcareers.de###pageMessages
+efootballdb.com##div[style="position: fixed; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.8); width: 100vw; height: 100vh; z-index: 9999999;"]
 eframe.co.uk###cookies
 efset.org##body > .aa
 eg.dk##.top-alert
