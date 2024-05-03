@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-05-02 20:28:24（北京时间） 
-! Total count: 158225
+! Version: 2024-05-03 08:55:48（北京时间） 
+! Total count: 158239
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28764,7 +28764,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|carnesvizzera.ch|cmoa.jp|enmotive.com|healthrangerstore.com|hobbyhall.fi|infoconso-multimedia.fr|jackbox.tv|k2radio.com|koel.com|kowb1290.com|ligtv.com.tr|meritonsuites.com.au|nabortu.ru|news.gamme.com.tw|novatv.bg|papajohns.com|poiskstroek.ru|rzd.ru|saturn.at|schweizerfleisch.ch|skaties.lv|stressless.com|teddyfood.com|tracking.narvar.com|tradera.com|tribuna.com|truwin.com|tuasaude.com|unicef.de|viandesuisse.ch|vox.de|westernunion.com|worldsbiggestpacman.com|xxl.se
-@@||google-analytics.com/ga.js$domain=meritonsuites.com.au
+@@||google-analytics.com/ga.js$domain=meritonsuites.com.au|realpage.com
 @@||google-analytics.com/gtm/js?$script,domain=unicef.de
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at|teddyfood.com|xxl.se
@@ -29180,6 +29180,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||tinypass.com^*/logAutoMicroConversion?$domain=chicago.suntimes.com
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||tj.gov.cn^
+@@||tm.jsuol.com.br/modules/external/admanager/clickjogos_ads.js$script,domain=clickjogos.com.br
 @@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
@@ -55177,6 +55178,7 @@ zyro.com##.zyro-cookies
 ||ayxuadkeh.com^
 ||ayybzhd.cn^
 ||ayynsdp.xyz^
+||az.nzn.io^
 ||az693360.vo.msecnd.net^
 ||azabu-u.ac.jp^
 ||azadify.com^
@@ -63079,6 +63081,7 @@ zyro.com##.zyro-cookies
 ||cloudfunctions.net/export-customizer-data-metrics
 ||cloudfunctions.net/function-record-stream-metric?
 ||cloudfunctions.net/ingest?
+||cloudfunctions.net/sendwebpush-analytics
 ||cloudfunctions.net/trackEvent
 ||cloudfunctions.net/vanalytics
 ||cloudhosting-business.vodafone.com^
@@ -63433,7 +63436,6 @@ zyro.com##.zyro-cookies
 ||cnt.rambler.ru^
 ||cnt.rate.ru^
 ||cnt.st^
-||cnt.trvdp.com^
 ||cnt.viptube.com^
 ||cnt.vivatube.com^
 ||cnt.wetteronline.de^
@@ -80595,6 +80597,7 @@ zyro.com##.zyro-cookies
 ||gamecps.com^
 ||gamediad.com^
 ||gamedistribution.com/collect?
+||gamedistribution.com/event?
 ||gamedock.io/gamemonkey-web-tracker/
 ||gameengagedthen.com^
 ||gameforge.de/init.gif?
@@ -111203,6 +111206,7 @@ zyro.com##.zyro-cookies
 ||oiunga.com^
 ||oiuqwppcsdf.com^
 ||oiwjcsh*.top^
+||oiwlnlu.com^
 ||oiwnrl.theory.co.jp^
 ||oiycak.com^
 ||oj.brothercloud.com^
@@ -113993,6 +113997,7 @@ zyro.com##.zyro-cookies
 ||pass8heal.com^
 ||passablecoalitionvarious.com^
 ||passablejeepparliament.com^
+||passeidireto.com/pd-tracking-lib/
 ||passelsylvius.top^
 ||passendo.com^
 ||passengerpage.com^
@@ -115660,6 +115665,7 @@ zyro.com##.zyro-cookies
 ||pl108258.puserving.com^
 ||pl14369502.puserving.com^
 ||pl520.com^
+||pla.fwdcdn.com^
 ||pla.wigglepixel.nl^
 ||placardcapitalistcalculate.com^
 ||placeframe.com^
@@ -117061,7 +117067,6 @@ zyro.com##.zyro-cookies
 ||premium4kflix.top^
 ||premium4kflix.website^
 ||premiumads.com.br^
-||premiumads.com.br^$third-party
 ||premiumads.net^
 ||premiumapp.byjus.com^
 ||premiumhdv.com^
@@ -123089,6 +123094,7 @@ zyro.com##.zyro-cookies
 ||rulovar.com^
 ||rulwph.xyz^
 ||rum-collector.pingdom.net^
+||rum-ingress-coralogix.com^
 ||rum-static.pingdom.net^
 ||rum.api.intuit.com^
 ||rum.azion.com^
@@ -136263,6 +136269,7 @@ zyro.com##.zyro-cookies
 ||strangesink.com^$third-party
 ||strangineer.info^
 ||strangledisposalfox.com^
+||strapi.clickjogos.com.br^
 ||strapnetdisk.com^
 ||stratebilater.com^
 ||strategicfollowingfeminine.com^
@@ -143006,6 +143013,7 @@ zyro.com##.zyro-cookies
 ||tracker-rec.smart-bdash.com^
 ||tracker-sav.space^
 ||tracker-tds.info^
+||tracker-v4.gamedock.io^
 ||tracker.$xhr,websocket,script,ping
 ||tracker.520call.me^
 ||tracker.adbinead.com^
@@ -143042,6 +143050,7 @@ zyro.com##.zyro-cookies
 ||tracker.iltrovatore.it^
 ||tracker.incite-group.com^
 ||tracker.insurancenexus.com^
+||tracker.jkplayers.com^
 ||tracker.jkstremum.xyz^
 ||tracker.keywordintent.com^
 ||tracker.marinsoftware.com^
@@ -146775,6 +146784,7 @@ zyro.com##.zyro-cookies
 ||uoldid.ru^
 ||uolwbz.heine.de^
 ||uommwhqyefutlp.com^
+||uoosqk.xyz^
 ||uopsawxst.cyou^
 ||uoqsxdpx.xyz^
 ||uorhlwm.com^
@@ -147428,6 +147438,7 @@ zyro.com##.zyro-cookies
 ||uunczm.lescon.com.tr^
 ||uunfybw.cn^
 ||uuoizbtl.xyz^
+||uuoozz.com/L7QQ.js
 ||uurykr.pizzahut.com.mx^
 ||uurzdr.global-style.jp^
 ||uusee.adsame.com^
@@ -149484,6 +149495,7 @@ zyro.com##.zyro-cookies
 ||vuwjv7sjvg7.zedporn.com^
 ||vuwmxjusucnh.com^
 ||vuxxtn.xyz^
+||vuyibsm.icu^
 ||vuyngptxhjtmdn.com^
 ||vuypew.ikks.com^
 ||vuzxgvjt.com^
@@ -154679,6 +154691,7 @@ zyro.com##.zyro-cookies
 ||xnyemao.com^
 ||xnysqiur.com^
 ||xnzetb.xyz^
+||xnzxeu.com^
 ||xo28pclotovi.com^
 ||xoalt.com^
 ||xobr219pa.com^
@@ -155476,6 +155489,7 @@ zyro.com##.zyro-cookies
 ||yfefdlv.com^
 ||yfepff.raymourflanigan.com^
 ||yfgrxkz.com^
+||yfhtbdn.com^
 ||yfi8.com^
 ||yfjq.a6ntv.cn^
 ||yfkflfa.com^
