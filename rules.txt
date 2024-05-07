@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-05-06 20:28:39（北京时间） 
-! Total count: 158350
+! Version: 2024-05-07 08:53:38（北京时间） 
+! Total count: 158359
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15302,6 +15302,7 @@
 ##[href='http://ky53362.com/']
 ##[href='https://click.aliyun.com/m/1000332699/']
 ##[href='https://dpurl.cn/HifSTUtz']
+##[href='https://okok.com.tw/']
 ##[href='https://www.aiwajbh.com/mh.php']
 ##[href^="https://9996867.com"]
 ##[href^="https://lantianyong"]
@@ -28608,6 +28609,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-msp*.18comic.*^
 @@||cdn-net.com/cc.js
+@@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
@@ -33818,6 +33820,11 @@ japscan.lol#@#.ad_slot
 jasmin.com###cookie_container ~ div[style=""]:not([id])
 jastrzebieonline.pl###rodo_popup
 jateknet.hu###profiling-accept
+jav777.cc,jav777.xyz###playertopads
+jav777.cc,jav777.xyz##.myad_alert_82
+jav777.cc,jav777.xyz##.myad_alert_82_box
+jav777.cc,jav777.xyz##P[style='margin-left:5px; margin-right:5px; text-align:center']
+jav777.cc,jav777.xyz##[src='/close.gif']
 javarush.com##.cookie-consent
 javarush.ru##.cookie-consent
 javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
@@ -102730,6 +102737,7 @@ zyro.com##.zyro-cookies
 ||marvelhuntcountry.com^
 ||marvellouspeaches.com^
 ||marvellousperforming.com^
+||marvelmetrix.com^$third-party
 ||marvelous-studio.com^
 ||marvelrespectableinset.com^
 ||marx7loki.com^
@@ -156150,6 +156158,7 @@ zyro.com##.zyro-cookies
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
 ||youtube.com/youtubei/v1/log_event?
+||youtube.googleapis.com/youtubei/v1/log_event?
 ||youtubecenter.net^
 ||youtubee.top^
 ||youtubekids.com/api/stats/ads?
