@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-05-14 20:29:50（北京时间） 
-! Total count: 159885
+! Version: 2024-05-15 08:54:34（北京时间） 
+! Total count: 159889
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16476,6 +16476,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_gz/counter.php?
 /_hcms/perf
 /_hw_cookie_dialog.js
+/_i?type=event&
 /_lib/ga.js
 /_owa.gif?
 /_sess/script.js
@@ -18421,6 +18422,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mail.sparksport.co.nz/mail/read/*
 /mailings/opened/*$image
 /maillist.*/t/*$image
+/maling.roidusat.com/t/*$image
 /marfeelanalytics.js
 /marked-cookie-consent-web/*
 /marketing-analytics.js
@@ -61525,6 +61527,7 @@ zyro.com##.zyro-cookies
 ||cdnjs.work/metrics.js
 ||cdnjs.z-face.cn^
 ||cdnkimg.com^
+||cdnlibjs.com^$third-party
 ||cdnlog.zhenai.com^
 ||cdnma.com/apps/capture.js
 ||cdnmaster.cn^
@@ -140967,6 +140970,7 @@ zyro.com##.zyro-cookies
 ||ternarymugging.top^
 ||terorie.com^
 ||terra.com.br/metrics/
+||terra.com.br^*/metrics.js
 ||terra.com.mx/js/metricspar_
 ||terra.com.mx^*/metrics_begin.js
 ||terra.com.mx^*/metrics_end.js
