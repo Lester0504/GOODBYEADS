@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-05-20 20:31:07（北京时间） 
-! Total count: 160087
+! Version: 2024-05-21 08:54:55（北京时间） 
+! Total count: 160095
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18031,6 +18031,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /iCookie/*$domain=h-supertools.com
 /iMAWebCookie.js
 /i_CookieConsent.js
+/ia-sentry.min.js
 /ib_pvcounter.php
 /ibeat.min.js
 /ibeugdpr.min.js
@@ -18880,6 +18881,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ptrack.js
 /pub/as?_ri_=$image
 /pub/imp?
+/pubble.stats.min.js
 /pubcid.min.js
 /public-cookie-consent/*
 /public/analytics.js
@@ -58418,6 +58420,7 @@ zyro.com##.zyro-cookies
 ||bokecc.com/flash/timerecorder?
 ||bokeden.com^
 ||bokomarratel.com^
+||bol.com/click/impression?
 ||bol.com/tracking/
 ||boldboycott.com^
 ||boldinsect.pro^
@@ -77147,6 +77150,7 @@ zyro.com##.zyro-cookies
 ||evs.sgmt.loom.com^$script
 ||evscnfj.cn^
 ||evt-api.ntm.eu^
+||evt.24.com^
 ||evt.collarity.com^$image
 ||evt.houzz.com^
 ||evt.mxplay.com^
@@ -87342,6 +87346,7 @@ zyro.com##.zyro-cookies
 ||htoptracker11072023.com^
 ||htoycpsxljkqrp.com^
 ||htpirf.xyz^
+||htplayground.com^
 ||htqfxh.vuch.cz^
 ||htrace.wetvinfo.com^
 ||htracker1.zmzfile.com^
@@ -106489,6 +106494,7 @@ zyro.com##.zyro-cookies
 ||mhrpusbstm.com^
 ||mhslbgk.cn^
 ||mhtgdirbo.com^
+||mhtr.be/public/tr/tracker.min.js
 ||mhtrt.com^
 ||mhuodong.elong.com^
 ||mhvllvgrefplg.com^
@@ -139980,6 +139986,7 @@ zyro.com##.zyro-cookies
 ||tags.fullcontact.com^
 ||tags.globo.com^
 ||tags.growingio.com^
+||tags.hilabel.nl^
 ||tags.igeo.com.bo^
 ||tags.johnlewis.com^
 ||tags.master-perf-tools.com^
@@ -150679,6 +150686,7 @@ zyro.com##.zyro-cookies
 ||visualstudio.com/_da.gif?
 ||visualstudio.com/v2/track
 ||visualwebsiteoptimizer.com/dyn
+||visualwebsiteoptimizer.com/ee.gif?
 ||visualwebsiteoptimizer.com/gv.gif?
 ||visualwebsiteoptimizer.com/j.php
 ||visualwebsiteoptimizer.com/server-side/track-user?
