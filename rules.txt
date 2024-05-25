@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-05-24 20:29:04（北京时间） 
-! Total count: 160183
+! Version: 2024-05-25 08:53:57（北京时间） 
+! Total count: 160186
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29110,6 +29110,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||settings-win.data.microsoft.com^
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||shahid.mbc.net^$generichide
+@@||sharethis.com/button/buttons.js$domain=bristan.com
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
@@ -51395,6 +51396,7 @@ zyro.com##.zyro-cookies
 ||analytics.praetor.im^$third-party
 ||analytics.prezly.com^
 ||analytics.productreview.com.au^
+||analytics.qogita.com^
 ||analytics.qualcomm.com^
 ||analytics.qualityquestions.co^
 ||analytics.qualityunit.com^
@@ -51589,6 +51591,7 @@ zyro.com##.zyro-cookies
 ||analytics2-meride-tv.akamaized.net^
 ||analytics3.dopool.com^
 ||analytics3.starschina.com^
+||analyticsapi.qogita.com^
 ||analyticsbusiness.ing.ro^
 ||analyticsehnwe.servicebus.windows.net^
 ||analyticsengine.s3.amazonaws.com^
