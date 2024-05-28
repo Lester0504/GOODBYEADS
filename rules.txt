@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-05-28 09:08:26（北京时间） 
+! Version: 2024-05-28 20:22:37（北京时间） 
 ! Total count: 160284
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -28577,7 +28577,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||asadcdn.com/adlib/$domain=computerbild.de
 @@||asadcdn.com/assets/video/$domain=computerbild.de
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=tatamotors.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|tatamotors.com
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
 @@||att.com/scripts/adobe/prod/$script,~third-party
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
@@ -114556,6 +114556,7 @@ zyro.com##.zyro-cookies
 ||p2poolmining.com^
 ||p2poolmining.com^$third-party
 ||p2r14.com^
+||p2ro4u.trybawaryjny.pl^
 ||p2sdmkj6t.bkt.clouddn.com^
 ||p3-tt.byteimg.com^
 ||p3.l.qq.com^
@@ -118128,7 +118129,6 @@ zyro.com##.zyro-cookies
 ||pqulqqpmx.com^
 ||pqxyqq.com^
 ||pqzjki.cn^
-||pr-bh.ybp.yahoo.com/sync/
 ||pr-bh.ybp.yahoo.com^
 ||pr-chart.com^
 ||pr-chart.com^$third-party
