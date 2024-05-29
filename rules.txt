@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-05-29 09:11:51（北京时间） 
-! Total count: 160284
+! Version: 2024-05-29 20:23:00（北京时间） 
+! Total count: 160292
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28744,6 +28744,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 @@||f*.baidu.com/it/u=*,*&fm=$domain=baidu.com
+@@||f-gear.ec-optimizer.com/img/spacer.gif$image,domain=ec.f-gear.co.jp
+@@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp
+@@||f-gear.ec-optimizer.com/speights/searchresult2fgear.js$script,domain=ec.f-gear.co.jp
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
@@ -66601,6 +66604,7 @@ zyro.com##.zyro-cookies
 ||cszz.ru^$third-party
 ||ct-dev.taskhuman.com^
 ||ct.210189.com^
+||ct.beslist.nl^
 ||ct.capterra.com^
 ||ct.corpusapp.com^
 ||ct.eid.co.nz^
@@ -95824,6 +95828,7 @@ zyro.com##.zyro-cookies
 ||kuaikan.netmon.360safe.com^
 ||kuaishang.cn^
 ||kuaishang.com.cn^
+||kuaishouzt.com^
 ||kuaizitech.com^
 ||kuanxin.top^
 ||kubam.cn^
@@ -99478,6 +99483,7 @@ zyro.com##.zyro-cookies
 ||lorcgnziipstq.com^
 ||lord.actonservice.com^
 ||lordhelpuswithssl.com^
+||lordofthesuperfrogs.com^
 ||lorenop.icu^
 ||lorenzourban.com^
 ||lorenzourban.com^$third-party
@@ -109449,6 +109455,7 @@ zyro.com##.zyro-cookies
 ||navigateiriswilliam.com^
 ||navigation-timing.meinestadt.de^
 ||navigationconcept.com^
+||navigator-analytics.tweakwise.com^
 ||navigator.io^
 ||navigator.io^$third-party
 ||navilytics.com^
@@ -113267,7 +113274,6 @@ zyro.com##.zyro-cookies
 ||open.howbout.app^
 ||open.icast.cn^
 ||open.kidu.com^
-||open.kuaishouzt.com^
 ||open.kwaishouzt.com^
 ||open.kwaizt.com^
 ||open.majelan.com^
@@ -134219,7 +134225,6 @@ zyro.com##.zyro-cookies
 ||soonstrongestquoted.com^
 ||soopsulo.xyz^
 ||sooqr.com^
-||sooqr.com^$third-party
 ||soorbka.cn^
 ||sooreejy.xyz^
 ||soosooka.com^
@@ -137983,6 +137988,7 @@ zyro.com##.zyro-cookies
 ||streambeam.io^
 ||streamdefence.com^
 ||streamdream.ws^
+||streamed.su/api/preload
 ||streameventzone.com^
 ||streaming-illimite5.com^
 ||streaming-illimite6.com^
@@ -145419,6 +145425,7 @@ zyro.com##.zyro-cookies
 ||tracking.risk.lexisnexis.co.uk^
 ||tracking.risk.lexisnexis.com.br^
 ||tracking.risk.lexisnexis.com^
+||tracking.rocketleague.com^
 ||tracking.rogers.com^
 ||tracking.rootinc.com^
 ||tracking.rti-inc.com^
@@ -151655,6 +151662,7 @@ zyro.com##.zyro-cookies
 ||w4vecl1cks.com^
 ||w55c.net^
 ||w5sac788c1.360doc.cn^
+||w6.chabad.org^
 ||w6061.move7.com^
 ||w65mymobile.com^
 ||w7.berlin.de^
