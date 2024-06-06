@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-06-06 20:24:31（北京时间） 
-! Total count: 159779
+! Version: 2024-06-06 20:30:06（北京时间） 
+! Total count: 159780
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15261,6 +15261,7 @@
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
+##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
 ##[ad_dot_url]
@@ -15581,6 +15582,7 @@
 ##body > div[class^="app_gdpr"] ~ #gpdr
 ##body > div[class^="index_cookieNotification"]
 ##body > div[id$="_cookie_box"][style*="fix"]
+##body > h1 > strong > title > a
 ##body > script[src*="optout.betrad.com"] ~ #__ev_bc
 ##body > section#acc-bottom[style]
 ##body ~ #CkC[style*="bottom"]
@@ -15731,6 +15733,7 @@
 ##div.stui-player.col-pd DIV[style='text-align:center']
 ##div.swiper-slide > A[rel='nofollow noopenner']
 ##div.synopsisArea > a[id*='hudie_']
+##div.video-box > div.hf > a
 ##div[aria-describedby*="cookie-info"]
 ##div[aria-describedby="cookies-policy-message"]
 ##div[aria-describedby="dialog-eu-cookie-law"]
@@ -15889,6 +15892,7 @@
 ##ui-cookie-advisory-banner
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
+##ul.content-list > li.content-tb
 ##ul.thread_detail_ads
 ##ux-cnil[cookie-name*="tracking"]
 ##vc-site-cookiepolicy-dialog
@@ -37731,7 +37735,6 @@ so.com###so-activity-entry
 so.com##.c-title-tag
 so.com##.e_result
 so.com##.inner_left
-so.com##.res-mediav
 so.com##.res-mediav-right
 so.com##.tg-wrap
 so.toutiao.com##.relative.pointer-events-none
@@ -120343,7 +120346,6 @@ zyro.com##.zyro-cookies
 ||qrkhwe.xyz^
 ||qrkwvoomrbjoj.top^
 ||qrlsx.com^
-||qrmozsc.icu^
 ||qroagwadndwy.com^
 ||qrovwu.xyz^
 ||qrpenodnn.com^
@@ -148842,7 +148844,6 @@ zyro.com##.zyro-cookies
 ||uuuzuu.xyz^
 ||uuvzmba.cn^
 ||uuxfznnf.xyz^
-||uuysiaq.com^
 ||uuzlytbpmmhfm.com^
 ||uuzsfpju.xyz^
 ||uuzu.com^
