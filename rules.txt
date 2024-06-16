@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-06-15 20:28:43（北京时间） 
-! Total count: 160122
+! Version: 2024-06-16 09:01:38（北京时间） 
+! Total count: 160128
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19845,7 +19845,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /webtoffee-gdpr-cookie-consent/*$domain=~altheaprovence.com
 /webtrack.js
 /webtracker.dll
-/webtracking/*$~subdocument,domain=~wwwapps.ups.com
+/webtracking/*$~document,~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
 /webtraxs.js
 /webtrekk_mediaTracking.min.js
@@ -28297,6 +28297,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 24tv.ua##.private-policy
 24video.xxx##.adt
 24zdrave.bg###cookies
+27.0.0.1 max.adsame.com
 2ask.de###cadvise_bar
 2captcha.com##.app-level-notifications__item_cookies-policy
 2fast4buds.com##.popup_secure
@@ -40684,6 +40685,7 @@ zyro.com##.zyro-cookies
 ||1betandgonow.com^
 ||1bf00b950c.com^
 ||1biqug.com/js/ajax.js
+||1bliq.io^
 ||1bm3n8sld.de^
 ||1bpmtrvkqkj.pettoonies.com^
 ||1buu1.penyouw.com^
@@ -49054,6 +49056,7 @@ zyro.com##.zyro-cookies
 ||adutp.com^$third-party
 ||aduu.cn^
 ||adv-adserver.com^
+||adv-analytics-collector.videograph.ai^
 ||adv-ettoday.cdn.hinet.net^
 ||adv-sv-show.focus.cn^
 ||adv-sv-stat.focus.cn^
@@ -52250,6 +52253,7 @@ zyro.com##.zyro-cookies
 ||api.dianru.com^
 ||api.digitalpiloten.org^
 ||api.discreetshare.com^
+||api.doctolib.fr/nr_insert_
 ||api.domob.cn^
 ||api.doumob.com^
 ||api.dreamfull.cn^
@@ -96877,6 +96881,7 @@ zyro.com##.zyro-cookies
 ||lemonde.fr/*&cts=
 ||lemonde.fr/*&stc=
 ||lemonde.fr/bucket/*/tagistan.
+||lemonde.fr^$ping
 ||lemondependedadminister.com^
 ||lemonicecold.org^
 ||lemonpi.io^
@@ -104867,6 +104872,7 @@ zyro.com##.zyro-cookies
 ||metricool.com^
 ||metricool.com^$third-party
 ||metrics-api.librato.com^
+||metrics-broker.prod.p.tf1.fr^
 ||metrics-dra.dt.hicloud.com^
 ||metrics-exit-ios.dreport.meituan.net^
 ||metrics-go.experian.com^
