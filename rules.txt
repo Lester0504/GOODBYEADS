@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-06-20 09:09:23（北京时间） 
-! Total count: 160154
+! Version: 2024-06-20 20:23:18（北京时间） 
+! Total count: 160165
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15961,6 +15961,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .1.1.1.l80.js^$third-party
 .EventTracking.
 .acemlna.com/Prod/link-tracker?$image
+.acemlna.com/lt.php?$image
 .acemlnb.com/Prod/link-tracker?$image
 .alcmpn.com/
 .app.returnpath.net/
@@ -15970,6 +15971,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .backcountry.com/o/$image
 .bahn.de/op/$image
 .beacon.min.js
+.benchurl.com/c/o?$image
 .bhphotovideo.com/mo/
 .birdsend.net/o/$image
 .bluekai.com/*?e_id_
@@ -16039,6 +16041,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .eventim.de/op/$image
 .everestengagement.com/$image
 .eviq.org.au/CMSModules/$image
+.exponea.com/*/open$image
 .facebook.com/tr/$image
 .facebook.com/tr?$image
 .flipboard.com/usage?
@@ -16092,9 +16095,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .maillist-manage.com/clicks/$image
 .members.babbel.com/mo/
 .mgmailer.binance.com/o/$image
+.microsoft.com/m/v2/d?$image
 .mightyape.co.nz/mo?
 .mjt.lu/oo/$image
 .mkt2684.com/eos/
+.mkt51.net/eos/
 .mozilla.org/eos/$image
 .n.2.1.js^$third-party
 .n.2.1.l50.js^$third-party
@@ -16119,6 +16124,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .php?tracking=
 .pstmrk.it/open^
 .publish0x.com/t/
+.quora.com/qemail/mark_read?
 .ru/ads/
 .secureserver.net/bbimage.aspx?
 .sendcloud.net/track/
@@ -17588,6 +17594,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /eluminate?
 /email-pixel?
 /email.t.*/o/*$image
+/email/open/?pd=$image
 /email/open?
 /email/track/*$image
 /email/tracking?
@@ -19455,6 +19462,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track-visit?
 /track.ashx?*=http
 /track.gif?data=
+/track.interestingfacts.com/?xol=
 /track.octanemail.in/sapi/*$image
 /track.php?domain=
 /track.php?toggle=
@@ -51540,6 +51548,7 @@ zyro.com##.zyro-cookies
 ||analytics.vendemore.com^
 ||analytics.verizon.com^
 ||analytics.verizonwireless.com^
+||analytics.vg^$third-party
 ||analytics.villagehouse.jp^
 ||analytics.virginaustralia.com^
 ||analytics.virginmobileusa.com^
@@ -61480,6 +61489,7 @@ zyro.com##.zyro-cookies
 ||cdn.sdtraff.com^
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
 ||cdn.sp.rizhao9.com^
+||cdn.statically.io/gh/opcdn/analytics/main/script.js
 ||cdn.surroundtm.com^
 ||cdn.taboola.com.cn^
 ||cdn.taboola.com^
@@ -78373,6 +78383,7 @@ zyro.com##.zyro-cookies
 ||featherstage.com^$third-party
 ||feathr.co^
 ||feathr.co^$third-party
+||feature-flag-edge.live.clickbus.net^
 ||feature.fm^
 ||featured.bradyid.com^
 ||featurelink.com^
