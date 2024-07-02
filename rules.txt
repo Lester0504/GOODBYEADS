@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-07-01 20:32:37（北京时间） 
-! Total count: 160514
+! Version: 2024-07-02 08:57:55（北京时间） 
+! Total count: 160523
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19370,6 +19370,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /swell-ct-pv^
 /swlapi/stats|
 /sygnal42-gdpr/*$domain=blitzrechner.de
+/symplr-analytics-
 /sync.gif?partner_
 /sync?visitor_id=
 /synd.aspx
@@ -52413,6 +52414,7 @@ zyro.com##.zyro-cookies
 ||api.useinsider.com/ins.js$script
 ||api.vasb.cn^
 ||api.viglink.com^
+||api.vk.com/method/statEvents.
 ||api.vp.rambler.ru/events/
 ||api.w.inmobi.com^
 ||api.wapa.taobao.com^
@@ -73224,6 +73226,7 @@ zyro.com##.zyro-cookies
 ||dysfunctionalrecommendation.com^
 ||dytabqo.com^
 ||dytkgl.icu^
+||dytt8.com/js*
 ||dyuscbmabg.xyz^
 ||dyv1bugovvq1g.cloudfront.net^
 ||dywjcc.top^
@@ -144825,6 +144828,7 @@ zyro.com##.zyro-cookies
 ||track.hot-mob.com^
 ||track.hubspot.com^
 ||track.hujiang.com^
+||track.hydro.online^
 ||track.inews.co.uk^
 ||track.info.cancertherapyadvisor.com^
 ||track.info.clinicaladvisor.com^
@@ -151088,6 +151092,11 @@ zyro.com##.zyro-cookies
 ||vjvj.vj24co.com^
 ||vjzjpt.xyz^
 ||vjzlgtnaov.com^
+||vk.com/al_video.php?act=ads_stat
+||vk.com/al_video.php?act=inc_view_counter
+||vk.com/al_video.php?act=live_heartbeat
+||vk.com/al_video.php?act=track_player_events
+||vk.com/al_video.php?act=watch_stat
 ||vk.com/js/lib/px.js
 ||vk.com/rtrg?
 ||vk.com/videostats.php
