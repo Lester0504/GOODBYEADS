@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-07-16 09:14:17（北京时间） 
-! Total count: 161569
+! Version: 2024-07-16 20:25:22（北京时间） 
+! Total count: 161575
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -35789,6 +35789,7 @@ new.qq.com##.original-bar
 new.qq.com##.tuijian-bar
 new.qq.com##[href="//new.qq.com/hb_index.htm"]
 new.qq.com##[href="https://new.qq.com/mobile"]
+new.qq.com#?#div.operation:contains(手机看)
 newatlas.com##body > div[style*="transparent"]
 newdaycards.com###cookie-consents, div[data-testid="page-content"] + div
 newhallhospital.co.uk##.popupbox
@@ -35798,6 +35799,9 @@ newnavitel.blogspot.com##.post-body > div[dir] > div[dir] > h1#result
 newnownext.com###balaMainContainer
 newrelic.com###intercom-container
 newrepublic.com##.popup-consent
+news.qq.com##.download-banner-wrap
+news.qq.com##.download-content.mr28.download-wrapper
+news.qq.com##.godown.qqcom_fb-item
 news5.de###privacyContainer
 newsandnews.com##.bottom-popup
 newsbelow.de##.flash
@@ -39185,6 +39189,7 @@ videosection.com##body > div:not([id]):not([class])
 videosmile.ru###accept_q
 viennaticketoffice.com###hinweis
 vienormali.it##.info
+view.inews.qq.com##div[class^="article-recommend_wrapper"]
 view.inews.qq.com##div[class^="bottom-bar_buttonWrap"]
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
@@ -51037,6 +51042,7 @@ zyro.com##.zyro-cookies
 ||alaska.xhamster.com^
 ||alaska.xhamster2.com^
 ||alaska.xhamster3.com^
+||alaskaair.com/AlXMT4Ma/init.js
 ||alaskan4kleeskai.com^
 ||alasvow.com^
 ||alb.reddit.com^
