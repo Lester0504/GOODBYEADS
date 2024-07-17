@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-07-17 09:13:20（北京时间） 
-! Total count: 161632
+! Version: 2024-07-17 20:24:41（北京时间） 
+! Total count: 161579
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -3318,7 +3318,6 @@
 ###block-privacypolicypopup
 ###block-rgpd-bandeau
 ###block-site-agree-access-cookies
-###block-taboolablock
 ###block-zodiac-site-cookie
 ###blockAcceptCookie
 ###blockCookieInfo
@@ -7380,7 +7379,6 @@
 ###js--flash-message-cookies
 ###js--tracking--note
 ###js-SIEWS1lib-header
-###js-Taboola-Container-0
 ###js-ac-cookie-banner
 ###js-band-cookies
 ###js-banner-cookies
@@ -7788,7 +7786,6 @@
 ###module-about-cookies
 ###module-cookie-banner
 ###module-cookies
-###moduleTaboolaRightRail
 ###module_cookies
 ###monitcookie
 ###moomoocookiealert
@@ -8311,7 +8308,6 @@
 ###portal-cookieoptout
 ###portal-footer-cookie
 ###positiv_cookies_field
-###possible_taboola
 ###powa-cookie
 ###pp-cookie-notice
 ###ppCookies
@@ -8852,34 +8848,6 @@
 ###t4>a
 ###t4m-dsgvo-consent
 ###t_cookieInfo
-###taboola
-###taboola-above-homepage-thumbnails
-###taboola-below-article-thumbnails
-###taboola-below-article-thumbnails-2
-###taboola-below-disco-board
-###taboola-below-homepage-thumbnails-2
-###taboola-below-homepage-thumbnails-3
-###taboola-below-main-column
-###taboola-belowarticle
-###taboola-bottom
-###taboola-bottom-main-column
-###taboola-div
-###taboola-homepage-thumbnails
-###taboola-homepage-thumbnails-desktop
-###taboola-horizontal-toolbar
-###taboola-in-feed-thumbnails
-###taboola-mid-main-column-thumbnails
-###taboola-native-right-rail-thumbnails
-###taboola-right-rail
-###taboola-right-rail-text-right
-###taboola-right-rail-thumbnails
-###taboola-right-rail-thumbnails-2nd
-###taboola-text-2-columns-mix
-###taboola-vid-container
-###taboola-widget-wrapper
-###taboola_bottom
-###taboola_side
-###taboola_wrapper
 ###targetCookieInfo
 ###tarteaucitron-root
 ###tarteaucitronAlertBig
@@ -12471,7 +12439,6 @@
 ##.div_cookie_top:not(body):not(html)
 ##.div_cookies:not(body):not(html)
 ##.divascookies:not(body):not(html)
-##.divider-taboola
 ##.diysdk_webServices_banners1und1MainContent
 ##.dj-cookie--visible:not(body):not(html)
 ##.dk-cookies-bar:not(body):not(html)
@@ -13424,7 +13391,6 @@
 ##.js-spicy-ask[class*="cookie-consent-overlay"]
 ##.js-sticky-cookies:not(body):not(html)
 ##.js-sundio-cookie-dialog ~ .absolute-dialog.in
-##.js-taboola
 ##.js-terms-of-use-disclaimer
 ##.js-tm-cookie-container
 ##.js-toast-cookies:not(body):not(html)
@@ -13560,7 +13526,6 @@
 ##.m-GDPR > .m-GDPR__container
 ##.m-alert--cookies:not(body):not(html)
 ##.m-alert-banner--cookie
-##.m-article-taboola
 ##.m-bar--cookie:not(body):not(html)
 ##.m-basic-cookie-refresh
 ##.m-consent__wrapper
@@ -13629,7 +13594,6 @@
 ##.mb-0[data-cookie-wall-dialog]
 ##.mb-ol-privacy-box-footer
 ##.mbt-cookie__notice:not(body):not(html)
-##.mc-column-Taboola
 ##.mcd-cookie-manager-layer
 ##.md-banners itx-cookies
 ##.md-cookie-bar
@@ -14610,7 +14574,6 @@
 ##.sky-component-cookie-notice
 ##.slideInUp[class*="policy-cookie"]
 ##.sliding-privacy-popup
-##.slottaboola
 ##.smcc_bottom_cookieaccept_container
 ##.sml_cookiepolicy
 ##.smoothie-consent:not(body):not(html)
@@ -14712,24 +14675,6 @@
 ##.tCookiesInfoblock:not(body):not(html)
 ##.ta-cookie-hint:not(body):not(html)
 ##.tab2-rodo-bar
-##.taboola
-##.taboola-banner
-##.taboola-bottom-adunit
-##.taboola-container
-##.taboola-frame
-##.taboola-inbetweener
-##.taboola-like-block
-##.taboola-module
-##.taboola-recommends
-##.taboola-sidebar
-##.taboola-sidebar-container
-##.taboola-skip-wrapper
-##.taboola-thumbnails-container
-##.taboola-vertical
-##.taboola-wrapper
-##.taboolaDiv
-##.taboola_module
-##.taboolaloader
 ##.tancmbnr
 ##.tao-cookie-hint
 ##.tar_cookiesBar:not(body):not(html)
@@ -14824,10 +14769,6 @@
 ##.tracking_cookie_header
 ##.tracking_cookie_hideable
 ##.trackingmanager.ready
-##.trc-first-recommendation
-##.trc-spotlight-first-recommendation
-##.trc_excludable
-##.trc_spotlight_item
 ##.tre-cookie-disclaimer
 ##.trillian-cookie-consent-banner
 ##.truste_cm_outerdiv:not(body):not(html)
@@ -15334,7 +15275,6 @@
 ##[class][style*='px; top: 0px; left: 0px; z-index'][style$='width: 100vw; position: fixed;']
 ##[class][style*='px; top: 0px; left: 0px; z-index'][style$='width: 100vw; position: relative;']
 ##[class^="chapter_"] > .baiduCenter
-##[data-taboola-options]
 ##[data^='/banners/pr_advertising_ads_banner']
 ##[href$='/ads.aspx']
 ##[href*="/?channelCode="] > [referrerpolicy='no-referrer']
@@ -17035,6 +16975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /bwx-cookie-consent.js$domain=nosta.com
 /byside_webcare.js
 /c.gif?
+/c.vialoops.com/*$image
 /c.wrating.com/*
 /c22.js$domain=cd.cz
 /c22cs.js$domain=cd.cz
@@ -18680,6 +18621,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /obPixelFrame/*
 /obj/ad-app-package
 /observations/capture?
+/obtp.js
 /ocean-cookie-notice/*
 /ocount.php
 /ocounter.php
@@ -18730,6 +18672,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ouibounce.min.js
 /outLoging.js
 /outLoging2.js
+/outbrain.js
+/outbrainAd.
 /owa.Analytics.m.js
 /owa.tracker-combined-min.js
 /oxAnalytics.js
@@ -29076,6 +29020,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||nypost.com/blaize/datalayer$~third-party
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||ocdn.eu/ucs/static/*/onesignal.js$script,domain=pulsonline.rs
+@@||odb.outbrain.com/utils/get?url=$script,domain=cnn.com
 @@||omns.americanexpress.com/b/ss/
 @@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
 @@||omtrdc.net/rest/$xmlhttprequest
@@ -29092,6 +29037,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||openxlab.org.cn^
 @@||optimove.net^$domain=app.touchnote.com
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
+@@||outbrain.com/outbrain.js$domain=cnn.com
 @@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
 @@||p11.techlab-cdn.com^$domain=wizzair.com
@@ -30009,7 +29955,6 @@ atlants.lv##.atlants_cook_wrapper
 atlas-roslin.pl##.tytul > span
 atlasdepoesia.blogcindario.com##body > div[id][class]:not(#math_parentdiv):not(#pagina)
 atlasformen.ch###modalCookies, .modal-backdrop
-atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
 atlasruraldegrancanaria.com###cookies
 atlasstoked.com##.gdprModal
 atlatszo.hu###the_popup
@@ -60352,6 +60297,7 @@ zyro.com##.zyro-cookies
 ||browser-update.org^
 ||browser-update.org^$third-party
 ||browser-updater.yandex.net^
+||browser.covatic.io^
 ||browser.events.data.microsoft.com^$ping
 ||browser.pipe.aria.microsoft.com^
 ||browser.sentry-cdn.com^$third-party
@@ -115204,6 +115150,7 @@ zyro.com##.zyro-cookies
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/
 ||outbrain.com^
+||outbrain.com^$third-party
 ||outbrain.com^*/widgetStatistics.js
 ||outbrainimg.com^
 ||outbrainimg.com^$third-party
@@ -118125,7 +118072,6 @@ zyro.com##.zyro-cookies
 ||planetarium-planet.com^
 ||planetconstituent.com^
 ||planetgrimace.com^
-||planetradio.co.uk/crystal/log
 ||planetvids.online^
 ||planetvids.space^
 ||plankbritish.com^
@@ -120537,6 +120483,7 @@ zyro.com##.zyro-cookies
 ||pub.mop.com^
 ||pub.nakedreel.com^
 ||pub.network^
+||pub.pixels.ai/metrics-lib.js
 ||pub.servidoresge.com^
 ||pub.sheknows.com^
 ||pub.sitetag.us^
