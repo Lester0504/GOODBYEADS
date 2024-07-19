@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-07-18 20:32:28（北京时间） 
-! Total count: 161650
+! Version: 2024-07-19 16:20:55（北京时间） 
+! Total count: 161658
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19289,6 +19289,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /statistic/pixel?
 /statistics.js?$third-party
 /statistics/pixel/*
+/statistics/visit?id=
 /stats-collect
 /stats-js.cgi?
 /stats-listener.js
@@ -19796,7 +19797,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /visit/log.js?
 /visit/record.gif?
 /visit/record?
-/visit?id=
 /visit_log.js
 /visitcounter.do
 /visitcounter.js
@@ -20324,7 +20324,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 0.0.0.0 zeus.ad.xiaomi.com
 0.0.0.0 zhwnlapi.etouch.cn
 0.0.0.0 zx.game.xiaomi.com
-0.0.1 st.appsad.cn
 01-telecharger.com###cokkies
 015.by,0312.ua,032.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,04141.com.ua,0432.ua,04563.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,0462.ua,0472.ua,048.ua,04868.com.ua,0512.com.ua,05136.com.ua,05161.com.ua,0522.ua,0532.ua,05366.com.ua,0542.ua,05447.com.ua,0552.ua,056.ua,0564.ua,0566.com.ua,0569.com.ua,057.ua,061.ua,06153.com.ua,0619.com.ua,0623.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,0629.com.ua,0642.ua,06452.com.ua,0652.ua,0692.ua,1rnd.ru,3652.ru,3654.ru,3849.com.ua,44.ua,4594.com.ua,5692.com.ua,62.ua,6262.com.ua,6264.com.ua,65.media,7232.kz,8422city.ru,anapa.life,angarsk38.ru,bazhopol.ru,city01.am,city41.ru,comores24.com,go01.ru,go11.kz,go212.by,go216.by,go26.ru,go31.ru,go61.ru,go7812.ru,godublin.info,golondon.info,goriga.info,gorod3466.ru,gorodarmavir.ru,goroddomodedovo.ru,goshymkent.kz,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,infolyubertsy.ru,inform69.ru,vilniuje.info,yocity12.ru##.bung-container
 034portal.hr###footer.tekst
@@ -29280,6 +29279,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||tracking-protection.cdn.mozilla.net^
 @@||tracking.dpd.de^
 @@||tracking.epicgames.com^
+@@||tracking.ubisoft.com^
 @@||trackings.post.japanpost.jp^
 @@||trackjs.com/agent/$script,domain=delta.com
 @@||trackonomics.net/client/$script,domain=popsugar.com
@@ -29304,6 +29304,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
+@@||usplastic.com/js/hawk.js
 @@||uwufufu.com/_nuxt/mixpanel.$~third-party
 @@||v.fwmrm.net/ad/g/1?$xmlhttprequest,domain=www.mycanal.fr
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
@@ -42318,7 +42319,6 @@ zyro.com##.zyro-cookies
 ||7me0ssd6.de^
 ||7mediaxx-ai.com^
 ||7mnpeh.com1.z0.glb.clouddn.com^
-||7moor-fs1.com^
 ||7mvmjg.www.emanualonline.com^
 ||7mx.eider.com^
 ||7mx.eidershop.com^
@@ -43110,7 +43110,6 @@ zyro.com##.zyro-cookies
 ||a.zhidian3g.cn^
 ||a.zleep.com^
 ||a.zuowenxuan.cn^
-||a0.app.xiaomi.com^
 ||a00s.net^
 ||a013.com^
 ||a013.com^$third-party
@@ -54386,6 +54385,7 @@ zyro.com##.zyro-cookies
 ||appn.center^
 ||appn.center^$third-party
 ||appnext.com^
+||appocalypsis.com^$third-party
 ||appodealx.com^
 ||appoineditardwide.com^
 ||appointedchildorchestra.com^
@@ -59531,6 +59531,9 @@ zyro.com##.zyro-cookies
 ||booster.monster^
 ||booster3d.com^
 ||boostog.net^
+||bootcdn.cn^
+||bootcdn.net^
+||bootcss.com^
 ||bootharchie.com^
 ||bootsticks.npage.de/assets/js/cookieconsent.latest.min.js$script
 ||bootstrap-framework.org^
@@ -75848,6 +75851,7 @@ zyro.com##.zyro-cookies
 ||effaceecho.com^
 ||effacerevealing.com^
 ||effateuncrisp.com^
+||effect.habr.com^
 ||effectedscorch.com^
 ||effectivecpmcontent.com^
 ||effectivecpmgate.com^
@@ -80137,7 +80141,6 @@ zyro.com##.zyro-cookies
 ||firearminvoluntary.com^
 ||firearmtire.com^
 ||firebase.googleapis.com^$domain=terabox.fun
-||firebaseinstallations.googleapis.com^
 ||firebaseinstallations.googleapis.com^$domain=terabox.fun
 ||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
@@ -88633,7 +88636,6 @@ zyro.com##.zyro-cookies
 ||httpool.com^
 ||httpp.gdn^
 ||httpring.qq.com^
-||https-filtering-check.adtidy.org^
 ||httpsecurity.org^
 ||httpsjs.com^
 ||httr.redskins.com^
@@ -93086,6 +93088,7 @@ zyro.com##.zyro-cookies
 ||iptrack.io^$third-party
 ||iptuy.cn^
 ||iptvdeals.com^
+||iptvgratuit.net/wp-content/*/analytics.js
 ||ipua.adfurikun.jp^
 ||ipummv.pharao24.de^
 ||ipurseeh.xyz^
@@ -100703,6 +100706,8 @@ zyro.com##.zyro-cookies
 ||loolausufouw.com^
 ||loolowhy.com^
 ||looluchu.com^
+||loom.com/insights-api/graphql
+||loom.com/metrics/graphql
 ||loom3otto.com^
 ||loomi-prod.xyz^
 ||loomi-prod.xyz^$third-party
@@ -112953,7 +112958,6 @@ zyro.com##.zyro-cookies
 ||oatmealstickyflax.com^
 ||oatscheapen.com^
 ||oatsouje.net^
-||oauth-login-drcn.platform.dbankcloud.com^
 ||oawhaursaith.com^
 ||oawvsm.xyz^
 ||oaxoulro.com^
@@ -137612,6 +137616,8 @@ zyro.com##.zyro-cookies
 ||staticadm.leju.com^
 ||staticadm.leju.sina.com.cn^
 ||staticcdn.ecootec.com^
+||staticfile.net^
+||staticfile.org^
 ||staticiv.com^
 ||staticiv.com^$third-party
 ||staticjs.cn^
@@ -138000,6 +138006,7 @@ zyro.com##.zyro-cookies
 ||stats.guidingwallet.app^
 ||stats.guycarp.com^
 ||stats.gynsprechstunde.de^
+||stats.habr.com^
 ||stats.hackershare.dev^
 ||stats.hager.com^
 ||stats.halcyon.hr^
@@ -153688,6 +153695,7 @@ zyro.com##.zyro-cookies
 ||web.slimjoy.ro^
 ||web.slimjoy.se^
 ||web.slimjoy.sk^
+||web.snapchat.com/web-analytics-v2/web/events
 ||web.sogou.com^
 ||web.solesource.com^
 ||web.tamaris.com^
