@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-07-24 09:13:55（北京时间） 
-! Total count: 161121
+! Version: 2024-07-24 20:23:47（北京时间） 
+! Total count: 161133
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -34095,8 +34095,10 @@ kbaur-gmbh.com##.alertbanner
 kbs.co.kr##.chrome_pick
 kcprofessional.nl###optIn, #optIn ~ .reveal-modal-bg, .alert-box
 kdanmobile.com###__next > div[style*="overflow"] > div[class*="ContentWrap"], #__next > div[class*="ContentWrap"], #gdpr-wrapper
+ke.com##.app-down
 ke.com##.app_content
 ke.com##.app_daoliu_layer
+ke.com##.download
 kedglobal.com##.cookies_layer
 keefcooks.com##.cookiecon
 keenfootwear.com##.notice-top
@@ -38515,6 +38517,7 @@ thenextcloset.com##div[data-react-class*="CookieConsentBanner"]
 thenounproject.com##div[data-callback*="CookiesBanner"]
 theonlinesurgery.co.uk##.alert.ue-content
 theoutlinerofgiants.com###toog-cookies
+thepaper.cn###QRcode
 thepaper.cn##.download
 thepaper.cn##[class^='index_footer_banner']
 thephoblographer.com###nebothemeCookieBar
@@ -52959,6 +52962,7 @@ zyro.com##.zyro-cookies
 ||api-access.pangolin-sdk-toutiao-*.com^
 ||api-access.pangolin-sdk-toutiao-b.com^
 ||api-access.pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao1.com^
 ||api-access.pangolin-sdk-toutiao2.com^
 ||api-access.pangolin-sdk-toutiao3.com^
 ||api-access.pangolin-sdk-toutiao4.com^
@@ -52975,6 +52979,7 @@ zyro.com##.zyro-cookies
 ||api-home.coocaa.ottcn.com^
 ||api-home.skysrt.com^
 ||api-hotmart-tracking-manager.hotmart.com^
+||api-htp.beizi.biz^
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-js.mixpanel.com^
 ||api-location-prd.pelcro.com^$domain=newsweek.com
@@ -85392,6 +85397,7 @@ zyro.com##.zyro-cookies
 ||groglezapto.pro^
 ||groguzoo.net^
 ||groininsightclaimed.com^
+||gromore.pangolin-sdk-toutiao.com^
 ||grondrens.com^
 ||gronsoad.com^
 ||grooksom.com^
@@ -86002,6 +86008,7 @@ zyro.com##.zyro-cookies
 ||h.seznam.cz/hit/
 ||h.seznam.cz/js/dot-small.js
 ||h.sora.yoyi.com.cn^
+||h.trace.qq.com^
 ||h.txt2017.com^
 ||h.wpjly.cn^
 ||h.wr2t6b.cn^
@@ -115423,6 +115430,7 @@ zyro.com##.zyro-cookies
 ||p2r14.com^
 ||p2ro4u.trybawaryjny.pl^
 ||p2sdmkj6t.bkt.clouddn.com^
+||p3-be-pack-sign.pglstatp-toutiao.com^
 ||p3-tt.byteimg.com^
 ||p3.l.qq.com^
 ||p30rank.ir^
@@ -120259,6 +120267,7 @@ zyro.com##.zyro-cookies
 ||public.app.autohome.com.cn^
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
+||public.gdtimg.com^
 ||public.message-business.com/Javascript/mb.privacyManager$script
 ||public.porn.fr^
 ||public.wlbaike.com^
@@ -122121,6 +122130,7 @@ zyro.com##.zyro-cookies
 ||qzpmx.cn^
 ||qzqd2.com^
 ||qzqfud.casamineira.com.br^
+||qzs.gdtimg.com^
 ||qzs.qq.com^
 ||qzsgudj.com^
 ||qzu5.carrefour-banque.fr^
@@ -127773,6 +127783,7 @@ zyro.com##.zyro-cookies
 ||sdk.appadhoc.com.bsclink.cn^
 ||sdk.appadhoc.com^
 ||sdk.appsflyer.com^
+||sdk.beizi.biz^
 ||sdk.birdeatsbug.com^
 ||sdk.birdeatsbug.com^$third-party
 ||sdk.cdnmaster.com^
@@ -150286,6 +150297,7 @@ zyro.com##.zyro-cookies
 ||v.adblockultimate.net^
 ||v.adintl.cn^
 ||v.admaster.com.cn^
+||v.adx.hubcloud.com.cn^
 ||v.angha.me^
 ||v.bayongzx.cn^
 ||v.behe.com^
