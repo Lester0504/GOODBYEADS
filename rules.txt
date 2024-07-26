@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-07-25 20:31:24（北京时间） 
-! Total count: 161109
+! Version: 2024-07-26 08:58:42（北京时间） 
+! Total count: 161114
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28431,7 +28431,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://elqtrk.
 ://email.*/e/o/
 ://email.*/o/$image
-://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
@@ -28498,6 +28498,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||8tm.net/static/img/fbpixel.png$~third-party
+@@||a.usafacts.org/api/v4/Metrics$~third-party
 @@||ab.blogs.es/abtest.png$domain=trendencias.com|xataka.com
 @@||account.adobe.com/newrelic.js$~third-party
 @@||accounts.intuit.com/fe_logger?$~third-party
@@ -70058,6 +70059,7 @@ zyro.com##.zyro-cookies
 ||datareport.fkw.com^
 ||dataroid.com^
 ||dataroid.com^$third-party
+||dataroyal.com.br^$third-party
 ||dataryon.com^
 ||datas.connectingthreads.com^
 ||datas.knitpicks.com^
@@ -79133,6 +79135,7 @@ zyro.com##.zyro-cookies
 ||farethief.com^
 ||farethief.com^$third-party
 ||farewell457.fun^
+||farfetch.net/v1/marketing/trackings
 ||farflungwelcome.pro^
 ||fargwyn.com^
 ||fark.com^
@@ -139216,6 +139219,7 @@ zyro.com##.zyro-cookies
 ||sultrymercury.com^
 ||sulvo.co^
 ||sumarketing.co.uk^
+||sumatra.ai^$third-party
 ||sumbreta.com^
 ||sumids.com^
 ||summary.bookoffonline.co.jp^
@@ -154820,6 +154824,7 @@ zyro.com##.zyro-cookies
 ||worldofviralnews.com^
 ||worldpraisedcloud.com^
 ||worldpush.co^
+||worldremit.com/web-cms/api/metric
 ||worldsbestcams.com^
 ||worldsportlife.com^
 ||worldssl.net/reporting.js
