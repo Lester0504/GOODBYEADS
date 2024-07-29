@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-07-29 09:15:17（北京时间） 
-! Total count: 161530
+! Version: 2024-07-29 20:25:10（北京时间） 
+! Total count: 161539
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17748,6 +17748,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
+/flipptag.js
 /flowplayer.drive-analytics.min.js
 /flushimpressions?
 /fluvius-eu-cookies.js
@@ -28663,6 +28664,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn.segment.com/v1/projects/
 @@||cdn.segmentify.com^$script,domain=gratis.com
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
+@@||cdn.sophi.io/assets/$script,domain=nationalpost.com
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
 @@||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app
@@ -29248,6 +29250,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
 @@||tecnologia.libero.it/js/dist.1/web-vitals.attribution.js$script,domain=tecnologia.libero.it
+@@||telemetry.stytch.com/submit$domain=play.pixels.xyz
 @@||tennispro.eu/min/?$script,~third-party
 @@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
@@ -32798,7 +32801,6 @@ gamesfull.org##.cookies
 gamesgrabr.com##.alerts-wrap
 gamesubject.com###headb
 gamigo.net###stayhome
-gaming.co.ua##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
 gamingoase.de###disclaimer
 gangnam.lv###menu_side
 gannikus-original.de##.cookies
@@ -33572,10 +33574,12 @@ ifeng.com##div[class^="bottomSlide"]
 ifeng.com##div[class^="bottom_box"]
 ifeng.com##div[class^="fixSlideBox"]
 ifeng.com##div[class^="hot_box"]
+ifeng.com##div[class^="index_link"]:contains(app)
 ifeng.com##div[class^="qr_box"]
 ifeng.com##div[class^="shareFix"]
 ifeng.com##div[class^="share_box"]
 ifeng.com##div[class^="silde_box"]
+ifeng.com##header:contains(立即打开)
 ifi-audio.com##.l-cookie
 ifp-school.com###cnilWrapper
 ifp.si##body > table
@@ -33797,7 +33801,6 @@ ishare.iask.sina.com.cn##.loginRedPacket-dialog
 ishare.ifeng.com##.callUpBox
 ishare.ifeng.com##div[class^="callup"]
 ishare.ifeng.com##div[class^="more_box"]
-ishare.ifeng.com##header
 ishare.ifeng.com##section[class^="allLook"]
 ishare.ifeng.com##section[class^="bottom"]
 ishare.ifeng.com##section[class^="relateVideo"]
@@ -38136,6 +38139,7 @@ sunglasses-shop.bg##.notification-wrapper
 suning.com###sn-sidebar-change-code
 suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
 suning.com###sn-sidebar-change-redpacket
+suning.com##.headDom
 suning.com##.ng-bar-node mb-suning touch-href
 suning.com##.ng-bar-node-box app-down-box
 suning.com##.sn-sidebar-tab-js.sn-sidebar-code.sn-sidebar-wider-tab.sn-sidebar-tab
@@ -58019,6 +58023,7 @@ zyro.com##.zyro-cookies
 ||bestonlinecasino.club^
 ||bestonlinecoupons.com^
 ||bestowgradepunch.com^
+||bestpornsites.tv/i/js/extra/metrics.js
 ||bestprizerhere.life^
 ||bestpush.pconline.com.cn^
 ||bestresulttostart.com^
@@ -73629,6 +73634,8 @@ zyro.com##.zyro-cookies
 ||drgcnsnohnf.com^
 ||dribbble.com/client_app/events
 ||dribbble.com/client_app/screenshot_boost_ad_events
+||dribbble.com/client_app/search_results
+||dribbble.com/shots/log_views
 ||dribbleads.com^
 ||dribletbogled.com^
 ||dribturbot.com^
@@ -120577,6 +120584,7 @@ zyro.com##.zyro-cookies
 ||pubianmending.space^
 ||pubimageboard.com^
 ||pubimgs.com^
+||pubimgs.net/main.gif?
 ||public.app.autohome.com.cn^
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
@@ -135877,6 +135885,7 @@ zyro.com##.zyro-cookies
 ||spl.ztvx8.com^
 ||splash-ads.cdn.unity.cn^
 ||splash-ads.unitychina.cn^
+||splash-screen.net^$third-party
 ||splashfloating.com^
 ||splashforgodm.com^
 ||splashimgbssdl.yun.kugou.com^
