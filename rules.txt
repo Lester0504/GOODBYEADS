@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-07-30 20:31:43（北京时间） 
-! Total count: 161539
+! Version: 2024-07-31 08:49:46（北京时间） 
+! Total count: 161541
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28442,6 +28442,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://mint.*/?js
 ://parcel-api.delivery-status.*/open/$image
 ://piwik.$domain=~matomo.org|~piwik.pro
+://posthog.$script,domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
 ://t.order.*/r/?id=$image
@@ -39730,6 +39731,7 @@ www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
 www.huya.com###public-screen-ab
+www.huya.com##.huya-ab
 www.huya.com##.sidebar-banner, a.J_g_resource
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
@@ -96438,7 +96440,6 @@ zyro.com##.zyro-cookies
 ||kindleinstance.com^
 ||kindnessmarshalping.com^
 ||kineckekyu.com^
-||kinesis.*.amazonaws.com^$third-party,domain=~amazon.com
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||king-oak.cn^
 ||king3rsc7ol9e3ge.com^
@@ -111898,6 +111899,7 @@ zyro.com##.zyro-cookies
 ||nnxijkdigwywla.com^
 ||no2veeamggaseber.com^
 ||no9pldds1lmn3.soundcloud.com^
+||noa.yahoo.com^
 ||noa0.compteczam.fr^
 ||noaderir.com^
 ||noafoaji.xyz^
