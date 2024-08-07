@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-07 09:03:07（北京时间） 
-! Total count: 161802
+! Version: 2024-08-07 09:14:38（北京时间） 
+! Total count: 161815
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -14752,6 +14752,7 @@
 ##.tos-banner
 ##.tos-update-banner
 ##.touchdesign-cookie-privacy
+##.tp_advertising
 ##.tp_cookie:not(body):not(html)
 ##.tpl-cookie-info-bar-widget
 ##.tpl-cookies:not(body):not(html)
@@ -15106,9 +15107,11 @@
 ##A[href*='-fghhjj.com']
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
+##A[href*='aducx.com']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
 ##A[href*='ds2f1sd31g.vip']
 ##A[href*='exuvu.com']
+##A[href*='ixeeo.com']
 ##A[href*='jdbfknsbkldns.com']
 ##A[href*='jialu6699h.vip']
 ##A[href*='xzzkx.com']
@@ -15141,6 +15144,8 @@
 ##A[href^='https://yongle008.com']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
 ##A[rel='nofollow noopener'][href*='/game/xr/?attributionId=']
+##A[rel='nofollow'][href='/play/player-2-1.php']
+##A[rel='nofollow'][href='/play/tv.php']
 ##A[style='width: 100%;height: 150px;z-index:1000;position: absolute;display:block;top: 0px;'][onclick$=';this.style.display="none";']
 ##A[target='_blank'] > IMG[width='100%'][src*='.gif']
 ##A[target='_blank'][href*='/auth/register?code=']
@@ -15381,6 +15386,7 @@
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 ##[style='display: block; width: 100%; height: 125px; background-size: 100% 100%;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
+##[style='position:absolute !important;padding:0px !important;margin:0px !important;width:100% !important;font-size:0px !important;line-height:0px !important;']
 ##[style='position:relative !important;padding:0px !important;margin:0px !important;line-height:1 !important;']
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
 ##[style='top: 0vw; display: block;']
@@ -15587,6 +15593,7 @@
 ##body > section#acc-bottom[style]
 ##body ~ #CkC[style*="bottom"]
 ##body ~ .cc-overlay
+##body#chapterbody.novel_chapter [style='padding-top: 150px;']
 ##body#nr_body #appss
 ##body#nr_body [onclick='goAppHtml();']
 ##body#nr_body a[href*="/?utm_source="]
@@ -41169,6 +41176,7 @@ zyro.com##.zyro-cookies
 ||2k6eh90gs.de^
 ||2kn40j226.de^
 ||2l6ddsmnm.de^
+||2lb.cc^
 ||2ledhenone.com^
 ||2leep.com^
 ||2llmonds4ehcr93nb.com^
@@ -110340,6 +110348,7 @@ zyro.com##.zyro-cookies
 ||myprofile.technics.eu^
 ||mypush.online^
 ||mypush.online^$third-party
+||myqcloud.com/uploads/m3u8/*.ts$third-party
 ||myraqcajwkeyqd.com^
 ||myreadcloud.com^
 ||myrealty.su/counter/
@@ -127566,6 +127575,7 @@ zyro.com##.zyro-cookies
 ||sasc.solidworks.com^
 ||sascdn.com/mh_audience/
 ||sascentral.com^
+||sascwt.cn^
 ||sasdk.3g.qq.com^
 ||sasinsetuid.com^
 ||sasujooceerg.com^
@@ -149277,6 +149287,7 @@ zyro.com##.zyro-cookies
 ||ufqxgccf.com^
 ||ufqzrk.espritshop.ch^
 ||ufsmcn.blackspade.com.tr^
+||ufvauj.cn^
 ||ufwsfi.magasins-u.com^
 ||ufzanvc.com^
 ||ufzqrmflbnlze.com^
@@ -149323,6 +149334,7 @@ zyro.com##.zyro-cookies
 ||ugroogree.com^
 ||ugtbit.icu^
 ||uguforvfud.com^
+||ugugct.xyz^
 ||ugujwhwwyh.com^
 ||ugvbsrbht.xyz^
 ||ugvip.com^
@@ -157650,6 +157662,7 @@ zyro.com##.zyro-cookies
 ||xdmanage.com^
 ||xdmicjkveqlgllp.com^
 ||xdmnlxtu.xyz^
+||xdns.asia^
 ||xdohrleybrd.com^
 ||xdolhlwq.xyz^
 ||xdownloadright.com^
