@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-08 20:32:30（北京时间） 
-! Total count: 161898
+! Version: 2024-08-09 09:01:15（北京时间） 
+! Total count: 161895
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16760,6 +16760,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
+/api/events|$ping,~third-party
 /api/getPos?jspath=/videos/view//*
 /api/ipv4check?
 /api/log-visit
@@ -16773,8 +16774,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/rest/settings/public?fields=endUserAgreement
 /api/snippets/js/consent-banner
 /api/stat?
+/api/statsd|$~third-party,xmlhttprequest
 /api/track?guid
 /api/trk?
+/api/v1/activity|$~third-party,xmlhttprequest
 /api/v1/firehose?_
 /api/v1/metrics
 /api/v1/stat?
@@ -19325,6 +19328,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /stats/api/event
 /stats/article?
 /stats/bezoek_count.php
+/stats/c/*$image
 /stats/collect/*
 /stats/collect?
 /stats/collector.js
@@ -28611,6 +28615,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
+@@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.apolomedia.com/static/libs/event-tracking.min.js$script
 @@||api.babbel.io/gamma/v1/$ping,domain=babbel.com
@@ -29121,6 +29126,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ptitchef.com/js/ads.js
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 @@||public.fbot.me/events/$domain=casper.com
+@@||pubscholar.cn/static/common/fingerprint.js$script,~third-party
 @@||pushpushgo.com/js/$script,domain=centrumriviera.pl
 @@||pv.sohu.com/cityjson$domain=ems.com.cn
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
@@ -61658,8 +61664,6 @@ zyro.com##.zyro-cookies
 ||cam4flat.com^
 ||camads.net^
 ||camagess.carte-gr.total.fr^
-||cambash.com/api/events
-||cambash.com/api/metrics
 ||camberchimp.com^
 ||cambridgeinadmissibleapathetic.com^
 ||cambridgeincompetenceresearch.com^
@@ -88438,7 +88442,6 @@ zyro.com##.zyro-cookies
 ||horizon.globo.com^
 ||horizoneurope.ukri.org^
 ||horizononline.actonservice.com^
-||horizont.net/stats/
 ||horizontallyclenchretro.com^
 ||horizontallycourtyard.com^
 ||horizontallywept.com^
@@ -100131,8 +100134,6 @@ zyro.com##.zyro-cookies
 ||livefyre.com/tracking/
 ||livefyre.com^*/tracker.js
 ||livefyre.com^*/tracking/
-||livehdcams.com/api/events
-||livehdcams.com/api/metrics
 ||livehelpnow.net/lhn/handler/$image
 ||liveintent.com^
 ||livejasmin.com^
@@ -105202,10 +105203,6 @@ zyro.com##.zyro-cookies
 ||massesnieces.com^
 ||massivebasket.com^
 ||massivebasket.com^$third-party
-||massivecams.com/api/events
-||massivecams.com/api/metrics
-||massivecams.com/api/statsd
-||massivecams.com/api/v1/activity
 ||massivemark.com^
 ||massivemark.com^$third-party
 ||massivetreadsuperior.com^
@@ -110639,6 +110636,7 @@ zyro.com##.zyro-cookies
 ||nagwrotedetain.com^
 ||nahgvfhs.xyz^
 ||naiadexports.com^
+||naiadsystems.com/api/v1/xment/
 ||naiantcapling.com^
 ||naicoapt.com^
 ||naidileobram.actonservice.com^
@@ -119252,8 +119250,6 @@ zyro.com##.zyro-cookies
 ||porngraph.com^
 ||porngraph.com^$third-party
 ||porngray.com^
-||pornhublive.com/api/events
-||pornhublive.com/api/metrics
 ||pornhyip.com^
 ||pornkings.com^
 ||pornleep.com^
@@ -126136,6 +126132,7 @@ zyro.com##.zyro-cookies
 ||ruuwkftrtegqj.com^
 ||ruvdkw.turk.net^
 ||ruvuryua.ru^
+||ruw.de/js/trackSidebarClicks.js
 ||ruw.roanokeunderwriting.com^
 ||ruwertur.com^
 ||ruwfempxgwry.xyz^
