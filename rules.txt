@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-10 09:14:56（北京时间） 
-! Total count: 161945
+! Version: 2024-08-10 20:23:10（北京时间） 
+! Total count: 161964
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15947,6 +15947,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 &event=view&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
+&l=dataLayer&cx=c
 &mi_ecmp=
 &pagegroup=*&url=$script
 &refer=http$script
@@ -28453,10 +28454,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://email.*/e/o/
 ://email.*/o/$image
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm.*.js?st=
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
 ://lightning.*/launch/
+://load.*.js?st=$~third-party
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
 ://parcel-api.delivery-status.*/open/$image
@@ -28504,6 +28507,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
+?v=2&tid=G-$~third-party
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
 @@.com/o.js$domain=2biqu.com
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
@@ -60142,6 +60146,8 @@ zyro.com##.zyro-cookies
 ||brdtnet.com^
 ||breadbalance.com^
 ||breadbalance.com^$third-party
+||breadpayments.com/log
+||breadpayments.com/stats
 ||breadpro.com^
 ||breadsincerely.com^
 ||breadthneedle.com^
@@ -68378,6 +68384,7 @@ zyro.com##.zyro-cookies
 ||d.admx.baixing.com^
 ||d.adroll.com^
 ||d.agkn.com^
+||d.analyticsmania.com^
 ||d.applovin.com^
 ||d.beigedi.com^
 ||d.biboi.cn^
@@ -85989,6 +85996,8 @@ zyro.com##.zyro-cookies
 ||gtlpa*.com^
 ||gtlpaj.com^
 ||gtm.diamond.jp^
+||gtm.lercio.it^
+||gtm.mandesager.dk^
 ||gtm.wise.com^
 ||gtmfsstatic.getgoogletagmanager.com^
 ||gtms01.alicdn.com^
@@ -116214,6 +116223,7 @@ zyro.com##.zyro-cookies
 ||pagespeed.report.qq.com^
 ||pageswork.guru^
 ||pageturnpro.com/tracker.aspx?
+||pageview.click^$third-party
 ||pageview.kgsz.cn^
 ||paginaseloqua.unisabana.edu.co^
 ||paginebianche.it/cgi-bin/jbimpres.cgi?
@@ -130007,6 +130017,8 @@ zyro.com##.zyro-cookies
 ||sgru.cn^
 ||sgsb.aba.com^
 ||sgstats.com^
+||sgtm.tagmanageritalia.it^
+||sgtm.tennis-point.de^
 ||sgunqfpjtxfndtt.com^
 ||sgvdqykfjuk.com^
 ||sgvip.chinahdcm.com^
@@ -136649,6 +136661,7 @@ zyro.com##.zyro-cookies
 ||srzzohlms.com^
 ||ss.chelaile.net.cn^
 ||ss.cnczjy.com^
+||ss.esade.edu^
 ||ss.he9630.com^
 ||ss.knet.cn^
 ||ss.lv/counter/
@@ -137055,7 +137068,9 @@ zyro.com##.zyro-cookies
 ||ssstuitui1999.com^
 ||sssvd.china.com^
 ||sssxwsry.com^
+||sst.colemanfurniture.com^
 ||sst.cooperativa.cl^
+||sst.shopware.com^
 ||sstat.3pagen.at^
 ||sstat.detelefoongids.nl^
 ||sstat.gilt.com^
@@ -139437,6 +139452,7 @@ zyro.com##.zyro-cookies
 ||streakattempt.com^
 ||stream-all.com^
 ||stream.9now.com.au^
+||stream.corporatefinanceinstitute.com^
 ||stream.shuzilm.cn^
 ||stream.snssdk.com^
 ||streamadblocker.cc/stat/
@@ -146010,6 +146026,7 @@ zyro.com##.zyro-cookies
 ||tr.votrealarme.securitasdirect.fr^
 ||tr.vous.hellobank.fr^
 ||tr.wa.wordappeal.com^
+||tr.wbstraining.de^
 ||tr.webantenna.info^
 ||tr.welcome.easyviaggio.com^
 ||tr.welcome.easyviajar.com^
@@ -147606,6 +147623,7 @@ zyro.com##.zyro-cookies
 ||trcka8net.irobot-jp.com^
 ||trcka8net.lenszero.com^
 ||trcka8net.qieto.net^
+||trckng.dainese.com^
 ||trckr.nordiskemedier.dk^
 ||trcksplt.miro.com^
 ||trckswrm.com^
@@ -151869,6 +151887,7 @@ zyro.com##.zyro-cookies
 ||viads.net^
 ||viaeatsdhpt.com^
 ||viaexploudtor.com^
+||viaklera.com^$third-party
 ||viamariller.com^
 ||vianadserver.com^
 ||vianoivernom.com^
