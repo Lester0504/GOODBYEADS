@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-12 09:16:32（北京时间） 
-! Total count: 162040
+! Version: 2024-08-12 20:27:08（北京时间） 
+! Total count: 162044
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17528,6 +17528,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dcs_tag.js
 /deadblocker/*
 /default/pAnalytics
+/delivery/afr.
 /detm-container-ftr.js
 /detm-container-hdr.js
 /dg-governance/*$domain=nytimes.com|inyt.com
@@ -63813,6 +63814,7 @@ zyro.com##.zyro-cookies
 ||cl.he9630.com^
 ||cl.inhaabit.com^
 ||cl.promo.skf.com^
+||cl.t3n.de^
 ||cl.webterren.com^
 ||cl.xzqxzs.com^
 ||cl0.webterren.com^
@@ -125364,6 +125366,7 @@ zyro.com##.zyro-cookies
 ||rmgfulosqmlcly.com^
 ||rmgserving.com^
 ||rmhfrtnd.com^
+||rmhfrtnd.com^$third-party
 ||rmhoffman.actonservice.com^
 ||rmhptjwikttv.com^
 ||rmioswx.icu^
@@ -139357,6 +139360,7 @@ zyro.com##.zyro-cookies
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
 ||storage.googleapis.com/rasin/*/hm.js
 ||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
+||storage.googleapis.com/t3n-de/assets/t3n/2018/scripts/msodrq.js
 ||storage.googleapis.com/tm-frend-graffiti/
 ||storage.syncmedia.io/libs/sm_capture_
 ||storagecelebrationchampion.com^
