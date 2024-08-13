@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-12 20:34:24（北京时间） 
-! Total count: 162045
+! Version: 2024-08-13 09:01:39（北京时间） 
+! Total count: 162049
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15953,7 +15953,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 &pagegroup=*&url=$script
 &refer=http$script
 &t=pageview&
-)
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
 -adblock-notice-
@@ -16784,6 +16783,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/v1/activity|$~third-party,xmlhttprequest
 /api/v1/firehose?_
 /api/v1/metrics
+/api/v1/reportData/*
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
@@ -19013,6 +19013,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /remote-weblab-triggers/*
 /remote/v1/cookie-notification
 /renderTimingPixel.
+/reportData/nm.gif?
 /report_visit.php
 /reporting/metrics
 /resource?zones=
@@ -59057,6 +59058,7 @@ zyro.com##.zyro-cookies
 ||bloglines.com^
 ||blogmeetsbrand.com^
 ||blogmeetsbrand.com^$third-party
+||blogmura.com/js/*/gtag-event-
 ||blogoutils.com/online-$third-party
 ||blogpatrol.com^
 ||blogpatrol.com^$third-party
@@ -159177,6 +159179,8 @@ zyro.com##.zyro-cookies
 ||yeld9auto.com^
 ||yellow-resultsbidder.com^
 ||yellow-resultsbidder.org^
+||yellow.ai/api/plugin/analytics?
+||yellow.ai/integrations/analytics/
 ||yellowacorn.net^
 ||yellowblue.io^
 ||yellowbrix.com^
