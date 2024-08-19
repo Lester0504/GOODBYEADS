@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-18 20:31:48（北京时间） 
-! Total count: 159287
+! Version: 2024-08-19 09:01:25（北京时间） 
+! Total count: 159293
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29350,6 +29350,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||uland.taobao.com^
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||universfreebox.com/js/advertisement.js
+@@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
@@ -39817,6 +39818,7 @@ wyld.de##.optin
 wypad.com.pl###cookie
 wyrobieniepaszportu.pl##body > div:not([id]):not([class])
 wzorniki.eu###cookie
+x.com/*/videoads/
 xalingo.com.br###wrng-agrmnt
 xapes.net###as-uc-wrapper
 xe.gr##.google_diaclaimer
@@ -40143,6 +40145,7 @@ zyro.com##.zyro-cookies
 ||.nl/api/gdpr$script
 ||0.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 ||0.0.0.1^
+||0.myikas.com^
 ||0.net.easyjet.com^
 ||0.r.msn.com^
 ||0.up.qingdaonews.com^
@@ -108151,6 +108154,7 @@ zyro.com##.zyro-cookies
 ||ms.qaqact.cn^
 ||ms.topschooljobs.org^
 ||ms.vipstatic.com^
+||ms.vk.com^
 ||ms1.morganstanley.com^
 ||ms3t.club^
 ||msa-emea.secureforms.partnermcafee.com^
@@ -121155,6 +121159,8 @@ zyro.com##.zyro-cookies
 ||rapidlypierredictum.com^
 ||rapidpanda.io^
 ||rapidshookdecide.com^
+||rapidspike.com/performance/
+||rapidspike.com/static/js/timingpcg.min.js
 ||rapidstats.net^
 ||rapidstats.net^$third-party
 ||rapidtrk.net^
