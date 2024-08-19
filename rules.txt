@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-19 09:15:47（北京时间） 
-! Total count: 159293
+! Version: 2024-08-19 20:25:37（北京时间） 
+! Total count: 159298
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28672,6 +28672,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||board-game.co.uk/cdn-cgi/zaraz/s.js$script,~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
+@@||browser-intake-datadoghq.com^$domain=pluto.tv
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||businessclick.ch/index.js$domain=finanzen.ch
@@ -34770,6 +34771,7 @@ lzinios.lt##body > div:not([id]):not([class])
 m-a.org.uk##.alert-dismissible
 m-plan.com##.modal
 m-strana.ru##.agreement-cookie
+m.163.com##.floatMenu-backflow
 m.163.com##.floatMenu-logo
 m.163.com##footer > span
 m.acfun.cn##.flex-center.down-app-button
@@ -55001,6 +55003,7 @@ zyro.com##.zyro-cookies
 ||assets.210189.com^
 ||assets.2343sdxs.com^
 ||assets.258ydh.com^
+||assets.apollo.io/micro/website-tracker/
 ||assets.applovin.com^
 ||assets.channelplay.in^
 ||assets.cntdy.mobi^
@@ -77523,6 +77526,7 @@ zyro.com##.zyro-cookies
 ||eventos.ubmmexico.com^
 ||eventos.usj.es^
 ||events-drcn.op.dbankcloud.cn^
+||events-endpoint.pointandplace.com^
 ||events-logs.doctolib.com^
 ||events-prod.autolist.com^
 ||events-tracker.deliveroo.net^
@@ -111644,6 +111648,7 @@ zyro.com##.zyro-cookies
 ||observationsolution3.top^
 ||observationtable.com^
 ||observativus.com^
+||observe-nexus.pointandplace.com^
 ||observe.metarouter.io^
 ||observedbrainpowerweb.com^
 ||observedlily.com^
