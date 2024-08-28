@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-27 20:32:45（北京时间） 
-! Total count: 159747
+! Version: 2024-08-28 09:02:21（北京时间） 
+! Total count: 159753
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28965,6 +28965,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ktu.sv2.biz/sv3/advertisement.js
 @@||ku.dk^
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
+@@||l.logly.co.jp/lift$script,domain=sponichi.co.jp
 @@||labrc.pw/advstats/$xmlhttprequest
 @@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
@@ -28993,7 +28994,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||login-ishare.iask.com.cn^
 @@||login-sh.aki-game.com^
 @@||login.ingbank.pl^*/satelliteLib-$script
-@@||logly.co.jp/recommend/img.benesse-cms.jp/$image,domain=benesse.ne.jp
+@@||logly.co.jp/recommend/$image,domain=benesse.ne.jp|sponichi.co.jp
 @@||logo.clearbit.com^
 @@||logo.clearbit.com^$image,third-party
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
@@ -31153,6 +31154,7 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
+cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -51798,6 +51800,8 @@ zyro.com##.zyro-cookies
 ||analystrati.com^
 ||analysys.cn^
 ||analyt.ir^
+||analytic-client.chickgoddess.com^
+||analytic-client.panowars.com^
 ||analytic.alabama.aaa.com^
 ||analytic.americanfunds.com^
 ||analytic.buoyweather.com^
@@ -81764,6 +81768,7 @@ zyro.com##.zyro-cookies
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
 ||ga-tracker-dot-detmir-bonus.appspot.com^
+||ga.chickgoddess.com/gs_api/stats/
 ||ga.groc.press^
 ||ga.nsimg.net^
 ||ga.webdigi.co.uk^
@@ -96048,6 +96053,7 @@ zyro.com##.zyro-cookies
 ||kougloar.com^
 ||koujaups.xyz^
 ||kouopt.calvinklein.com.br^
+||kour.io/api/track
 ||koureptu.xyz^
 ||koustouk.net^
 ||koutobey.net^
