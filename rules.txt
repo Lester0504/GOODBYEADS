@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-28 09:17:03（北京时间） 
-! Total count: 159752
+! Version: 2024-08-28 20:26:47（北京时间） 
+! Total count: 159754
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29163,6 +29163,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||quickmath.com/js/r/web-vitals.js$script,~third-party
 @@||rackcdn.com/stf.js$script,domain=20min.ch
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
+@@||rcb-gis.maps.arcgis.com/apps/instant/minimalist/*/AppMeasurement.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
@@ -125896,6 +125897,7 @@ zyro.com##.zyro-cookies
 ||sapha.com^
 ||sapha.com^$third-party
 ||sapi.sina.cn^
+||sapi.tremendous.com^
 ||sapi.zhidian3g.cn^
 ||saplvvogahhc.xyz^
 ||sapo.*/clk?u=
