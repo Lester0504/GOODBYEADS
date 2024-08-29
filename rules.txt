@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-28 20:33:57（北京时间） 
-! Total count: 159755
+! Version: 2024-08-29 09:02:46（北京时间） 
+! Total count: 159759
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28361,7 +28361,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 24tv.ua##.private-policy
 24video.xxx##.adt
 24zdrave.bg###cookies
-27.0.0.1 max.adsame.com
 2ask.de###cadvise_bar
 2captcha.com##.app-level-notifications__item_cookies-policy
 2fast4buds.com##.popup_secure
@@ -36912,6 +36911,7 @@ qpony.pl##.rodo-wrapper
 qq.com##+js(json-prune, ad)
 qq.com##+js(json-prune, ads ad material.video)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
+qq.com##.ad-cell-common
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
 qr.cz###eu-fck
@@ -65007,6 +65007,7 @@ zyro.com##.zyro-cookies
 ||comihon.com^
 ||comilar-efferiff.icu^
 ||comitalmows.com^
+||comitiumanalytics.com^$third-party
 ||comm.app.autohome.com.cn^
 ||comm.toro.com^
 ||commamarrock.top^
@@ -84121,6 +84122,7 @@ zyro.com##.zyro-cookies
 ||goaccredited.actonservice.com^
 ||goaciptu.net^
 ||goadopt.io^
+||goadopt.io^$third-party
 ||goads.pro^
 ||goadserver.com^
 ||goadservices.com^
@@ -119884,6 +119886,7 @@ zyro.com##.zyro-cookies
 ||pxl.indeed.com^
 ||pxl2015x1.com^
 ||pxlgnpgecom-a.akamaihd.net^
+||pxlstat.com^
 ||pxltrck.com^
 ||pxmianfeiban-1306685166.cos.ap-guangzhou.myqcloud.com^
 ||pxmzlk.redfin.com^
@@ -128765,6 +128768,7 @@ zyro.com##.zyro-cookies
 ||shopboxshopping.com^
 ||shopbreakfast.com^
 ||shopbreakfast.com^$third-party
+||shopee.*/__t__$xmlhttprequest
 ||shopee.tw/__t__
 ||shopee.tw/v2/shpsec/web/report
 ||shopify-gtm-suite.getelevar.com/getelevar/*/dl-web-pixel-lax-custom.js
