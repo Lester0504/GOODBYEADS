@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-08-31 09:17:33（北京时间） 
-! Total count: 159883
+! Version: 2024-08-31 20:23:52（北京时间） 
+! Total count: 159901
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28568,7 +28568,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|ssrn.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|ssrn.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com
@@ -52231,6 +52231,7 @@ zyro.com##.zyro-cookies
 ||analytics.pipelife.se^
 ||analytics.pipelife.si^
 ||analytics.pixels.ai^
+||analytics.plasmic.app^
 ||analytics.plex.tv^
 ||analytics.plumbworld.co.uk^
 ||analytics.pnc.com^
@@ -62264,6 +62265,7 @@ zyro.com##.zyro-cookies
 ||cdn.pyadx.com^
 ||cdn.qgr.ph^
 ||cdn.qgraph.io^
+||cdn.ravm.tv^
 ||cdn.read.html5.qq.com^
 ||cdn.reeltime.no/pm_assets/privacy/$script
 ||cdn.scdng.com^
@@ -65457,6 +65459,7 @@ zyro.com##.zyro-cookies
 ||connect.abm.netapp.com^
 ||connect.acams.org^
 ||connect.acspubs.org^
+||connect.airfrance.com/ach/api/event^
 ||connect.api.almirall.com^
 ||connect.arkadin.com^
 ||connect.aucmed.edu^
@@ -80153,7 +80156,6 @@ zyro.com##.zyro-cookies
 ||fmfnrf.xyz^
 ||fmheoodt.com^
 ||fmhy.net^
-||fmhy.net^$third-party
 ||fmhyysk.com^
 ||fmjgtp.dentalspeed.com^
 ||fmjjvb.xyz^
@@ -81777,6 +81779,7 @@ zyro.com##.zyro-cookies
 ||g123.jp/stats?
 ||g13eyx.com^
 ||g1584674682.co^
+||g1584674684.co^
 ||g1782759015.co^
 ||g1782759016.co^
 ||g1980843350.co^
@@ -83057,6 +83060,7 @@ zyro.com##.zyro-cookies
 ||gipsyhit.com^
 ||gipsytrumpet.com^
 ||giqaanwmqwowemt.com^
+||giquhome.com/0/sendEventV2
 ||giraff.io^
 ||giraff.io^$third-party
 ||giraffedestitutegigantic.com^
@@ -90405,6 +90409,7 @@ zyro.com##.zyro-cookies
 ||indelphoxom.com^
 ||independence.americanportfolios.com^
 ||independencelunchtime.com^
+||independent.co.uk/iframe/native-cookiesync-frames.html
 ||index.ru^
 ||index.ru^$third-party
 ||index.woai310.com^
@@ -90521,6 +90526,7 @@ zyro.com##.zyro-cookies
 ||infinityads.com^
 ||infinityid.condenastdigital.com^
 ||infinitypixel.online^
+||infinityscans.net/api/collect
 ||infirmaryboss.com^
 ||inflameemanent.cam^
 ||inflateimpediment.com^
@@ -102062,6 +102068,7 @@ zyro.com##.zyro-cookies
 ||magnify.net/decor/track/
 ||magnify360.com^
 ||magnify360.com^$third-party
+||magnipeople.com/0/sendEventV2
 ||magr.cloud^
 ||magsrv.com^
 ||mahaidroagra.com^
@@ -109125,6 +109132,7 @@ zyro.com##.zyro-cookies
 ||myfuture.futureelectronics.com^
 ||mygeek.cn^
 ||mygoodlives.com^
+||mygostore.com/api/log
 ||mygsyv.com^
 ||mygtmn.com^
 ||myhaitang.xyz/assets/public/
@@ -110865,6 +110873,7 @@ zyro.com##.zyro-cookies
 ||nnwm.com^
 ||nnxijkdigwywla.com^
 ||no2veeamggaseber.com^
+||no88kks.infinityscans.net^
 ||no9pldds1lmn3.soundcloud.com^
 ||noa.yahoo.com^
 ||noa0.compteczam.fr^
@@ -112586,6 +112595,7 @@ zyro.com##.zyro-cookies
 ||oldyveena.com^
 ||ole7o.cn^
 ||olecintri.com^
+||olegcassini.com.tr/0/sendEventV2
 ||oleificiozucchi.it/cookie.js$script
 ||oleinironed.top^
 ||oleoshaves.top^
@@ -117419,6 +117429,7 @@ zyro.com##.zyro-cookies
 ||pmzer.com^
 ||pn.vg^
 ||pn.vg^$third-party
+||pn.ybp.yahoo.com/ab/secure/true/imp/
 ||pnaagn.haekplanter-heijnen.dk^
 ||pnads.com^
 ||pncloudfl.com^
@@ -124926,6 +124937,7 @@ zyro.com##.zyro-cookies
 ||s.utop.vn^
 ||s.uuidksinc.net^
 ||s.vaedan.top^
+||s.vibe.co^
 ||s.vucko.co^
 ||s.wapadv.com^
 ||s.waterloochronicle.ca^
@@ -128106,6 +128118,7 @@ zyro.com##.zyro-cookies
 ||services.eclerx.com^
 ||services.edc.ca^
 ||services.haaretz.co.il^
+||services.haaretz.com/ds/impression
 ||services.haaretz.com^
 ||services.princes-trust.org.uk^
 ||services.releasepoint.com^
@@ -134191,6 +134204,7 @@ zyro.com##.zyro-cookies
 ||sp.gmossp-sp.jp^
 ||sp.jrklein.com^
 ||sp.naver.com^
+||sp.pcoptimum.ca^
 ||sp.qf.56.com^
 ||sp.soniccares.com^
 ||sp.spaceomatic.fr^
@@ -139785,6 +139799,7 @@ zyro.com##.zyro-cookies
 ||tag.minimaid.co.jp^
 ||tag.mtrcs.samba.tv^
 ||tag.myplay.com^
+||tag.pearldiver.io^
 ||tag.regieci.com^
 ||tag.rightmessage.com^
 ||tag.rmp.rakuten.com^
@@ -142453,6 +142468,7 @@ zyro.com##.zyro-cookies
 ||tns-sifo.se^$third-party
 ||tns.simba.taobao.com^
 ||tnsmufijcnulqtl.com^
+||tnspro.com.tr/0/sendEventV2
 ||tnt.yemeksepeti.com^
 ||tnudztz.com^
 ||tnvnnn.xyz^
@@ -153444,6 +153460,7 @@ zyro.com##.zyro-cookies
 ||womenvocationanxious.com^
 ||womenwan.com^
 ||womerasecocide.com^
+||womm.com.tr/0/sendEventV2
 ||womtp.com^
 ||womtp.com^$third-party
 ||won.wooribank.com^
@@ -159197,6 +159214,7 @@ zyro.com##.zyro-cookies
 ||zumfzaamdxaw.com^
 ||zumid.xyz^
 ||zumorhshij.com^
+||zumper.com/events
 ||zumrieth.com^
 ||zunicai.com^
 ||zunmi.cn^
