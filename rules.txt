@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-09-09 09:20:40（北京时间） 
-! Total count: 160095
+! Version: 2024-09-09 20:27:29（北京时间） 
+! Total count: 160097
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18620,6 +18620,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /newsletter/read?s=$image
 /newslink.reuters.com/img/*$image
 /newtrackingscript.
+/ng.gif?
 /nielsen.htm
 /nielsen.js
 /njs.gif?
@@ -28734,7 +28735,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudfront.net/libs/amplitude-$script,domain=elconfidencial.com
@@ -115175,6 +115176,7 @@ zyro.com##.zyro-cookies
 ||parameter.dk^$third-party
 ||parametre.online^
 ||parametre.online^$third-party
+||paramount.tech/lookup/
 ||paranoiaantiquarianstraightened.com^
 ||paranoiaourselves.com^
 ||paraphdeafer.top^
