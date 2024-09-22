@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-09-22 09:34:03（北京时间） 
-! Total count: 159502
+! Version: 2024-09-22 20:25:05（北京时间） 
+! Total count: 159507
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15957,7 +15957,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &l=dataLayer&cx=c
-&mi_ecmp=
+&mi_ecmp=$image
 &pagegroup=*&url=$script
 &refer=http$script
 &t=pageview&
@@ -16032,6 +16032,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/track?v=
 .com/vtrack
 .com/xz/*?token8=
+.com:*.js?v=17$third-party
 .com:*/cc/*?is_not=*&target=*
 .com:*/d/*?c=*$third-party
 .com:*/sc/*?n=$third-party
@@ -31054,6 +31055,7 @@ chromeactions.com##footer > div:not([class])
 chromeenterprise.google##.ce-cookie-banner
 chromium.org##snack-bar-container
 churchs.com###ccpa
+chusixs.com/5ygsh/
 cian.ru##div[data-name="CookiesNotification"]
 ciasteczka.org.pl###ciasteczka\.org\.pl
 cibaipuki.com##.table2
@@ -34473,7 +34475,6 @@ lawine.at##.header-notification
 lawinsider.com###header ~ .light-blue-bordered-card
 lawline.se##div[class*="CookiesModal"]
 lawyersonline.co.uk##.alert, #alert
-lay.aiseet.atianqi.com
 layar.com##.remarketing-banner
 layerstack.com##.promotion-footer
 laznevbechyni.cz##.fixed-box
@@ -42430,6 +42431,7 @@ zyro.com##.zyro-cookies
 ||815ss.cn^
 ||817.dopa.com^
 ||818.dopa.com^
+||8181zx.com^
 ||8184.cc^
 ||81wx.info^
 ||820615ypo.com^
@@ -56685,6 +56687,7 @@ zyro.com##.zyro-cookies
 ||bagfulcoughwallow.com^
 ||baggageconservationcaught.com^
 ||baggalaresaid.com^
+||baggvon.icu^
 ||baghlachalked.com^
 ||baghoorg.xyz^
 ||bagiijdjejjcficbaag.world^
@@ -62460,6 +62463,7 @@ zyro.com##.zyro-cookies
 ||cegloockoar.com^
 ||ceh.cehbh.com^
 ||ceilingbruiseslegend.com^
+||ceiqox.com^
 ||ceiuip.icu^
 ||cekgsyc.com^
 ||celeb-ads.com^
@@ -67207,6 +67211,7 @@ zyro.com##.zyro-cookies
 ||cse3.chausport.com^
 ||csedasdme.xyz^
 ||csfabdtmrs.com^
+||csfds000.fun^
 ||csggmxrbt.com^
 ||csghyg.reginaclinic.jp^
 ||csgocpu.com^
