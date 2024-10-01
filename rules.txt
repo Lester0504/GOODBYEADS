@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-10-01 09:37:40（北京时间） 
-! Total count: 159901
+! Version: 2024-10-01 20:28:50（北京时间） 
+! Total count: 159902
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29137,7 +29137,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||pladform.ru/player$subdocument
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
-@@||platform.twitter.com/oct.js$domain=ncsoft.jp
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||play.bokracdn.run/v2/adsjs/ads.js$script,~third-party
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
@@ -96007,6 +96006,7 @@ zyro.com##.zyro-cookies
 ||koindut.com^
 ||koji-analytics.com^
 ||koji-analytics.com^$third-party
+||kojima.net/excludes/KPC/js/kjm_gtm.js
 ||kokojia.com^
 ||kokos.click^
 ||kokos.click^$third-party
@@ -139233,6 +139233,7 @@ zyro.com##.zyro-cookies
 ||t.biooncology.com^
 ||t.birchlane.com^
 ||t.blablacar.com^
+||t.blog.livedoor.jp^
 ||t.bluehens.com^
 ||t.bndestem.nl^
 ||t.bndestem.nl^$image
