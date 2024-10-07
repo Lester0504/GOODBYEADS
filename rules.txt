@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-10-07 09:24:55（北京时间） 
-! Total count: 160087
+! Version: 2024-10-07 20:29:29（北京时间） 
+! Total count: 160088
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -34847,6 +34847,11 @@ m.dangdang.com###zdmad
 m.dangdang.com##.app_download
 m.dangdang.com##.container > a
 m.dangdang.com##.redrain-index-i
+m.dongchedi.com##.float-open-app-btn.float-open-app
+m.dongchedi.com##.mui-dialog__no-spacing.mui-dialog
+m.dongchedi.com##.open-app
+m.dongchedi.com##.tw-flex:contains(App内打开)
+m.dongchedi.com##div[style="width: 84px; height: 38px; background: rgb(255, 204, 50);"]
 m.douban.com###comment-list > div > .show-all
 m.douban.com##.TalionNav-static > .info
 m.douban.com##.download-app
@@ -47143,8 +47148,6 @@ zyro.com##.zyro-cookies
 ||abckzo.cn^
 ||abclefabletor.com^
 ||abclegal.actonservice.com^
-||abcnews.com/assets/dtci/js/abcnews_visitorId.js
-||abcnews.com/assets/dtci/js/at.js
 ||abcogzozbk.com^
 ||abcompteur.com^
 ||abcompteur.com^$third-party
@@ -47167,7 +47170,6 @@ zyro.com##.zyro-cookies
 ||abdurantom.com^
 ||abeacon.cn^
 ||abeacon.com^
-||abebooks.com/timer.gif?
 ||abedbrings.com^
 ||abederemoras.top^
 ||abedgobetweenbrittle.com^
@@ -47571,7 +47573,7 @@ zyro.com##.zyro-cookies
 ||ac6hdk1js.com^
 ||ac9kpxbans1l.staging.unstoppabledomains.com^
 ||acacdn.com^
-||academia.edu/record_hit
+||academia.edu/record_hit?
 ||academic-information.com^
 ||academics.academicsuperstore.com^
 ||academicvast.com^
@@ -51971,7 +51973,6 @@ zyro.com##.zyro-cookies
 ||analytics.academy.com^
 ||analytics.ad.daum.net^
 ||analytics.adam.page^
-||analytics.adfreetime.com^
 ||analytics.adliners.de^
 ||analytics.adobe.io^
 ||analytics.adobe.ly^
@@ -55167,6 +55168,7 @@ zyro.com##.zyro-cookies
 ||assets.modehypertext.com^
 ||assets.moneymade.io/js/fp.min.js
 ||assets.oupe.es^
+||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.sheetmusicplus.com^
 ||assets.spectrumhealthlakeland.org^
 ||assets.ubembed.com/universal$script
@@ -116761,7 +116763,6 @@ zyro.com##.zyro-cookies
 ||pixel.facebook.com^
 ||pixel.fohr.co^
 ||pixel.homebook.pl^
-||pixel.honestjohn.co.uk^
 ||pixel.ionos.com^
 ||pixel.ionos.de^
 ||pixel.ionos.fr^
@@ -153572,7 +153573,7 @@ zyro.com##.zyro-cookies
 ||wolaufie.com^
 ||wolffiareecho.com^
 ||wolfram.com/common/javascript/analytics.js
-||wolfram.com/common/javascript/wal/
+||wolfram.com/common/javascript/wal/latest/walLoad.js
 ||wollycanoing.com^
 ||wolqundera.com^
 ||wolsretet.net^
