@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-10-13 09:34:37（北京时间） 
-! Total count: 158629
+! Version: 2024-10-13 20:25:28（北京时间） 
+! Total count: 158633
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28822,6 +28822,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
+@@||ebanking.meezanbank.com/AmbitRetailFrontEnd/js/fingerprint2.min.js$~third-party
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 @@||ecmb.bdimg.com/*.jpg
 @@||ecmb.bdimg.com/*.png
@@ -115762,6 +115763,7 @@ zyro.com##.zyro-cookies
 ||pixel.cpex.cz^
 ||pixel.driveniq.com^
 ||pixel.dugwood.com^
+||pixel.embed.su^
 ||pixel.europapress.net^
 ||pixel.facebook.com^
 ||pixel.fohr.co^
@@ -136564,6 +136566,8 @@ zyro.com##.zyro-cookies
 ||streamdream.ws^
 ||streamed.su/api/preload
 ||streamelements.com/z/i.js
+||streamelements.com/z/s.js
+||streamelements.com/z/t
 ||streameventzone.com^
 ||streaming-illimite5.com^
 ||streaming-illimite6.com^
