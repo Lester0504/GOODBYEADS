@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-10-15 20:36:32（北京时间） 
-! Total count: 158346
+! Version: 2024-10-16 09:08:03（北京时间） 
+! Total count: 158350
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28928,6 +28928,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||hvemder.no/js/hitcount.min.js$~third-party
 @@||identity.mparticle.com^$xmlhttprequest
+@@||ignitetv.rogers.com/js/api/fingerprint.js$script,~third-party
 @@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
 @@||ikea.com^*/analyticsEvent.$script,~third-party
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
@@ -32024,6 +32025,9 @@ e-stave.com###message, .message
 e-tron.audi##.e-tron-cookies-notice
 e-turysta.pl###et-cookies-info
 e-weber.it##.flash-info
+e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
+e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
+e.mail.ru,octavius.mail.ru#@#.letter-list-item-adv
 eaglemoss.com##privacy-settings.pos-fixed, main-overlay
 eanuncios.com##.ue-accept-bg
 earlybird.delivery##.policy-notice
