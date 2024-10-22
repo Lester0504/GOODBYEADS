@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-10-22 09:23:53（北京时间） 
-! Total count: 154574
+! Version: 2024-10-22 20:28:40（北京时间） 
+! Total count: 154571
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16152,7 +16152,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .revolut.com/q/$image
 .ru/ads/
 .secureserver.net/bbimage.aspx?
-.sendcloud.net/track/
+.sendcloud.net/track/$image
 .sendemail.gate.io/o/$image
 .sendibm1.com/*.gif?
 .sendibm1.com/mk/
@@ -29063,7 +29063,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||motika.com.mk/wp-content/plugins/ajax-hits-counter/display-hits.rapid.php$~third-party
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|bravotv.com|cnbc.com|gymshark.com|motortrendondemand.com|nbcsports.com
-@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
+@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|secure.coventrybuildingsociety.co.uk|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
 @@||multitest.ua/static/bower_components/boomerang/boomerang.js$~third-party
 @@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
@@ -52860,7 +52860,6 @@ zyro.com##.zyro-cookies
 ||api.moogos.com^
 ||api.mp.uc.cn^
 ||api.mumuglobal.com^
-||api.my.tv.sohu.com/wm/getads.do?
 ||api.myadsget.com^
 ||api.narrativ.com/favicon.ico
 ||api.nend.net^
@@ -66290,7 +66289,6 @@ zyro.com##.zyro-cookies
 ||csrrxwd.com^
 ||css.asitend.com^
 ||css.bloggerads.net^
-||css.tv.itc.cn/m/img/player/dlBanner.$image
 ||css.zmjm.com^
 ||css888.bceapp.com^
 ||cssuvtbfeap.com^
@@ -68716,7 +68714,6 @@ zyro.com##.zyro-cookies
 ||data.umfrage.whatsappsim.de^
 ||data.vdi-wissensforum.de^
 ||data.vinsolutions.com^
-||data.vod.itc.cn/*&prod=ad&$media
 ||data.vod.itc.cn^
 ||data.volksfreund.de^
 ||data.voyager.dev.cjmadobe.com^
@@ -138265,7 +138262,6 @@ zyro.com##.zyro-cookies
 ||toutiao.jxnews.com.cn^
 ||toutiao.social^
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=agedm.org|acgndmku.com
 ||toutiaopage.com^
 ||toutsneskhi.com^
 ||touy.deryakose.com^
@@ -149056,6 +149052,7 @@ zyro.com##.zyro-cookies
 ||www.16m.cc^
 ||www.17zhaole.com^
 ||www.18dusun.com^
+||www.1905.com/uploadfile/2024/0401/20240401094429405834.jpg^$image
 ||www.1933000.com^
 ||www.1h2h54jkw.com^
 ||www.200-rockergod.com^
