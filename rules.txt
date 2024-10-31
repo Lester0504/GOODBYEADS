@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-10-31 09:24:34（北京时间） 
-! Total count: 154869
+! Version: 2024-10-31 20:28:20（北京时间） 
+! Total count: 154874
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16768,6 +16768,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/ad/*
 /api/adplogger/*
 /api/async.php?t=user&m=pagehits&
+/api/bfb_write_log
 /api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
@@ -16849,6 +16850,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ato-cookiebanner.js$domain=haag-streit.com
 /atrk.gif?
 /atrk.js
+/attpro/a?
 /audience-extraction.js
 /audience.gif?
 /audience.min.js
@@ -18800,6 +18802,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pingServerAction?
 /ping_g.jsp?
 /ping_hotclick.js
+/pingback|
 /pingd?
 /pinger.cgi?
 /pinterest-pixels.js
@@ -64796,6 +64799,7 @@ zyro.com##.zyro-cookies
 ||consent-wrapper.jameda.de^
 ||consent.23g.io^
 ||consent.amateurphotographer.co.uk^
+||consent.api.osano.com/record
 ||consent.berliner-kurier.de^
 ||consent.canalboat.co.uk^
 ||consent.clientemais.paodeacucar.com^
@@ -122624,6 +122628,7 @@ zyro.com##.zyro-cookies
 ||scribblestring.com^
 ||scribblestring.com^$third-party
 ||scribd.com/api/v1/events
+||scribd.com/log/
 ||scribe.twitter.com^
 ||scribe.wongnai.com^
 ||scribol.com/traffix/widget_tracker/
