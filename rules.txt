@@ -3,20 +3,33 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-11-02 20:27:36（北京时间） 
-! Total count: 154475
+! Version: 2024-11-02 20:33:42（北京时间） 
+! Total count: 154784
 #
+#          ◆ G O O D B Y E A D S ◆
+# --------------------------------------------
+# --------------------------------------------  
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
 # CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
 # Contribute:
 # Contributions by:
 # Create an issue at https://github.com/AdAway/adaway.github.io/issues
+# Description: Blocks Xiaomi Ads,Trackers.
+# Developer & Maintainer: Jerry [jerryn70] XDA Senior Member
+# Entries: 278
 # Fetch the latest version of this file:
+# Format: Hosts
 # Further changes and contributors maintained in the commit history at
+# G O O D B Y E A D S  B E G I N S
 # Kicelo, Dominik Schuermann.
 # License:
+# License: MIT, https://github.com/jerryn70/GoodbyeAds/blob/master/LICENSE
+# P A C K  D E T A I L S
 # Project home page:
+# Source: https://github.com/jerryn70/GoodbyeAds
+# Title: GoodbyeAds-Xiaomi-AdBlock
+# Updated: Jan 21 10:32:31 GMT+05:30 2024
 # [163.com]
 # [1mobile.com]
 # [1rx.io]
@@ -2042,6 +2055,7 @@
 # https://github.com/AdAway/adaway.github.io/
 # https://github.com/AdAway/adaway.github.io/commits/master
 # https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+# √ S A Y  G O O D B Y E  T O  A D S
 ###ACClayerBackground
 ###AF_GDPR
 ###APP div[id*="PrivacyPolicyToast"]
@@ -20089,6 +20103,284 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /zsmessagebar.js$domain=christian.education
 /ztracker.js
 /~shared/do/~/count/?$image
+0.0.0.0 a.hl.mi.com
+0.0.0.0 a.stat.xiaomi.com
+0.0.0.0 a.union.mi.com
+0.0.0.0 abtest.mistat.intl.xiaomi.com
+0.0.0.0 abtest.mistat.xiaomi.com
+0.0.0.0 activeqq.3g.qq.com
+0.0.0.0 ad.intl.xiaomi.com
+0.0.0.0 ad.mi.com
+0.0.0.0 ad.xiaomi.com
+0.0.0.0 ad1.xiaomi.com
+0.0.0.0 adfuture.cn
+0.0.0.0 adinfo.ra1.xlmc.sec.miui.com
+0.0.0.0 adsunflower.com
+0.0.0.0 adups.com
+0.0.0.0 adv.sec.intl.miui.com
+0.0.0.0 adv.sec.miui.com
+0.0.0.0 analytics3.starschina.com
+0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 api.admob.xiaomi.com
+0.0.0.0 api.brs.intl.miui.com
+0.0.0.0 api.chat.xiaomi.net
+0.0.0.0 api.collect.data.intl.miui.com
+0.0.0.0 api.comm.miui.com
+0.0.0.0 api.cupid.ptqy.gitv.tv
+0.0.0.0 api.d.xiaomi.com
+0.0.0.0 api.g.micloud.xiaomi.net
+0.0.0.0 api.hybrid.intl.xiaomi.com
+0.0.0.0 api.jr.mi.com
+0.0.0.0 api.miui.security.xiaomi.com
+0.0.0.0 api.ra2.xlmc.sec.miui.com
+0.0.0.0 api.sec.intl.miui.com
+0.0.0.0 api.sec.miui.com
+0.0.0.0 api.setting.intl.miui.com
+0.0.0.0 api.tuisong.baidu.com
+0.0.0.0 api.tw06.xlmc.sec.miui.com
+0.0.0.0 api.vip.miui.com
+0.0.0.0 app.chat.xiaomi.net
+0.0.0.0 app.migc.xiaomi.com
+0.0.0.0 app01.nodes.gslb.mi-idc.com
+0.0.0.0 app02.nodes.gslb.mi-idc.com
+0.0.0.0 applog.uc.cn
+0.0.0.0 appstore.cdn.pandora.xiaomi.com
+0.0.0.0 appstore.pandora.xiaomi.com
+0.0.0.0 assistant.pandora.xiaomi.com
+0.0.0.0 astat.bugly.qq.com
+0.0.0.0 auth.be.sec.miui.com
+0.0.0.0 authbe.sec.intl.miui.com
+0.0.0.0 awsusor0-cdn.fds-ssl.api.xiaomi.com
+0.0.0.0 b.netcheck.gallery.pandora.xiaomi.com
+0.0.0.0 bbs.game.xiaomi.com
+0.0.0.0 be01.hh.xiaomi.com
+0.0.0.0 beha.ksmobile.com
+0.0.0.0 benteng.ad.xiaomi.com
+0.0.0.0 bgp.fe01.c3.xiaomi.com
+0.0.0.0 bigdata.adfuture.cn
+0.0.0.0 bigdata.adsunflower.com
+0.0.0.0 bigdata.adups.com
+0.0.0.0 bigdata.advmob.cn
+0.0.0.0 bk01.hh.xiaomi.com
+0.0.0.0 blog.xiaomi.com
+0.0.0.0 bss.pandora.xiaomi.com
+0.0.0.0 c.id.mi.com
+0.0.0.0 calopenupdate.comm.miui.com
+0.0.0.0 cc.sys.intl.xiaomi.com
+0.0.0.0 cc.sys.miui.com
+0.0.0.0 ccc.sys.intl.xiaomi.com
+0.0.0.0 ccc.sys.miui.com
+0.0.0.0 cdn.ad.xiaomi.com
+0.0.0.0 cdn.fds-ssl.api.xiaomi.com
+0.0.0.0 clock.ad.xiaomi.com
+0.0.0.0 cm.adkmob.com
+0.0.0.0 cm066.getui.igexin.com
+0.0.0.0 cnc.fe01.lg.xiaomi.com
+0.0.0.0 config.kuyun.com
+0.0.0.0 contactapi.micloud.xiaomi.net
+0.0.0.0 controller.intl.xiaomi.com
+0.0.0.0 ctc.fe01.c3.xiaomi.com
+0.0.0.0 ctc.fe02.c3.xiaomi.com
+0.0.0.0 d.g.mi.com
+0.0.0.0 d.xiaomi.com
+0.0.0.0 data-mistat-india-xiaomi-com-1248219176.ap-south-1.elb.amazonaws.com
+0.0.0.0 data.game.xiaomi.com
+0.0.0.0 data.mistat.india.xiaomi.com
+0.0.0.0 data.mistat.intl.xiaomi.com
+0.0.0.0 data.mistat.rus.xiaomi.com
+0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 data.sec.intl.miui.com
+0.0.0.0 data.sec.miui.com
+0.0.0.0 de.pandora.xiaomi.com
+0.0.0.0 diagnosis.ad.xiaomi.com
+0.0.0.0 dvb.pandora.xiaomi.com
+0.0.0.0 e.ad.xiaomi.com
+0.0.0.0 etl.xlmc.sec.miui.comm
+0.0.0.0 f1.g.mi.com
+0.0.0.0 f4.market.xiaomi.com
+0.0.0.0 fcanr.tracking.miui.com
+0.0.0.0 fclick.baidu.com
+0.0.0.0 fe02.lg.xiaomi.com
+0.0.0.0 fe05.lg.xiaomi.com
+0.0.0.0 flash.sec.intl.miui.com
+0.0.0.0 folder.adfuture.cn
+0.0.0.0 folder.adsunflower.com
+0.0.0.0 folder.advmob.cn
+0.0.0.0 fota4.adups.cn
+0.0.0.0 fotacontrol.adfuture.cn
+0.0.0.0 g.cn.miaozhen.com
+0.0.0.0 gallery.cdn.pandora.xiaomi.com
+0.0.0.0 gallery.pandora.xiaomi.com
+0.0.0.0 game.xiaomi.com
+0.0.0.0 geofence.sys.miui.com
+0.0.0.0 global.search.xiaomi.net
+0.0.0.0 globalapi.ad.xiaomi.com
+0.0.0.0 gvod.aiseejapp.atianqi.com
+0.0.0.0 hd.xiaomi.com
+0.0.0.0 hd02.lg.xiaomi.com
+0.0.0.0 heyue.xiaomi.com
+0.0.0.0 hk.mibi.xiaomi.com
+0.0.0.0 hm.xiaomi.com
+0.0.0.0 huodong.xiaomi.com
+0.0.0.0 huosai.xiaomi.com
+0.0.0.0 i.xiaomi.com
+0.0.0.0 igame.xiaomi.com
+0.0.0.0 image.box.xiaomi.com
+0.0.0.0 image.cdn.mvideo.xiaomi.com
+0.0.0.0 image.pandora.xiaomi.com
+0.0.0.0 ime.api.xiaomi.com
+0.0.0.0 imgg.traffic-media.co
+0.0.0.0 in.o2o.api.xiaomi.com
+0.0.0.0 info.analysis.kp.sec.miui.com
+0.0.0.0 info.sec.miui.com
+0.0.0.0 iosdl.game.xiaomi.com
+0.0.0.0 jellyfish.pandora.xiaomi.com
+0.0.0.0 lbs.pandora.xiaomi.com
+0.0.0.0 lg-bgp.pandora.xiaomi.com
+0.0.0.0 log.ad.xiaomi.com
+0.0.0.0 log.pandora.xiaomi.com
+0.0.0.0 login.game.xiaomi.com
+0.0.0.0 logonext.tv.kuyun.com
+0.0.0.0 logupdate.avlyun.sec.miui.com
+0.0.0.0 lxcdn.dl.files.xiaomi.net
+0.0.0.0 m.bss.pandora.xiaomi.com
+0.0.0.0 m.irs01.com
+0.0.0.0 m.sjzhushou.com
+0.0.0.0 m.track.ad.xiaomi.com
+0.0.0.0 masdk.3g.qq.com
+0.0.0.0 max.ad.xiaomi.com
+0.0.0.0 mazu.3g.qq.com
+0.0.0.0 mazu.sec.miui.com
+0.0.0.0 mcc.intl.inf.miui.com
+0.0.0.0 mdap.alipaylog.com
+0.0.0.0 meihua.xiaomi.com
+0.0.0.0 metok.sys.miui.com
+0.0.0.0 mibi.api.xiaomi.com
+0.0.0.0 mibi.xiaomi.com
+0.0.0.0 micardapi.micloud.xiaomi.net
+0.0.0.0 migc.g.mi.com
+0.0.0.0 migcreport.g.mi.com
+0.0.0.0 migrate.driveapi.micloud.xiaomi.net
+0.0.0.0 milink.pandora.xiaomi.com
+0.0.0.0 mini.cpc.sogou.com
+0.0.0.0 mis.g.mi.com
+0.0.0.0 mis.migc.xiaomi.com
+0.0.0.0 mishop.cdn.pandora.xiaomi.com
+0.0.0.0 mishop.pandora.xiaomi.com
+0.0.0.0 mitunes.game.xiaomi.com
+0.0.0.0 mitv.tracking.intl.miui.com
+0.0.0.0 mlog.search.xiaomi.net
+0.0.0.0 mp.huangye.miui.com
+0.0.0.0 new.api.ad.xiaomi.com
+0.0.0.0 notice.game.xiaomi.com
+0.0.0.0 nsclick.baidu.com
+0.0.0.0 o.data.mistat.xiaomi.com
+0.0.0.0 o2o.api.xiaomi.com
+0.0.0.0 order.music.xiaomi.com
+0.0.0.0 p.alimama.com
+0.0.0.0 pdc.micloud.xiaomi.net
+0.0.0.0 phonecallapi.micloud.xiaomi.net
+0.0.0.0 pmall.migc.xiaomi.com
+0.0.0.0 pmir.3g.qq.com
+0.0.0.0 ppurifier.game.xiaomi.com
+0.0.0.0 proxy.sec.miui.com
+0.0.0.0 ptmi.gitv.pandora.xiaomi.com
+0.0.0.0 qiye.xiaomi.com
+0.0.0.0 r.browser.miui.com
+0.0.0.0 r.sg.sec.miui.com
+0.0.0.0 report.adview.cn
+0.0.0.0 resolver.gslb.mi-idc.com
+0.0.0.0 resolver.msg.xiaomi.net
+0.0.0.0 sa.api.intl.miui.com
+0.0.0.0 sa.tuisong.baidu.com
+0.0.0.0 sa3.tuisong.baidu.com
+0.0.0.0 sdk.open.phone.igexin.com
+0.0.0.0 sdk.open.talk.gepush.com
+0.0.0.0 sdk.open.talk.igexin.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 sec-cdn.static.xiaomi.net
+0.0.0.0 sec.resource.xiaomi.net
+0.0.0.0 secode2.hd.xiaomi.com
+0.0.0.0 security.browser.miui.com
+0.0.0.0 sfsapi.micloud.xiaomi.net
+0.0.0.0 sg.a.stat.mi.com
+0.0.0.0 sgp.o2o.api.xiaomi.com
+0.0.0.0 shenghuo.xiaomi.com
+0.0.0.0 shoes.app-xae.xiaomi.com
+0.0.0.0 shouji.sougou.com
+0.0.0.0 sousuo.xm.sjzhushou.com
+0.0.0.0 ssdk.adkmob.com
+0.0.0.0 ssl-cdn.static.browser.mi-img.com
+0.0.0.0 ssp.ad.xiaomi.com
+0.0.0.0 sstc.ngrok.xiaomiqiu.cn
+0.0.0.0 staging.admin.e.mi.com
+0.0.0.0 staging.ai.api.xiaomi.com
+0.0.0.0 starfish.pandora.xiaomi.com
+0.0.0.0 stat.pandora.xiaomi.com
+0.0.0.0 stat.xiaomi.com
+0.0.0.0 static.game.xiaomi.com
+0.0.0.0 static.mibi.xiaomi.com
+0.0.0.0 stats.xiaomi.com
+0.0.0.0 storeconfig.mistat.intl.xiaomi.com
+0.0.0.0 t.track.ad.xiaomi.com
+0.0.0.0 t1.a.market.xiaomi.com
+0.0.0.0 t1.g.mi.com
+0.0.0.0 t2.a.market.xiaomi.com
+0.0.0.0 t3.a.market.xiaomi.com
+0.0.0.0 t4.a.market.xiaomi.com
+0.0.0.0 t5.a.market.xiaomi.com
+0.0.0.0 tc.hd.xiaomi.com
+0.0.0.0 tel.fe01.hh.xiaomi.com
+0.0.0.0 test.ad.xiaomi.com
+0.0.0.0 test.api.xlmc.sandai.net
+0.0.0.0 test.e.ad.xiaomi.com
+0.0.0.0 test.log.ad.xiaomi.com
+0.0.0.0 test.new.api.ad.xiaomi.com
+0.0.0.0 test.xiaomi.com
+0.0.0.0 test.zeus.ad.xiaomi.com
+0.0.0.0 tools.3g.qq.com
+0.0.0.0 track.ad.xiaomi.com
+0.0.0.0 tracking.india.miui.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 tracking.miui.com
+0.0.0.0 tracking.rus.miui.com
+0.0.0.0 trial.api.huangye.miui.com
+0.0.0.0 tv.app.migc.xiaomi.com
+0.0.0.0 tw13b093.sandai.net
+0.0.0.0 union.dbba.cn
+0.0.0.0 update.avlyun.sec.miui.com
+0.0.0.0 upgrade.mishop.pandora.xiaomi.com
+0.0.0.0 url8807.global.passport.xiaomi.com
+0.0.0.0 userid.xiaomi.com
+0.0.0.0 v2.fm.n.duokanbox.com
+0.0.0.0 v2.reachmax.cn
+0.0.0.0 video.market.xiaomi.com
+0.0.0.0 video.xiaomi.com
+0.0.0.0 voip.game.xiaomi.com
+0.0.0.0 wallpaper.cdn.pandora.xiaomi.com
+0.0.0.0 wallpaper.pandora.xiaomi.com
+0.0.0.0 wap.game.xiaomi.com
+0.0.0.0 watchdog.goodbyeads
+0.0.0.0 watchdog.goodbyeads.xiaomi
+0.0.0.0 weather.pandora.xiaomi.com
+0.0.0.0 weatherapi.market.xioami.com
+0.0.0.0 wtradv.market.xiaomi.com
+0.0.0.0 www.adview.cn
+0.0.0.0 www.api.ad.intl.xiaomi.com
+0.0.0.0 xiaomi-mipdx.cn.miaozhen.com
+0.0.0.0 xiaomi.m.cn.miaozhen.com
+0.0.0.0 xiaomiir.yaokantv.com
+0.0.0.0 xiazai.xiaomi.com
+0.0.0.0 xitong.xiaomi.com
+0.0.0.0 xlmc.sec.miui.com
+0.0.0.0 xshare.api.xiaomi.com
+0.0.0.0 yun.rili.cn
+0.0.0.0 zeus.ad.intl.xiaomi.com
+0.0.0.0 zeus.ad.xiaomi.com
+0.0.0.0 zhwnlapi.etouch.cn
+0.0.0.0 zx.game.xiaomi.com
 01-telecharger.com###cokkies
 015.by,0312.ua,032.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,04141.com.ua,0432.ua,04563.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,0462.ua,0472.ua,048.ua,04868.com.ua,0512.com.ua,05136.com.ua,05161.com.ua,0522.ua,0532.ua,05366.com.ua,0542.ua,05447.com.ua,0552.ua,056.ua,0564.ua,0566.com.ua,0569.com.ua,057.ua,061.ua,06153.com.ua,0619.com.ua,0623.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,0629.com.ua,0642.ua,06452.com.ua,0652.ua,0692.ua,1rnd.ru,3652.ru,3654.ru,3849.com.ua,44.ua,4594.com.ua,5692.com.ua,62.ua,6262.com.ua,6264.com.ua,65.media,7232.kz,8422city.ru,anapa.life,angarsk38.ru,bazhopol.ru,city01.am,city41.ru,comores24.com,go01.ru,go11.kz,go212.by,go216.by,go26.ru,go31.ru,go61.ru,go7812.ru,godublin.info,golondon.info,goriga.info,gorod3466.ru,gorodarmavir.ru,goroddomodedovo.ru,goshymkent.kz,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,infolyubertsy.ru,inform69.ru,vilniuje.info,yocity12.ru##.bung-container
 034portal.hr###footer.tekst
@@ -29171,8 +29463,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 CheckCookiePolicy*$domain=remixshop.com
 CookieAccept/affirmation.js
 Mplay/kk1.js
-Requested host does not match any Subject Alternative Names (SANs) on TLS certificate [76706c9825230e76f9129db35c3dacc2f91b534cee33c6a371804a67a5800e27] in use with this connection.
-Visit https://docs.fastly.com/en/guides/common-400-errors#error-421-misdirected-request for more information.
 _/bigREDcat.css?
 _/bigREDdog.js
 _WebVitalsReporter_
@@ -40524,6 +40814,7 @@ zyro.com##.zyro-cookies
 ||1dbv2cyjx0ko.shop^
 ||1dcbzuv.com^
 ||1dfsdfg.com^
+||1dki0.icu^
 ||1dmp.io^
 ||1dmp.io^$third-party
 ||1drj.com^
@@ -41293,6 +41584,7 @@ zyro.com##.zyro-cookies
 ||404.safedog.cn^
 ||407433bfc441.com^
 ||4087aa0dc1.com^
+||4088846d50.com^
 ||40caidaylimpia.catzolab.net^
 ||40ceexln7929.com^
 ||40fenzhong.com^
@@ -41450,7 +41742,6 @@ zyro.com##.zyro-cookies
 ||4wnetwork.com^
 ||4wu3gf.cn^
 ||4xhyr.shuimujinggong.com^
-||5-157-110-232.dyn.eolo.it^
 ||5.5ppt.net^
 ||5.61.55.143^
 ||5.ccutu.com^
@@ -49293,6 +49584,7 @@ zyro.com##.zyro-cookies
 ||adstestview.qq.com^
 ||adstextview.qq.com^
 ||adstico.io^
+||adstik.click^
 ||adstk.io^
 ||adstock.pro^
 ||adstoo.com^
@@ -52372,7 +52664,6 @@ zyro.com##.zyro-cookies
 ||aortismbutyric.com^
 ||aos-creative.prf.hn^
 ||aos.prf.hn^
-||aosafrica.co.za^
 ||aoswoygld.com^
 ||aoulpo.puccini.pl^
 ||aourgk.xyz^
@@ -52495,7 +52786,6 @@ zyro.com##.zyro-cookies
 ||api.22lianmeng.com^
 ||api.36dfsa.com^
 ||api.51sxzz.com^
-||api.52kkg.com^
 ||api.5eln.cn^
 ||api.ad-locus.com^
 ||api.ad-stir.com^
@@ -53919,6 +54209,7 @@ zyro.com##.zyro-cookies
 ||apsis1.com^$third-party
 ||apsislead.com^
 ||apsislead.com^$third-party
+||apslline.com^
 ||apsmediaagency.com^
 ||apsoacou.xyz^
 ||apsoopho.net^
@@ -54249,7 +54540,6 @@ zyro.com##.zyro-cookies
 ||arwhismura.com^
 ||arwobaton.com^
 ||aryici.xyz^
-||arza.us^
 ||as.adfonic.net^
 ||as.aplus.pptv.com^
 ||as.autobild.de^
@@ -55175,6 +55465,8 @@ zyro.com##.zyro-cookies
 ||avapartner.com^$third-party
 ||avapp.tv^
 ||avasgtest.branch.rocks^
+||avastop.com^
+||avastpx.com^
 ||avatarweb.site^
 ||avaya-engage.avaya.com^
 ||avaz.ba/update/hits/
@@ -55950,7 +56242,7 @@ zyro.com##.zyro-cookies
 ||baeldung.com/*/library/dist/js/ad-recovery.min.js
 ||baffae.alcott.eu^
 ||baffngyawtwc.com^
-||bafybeicnmx2fcaolinpdaiqjo7hgsourg3qzaxf57psdrbqic4qrm4pf3i.ipfs.dweb.link^
+||bafybeicoo7kwhmnl6q7prd65aimf5byzrihrklgviebm2pkyzyepdaigf4.ipfs.dweb.link^
 ||bagbeam.com^
 ||bagbeam.com^$third-party
 ||bagbgo.unitednude.eu^
@@ -57358,6 +57650,7 @@ zyro.com##.zyro-cookies
 ||bh100.com.cn^
 ||bh3.net^
 ||bhaabom.cn^
+||bhakte.com^
 ||bhalukecky.com^
 ||bhaoea.cn^
 ||bharalhallahs.com^
@@ -62286,7 +62579,6 @@ zyro.com##.zyro-cookies
 ||ciscenje.net.jumia.com.ng^
 ||cisco-eagle.actonservice.com^
 ||cisco.com/c/dam/cdc/j/at.js
-||ciscocdn.com^
 ||ciscoesfirring.guru^
 ||cishantao.com^
 ||cisheeng.com^
@@ -63257,7 +63549,6 @@ zyro.com##.zyro-cookies
 ||cmflinks.provesio.com^
 ||cmgfbg.billetreduc.com^
 ||cmgjqqu.cn^
-||cmgtrading.eu^
 ||cmh2pw.com^
 ||cmhmpr.lolaliza.com^
 ||cmhoriu.com^
@@ -63861,6 +64152,7 @@ zyro.com##.zyro-cookies
 ||colourevening.com^
 ||coltagainst.pro^
 ||columbustech.tcsg.edu^
+||column.mrbasic.com^
 ||columngenuinedeploy.com^
 ||columnistcandour.com^
 ||columnisteverything.com^
@@ -69458,6 +69750,7 @@ zyro.com##.zyro-cookies
 ||depreciatelovers.com^
 ||depressedchamber.com^
 ||depressionfemaledane.com^
+||depsabsootchut.net^
 ||depttake.ga^
 ||deqwas.net^
 ||deqwas.net^$third-party
@@ -70824,7 +71117,6 @@ zyro.com##.zyro-cookies
 ||dl.manscore.com^
 ||dl.mbsea.com^
 ||dl.nalbes.com^
-||dl.natgo.cn^
 ||dl.nekropol-khv.ru^
 ||dl.nx5.com^
 ||dl.oneworldonesai.com^
@@ -71267,6 +71559,7 @@ zyro.com##.zyro-cookies
 ||dominocounter.net^
 ||dominocounter.net^$third-party
 ||dominos.co.uk/qRgAwS/
+||domipush.com^
 ||domnlk.com^
 ||domob*.*^
 ||domodomain.com^
@@ -71479,6 +71772,7 @@ zyro.com##.zyro-cookies
 ||down.laomaotao.net^
 ||down.mvip8.ru^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||down.winads.cn^
 ||down.winbaicai.com^
 ||down.xiazaidc.com^
@@ -71500,7 +71794,6 @@ zyro.com##.zyro-cookies
 ||download.backpackergame.com^
 ||download.bav.baidu.com^
 ||download.bonnti.com^
-||download.caihong.com^
 ||download.changhong.upgrade2.huan.tv^
 ||download.coinseed.co^
 ||download.connectie.com^
@@ -75372,6 +75665,7 @@ zyro.com##.zyro-cookies
 ||eoredi.com^
 ||eorganizatio.com^
 ||eosads.com^
+||eoubliw.top^
 ||eoucxzw.icu^
 ||eouvxliw.top^
 ||eoveukrnme.info^
@@ -75607,7 +75901,6 @@ zyro.com##.zyro-cookies
 ||es-go.experian.com^
 ||es-mktg.vodafone.com^
 ||es-sa.siemensplmevents.com^
-||es-update.digiwincloud.com.cn^
 ||es.adpinfo.com^
 ||es.lucanet.com^
 ||es.sharpmarketing.eu^
@@ -77686,6 +77979,7 @@ zyro.com##.zyro-cookies
 ||fh259by01r25.com^
 ||fhahujwafaf.com^
 ||fharfyqacn.com^
+||fhcdbufjnjcev.com^
 ||fhddnh.xyz^
 ||fhdnds.mrmarvis.com^
 ||fhdwtku.com^
@@ -77953,6 +78247,7 @@ zyro.com##.zyro-cookies
 ||firsttexture.com^
 ||firsttexture.com^$third-party
 ||firstverifyemigrant.com^
+||firstviewautoservice.com^
 ||firtaips.com^
 ||firtorent-yult-i-274.site^
 ||firumuti.xyz^
@@ -84985,6 +85280,7 @@ zyro.com##.zyro-cookies
 ||hlbbn6ii.icu^
 ||hlbelbblmc.com^
 ||hlcvjaqjckgrwb.com^
+||hlduplooyplant.co.za^
 ||hldwmly.com^
 ||hlegsdh.icu^
 ||hleouh.feelunique.com^
@@ -85187,6 +85483,7 @@ zyro.com##.zyro-cookies
 ||hollowafterthought.com^
 ||hollowafterthought.com^$third-party
 ||hollowcharacter.com^
+||hollysocialspuse.com^
 ||holmicnebbish.com^
 ||holor0701.cn^
 ||holor0804.cn^
@@ -85815,7 +86112,6 @@ zyro.com##.zyro-cookies
 ||huifangwen.com^
 ||huigt6y.xyz^
 ||huihuiqi.com^
-||huiip.top^
 ||huilian.info^
 ||huiruwei.com^
 ||huishenghuiying.com.cn^
@@ -86839,6 +87135,7 @@ zyro.com##.zyro-cookies
 ||ikneio.aquantindia.com^
 ||iknwqdpo.xyz^
 ||ikouthaupi.com^
+||ikspoopfp.com^
 ||ikssllnhrb.com^
 ||ikuailian.com^
 ||ikunikun.xyz^
@@ -91524,6 +91821,7 @@ zyro.com##.zyro-cookies
 ||jowlishdiviner.com^
 ||jowtkv.vertbaudet.de^
 ||jowyylrzbamz.top^
+||jowyylrzbqmb.top^
 ||joxaviri.com^
 ||joy.ochronus.online^
 ||joycreatorheader.com^
@@ -93515,6 +93813,7 @@ zyro.com##.zyro-cookies
 ||ktwwzqdx.xyz^
 ||ktxvbcbfs.xyz^
 ||ktyusid.top^
+||ktzvyiia.xyz^
 ||ku2d3a7pa8mdi.com^
 ||ku42hjr2e.com^
 ||ku6.cnzz.com^
@@ -93967,6 +94266,7 @@ zyro.com##.zyro-cookies
 ||lalabaos1021.top^
 ||lalabaos1022.top^
 ||lalabaos1025.top^
+||lalabaos1101.top^
 ||lalaping.com^
 ||lalapush.com^
 ||lalaziosiamonoi.it/pixel
@@ -97477,6 +97777,7 @@ zyro.com##.zyro-cookies
 ||lusaisso.com^
 ||luscioussensitivenesssavour.com^
 ||lusciouswrittenthat.com^
+||lusfusvawov.com^
 ||lushaseex.com^
 ||lushcrush.com^
 ||lusinlepading.com^
@@ -99282,6 +99583,7 @@ zyro.com##.zyro-cookies
 ||managedpush.com^
 ||managementhans.com^
 ||managesborerecords.com^
+||managetroubles.com^
 ||manahegazedatth.info^
 ||manbag.net^
 ||manboo.xyz^
@@ -101851,6 +102153,7 @@ zyro.com##.zyro-cookies
 ||meetrics.net^$third-party
 ||meetsourhig.biz^
 ||meetwebclub.com^
+||meeweb.com^
 ||meewireg.com^
 ||meezauch.net^
 ||mefestivalbout.com^
@@ -101991,6 +102294,7 @@ zyro.com##.zyro-cookies
 ||mercuryprettyapplication.com^
 ||mercurysugarconsulting.com^
 ||mercy.ga^
+||merelsrealm.com^
 ||meremark.com^
 ||meremark.com^$third-party
 ||merequartz.com^
@@ -106049,6 +106353,7 @@ zyro.com##.zyro-cookies
 ||mzldzb.crocs.pl^
 ||mzlit.com^
 ||mznizrhd.xyz^
+||mznntniruui.com^
 ||mzol7lbm.com^
 ||mzpecui.icu^
 ||mzqf1.com^
@@ -106242,7 +106547,6 @@ zyro.com##.zyro-cookies
 ||namnak.com/ga.js
 ||namol.xyz^
 ||namrinfo.motorolasolutions.com^
-||namthaibinh.net^
 ||nan0cns.com^
 ||nan46ysangt28eec.com^
 ||nanaimostarkle.com^
@@ -109504,6 +109808,7 @@ zyro.com##.zyro-cookies
 ||onecollector.cloudapp.aria.akadns.net^
 ||onecount.net/onecount/oc_track/
 ||onedmp.com^
+||onedomainpro.com^
 ||onedragon.win^
 ||oneegrou.net^
 ||onefeed.co.uk^
@@ -110294,7 +110599,6 @@ zyro.com##.zyro-cookies
 ||ossup.suning.com^
 ||osswc.pplive.cn/cccms/$image
 ||ostensiblecompetitive.com^
-||osteo9.esalnuvol.com^
 ||ostfuwdmiohg.com^
 ||ostilllookinga.cc^
 ||ostjob.ch/public/statistic/teaser/hit/
@@ -111361,7 +111665,6 @@ zyro.com##.zyro-cookies
 ||pantslayerboxoffice.com^
 ||pantsurplus.com^
 ||pantuz.xyz^
-||paonancs.cn^
 ||paopao-monitor.iqiyi.com^
 ||paopao.iqiyi.com^
 ||paopao0.qiyipic.com^
@@ -113161,6 +113464,7 @@ zyro.com##.zyro-cookies
 ||plasticskilledlogs.com^
 ||plastleislike.com^
 ||plat.videojj.com^
+||platedmanlily.com^
 ||platelosingshameless.com^
 ||platescarecrow.com^
 ||platescarecrow.com^$third-party
@@ -116391,6 +116695,7 @@ zyro.com##.zyro-cookies
 ||qinchugudao.com^
 ||qinghua.cc^
 ||qinghyx.com^
+||qingolor.com^
 ||qingqu.la^
 ||qingsj.cn^
 ||qiniuyunxz.yxflzs.com^
@@ -123605,7 +123910,6 @@ zyro.com##.zyro-cookies
 ||sepyra.com^$third-party
 ||sequelswosbird.com^
 ||sequencestairwellseller.com^
-||ser.nrovn.xyz^
 ||ser678uikl.xyz^
 ||seraphichorizon.com^
 ||seraphichorizon.com^$third-party
@@ -123874,6 +124178,7 @@ zyro.com##.zyro-cookies
 ||seyfwl.pomponik.pl^
 ||seyfwl.smaker.pl^
 ||seyfwl.styl.pl^
+||seymourlamboy.com^
 ||seynatcreative.com^
 ||sezixz.officesupply.com^
 ||seznam.cz/js/cmp2/scmp-external.js$script
@@ -124406,6 +124711,7 @@ zyro.com##.zyro-cookies
 ||shipseaimpish.com^
 ||shipsmarter.idrivelogistics.com^
 ||shipsmotorw.xyz^
+||shipwreckclassmate.com^
 ||shirtclumsy.com^
 ||shirtsidewalk.com^
 ||shirtsidewalk.com^$third-party
@@ -129048,7 +129354,6 @@ zyro.com##.zyro-cookies
 ||soflopxl.com^$third-party
 ||sofseo.cn^
 ||soft-com.biz^
-||soft.110route.com^
 ||soft.chaomeng8.com^
 ||soft.data.weather.360.cn^
 ||soft.jiegeng.com^
@@ -131102,6 +131407,7 @@ zyro.com##.zyro-cookies
 ||staggeredplan.com^
 ||staggeredquelldressed.com^
 ||staggeredravehospitality.com^
+||staggersuggestedupbrining.com^
 ||staging-ads.flurry.com^
 ||staging-c.vcty.co^
 ||staging-go.getsquire.com^
@@ -136310,6 +136616,7 @@ zyro.com##.zyro-cookies
 ||termsfeed.com/track/
 ||termslimemonks.com^
 ||termswhopitched.com^
+||termswilgers.top^
 ||termvb.xyz^
 ||terorie.com^
 ||terra.com.br/metrics/
@@ -144431,6 +144738,7 @@ zyro.com##.zyro-cookies
 ||vanishmemory.com^$third-party
 ||vanityassassinationsobbing.com^
 ||vanityfair.com/user-context?referrer
+||vantrong.id.vn^
 ||vapedia.com^
 ||vapjcusfua.com^
 ||vapourfertile.com^
@@ -145659,7 +145967,6 @@ zyro.com##.zyro-cookies
 ||volcanoexhibitmeaning.com^
 ||volcanostricken.com^
 ||volceapplog.com^
-||vold.pcspeedcat.com^
 ||voldarinis.com^
 ||volform.online^
 ||volgograd-info.ru^
@@ -151745,6 +152052,7 @@ zyro.com##.zyro-cookies
 ||yes1.feng.com^
 ||yes115.com^
 ||yes88kks.infinityscans.net^
+||yesgwyn.com^
 ||yesmessenger.com^
 ||yespetor.com^
 ||yess.imneinei.com^
@@ -153341,6 +153649,7 @@ zyro.com##.zyro-cookies
 ||zipheeda.xyz^
 ||ziphoumt.net^
 ||zipinaccurateoffering.com^
+||zippercontinual.com^
 ||zipperxray.com^
 ||zippyfrog.co^
 ||zippywind.com^
