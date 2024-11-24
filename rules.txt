@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-11-23 20:35:08（北京时间） 
-! Total count: 152942
+! Version: 2024-11-24 09:15:30（北京时间） 
+! Total count: 152944
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -30527,6 +30527,7 @@ bing.com###id_mobile
 bing.com,cn.bing.net###b_results > li:-abp-has(.b_adProvider)
 bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
+bing.com,cn.bing.net##.b_algo:has(.algoSlug_icon)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.pa_sb
@@ -54942,6 +54943,7 @@ zyro.com##.zyro-cookies
 ||at.360.audion.fm^
 ||at.atwola.com^
 ||at.badische-zeitung.de^
+||at.cbsi.com/lib/api/client-info
 ||at.cbsi.com^*/event?
 ||at.db-finanzberatung.de^
 ||at.deutsche-bank.de^
