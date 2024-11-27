@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-11-27 09:37:12（北京时间） 
-! Total count: 153065
+! Version: 2024-11-27 20:30:38（北京时间） 
+! Total count: 153071
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17095,6 +17095,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cknotiz.js
 /ckpl-webc.min.js
 /clear.gif?
+/click-tracking.js
 /click.*/q/*$image
 /click.em.nike.com/*$image
 /click.email.$image
@@ -20046,6 +20047,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-useronline/useronline.js
 /wp_stat.php?
 /wpengine-analytics/js/main.js
+/wpr-beacon.js
+/wpr-beacon.min.js
 /wps-visitor-counter/styles/js/custom.js
 /wpstatistics/v1/hit?
 /wrapper/metrics/v1/custom-metrics?
@@ -59333,6 +59336,7 @@ zyro.com##.zyro-cookies
 ||brfiles.com^
 ||brfree2move.eccocar.com^
 ||brfvyrrp.com^
+||brg0.com^
 ||brgoazen.eccocar.com^
 ||brgroupeollandini.eccocar.com^
 ||brgrwd.dansko.com^
@@ -72092,6 +72096,7 @@ zyro.com##.zyro-cookies
 ||dsxdn.com^
 ||dsxgg.com^
 ||dsxwcas.com^
+||dt-tracker.mamikos.com^
 ||dt.xfyun.cn^
 ||dt.zxzhengxin.com^
 ||dt00.net^
@@ -96832,6 +96837,7 @@ zyro.com##.zyro-cookies
 ||lucanet.actonservice.com^
 ||lucentfreer.com^
 ||lucid.mjhassoc.com^
+||lucida.su/api/event
 ||lucidcommerce.com^
 ||lucidel.com^
 ||lucidel.com^$third-party
