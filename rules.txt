@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-01 20:35:56（北京时间） 
-! Total count: 151975
+! Version: 2024-12-02 09:15:00（北京时间） 
+! Total count: 151978
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28471,6 +28471,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 80.lv###__next > div:last-child:not(:only-child)
 88nightmarket.com##.cookies
 8x8.vc###success > div > div:last-child
+90mh.org##[style$='background-size: 393px 125px !important;']
 911tabs.com##body > div:not([id]):not([class])
 91porn.com#@#.vjs-preroll
 91porny.com###playerJsvLayer.jsv-layer
@@ -28845,6 +28846,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||docs.google.com/*/viewdata$~third-party
 @@||docs.w3cub.com^$generichide
+@@||download.falco.org^
 @@||download.megaup.net/openads.js$script,~third-party
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
@@ -58622,7 +58624,6 @@ zyro.com##.zyro-cookies
 ||book.londonsoundacademy.com^
 ||bookadil.com^
 ||bookbannershop.com^
-||bookbk.img.zhangyue01.com^
 ||bookedbonce.top^
 ||bookeryboutre.com^
 ||booking.com/87sduif98q3rijax
@@ -82816,6 +82817,7 @@ zyro.com##.zyro-cookies
 ||h1.wk2.com^
 ||h10.hxsame.hexun.com^
 ||h12-media.com^
+||h1v3fa.com^
 ||h2.18sd.cn^
 ||h2.msn.com^
 ||h2.res.icast.cn^
@@ -85049,6 +85051,7 @@ zyro.com##.zyro-cookies
 ||hubspot.com/analytics/
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
 ||hubspot.com/cs/loader-v2.js
+||hubspot.com/img/trackers/
 ||hubspot.com/tracking/
 ||hubspot.com/usage-logging/
 ||hubtraffic.com^
