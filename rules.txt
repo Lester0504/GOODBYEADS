@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-02 20:32:00（北京时间） 
-! Total count: 151978
+! Version: 2024-12-02 20:33:33（北京时间） 
+! Total count: 151982
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16224,6 +16224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .xyz/ty/*-*-*$third-party
 .xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?
+.xyz:*/bug?*=$third-party
 .zalando.com/images/probe.png
 .zippingcare.com/beacon/$image
 /*/*.add.*.add
@@ -70542,6 +70543,7 @@ zyro.com##.zyro-cookies
 ||divvyprorata.com^
 ||divxrj.xyz^
 ||diwuyu.com^
+||diyibanzhu*/js/cdn.js$~third-party
 ||diypxh.tillys.com^
 ||diz4z73aymwyp.cloudfront.net^
 ||dizzyporno.com^
@@ -84530,6 +84532,7 @@ zyro.com##.zyro-cookies
 ||hongi7ie8owiie02.site^
 ||hongi7ie8owiie03.site^
 ||hongmao39.top^
+||hongosi.xn--*.cc$third-party
 ||hongteng.xyz^
 ||hongze.info^
 ||honitonchyazic.com^
@@ -148625,6 +148628,7 @@ zyro.com##.zyro-cookies
 ||xn--gmq238c5fy.com^
 ||xn--gov-x68dy61b.shop^
 ||xn--i6qs37am6iwyqffc.com^
+||xn--jor0b302fdhgwnccw8g.com^
 ||xn--jvrp4x1zyfta.net^
 ||xn--m7r781dz66a.cn^
 ||xn--mts60is5y5uk.com^
