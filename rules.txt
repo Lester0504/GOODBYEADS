@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-04 20:39:19（北京时间） 
-! Total count: 152283
+! Version: 2024-12-05 09:14:13（北京时间） 
+! Total count: 152281
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16053,6 +16053,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .consent-$domain=pcgames.de
 .content_tracking.js
 .cookiehub.eu
+.crsend.com/stats/$image
 .ct.sendgrid.net/$image
 .cyou/redbaiduct.com
 .cyou/xling_*_$third-party
@@ -28396,7 +28397,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 24tv.ua##.private-policy
 24video.xxx##.adt
 24zdrave.bg###cookies
-27.0.0.1 max.adsame.com
 2ask.de###cadvise_bar
 2captcha.com##.app-level-notifications__item_cookies-policy
 2fast4buds.com##.popup_secure
@@ -30533,10 +30533,8 @@ binck.fr##body > iframe
 bing.com###TopApp
 bing.com###bnp_cookie_banner[aria-modal="false"], #bnp_ttc_div, #thp_notf_div, .b_hide.bnp_ttc, #t_termsInfo
 bing.com###id_mobile
-bing.com,cn.bing.net###b_results > li:-abp-has(.b_adProvider)
 bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
-bing.com,cn.bing.net##.b_algo:has(.algoSlug_icon)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.pa_sb
@@ -30544,7 +30542,6 @@ bing.com,cn.bing.net##DIV#bnp_container
 bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
-bing.com,cn.bing.net##li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 bio-rad.com###overlay-shadow
 biodiv.be###disclaimer
 biogo.pl###cookie
@@ -37959,6 +37956,7 @@ sogou.com###right
 sogou.com###vl
 sogou.com##.ad_result
 sogou.com##.erwm-box
+sogou.com##DIV.banner-container
 sohu.com###bottomBanner[data-spm='b-mb'][data-spm-stop='init']
 sohu.com###middleBanner[data-spm='a-mb'][data-spm-stop='init']
 sohu.com###recommendSearch
