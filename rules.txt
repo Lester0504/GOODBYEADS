@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-05 09:17:09（北京时间） 
-! Total count: 152282
+! Version: 2024-12-05 09:38:50（北京时间） 
+! Total count: 152281
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -30535,7 +30535,6 @@ bing.com###bnp_cookie_banner[aria-modal="false"], #bnp_ttc_div, #thp_notf_div, .
 bing.com###id_mobile
 bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
-bing.com,cn.bing.net##.b_algo:has(.b_lineclamp2.b_algoSlug)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.pa_sb
@@ -36138,7 +36137,6 @@ nytco.com##.a-cookie
 nytimes.com###dock-container[data-testid*="gdpr"]
 nyulcipobolt.hu##.cookie-container, .cookie-button
 nyx-arch.ch###ab-pop-up
-o-ad.sm.cn
 o2family.cz###o2fCookieConsentDialog
 o2online.es##.cookies
 oase-teichbau.de##div[x-data*="app.components.cookieConsent"]
@@ -37958,6 +37956,7 @@ sogou.com###right
 sogou.com###vl
 sogou.com##.ad_result
 sogou.com##.erwm-box
+sogou.com##DIV.banner-container
 sohu.com###bottomBanner[data-spm='b-mb'][data-spm-stop='init']
 sohu.com###middleBanner[data-spm='a-mb'][data-spm-stop='init']
 sohu.com###recommendSearch
