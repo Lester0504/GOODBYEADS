@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-07 20:35:44（北京时间） 
-! Total count: 152356
+! Version: 2024-12-08 09:19:05（北京时间） 
+! Total count: 152358
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -31234,7 +31234,6 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
-cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -32613,7 +32612,6 @@ filman.cc###cookies
 filmelier.com##.lgpd
 filmfront.no##.pvern
 filminstitutet.se##.info-banner
-filmix.fm,filmix.date,filmix.life,filmix.pub,filmix.tech,filmix.zone##.remove-sda-wrap
 filmmakers.de##.Aligner
 filmnow.ro###gpdr, #GPDR, #gdpr, #GDPR
 filmon.com###design-switcher
@@ -35074,6 +35072,8 @@ m.you.163.com##.modal
 m.you.163.com##.w-button
 m.zhanqi.tv##.h5-foot-area
 m.zhanqi.tv##.topbarOpenApp.btn-1
+m.zol.com.cn##.app-open
+m.zol.com.cn##.zolapp-download.flex-box
 m4sport.hu###cookie
 ma-calculatrice.fr###manger-des-minis-gateaux
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
@@ -56970,6 +56970,7 @@ zyro.com##.zyro-cookies
 ||beaconads.com^
 ||beaconcdn.qq.com^
 ||beaconhealthsystem.hrm.healthgrades.com^
+||beacons.digital.disneyadvertising.com^
 ||beacons.mediamelon.com^
 ||beaconstreetservices.com^
 ||beaconstreetservices.com^$third-party
@@ -138080,6 +138081,7 @@ zyro.com##.zyro-cookies
 ||tracker.cauly.co.kr^
 ||tracker.cdnbye.com^
 ||tracker.comagic.ru^
+||tracker.curama.jp^
 ||tracker.decomworld.com^
 ||tracker.digitalcamp.co.kr^
 ||tracker.downdetector.com^
