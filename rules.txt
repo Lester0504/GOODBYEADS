@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-11 20:39:37（北京时间） 
-! Total count: 152649
+! Version: 2024-12-12 09:13:40（北京时间） 
+! Total count: 152645
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19908,7 +19908,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /web-data-ingress?
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
-/web-vitals.
 /web/components/cookie-consent/*
 /web/components/cookieconsent/*
 /web/components/cookieusage
@@ -29224,7 +29223,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||qpython.club^$generichide
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
-@@||quickmath.com/js/r/web-vitals.js$script,~third-party
 @@||rackcdn.com/stf.js$script,domain=20min.ch
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
@@ -29308,7 +29306,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||speedcurve.com/js/lux.js$script,domain=tv8.it
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||spoc.sydtrafik.dk/CherwellPortal/dist/app/common/analytics/Analytics.js$~third-party
-@@||sport.virgilio.it/js/web-vitals-evnt.25/web-vitals.attribution.js$script,domain=sport.virgilio.it
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
@@ -29365,7 +29362,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
-@@||tecnologia.libero.it/js/dist.1/web-vitals.attribution.js$script,domain=tecnologia.libero.it
 @@||telemetry.stytch.com/submit$domain=play.pixels.xyz
 @@||tennispro.eu/min/?$script,~third-party
 @@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
@@ -29428,7 +29424,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||universfreebox.com/js/advertisement.js
 @@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
-@@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 @@||usageapi.*.oraclecloud.com^
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
@@ -29444,7 +29439,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||wan.douyu.com^
 @@||wargag.ru/public/js/counter.js?
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
-@@||web.dev/patterns/web-vitals-$~third-party
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||wechat.ishare.iask.com.cn^
@@ -110282,6 +110276,7 @@ zyro.com##.zyro-cookies
 ||pageview.click^
 ||pageview.click^$third-party
 ||pageview.kgsz.cn^
+||pageviews.tray.com.br^
 ||paginaseloqua.unisabana.edu.co^
 ||paginebianche.it/cgi-bin/jbimpres.cgi?
 ||paginebianche.it/ip?dv=
@@ -135777,6 +135772,7 @@ zyro.com##.zyro-cookies
 ||tiktok.com/v1/list
 ||tiktok.com/web/report?
 ||tiktok.com/whale/
+||tiktok.tray.com.br^
 ||tiktokv.com/monitor_browser/
 ||tiktokv.com/web/report?
 ||tiktokv.us/monitor_browser/
