@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-15 09:44:06（北京时间） 
-! Total count: 152730
+! Version: 2024-12-15 20:28:21（北京时间） 
+! Total count: 152732
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28484,6 +28484,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 99airdrops.com##.legal-notice
 9bis.net##body > div[style*="width"]
 9maand.be##.flashup
+://*mp4*/js/wcount.js$~third-party
 ://2ip.*/member_photo/$third-party
 ://a02342.
 ://a869.$~image
@@ -30254,6 +30255,7 @@ baidu.com##.ec-ad
 baidu.com##.ec-result-inner
 baidu.com##.ec_ad_results
 baidu.com##.ec_wise_ad
+baidu.com##.page-head-queryarea
 baidu.com##.rel-exp-feed-ad-item
 baidu.com##.se-recommend-word-list,#se-recommend-word-list-container
 baidu.com##.square-banner-bgicon.index-banner
@@ -30507,7 +30509,6 @@ bilibili.com##.bili-app
 bilibili.com##.bili-app-link-container
 bilibili.com##.btn-ctnr
 bilibili.com##.clearfix.h5-download-bar
-bilibili.com##.container.is-version8 > .feed-card:has(>div:only-child), .container.is-version8 > .bili-video-card:has(>div:only-child)
 bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
 bilibili.com##.float-btn:contains(打开App)
@@ -63346,7 +63347,6 @@ zyro.com##.zyro-cookies
 ||cm.api.baifendian.com^
 ||cm.baichuan.baidu.com^
 ||cm.baidu.com^
-||cm.bilibili.com^
 ||cm.cn.miaozhen.com^
 ||cm.ctnsnet.com^
 ||cm.dmp.360.cn^
@@ -75580,6 +75580,7 @@ zyro.com##.zyro-cookies
 ||espionagegardenerthicket.com^
 ||espionageomissionrobe.com^
 ||espn-ak.starwave.com^
+||esports-world.jp/js/banner.event.js
 ||espressoroom.openapp.link^
 ||esptj.com^
 ||esputnik.com^
@@ -83678,7 +83679,7 @@ zyro.com##.zyro-cookies
 ||hdqrswhipped.top^
 ||hdsiygrmtghotj.com^
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$empty
-||hdslb.com/bfs/sycp/creative_img/$image
+||hdslb.com/bfs/cm/cm-sdk/static/js/pc.js^$script
 ||hdsrc-a.akamaihd.net^
 ||hdswgc.com^
 ||hdt.adx.admaster.com.cn^
@@ -83799,6 +83800,7 @@ zyro.com##.zyro-cookies
 ||heavyuniversecandy.com^
 ||hebenonwidegab.top^
 ||hebiichigo.com^
+||hebiichigo.com^$third-party
 ||hebstsmgs.com^
 ||hechaocheng.cn^
 ||hectorfeminine.com^
