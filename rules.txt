@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-17 09:38:04（北京时间） 
-! Total count: 152841
+! Version: 2024-12-17 20:31:12（北京时间） 
+! Total count: 152837
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -30202,15 +30202,10 @@ axisbank.com###HomePageStrip
 axminstertools.com##.axmcookie-notice-container, .axmcookie-notice-conatiner
 axo-actifs.fr###cookies_frame
 axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:dashed .5px']
-axutongxue.com##A[href^='https://marscode.cn/']
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
 axutongxue.com##DIV[style='text-align:center']
-axutongxue.com##li:has(A[href='https://mp.weixin.qq.com/s/ZARDTFAmy2mM7ExgcXOl-w'])
-axutongxue.com##li:has(A[href^='https://axu.simhaoka.com/phone/index'])
-axutongxue.com##li:has(A[href^='https://flowus.cn/share/f35316bd-0af5-490a-a755-ff3538e868f3'])
-axutongxue.com##li:has(A[href^='https://ibiling.cn/paper'])
-axutongxue.com##li:has(A[href^='https://marscode.cn/'])
+axutongxue.com##a[href^="https://axu.simhaoka.com/phone/index?id=B956B2050EAA74084CC3FE6EF37C57CF"],img[src^="https://wework.qpic.cn/wwpic3az/846587_PMCu545RQwifXal_1712199121"],img[src^="https://wework.qpic.cn/wwpic3az/600855_1TyhIR25RbqC90L_1725602260/0"],img[src^="http://cbu01.alicdn.com"],a[href^="https://ibiling.cn/paper?from=axpaper"],a[href^="https://flowus.cn/share/f35316bd-0af5-490a-a755-ff3538e868f3?code=CZ3ECT"],a[href^="https://marscode.cn/?utm_source=axutongxue.com&utm_medium=xycpa&utm_campaign="],a[href="https://mp.weixin.qq.com/s/ZARDTFAmy2mM7ExgcXOl-w"]
 axway.com##div[id*="cookiePolicyWarning"]
 azartgaming6u.com##.sidebar-cookie
 aze.com.pl###cookie
@@ -52878,7 +52873,7 @@ zyro.com##.zyro-cookies
 ||api.baomoi.com^
 ||api.baomoi.com^$image
 ||api.bayimob.com^
-||api.bilibili.com/x/web-show/res/loc?pf=$~script
+||api.bilibili.com/x/web-show/res/locs?$~script
 ||api.bit.ly/*/clicks?$third-party
 ||api.bitp.it^
 ||api.blink.net/a/
@@ -122664,6 +122659,7 @@ zyro.com##.zyro-cookies
 ||service.hollandcasino.nl^
 ||service.jiagu.360.cn^
 ||service.just.nl^
+||service.techzine.eu^
 ||service.trustpid.com^
 ||service.vmos.cn^
 ||service.vrp.com^
