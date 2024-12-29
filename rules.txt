@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-28 20:33:19（北京时间） 
-! Total count: 151801
+! Version: 2024-12-29 09:13:59（北京时间） 
+! Total count: 151809
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15587,6 +15587,7 @@
 ##body > .wrapper > .cookie[style*="bottom"]
 ##body > .xcb[style*="fixed"]
 ##body > A[ontouchstart='this.click();'][href]
+##body > DIV.ad3
 ##body > DIV[class][style='top: 132px;']
 ##body > DIV[class][style='top: 133px;']
 ##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
@@ -16077,6 +16078,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .facebook.com/tr/$image
 .facebook.com/tr?$image
 .flipboard.com/usage?
+.fun/*.jss?17*&r=0$third-party
+.fun/*/17*/*.css?r=0$third-party
 .gatracking.js
 .getblueshift.com/q/
 .getsendmail.com/p/$image
@@ -16191,6 +16194,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .titus.de/oo/$image
 .top/*/*.js?ts=$third-party
 .top/*/2022*/.js$third-party
+.top/*_*_vw*sbjs?$third-party
 .top/*q=*form=*&*url=http*$third-party
 .top/?token=$third-party
 .top/gluinfo.php?s=$third-party
@@ -36391,7 +36395,6 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
-ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -77102,6 +77105,7 @@ zyro.com##.zyro-cookies
 ||fernomius.com^$third-party
 ||fernwaycloud.com^
 ||feroffer.com^
+||feross.org/views
 ||ferriesendless.com^
 ||ferrycontinually.com^
 ||fertilefeeling.com^
@@ -129917,6 +129921,7 @@ zyro.com##.zyro-cookies
 ||stats.brumtechtapas.co.uk^
 ||stats.buddiy.net^
 ||stats.bungeefit.co.uk^
+||stats.bunkr.ru^
 ||stats.burocratin.com^
 ||stats.buysellads.com^
 ||stats.byma.com.br^
@@ -138353,6 +138358,7 @@ zyro.com##.zyro-cookies
 ||tracking.umbrella.com^
 ||tracking.umms.org^
 ||tracking.unisabana.edu.co^
+||tracking.univtec.com^
 ||tracking.unrealengine.com^
 ||tracking.usj.es^
 ||tracking.utas.edu.au^
@@ -139014,6 +139020,7 @@ zyro.com##.zyro-cookies
 ||triumphalstrandedpancake.com^
 ||triumphantplace.com^
 ||trivago.com/tracking/
+||trjfoagf.icu^
 ||trjs.mediafin.be/loader/trmfn-loader.js
 ||trjs2.mediafin.be^
 ||trjwraxkfkm.com^
@@ -148991,6 +148998,7 @@ zyro.com##.zyro-cookies
 ||yandex.eu/clck/
 ||yandex.fr/clck/click
 ||yandex.net/expjs/latest/exp.js
+||yandex.ru/an/rtbcount/
 ||yandex.ru/clck/
 ||yandex.ru/click/
 ||yandex.ru/cycounter?
