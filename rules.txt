@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-29 20:33:01（北京时间） 
-! Total count: 151833
+! Version: 2024-12-30 09:10:01（北京时间） 
+! Total count: 151834
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -20409,7 +20409,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 035portal.hr##.privatnost
 06gids.nl##.ilikecookies
 0800repair.com###wp-notification
-1 pagead2.googleadservices.com
 10-4.dk##.cookie
 1000dokumente.de###bscookie
 10015.io##main > section ~ div:last-child
@@ -28805,6 +28804,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com|twgtea.com
+@@||cloudflare.com/cdn-cgi/trace$domain=net.ljxnet.cn
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudfront.net/libs/amplitude-$script,domain=elconfidencial.com
@@ -28905,7 +28905,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||f-gear.ec-optimizer.com/img/spacer.gif$image,domain=ec.f-gear.co.jp
 @@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp
 @@||f-gear.ec-optimizer.com/speights/searchresult2fgear.js$script,domain=ec.f-gear.co.jp
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov
 @@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
 @@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
@@ -144622,6 +144622,7 @@ zyro.com##.zyro-cookies
 ||web.tv/analytics/
 ||web.ulta.com^
 ||web.usautosupply.com^
+||web.valiuz.com^*/tag.js
 ||web.vonazon.com^
 ||web.wearejust.co.uk^
 ||web.web.tomasiauto.com^
