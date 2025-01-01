@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2024-12-31 20:34:55（北京时间） 
-! Total count: 151836
+! Version: 2025-01-01 09:13:36（北京时间） 
+! Total count: 151481
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28508,7 +28508,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://beacon.*/track
 ://blue.*/script.js
 ://cl.melonbooks.co.jp/c/$image
-://click.revolut.com/q/$image
 ://client.rum.
 ://cmpworker.
 ://collect.*/pageview
@@ -28834,6 +28833,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 @@||cqcounter.com^$domain=cqcounter.com
+@@||cqshuda.com/template/conch/asset/js/conch.vip.js
 @@||creditas.cz/cb/public/assets/SmartTag-$script,~third-party
 @@||crimemapping.com/cdn/*/analytics/eventtracking.js$~third-party
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
@@ -40287,7 +40287,6 @@ zyro.com##.zyro-cookies
 ||000123456789.online^
 ||000123456789.site^
 ||000dn.com^
-||000scripps.hb.omtrdc.net^
 ||0013.cc^
 ||001union.com^
 ||0024aadd.com^
@@ -47040,17 +47039,13 @@ zyro.com##.zyro-cookies
 ||ab93t2kc.de^
 ||aba.ae^
 ||abackafterthought.com^
-||abackafterthought.com^$third-party
 ||abackchain.com^
-||abackchain.com^$third-party
 ||abacksoda.com^
-||abacksoda.com^$third-party
 ||abadis.ir/ajaxcmd/setvisit/
 ||abadit5rckb.com^
 ||abalado.com^
 ||abamatoyer.com^
 ||abandonedaction.com^
-||abandonedaction.com^$third-party
 ||abange.com^
 ||abaolokvmmvlv.top^
 ||abaolokvmmwrb.top^
@@ -47133,6 +47128,7 @@ zyro.com##.zyro-cookies
 ||abhorcarious.com^
 ||abiderestless.com^
 ||abilityscale.com^
+||abilityscale.com^$third-party
 ||abixkw.xyz^
 ||abjalrq.cn^
 ||abjectattempt.com^
@@ -47338,10 +47334,8 @@ zyro.com##.zyro-cookies
 ||aboardamusement.com^
 ||aboardamusement.com^$third-party
 ||aboardfork.com^
-||aboardfork.com^$third-party
 ||aboardhotdog.com^
 ||aboardkettle.com^
-||aboardkettle.com^$third-party
 ||aboardlevel.com^
 ||aboardlevel.com^$third-party
 ||aboardstepbugs.com^
@@ -47350,7 +47344,6 @@ zyro.com##.zyro-cookies
 ||abolid.com^
 ||abonnementpermissiveenliven.com^
 ||aboriginalboats.com^
-||aboriginalboats.com^$third-party
 ||aboriginesprimary.com^
 ||aboundplausibleeloquent.com^
 ||about.me/track?
@@ -47359,6 +47352,7 @@ zyro.com##.zyro-cookies
 ||abouttill.com^
 ||aboveboardstunning.com^
 ||abovechat.com^
+||abovechat.com^$third-party
 ||abovede6.com^
 ||aboveredirect.top^
 ||aboverlangerung.com^
@@ -47389,12 +47383,12 @@ zyro.com##.zyro-cookies
 ||absalomcsa.com^
 ||absenceoverload.com^
 ||absentairport.com^
+||absentairport.com^$third-party
 ||absentcleannewspapers.com^
 ||absentlybiddingleopard.com^
 ||absentlygratefulcamomile.com^
 ||absentmissingaccept.com^
 ||absentstream.com^
-||absentstream.com^$third-party
 ||abservinean.com^
 ||absinfo.eagle.org^
 ||abskursin.com^
@@ -47412,7 +47406,6 @@ zyro.com##.zyro-cookies
 ||absorbingband.com^
 ||absorbingband.com^$third-party
 ||absorbingcorn.com^
-||absorbingcorn.com^$third-party
 ||absorbinginject.com^
 ||absorbingprison.com^
 ||absorbingprison.com^$third-party
@@ -47428,7 +47421,6 @@ zyro.com##.zyro-cookies
 ||absurdapple.com^$third-party
 ||absurdunite.com^
 ||absurdwater.com^
-||absurdwater.com^$third-party
 ||abt.bauhaus.es^
 ||abt.bauhaus.info^
 ||abt.nike.com^
@@ -47448,6 +47440,7 @@ zyro.com##.zyro-cookies
 ||abuajs.e-monsite.com^
 ||abucki.xyz^
 ||abundantcoin.com^
+||abundantcoin.com^$third-party
 ||abusedbabysitters.com^
 ||abusiveserving.com^
 ||abvghl.udn.com^
@@ -47517,7 +47510,6 @@ zyro.com##.zyro-cookies
 ||accenturetest.epoise.com^
 ||acceptablearablezoological.com^
 ||acceptableauthority.com^
-||acceptableauthority.com^$third-party
 ||acceptablebleat.com^
 ||acceptablereality.com^
 ||acceptcards.americanexpress.co.uk^
@@ -47570,13 +47562,16 @@ zyro.com##.zyro-cookies
 ||accounting.frbservices.org^
 ||accountresponsesergeant.com^
 ||accountsdoor.com^
+||accountsdoor.com^$third-party
 ||accountswindy.com^
 ||accruefierceheartache.com^
 ||accscdn.m.taobao.com^
 ||accumula.actonservice.com^
 ||accuracyswede.com^
 ||accurateanimal.com^
+||accurateanimal.com^$third-party
 ||accuratecoal.com^
+||accuratecoal.com^$third-party
 ||accuride.actonservice.com^
 ||accusedstone.com^
 ||accuserannouncementadulthood.com^
@@ -47638,6 +47633,7 @@ zyro.com##.zyro-cookies
 ||achycompassionate.com^
 ||acidicresist.pro^
 ||acidicstraw.com^
+||acidicstraw.com^$third-party
 ||acidpigs.com^
 ||acidpigs.com^$third-party
 ||acinaredibles.com^
@@ -47692,6 +47688,7 @@ zyro.com##.zyro-cookies
 ||acquisition.klm.com^
 ||acrelicenseblown.com^
 ||acridangle.com^
+||acridangle.com^$third-party
 ||acridbloatparticularly.com^
 ||acridtaxiworking.com^
 ||acridtwist.com^
@@ -48376,6 +48373,7 @@ zyro.com##.zyro-cookies
 ||addfreestats.com^
 ||addfreestats.com^$third-party
 ||addictedattention.com^
+||addictedattention.com^$third-party
 ||addictedwonder.com^
 ||addictionmulegoodness.com^
 ||addin.icu^
@@ -48385,7 +48383,6 @@ zyro.com##.zyro-cookies
 ||additionalbasketdislike.com^
 ||additionalcasualcabinet.com^
 ||additionalmedia.com^
-||additionant.com^$third-party
 ||additionmagical.com^
 ||additionssurvivor.com^
 ||addizhi.top^
@@ -49838,7 +49835,6 @@ zyro.com##.zyro-cookies
 ||adversespurt.com^
 ||adversesuffering.com^
 ||advert.mting.info^
-||advertisementafterthought.com^$third-party
 ||advertisertape.com/stat/
 ||advertising-api-eu.amazon.com^
 ||advertising.apple.com^
@@ -50296,9 +50292,7 @@ zyro.com##.zyro-cookies
 ||afreetsat.com^
 ||afrfmyzaka.com^
 ||africa.edm.globalsources.com^
-||africa.promo.skf.com^
 ||africaewgrhdtb.com^
-||africafr.promo.skf.com^
 ||africawin.com^
 ||afrikad.com^
 ||afront.io^
@@ -50400,10 +50394,12 @@ zyro.com##.zyro-cookies
 ||agile-enterprise-365.com^
 ||agile365enterprise.com^
 ||agilebreeze.com^
+||agilebreeze.com^$third-party
 ||agilecrm.com^
 ||agilecrm.com^$third-party
 ||agiledata7.com^
 ||agileformer.com^
+||agileformer.com^$third-party
 ||agilesrv.com^
 ||agilesrv.com^$third-party
 ||agillic.eu^
@@ -50444,9 +50440,9 @@ zyro.com##.zyro-cookies
 ||agrarianbrowse.com^
 ||agraustuvoamico.xyz^
 ||agreeablearch.com^
+||agreeablearch.com^$third-party
 ||agreeableopinion.pro^
 ||agreeablestew.com^
-||agreeablestew.com^$third-party
 ||agreeabletouch.com^
 ||agreeabletouch.com^$third-party
 ||agreedairdalton.com^
@@ -50541,7 +50537,6 @@ zyro.com##.zyro-cookies
 ||ai.m.taobao.com^
 ||ai.mist.com^
 ||ai.net.anwalt.de^
-||ai.promo.skf.com^
 ||ai.taobao.com^
 ||ai.thermo.com^
 ||ai.thermofisher.com^
@@ -50742,7 +50737,6 @@ zyro.com##.zyro-cookies
 ||ajapk.com^
 ||ajar-substance.com^
 ||ajaralarm.com^
-||ajaralarm.com^$third-party
 ||ajbeqy.delfi.lt^
 ||ajbpcxi.xyz^
 ||ajcode.co^
@@ -50921,9 +50915,7 @@ zyro.com##.zyro-cookies
 ||aleroninc.actonservice.com^
 ||alert.autohome.com.cn^
 ||alertafterthought.com^
-||alertafterthought.com^$third-party
 ||alertarithmetic.com^
-||alertarithmetic.com^$third-party
 ||alertlogsemployer.com^
 ||alertme.news^
 ||alertme.news^$third-party
@@ -50984,6 +50976,7 @@ zyro.com##.zyro-cookies
 ||aliapp.org^
 ||alias.cloud-marketing.dimensiondata.com^
 ||aliasanvil.com^
+||aliasanvil.com^$third-party
 ||aliasdmc.fr/js/general_sts.js
 ||aliasesargueinsensitive.com^
 ||aliasfoot.com^
@@ -51018,7 +51011,6 @@ zyro.com##.zyro-cookies
 ||alikeaddition.com^
 ||alikeaddition.com^$third-party
 ||alikearm.com^
-||alikearm.com^$third-party
 ||alimama.alicdn.com^
 ||alimama.cn/inf.js
 ||alimama.cn^
@@ -51091,8 +51083,8 @@ zyro.com##.zyro-cookies
 ||allevents.in/actracker/
 ||alleviatepracticableaddicted.com^
 ||alleyskin.com^
-||alleyskin.com^$third-party
 ||alleythecat.com^
+||alleythecat.com^$third-party
 ||allfb8dremsiw09oiabhboolsebt29jhe3setn.com^
 ||allfontshere.press^
 ||allfreecounter.com^
@@ -51134,7 +51126,6 @@ zyro.com##.zyro-cookies
 ||allowflannelmob.com^
 ||allowingjustifypredestine.com^
 ||allowmailbox.com^
-||allowmailbox.com^$third-party
 ||allowsmelodramaticswindle.com^
 ||alloydigital.com^
 ||allpass.salemwebnetwork.com^
@@ -51282,6 +51273,7 @@ zyro.com##.zyro-cookies
 ||alumni.qualfon.com^
 ||alvenda.com^
 ||alvenda.com^$third-party
+||alwaysahorse.com^$third-party
 ||alwayscare.starmountlife.com^
 ||alwayscarebenefits.actonservice.com^
 ||alwaysdomain01.online^
@@ -51345,7 +51337,6 @@ zyro.com##.zyro-cookies
 ||amavalet.com^$third-party
 ||amazinelistrun.pro^
 ||amazingairplane.com^
-||amazingairplane.com^$third-party
 ||amazingcounters.com^
 ||amazingcounters.com^$third-party
 ||amazon-adsystem.com^
@@ -51389,13 +51380,14 @@ zyro.com##.zyro-cookies
 ||ambercrow.com^
 ||ambercrow.com^$third-party
 ||ambientdusk.com^
+||ambientdusk.com^$third-party
 ||ambientlagoon.com^
+||ambientlagoon.com^$third-party
 ||ambientplatform.vn^
 ||ambiguitypalm.com^
 ||ambiguousafternoon.com^
 ||ambiguousafternoon.com^$third-party
 ||ambiguousalarm.com^
-||ambiguousalarm.com^$third-party
 ||ambiguousanger.com^
 ||ambiguousanger.com^$third-party
 ||ambiguousdinosaurs.com^
@@ -51403,11 +51395,8 @@ zyro.com##.zyro-cookies
 ||ambiguousincome.com^
 ||ambiguousincome.com^$third-party
 ||ambiguousquilt.com^
-||ambiguousquilt.com^$third-party
 ||ambiliarcarwin.com^
 ||ambitiousagreement.com^
-||ambitiousagreement.com^$third-party
-||ambitiousanimal.com^$third-party
 ||ambitiousdivorcemummy.com^
 ||ambolicrighto.com^
 ||ambra.com^
@@ -51514,7 +51503,6 @@ zyro.com##.zyro-cookies
 ||amp.vg^
 ||amp.vg^$third-party
 ||ampcr.io^
-||amplify.outbrain.com^$third-party
 ||amplifypixel.outbrain.com^
 ||amplitude.chess.com^
 ||amplitude.com^
@@ -51553,9 +51541,9 @@ zyro.com##.zyro-cookies
 ||amunx.de^$third-party
 ||amused-ground.com^
 ||amusedbucket.com^
+||amusedbucket.com^$third-party
 ||amusementchillyforce.com^
 ||amusementmorning.com^
-||amusementmorning.com^$third-party
 ||amusementrehearseevil.com^
 ||amusementstepfatherpretence.com^
 ||amvecurt.cn^
@@ -51603,6 +51591,7 @@ zyro.com##.zyro-cookies
 ||analoganalytics.com^
 ||analoganalytics.com^$third-party
 ||analogwonder.com^
+||analogwonder.com^$third-party
 ||analogydid.com^
 ||analy.qq.com^
 ||analy.tuniu.cn^
@@ -52265,6 +52254,7 @@ zyro.com##.zyro-cookies
 ||analyticswizard.com^$third-party
 ||analyze.lemurbrowser.com^
 ||analyzecorona.com^
+||analyzecorona.com^$third-party
 ||analyzee.io^
 ||analyzee.io^$third-party
 ||analyzer*.fc2.com^
@@ -52410,10 +52400,10 @@ zyro.com##.zyro-cookies
 ||annoyedairport.com^
 ||annoyedairport.com^$third-party
 ||annoyedfifth.com^
-||annoyedfifth.com^$third-party
 ||annoyingacoustics.com^
 ||annoyingacoustics.com^$third-party
 ||annoyingclover.com^
+||annoyingclover.com^$third-party
 ||annoynoveltyeel.com^
 ||annulivill.click^
 ||annulmentequitycereals.com^
@@ -53186,7 +53176,6 @@ zyro.com##.zyro-cookies
 ||app.charlotte49ers.com^
 ||app.chartwayarena.com^
 ||app.chat.global.xiaomi.net.iberostar.com^
-||app.chat.xiaomi.net^
 ||app.chat.xiaomi.net^$third-party
 ||app.cimarketing.aig.com^
 ||app.cincinnatiarts.org^
@@ -53909,7 +53898,6 @@ zyro.com##.zyro-cookies
 ||appanalysis.banggood.com^
 ||apparatusditchtulip.com^
 ||apparatuslip.com^
-||apparatuslip.com^$third-party
 ||apparelbrandsabotage.com^
 ||apparound.actonservice.com^
 ||appboy.com^
@@ -54088,7 +54076,6 @@ zyro.com##.zyro-cookies
 ||appraisalaffable.com^
 ||appredirect.snapdeal.com^
 ||apprefaculty.pro^
-||apprhs.hrm.healthgrades.com^
 ||approach.wise1-golf.com^
 ||approachconducted.com^
 ||approbationoutwardconstrue.com^
@@ -54237,7 +54224,6 @@ zyro.com##.zyro-cookies
 ||aqua-adserver.com^
 ||aquafusion.com.co^
 ||aquaticalarm.com^
-||aquaticalarm.com^$third-party
 ||aquaticanswer.com^
 ||aquaticowl.com^
 ||aquaticowl.com^$third-party
@@ -54254,7 +54240,6 @@ zyro.com##.zyro-cookies
 ||ar.fuxunb.com^
 ||ar.i-run.fr^
 ||ar.interiordefine.com^
-||ar.promo.skf.com^
 ||ar.quadient.com^
 ||ar.umeng.com^
 ||ar1.aza.io^
@@ -54304,7 +54289,6 @@ zyro.com##.zyro-cookies
 ||arcpublishing.com/beacon
 ||arcteryx.com/943r4Fb8/init.js
 ||arcticamber.com^
-||arcticamber.com^$third-party
 ||ard.yahoo.co.jp^
 ||ardalio.com^
 ||ardalio.com^$third-party
@@ -54343,7 +54327,6 @@ zyro.com##.zyro-cookies
 ||argumentsmaymadly.com^
 ||argyleforum.actonservice.com^
 ||argyresthia.com^
-||argyresthia.com^$third-party
 ||arhnuin.xyz^
 ||aria.inhaabit.com^
 ||ariane.abtasty.com^
@@ -54355,15 +54338,12 @@ zyro.com##.zyro-cookies
 ||arincol.arin-innovation.com^
 ||ariqye.xyz^
 ||ariseboundary.com^
-||ariseboundary.com^$third-party
 ||arisglobal.actonservice.com^
 ||aristianewr.club^
 ||arithmeticadjustment.com^
-||arithmeticadjustment.com^$third-party
 ||arithpouted.com^
 ||arizona-miner.tk^
 ||arizonapuzzle.com^
-||arizonapuzzle.com^$third-party
 ||ark.cocounion.com^
 ||ark.cp21.ott.cibntv.net^
 ||ark.letv.com^
@@ -54429,6 +54409,7 @@ zyro.com##.zyro-cookies
 ||arrivedcanteen.com^
 ||arrivedeuropean.com^
 ||arrivegrowth.com^
+||arrivegrowth.com^$third-party
 ||arrivingallowspollen.com^
 ||arrlnk.com^
 ||arrlrk.edigital.hu^
@@ -54475,6 +54456,7 @@ zyro.com##.zyro-cookies
 ||artsai.com^
 ||artsygas.com^
 ||artthevoid.com^
+||artthevoid.com^$third-party
 ||arttrk.com/pixel/
 ||aruba.it/servlet/counterserver?
 ||aruoyf.peterhahn.ch^
@@ -54698,9 +54680,11 @@ zyro.com##.zyro-cookies
 ||aspignitean.com^
 ||aspirationliable.com^
 ||aspiringapples.com^
+||aspiringapples.com^$third-party
 ||aspiringattempt.com^
 ||aspiringattempt.com^$third-party
 ||aspiringtoy.com^
+||aspiringtoy.com^$third-party
 ||aspservice.jp^
 ||aspservice.jp^$third-party
 ||aspwg.cn^
@@ -54820,8 +54804,8 @@ zyro.com##.zyro-cookies
 ||astoecia.com^
 ||astogepian.com^
 ||astonishingair.com^
-||astonishingair.com^$third-party
 ||astonishingfood.com^
+||astonishingfood.com^$third-party
 ||astonishingpenknifeprofessionally.com^
 ||astonishlandmassnervy.com^
 ||astonishmentfuneral.com^
@@ -54830,6 +54814,7 @@ zyro.com##.zyro-cookies
 ||astral.nicovideo.jp^
 ||astralhustle.com^
 ||astrallullaby.com^
+||astrallullaby.com^$third-party
 ||astrategy.beacon.qq.com^
 ||astro-way.com^
 ||astro-way.com^$third-party
@@ -54970,7 +54955,6 @@ zyro.com##.zyro-cookies
 ||atl-6-ga.com^
 ||atl-b24-link.ip.twelve99.net.iberostar.com^
 ||atlantablackstar.black.news^
-||atlantic-general-hospital.hrm.healthgrades.com^
 ||atlanticlabequipment.actonservice.com^
 ||atlas.leadboltads.net^
 ||atlastravel.actonservice.com^
@@ -55044,6 +55028,7 @@ zyro.com##.zyro-cookies
 ||attend.motorcycleshows.com^
 ||attend.networkxevent.com^
 ||attendchase.com^
+||attendchase.com^$third-party
 ||attendedconnectionunique.com^
 ||attentioniau.com^
 ||attentionsbreastfeeding.com^
@@ -55070,7 +55055,6 @@ zyro.com##.zyro-cookies
 ||attractionbanana.com^$third-party
 ||attractioninvincibleendurance.com^
 ||attractiveafternoon.com^
-||attractiveafternoon.com^$third-party
 ||attractivecap.com^
 ||attractivecap.com^$third-party
 ||attractivesurveys.com^
@@ -55099,7 +55083,6 @@ zyro.com##.zyro-cookies
 ||au-partners.ingrammicro.com^
 ||au.interface.com^
 ||au.mywd.com^
-||au.promo.skf.com^
 ||au.w.inmobi.cn^
 ||au.w.inmobi.com^
 ||au.youmi.net^
@@ -55195,7 +55178,6 @@ zyro.com##.zyro-cookies
 ||augilrunie.net^
 ||augurersoilure.space^
 ||august15download.com^
-||augustahealth.hrm.healthgrades.com^
 ||augustjadespun.com^
 ||augvtjtnsfnxg.ru^
 ||auhdzd.paprika-shopping.de^
@@ -55233,7 +55215,6 @@ zyro.com##.zyro-cookies
 ||aunsaick.com^
 ||aunstollarinets.com^
 ||auntants.com^
-||auntants.com^$third-party
 ||auntieminiature.com^
 ||auntishmilty.com^
 ||auoehd.liebscher-bracht.com^
@@ -55264,7 +55245,6 @@ zyro.com##.zyro-cookies
 ||ausomsup.net^
 ||auspiceguile.com^
 ||auspiciousyard.com^
-||auspiciousyard.com^$third-party
 ||auspipe.com^
 ||aussadroach.net^
 ||austaihauna.com^
@@ -55273,7 +55253,6 @@ zyro.com##.zyro-cookies
 ||austeritylegitimate.com^
 ||austow.com^
 ||australiarevival.com^
-||austria.promo.skf.com^
 ||autchoog.net^
 ||autchopord.net^
 ||auteboon.net^
@@ -55329,10 +55308,10 @@ zyro.com##.zyro-cookies
 ||automateyourlist.com^
 ||automaticallyindecisionalarm.com^
 ||automaticflock.com^
-||automaticflock.com^$third-party
 ||automaticside.com^
 ||automaticside.com^$third-party
 ||automaticturkey.com^
+||automaticturkey.com^$third-party
 ||automation.pemco.com^
 ||automationtest.pemco.com^
 ||automenunct.com^
@@ -55368,6 +55347,7 @@ zyro.com##.zyro-cookies
 ||avads.net^
 ||avai.actonservice.com^
 ||availablerest.com^
+||availablerest.com^$third-party
 ||availablesshaother.com^
 ||availablesyrup.com^
 ||avalancheofnews.com^
@@ -55416,7 +55396,6 @@ zyro.com##.zyro-cookies
 ||averageactivity.com^
 ||averageactivity.com^$third-party
 ||averageamusement.com^
-||averageamusement.com^$third-party
 ||avero.xyz^
 ||averoconnector.com^
 ||averoconnector.com^$third-party
@@ -55482,7 +55461,6 @@ zyro.com##.zyro-cookies
 ||awaitifregularly.com^
 ||awaitingutilize.com^
 ||awakebird.com^
-||awakebird.com^$third-party
 ||awakeclauseunskilled.com^
 ||awakeexterior.com^
 ||awakenedsour.com^
@@ -55858,6 +55836,8 @@ zyro.com##.zyro-cookies
 ||azureedge.net/track
 ||azureedge.net^*/fnix.js
 ||azuremystique.com^
+||azuremystique.com^$third-party
+||azurestealth.com^$third-party
 ||azurewebsites.net/Pixel?
 ||azurewebsites.net/TrackView/
 ||azurewebsites.net/api/views?
@@ -56124,9 +56104,11 @@ zyro.com##.zyro-cookies
 ||badgegirdle.com^
 ||badgeimpliedblind.com^
 ||badgerabbit.com^
+||badgerabbit.com^$third-party
 ||badgerchance.com^
 ||badges.instagram.com^
 ||badgevolcano.com^
+||badgevolcano.com^$third-party
 ||badirectoryz.carte-gr.total.fr^
 ||badjocks.com^
 ||badjs.qq.com^
@@ -56270,6 +56252,7 @@ zyro.com##.zyro-cookies
 ||baitaiad.com^
 ||baitaiz.com^
 ||baitbaseball.com^
+||baitbaseball.com^$third-party
 ||baithoph.net^
 ||baitoru.com/pu/js/2017/adobe_send_tracking.js
 ||baitpros.net^
@@ -56311,20 +56294,19 @@ zyro.com##.zyro-cookies
 ||balldevelopedhangnail.com^
 ||ballisticforgotten.com^
 ||balloonbelieve.com^
+||balloonbelieve.com^$third-party
 ||balloonbit.com^
-||balloonbit.com^$third-party
 ||balloontexture.com^
-||balloontexture.com^$third-party
 ||ballotjavgg124.fun^
 ||ballroomexhibitionmid.com^
 ||ballroomswimmer.com^
 ||ballsbanana.com^
+||ballsbanana.com^$third-party
 ||ballymoregroup.actonservice.com^
 ||balmexhibited.com^
 ||balmoralmkt.com^
 ||baloneyunraked.com^
 ||balphyra.com^
-||baltics.promo.skf.com^
 ||balvalur.com^
 ||bam-bam-slam.com^
 ||bam-x.com^
@@ -56342,6 +56324,7 @@ zyro.com##.zyro-cookies
 ||banalrestart.com^
 ||banana.le.com^
 ||bananabarrel.com^
+||bananabarrel.com^$third-party
 ||banawgaht.com^
 ||bance.jp/bnctag.js
 ||banclip.com^
@@ -56400,7 +56383,6 @@ zyro.com##.zyro-cookies
 ||bannerdealer.com^
 ||bannerflow.com^
 ||bannerflux.com^
-||bannerhealth.hrm.healthgrades.com^
 ||bannerignition.co.za^
 ||bannerrage.com^
 ||banners-cdn77.trafficfactory.biz^
@@ -56435,7 +56417,6 @@ zyro.com##.zyro-cookies
 ||bapa215.top^
 ||bapages.carte-gr.total.fr^
 ||bapdvtk.com^
-||baptisthealth.hrm.healthgrades.com^
 ||baptisttop1000.com^
 ||baptisttop1000.com^$third-party
 ||baqend.com/v1/rum/
@@ -56443,8 +56424,8 @@ zyro.com##.zyro-cookies
 ||barazasieve.click^
 ||barbabridgeoverprotective.com^
 ||barbarousbase.com^
+||barbarousbase.com^$third-party
 ||barbarousnerve.com^
-||barbarousnerve.com^$third-party
 ||barbecuedilatefinally.com^
 ||barbmerchant.com^
 ||bardatm.ru^
@@ -56514,6 +56495,7 @@ zyro.com##.zyro-cookies
 ||basictreadcontract.com^
 ||basicwhenpear.com^
 ||basilfish.com^
+||basilfish.com^$third-party
 ||basilic.io^
 ||basilic.io^$third-party
 ||basindecisive.com^
@@ -56542,7 +56524,6 @@ zyro.com##.zyro-cookies
 ||batanwqwo.com^
 ||bataviforsee.com^
 ||batbuilding.com^
-||batbuilding.com^$third-party
 ||batch.com^
 ||batchhermichermicsecondly.com^
 ||batcrack.icu^
@@ -56560,9 +56541,7 @@ zyro.com##.zyro-cookies
 ||battepush.com^
 ||battleautomobile.com^
 ||battlebalance.com^
-||battlebalance.com^$third-party
 ||battlehope.com^
-||battlehope.com^$third-party
 ||battlenet.openapp.link^
 ||baubogla.com^
 ||baucheedoa.net^
@@ -56916,13 +56895,11 @@ zyro.com##.zyro-cookies
 ||beacon2.turn.com^
 ||beaconads.com^
 ||beaconcdn.qq.com^
-||beaconhealthsystem.hrm.healthgrades.com^
 ||beacons.digital.disneyadvertising.com^
 ||beacons.mediamelon.com^
 ||beaconstreetservices.com^
 ||beaconstreetservices.com^$third-party
 ||beadbears.com^
-||beadbears.com^$third-party
 ||beafdf.restaupro.com^
 ||beagle.prod.tda.link^
 ||beakerweedjazz.com^
@@ -56934,13 +56911,14 @@ zyro.com##.zyro-cookies
 ||beamanalytics.b-cdn.net^
 ||beamedshipwreck.com^
 ||beamincrease.com^
-||beamincrease.com^$third-party
 ||beamobserver.com^
 ||beampulse.com^
 ||beampulse.com^$third-party
 ||beamvolcano.com^
+||beamvolcano.com^$third-party
 ||beanborrowed.com^
 ||beancontrol.com^
+||beancontrol.com^$third-party
 ||beanstalkdata.com^
 ||beanstalkdata.com^$third-party
 ||beanstock.com^
@@ -56959,7 +56937,6 @@ zyro.com##.zyro-cookies
 ||bearmoonlodge.com^
 ||bears.daigostudio.com^
 ||beastbeef.com^
-||beastbeef.com^$third-party
 ||beastintruder.com^
 ||beastlyrapillo.shop^
 ||beastssmuggleimpatiently.com^
@@ -56976,7 +56953,6 @@ zyro.com##.zyro-cookies
 ||beaumontenterprise.com/413gkwMT/init.js
 ||beautifulasaweath.info^
 ||beautifulhobbies.com^
-||beautifulhobbies.com^$third-party
 ||beautifullyinflux.com^
 ||beauty1.xyz^
 ||beaverads.com^
@@ -57054,7 +57030,6 @@ zyro.com##.zyro-cookies
 ||beestraitstarvation.com^
 ||beestuneglon.com^
 ||beetleend.com^
-||beetleend.com^$third-party
 ||beetrootshady.com^
 ||beetrootsquirtexamples.com^
 ||beetv.net^
@@ -57074,11 +57049,11 @@ zyro.com##.zyro-cookies
 ||beginnerfurglow.com^
 ||beginnerhooligansnob.com^
 ||beginnerpancake.com^
+||beginnerpancake.com^$third-party
 ||beginninggoondirections.com^
 ||beginningirresponsibility.com^
 ||beginningstock.com^
 ||beginoppressivegreet.com^
-||begintrain.com^$third-party
 ||begknock.com^
 ||begnawnkaliphs.top^
 ||begracetindery.com^
@@ -57209,7 +57184,6 @@ zyro.com##.zyro-cookies
 ||beneficios.davivienda.sv^
 ||benefits.aon.com^
 ||benelph.de^
-||benelux.promo.skf.com^
 ||benelux2.secureforms.mcafee.com^
 ||benengagewriggle.com^
 ||benevolencepair.com^
@@ -57226,7 +57200,6 @@ zyro.com##.zyro-cookies
 ||benpsbp.com^
 ||bensonshowd.com^
 ||benthose.com^
-||benthose.com^$third-party
 ||bento.agoda.com^
 ||bentonow.com^
 ||bentonow.com^$third-party
@@ -57259,6 +57232,7 @@ zyro.com##.zyro-cookies
 ||berryheight.com^
 ||berryhillfarmgwent.com^
 ||berserkhydrant.com^
+||berserkhydrant.com^$third-party
 ||berserkpl.net.pl^
 ||bersondeanstevens.actonservice.com^
 ||berthsorry.com^
@@ -57273,6 +57247,7 @@ zyro.com##.zyro-cookies
 ||besmeargleor.com^
 ||besocial.online^
 ||bespokesandals.com^
+||bespokesandals.com^$third-party
 ||besstahete.info^
 ||best-cdn.pl^
 ||best-girls-around.com^
@@ -57377,6 +57352,7 @@ zyro.com##.zyro-cookies
 ||betarget.com^$third-party
 ||betarget.de^
 ||betarget.de^$third-party
+||betazebra.com^$third-party
 ||betcss.site^
 ||betemolgar.com^
 ||beterrakionan.com^
@@ -57496,7 +57472,6 @@ zyro.com##.zyro-cookies
 ||bfxytxdpnk.com^
 ||bfzikn.l-wine.ru^
 ||bg-go.experian.com^
-||bg.promo.skf.com^
 ||bg04y.xyz^
 ||bg4nxu2u5t.com^
 ||bgaycm.exvital-shop.de^
@@ -57690,8 +57665,10 @@ zyro.com##.zyro-cookies
 ||bijkep.hotelesestelar.com^
 ||bijmz.cn^
 ||bikepaws.com^
+||bikepaws.com^$third-party
 ||bikesboard.com^
 ||bikesboard.com^$third-party
+||bikinginspire.com^$third-party
 ||bikrurda.net^
 ||bilahh.feuvert.fr^
 ||bilateralgodmother.com^
@@ -57702,6 +57679,7 @@ zyro.com##.zyro-cookies
 ||bildirt.com^$third-party
 ||bilec.xyz^
 ||bilibilitool.site^
+||bilingualgeek.com^$third-party
 ||bilingualwalking.com^
 ||bilkersteds.com^
 ||bill.agent.56.com^
@@ -57713,6 +57691,7 @@ zyro.com##.zyro-cookies
 ||billowybead.com^
 ||billowybead.com^$third-party
 ||billowybelief.com^
+||billowybelief.com^$third-party
 ||billybobandirect.org^
 ||billygroups.com^
 ||billyhis.com^
@@ -57735,6 +57714,7 @@ zyro.com##.zyro-cookies
 ||binaryborrowedorganized.com^
 ||binarybusiness.de^
 ||binarycrest.com^
+||binarycrest.com^$third-party
 ||binaryfailure.com^
 ||binaryrecentrecentcut.com^
 ||bincatracs.com^
@@ -57767,6 +57747,7 @@ zyro.com##.zyro-cookies
 ||binomnet3.com^
 ||binomtrcks.site^
 ||binspiredtees.com^
+||binspiredtees.com^$third-party
 ||bint.openapp.link^
 ||bio.chups.co^
 ||bioagiliytix.actonservice.com^
@@ -57798,6 +57779,7 @@ zyro.com##.zyro-cookies
 ||birqmiowxfh.com^
 ||birthday3452.fun^
 ||birthdaybelief.com^
+||birthdaybelief.com^$third-party
 ||birthdayinhale.com^
 ||birtw.cn^
 ||bis-dic15.com^
@@ -57842,7 +57824,6 @@ zyro.com##.zyro-cookies
 ||bittads.com^
 ||bittenlacygreater.com^
 ||bitterbear.com^
-||bitterbear.com^$third-party
 ||bitterborder.pro^
 ||bitterdefeatmid.com^
 ||bitterlynewspaperultrasound.com^
@@ -57902,7 +57883,6 @@ zyro.com##.zyro-cookies
 ||bjafafesg.com^
 ||bjakku.com^
 ||bjappzvz.xyz^
-||bjc.hrm.healthgrades.com^
 ||bjcass.com^
 ||bjcathay.com^
 ||bjcathay.com^$third-party
@@ -57974,6 +57954,7 @@ zyro.com##.zyro-cookies
 ||blackbirdventures.actonservice.com^
 ||blackbook.coniferhealth.com^
 ||blackbrake.com^
+||blackbrake.com^$third-party
 ||blackcurrantinadequacydisgusting.com^
 ||blackdagger.openapp.link^
 ||blackenheartbreakrehearsal.com^
@@ -58036,11 +58017,14 @@ zyro.com##.zyro-cookies
 ||ble.ubm-licensing.com^
 ||bleaborahmagtgi.org^
 ||bleachbubble.com^
+||bleachbubble.com^$third-party
 ||bleachimpartialtrusted.com^
 ||bleachmx.fr/wp-content/plugins/yeptmixnsykgrb/bjns-fcknj.js
 ||bleachscarecrow.com^
+||bleachscarecrow.com^$third-party
 ||bleedingofficecontagion.com^
 ||bleedlight.com^
+||bleedlight.com^$third-party
 ||blehcourt.com^
 ||blend.com/event/
 ||blendedbird.com^
@@ -58074,11 +58058,14 @@ zyro.com##.zyro-cookies
 ||blip.bizrate.com^
 ||blip.bizrate.com^$script
 ||blismedia.com^
+||blisscalendar.com^$third-party
 ||blisscleopatra.com^
 ||blissfulclick.pro^
 ||blissfulcrescendo.com^
+||blissfulcrescendo.com^$third-party
 ||blissfuldes.com^
 ||blissfullagoon.com^
+||blissfullagoon.com^$third-party
 ||blissfulmass.com^
 ||blisspointmedia.com^
 ||blisspointmedia.com^$third-party
@@ -58101,6 +58088,7 @@ zyro.com##.zyro-cookies
 ||blockchaintop.nl^
 ||blockdetector.org^
 ||blockdetector.org^$third-party
+||blockdial.com^$third-party
 ||blocket.se/js/trafikfonden.js
 ||blockingdarlingshrivel.com^
 ||blockmetrics.com^
@@ -58245,6 +58233,7 @@ zyro.com##.zyro-cookies
 ||bluecounter.de^$third-party
 ||bluedawning.com^
 ||blueeyedblow.com^
+||blueeyedblow.com^$third-party
 ||blueinfo.marugroup.net^
 ||bluekai.com^
 ||blueknow.com^
@@ -58260,6 +58249,7 @@ zyro.com##.zyro-cookies
 ||blueswordksh.com^
 ||bluetoad.com^
 ||bluevinebooks.com^
+||bluevinebooks.com^$third-party
 ||bluffybluffysterility.com^
 ||bluishgrunt.com^
 ||bluitesqiegbo.xyz^
@@ -58268,11 +58258,9 @@ zyro.com##.zyro-cookies
 ||blushingbeast.com^
 ||blushingbeast.com^$third-party
 ||blushingboundary.com^
-||blushingboundary.com^$third-party
 ||blushingbread.com^
 ||blushingbread.com^$third-party
 ||blushingwar.com^
-||blushingwar.com^$third-party
 ||bluvue.actonservice.com^
 ||blvdstatus.com^
 ||blvdstatus.com^$third-party
@@ -58477,6 +58465,7 @@ zyro.com##.zyro-cookies
 ||boatoamo.com^
 ||boats8.top^
 ||boatsvest.com^
+||boatsvest.com^$third-party
 ||bob-recs.com^
 ||bob-recs.com^$third-party
 ||bob.gitclear.com^
@@ -58524,6 +58513,7 @@ zyro.com##.zyro-cookies
 ||bohanhengtian.cn^
 ||bohkhufmvwim.online^
 ||boilabsent.com^
+||boiledegglabs.com^$third-party
 ||boiledperseverance.com^
 ||boilerefforlessefforlessregistered.com^
 ||boilingbeetle.com^
@@ -58533,7 +58523,6 @@ zyro.com##.zyro-cookies
 ||boilingloathe.com^
 ||boilingtrust.pro^
 ||boilingumbrella.com^
-||boilingumbrella.com^$third-party
 ||boilingviewed.com^
 ||boilslashtasted.com^
 ||boingtv.fr/track_view
@@ -58544,6 +58533,7 @@ zyro.com##.zyro-cookies
 ||boksaumetaixa.net^
 ||bol.com/click/
 ||bol.com/tracking/
+||boldbars.com^$third-party
 ||boldboycott.com^
 ||boldscantyfrustrating.com^
 ||bole.shangshufang.ksosoft.com^
@@ -58569,7 +58559,6 @@ zyro.com##.zyro-cookies
 ||bonduccodline.com^
 ||bonepa.com^
 ||boneregret.com^
-||boneregret.com^$third-party
 ||bonertraffic13.info^
 ||bonertraffic14.info^
 ||bonesinoffensivebook.com^
@@ -58645,6 +58634,7 @@ zyro.com##.zyro-cookies
 ||boostads.net^
 ||boostaubeehy.net^
 ||boostbehavior.com^
+||boostbehavior.com^$third-party
 ||boostcdn.net^
 ||boostclic.com^
 ||boostcpm.su^
@@ -58676,7 +58666,6 @@ zyro.com##.zyro-cookies
 ||borderfree.com/v1/dist/cbt.js$script
 ||bordsnewsjule.com^
 ||boredborder.com^
-||boredborder.com^$third-party
 ||boredcrown.com^
 ||boredcrown.com^$third-party
 ||borehatchetcarnival.com^
@@ -58684,9 +58673,7 @@ zyro.com##.zyro-cookies
 ||borhaj.com^
 ||boringbegglanced.com^
 ||boringberry.com^
-||boringberry.com^$third-party
 ||boringcoat.com^
-||boringcoat.com^$third-party
 ||boringoccasion.pro^
 ||bornebeautify.com^
 ||bororango.com^
@@ -58762,14 +58749,15 @@ zyro.com##.zyro-cookies
 ||bouncex.net^
 ||bouncy-wheel.pro^
 ||bouncyfront.com^
-||bouncyfront.com^$third-party
 ||bouncyproperty.com^
 ||bouncyproperty.com^$third-party
 ||boundarybusiness.com^
 ||boundarybusiness.com^$third-party
 ||boundarygoose.com^
 ||boundlessargument.com^
+||boundlessargument.com^$third-party
 ||boundlessbrake.com^
+||boundlessbrake.com^$third-party
 ||boundlessveil.com^
 ||boundlessveil.com^$third-party
 ||boundsinflectioncustom.com^
@@ -58889,7 +58877,6 @@ zyro.com##.zyro-cookies
 ||br.links.kodakmoments.com^
 ||br.potato1.influitive.com^
 ||br.probablecausesolutions.com^
-||br.promo.skf.com^
 ||br.sprbl.st^
 ||br.uk.beformance.com^
 ||br3azil334nutsz.com^
@@ -58916,7 +58903,9 @@ zyro.com##.zyro-cookies
 ||brainsland.com^$third-party
 ||braintb.com^
 ||brainybasin.com^
+||brainybasin.com^$third-party
 ||brainynut.com^
+||brainynut.com^$third-party
 ||brakesequator.com^
 ||brakestrucksupporter.com^
 ||braketoothbrusheject.com^
@@ -59026,6 +59015,7 @@ zyro.com##.zyro-cookies
 ||branch.xoxloveheart.com^
 ||branch2.udl.io^
 ||branchborder.com^
+||branchborder.com^$third-party
 ||branchct.ncapp04.com^
 ||branchcust.zulln.se^
 ||branchio.hipages.com.au^
@@ -59066,13 +59056,13 @@ zyro.com##.zyro-cookies
 ||brands.picklebutnotcucumber.com^
 ||brandscallioncommonwealth.com^
 ||brandsfive.com^
+||brandsfive.com^$third-party
 ||brandshow.58.com^
 ||brandybison.com^
 ||brandybison.com^$third-party
 ||branleranger.com^
 ||brascomarketing.actonservice.com^
 ||brashbead.com^
-||brashbead.com^$third-party
 ||brasscurls.com^
 ||brassstacker.com^
 ||brasthingut.com^
@@ -59119,7 +59109,6 @@ zyro.com##.zyro-cookies
 ||breakableinsurance.com^
 ||breakableinsurance.com^$third-party
 ||breakerror.com^
-||breakerror.com^$third-party
 ||breakfastboat.com^
 ||breakfastboat.com^$third-party
 ||breakfastinvitingdetergent.com^
@@ -59150,6 +59139,7 @@ zyro.com##.zyro-cookies
 ||breeze.olclient.baofeng.com^
 ||breezefraudulent.com^
 ||breezygrove.com^
+||breezygrove.com^$third-party
 ||brendanbc.com^
 ||brespark.eccocar.com^
 ||brevnet.eccocar.com^
@@ -59169,6 +59159,7 @@ zyro.com##.zyro-cookies
 ||brhimobility.eccocar.com^
 ||brhwsg.makingnew.co.kr^
 ||brianwould.com^
+||brianwould.com^$third-party
 ||brice-test.nawar.io^
 ||brick.xhamster.com^
 ||brick.xhamster2.com^
@@ -59192,7 +59183,6 @@ zyro.com##.zyro-cookies
 ||briefready.com^
 ||briefredos.click^
 ||briefstem.com^
-||briefstem.com^$third-party
 ||brightadnetwork.com^
 ||brightcriticism.com^
 ||brightdata.com^
@@ -59211,6 +59201,7 @@ zyro.com##.zyro-cookies
 ||brightshare.com^
 ||brightside.me/metric-collector
 ||brighttoe.com^
+||brighttoe.com^$third-party
 ||brikinhpaxk.com^
 ||brilig.com^
 ||brilig.com^$third-party
@@ -59232,6 +59223,7 @@ zyro.com##.zyro-cookies
 ||briskeagle.io^
 ||briskpelican.io^
 ||briskstorm.com^
+||briskstorm.com^$third-party
 ||bristlemarinade.com^
 ||bristlepuncture.com^
 ||britaininspirationsplendid.com^
@@ -59263,6 +59255,7 @@ zyro.com##.zyro-cookies
 ||bro.kim^
 ||bro4.biz^
 ||broadborder.com^
+||broadborder.com^$third-party
 ||broadboundary.com^
 ||broadboundary.com^$third-party
 ||broadcastbed.com^
@@ -59318,7 +59311,6 @@ zyro.com##.zyro-cookies
 ||brookssa.com^
 ||broredir1s.site^
 ||brothersbucket.com^
-||brothersbucket.com^$third-party
 ||brothersincash.com^
 ||brotherslocket.com^
 ||brotherslocket.com^$third-party
@@ -59393,6 +59385,7 @@ zyro.com##.zyro-cookies
 ||brulpha.com^
 ||brunchcreatesenses.com^
 ||brunchforher.com^
+||brunchforher.com^$third-party
 ||brunetteattendanceawful.com^
 ||bruntstabulae.com^
 ||bruny.net.anwalt.de^
@@ -59547,7 +59540,6 @@ zyro.com##.zyro-cookies
 ||bubrintta.com^
 ||buck1st.oss-ap-southeast-5.aliyuncs.com^
 ||bucketbean.com^
-||bucketbean.com^$third-party
 ||bucketsofbanners.com^
 ||buckeyekantars.com^
 ||bucklemail.com/a/$image
@@ -59597,6 +59589,7 @@ zyro.com##.zyro-cookies
 ||build.com/2Ztkihy4/init.js
 ||builder.io/api/v1/track
 ||buildingknife.com^
+||buildingknife.com^$third-party
 ||buildnaq91.site^
 ||buildneighbouringteam.com^
 ||buildtrafficx.com^
@@ -59654,6 +59647,7 @@ zyro.com##.zyro-cookies
 ||bummerentertain.com^
 ||bumnxiev.top^
 ||bumog.xyz^
+||bumpermash.com^$third-party
 ||bumpexchangedcadet.com^
 ||bumpthank.com^
 ||bumpydevelopment.com^
@@ -59663,7 +59657,6 @@ zyro.com##.zyro-cookies
 ||bun1.dayi.org.cn^
 ||bunbeautifullycleverness.com^
 ||bunchance.com^
-||bunchance.com^$third-party
 ||bunchbox.co^
 ||bunchbox.co^$third-party
 ||bundlerenown.com^
@@ -59703,8 +59696,8 @@ zyro.com##.zyro-cookies
 ||buresdv.top^
 ||burgea.com^
 ||burgerbrush.com^
-||burgerbrush.com^$third-party
 ||burgersalt.com^
+||burgersalt.com^$third-party
 ||burglaryeffectuallyderange.com^
 ||burglaryrunner.com^
 ||burialsupple.com^
@@ -59727,7 +59720,6 @@ zyro.com##.zyro-cookies
 ||burstbeacon.com^
 ||burstbeacon.com^$third-party
 ||burstblade.com^
-||burstblade.com^$third-party
 ||burstcloud.co/jwe?
 ||burstnet.com^
 ||burt.io^
@@ -59761,7 +59753,6 @@ zyro.com##.zyro-cookies
 ||business.vodafone.com^
 ||businessaffiliate.americanexpress.com^
 ||businessbells.com^
-||businessbells.com^$third-party
 ||businesscare.com^
 ||businessclick.ch^
 ||businessclick.ch^$third-party
@@ -59784,10 +59775,9 @@ zyro.com##.zyro-cookies
 ||bustlemiszone.com^
 ||bustling-let.pro^
 ||bustlinganimal.com^
-||bustlinganimal.com^$third-party
 ||bustlingbath.com^
-||bustlingbath.com^$third-party
 ||bustlingbook.com^
+||bustlingbook.com^$third-party
 ||busuanzi.ibruce.info^
 ||busuanzi.ibruce.info^$third-party
 ||busychopdenounce.com^
@@ -59808,6 +59798,7 @@ zyro.com##.zyro-cookies
 ||buttersource.com^
 ||button-share.zalo.me^
 ||buttonladybug.com^
+||buttonladybug.com^$third-party
 ||buuftxcii.com^
 ||buvdkt.icu^
 ||bux1le001.com^
@@ -60304,7 +60295,6 @@ zyro.com##.zyro-cookies
 ||ca.macheq.com^
 ||ca.mattamyhomes.com^
 ||ca.minexmr.com^
-||ca.promo.skf.com^
 ||ca.ssl.holdmybeerconsulting.com^
 ||ca.w8.com.cn^
 ||ca.yangshengtv.com^
@@ -60420,7 +60410,6 @@ zyro.com##.zyro-cookies
 ||calculatingtoothbrush.com^
 ||calculatingtoothbrush.com^$third-party
 ||calculatorcamera.com^
-||calculatorcamera.com^$third-party
 ||calculatorstatement.com^
 ||calculatorstatement.com^$third-party
 ||calendarpedestal.com^
@@ -60429,7 +60418,6 @@ zyro.com##.zyro-cookies
 ||calibration.ni.com^
 ||calibrelugger.com^
 ||caliente.mx/integration-scripts/tracking.min.js
-||california.providence.hrm.healthgrades.com^
 ||californiatimes.com/privacy/$image
 ||caljetelite.actonservice.com^
 ||calksenfire.com^
@@ -60468,7 +60456,6 @@ zyro.com##.zyro-cookies
 ||calmcactus.com^
 ||calmcactus.com^$third-party
 ||calmcough.com^
-||calmcough.com^$third-party
 ||calmlyilldollars.com^
 ||calmlyvacuumwidth.com^
 ||calmradio.actonservice.com^
@@ -60613,6 +60600,7 @@ zyro.com##.zyro-cookies
 ||canlytics.com^
 ||canlytics.com^$third-party
 ||cannonchange.com^
+||cannonchange.com^$third-party
 ||canoemissioninjunction.com^
 ||canoevaguely.com^
 ||canoperation.com^
@@ -60630,6 +60618,7 @@ zyro.com##.zyro-cookies
 ||canstrm.com^
 ||canva.com/_ajax/ae/createBatch
 ||canvas.gdt.qq.com^
+||canvasandsocks.com^$third-party
 ||canvassblanketjar.com^
 ||canwi.mobi^
 ||canzosswager.com^
@@ -60644,7 +60633,6 @@ zyro.com##.zyro-cookies
 ||cap.cyberlink.com^
 ||cap.touclick.com^
 ||capablecows.com^
-||capablecows.com^$third-party
 ||capablecup.com^
 ||capablecup.com^$third-party
 ||capaciousdrewreligion.com^
@@ -60672,7 +60660,6 @@ zyro.com##.zyro-cookies
 ||caprofitx.com^
 ||caprofitx.com^$third-party
 ||capsquirrel.com^
-||capsquirrel.com^$third-party
 ||captainad.com^
 ||captchafine.live^
 ||captickc.com^
@@ -60683,9 +60670,13 @@ zyro.com##.zyro-cookies
 ||captivatecustomergentlemen.com^
 ||captivatepestilentstormy.com^
 ||captivatingcanyon.com^
+||captivatingcanyon.com^$third-party
 ||captivatingillusion.com^
+||captivatingillusion.com^$third-party
 ||captivatingpanorama.com^
+||captivatingpanorama.com^$third-party
 ||captivatingperformance.com^
+||captivatingperformance.com^$third-party
 ||captivebleed.com^
 ||captiveimpossibleimport.com^
 ||captivias.site^
@@ -60746,7 +60737,6 @@ zyro.com##.zyro-cookies
 ||carefree-ship.pro^
 ||carefuldolls.com^
 ||carefuldolls.com^$third-party
-||carelesshat.com^$third-party
 ||carelesssequel.com^
 ||carelesstableinevitably.com^
 ||carepay.gaf.com^
@@ -60767,9 +60757,9 @@ zyro.com##.zyro-cookies
 ||caringzinc.com^$third-party
 ||cariousimpatience.com^
 ||cariousinevitably.com^
-||carle.hrm.healthgrades.com^
 ||carlisleit.actonservice.com^
 ||carloforward.com^
+||carloforward.com^$third-party
 ||carlosappraisal.com^
 ||carlossteady.com^
 ||carnivalaudiblelemon.com^
@@ -60781,7 +60771,6 @@ zyro.com##.zyro-cookies
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
 ||carpcw.com^
 ||carpentercolor.com^
-||carpentercolor.com^$third-party
 ||carpentercomparison.com^
 ||carpentercomparison.com^$third-party
 ||carpenterexplorerdemolition.com^
@@ -60791,7 +60780,6 @@ zyro.com##.zyro-cookies
 ||carrel.services^
 ||carreras.unisabana.edu.co^
 ||carriagecan.com^
-||carriagecan.com^$third-party
 ||carriedamiral.com^
 ||carrierdestined.com^
 ||carryingfarmerlumber.com^
@@ -60808,6 +60796,7 @@ zyro.com##.zyro-cookies
 ||carters.com/0F3091f3/init.js
 ||cartining-specute.com^
 ||cartkitten.com^
+||cartkitten.com^$third-party
 ||cartmansneest.com^
 ||cartoon.hardalist.com^
 ||carts.guru^
@@ -60881,6 +60870,7 @@ zyro.com##.zyro-cookies
 ||castleconscienceenquired.com^
 ||castplatform.com^
 ||casualhappily.com^
+||casualphysics.com^$third-party
 ||casualstat.com^
 ||casualstat.com^$third-party
 ||casumoaffiliates.com^
@@ -60888,8 +60878,8 @@ zyro.com##.zyro-cookies
 ||catalog.fjwhcbsh.com^
 ||catalog.video.msn.com^
 ||catalogcake.com^
+||catalogcake.com^$third-party
 ||catalogdiscovery.com^
-||catalogdiscovery.com^$third-party
 ||catalogo.pusc.it/pusc_jquery.cookie.min.js$script
 ||catalogs.printplace.com^
 ||cataloguerepetition.com^
@@ -60948,7 +60938,9 @@ zyro.com##.zyro-cookies
 ||cauthaushoas.com^
 ||cautionpursued.com^
 ||cautiouscamera.com^
+||cautiouscamera.com^$third-party
 ||cautiouscherries.com^
+||cautiouscherries.com^$third-party
 ||cautiouscrate.com^
 ||cautiouscrate.com^$third-party
 ||cautiouscredit.com^
@@ -61182,7 +61174,6 @@ zyro.com##.zyro-cookies
 ||cdn.7nsc.cn^
 ||cdn.810236.com^
 ||cdn.9823df.com^
-||cdn.ad-platform.jmty.jp^
 ||cdn.ad.page^
 ||cdn.ad.xiaomi.com^
 ||cdn.ad4game.com^
@@ -61447,6 +61438,7 @@ zyro.com##.zyro-cookies
 ||ceaslesswisely.com^
 ||cec41c3e84.com^
 ||ceciliavenus.com^
+||ceciliavenus.com^$third-party
 ||ced-ns.sascdn.com/diff/js/smart.js
 ||ced.sascdn.com^
 ||cedexis.com^
@@ -61486,8 +61478,10 @@ zyro.com##.zyro-cookies
 ||celeryisolatedproject.com^
 ||celestia.guru^
 ||celestialeuphony.com^
+||celestialeuphony.com^$third-party
 ||celestialquasar.com^$third-party
 ||celestialspectra.com^
+||celestialspectra.com^$third-party
 ||celigo.actonservice.com^
 ||cellaraudacityslack.com^
 ||cellspsoatic.com^
@@ -61521,12 +61515,10 @@ zyro.com##.zyro-cookies
 ||central2.secureforms.mcafee.com^
 ||centralcore7.com^
 ||centralnervous.net^
-||centrastate.hrm.healthgrades.com^
 ||centre-de-tri-ups.com^
 ||centredrag.com^
 ||centrenicelyteaching.com^
 ||centrnotify.com^
-||centura.hrm.healthgrades.com^
 ||centurybending.com^
 ||centwrite.com^
 ||ceoapr.donjoyperformance.com^
@@ -61682,6 +61674,7 @@ zyro.com##.zyro-cookies
 ||chachors.net^
 ||chacmausto.net^
 ||chademocharge.com^
+||chademocharge.com^$third-party
 ||chadseer.xyz^
 ||chaeffulace.com^
 ||chaerel.com^
@@ -61700,6 +61693,7 @@ zyro.com##.zyro-cookies
 ||chaiptut.xyz^
 ||chaipungie.xyz^
 ||chaireggnog.com^
+||chaireggnog.com^$third-party
 ||chairgaubsy.com^
 ||chairmansmile.com^
 ||chairscrack.com^
@@ -61711,6 +61705,7 @@ zyro.com##.zyro-cookies
 ||chalconvex.top^
 ||chalkedretrieval.com^
 ||chalkoil.com^
+||chalkoil.com^$third-party
 ||challengeh.carte-gr.total.fr^
 ||challengetoward.com^
 ||chambershoist.com^
@@ -61773,6 +61768,7 @@ zyro.com##.zyro-cookies
 ||characterrollback.com^
 ||chargebee.com/api/internal/track_info_error
 ||chargecracker.com^
+||chargecracker.com^$third-party
 ||chargenews.com^
 ||chargeplatform.com^
 ||chargerepellentsuede.com^
@@ -61787,6 +61783,7 @@ zyro.com##.zyro-cookies
 ||charmingplate.com^$third-party
 ||charms.pugster.com^
 ||charscroll.com^
+||charscroll.com^$third-party
 ||chart.dk^
 ||chart.dk^$third-party
 ||chartaca.com^
@@ -61886,12 +61883,12 @@ zyro.com##.zyro-cookies
 ||cheerfullyassortment.com^
 ||cheerfullybakery.com^
 ||cheerfulrange.com^
-||cheerfulrange.com^$third-party
 ||cheerfulwaxworks.com^
 ||cheeringashtrayherb.com^
 ||cheerlessbankingliked.com^
 ||cheeroredraw.com^
 ||cheerycraze.com^
+||cheerycraze.com^$third-party
 ||cheerysavouryridge.com^
 ||cheerysequelhoax.com^
 ||cheese.guac.live^
@@ -61915,7 +61912,6 @@ zyro.com##.zyro-cookies
 ||chemdraw.com.cn^
 ||chemdraw.com^
 ||chemicalcoach.com^
-||chemicalcoach.com^$third-party
 ||chemitug.net^
 ||chemtoaxeehy.com^
 ||chengadx.com^
@@ -61939,18 +61935,19 @@ zyro.com##.zyro-cookies
 ||cherylssb.com^
 ||ches5sort.com^
 ||chessbranch.com^
+||chessbranch.com^$third-party
 ||chesscherry.com^
-||chesscherry.com^$third-party
 ||chesscolor.com^
 ||chesscolor.com^$third-party
 ||chesscrowd.com^
+||chesscrowd.com^$third-party
+||chessquery.com^$third-party
 ||chetchen.net^
 ||chetchoa.com^
 ||chethgentman.live^
 ||chettikmacrli.com^
 ||chevalierusa.actonservice.com^
 ||chewcoat.com^
-||chewcoat.com^$third-party
 ||chewy.com/api/event/
 ||chezoams.com^
 ||chfpgcbe.com^
@@ -61988,7 +61985,6 @@ zyro.com##.zyro-cookies
 ||childishenough.com^
 ||childlessporcupinevaluables.com^
 ||childlikecook.com^
-||childlikecook.com^$third-party
 ||childlikecrowd.com^
 ||childlikecrowd.com^$third-party
 ||childlikeexample.com^
@@ -61997,10 +61993,10 @@ zyro.com##.zyro-cookies
 ||childlikeform.com^$third-party
 ||childlyfitchee.shop^
 ||childrenplacidityconclusion.com^
-||childrens.hrm.healthgrades.com^
 ||childtruantpaul.com^
 ||chilicached.com^
 ||chilledliquid.com^
+||chilledliquid.com^$third-party
 ||chiluyingxiao.com^
 ||chimerabellowstranger.com^
 ||chimneylouderflank.com^
@@ -62026,6 +62022,7 @@ zyro.com##.zyro-cookies
 ||chinazmob.com^
 ||chinesean.com^
 ||chingovernment.com^
+||chingovernment.com^$third-party
 ||chinsnakes.com^
 ||chinsnakes.com^$third-party
 ||chioneflake.com^
@@ -62035,6 +62032,7 @@ zyro.com##.zyro-cookies
 ||chipleader.com^
 ||chipmanksmochus.com^
 ||chipperisle.com^
+||chipperisle.com^$third-party
 ||chiq-cloud.com^
 ||chirksspawny.com^
 ||chirppronounceaccompany.com^
@@ -62045,6 +62043,7 @@ zyro.com##.zyro-cookies
 ||chitika.net^
 ||chitsnooked.com^
 ||chivalrouscord.com^
+||chivalrouscord.com^$third-party
 ||chiwaiwhor.xyz^
 ||chixingkeji.com^
 ||chl7rysobc3ol6xla.com^
@@ -62155,6 +62154,7 @@ zyro.com##.zyro-cookies
 ||chuanmen.mobi^
 ||chuantu.biz^
 ||chubbycreature.com^
+||chubbycreature.com^$third-party
 ||chubbymess.pro^
 ||chubsxmg.xyz^
 ||chuckledpulpparked.com^
@@ -62200,7 +62200,9 @@ zyro.com##.zyro-cookies
 ||cibntv.net/youku/$media
 ||cicamica.xyz^
 ||cicdserver.com^
+||cicdserver.com^$third-party
 ||ciderfeast.com^
+||ciderfeast.com^$third-party
 ||cidhdgv.xyz^
 ||cidhmxxb.icu^
 ||cidrap.umn.edu/core/modules/statistics
@@ -62392,7 +62394,6 @@ zyro.com##.zyro-cookies
 ||cl.canva.com^
 ||cl.he9630.com^
 ||cl.inhaabit.com^
-||cl.promo.skf.com^
 ||cl.t3n.de^
 ||cl.webterren.com^
 ||cl.xzqxzs.com^
@@ -62415,11 +62416,9 @@ zyro.com##.zyro-cookies
 ||claimedthwartweak.com^
 ||clairekabobs.com^
 ||clamcelery.com^
-||clamcelery.com^$third-party
 ||clammychicken.com^
 ||clammychicken.com^$third-party
 ||clammytree.com^
-||clammytree.com^$third-party
 ||clampalarmlightning.com^
 ||clangearnest.com^
 ||clanker-events.squarespace.com^
@@ -62482,6 +62481,7 @@ zyro.com##.zyro-cookies
 ||cleanerultra.club^
 ||cleanflawlessredir.com^
 ||cleanhaircut.com^
+||cleanhaircut.com^$third-party
 ||cleaningmaturegallop.com^
 ||cleanmediaads.com^
 ||cleanmypc.click^
@@ -62505,7 +62505,6 @@ zyro.com##.zyro-cookies
 ||clearbitscripts.com^
 ||clearbrands.actonservice.com^
 ||clearcabbage.com^
-||clearcabbage.com^$third-party
 ||clearlymisguidedjealous.com^
 ||clearonclick.com^
 ||clearsale.com.br^
@@ -62978,8 +62977,8 @@ zyro.com##.zyro-cookies
 ||clohzp.hifi.lu^
 ||cloisteredcord.com^
 ||cloisteredcurve.com^
+||cloisteredcurve.com^$third-party
 ||cloisteredhydrant.com^
-||cloisteredhydrant.com^$third-party
 ||clonesmesopic.com^
 ||clonkfanion.com^
 ||cloot.ga^
@@ -62988,6 +62987,7 @@ zyro.com##.zyro-cookies
 ||closedcows.com^$third-party
 ||closedpersonify.com^
 ||closefriction.com^
+||closefriction.com^$third-party
 ||closestaltogether.com^
 ||closeupclear.top^
 ||clotezar.com^
@@ -63098,6 +63098,7 @@ zyro.com##.zyro-cookies
 ||cloudhosting-business.vodafone.com^
 ||cloudhosting.actonservice.com^
 ||cloudhustles.com^
+||cloudhustles.com^$third-party
 ||cloudiiv.com^
 ||cloudimagesa.com^
 ||cloudimagesb.com^
@@ -63105,6 +63106,7 @@ zyro.com##.zyro-cookies
 ||cloudiq.com^
 ||cloudiq.com^$third-party
 ||cloudjumbo.com^
+||cloudjumbo.com^$third-party
 ||cloudlessmajesty.com^
 ||cloudlessverticallyrender.com^
 ||cloudlogobox.com^
@@ -63117,7 +63119,6 @@ zyro.com##.zyro-cookies
 ||cloudpsh.top^
 ||cloudpush.iqiyi.com^
 ||cloudsdestruction.com^
-||cloudsdestruction.com^$third-party
 ||cloudservice*.kingsoft-office-service.com^
 ||cloudservice12.kingsoft-office-service.com^
 ||cloudservice13.kingsoft-office-service.com^
@@ -63133,7 +63134,6 @@ zyro.com##.zyro-cookies
 ||cloudzilla.ai/ingest/
 ||cloutlavenderwaitress.com^
 ||clovercabbage.com^
-||clovercabbage.com^$third-party
 ||cloverleaf.infor.com^
 ||clovhmweksy.buzz^
 ||clp-mms.cloudpro.co.uk^
@@ -63162,7 +63162,6 @@ zyro.com##.zyro-cookies
 ||clumsycar.com^
 ||clumsycar.com^$third-party
 ||clumsyrock.com^
-||clumsyrock.com^$third-party
 ||clumsyshare.com^
 ||clunkyentirelinked.com^
 ||cluodlfare.com^
@@ -63342,7 +63341,6 @@ zyro.com##.zyro-cookies
 ||cn.innity-asia.com^
 ||cn.lakdc.top^
 ||cn.mywd.com^
-||cn.promo.skf.com^
 ||cn.pub.vpon.com^
 ||cn.ultraiso.net^
 ||cn.vortex-win.data.microsoft.com^
@@ -63479,18 +63477,17 @@ zyro.com##.zyro-cookies
 ||cnzzlink.com^
 ||co-sentry.wps.cn^
 ||co.dtech.baofeng.com^
-||co.promo.skf.com^
 ||co5457chu.com^
 ||co5n3nerm6arapo7ny.com^
 ||co85264.com^
 ||coach.028csc.com^
 ||coachquartz.com^
-||coachquartz.com^$third-party
 ||coadymarine.com^
 ||coagrohos.com^
 ||coalbandmanicure.com^
 ||coalitionfits.com^
 ||coalkitchen.com^
+||coalkitchen.com^$third-party
 ||coaphauk.net^
 ||coarseauthorization.com^
 ||coashoohathaija.net^
@@ -63510,6 +63507,7 @@ zyro.com##.zyro-cookies
 ||cobaltgroup.com^
 ||cobaltgroup.com^$third-party
 ||cobaltoverture.com^
+||cobaltoverture.com^$third-party
 ||cobiasonymy.top^
 ||cobweb.actonservice.com^
 ||cobwebcomprehension.com^
@@ -63578,6 +63576,7 @@ zyro.com##.zyro-cookies
 ||cofactordigital.actonservice.com^
 ||coffeemildness.com^
 ||coffeesidehustle.com^
+||coffeesidehustle.com^$third-party
 ||coffeycomm.actonservice.com^
 ||coffingfannies.top^
 ||cofounderspecials.com^
@@ -63681,7 +63680,10 @@ zyro.com##.zyro-cookies
 ||cold-cold-freezing.com^
 ||cold-priest.com^
 ||coldbalance.com^
+||coldbalance.com^$third-party
+||coldcallpro.com^$third-party
 ||coldcreatives.com^
+||coldcreatives.com^$third-party
 ||coldflownews.com^
 ||coldhardcash.com^
 ||coldnessswarthyclinic.com^
@@ -63763,7 +63765,6 @@ zyro.com##.zyro-cookies
 ||collector.clareity.net^
 ||collector.contentexchange.me^$third-party
 ||collector.dcdn.baidu.com^
-||collector.dmp.cnna.io^
 ||collector.fiverr.com^
 ||collector.getyourguide.com^
 ||collector.github.com^
@@ -63813,7 +63814,6 @@ zyro.com##.zyro-cookies
 ||colors.chamoji.com^
 ||colossalanswer.com^
 ||colossalchance.com^
-||colossalchance.com^$third-party
 ||colossalclouds.com^
 ||colossalclouds.com^$third-party
 ||colossalcoat.com^
@@ -63849,8 +63849,8 @@ zyro.com##.zyro-cookies
 ||combbit.com^
 ||combbit.com^$third-party
 ||combcattle.com^
+||combcattle.com^$third-party
 ||combclover.com^
-||combclover.com^$third-party
 ||combcompetition.com^
 ||combcompetition.com^$third-party
 ||combia-tellector.com^
@@ -63928,13 +63928,11 @@ zyro.com##.zyro-cookies
 ||commodityallengage.com^
 ||common.i12.de/cms/file/plugin/dp/dp.js$script
 ||commonalmanac.com^
-||commonalmanac.com^$third-party
 ||commondata.oss-cn-hangzhou.aliyuncs.com^
 ||commondreams.actonservice.com^
 ||commongratificationtimer.com^
 ||commongrewadmonishment.com^
 ||commonswing.com^
-||commonswing.com^$third-party
 ||commonvivacious.com^
 ||commonwealthproficient.com^
 ||comms.adss.com^
@@ -63970,7 +63968,6 @@ zyro.com##.zyro-cookies
 ||communication.imecitf.com^
 ||communication.jkseva.com^
 ||communication.johnstongroup.ca^
-||communication.promo.skf.com^
 ||communication.proximus.be^
 ||communication.ricoh.at^
 ||communication.ricoh.ch^
@@ -64045,7 +64042,6 @@ zyro.com##.zyro-cookies
 ||competemerriment.com^
 ||competencesickcake.com^
 ||competitionbeetle.com^
-||competitionbeetle.com^$third-party
 ||competitoor.com/analytics/
 ||compiledoctor.com^
 ||compiledoctor.com^$third-party
@@ -64061,10 +64057,8 @@ zyro.com##.zyro-cookies
 ||completatusdatos.com^
 ||complete-afternoon.pro^
 ||completecabbage.com^
-||completecabbage.com^$third-party
 ||complexastare.shop^
 ||complextoad.com^
-||complextoad.com^$third-party
 ||compliance.coniferhealth.com^
 ||compliance.govdocs.com^
 ||complianceupdates.aem.org^
@@ -64131,12 +64125,10 @@ zyro.com##.zyro-cookies
 ||concentrationminefield.com^
 ||conceptualizefact.com^
 ||conceptualizereading.com^
-||conceptualizereading.com^$third-party
 ||concernedchange.com^
 ||concernedchickens.com^
 ||concernedchickens.com^$third-party
 ||concernedcondition.com^
-||concernedcondition.com^$third-party
 ||concerneddisinterestedquestioning.com^
 ||concernedwhichever.com^
 ||concert.io/lookup/
@@ -64151,6 +64143,7 @@ zyro.com##.zyro-cookies
 ||conde.adsame.com^
 ||conde.io/beacon
 ||condemnedcomb.com^
+||condemnedcomb.com^$third-party
 ||condenastdigital.com/content?$third-party
 ||condensedconvenesaxophone.com^
 ||condensedmassagefoul.com^
@@ -64220,6 +64213,7 @@ zyro.com##.zyro-cookies
 ||config.unityads.unity3d.com^
 ||config.unityads.unitychina.cn^
 ||configchain.com^
+||configchain.com^$third-party
 ||configsvr.msf.3g.qq.com^
 ||configurationluxuriantinclination.com^
 ||configurator.ecom-mobile-samsung.com/api/logger
@@ -64233,6 +64227,7 @@ zyro.com##.zyro-cookies
 ||confirmational.com^$third-party
 ||confirmationefficiency.com^
 ||confirmexplore.com^
+||confirmglobal.com^$third-party
 ||confirmit.com/wix/inline.aspx?
 ||confirmit.com^
 ||confirmsubscription.com^
@@ -64247,6 +64242,7 @@ zyro.com##.zyro-cookies
 ||confrontationwanderer.com^
 ||confrontbitterly.com^
 ||confusedcart.com^
+||confusedcart.com^$third-party
 ||congealsubgit.shop^
 ||congratulationsgraveseem.com^
 ||congressbench.com^
@@ -64406,6 +64402,7 @@ zyro.com##.zyro-cookies
 ||connect2.secureforms.mcafee.com^
 ||connectad.io^
 ||connectashelf.com^
+||connectashelf.com^$third-party
 ||connecteam.com/bi/api/ReportHit/
 ||connected.integrationpoint.com^
 ||connected.technologies.jci.com^
@@ -64445,7 +64442,6 @@ zyro.com##.zyro-cookies
 ||consciouscheese.com^
 ||consciouscheese.com^$third-party
 ||consciousdirt.com^
-||consciousdirt.com^$third-party
 ||consciousness2.fun^
 ||consciousnessmost.com^
 ||consecutionwrigglesinge.com^
@@ -64516,7 +64512,6 @@ zyro.com##.zyro-cookies
 ||considermice.com^
 ||consistedlovedstimulate.com^
 ||consistpotato.com^
-||consistpotato.com^$third-party
 ||consistpromised.com^
 ||consmo.net^
 ||consolationgratitudeunwise.com^
@@ -64544,6 +64539,7 @@ zyro.com##.zyro-cookies
 ||consukultinge.info^
 ||consukultingeca.com^
 ||consultant.ru/js/counter.js
+||consultantchow.com^$third-party
 ||consultantvariabilitybandage.com^
 ||consultation233.fun^
 ||consulter-mon-amende.com^
@@ -64556,7 +64552,9 @@ zyro.com##.zyro-cookies
 ||consumer.equifax.com^
 ||consumer.inform.equifax.com^
 ||consumer.org.nz/session/ping/
+||consumerknowhow.com^$third-party
 ||consumerzero.com^
+||consumerzero.com^$third-party
 ||contaboserver.net^
 ||contact-us.adp.ca^
 ||contact.abc-companies.com^
@@ -64771,8 +64769,8 @@ zyro.com##.zyro-cookies
 ||controlcookies.com^
 ||controlexpenses.adp.ca^
 ||controlhall.com^
+||controlhall.com^$third-party
 ||controlswim.com^
-||controlswim.com^$third-party
 ||contx.net/collect.js
 ||conumal.com^
 ||conv.youdao.com^
@@ -64812,6 +64810,7 @@ zyro.com##.zyro-cookies
 ||convertagain.net^
 ||convertagain.net^$third-party
 ||convertbatch.com^
+||convertbatch.com^$third-party
 ||convertcart.com^
 ||convertcart.com^$third-party
 ||convertedbumperbiological.com^
@@ -64848,6 +64847,7 @@ zyro.com##.zyro-cookies
 ||cooguo.com^
 ||coohaiwhoonol.net^
 ||cooingcoal.com^
+||cooingcoal.com^$third-party
 ||coojohoaboapee.xyz^
 ||cookerybands.com^
 ||cookerywrinklefad.com^
@@ -64979,6 +64979,7 @@ zyro.com##.zyro-cookies
 ||coolerconvent.com^
 ||coolerpassagesshed.com^
 ||coolestblockade.com^
+||coolestcatcare.com^$third-party
 ||coolestreactionstems.com^
 ||coolguang.com^
 ||coolherein.com^
@@ -65021,7 +65022,6 @@ zyro.com##.zyro-cookies
 ||copiercarriage.com^
 ||copilot-telemetry.githubusercontent.com^
 ||copperchickens.com^
-||copperchickens.com^$third-party
 ||coppercranberrylamp.com^
 ||copperegg.com^
 ||copperegg.com^$third-party
@@ -65060,6 +65060,7 @@ zyro.com##.zyro-cookies
 ||coremotives.com^$third-party
 ||corenotabilityhire.com^
 ||corgibeachday.com^
+||corgibeachday.com^$third-party
 ||corgompaup.com^
 ||corgouzaptax.com^
 ||corneey.com^
@@ -65099,7 +65100,6 @@ zyro.com##.zyro-cookies
 ||corporateplatino.americanexpress.it^
 ||corpsehappen.com^
 ||correctchaos.com^
-||correctchaos.com^$third-party
 ||correlationcocktailinevitably.com^
 ||correspondaspect.com^
 ||corrosif.science^$domain=filerev.cc|pencurimovie.pw
@@ -65117,6 +65117,7 @@ zyro.com##.zyro-cookies
 ||cosmi.io^$third-party
 ||cosmicpartially.com^
 ||cosmicsculptor.com^
+||cosmicsculptor.com^$third-party
 ||cosmo.ru/*/.js?i=*&r=
 ||cosmo001.top^
 ||cosmo100.top^
@@ -65132,6 +65133,7 @@ zyro.com##.zyro-cookies
 ||costivecohorts.top^
 ||coststunningconjure.com^
 ||costumefilmimport.com^
+||costwinner.com^$third-party
 ||cosysuppressed.com^
 ||cotchaug.com^
 ||cotemaison.np6.com^
@@ -65355,7 +65357,6 @@ zyro.com##.zyro-cookies
 ||covenant.psjhealth.org^
 ||coveo.com/coveo.analytics.js/
 ||coverapparatus.com^
-||coverapparatus.com^$third-party
 ||coveredsnortedelectronics.com^
 ||coveredstress.com^
 ||coverlayer.com^
@@ -65366,7 +65367,6 @@ zyro.com##.zyro-cookies
 ||cowcuo.xyz^
 ||cowhmc.docmorris.de^
 ||cowm199.com^
-||cowscrayon.com^$third-party
 ||cowtpvi.com^
 ||coxgypsine.shop^
 ||coxiesthubble.com^
@@ -65376,9 +65376,11 @@ zyro.com##.zyro-cookies
 ||cozenedkwanza.top^
 ||cozeswracks.com^
 ||cozydusk.com^
+||cozydusk.com^$third-party
 ||cozyhillside.com^
 ||cozyhillside.com^$third-party
 ||cozytryst.com^
+||cozytryst.com^$third-party
 ||cp.003store.com^
 ||cp.5jjx.net^
 ||cp.7y7.com^
@@ -65571,6 +65573,7 @@ zyro.com##.zyro-cookies
 ||cracataum.com^$third-party
 ||crackbroadcasting.com^
 ||crackedsafe.com^
+||crackedsafe.com^$third-party
 ||crackquarrelsomeslower.com^
 ||crackyunfence.com^
 ||craegvin.com^
@@ -65597,6 +65600,7 @@ zyro.com##.zyro-cookies
 ||crash.xiaohongshu.com^
 ||crashapi.growingio.com^
 ||crashchance.com^
+||crashchance.com^$third-party
 ||crashes.mo.wps.cn^
 ||crasheye.cn^
 ||crashlytics.163.com^
@@ -65607,17 +65611,16 @@ zyro.com##.zyro-cookies
 ||cratecamera.com^$third-party
 ||crateralbumcarlos.com^
 ||craterbox.com^
+||craterbox.com^$third-party
 ||craterwhsle.com^
 ||craveidentificationanoitmentanoitment.com^
 ||crawford-industries.actonservice.com^
 ||crawlclocks.com^
-||crawlclocks.com^$third-party
 ||crawlcoxed.com^
 ||crawledlikely.com^
 ||crawlerjamie.shop^
 ||crayon.meishichina.com^
 ||crayoncompetition.com^
-||crayoncompetition.com^$third-party
 ||crayonreareddreamt.com^
 ||crazefiles.com^
 ||crazesmalto.com^
@@ -65686,9 +65689,12 @@ zyro.com##.zyro-cookies
 ||creativesumo.com^
 ||creator.zmags.com^
 ||creatorcherry.com^
+||creatorcherry.com^$third-party
 ||creatorpassenger.com^
+||creatorpassenger.com^$third-party
 ||creatrin.site^
 ||creaturecabbage.com^
+||creaturecabbage.com^$third-party
 ||creaturescoinsbang.com^
 ||creaturespendsfreak.com^
 ||crechecatholicclaimed.com^
@@ -65699,7 +65705,6 @@ zyro.com##.zyro-cookies
 ||credible.com/api/logs-fe
 ||credistory.ru/api/v1/LiveMetrics/
 ||creditbitesize.com^
-||creditcreature.com^$third-party
 ||credotrigona.com^
 ||creeksettingbates.com^
 ||creeperfutileforgot.com^
@@ -65792,6 +65797,7 @@ zyro.com##.zyro-cookies
 ||cromq.xyz^
 ||croni.site^
 ||crookedcreature.com^
+||crookedcreature.com^$third-party
 ||crookrally.com^
 ||croplake.com^
 ||cross-system.com^
@@ -65896,6 +65902,7 @@ zyro.com##.zyro-cookies
 ||cryptotab.net^
 ||cryptown.netlify.com^
 ||cryptvalue.com^
+||cryptvalue.com^$third-party
 ||crystalapp.miguvideo.com^
 ||crystalboulevard.com^
 ||crystalboulevard.com^$third-party
@@ -66100,6 +66107,7 @@ zyro.com##.zyro-cookies
 ||cubchillysail.com^
 ||cube-78.com^
 ||cubepins.com^
+||cubepins.com^$third-party
 ||cuberoot.co^
 ||cuberoot.co^$third-party
 ||cubeuptownpert.com^
@@ -66112,7 +66120,9 @@ zyro.com##.zyro-cookies
 ||cudaojia.com^
 ||cuddlethehyena.com^
 ||cuddlycake.com^
+||cuddlycake.com^$third-party
 ||cuddlylunchroom.com^
+||cuddlylunchroom.com^$third-party
 ||cudgeletc.com^
 ||cudgelsupportiveobstacle.com^
 ||cudgoz.mifcom.de^
@@ -66156,15 +66166,15 @@ zyro.com##.zyro-cookies
 ||culture.intermedes.com^
 ||culture.pandasuite.io^
 ||culturedcamera.com^
+||culturedcamera.com^$third-party
 ||culturedfeather.com^
 ||culturedfeather.com^$third-party
 ||cumbersomecake.com^
-||cumbersomecake.com^$third-party
 ||cumbersomecar.com^
 ||cumbersomecar.com^$third-party
 ||cumbersomecarpenter.com^
+||cumbersomecarpenter.com^$third-party
 ||cumbersomecloud.com^
-||cumbersomecloud.com^$third-party
 ||cumbersomeduty.pro^
 ||cumbersomesteedominous.com^
 ||cunda.ai^
@@ -66188,12 +66198,14 @@ zyro.com##.zyro-cookies
 ||curatekrait.com^
 ||curatelsack.com^
 ||curator.io^
+||curbminers.com^$third-party
 ||cure.trueface.org^
 ||curesdf.top^
 ||curious.cognyte.com^
 ||curiouschalk.com^
 ||curiouschalk.com^$third-party
 ||curioussuccess.com^
+||curioussuccess.com^$third-party
 ||curl7bike.com^
 ||curledbuffet.com^
 ||curlsl.info^
@@ -66221,7 +66233,6 @@ zyro.com##.zyro-cookies
 ||curvedhoney.com^
 ||curvedhoney.com^$third-party
 ||curvedsquirrel.com^
-||curvedsquirrel.com^$third-party
 ||curvyalpaca.cc^
 ||curvycord.com^
 ||curvycord.com^$third-party
@@ -66272,21 +66283,16 @@ zyro.com##.zyro-cookies
 ||customsalternative.com^
 ||customselliot.com^
 ||cutcurrent.com^
-||cutcurrent.com^$third-party
 ||cuteab.com^
 ||cutecalculator.com^
-||cutecalculator.com^$third-party
 ||cutechin.com^
 ||cutechin.com^$third-party
 ||cutecushion.com^
-||cutecushion.com^$third-party
 ||cutelylookups.shop^
 ||cutepopcorn.com^
-||cutepopcorn.com^$third-party
 ||cuterbond.com^
 ||cutescale.online^
 ||cuteturkey.com^
-||cuteturkey.com^$third-party
 ||cutlipsdanelaw.shop^
 ||cutsauvo.net^
 ||cutsoussouk.net^
@@ -66378,7 +66384,6 @@ zyro.com##.zyro-cookies
 ||cvgrszkg.xyz^
 ||cvgto-akmk.fun^
 ||cvhefd.ixbt.com^
-||cvhp.hrm.healthgrades.com^
 ||cvi6.destinia.qa^
 ||cvlb.dev^
 ||cvmuia.xyz^
@@ -66478,6 +66483,7 @@ zyro.com##.zyro-cookies
 ||cycleworked.com^
 ||cyclistforgotten.com^
 ||cyclopsdial.com^
+||cyclopsdial.com^$third-party
 ||cycndlhot.xyz^
 ||cycvyo.xyz^
 ||cycy.kxrxh.com^
@@ -66543,7 +66549,6 @@ zyro.com##.zyro-cookies
 ||cz-tropicliberec.m-shop.me^
 ||cz-velkykosik.m-shop.me^
 ||cz.ifeng0.com^
-||cz.promo.skf.com^
 ||cz4444.cn^
 ||cz75pw.kl0ru78.xyz^
 ||czaraptitude.com^
@@ -67778,10 +67783,10 @@ zyro.com##.zyro-cookies
 ||dam.zhqryw.cn^
 ||damagecontributionexcessive.com^
 ||damagedadvice.com^
+||damagedadvice.com^$third-party
 ||damageddistance.com^
 ||damageddistance.com^$third-party
 ||damagedmissionaryadmonish.com^
-||damagedroll.com^$third-party
 ||damb68.com^
 ||damdoor.com^
 ||damdoor.com^$third-party
@@ -67805,7 +67810,9 @@ zyro.com##.zyro-cookies
 ||dandinterpersona.com^
 ||dandyblondewinding.com^
 ||dandydune.com^
+||dandydune.com^$third-party
 ||dandyglow.com^
+||dandyglow.com^$third-party
 ||danesuffocate.com^
 ||dangerfiddlesticks.com^
 ||dangeridiom.com^
@@ -67838,7 +67845,6 @@ zyro.com##.zyro-cookies
 ||dapperdiscussion.com^
 ||dapperdiscussion.com^$third-party
 ||dapperfloor.com^
-||dapperfloor.com^$third-party
 ||dapro.cloud^
 ||dapsotsares.com^
 ||daptault.com^
@@ -67895,11 +67901,8 @@ zyro.com##.zyro-cookies
 ||dashedheroncapricorn.com^
 ||dashgreen.online^
 ||dashingdirt.com^
-||dashingdirt.com^$third-party
 ||dashingdrop.com^
-||dashingdrop.com^$third-party
 ||dashingsweater.com^
-||dashingsweater.com^$third-party
 ||dashnakdrey.com^
 ||daslethv.com^
 ||dasljfoq.top^
@@ -68531,6 +68534,7 @@ zyro.com##.zyro-cookies
 ||datasteam.io^
 ||datasteam.io^$third-party
 ||datastoried.com^
+||datastoried.com^$third-party
 ||datatechdrift.com^
 ||datatechone.com^
 ||datatechonert.com^
@@ -68591,6 +68595,7 @@ zyro.com##.zyro-cookies
 ||daughterinlawrib.com^
 ||daughtersarbourbarrel.com^
 ||daughterstone.com^
+||daughterstone.com^$third-party
 ||daukshewing.com^
 ||daumcdn.net^*/awsa.js
 ||dauntgolfconfiscate.com^
@@ -68617,6 +68622,7 @@ zyro.com##.zyro-cookies
 ||day66.com^
 ||daybreakarchitecture.com^
 ||daymodern.com^
+||daymodern.com^$third-party
 ||dayqy.space^
 ||daytimeentreatyalternate.com^
 ||dayujs.top^
@@ -68629,6 +68635,7 @@ zyro.com##.zyro-cookies
 ||dazhantai.com^
 ||dazu57wmpm14b.cloudfront.net^
 ||dazzlingbook.com^
+||dazzlingbook.com^$third-party
 ||db-ip.com^$third-party
 ||db.cjtcc.cn^
 ||db.xiaoshuofuwuqi.com^
@@ -68914,7 +68921,6 @@ zyro.com##.zyro-cookies
 ||de.dzribao.com^
 ||de.mywd.com^
 ||de.pandora.xiaomi.com^
-||de.promo.skf.com^
 ||de.sharpmarketing.eu^
 ||de.soquair.com^
 ||de.verintsystemsinc.com^
@@ -68931,6 +68937,7 @@ zyro.com##.zyro-cookies
 ||deafeningdock.com^
 ||deafeningdock.com^$third-party
 ||deafeningdowntown.com^
+||deafeningdowntown.com^$third-party
 ||deafeningphone.com^
 ||deagostinipassion.it/collezioni/analytics.js
 ||dealcurrent.com^
@@ -68959,7 +68966,6 @@ zyro.com##.zyro-cookies
 ||debonairtree.com^
 ||debonairtree.com^$third-party
 ||debonairway.com^
-||debonairway.com^$third-party
 ||debonerscroop.top^
 ||debrisstern.com^
 ||debtsbosom.com^
@@ -68968,6 +68974,7 @@ zyro.com##.zyro-cookies
 ||debug-r.rover.com^
 ||debug.mssp.adunite.com^
 ||debugentity.com^
+||debugentity.com^$third-party
 ||debugreport.mobiledissector.com^
 ||debutpanelquizmaster.com^
 ||decadedisplace.com^
@@ -69018,7 +69025,6 @@ zyro.com##.zyro-cookies
 ||decorationhailstone.com^
 ||decordingholo.org^
 ||decoroustitle.com^
-||decoroustitle.com^$third-party
 ||decossee.com^
 ||decoycreation.com^
 ||decoycreation.com^$third-party
@@ -69112,7 +69118,9 @@ zyro.com##.zyro-cookies
 ||deeprootedstranded.com^
 ||deepsaifaide.net^
 ||deeptack.com^
+||deeptack.com^$third-party
 ||deerbeginner.com^
+||deerbeginner.com^$third-party
 ||deeterno.cn^
 ||deethout.net^
 ||deewansturacin.com^
@@ -69125,13 +69133,14 @@ zyro.com##.zyro-cookies
 ||defaultts.tc.qq.com^
 ||defeatedadmirabledivision.com^
 ||defeatedbadge.com^
+||defeatedbadge.com^$third-party
 ||defeature.xyz^
 ||defectivedress.com^
-||defectivedress.com^$third-party
 ||defenceblake.com^
 ||defendantlucrative.com^
 ||defenseneckpresent.com^
 ||defensevest.com^
+||defensevest.com^$third-party
 ||defensive-bad.com^
 ||deferapproximately.com^
 ||deferjobfeels.com^
@@ -69140,7 +69149,6 @@ zyro.com##.zyro-cookies
 ||defiancefaithlessleague.com^
 ||defiantmotherfamine.com^
 ||defiantrice.com^
-||defiantrice.com^$third-party
 ||deficitsilverdisability.com^
 ||definedbootnervous.com^
 ||definitial.com^
@@ -69160,6 +69168,7 @@ zyro.com##.zyro-cookies
 ||degree.insead.edu^
 ||degreebristlesaved.com^
 ||degreechariot.com^
+||degreechariot.com^$third-party
 ||degutu.xyz^
 ||dehaer.site^
 ||dehimalowbowohe.info^
@@ -69194,7 +69203,6 @@ zyro.com##.zyro-cookies
 ||delicatecascade.com^
 ||delicatecascade.com^$third-party
 ||delicateducks.com^
-||delicateducks.com^$third-party
 ||delicateomissionarched.com^
 ||delicatereliancegodmother.com^
 ||delicious-slip.pro^
@@ -69210,7 +69218,6 @@ zyro.com##.zyro-cookies
 ||delightedprawn.com^
 ||delightful-page.pro^
 ||delightfulhour.com^
-||delightfulhour.com^$third-party
 ||delightfulmachine.pro^
 ||delightspiritedtroop.com^
 ||deligrassdull.com^
@@ -69258,6 +69265,7 @@ zyro.com##.zyro-cookies
 ||delphi.ni.com^
 ||delta.com/datacollect
 ||deltafault.com^
+||deltafault.com^$third-party
 ||deltarockies.com^
 ||deltaxmultimedia.com/cookielaw$script
 ||deltraff.com^
@@ -69267,6 +69275,7 @@ zyro.com##.zyro-cookies
 ||delutza.com^
 ||deluxe-download.com^
 ||deluxecrate.com^
+||deluxecrate.com^$third-party
 ||delvenetworks.com/player/plugins/analytics/
 ||demand.supply^
 ||demandbase.com^
@@ -69359,6 +69368,7 @@ zyro.com##.zyro-cookies
 ||depleteappetizinguniverse.com^
 ||deploremythsound.com^
 ||deployads.com^
+||deployinput.com^$third-party
 ||deponerdidym.top^
 ||deporttideevenings.com^
 ||depositpastel.com^
@@ -69408,9 +69418,7 @@ zyro.com##.zyro-cookies
 ||desekansr.com^
 ||desenteir.com^
 ||desertedbreath.com^
-||desertedbreath.com^$third-party
 ||desertedrat.com^
-||desertedrat.com^$third-party
 ||desertsutilizetopless.com^
 ||deserveannotationjesus.com^
 ||desgao1zt7irn.cloudfront.net^
@@ -69425,6 +69433,7 @@ zyro.com##.zyro-cookies
 ||designeropened.com^
 ||designingbadlyhinder.com^
 ||designingpupilintermediary.com^
+||designsgrid.com^$third-party
 ||designsrivetfoolish.com^
 ||desipearl.com/tracker/
 ||desipearl.com^
@@ -69436,7 +69445,6 @@ zyro.com##.zyro-cookies
 ||desiregig.com^
 ||desiremolecule.com^
 ||deskdecision.com^
-||deskdecision.com^$third-party
 ||deslatiosan.com^
 ||desmos.com/analytics/js/
 ||despairrim.com^
@@ -69461,7 +69469,6 @@ zyro.com##.zyro-cookies
 ||detachedknot.com^
 ||detail.taobao.com^
 ||detailedglue.com^
-||detailedglue.com^$third-party
 ||detailedgovernment.com^
 ||detailedgovernment.com^$third-party
 ||detailedkitten.com^$third-party
@@ -69502,6 +69509,7 @@ zyro.com##.zyro-cookies
 ||detnmz.techwalla.com^
 ||detour.click^
 ||detourgame.com^
+||detourgame.com^$third-party
 ||deturbcordies.com^
 ||deut1.fdj.fr^
 ||deut2.fdj.fr^
@@ -69574,7 +69582,9 @@ zyro.com##.zyro-cookies
 ||device9.com^
 ||device9.com^$third-party
 ||deviceseal.com^
+||deviceseal.com^$third-party
 ||deviceworkshop.com^
+||deviceworkshop.com^$third-party
 ||deview-moryant.icu^
 ||devilishdinner.com^
 ||devilishdinner.com^$third-party
@@ -69601,6 +69611,7 @@ zyro.com##.zyro-cookies
 ||dew1.fx6j3.cn^
 ||dew9ckzjyt2gn.cloudfront.net^
 ||dewdroplagoon.com^
+||dewdroplagoon.com^$third-party
 ||dewincubiatoll.com^
 ||dewreseptivereseptiveought.com^
 ||dexchangegenius.com^
@@ -69896,7 +69907,6 @@ zyro.com##.zyro-cookies
 ||differencenaturalistfoam.com^
 ||differenchi.pro^
 ||differentcoat.com^
-||differentcoat.com^$third-party
 ||differentevidence.com^
 ||differentlydiscussed.com^
 ||differfundamental.com^
@@ -69924,6 +69934,7 @@ zyro.com##.zyro-cookies
 ||dig.zjurl.cn^
 ||digadser.com^
 ||digestiondrawer.com^
+||digestiondrawer.com^$third-party
 ||digestionethicalcognomen.com^
 ||digg.analytics.live.com^
 ||digg.com/library/tracker.js
@@ -69993,7 +70004,6 @@ zyro.com##.zyro-cookies
 ||digitalworkplace.ricoh.fr^
 ||digitru.st^
 ||digitru.st^$third-party
-||dignityhealth.hrm.healthgrades.com^
 ||dignityhourmulticultural.com^
 ||dignityprop.com^
 ||dignityunattractivefungus.com^
@@ -70416,7 +70426,6 @@ zyro.com##.zyro-cookies
 ||dispatchfeed.com^
 ||dispatchunique.com^
 ||dispensablestranger.com^
-||dispensablestranger.com^$third-party
 ||dispensedessertbody.com^
 ||dispenser-rtb.sape.ru^
 ||dispersecottage.com^
@@ -70467,7 +70476,6 @@ zyro.com##.zyro-cookies
 ||dist.bpc.ad-stir.com^
 ||distancefilmingamateur.com^
 ||distancefinger.com^
-||distancefinger.com^$third-party
 ||distancemedicalchristian.com^
 ||distant-handle.pro^
 ||distant-session.pro^
@@ -70492,6 +70500,7 @@ zyro.com##.zyro-cookies
 ||distributionfray.com^
 ||distributionland.website^
 ||distributionneck.com^
+||distributionneck.com^$third-party
 ||distributionpocket.com^
 ||distributionpocket.com^$third-party
 ||distributionrealmoth.com^
@@ -70520,7 +70529,6 @@ zyro.com##.zyro-cookies
 ||divekcl7q9fxi.cloudfront.net^
 ||divergeimperfect.com^
 ||divergentoffer.com^
-||divergentoffer.com^$third-party
 ||diverhaul.com^
 ||divertbywordinjustice.com^
 ||divetroubledloud.com^
@@ -71031,8 +71039,8 @@ zyro.com##.zyro-cookies
 ||dogolurkr.com^
 ||dogprocure.com^
 ||dogsonclouds.com^
+||dogsonclouds.com^$third-party
 ||dogsshoes.com^
-||dogsshoes.com^$third-party
 ||dogt.xyz^
 ||dogwrite.com^
 ||dohihf.com^
@@ -71066,7 +71074,6 @@ zyro.com##.zyro-cookies
 ||dollardelta.com^$third-party
 ||dollartree.com/ccstoreui/*/analytics/
 ||dolldetail.com^
-||dolldetail.com^$third-party
 ||dolohen.com^
 ||dolphin.deliver.ifeng.com^
 ||dolphin.ftimg.net^
@@ -71129,7 +71136,6 @@ zyro.com##.zyro-cookies
 ||doninjaskr.com^
 ||donjigrad.viessmann.rs^
 ||donkeyleaf.com^
-||donkeyleaf.com^$third-party
 ||donkeymob.com^
 ||donkstar1.online^
 ||donkstar2.online^
@@ -71160,7 +71166,6 @@ zyro.com##.zyro-cookies
 ||doopimim.net^
 ||doorbanker.com^
 ||doorbrazil.com^
-||doorbrazil.com^$third-party
 ||doormantdoormantbumpyinvincible.com^
 ||doostaiy.com^
 ||doostozoa.net^
@@ -71237,6 +71242,7 @@ zyro.com##.zyro-cookies
 ||doubleclick.ctfile.com^
 ||doubleclick.net^
 ||doubledefend.com^
+||doubledefend.com^$third-party
 ||doublemax.net^
 ||doubleonclick.com^
 ||doublepimp.com^
@@ -71248,9 +71254,9 @@ zyro.com##.zyro-cookies
 ||doubleview.online^
 ||doubtcigardug.com^
 ||doubtdrawer.com^
+||doubtdrawer.com^$third-party
 ||doubtedprompts.com^
 ||doubtfulrainstorm.com^
-||doubtfulrainstorm.com^$third-party
 ||doubtmeasure.com^
 ||doubtslutecia.com^
 ||douchaiwouvo.net^
@@ -71398,7 +71404,6 @@ zyro.com##.zyro-cookies
 ||downsexv.com^
 ||downstairsnegotiatebarren.com^
 ||downtowndirection.com^
-||downtowndirection.com^$third-party
 ||downtownit.actonservice.com^
 ||downtransmitter.com^
 ||downwardstreakchar.com^
@@ -71500,9 +71505,7 @@ zyro.com##.zyro-cookies
 ||drabimprovement.com^
 ||drablyperms.top^
 ||drabsize.com^
-||drabsize.com^$third-party
 ||draconiancurve.com^
-||draconiancurve.com^$third-party
 ||draftbeware.com^
 ||draftedorgany.com^
 ||dragdisrespectmeddling.com^
@@ -71510,14 +71513,12 @@ zyro.com##.zyro-cookies
 ||dragnag.com^
 ||dragonhack.shop^
 ||dragzebra.com^
-||dragzebra.com^$third-party
 ||drainpaste.com^
 ||drainpaste.com^$third-party
 ||dralintheirbr.com^
 ||dramamutual.com^
 ||dramasoloist.com^
 ||dramaticcondition.com^
-||dramaticcondition.com^$third-party
 ||dramaticdirection.com^
 ||dramaticdirection.com^$third-party
 ||dranktonsil.com^
@@ -71559,9 +71560,9 @@ zyro.com##.zyro-cookies
 ||dreamlikeverse.com^
 ||dreamnews.biz^
 ||dreamsaukn.org^
+||dreamsdome.com^$third-party
 ||dreamteamaffiliates.com^
 ||dreamycanyon.com^
-||dreamycanyon.com^$third-party
 ||drearypassport.com^
 ||drebz4f.shop^
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
@@ -71574,7 +71575,6 @@ zyro.com##.zyro-cookies
 ||dresserderange.com^
 ||dresserfindparlour.com^
 ||dressexpansion.com^
-||dressexpansion.com^$third-party
 ||dressimage.img-cn-beijing.aliyuncs.com^
 ||dressingdedicatedmeeting.com^
 ||dressmakerdecisivesuburban.com^
@@ -71598,12 +71598,13 @@ zyro.com##.zyro-cookies
 ||drift.com/impressions/
 ||drift.com/targeting/evaluate_with_log
 ||drift.com/track
+||driftingchef.com^$third-party
 ||driftpizza.com^
+||driftpizza.com^$third-party
 ||drihmae.com^
 ||drillcompensate.com^
 ||drinksbookcaseconsensus.com^
 ||dripappliance.com^
-||dripappliance.com^$third-party
 ||dripe.site^
 ||driv-analytics.com^
 ||driv-analytics.com^$third-party
@@ -71616,7 +71617,6 @@ zyro.com##.zyro-cookies
 ||driver.jugnoo.in^
 ||drivercontinentcleave.com^
 ||driverequest.com^
-||driverequest.com^$third-party
 ||drivewayilluminatedconstitute.com^
 ||drivewayperrydrought.com^
 ||drivingfoot.website^
@@ -71628,6 +71628,7 @@ zyro.com##.zyro-cookies
 ||drleez.xyz^
 ||drmcmm.baidu.cn^
 ||drollwharf.com^
+||drollwharf.com^$third-party
 ||drom.ru/dummy.
 ||dromoicassida.com^
 ||dronediscussed.com^
@@ -71639,7 +71640,6 @@ zyro.com##.zyro-cookies
 ||dropbox.com/2/client_metrics
 ||dropbox.com/2/pap_event_logging
 ||dropbox.com/alternate_
-||dropbox.com/csp_log?
 ||dropbox.com/jse
 ||dropbox.com/log/
 ||dropbox.com/log_js_sw_data
@@ -71998,10 +71998,9 @@ zyro.com##.zyro-cookies
 ||dustydime.com^
 ||dustydime.com^$third-party
 ||dustyhammer.com^
+||dustyhammer.com^$third-party
 ||dustyrabbits.com^
-||dustyrabbits.com^$third-party
 ||dustywave.com^
-||dustywave.com^$third-party
 ||dustywrenchdesigned.com^
 ||dutils.com^
 ||dutorterraom.com^
@@ -72148,6 +72147,7 @@ zyro.com##.zyro-cookies
 ||dybxezbel1g44.cloudfront.net^
 ||dycwt.cn^
 ||dydab.com^
+||dyecloud.com^$third-party
 ||dyegif.icu^
 ||dyeperd.icu^
 ||dyerbossier.top^
@@ -72279,7 +72279,6 @@ zyro.com##.zyro-cookies
 ||e-kuzbass.ru^$third-party
 ||e-learning.brainshark.com^
 ||e-libra.ru^
-||e-nls.com/disp_cnt.php
 ||e-p4p.163.com^
 ||e-pagerank.fr/bouton.gif?$third-party
 ||e-pagerank.net^
@@ -72505,7 +72504,6 @@ zyro.com##.zyro-cookies
 ||e.hogyp.com^
 ||e.hpcat.cn^
 ||e.hpzyl.com^
-||e.htplayground.com^
 ||e.huaas.com^
 ||e.hun3f.cn^
 ||e.hunpp.com^
@@ -72940,7 +72938,9 @@ zyro.com##.zyro-cookies
 ||eagereden.com^
 ||eagereden.com^$third-party
 ||eagerflame.com^
+||eagerflame.com^$third-party
 ||eagerknight.com^
+||eagerknight.com^$third-party
 ||eagle-insight.com^
 ||eagle.actonservice.com^
 ||eagle.aon.com^
@@ -72980,6 +72980,7 @@ zyro.com##.zyro-cookies
 ||early-birds.io^$third-party
 ||earlyfortune.pro^
 ||earnbaht.com^
+||earnbaht.com^$third-party
 ||earncoins.club^
 ||earnify.com^
 ||earningsgrandpa.com^
@@ -72991,10 +72992,9 @@ zyro.com##.zyro-cookies
 ||earth.cointelegraph.com^
 ||earthquakehomesinsulation.com^
 ||earthquakescarf.com^
-||earthquakescarf.com^$third-party
 ||earthycopy.com^
-||earthycopy.com^$third-party
 ||earthyfarm.com^
+||earthyfarm.com^$third-party
 ||eas696r.xyz^
 ||easeavailandpro.info^
 ||easegoes.com^
@@ -73063,6 +73063,7 @@ zyro.com##.zyro-cookies
 ||eat.newtrina.com^
 ||eat9.thebeat925.ca^
 ||eatablesquare.com^
+||eatablesquare.com^$third-party
 ||eatasesetitoefa.info^
 ||eatasesetitoefany.com^
 ||eaterdrewduchess.com^
@@ -73260,6 +73261,7 @@ zyro.com##.zyro-cookies
 ||echocultdanger.com^
 ||echoeshamauls.com^
 ||echoinghaven.com^
+||echoinghaven.com^$third-party
 ||echopixelwave.net^
 ||ecikmrm.icu^
 ||ecipientconc.org^
@@ -73302,14 +73304,12 @@ zyro.com##.zyro-cookies
 ||econnect.actonservice.com^
 ||economicadvantage.midamerican.com^
 ||economicpizzas.com^
-||economicpizzas.com^$third-party
 ||economies.adp.ca^
 ||economyhave.com^
 ||econsistentlyplea.com^
 ||ecookie.nl^
 ||ecos.am/gdpr.js$script
 ||ecoulsou.xyz^
-||ecp.bdoaustralia.bdo.com.au^
 ||ecpm.tanx.com^
 ||ecpms.net^
 ||ecpshapm.xyz^
@@ -73493,6 +73493,7 @@ zyro.com##.zyro-cookies
 ||educationrailway.website^
 ||educedsteeped.com^
 ||educontinua.javeriana.edu.co^
+||educrated.com^$third-party
 ||eduizioq.com^
 ||edutalkingdata.cn^
 ||edutalkingdata.com^
@@ -73501,7 +73502,6 @@ zyro.com##.zyro-cookies
 ||edvfwlacluo.com^
 ||edvxygh.com^
 ||edw.edmunds.com/edw/edw1x1.gif
-||edward.hrm.healthgrades.com^
 ||ee.0pi84.cn^
 ||ee.1s8pj.cn^
 ||ee.2v0ni.cn^
@@ -73686,9 +73686,10 @@ zyro.com##.zyro-cookies
 ||effectuallylazy.com^
 ||effeminatecementsold.com^
 ||effervescentcoral.com^
+||effervescentcoral.com^$third-party
 ||effervescentvista.com^
+||effervescentvista.com^$third-party
 ||efficaciouscactus.com^
-||efficaciouscactus.com^$third-party
 ||efficiency.nl.visma.com^
 ||efficiency.visma.com^
 ||efficiency.visma.dk^
@@ -73699,7 +73700,9 @@ zyro.com##.zyro-cookies
 ||effirst.cn^
 ||effirst.com^
 ||effulgentnook.com^
+||effulgentnook.com^$third-party
 ||effulgenttempest.com^
+||effulgenttempest.com^$third-party
 ||efg.zle.com^
 ||efgam.actonservice.com^
 ||efgh.5lu.com^
@@ -73895,14 +73898,11 @@ zyro.com##.zyro-cookies
 ||elatedynast.com^
 ||elaterconditing.info^
 ||elaydark.com^
-||elcaminohospital.hrm.healthgrades.com^
 ||elconfidencialdigital.actonservice.com^
 ||elderlybean.com^
 ||elderlybean.com^$third-party
 ||elderlyinsect.com^
-||elderlyinsect.com^$third-party
 ||elderlyscissors.com^
-||elderlyscissors.com^$third-party
 ||elderlytown.com^
 ||elderlytown.com^$third-party
 ||eldestcontribution.com^
@@ -74041,6 +74041,7 @@ zyro.com##.zyro-cookies
 ||eloquatracking.internationalsos.com^
 ||eloquatracking.iqvia.com^
 ||eloquatracking.mindbody.io^
+||eloquenceeye.com^$third-party
 ||eloquentvaluation.com^
 ||elpais.com/t.gif
 ||elpfulinotahere.com^
@@ -74186,13 +74187,16 @@ zyro.com##.zyro-cookies
 ||elugnoasargo.com^
 ||eluocs.xyz^
 ||elusivebreeze.com^
+||elusivebreeze.com^$third-party
 ||elusivecascade.com^
+||elusivecascade.com^$third-party
 ||eluviabattler.com^
 ||eluxer.net^
 ||eluxer.net^$third-party
 ||elvirassb.com^
 ||elymusyomin.click^
 ||elysiantraverse.com^
+||elysiantraverse.com^$third-party
 ||elyxvt.wilsonamplifiers.com^
 ||em-email.thermofisher.com^
 ||em-info2.thermofisher.com^
@@ -74487,8 +74491,11 @@ zyro.com##.zyro-cookies
 ||embedme.top/embed/extra
 ||embeds.beehiiv.com^
 ||embellishedmeadow.com^
+||embellishedmeadow.com^$third-party
 ||embermosaic.com^
+||embermosaic.com^$third-party
 ||emberwhisper.com^
+||emberwhisper.com^$third-party
 ||embezzlementthemselves.com^
 ||embirashires.top^
 ||embknh.perriconemd.com^
@@ -74506,7 +74513,6 @@ zyro.com##.zyro-cookies
 ||emdlqs.longtallsally.com^
 ||emea-go.experian.com^
 ||emea.kollmorgen.com^
-||emea.promo.skf.com^
 ||emeadm.rockwellautomation.com^
 ||emeanews.secureforms.partnermcafee.com^
 ||emediate.dk^
@@ -74602,15 +74608,17 @@ zyro.com##.zyro-cookies
 ||encesprincipledecl.info^
 ||enchanted-stretch.pro^
 ||enchantedjudge.com^
-||enchantedjudge.com^$third-party
 ||enchantedrock.actonservice.com^
 ||enchantedskyline.com^
-||enchantedtop.com^$third-party
+||enchantedskyline.com^$third-party
 ||enchantingdiscovery.com^
+||enchantingdiscovery.com^$third-party
 ||enchantingenchantment.com^
 ||enchantingenchantment.com^$third-party
 ||enchantingmystique.com^
+||enchantingmystique.com^$third-party
 ||enchantingtundra.com^
+||enchantingtundra.com^$third-party
 ||enchantingvalley.com^
 ||enchantingvalley.com^$third-party
 ||encirclehumanityarea.com^
@@ -74626,18 +74634,14 @@ zyro.com##.zyro-cookies
 ||encounterponder.com^
 ||encouragedrealityirresponsible.com^
 ||encouragedunrulyriddle.com^
-||encourageidea.com^$third-party
 ||encourageshock.com^
 ||encourageshock.com^$third-party
 ||encouragingleaf.com^
-||encouragingleaf.com^$third-party
 ||encouragingpistolassemble.com^
 ||encouragingthread.com^
 ||encouragingthread.com^$third-party
 ||encouragingvase.com^
-||encouragingvase.com^$third-party
 ||encouragingwilderness.com^
-||encouragingwilderness.com^$third-party
 ||encuestas.billeteramango.com^
 ||encumberbiased.com^
 ||encumberglowingcamera.com^
@@ -74652,6 +74656,7 @@ zyro.com##.zyro-cookies
 ||endlessloveonline.online^
 ||endlesslyalwaysbeset.com^
 ||endlesstrust.com^
+||endlesstrust.com^$third-party
 ||endljp.168chasa.bg^
 ||endljp.abv.bg^
 ||endljp.activenews.ro^
@@ -74679,8 +74684,8 @@ zyro.com##.zyro-cookies
 ||endowmentoverhangutmost.com^
 ||endream.buzz^
 ||endurablebulb.com^
+||endurablebulb.com^$third-party
 ||endurableshop.com^
-||endurableshop.com^$third-party
 ||endurancetransmitted.com^
 ||enduresopens.com^
 ||endwaysdsname.com^
@@ -74888,9 +74893,13 @@ zyro.com##.zyro-cookies
 ||enifdlaw.top^
 ||enigmahazesalt.com^
 ||enigmaprint.com^
+||enigmaprint.com^$third-party
 ||enigmaticblossom.com^
+||enigmaticblossom.com^$third-party
 ||enigmaticcanyon.com^
+||enigmaticcanyon.com^$third-party
 ||enigmaticvoyage.com^
+||enigmaticvoyage.com^$third-party
 ||eniobs.moncler.com^
 ||eniro.com/pixel/
 ||enjaaiwix.com^
@@ -74953,6 +74962,7 @@ zyro.com##.zyro-cookies
 ||enter-system.com^
 ||enter-system.com^$third-party
 ||enterdrama.com^
+||enterdrama.com^$third-party
 ||enteredcocktruthful.com^
 ||enterombacerick.com^
 ||enterprise-consortiumoperation.com^
@@ -74966,12 +74976,12 @@ zyro.com##.zyro-cookies
 ||enterprisingoperation-7.com^
 ||entertaininauguratecontest.com^
 ||entertainingeyes.com^
-||entertainingeyes.com^$third-party
 ||entertainskin.com^
+||entertainskin.com^$third-party
 ||enthusiastgaming.net^
 ||enthusiasticdad.com^
-||enthusiasticdad.com^$third-party
 ||enthusiastictemper.com^
+||enthusiastictemper.com^$third-party
 ||enticeobjecteddo.com^
 ||entirelyhonorary.com^
 ||entirelysacrament.com^
@@ -75080,6 +75090,7 @@ zyro.com##.zyro-cookies
 ||epicgameads.com^
 ||epicgolive.rainresources.com^
 ||epicoldschool.com^
+||epicoldschool.com^$third-party
 ||epilinserts.com^
 ||epilot.com^
 ||epilot.com^$third-party
@@ -75238,7 +75249,6 @@ zyro.com##.zyro-cookies
 ||err.ifengcloud.ifeng.com^
 ||errantstetrole.com^
 ||erraticreaction.com^
-||erraticreaction.com^$third-party
 ||errbandsillumination.com^
 ||erringstartdelinquent.com^
 ||errolandtessa.com^
@@ -75346,7 +75356,6 @@ zyro.com##.zyro-cookies
 ||ess.tis.co.jp^
 ||essayads.com^
 ||essaycoupons.com^
-||essentiahealth.hrm.healthgrades.com^
 ||essential-trash.com^
 ||essentialshookmight.com^
 ||essmnx.edreams.ch^
@@ -75419,11 +75428,15 @@ zyro.com##.zyro-cookies
 ||ether-pack.pangolin-sdk-toutiao.com^
 ||etherart.online^
 ||etherealbamboo.com^
+||etherealbamboo.com^$third-party
 ||ethereallagoon.com^
+||ethereallagoon.com^$third-party
 ||etherealpinnacle.com^
+||etherealpinnacle.com^$third-party
 ||etherealquasar.com^
 ||etherealquasar.com^$third-party
 ||etherealripple.com^
+||etherealripple.com^$third-party
 ||ethereum-cashcard.com^
 ||ethereum-cashcard.com^$third-party
 ||ethereum-cashcard.de^
@@ -75653,6 +75666,7 @@ zyro.com##.zyro-cookies
 ||evaporatepublicity.com^
 ||evasiondemandedlearning.com^
 ||evasivejar.com^
+||evasivejar.com^$third-party
 ||evb0gxo.icu^
 ||evbb.xyz^
 ||evbrkhz.xyz^
@@ -75841,6 +75855,7 @@ zyro.com##.zyro-cookies
 ||events3alt.adcolony.com^
 ||eventsbands.com^
 ||eventsink.api.redbee.live^
+||eventsmall.com^$third-party
 ||eventsproxy.gargantuan.futureplc.com^
 ||eventstream.dodopizza.com^
 ||eventuallysmallestejection.com^
@@ -75889,7 +75904,6 @@ zyro.com##.zyro-cookies
 ||evnzcl.ranking.ac^
 ||evolent.actonservice.com^
 ||evolok.net^
-||evolution.promo.skf.com^
 ||evolutionmarketing.actonservice.com^
 ||evolvemediallc.com^
 ||evolvenation.com^
@@ -76014,6 +76028,7 @@ zyro.com##.zyro-cookies
 ||excitinginstitute.com^
 ||excitingstory.click^
 ||excitingtub.com^
+||excitingtub.com^$third-party
 ||exclaimrefund.com^
 ||exclkplat.com^
 ||exclplatmain.com^
@@ -76037,6 +76052,7 @@ zyro.com##.zyro-cookies
 ||execuri.com^
 ||executeabattoir.com^
 ||executeknowledge.com^
+||executeknowledge.com^$third-party
 ||execution-ci360.rai.it^
 ||executionago.com^
 ||executivetumult.com^
@@ -76135,7 +76151,6 @@ zyro.com##.zyro-cookies
 ||experience2013.elliemae.com^
 ||experienceabdomen.com^
 ||experienceeggs.com^
-||experienceeggs.com^$third-party
 ||experienceplatform.avaya.com^
 ||experiences.cibc.com^
 ||experiences.simplii.com^
@@ -76246,8 +76261,10 @@ zyro.com##.zyro-cookies
 ||extractobservation.com^$third-party
 ||extractsupperpigs.com^
 ||extralocker.com^
+||extralocker.com^$third-party
 ||extramilefloorcare.ericksonbuilt.com^
 ||extramonies.com^
+||extramonies.com^$third-party
 ||extrawatch.com^
 ||extrawatch.com^$third-party
 ||extreme-dm.com^
@@ -76259,12 +76276,10 @@ zyro.com##.zyro-cookies
 ||extrer.com^
 ||extstat.com^
 ||exuberantedge.com^
+||exuberantedge.com^$third-party
 ||exuberanteyes.com^
-||exuberanteyes.com^$third-party
 ||exuberantsoda.com^
-||exuberantsoda.com^$third-party
 ||exultantdrop.com^
-||exultantdrop.com^$third-party
 ||exurbdaimiel.com^
 ||exwvpm.misumi-ec.com^
 ||exxaygm.com^
@@ -76449,7 +76464,6 @@ zyro.com##.zyro-cookies
 ||fabriczigzagpercentage.com^
 ||fabryczna.viessmann.pl^
 ||fabu333.top^
-||fabulousterritory.com^$third-party
 ||fac.fanucamerica.com^
 ||fac2.oadz.com^
 ||facai383.oss-cn-guangzhou.aliyuncs.com^
@@ -76486,8 +76500,8 @@ zyro.com##.zyro-cookies
 ||facileravagebased.com^
 ||faciliatefightpierre.com^
 ||facilitatebreakfast.com^
+||facilitatebreakfast.com^$third-party
 ||facilitategrandfather.com^
-||facilitategrandfather.com^$third-party
 ||facilitatevoluntarily.com^
 ||facilitycompetition.com^
 ||facilityearlyimminent.com^
@@ -76499,12 +76513,10 @@ zyro.com##.zyro-cookies
 ||fadechildren.com^
 ||fadechildren.com^$third-party
 ||fadedprofit.com^
-||fadedprofit.com^$third-party
 ||fadedsnow.com^
 ||fadedsnow.com^$third-party
 ||fadegranted.com^
 ||fadesunshine.com^
-||fadewaves.com^$third-party
 ||fadf617f13.com^
 ||fadfussequipment.com^
 ||fadhvz.xyz^
@@ -76545,7 +76557,6 @@ zyro.com##.zyro-cookies
 ||faintestlogic.com^
 ||faintestmingleviolin.com^
 ||faintflag.com^
-||faintflag.com^$third-party
 ||faintjump.com^
 ||faintstates.com^
 ||faiphoawheepur.net^
@@ -76560,6 +76571,7 @@ zyro.com##.zyro-cookies
 ||fairfeeling.com^
 ||fairfeeling.com^$third-party
 ||fairiesbranch.com^
+||fairiesbranch.com^$third-party
 ||fairnesscrashedshy.com^
 ||fairnessels.com^
 ||fairnessmolebedtime.com^
@@ -76567,10 +76579,12 @@ zyro.com##.zyro-cookies
 ||fairygaze.com^
 ||fairygaze.com^$third-party
 ||fairytaleflame.com^
+||fairytaleflame.com^$third-party
 ||faisaphoofa.net^
 ||faised.com^
 ||faithaiy.com^
 ||faithfullywringfriendship.com^
+||faithrowold.com^$third-party
 ||faiverty-station.com^
 ||faiwastauk.com^
 ||fajukc.com^
@@ -76593,9 +76607,9 @@ zyro.com##.zyro-cookies
 ||falsarywaybung.com^
 ||falsechasingdefine.com^
 ||falsefeet.com^
-||falsefeet.com^$third-party
 ||falseframe.com^
 ||falseframe.com^$third-party
+||falsesight.com^$third-party
 ||falsifybrightly.com^
 ||falsifylilac.com^
 ||familiarpyromaniasloping.com^
@@ -76609,7 +76623,6 @@ zyro.com##.zyro-cookies
 ||famorlymal.com^
 ||famous-mall.pro^
 ||famousquarter.com^
-||famousquarter.com^$third-party
 ||famousremainedshaft.com^
 ||fan-yong.com^
 ||fan.info.heat.com^
@@ -76626,7 +76639,9 @@ zyro.com##.zyro-cookies
 ||fancydoctrinepermanently.com^
 ||fancydsp.com^
 ||fancydune.com^
+||fancydune.com^$third-party
 ||fancygrove.com^
+||fancygrove.com^$third-party
 ||fancysmp.com^
 ||fancysocialtalk.com^
 ||fancywhim.com^
@@ -76656,8 +76671,8 @@ zyro.com##.zyro-cookies
 ||fansshare.com/t.gif
 ||fantasticgap.pro^
 ||fantasticsmash.com^
-||fantasticsmash.com^$third-party
 ||fantastictone.com^
+||fantastictone.com^$third-party
 ||fantuan.name^
 ||fanxing.kugou.com^
 ||fanyi1.fanyi100.com.cn^
@@ -76699,6 +76714,7 @@ zyro.com##.zyro-cookies
 ||farshake.com^
 ||farshake.com^$third-party
 ||farsnails.com^
+||farsnails.com^$third-party
 ||farteniuson.com^
 ||fartherpensionerassure.com^
 ||fartmoda.com^
@@ -76706,7 +76722,6 @@ zyro.com##.zyro-cookies
 ||fascespro.com^
 ||fascinateddashboard.com^
 ||fascinatedfeather.com^
-||fascinatedfeather.com^$third-party
 ||fasgazazxvi.com^
 ||fashion-hat.cn^
 ||fashion.edm.globalsources.com^
@@ -76747,7 +76762,9 @@ zyro.com##.zyro-cookies
 ||fastenpaganhelm.com^
 ||faster-trk.com^
 ||fasterfineart.com^
+||fasterfineart.com^$third-party
 ||fasterjson.com^
+||fasterjson.com^$third-party
 ||fastesteye.com^
 ||fastfinch.co^
 ||fastgull.io^
@@ -76801,7 +76818,6 @@ zyro.com##.zyro-cookies
 ||faultycanvas.com^
 ||faultycanvas.com^$third-party
 ||faultyfowl.com^
-||faultyfowl.com^$third-party
 ||fauneeptoaso.com^
 ||fauphesh.com^
 ||fauphoaglu.net^
@@ -76949,7 +76965,6 @@ zyro.com##.zyro-cookies
 ||feakio.top^
 ||fear7calk.com^
 ||fearfowl.com^
-||fearfowl.com^$third-party
 ||fearfulfear.com^
 ||fearfulfish.com^
 ||fearfulfish.com^$third-party
@@ -76957,7 +76972,9 @@ zyro.com##.zyro-cookies
 ||fearfulmint.com^$third-party
 ||fearlessfaucet.com^
 ||fearlessfaucet.com^$third-party
+||fearlessfeast.com^$third-party
 ||fearlesstramp.com^
+||fearlesstramp.com^$third-party
 ||fearplausible.com^
 ||featbooksterile.com^
 ||featherstage.com^
@@ -76989,8 +77006,8 @@ zyro.com##.zyro-cookies
 ||fedsched.actonservice.com^
 ||fedsit.com^
 ||feebleshock.com^
-||feebleshock.com^$third-party
 ||feeblestamp.com^
+||feeblestamp.com^$third-party
 ||feed-ads.com^
 ||feed-image.baidu.com^
 ||feed-xml.com^
@@ -77027,6 +77044,7 @@ zyro.com##.zyro-cookies
 ||feedperfect.com^
 ||feedperfect.com^$third-party
 ||feeds.videosz.com^
+||feedten.com^$third-party
 ||feedyourheadmag.com^
 ||feedyourtralala.com^
 ||feefoamo.net^
@@ -77054,6 +77072,7 @@ zyro.com##.zyro-cookies
 ||fei232.bhzje7ua9.com^
 ||feidalu.com^
 ||feignedfaucet.com^
+||feignedfaucet.com^$third-party
 ||feignoccasionedmound.com^
 ||feignthat.com^
 ||feih.com.cn^
@@ -77150,6 +77169,7 @@ zyro.com##.zyro-cookies
 ||fewergkit.com^
 ||fewerreteach.shop^
 ||fewjuice.com^
+||fewjuice.com^$third-party
 ||fewkittens.com^
 ||fewkittens.com^$third-party
 ||fex.bdstatic.com^
@@ -77286,7 +77306,6 @@ zyro.com##.zyro-cookies
 ||fierysolemncow.com^
 ||fieslobwg.com^
 ||fiezaits.com^
-||fifthborder.com^$third-party
 ||fight.offtherecord.com^
 ||fightingleatherconspicuous.com^
 ||fightmallowfiasco.com^
@@ -77372,6 +77391,7 @@ zyro.com##.zyro-cookies
 ||finalyticsdata.com^$third-party
 ||finance-hot-news.com^
 ||financefear.com^
+||financefear.com^$third-party
 ||financialeducation-info.uchicago.edu^
 ||financialservices.nada.org^
 ||financialservices.teranet.ca^
@@ -77388,7 +77408,6 @@ zyro.com##.zyro-cookies
 ||findingattending.com^
 ||findingexchange.com^
 ||findmatches.com/bts.js
-||findmatches.com/t/tr/lp/intg.js?
 ||findmatches.com/tri?tid=
 ||findqc.com^
 ||findromanticdates.com^
@@ -77407,6 +77426,7 @@ zyro.com##.zyro-cookies
 ||fineporno.com^
 ||finessesherry.com^
 ||finestpiece.com^
+||finestpiece.com^$third-party
 ||finewe.ljqnbiogjp.com^
 ||fingahvf.top^
 ||finger-info.net^
@@ -77419,6 +77439,7 @@ zyro.com##.zyro-cookies
 ||fingkndk.com^
 ||finisheddaysflamboyant.com^
 ||finitecube.com^
+||finitecube.com^$third-party
 ||finized.co^
 ||finkyepbows.com^
 ||finley.fecinc.com^
@@ -77450,6 +77471,7 @@ zyro.com##.zyro-cookies
 ||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
 ||firecatfilms.com^
+||firecatfilms.com^$third-party
 ||firecrux.com/track/$xmlhttprequest
 ||firefang.cn^
 ||fireflyengagement.com^
@@ -77464,6 +77486,7 @@ zyro.com##.zyro-cookies
 ||fireworkanalytics.com^$third-party
 ||fireworkapi.com^
 ||fireworkcamp.com^
+||fireworkcamp.com^$third-party
 ||fireworkraycompared.com^
 ||fireworksane.com^
 ||fireworksjowrote.com^
@@ -77477,6 +77500,7 @@ zyro.com##.zyro-cookies
 ||first-id.fr^$third-party
 ||first-rate.com^
 ||firstendpoint.com^
+||firstendpoint.com^$third-party
 ||firstfrogs.com^
 ||firstfrogs.com^$third-party
 ||firstimpression.io^
@@ -77498,6 +77522,7 @@ zyro.com##.zyro-cookies
 ||fish882.xyz^
 ||fishermanplacingthrough.com^
 ||fishermanslush.com^
+||fishersfinds.com^$third-party
 ||fishesparkas.shop^
 ||fishing.daigostudio.com^
 ||fishingstuddy.com^
@@ -77516,6 +77541,7 @@ zyro.com##.zyro-cookies
 ||fitcenterz.com^
 ||fitfuldemolitionbilliards.com^
 ||fitmessage.com^
+||fitnessmapper.com^$third-party
 ||fitsazx.xyz^
 ||fitsjamescommunicated.com^
 ||fitssheashasvs.info^
@@ -77525,6 +77551,7 @@ zyro.com##.zyro-cookies
 ||fiverr.com/api/v1/activities
 ||fiverr.com/px/client/PXK3bezZfO/main.min.js
 ||fivesidedsquare.com^
+||fivesidedsquare.com^$third-party
 ||fivetrafficroads.com^
 ||fivulsou.xyz^
 ||fiwhibse.com^
@@ -77706,6 +77733,7 @@ zyro.com##.zyro-cookies
 ||flipp.com/beacons
 ||flippantguilt.com^
 ||flippedfunnel.com^
+||flippedfunnel.com^$third-party
 ||flipt.actonservice.com^
 ||flirt4e.com^
 ||flirt4free.com/pixel/
@@ -77766,10 +77794,14 @@ zyro.com##.zyro-cookies
 ||flounderpillowspooky.com^
 ||flourishbriefing.com^
 ||flourishingcollaboration.com^
+||flourishingcollaboration.com^$third-party
 ||flourishingendeavor.com^
+||flourishingendeavor.com^$third-party
 ||flourishinghardwareinhibit.com^
 ||flourishinginnovation.com^
+||flourishinginnovation.com^$third-party
 ||flourishingpartnership.com^
+||flourishingpartnership.com^$third-party
 ||flousecuprate.top^
 ||flow.1passwordservices.com/api/v1/event
 ||flow.kiloutou.fr^
@@ -77779,6 +77811,7 @@ zyro.com##.zyro-cookies
 ||flowerbooklet.com^
 ||flowerdicks.com^
 ||flowersornament.com^
+||flowersornament.com^$third-party
 ||flowerstreatment.com^
 ||flowerstreatment.com^$third-party
 ||flowerycreature.com^
@@ -77826,9 +77859,11 @@ zyro.com##.zyro-cookies
 ||flushconventional.com^
 ||flushedheartedcollect.com^
 ||flushingbeast.com^
+||flushingbeast.com^$third-party
 ||flushoriginring.com^
 ||flusoprano.com^
 ||flutteringfireman.com^
+||flutteringfireman.com^$third-party
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_AS_TM_AT.min.js
 ||flux-cdn.com/plugin/common/analytics/
 ||flux.com/geo.html?
@@ -77924,9 +77959,9 @@ zyro.com##.zyro-cookies
 ||foakiwhazoja.com^
 ||foalwoollenwolves.com^
 ||foambench.com^
+||foambench.com^$third-party
 ||foamingemda.top^
 ||foamyfood.com^
-||foamyfood.com^$third-party
 ||foapsovi.net^
 ||foasowut.xyz^
 ||focalex.com^
@@ -77992,6 +78027,7 @@ zyro.com##.zyro-cookies
 ||food9wave.com^
 ||foodbrochure.advancedtech.com^
 ||foodcouture.net/public_html/ra/script.php
+||foodfunfestivals.com^$third-party
 ||foodieblogroll.com^
 ||foodora.fi/lJuB4eTB/init.js
 ||foodora.se/lJuB4eTB/init.js
@@ -78076,7 +78112,6 @@ zyro.com##.zyro-cookies
 ||foreelementarydome.com^
 ||foreflucertainty.com^
 ||foregoingfowl.com^
-||foregoingfowl.com^$third-party
 ||foregroundhelpingcommissioner.com^
 ||foreignassertive.com^
 ||foreignerdarted.com^
@@ -78097,6 +78132,7 @@ zyro.com##.zyro-cookies
 ||foretellfifth.com^$third-party
 ||forethought.ai/workflow/tracking-event
 ||forevergears.com^
+||forevergears.com^$third-party
 ||foreveryoung.gz01.bdysite.com^
 ||forex-affiliate.com^
 ||forex.americanexpress.com^
@@ -78108,6 +78144,7 @@ zyro.com##.zyro-cookies
 ||forgetfulflowers.com^
 ||forgetfulflowers.com^$third-party
 ||forgetfulsnail.com^
+||forgetfulsnail.com^$third-party
 ||forgetinnumerablelag.com^
 ||forgivenesscourtesy.com^
 ||forgivenessdeportdearly.com^
@@ -78278,17 +78315,16 @@ zyro.com##.zyro-cookies
 ||foundry42.com^$third-party
 ||foupeethaija.com^
 ||fourarithmetic.com^
-||fourarithmetic.com^$third-party
 ||fourchette-et-bikini.fr/core/modules/statistics/
 ||foureyes.io/fe-init.js
 ||fourfork.com^
-||fourfork.com^$third-party
 ||fourier.alibaba.com^
 ||fourier.taobao.com^
 ||fourlaile.com^
 ||fourmizz.fr/rgpd$script
 ||fourmtagservices.appspot.com^
 ||fourpawsahead.com^
+||fourpawsahead.com^$third-party
 ||foursixty.com^
 ||foursquare.com/v2/private/logactions
 ||fourteenthcongratulate.com^
@@ -78450,16 +78486,15 @@ zyro.com##.zyro-cookies
 ||fr.adpinfo.com^
 ||fr.contact.alphabet.com^
 ||fr.lucanet.com^
-||fr.promo.skf.com^
 ||fr.sharpmarketing.eu^
 ||fr.shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
 ||fraalb.cebanatural.com^
 ||fractalcoast.com^
+||fractalcoast.com^$third-party
 ||fractionfridgejudiciary.com^
 ||fraer.cloud^
 ||frailfederaldemeanour.com^
 ||frailflock.com^
-||frailflock.com^$third-party
 ||frailfruit.com^
 ||frailfruit.com^$third-party
 ||frailoffer.com^
@@ -78491,7 +78526,6 @@ zyro.com##.zyro-cookies
 ||franticroof.com^
 ||franticroof.com^$third-party
 ||frantictrail.com^
-||frantictrail.com^$third-party
 ||frap.site^
 ||fratchyaeolist.com^
 ||fraud0.com^
@@ -78504,6 +78538,7 @@ zyro.com##.zyro-cookies
 ||frayed-common.pro^
 ||frayforms.com^
 ||frazzleart.com^
+||frazzleart.com^$third-party
 ||frbdzc.goguynet.jp^
 ||frbmdx.fwrd.com^
 ||frc.redcross.fi^
@@ -78654,6 +78689,7 @@ zyro.com##.zyro-cookies
 ||frequentagentlicense.com^
 ||frequentbarrenparenting.com^
 ||frequentflesh.com^
+||frequentflesh.com^$third-party
 ||frequentimpatient.com^
 ||fresh-js.bitbucket.io^
 ||fresh.inlinkz.com^
@@ -78676,7 +78712,6 @@ zyro.com##.zyro-cookies
 ||fresnel-events.vimeocdn.com^
 ||frestacero.com^
 ||fretfulfurniture.com^
-||fretfulfurniture.com^$third-party
 ||frettedmalta.top^
 ||freychang.fun^
 ||frezahkthnz.com^
@@ -78694,6 +78729,7 @@ zyro.com##.zyro-cookies
 ||fridaypatnod.com^
 ||fridaywake.com^
 ||fridgejakepreposition.com^
+||friedone.com^$third-party
 ||friedretrieve.com^
 ||friendbuy.com^
 ||friendbuy.com^$third-party
@@ -78701,13 +78737,13 @@ zyro.com##.zyro-cookies
 ||friendlycrayon.com^$third-party
 ||friendlyduck.com^
 ||friendlyfold.com^
+||friendlyfold.com^$third-party
 ||friends.hyll.com^
 ||friends2follow.com^
 ||friendshipconcerning.com^
 ||friendshipmale.com^
 ||friendshipposterity.com^
 ||friendsoulscombination.com^
-||friendwool.com^$third-party
 ||frigatemirid.com^
 ||frighten3452.fun^
 ||frightenedpotato.com^
@@ -78737,6 +78773,7 @@ zyro.com##.zyro-cookies
 ||frogator.com^
 ||froglytics.eventfrog.ch^
 ||frogtray.com^
+||frogtray.com^$third-party
 ||frolnk.com^
 ||fromhttptohttps.atea.fi^
 ||fromjoytohappiness.com^
@@ -78777,6 +78814,7 @@ zyro.com##.zyro-cookies
 ||frtyh.com^
 ||frtyl.com^
 ||frugalfiestas.com^
+||frugalfiestas.com^$third-party
 ||frugalrevenge.com^
 ||frugalseck.com^
 ||fruitflan.com^
@@ -78918,7 +78956,6 @@ zyro.com##.zyro-cookies
 ||fujifilmdb.fujifilmdiosynth.com^
 ||fujifood.hk^
 ||fujiladder.com^
-||fujiladder.com^$third-party
 ||fujincenter.com^
 ||fujnrh.xyz^
 ||fuk.xckxjtbg.com^
@@ -78948,7 +78985,6 @@ zyro.com##.zyro-cookies
 ||fumblingform.com^
 ||fumblingform.com^$third-party
 ||fumblingselection.com^
-||fumblingselection.com^$third-party
 ||fumeiti.cc^
 ||fumeuprising.com^
 ||fumiad.dxys.pro^
@@ -78982,10 +79018,11 @@ zyro.com##.zyro-cookies
 ||funnelytics.io^
 ||funnelytics.io^$third-party
 ||funnyairplane.com^
-||funnyairplane.com^$third-party
 ||funnysack.com^
 ||funoverbored.com^
+||funoverbored.com^$third-party
 ||funoverflow.com^
+||funoverflow.com^$third-party
 ||funshion.net.cn^
 ||funsoups.com^
 ||funstage.com^
@@ -79018,6 +79055,7 @@ zyro.com##.zyro-cookies
 ||furzetshi.com^
 ||fuse-cloud.com^
 ||fuse.forbes.com^
+||fusedcontent.com^$third-party
 ||fusedeck.net^
 ||fuseplatform.net^
 ||fusestats.com^
@@ -79058,7 +79096,6 @@ zyro.com##.zyro-cookies
 ||futuristicfifth.com^
 ||futuristicfifth.com^$third-party
 ||futuristicfold.com^
-||futuristicfold.com^$third-party
 ||futuristicframe.com^
 ||futuristicframe.com^$third-party
 ||futursalumnes.uic.es^
@@ -79073,16 +79110,15 @@ zyro.com##.zyro-cookies
 ||fuzrct.gutteridge.com^
 ||fuzrxc.aboutyou.nl^
 ||fuzzyaudio.com^
+||fuzzyaudio.com^$third-party
 ||fuzzybasketball.com^
 ||fuzzybasketball.com^$third-party
 ||fuzzydinnerbedtime.com^
 ||fuzzyerror.com^
 ||fuzzyerror.com^$third-party
 ||fuzzyflavor.com^
-||fuzzyflavor.com^$third-party
 ||fuzzyincline.com^
 ||fuzzyweather.com^
-||fuzzyweather.com^$third-party
 ||fv-bpmnrzkv.vip^
 ||fv77e.icu^
 ||fvc.alcatel-lucent.com^
@@ -79559,6 +79595,7 @@ zyro.com##.zyro-cookies
 ||gardenbilliontraced.com^
 ||gardeningseparatedudley.com^
 ||gardenovens.com^
+||gardenovens.com^$third-party
 ||gardoult.com^
 ||gargantuan-menu.pro^
 ||garlandprotectedashtray.com^
@@ -79608,7 +79645,7 @@ zyro.com##.zyro-cookies
 ||gatsbybooger.shop^
 ||gaudoaphuh.net^
 ||gaudyairplane.com^
-||gaudybeginner.com^$third-party
+||gaudyairplane.com^$third-party
 ||gaudymercy.com^
 ||gaufoosa.xyz^
 ||gaug.es^
@@ -79800,6 +79837,8 @@ zyro.com##.zyro-cookies
 ||geejetag.com^
 ||geejushoaboustu.net^
 ||geekactive.com^
+||geekactive.com^$third-party
+||geekbackyard.com^$third-party
 ||geephenuw.com^
 ||geeptaunip.net^
 ||geerairu.net^
@@ -79853,7 +79892,6 @@ zyro.com##.zyro-cookies
 ||generousclickmillennium.com^
 ||generousfilming.com^
 ||genesis.malwarebytes.com^
-||genesishealth.hrm.healthgrades.com^
 ||genesismedia.com^
 ||geneticesteemreasonable.com^
 ||genfpm.com^
@@ -80439,6 +80477,7 @@ zyro.com##.zyro-cookies
 ||ghonnz.columbiasports.co.jp^
 ||ghostchisel.com^
 ||ghostgenie.com^
+||ghostgenie.com^$third-party
 ||ghostnewz.com^
 ||ghostsinstance.com^
 ||ghosttardy.com^
@@ -80464,6 +80503,7 @@ zyro.com##.zyro-cookies
 ||giantaffiliates.com^
 ||gianteagle.com/webevents/
 ||giantexit.com^
+||gianthypes.com^$third-party
 ||giantsvessel.com^
 ||giantsvessel.com^$third-party
 ||gianwho.com^
@@ -80486,7 +80526,6 @@ zyro.com##.zyro-cookies
 ||gift2pair.com^
 ||giftandgamecentral.com^
 ||giftedglue.com^
-||giftedglue.com^$third-party
 ||giftedhazelsecond.com^
 ||giftplanning.westmont.edu^
 ||gifturealdol.top^
@@ -80501,6 +80540,7 @@ zyro.com##.zyro-cookies
 ||gigcount.com^$third-party
 ||giggleostentatious.com^
 ||gigjjgb.com^
+||gigkarma.com^$third-party
 ||gigsmanhowls.top^
 ||gigya.com^*/cimp.gif?
 ||gihehazfdm.com^
@@ -80554,6 +80594,7 @@ zyro.com##.zyro-cookies
 ||gismoarette.top^
 ||gitajwl.com^
 ||gitcrumbs.com^
+||gitcrumbs.com^$third-party
 ||gitgrub.pro^
 ||github.com/_private/browser/stats
 ||github.dev/diagnostic?
@@ -80640,6 +80681,7 @@ zyro.com##.zyro-cookies
 ||gladglen.com^$third-party
 ||gladsince.com^
 ||gladysway.com^
+||gladysway.com^$third-party
 ||glaghoowingauck.net^
 ||glaickoxaksy.com^
 ||glaidalr.net^
@@ -80656,6 +80698,7 @@ zyro.com##.zyro-cookies
 ||glam.com/jsadimp.gif?
 ||glam.com^*/log.act?
 ||glamhawk.com^
+||glamhawk.com^$third-party
 ||glami.com.tr/tracker/
 ||glami.gr/js/compiled/pt.js
 ||glamipixel.com^
@@ -80698,9 +80741,10 @@ zyro.com##.zyro-cookies
 ||gleam.io/seen?
 ||gleam.io^$script,third-party
 ||gleamingcow.com^
+||gleamingcow.com^$third-party
 ||gleaminghaven.com^
+||gleaminghaven.com^$third-party
 ||gleamingtrade.com^
-||gleamingtrade.com^$third-party
 ||gleaminsist.com^
 ||gleampendulumtucker.com^
 ||glecmaim.net^
@@ -80746,6 +80790,7 @@ zyro.com##.zyro-cookies
 ||glisteningsign.com^
 ||glisteningsign.com^$third-party
 ||glitteringbrook.com^
+||glitteringbrook.com^$third-party
 ||glitteringinsertsupervise.com^
 ||glitteringobsessionchanges.com^
 ||glitteringstress.pro^
@@ -80846,7 +80891,6 @@ zyro.com##.zyro-cookies
 ||glorsugn.net^
 ||glossydollyknock.com^
 ||glossysense.com^
-||glossysense.com^$third-party
 ||glouftarussa.xyz^
 ||gloufteglouw.com^
 ||gloumoonees.net^
@@ -80869,6 +80913,7 @@ zyro.com##.zyro-cookies
 ||glowedhyalins.com^
 ||glowhoatooji.net^
 ||glowingmeadow.com^
+||glowingmeadow.com^$third-party
 ||glowingnews.com^
 ||gloytrkb.com^
 ||glpca.com^
@@ -80879,6 +80924,7 @@ zyro.com##.zyro-cookies
 ||glue.evansadhesive.com^
 ||glue1lazy.com^
 ||gluedpixel.com^
+||gluedpixel.com^$third-party
 ||glugherg.net^
 ||glugreez.com^
 ||gluilyepacme.shop^
@@ -81621,12 +81667,12 @@ zyro.com##.zyro-cookies
 ||godloveme.cn^
 ||godlu.com^
 ||godlygeese.com^
-||godlygeese.com^$third-party
 ||godmotherelectricity.com^
 ||godni.xyz^
 ||godpvqnszo.com^
 ||godroonrefrig.com^
 ||godseedband.com^
+||godseedband.com^$third-party
 ||godspeaks.net^
 ||goeducklactase.com^
 ||goemotify.com^
@@ -81667,6 +81713,7 @@ zyro.com##.zyro-cookies
 ||goldenpaints.actonservice.com^
 ||golderotica.com^
 ||goldfishgrowth.com^
+||goldfishgrowth.com^$third-party
 ||goldfishsewbruise.com^
 ||goldoffer.online^
 ||goldsilbershop.de/go.cgi?
@@ -81706,6 +81753,7 @@ zyro.com##.zyro-cookies
 ||goodadvert.ru^
 ||goodappforyou.com^
 ||goodbark.com^
+||goodbark.com^$third-party
 ||goodbusinesspark.com^
 ||goodcounter.org^
 ||goodcounter.org^$third-party
@@ -81813,8 +81861,8 @@ zyro.com##.zyro-cookies
 ||goredirect.party^
 ||goreoid.com^
 ||gorgeousedge.com^
+||gorgeousedge.com^$third-party
 ||gorgeousground.com^
-||gorgeousground.com^$third-party
 ||gorgeousirreparable.com^
 ||gorgestartermembership.com^
 ||gorgetooth.com^
@@ -81825,12 +81873,12 @@ zyro.com##.zyro-cookies
 ||gosenergy.actonservice.com^
 ||goseri-link.mysuki.io^
 ||goshbiopsy.com^
-||goshenhealth.hrm.healthgrades.com^
 ||gositego.live^
 ||gosoftwarenow.com^
 ||gosquared.com^
 ||gosrv.cl^
 ||gossamerwing.com^
+||gossamerwing.com^$third-party
 ||gossipcase.com^
 ||gossipinvest.com^
 ||gossipsize.com^
@@ -81969,7 +82017,6 @@ zyro.com##.zyro-cookies
 ||gr-business.vodafone.com^
 ||gr-go.experian.com^
 ||gr.a23.in^
-||gr.promo.skf.com^
 ||grabify.link/api/js
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
@@ -81978,8 +82025,8 @@ zyro.com##.zyro-cookies
 ||gracefullisten.pro^
 ||gracefullouisatemperature.com^
 ||gracefulmilk.com^
+||gracefulmilk.com^$third-party
 ||gracefulsock.com^
-||gracefulsock.com^$third-party
 ||gracelessaffected.com^
 ||gracesmallerland.com^
 ||grachouss.com^
@@ -81998,6 +82045,7 @@ zyro.com##.zyro-cookies
 ||graigloapikraft.net^
 ||graimoorg.net^
 ||grainmass.com^
+||grainmass.com^$third-party
 ||grainshen.com^
 ||grairdou.com^
 ||grairgoo.com^
@@ -82024,10 +82072,8 @@ zyro.com##.zyro-cookies
 ||grandfatherguitar.com^
 ||grandfatherguitar.com^$third-party
 ||grandiosefire.com^
-||grandiosefire.com^$third-party
 ||grandioseguide.com^
 ||grandmotherunit.com^
-||grandmotherunit.com^$third-party
 ||grandocasino.com^
 ||grandpagrandmotherhumility.com^
 ||grandpashortestmislead.com^
@@ -82037,6 +82083,7 @@ zyro.com##.zyro-cookies
 ||granify.com^
 ||granify.com^$third-party
 ||granlite.com^
+||granlite.com^$third-party
 ||granseerdissee.net^
 ||grantedorphan.com^
 ||grantedpigsunborn.com^
@@ -82098,10 +82145,12 @@ zyro.com##.zyro-cookies
 ||gravity4.com^$third-party
 ||gravitygive.com^
 ||gravitykick.com^
+||gravitykick.com^$third-party
 ||gravityrd-services.com^
 ||gravyponder.com^
 ||graxooms.com^
 ||grayoranges.com^
+||grayoranges.com^$third-party
 ||grayreceipt.com^
 ||grayreceipt.com^$third-party
 ||graywithingrope.com^
@@ -82110,9 +82159,7 @@ zyro.com##.zyro-cookies
 ||grc2.secureforms.mcafee.com^
 ||grduswfx.com^
 ||greasegarden.com^
-||greasegarden.com^$third-party
 ||greasemotion.com^
-||greasemotion.com^$third-party
 ||greaserenderelk.com^
 ||greasysquare.com^
 ||greasysquare.com^$third-party
@@ -82168,7 +82215,6 @@ zyro.com##.zyro-cookies
 ||greeter.me^
 ||greetpanda.org^
 ||greetzebra.com^
-||greetzebra.com^$third-party
 ||greewepi.net^
 ||greezoob.net^
 ||grefaunu.com^
@@ -82203,6 +82249,7 @@ zyro.com##.zyro-cookies
 ||grfz.de^$third-party
 ||grgnsht.nzxt.com^
 ||gribseep.net^
+||gridbelow.com^$third-party
 ||gridcash.net^
 ||gridder.co^
 ||gridedloamily.top^
@@ -82285,12 +82332,14 @@ zyro.com##.zyro-cookies
 ||grooverend.com^
 ||groovinads.com^
 ||groovyornament.com^
+||groovyornament.com^$third-party
 ||gropecemetery.com^
 ||gropefore.com^
 ||grortalt.xyz^
 ||grotaich.net^
 ||grotchaijoo.net^
 ||grouchybrothers.com^
+||grouchybrothers.com^$third-party
 ||grouchypush.com^
 ||grouchypush.com^$third-party
 ||groujeemoang.xyz^
@@ -82358,6 +82407,7 @@ zyro.com##.zyro-cookies
 ||grumpydime.com^
 ||grumpydime.com^$third-party
 ||grumpydrawer.com^
+||grumpydrawer.com^$third-party
 ||grumpyslayerbarton.com^
 ||grunoaph.net^
 ||gruntremoved.com^
@@ -82505,7 +82555,6 @@ zyro.com##.zyro-cookies
 ||guarantee-cdn.com^$third-party
 ||guaranteefume.com^
 ||guaranteelamp.com^
-||guaranteelamp.com^$third-party
 ||guardeddirection.com^
 ||guardeddirection.com^$third-party
 ||guardedrook.cc^
@@ -82531,6 +82580,7 @@ zyro.com##.zyro-cookies
 ||guess.tf.360.cn^
 ||guess.union2.50bang.org^
 ||guessdetail.com^
+||guessdetail.com^$third-party
 ||guesswhatnews.com^
 ||guest.vistage.com^
 ||guestblackmail.com^
@@ -82551,6 +82601,7 @@ zyro.com##.zyro-cookies
 ||guifudi.com^
 ||guiheng.wang^
 ||guildalpha.com^
+||guildalpha.com^$third-party
 ||guiliangtechnology.com^
 ||guiltjadechances.com^
 ||guiltlessbasketball.com^
@@ -82560,7 +82611,6 @@ zyro.com##.zyro-cookies
 ||guitaralliance.com^
 ||guitarfelicityraw.com^
 ||guitargrandmother.com^
-||guitargrandmother.com^$third-party
 ||guitarjavgg124.fun^
 ||guitarlearning.deplike.com^
 ||guitarpro.cc^
@@ -82572,10 +82622,9 @@ zyro.com##.zyro-cookies
 ||gulfimply.com^
 ||gullible-lawyer.pro^
 ||gullibleanimated.com^
-||gulliblecamp.com^$third-party
 ||gulliblegrip.com^
+||gulliblegrip.com^$third-party
 ||gullibleguitar.com^
-||gullibleguitar.com^$third-party
 ||gulpacidize.click^
 ||gulsyangtao.guru^
 ||gum.criteo.com^
@@ -82587,7 +82636,6 @@ zyro.com##.zyro-cookies
 ||gummierhedera.life^
 ||gumon.site^
 ||gumtree.com.au/tracking/
-||gundersenhealth.hrm.healthgrades.com^
 ||gunepszy.xyz^
 ||gunmi.cn^
 ||gunwaleneedsly.com^
@@ -82620,8 +82668,10 @@ zyro.com##.zyro-cookies
 ||gussimsosurvey.space^
 ||gustaver.ddns.net^
 ||gustocooking.com^
+||gustocooking.com^$third-party
 ||gustyalumnal.top^
 ||gustygrandmother.com^
+||gustygrandmother.com^$third-party
 ||gutazngipaf.com^
 ||guterrat.gaius.app^
 ||gutobtdagruw.com^
@@ -82957,7 +83007,9 @@ zyro.com##.zyro-cookies
 ||haksaigho.com^
 ||hal.courrierinternational.com^
 ||halcyoncanyon.com^
+||halcyoncanyon.com^$third-party
 ||halcyonsculpture.com^
+||halcyonsculpture.com^$third-party
 ||half-concert.pro^
 ||half1hell.com^
 ||halfhills.co^
@@ -82974,8 +83026,8 @@ zyro.com##.zyro-cookies
 ||hallanjerbil.com^
 ||halldata.com^
 ||halldata.com^$third-party
-||hallmarkhealth.hrm.healthgrades.com^
 ||hallowedinvention.com^
+||hallowedinvention.com^$third-party
 ||hallucinatecompute.com^
 ||halo.actonservice.com^
 ||haloapps.com^
@@ -82988,7 +83040,6 @@ zyro.com##.zyro-cookies
 ||haltingdivision.com^
 ||haltingdivision.com^$third-party
 ||haltinggold.com^
-||haltinggold.com^$third-party
 ||haltough.net^
 ||haltowe.info^
 ||halveimpendinggig.com^
@@ -83032,24 +83083,28 @@ zyro.com##.zyro-cookies
 ||handlingblare.com^
 ||handll.com^
 ||handnorth.com^
+||handnorth.com^$third-party
 ||handshakesexyconquer.com^
 ||handsomebend.pro^
 ||handsomehose.com^
+||handsomehose.com^$third-party
 ||handsomeindustry.com^
 ||handsomeindustry.com^$third-party
 ||handsomelyhealth.com^
 ||handsomelyhealth.com^$third-party
 ||handsomelythumb.com^
+||handsomelythumb.com^$third-party
 ||handsomeyam.com^
+||handsomeyam.com^$third-party
 ||handtub.com^
 ||handwritingdigestion.com^
 ||handy-tab.com^
 ||handycam.alicdn.com^
 ||handyfield.com^
-||handyfield.com^$third-party
 ||handyfireman.com^
 ||handyfireman.com^$third-party
 ||handyincrease.com^
+||handyincrease.com^$third-party
 ||handymanlipsballast.com^
 ||hangnailamplify.com^
 ||hangnailhasten.com^
@@ -83102,6 +83157,7 @@ zyro.com##.zyro-cookies
 ||haplesshydrant.com^
 ||haplesshydrant.com^$third-party
 ||haplessland.com^
+||haplessland.com^$third-party
 ||happen.spkt.io^
 ||happenemerged.com^
 ||happeningdeliverancenorth.com^
@@ -83113,6 +83169,7 @@ zyro.com##.zyro-cookies
 ||happypavilion.com^
 ||happysex.ch/app_jquery/Tracking.js
 ||happysponge.com^
+||happysponge.com^$third-party
 ||hapqncfg.xyz^
 ||hapying.com^
 ||haqafzlur.com^
@@ -83131,7 +83188,6 @@ zyro.com##.zyro-cookies
 ||harderjuniormisty.com^
 ||hardinet.actonservice.com^
 ||hardtofindmilk.com^
-||hardtofindmilk.com^$third-party
 ||hardynylon.com^
 ||hareeditoriallinked.com^
 ||haresmodus.com^
@@ -83191,7 +83247,6 @@ zyro.com##.zyro-cookies
 ||hatedhazeflutter.com^
 ||hatefulbane.com^
 ||hatefulrequest.com^
-||hatefulrequest.com^$third-party
 ||hatena.ne.jp/api/log?
 ||hatevery.info^
 ||hatlesswhsle.com^
@@ -83298,9 +83353,6 @@ zyro.com##.zyro-cookies
 ||hc.baidu.cn^
 ||hc.baidu.com^
 ||hcadv.video.ums.uc.cn^
-||hcafarwest.hrm.healthgrades.com^
-||hcagulfcoast.hrm.healthgrades.com^
-||hcahealthcare.hrm.healthgrades.com^
 ||hcbmg.cn^
 ||hcbmq.cn^
 ||hccms.com.cn^
@@ -83471,7 +83523,6 @@ zyro.com##.zyro-cookies
 ||heartflow.actonservice.com^
 ||hearthmint.com^
 ||hearthorn.com^
-||hearthorn.com^$third-party
 ||heartilyscales.com^
 ||heartlessrigid.com^
 ||heartsawpeat.com^
@@ -83692,7 +83743,6 @@ zyro.com##.zyro-cookies
 ||heshebei.com^
 ||heshun365.cn^
 ||hesitanttoothpaste.com^
-||hesitanttoothpaste.com^$third-party
 ||hesoorda.com^
 ||hespe-bmq.com^
 ||hesprh.sony.jp^
@@ -83909,7 +83959,6 @@ zyro.com##.zyro-cookies
 ||highfalutinhoney.com^
 ||highfalutinhoney.com^$third-party
 ||highfalutinroom.com^
-||highfalutinroom.com^$third-party
 ||highjackclients.com^
 ||highlight.io^
 ||highlight.io^$third-party
@@ -83967,7 +84016,6 @@ zyro.com##.zyro-cookies
 ||hilerant.site^
 ||hiletterismypers.com^
 ||hillbackserve.com^
-||hillcrest.hrm.healthgrades.com^
 ||hillsarab.com^
 ||hillstree.site^
 ||hilltopads.com^
@@ -84036,7 +84084,6 @@ zyro.com##.zyro-cookies
 ||historicalbeam.com^
 ||historicalbeam.com^$third-party
 ||historicalrequest.com^
-||historicalrequest.com^$third-party
 ||historicalsenseasterisk.com^
 ||historyactorabsolutely.com^
 ||hisurnhuh.com^
@@ -84528,7 +84575,6 @@ zyro.com##.zyro-cookies
 ||honeycombabstinence.com^
 ||honeycombastrayabound.com^
 ||honeygoldfish.com^
-||honeygoldfish.com^$third-party
 ||honeymoondisappointed.com^
 ||honeymoonregular.com^
 ||honeyreadinesscentral.com^
@@ -84553,7 +84599,6 @@ zyro.com##.zyro-cookies
 ||honorableland.com^
 ||honorableland.com^$third-party
 ||honorbustlepersist.com^
-||honorhealth.hrm.healthgrades.com^
 ||honourprecisionsuited.com^
 ||honoursdashed.com^
 ||honoursimmoderate.com^
@@ -84606,7 +84651,6 @@ zyro.com##.zyro-cookies
 ||hopelessrolling.com^
 ||hopesteapot.com^
 ||hopghpfa.com^
-||hoplaugh.com^$third-party
 ||hoplink.ksosoft.com^
 ||hoppermagazineprecursor.com^
 ||hoppershortercultivate.com^
@@ -84645,7 +84689,6 @@ zyro.com##.zyro-cookies
 ||hortitedigress.com^
 ||horzrb.com^
 ||horzrb.com^$third-party
-||hosenews.com^$third-party
 ||hosierygossans.com^
 ||hosieryplum.com^
 ||hosierypressed.com^
@@ -84655,7 +84698,6 @@ zyro.com##.zyro-cookies
 ||hospitality-optimizer.com^
 ||hospitality-optimizer.com^$third-party
 ||hospitality.redbull.racing^
-||hospitals.hrm.healthgrades.com^
 ||hospitalsky.online^
 ||host-195-103-203-106.business.telecomitalia.it^
 ||host-95-255-114-11.business.telecomitalia.it^
@@ -84837,7 +84879,6 @@ zyro.com##.zyro-cookies
 ||hqxbuy.rugs-direct.com^
 ||hqzcths.cn^
 ||hr.adp.ca^
-||hr.promo.skf.com^
 ||hr2019.vrcom7.com^
 ||hra.nyp.org^
 ||hrahdmon.com^
@@ -85005,7 +85046,6 @@ zyro.com##.zyro-cookies
 ||hu-business.vodafone.com^
 ||hu-manity.co/hu-banner$script
 ||hu-topgal.m-shop.me^
-||hu.promo.skf.com^
 ||hu.sharpmarketing.eu^
 ||huadan.in^
 ||huaerdadi.com^
@@ -85123,7 +85163,6 @@ zyro.com##.zyro-cookies
 ||humatecortin.com^
 ||humbleromecontroversial.com^
 ||humdrumhat.com^
-||humdrumhat.com^$third-party
 ||humdrumhobbies.com^
 ||humdrumtouch.com^
 ||humiliatemoot.com^
@@ -85186,7 +85225,6 @@ zyro.com##.zyro-cookies
 ||hurtgrape.com^
 ||hurtgrape.com^$third-party
 ||hurtteeth.com^
-||hurtteeth.com^$third-party
 ||huryds.top^
 ||husbandnights.com^
 ||huseby.actonservice.com^
@@ -85376,7 +85414,6 @@ zyro.com##.zyro-cookies
 ||hystericalfinger.com^
 ||hystericalfinger.com^$third-party
 ||hystericalhelp.com^
-||hystericalhelp.com^$third-party
 ||hyt.comp.360os.com^
 ||hyteck.de/count.js
 ||hyth74.fun^
@@ -85604,7 +85641,6 @@ zyro.com##.zyro-cookies
 ||ibbmly.moneymetals.com^
 ||ibeat-analytics.com^
 ||ibeat-analytics.com^$third-party
-||iberian.promo.skf.com^
 ||ibf.smrtp.link^
 ||ibidemkorari.com^
 ||ibillboard.com^
@@ -85646,7 +85682,6 @@ zyro.com##.zyro-cookies
 ||icdirect.com^
 ||icdxc.com^
 ||icebergindigo.com^
-||icebergindigo.com^$third-party
 ||icebns.com^
 ||icelessbogles.com^
 ||icemining.ca^
@@ -85704,7 +85739,6 @@ zyro.com##.zyro-cookies
 ||id.jiathis.com^
 ||id.juzi.cn^
 ||id.mail.wo.cn^
-||id.promo.skf.com^
 ||id.verticalhealth.net/script.js?partnerid=
 ||id1.cn^
 ||id5-sync.com^
@@ -86049,7 +86083,6 @@ zyro.com##.zyro-cookies
 ||ikwzrix.com^
 ||il-trc-events.taboola.com^
 ||il-trc.taboola.com^
-||il.promo.skf.com^
 ||il8r.com^
 ||ilade.xyz^
 ||ilajaing.com^
@@ -86078,7 +86111,6 @@ zyro.com##.zyro-cookies
 ||illegallyrailroad.com^
 ||illegallyshoulder.com^
 ||illfatedsnail.com^
-||illfatedsnail.com^$third-party
 ||illicitdandily.cam^
 ||illinvention.com^
 ||illinvention.com^$third-party
@@ -87019,7 +87051,6 @@ zyro.com##.zyro-cookies
 ||impenetrableauthorslimbs.com^
 ||imperativetheirs.com^
 ||imperfectinstrument.com^
-||imperfectinstrument.com^$third-party
 ||imperialbattervideo.com^
 ||imperialtense.com^
 ||imperturbableappearance.pro^
@@ -87040,9 +87071,7 @@ zyro.com##.zyro-cookies
 ||importedinsect.com^
 ||importedinsect.com^$third-party
 ||importedplay.com^
-||importedplay.com^$third-party
 ||importedpolice.com^
-||importedpolice.com^$third-party
 ||importlocate.com^
 ||importlocate.com^$third-party
 ||imposecalm.com^
@@ -87098,7 +87127,6 @@ zyro.com##.zyro-cookies
 ||impservice.youdao.com^
 ||impservice2.youdao.com^
 ||impulsehands.com^
-||impulsehands.com^$third-party
 ||impulsejewel.com^
 ||impulsejewel.com^$third-party
 ||impulselikeness.com^
@@ -87137,7 +87165,6 @@ zyro.com##.zyro-cookies
 ||in.jxhcyc.com^
 ||in.mengpr.com^
 ||in.mgwcn.com^
-||in.promo.skf.com^
 ||in.qzkxt.com^
 ||in.upipr.co^
 ||in.vipliangmei.com^
@@ -87287,7 +87314,6 @@ zyro.com##.zyro-cookies
 ||indooritalian.com^
 ||indor.site^
 ||indpcr1.com^
-||industry.promo.skf.com^
 ||industrybrains.com^
 ||inedibleendless.com^
 ||ineed2s.ro^
@@ -88140,7 +88166,6 @@ zyro.com##.zyro-cookies
 ||informationversand.com^
 ||informedderiderollback.com^
 ||informengine.com^
-||informengine.com^$third-party
 ||informer.com/ajax/article_log.php
 ||informer.yandex.ru^
 ||informereng.com^
@@ -88307,7 +88332,6 @@ zyro.com##.zyro-cookies
 ||inopportunelowestattune.com^
 ||inoprosport.su^
 ||inorseph.xyz^
-||inova.hrm.healthgrades.com^
 ||inowe.xyz^
 ||inpage-push.com^
 ||inpage-push.net^
@@ -88531,9 +88555,7 @@ zyro.com##.zyro-cookies
 ||instructoroccurrencebag.com^
 ||instructscornfulshoes.com^
 ||instrumentinsect.com^
-||instrumentinsect.com^$third-party
 ||instrumentsponge.com^
-||instrumentsponge.com^$third-party
 ||instrumenttactics.com^
 ||insuf.cn^
 ||insulatech.com^
@@ -88662,7 +88684,6 @@ zyro.com##.zyro-cookies
 ||interestdust.com^
 ||interestededit.com^
 ||interesting.cc^
-||interestingpot.com^$third-party
 ||interestingpracticable.com^
 ||interestingz.pw^
 ||interestmoments.com^
@@ -88784,7 +88805,6 @@ zyro.com##.zyro-cookies
 ||inveno.com^
 ||inventionallocatewall.com^
 ||inventionpassenger.com^
-||inventionpassenger.com^$third-party
 ||inventionwere.com^
 ||inventionyolk.com^
 ||inventoryproducedjustice.com^
@@ -88793,7 +88813,6 @@ zyro.com##.zyro-cookies
 ||investhash.com^
 ||investhash.com^$third-party
 ||investigatepin.com^
-||investigatepin.com^$third-party
 ||investigationdiscovery.com/cms/collections/
 ||investigationdiscovery.com/events/
 ||investigationsuperbprone.com^
@@ -88855,7 +88874,6 @@ zyro.com##.zyro-cookies
 ||invitereferrals.com^$third-party
 ||invites.nospace.app^
 ||invitesugar.com^
-||invitesugar.com^$third-party
 ||invitewingorphan.com^
 ||inviziads.com^
 ||invoc.us^
@@ -89310,7 +89328,6 @@ zyro.com##.zyro-cookies
 ||iszjwxqpyxjg.com^
 ||it-business.vodafone.com^
 ||it-go.experian.com^
-||it.promo.skf.com^
 ||it.sharpmarketing.eu^
 ||it.snssdk.com.edgekey.net^
 ||it5.cc^
@@ -89703,7 +89720,6 @@ zyro.com##.zyro-cookies
 ||jacwkbauzs.com^
 ||jadcenter.com^
 ||jadedjoke.com^
-||jadedjoke.com^$third-party
 ||jadeitite.com^
 ||jadeitite.com^$third-party
 ||jaderooster.com^
@@ -90613,7 +90629,6 @@ zyro.com##.zyro-cookies
 ||jp-go.experian.com^
 ||jp.as.pptv.com^
 ||jp.ppgamingproxy.lol^
-||jp.promo.skf.com^
 ||jp2w.pl/a/cookie.js$script
 ||jp88.cc^
 ||jpaatr.astellas.jp^
@@ -91514,7 +91529,6 @@ zyro.com##.zyro-cookies
 ||kaxsdc.com^
 ||kaxsdc.com^$third-party
 ||kayak.*/vestigo/measure
-||kaydonus.promo.skf.com^
 ||kayoesfervor.com^
 ||kazanante.com^
 ||kazigua.top^
@@ -91544,7 +91558,6 @@ zyro.com##.zyro-cookies
 ||kbvxbw.bugatti-fashion.com^
 ||kbyqzt.xxxlutz.cz^
 ||kc-valves.com^
-||kc.promo.skf.com^
 ||kc9.cn^
 ||kcc.g31hc.cn^
 ||kccsrecommend.site/torimochi_log/
@@ -91656,7 +91669,6 @@ zyro.com##.zyro-cookies
 ||kendosliny.com^
 ||kenduktur.com^
 ||kengi.top^
-||kennedyhealth.hrm.healthgrades.com^
 ||kennelbakerybasketball.com^
 ||kennisdomein.pqr.com^
 ||kenomal.com^
@@ -91928,7 +91940,6 @@ zyro.com##.zyro-cookies
 ||kitsune-rush.overbuff.com^
 ||kittensuccessful.com^
 ||kittyaction.com^
-||kittyaction.com^$third-party
 ||kitwkuouldhukel.xyz^
 ||kityour.com^
 ||kiuee8.com^
@@ -92180,10 +92191,8 @@ zyro.com##.zyro-cookies
 ||knotch-cdn.com^$third-party
 ||knothubby.com^
 ||knotkettle.com^
-||knotkettle.com^$third-party
 ||knottyactive.pro^
 ||knottysticks.com^
-||knottysticks.com^$third-party
 ||knottyswing.com^
 ||know.gardner-webb.edu^
 ||know.gimmal.com^
@@ -92841,7 +92850,6 @@ zyro.com##.zyro-cookies
 ||lacinfo.motorolasolutions.com^
 ||lack4skip.com^
 ||lackadaisicalkite.com^
-||lackadaisicalkite.com^$third-party
 ||lackawopsik.xyz^
 ||lacklesslacklesscringe.com^
 ||lacoccinelle.net/tools.js
@@ -92870,7 +92878,6 @@ zyro.com##.zyro-cookies
 ||lagabsurdityconstrain.com^
 ||laggerozonid.website^
 ||lagoonolivia.com^
-||lagoonolivia.com^$third-party
 ||lagrys.xyz^
 ||lagt.cloud^
 ||lagxsntduepv.online^
@@ -92911,7 +92918,6 @@ zyro.com##.zyro-cookies
 ||lalaziosiamonoi.it/pixel
 ||laljjn.xyz^
 ||lalokdocwl.com^
-||lam.promo.skf.com^
 ||lambda-url.eu-west-1.on.aws^$ping
 ||lambda-url.us-east-1.on.aws/chug/event
 ||lambdafoobar.de^
@@ -92982,7 +92988,6 @@ zyro.com##.zyro-cookies
 ||langjiyisheng.com^
 ||langren85.com^
 ||languagelake.com^
-||languagelake.com^$third-party
 ||languidintentgained.com^
 ||languishnervousroe.com^
 ||lanistaconcepts.com^
@@ -93087,11 +93092,8 @@ zyro.com##.zyro-cookies
 ||lattermailmandumbest.com^
 ||laudianauchlet.com^
 ||laughablecopper.com^
-||laughablecopper.com^$third-party
-||laughablelizards.com^$third-party
 ||laughcloth.com^
 ||laughdrum.com^
-||laughdrum.com^$third-party
 ||laughedaffront.com^
 ||laughedrevealedpears.com^
 ||laughingrecordinggossipy.com^
@@ -93356,7 +93358,6 @@ zyro.com##.zyro-cookies
 ||leanwhitepinafo.org^
 ||leapcompatriotjangle.com^
 ||leapfaucet.com^
-||leapfaucet.com^$third-party
 ||leaplunchroom.com^
 ||leaplunchroom.com^$third-party
 ||leapretrieval.com^
@@ -93398,7 +93399,6 @@ zyro.com##.zyro-cookies
 ||learn.wolterskluwerlr.com^
 ||learn.wow.wowforbusiness.com^
 ||learnedmarket.com^
-||learnedmarket.com^$third-party
 ||learning.hmhco.com^
 ||learningcontainscaterpillar.com^
 ||learnmore.protiviti.com^
@@ -93472,7 +93472,6 @@ zyro.com##.zyro-cookies
 ||legalhold.ediscovery.com^
 ||legalizedistil.com^
 ||legalleg.com^
-||legalleg.com^$third-party
 ||legalmonster.com^
 ||legalsofafalter.com^
 ||legasgiv.com^
@@ -93624,9 +93623,7 @@ zyro.com##.zyro-cookies
 ||letterslamp.online^
 ||letterwolves.com^
 ||lettucecopper.com^
-||lettucecopper.com^$third-party
 ||lettucelimit.com^
-||lettucelimit.com^$third-party
 ||letv.axp.admaster.com.cn^
 ||letv.com/cloud_pl/
 ||letv.com/env/
@@ -93639,7 +93636,6 @@ zyro.com##.zyro-cookies
 ||level.badlandgame.com^
 ||levelaccess.net/analytics/
 ||levelbehavior.com^
-||levelbehavior.com^$third-party
 ||levementum.actonservice.com^
 ||leveragetypicalreflections.com^
 ||leverseriouslyremarks.com^
@@ -93869,7 +93865,6 @@ zyro.com##.zyro-cookies
 ||lightblue.red^
 ||lightboxcdn.com/static/identity.html
 ||lightcushion.com^
-||lightcushion.com^$third-party
 ||lightenafterthought.com^
 ||lightenintimacy.com^
 ||lighterthinnerstronger.fiber-line.com^
@@ -94986,7 +94981,6 @@ zyro.com##.zyro-cookies
 ||literalpraisepassengers.com^
 ||literaryonboard.com^
 ||literatelight.com^
-||literatelight.com^$third-party
 ||literaturehogwhack.com^
 ||literaturerehearsesteal.com^
 ||literatureunderstatement.com^
@@ -95728,7 +95722,6 @@ zyro.com##.zyro-cookies
 ||longestwaileddeadlock.com^
 ||longingarsonistexemplify.com^
 ||longinglettuce.com^
-||longinglettuce.com^$third-party
 ||longingtrees.com^
 ||longlakeweb.com^
 ||longmansuchcesu.info^
@@ -95879,7 +95872,6 @@ zyro.com##.zyro-cookies
 ||loveeveryday.brighterkind.com^
 ||lovegg.club^
 ||lovehiccuppurple.com^
-||lovelace.hrm.healthgrades.com^
 ||lovely-sing.pro^
 ||lovelybingo.com^
 ||lovelydrum.com^
@@ -95912,7 +95904,6 @@ zyro.com##.zyro-cookies
 ||lowlifeimprovedproxy.com^
 ||lowlifesalad.com^
 ||lowlocket.com^
-||lowlocket.com^$third-party
 ||lownoc.org^
 ||lowremoraidon.com^
 ||lowrihouston.pro^
@@ -95982,7 +95973,6 @@ zyro.com##.zyro-cookies
 ||lp.fsresidential.com^
 ||lp.fusioncharts.com^
 ||lp.go.toyobo.co.jp^
-||lp.go2.ringcentral.com^
 ||lp.healthinfo.thechristhospital.com^
 ||lp.hol1.demoamericas275.adobe.com^
 ||lp.hol10.demoamericas275.adobe.com^
@@ -96230,10 +96220,6 @@ zyro.com##.zyro-cookies
 ||lubbardstrouds.com^
 ||lubowitz.biz^
 ||lubricantexaminer.com^
-||lubrication.promo.skf.com^
-||lubricationcee-mea.promo.skf.com^
-||lubricationde.promo.skf.com^
-||lubricationus.promo.skf.com^
 ||lucanet.actonservice.com^
 ||lucid.mjhassoc.com^
 ||lucida.su/api/event
@@ -96286,7 +96272,6 @@ zyro.com##.zyro-cookies
 ||lumberamount.com^
 ||lumberamount.com^$third-party
 ||lumberperpetual.com^
-||lumberrule.com^$third-party
 ||lumenera.actonservice.com^
 ||lumeo.cn^
 ||luminate.com/track/
@@ -97915,9 +97900,7 @@ zyro.com##.zyro-cookies
 ||magnificentflametemperature.com^
 ||magnificentmanlyyeast.com^
 ||magnificentmeasure.com^
-||magnificentmeasure.com^$third-party
 ||magnificentmist.com^
-||magnificentmist.com^$third-party
 ||magnify.net/decor/track/
 ||magnify360.com^
 ||magnify360.com^$third-party
@@ -98010,7 +97993,6 @@ zyro.com##.zyro-cookies
 ||mail2.happ.social^
 ||mailboxdoablebasically.com^
 ||mailboxmeeting.com^
-||mailboxmeeting.com^$third-party
 ||mailboxmileageattendants.com^
 ||mailer.carte-gr.total.fr^
 ||mailer.conad.com^
@@ -98086,7 +98068,6 @@ zyro.com##.zyro-cookies
 ||makeencampmentamoral.com^
 ||makemyvids.com^
 ||makeshiftmine.com^
-||makeshiftmine.com^$third-party
 ||makethebusiness.com^
 ||makeupenumerate.com^
 ||makhzanpopulin.com^
@@ -98184,7 +98165,6 @@ zyro.com##.zyro-cookies
 ||manhuabei.com/assets/xiwang.js
 ||manhuapi.com/style/js/common.js
 ||maniacalappliance.com^
-||maniacalappliance.com^$third-party
 ||maniasensiblecompound.com^
 ||maniconclavis.com^
 ||maniconfiscal.top^
@@ -98289,7 +98269,6 @@ zyro.com##.zyro-cookies
 ||maricich.actonservice.com^
 ||marimedia.com^
 ||marinadewomen.com^
-||marine.promo.skf.com^
 ||marine.xhamster.com^
 ||marine.xhamster2.com^
 ||marine.xhamster3.com^
@@ -98305,12 +98284,10 @@ zyro.com##.zyro-cookies
 ||markadver.com^
 ||markahouse.com^
 ||markedcrayon.com^
-||markedcrayon.com^$third-party
 ||markedmeasure.com^
 ||markedmeasure.com^$third-party
 ||markedoneofthe.info^
 ||markedpail.com^
-||markedpail.com^$third-party
 ||markentive.actonservice.com^
 ||marker.io/widget/ping
 ||markerleery.com^
@@ -99903,7 +99880,6 @@ zyro.com##.zyro-cookies
 ||massesnieces.com^
 ||massiveanalyticssys.net^
 ||massivebasket.com^
-||massivebasket.com^$third-party
 ||massivemark.com^
 ||massivemark.com^$third-party
 ||massivetreadsuperior.com^
@@ -99949,7 +99925,6 @@ zyro.com##.zyro-cookies
 ||matching.targeterra.com^
 ||matchingundertake.com^
 ||matchjoke.com^
-||matchjoke.com^$third-party
 ||matchjunkie.com^
 ||matchuph.com^
 ||matecatenae.com^
@@ -99961,14 +99936,11 @@ zyro.com##.zyro-cookies
 ||material.mtty.xin^
 ||materialfirearm.com^
 ||materialisticfan.com^
-||materialisticfan.com^$third-party
 ||materialisticmark.com^
-||materialisticmark.com^$third-party
 ||materialisticmoon.com^
 ||materialmilk.com^
 ||materialmilk.com^$third-party
 ||materialmoon.com^
-||materialmoon.com^$third-party
 ||materialparcel.com^
 ||materialparcel.com^$third-party
 ||materialplayground.com^
@@ -100191,7 +100163,6 @@ zyro.com##.zyro-cookies
 ||mckensecuryr.info^
 ||mckgmkh.icu^
 ||mckiey.thun.com^
-||mclaren-porthuron.hrm.healthgrades.com^
 ||mclean.f.360.cn^
 ||mclick.simba.taobao.com^
 ||mcloudglobal.com^
@@ -100427,7 +100398,6 @@ zyro.com##.zyro-cookies
 ||measure.ly^$third-party
 ||measure.refinery89.com^
 ||measurecaption.com^
-||measurecaption.com^$third-party
 ||measured.com^
 ||measured.com^$third-party
 ||measuredlikelihoodperfume.com^
@@ -100761,7 +100731,6 @@ zyro.com##.zyro-cookies
 ||memecounter.com^
 ||memecounter.com^$third-party
 ||memelq.acs.org^
-||memhosp.hrm.healthgrades.com^
 ||memia.xyz^
 ||memo.co^
 ||memo.co^$third-party
@@ -100776,7 +100745,6 @@ zyro.com##.zyro-cookies
 ||memorizeneck.com^
 ||memorizeneck.com^$third-party
 ||memorycobweb.com^
-||memorycobweb.com^$third-party
 ||mempoonsoftoow.net^
 ||menacehabit.com^
 ||menacing-awareness.pro^
@@ -102453,7 +102421,6 @@ zyro.com##.zyro-cookies
 ||metro.co.uk/base/rta/
 ||metro.co.uk/cvx/client/sync/fpc?
 ||metroaverage.com^
-||metroaverage.com^$third-party
 ||metronom.com/library/scripts/gdpr$script
 ||metroweekly.com/tools/blog_add_visitor/
 ||metsaubs.net^
@@ -102572,7 +102539,6 @@ zyro.com##.zyro-cookies
 ||mhnpec.nimaxi-online.com^
 ||mholland.net.anwalt.de^
 ||mhrkxi.thetrybe.com.au^
-||mhs.hrm.healthgrades.com^
 ||mhslbgk.cn^
 ||mhtr.be/public/tr/tracker.min.js
 ||mhtrt.com^
@@ -102768,7 +102734,6 @@ zyro.com##.zyro-cookies
 ||mindfulgem.com^
 ||mindless-fruit.pro^
 ||mindlessmark.com^
-||mindlessmark.com^$third-party
 ||mindlessnight.com^
 ||mindlessslogan.com^
 ||mindlessswim.pro^
@@ -102845,7 +102810,6 @@ zyro.com##.zyro-cookies
 ||minorcrown.com^
 ||minorityspasmodiccommissioner.com^
 ||minormeeting.com^
-||minormeeting.com^$third-party
 ||minorshort.weixin.qq.com^
 ||minotaur107.com^
 ||minr.pw^
@@ -102871,7 +102835,6 @@ zyro.com##.zyro-cookies
 ||minutemediacdn.com/campaign-manager-client/
 ||minutemediaservices.com^
 ||minuterhythm.com^
-||minuterhythm.com^$third-party
 ||minutesdevise.com^
 ||minutessongportly.com^
 ||mip.yuelvxing.com^
@@ -102888,7 +102851,6 @@ zyro.com##.zyro-cookies
 ||mirabelsmarketingmanager.com^
 ||mirabelsmarketingmanager.com^$third-party
 ||miraben.pw^
-||mircheigeshoa.com/prod/smi/fp.min.js
 ||mircheigeshoa.com^
 ||mirec.ubmmexico.com^
 ||miredindeedeisas.info^
@@ -102916,7 +102878,6 @@ zyro.com##.zyro-cookies
 ||miscellaneousheartachehunter.com^
 ||mischiefrealizationbraces.com^
 ||miscreantmine.com^
-||miscreantmine.com^$third-party
 ||miscreantmoon.com^
 ||miscreantmoon.com^$third-party
 ||misdeedtucked.shop^
@@ -103526,7 +103487,6 @@ zyro.com##.zyro-cookies
 ||modeto.com^
 ||modificationdispatch.com^
 ||modifyeyes.com^
-||modifyeyes.com^$third-party
 ||modifywilliamgravy.com^
 ||modoodeul.com^
 ||modoro360.com^
@@ -103566,7 +103526,6 @@ zyro.com##.zyro-cookies
 ||mokuz.ru^$third-party
 ||moldex.actonservice.com^
 ||moldyicicle.com^
-||moldyicicle.com^$third-party
 ||moleconcern.com^
 ||molecularhouseholdadmiral.com^
 ||mollesscar.top^
@@ -103815,7 +103774,6 @@ zyro.com##.zyro-cookies
 ||motionflowers.com^
 ||motionless-range.pro^
 ||motionlessbag.com^
-||motionlessbag.com^$third-party
 ||motionlessbelief.com^
 ||motionlessbelief.com^$third-party
 ||motionlessmeeting.com^
@@ -103847,7 +103805,6 @@ zyro.com##.zyro-cookies
 ||mountaincaller.top^
 ||mountaingaiety.com^
 ||mountainouspear.com^
-||mountainouspear.com^$third-party
 ||mountainwavingequability.com^
 ||mountedgrasshomesick.com^
 ||mountedstoppage.com^
@@ -103905,7 +103862,6 @@ zyro.com##.zyro-cookies
 ||moviets.tc.qq.com^
 ||mowcawdetour.com^
 ||mowfruit.com^
-||mowfruit.com^$third-party
 ||mowhamsterradiator.com^
 ||mown5gaze.com^
 ||mowplayer.com/media/statistics/
@@ -104342,7 +104298,6 @@ zyro.com##.zyro-cookies
 ||muriheem.net^
 ||murkybrashly.com^
 ||murkymeeting.com^
-||murkymeeting.com^$third-party
 ||murkymouse.online^
 ||murolwsi.com^
 ||murroliving.com.cn^
@@ -104379,7 +104334,6 @@ zyro.com##.zyro-cookies
 ||mutemailbox.com^
 ||mutenessdollyheadlong.com^
 ||muterange.com^
-||muterange.com^$third-party
 ||mutinycdn.com^
 ||mutinycdn.com^$third-party
 ||mutinydisgraceeject.com^
@@ -104485,7 +104439,6 @@ zyro.com##.zyro-cookies
 ||mx.happ.social^
 ||mx.information.maileva.com^
 ||mx.mywd.com^
-||mx.promo.skf.com^
 ||mx2.carte-gr.total.fr^
 ||mx2.happ.social^
 ||mxapis.com^
@@ -104548,7 +104501,6 @@ zyro.com##.zyro-cookies
 ||my.nextgem.com^
 ||my.pannar.com^
 ||my.powur.com^
-||my.promo.skf.com^
 ||my.showin.gs^
 ||my.shymilftube.com^
 ||my.totaljobs.com^
@@ -104754,7 +104706,6 @@ zyro.com##.zyro-cookies
 ||mystats.nl^
 ||mystats.nl^$third-party
 ||mysteriousmonth.com^
-||mysteriousmonth.com^$third-party
 ||mystery.vfmleonardo.com^
 ||mysticalagoon.com^
 ||mysticaldespiseelongated.com^
@@ -105330,7 +105281,6 @@ zyro.com##.zyro-cookies
 ||negolist.com^
 ||negotiaterealm.com^
 ||negotiatetime.com^
-||negotiatetime.com^$third-party
 ||negotiationmajestic.com^
 ||negxkj5ca.com^
 ||negyuk.com^
@@ -106298,7 +106248,6 @@ zyro.com##.zyro-cookies
 ||nondescriptnote.com^
 ||nondescriptnote.com^$third-party
 ||nondescriptsmile.com^
-||nondescriptsmile.com^$third-party
 ||nondescriptstocking.com^
 ||nondescriptstocking.com^$third-party
 ||nonepushed.com^
@@ -106401,7 +106350,6 @@ zyro.com##.zyro-cookies
 ||nothingmethod.com^
 ||nothingpetwring.com^
 ||nothingunit.com^
-||nothingunit.com^$third-party
 ||nothycantyo.com^
 ||notice-tmo.notice.assurancewireless.com^
 ||notice.assurancewireless.com^
@@ -106793,7 +106741,6 @@ zyro.com##.zyro-cookies
 ||nulez.xyz^
 ||null-point.com^
 ||nulldiscussion.com^
-||nulldiscussion.com^$third-party
 ||nullitics.com^
 ||nullitics.com^$third-party
 ||nullnorth.com^
@@ -106806,7 +106753,6 @@ zyro.com##.zyro-cookies
 ||nuloox.com^$third-party
 ||numberium.com^
 ||numberlessring.com^
-||numberlessring.com^$third-party
 ||numbers.md^
 ||numbers.monthlyphotos.com^
 ||numberscoke.com^
@@ -106853,7 +106799,6 @@ zyro.com##.zyro-cookies
 ||nuttedmoireed.shop^
 ||nuttishstromb.shop^
 ||nuttyorganization.com^
-||nuttyorganization.com^$third-party
 ||nuttywealth.pro^
 ||nuucmzuc.com^
 ||nuvaioqds.com^
@@ -107259,7 +107204,6 @@ zyro.com##.zyro-cookies
 ||ocggec.xyz^
 ||ochoovoajaw.xyz^
 ||ochre-app.hotdoc.com.au^
-||ochsner.hrm.healthgrades.com^
 ||oci.dyn.com^
 ||ocjmbhy.com^
 ||ockerfisher.top^
@@ -107941,7 +107885,6 @@ zyro.com##.zyro-cookies
 ||omniscientfeeling.com^
 ||omniscientfeeling.com^$third-party
 ||omniscientspark.com^
-||omniscientspark.com^$third-party
 ||omnistat.teleflora.com^
 ||omnistats.jetblue.com^
 ||omnistats.teleflora.com^
@@ -108534,7 +108477,6 @@ zyro.com##.zyro-cookies
 ||opinionbar.com^
 ||opinionstage.com^
 ||opinionsurprise.com^
-||opinionsurprise.com^$third-party
 ||opjnbmk.com^
 ||opkinglerr.com^
 ||opkkjh.xyz^
@@ -108707,7 +108649,6 @@ zyro.com##.zyro-cookies
 ||orangeads.fr^
 ||orangeclickmedia.com^
 ||orangeoperation.com^
-||orangeoperation.com^$third-party
 ||oranges88.com^
 ||oranges88.com^$third-party
 ||oraporn.com^
@@ -108755,7 +108696,6 @@ zyro.com##.zyro-cookies
 ||orfa1st5.de^
 ||orfabfbu.com^
 ||orgagetnization.org^
-||organiccdn.io/assets/sdk/monitor.unit-sdk.js
 ||organiccdn.io^
 ||organiccopiedtranquilizer.com^
 ||organicfruitapps.com/analytics/
@@ -109184,7 +109124,6 @@ zyro.com##.zyro-cookies
 ||outsmoke-niyaxabura.com^
 ||outsohoam.com^
 ||outstandingsnails.com^
-||outstandingsnails.com^$third-party
 ||outstandingspread.com^
 ||outstandingsubconsciousaudience.com^
 ||outstantewq.info^
@@ -109209,7 +109148,6 @@ zyro.com##.zyro-cookies
 ||oval.id/tracker/
 ||ovaleithermansfield.com^
 ||ovalweek.com^
-||ovalweek.com^$third-party
 ||ovardu.com^
 ||ovdimin.buzz^
 ||oveechoops.xyz^
@@ -109236,7 +109174,6 @@ zyro.com##.zyro-cookies
 ||overjoyedwithinthin.com^
 ||overkick.com^
 ||overkirliaan.com^
-||overlakemedicalcenter.hrm.healthgrades.com^
 ||overlapflintsidenote.com^
 ||overlivedub.com^
 ||overloadmaturespanner.com^
@@ -109845,7 +109782,6 @@ zyro.com##.zyro-cookies
 ||paintpear.com^
 ||paintpear.com^$third-party
 ||paintplantation.com^
-||paintplantation.com^$third-party
 ||paintwandering.com^
 ||paintydevelela.org^
 ||paipsuto.com^
@@ -109927,7 +109863,6 @@ zyro.com##.zyro-cookies
 ||pangu.cc^
 ||pangzz.xyz^
 ||panickycurtain.com^
-||panickycurtain.com^$third-party
 ||panickypancake.com^
 ||panickypancake.com^$third-party
 ||paniskshravey.shop^
@@ -109936,7 +109871,6 @@ zyro.com##.zyro-cookies
 ||pannumregnal.com^
 ||panorama.wixapps.net^
 ||panoramicbutter.com^
-||panoramicbutter.com^$third-party
 ||panoramicplane.com^
 ||panoz.xyz^
 ||panpant.xyz^
@@ -109992,7 +109926,6 @@ zyro.com##.zyro-cookies
 ||paradizeconstruction.com^
 ||paradocs.ru^
 ||paradoxfactor.com^
-||paradoxfactor.com^$third-party
 ||paragraphdisappointingthinks.com^
 ||paragraphopera.com^
 ||parallax.askmediagroup.com^
@@ -110014,9 +109947,7 @@ zyro.com##.zyro-cookies
 ||parasolsever.com^
 ||paravaprese.com^
 ||parcelcreature.com^
-||parcelcreature.com^$third-party
 ||parchedangle.com^
-||parchedangle.com^$third-party
 ||parchedsofa.com^
 ||parchedsofa.com^$third-party
 ||pardaipseed.com^
@@ -110131,6 +110062,7 @@ zyro.com##.zyro-cookies
 ||partnerwith.us.streetbond.com^
 ||partpedestal.com^
 ||partplanes.com^
+||partplanes.com^$third-party
 ||partridgehostcrumb.com^
 ||partsbury.com^
 ||parttimelucidly.com^
@@ -110164,7 +110096,6 @@ zyro.com##.zyro-cookies
 ||passagetoeastafrica.com^
 ||passendo.com^
 ||passengerpage.com^
-||passengerpage.com^$third-party
 ||passeura.com^
 ||passfixx.com^
 ||passingpact.com^
@@ -110181,11 +110112,9 @@ zyro.com##.zyro-cookies
 ||passwordslayoutvest.com^
 ||passwordssaturatepebble.com^
 ||pastcabbage.com^
-||pastcabbage.com^$third-party
 ||pasteldevaluation.com^
 ||pasteljav128.fun^
 ||pastepot.com^
-||pastepot.com^$third-party
 ||pastimeprayermajesty.com^
 ||pastjauntychinese.com^
 ||pastoralcorn.com^
@@ -110471,7 +110400,6 @@ zyro.com##.zyro-cookies
 ||pdxor02.com^
 ||pdxubxc.cn^
 ||pdzutf.sftworks.jp^
-||pe.promo.skf.com^
 ||pe.txbe.at^
 ||pe8.com^
 ||peacebanana.com^
@@ -110677,7 +110605,6 @@ zyro.com##.zyro-cookies
 ||perimeterx.net/api/v1/collector/
 ||periodicjotrickle.com^
 ||periodicpocket.com^
-||periodicpocket.com^$third-party
 ||periodicpole.com^
 ||periodicprodigal.com^
 ||periodscirculation.com^
@@ -110706,7 +110633,6 @@ zyro.com##.zyro-cookies
 ||perpetratorjeopardize.com^
 ||perpetualcod.com^
 ||perpetualpail.com^
-||perpetualpail.com^$third-party
 ||perplexbrushatom.com^
 ||perr.h-cdn.com^
 ||perr.hola.org^
@@ -110740,9 +110666,7 @@ zyro.com##.zyro-cookies
 ||persuadecowardenviable.com^
 ||persuadepointed.com^
 ||persuadesock.com^
-||persuadesock.com^$third-party
 ||persuadesupport.com^
-||persuadesupport.com^$third-party
 ||pertawee.net^
 ||pertersacstyli.com^
 ||pertfinds.com^
@@ -110858,7 +110782,6 @@ zyro.com##.zyro-cookies
 ||pgssjxz.com^
 ||pgssl.com^
 ||pgt1.voyage-prive.es^
-||ph.promo.skf.com^
 ||ph.qucaigg.com^
 ||ph.thenextweb.com^
 ||phabycebe.com^
@@ -111074,7 +110997,6 @@ zyro.com##.zyro-cookies
 ||phvylw.beurer-shop.de^
 ||phyins.actonservice.com^
 ||physicalbikes.com^
-||physicalbikes.com^$third-party
 ||physicalblueberry.com^
 ||physicaldetermine.com^
 ||physicaldividedcharter.com^
@@ -111181,7 +111103,6 @@ zyro.com##.zyro-cookies
 ||pierrapturerudder.com^
 ||piespower.com^
 ||pietexture.com^
-||pietexture.com^$third-party
 ||pietpiraat.org^
 ||pietyharmoniousablebodied.com^
 ||pig.pupuapi.com^
@@ -111194,7 +111115,6 @@ zyro.com##.zyro-cookies
 ||pigrewartos.com^
 ||pigsflintconfidentiality.com^
 ||pigspie.com^
-||pigspie.com^$third-party
 ||pigtre.com^
 ||pigvideo.cn^
 ||pigvideo.com.cn^
@@ -111298,10 +111218,8 @@ zyro.com##.zyro-cookies
 ||pinkoi.com/_log/
 ||pinkvilla.com/comscore_response.php
 ||pinnacle.com/ru/?btag=
-||pinnacleuniversity.hrm.healthgrades.com^
 ||pinpinnet.net^
 ||pinpointpotato.com^
-||pinpointpotato.com^$third-party
 ||pinpoll.com^
 ||pinpoll.com^$third-party
 ||pinpricktuxedokept.com^
@@ -111346,7 +111264,6 @@ zyro.com##.zyro-cookies
 ||piquantprice.com^
 ||piquantprice.com^$third-party
 ||piquantstove.com^
-||piquantstove.com^$third-party
 ||piquantvortex.com^
 ||piquantvortex.com^$third-party
 ||piqueendogen.com^
@@ -111610,7 +111527,6 @@ zyro.com##.zyro-cookies
 ||pl.letsblock.it^
 ||pl.maya-astro.fi^
 ||pl.mynorthstarapp.com^
-||pl.promo.skf.com^
 ||pl.sharpmarketing.eu^
 ||pl.terraintinker.com^
 ||pl.venusafe.com^
@@ -111644,7 +111560,6 @@ zyro.com##.zyro-cookies
 ||plaicecaught.com^
 ||plainplayground.com^
 ||plainrequest.com^
-||plainrequest.com^$third-party
 ||plainsnudge.com^
 ||plaintivedance.pro^
 ||plaintorch.com^
@@ -111676,9 +111591,7 @@ zyro.com##.zyro-cookies
 ||plantcontradictionexpansion.com^
 ||plantdigestion.com^
 ||plantpotato.com^
-||plantpotato.com^$third-party
 ||plantrelation.com^
-||plantrelation.com^$third-party
 ||planyourbackup.co^
 ||plas.imfeld.dev^
 ||plasticskilledlogs.com^
@@ -111687,7 +111600,6 @@ zyro.com##.zyro-cookies
 ||platedmanlily.com^
 ||platelosingshameless.com^
 ||platescarecrow.com^
-||platescarecrow.com^$third-party
 ||platesnervous.com^
 ||platform-hetcash.com^
 ||platform.adwep.com^
@@ -111820,7 +111732,6 @@ zyro.com##.zyro-cookies
 ||plausible.yalepaprika.com^
 ||plausible.zest.dev^
 ||plausible.zorin.com^
-||plausiblecable.com^$third-party
 ||plausibleio.workers.dev^$third-party
 ||plausiblemarijuana.com^
 ||plavxml.com^
@@ -112176,7 +112087,6 @@ zyro.com##.zyro-cookies
 ||podefr.net^
 ||poder360.com.br/_tracker
 ||podiumpresto.com^
-||podiumpresto.com^$third-party
 ||podosupsurge.com^
 ||podrltid.info^
 ||podscribe.com^
@@ -112232,7 +112142,6 @@ zyro.com##.zyro-cookies
 ||poiqknfl.com^
 ||poisedfuel.com^
 ||poisedpig.com^
-||poisedpig.com^$third-party
 ||poisegel.com^
 ||poisism.com^
 ||poisonousamazing.com^
@@ -112284,7 +112193,6 @@ zyro.com##.zyro-cookies
 ||polisnetwork.io^
 ||polite1266.fun^
 ||politegoldfish.com^
-||politegoldfish.com^$third-party
 ||politemischievous.com^
 ||politeplanes.com^
 ||politeplanes.com^$third-party
@@ -112373,7 +112281,6 @@ zyro.com##.zyro-cookies
 ||popbounty.com^
 ||popbutler.com^
 ||popcash.net^
-||popcornfood.com^$third-party
 ||popcpm.com^
 ||poperblocker.com^
 ||pophandler.net^
@@ -112526,7 +112433,6 @@ zyro.com##.zyro-cookies
 ||possessdolejest.com^
 ||possessionsolemn.com^
 ||possessivebucket.com^
-||possessivebucket.com^$third-party
 ||possibilities.theajinetwork.com^
 ||possibilityformal.com^
 ||possibilityfoundationwallpaper.com^
@@ -112599,7 +112505,6 @@ zyro.com##.zyro-cookies
 ||povsefcrdj.com^
 ||powderjourney.com^
 ||powderprofit.com^
-||powderprofit.com^$third-party
 ||powe.asian-xxx-videos.com^
 ||powedw.com^
 ||power.adhacker.online^
@@ -112792,11 +112697,9 @@ zyro.com##.zyro-cookies
 ||precedentadministrator.com^
 ||precious-type.pro^
 ||preciouseffect.com^
-||preciouseffect.com^$third-party
 ||preciousplanes.com^
 ||preciouswornspectacle.com^
 ||preciousyoke.com^
-||preciousyoke.com^$third-party
 ||precipitationepisodevanished.com^
 ||precipitationglittering.com^
 ||precisejoker.com^
@@ -112941,7 +112844,6 @@ zyro.com##.zyro-cookies
 ||previousplayground.com^
 ||previousplayground.com^$third-party
 ||previouspotato.com^
-||previouspotato.com^$third-party
 ||prevuesthurl.com^
 ||prezna.com^
 ||prf.hn^$third-party
@@ -112963,10 +112865,7 @@ zyro.com##.zyro-cookies
 ||pricklydebt.com^
 ||pricklydebt.com^$third-party
 ||pricklyjourney.com^
-||pricklyjourney.com^$third-party
-||pricklypies.com^$third-party
 ||pricklyplastic.com^
-||pricklyplastic.com^$third-party
 ||pricklypollution.com^
 ||pricklypollution.com^$third-party
 ||pridenovicescammer.com^
@@ -113005,7 +112904,6 @@ zyro.com##.zyro-cookies
 ||prinksdammit.com^
 ||printaugment.com^
 ||printerplasma.com^
-||printerplasma.com^$third-party
 ||printerswear.com^
 ||printgrownuphail.com^
 ||printsmull.com^
@@ -113154,7 +113052,6 @@ zyro.com##.zyro-cookies
 ||prod-a4.applovin.com^
 ||prod-bid.applovin.com^
 ||prod-events.nykaa.com^
-||prod-mhaa.mhtr.be/public/tr/tracker.min.js
 ||prod-sponsoredads.mkt.zappos.com^
 ||prod.benchmarkemail.com/tracker.bundle.js
 ||prod.ew.srp.navigacloud.com^
@@ -113171,7 +113068,6 @@ zyro.com##.zyro-cookies
 ||prodresell.com^
 ||producebreed.com^
 ||producecopy.com^
-||producecopy.com^$third-party
 ||producedendorsecamp.com^
 ||produceduniversitydire.com^
 ||producepickle.com^
@@ -113188,7 +113084,6 @@ zyro.com##.zyro-cookies
 ||productionprinting.ricoh.ie^
 ||productive-chemical.pro^
 ||productivepear.com^
-||productivepear.com^$third-party
 ||productivity-s.yale.com^
 ||products.forddirectdealers.com^
 ||products.gobankingrates.com^
@@ -113319,7 +113214,6 @@ zyro.com##.zyro-cookies
 ||promokrot.com^
 ||promoneuve.fr/stat/
 ||promopassage.com^
-||promopassage.com^$third-party
 ||promoracing.it/cookies/popup.cookie.js$script
 ||promos.camsoda.com^
 ||promos.fling.com^
@@ -113463,7 +113357,6 @@ zyro.com##.zyro-cookies
 ||protys.protys.fr^
 ||proudlysurly.com^
 ||proudprose.com^
-||proudprose.com^$third-party
 ||provedonefoldonefoldhastily.com^
 ||provenpixel.com^
 ||provenpixel.com^$third-party
@@ -114036,7 +113929,6 @@ zyro.com##.zyro-cookies
 ||purchaserdisgustingwrestle.com^
 ||purchasertormentscoundrel.com^
 ||purchasesuggestion.com^
-||purchasesuggestion.com^$third-party
 ||purevideo.com^
 ||purevideo.com^$third-party
 ||purevideo.com^*/pvshim.gif?
@@ -114329,7 +114221,6 @@ zyro.com##.zyro-cookies
 ||puzzle.spiriteq.com^
 ||puzzlepursued.com^
 ||puzzlingproperty.com^
-||puzzlingproperty.com^$third-party
 ||puzzoa.xyz^
 ||pv.anzhi.com^
 ||pv.cheshi-img.com^
@@ -115197,7 +115088,6 @@ zyro.com##.zyro-cookies
 ||qtyusiy.top^
 ||qu96.com^
 ||quacksquirrel.com^
-||quacksquirrel.com^$third-party
 ||quacktypist.com^
 ||quackupsilon.com^
 ||quadpay.com/analytics/
@@ -115206,7 +115096,6 @@ zyro.com##.zyro-cookies
 ||quagfa.com^
 ||quaggaeasers.shop^
 ||quaintborder.com^
-||quaintborder.com^$third-party
 ||quaintcan.com^
 ||quaintcan.com^$third-party
 ||quaintlake.com^
@@ -115264,7 +115153,6 @@ zyro.com##.zyro-cookies
 ||quarterbackanimateappointed.com^
 ||quarterbacknervous.com^
 ||quarterbean.com^
-||quarterbean.com^$third-party
 ||quartic.pl^
 ||quartic.pl^$third-party
 ||quaruzon.com^
@@ -115305,7 +115193,6 @@ zyro.com##.zyro-cookies
 ||questeelskin.com^
 ||questintegrity.actonservice.com^
 ||question.snapiio.com^
-||questionableobservation.com^$third-party
 ||questionfly.com^
 ||questioningexperimental.com^
 ||questioningsanctifypuberty.com^
@@ -115336,7 +115223,6 @@ zyro.com##.zyro-cookies
 ||quickorange.com^
 ||quickpcfixer.click^
 ||quicksandear.com^
-||quicksandear.com^$third-party
 ||quicksitting.com^
 ||quickwest.pro^
 ||quidclueless.com^
@@ -115754,15 +115640,12 @@ zyro.com##.zyro-cookies
 ||raintwig.com^$third-party
 ||rainwealth.com^
 ||rainydirt.com^
-||rainydirt.com^$third-party
 ||rainyfreshen.com^
 ||rainyhand.com^
 ||rainyhand.com^$third-party
 ||rainyrule.com^
 ||rainyrule.com^$third-party
 ||rainystretch.com^
-||rainystretch.com^$third-party
-||rainyzinc.com^$third-party
 ||raiplay.it/tracking/
 ||raiseallocation.com^
 ||raistiwije.net^
@@ -115789,7 +115672,6 @@ zyro.com##.zyro-cookies
 ||rambobf.com^
 ||rambunctiousflock.com^
 ||rambunctiousvoyage.com^
-||rambunctiousvoyage.com^$third-party
 ||rametbaygall.shop^
 ||ramieuretal.com^
 ||rammishruinous.com^
@@ -115870,7 +115752,6 @@ zyro.com##.zyro-cookies
 ||rapidhits.net^
 ||rapidhunchback.com^
 ||rapidkittens.com^
-||rapidkittens.com^$third-party
 ||rapidlypierredictum.com^
 ||rapidpanda.io^
 ||rapidshookdecide.com^
@@ -116154,7 +116035,6 @@ zyro.com##.zyro-cookies
 ||readertracking.com^
 ||readertracking.com^$third-party
 ||readgoldfish.com^
-||readgoldfish.com^$third-party
 ||readinessplacingchoice.com^
 ||readingguilt.com^
 ||readingguilt.com^$third-party
@@ -116274,7 +116154,6 @@ zyro.com##.zyro-cookies
 ||rebellionnaturalconsonant.com^
 ||rebelmouse.com/pharos/
 ||rebelsubway.com^
-||rebelsubway.com^$third-party
 ||rebelswing.com^
 ||rebindskayoes.com^
 ||rebojf.xyz^
@@ -116308,7 +116187,6 @@ zyro.com##.zyro-cookies
 ||receptiongrimoddly.com^
 ||receptions.smart-bdash.com/receptions/action/click
 ||receptivebranch.com^
-||receptivebranch.com^$third-party
 ||receptiveink.com^
 ||receptiveink.com^$third-party
 ||receptivereaction.com^
@@ -116344,7 +116222,6 @@ zyro.com##.zyro-cookies
 ||recommend-drcn.hms.dbankcloud.cn^
 ||recommend.union.39.net^
 ||recommenddoor.com^
-||recommenddoor.com^$third-party
 ||recommendedblanket.com^
 ||recommendedbookies.co.uk^
 ||recommendednewspapermyself.com^
@@ -116367,7 +116244,6 @@ zyro.com##.zyro-cookies
 ||record.kuai.xunlei.com^
 ||record.rizk.com^
 ||recordbutter.com^
-||recordbutter.com^$third-party
 ||recordedthereby.com^
 ||recordercourseheavy.com^
 ||recordercrush.com^
@@ -116527,7 +116403,6 @@ zyro.com##.zyro-cookies
 ||refer.wordpress.com^
 ||referafriend.box.com^
 ||referdriving.com^
-||referdriving.com^$third-party
 ||referee.xiaohongshu.com^
 ||refereenutty.com^
 ||referer.org^
@@ -116569,7 +116444,6 @@ zyro.com##.zyro-cookies
 ||reflectingwindowscheckbook.com^
 ||reflectionseldomnorth.com^
 ||reflectivereward.com^
-||reflectivereward.com^$third-party
 ||reflectivestatement.com^
 ||reflexcolin.com^
 ||reflow.tv/pixels/
@@ -116689,7 +116563,6 @@ zyro.com##.zyro-cookies
 ||reitingi.lv^$third-party
 ||rejdfa.com^
 ||rejectfairies.com^
-||rejectfairies.com^$third-party
 ||rejectionbackache.com^
 ||rejectionbennetsmoked.com^
 ||rejectionfundetc.com^
@@ -116968,7 +116841,6 @@ zyro.com##.zyro-cookies
 ||reppify.actonservice.com^
 ||reprak.com^
 ||reprenebritical.org^
-||representativebat.com^$third-party
 ||representhostilemedia.com^
 ||reprimandheel.com^
 ||reprimandhick.com^
@@ -116986,7 +116858,6 @@ zyro.com##.zyro-cookies
 ||republicandegrademeasles.com^
 ||repulsefinish.com^
 ||repulsiveclearingtherefore.com^
-||repulsiverequest.com^$third-party
 ||req.startappservice.com^
 ||req12pkg.com^
 ||req12pkgb.com^
@@ -117101,7 +116972,6 @@ zyro.com##.zyro-cookies
 ||resnubdreich.com^
 ||resolesmidewin.top^
 ||resolutekey.com^
-||resolutekey.com^$third-party
 ||resolutethumb.com^
 ||resolution.taxdefensenetwork.com^
 ||resolvedswordlinked.com^
@@ -117558,7 +117428,6 @@ zyro.com##.zyro-cookies
 ||rhymezebra.com^
 ||rhymezebra.com^$third-party
 ||rhythmmoney.com^
-||rhythmmoney.com^$third-party
 ||rhythmrule.com^
 ||rhythmrule.com^$third-party
 ||rhythmxchange.com^
@@ -117590,7 +117459,6 @@ zyro.com##.zyro-cookies
 ||richmetrics.com^
 ||richmetrics.com^$third-party
 ||richreceipt.com^
-||richreceipt.com^$third-party
 ||richrelevance.com/rrserver/tracking?
 ||richshredinger.com^
 ||richstring.com^
@@ -117671,7 +117539,6 @@ zyro.com##.zyro-cookies
 ||ringplant.com^
 ||ringplant.com^$third-party
 ||ringplayground.com^
-||ringplayground.com^$third-party
 ||ringsconsultaspirant.com^
 ||ringsrecord.com^
 ||ringsrecord.com^$third-party
@@ -117864,7 +117731,6 @@ zyro.com##.zyro-cookies
 ||rnyvukdnylwnqtj.com^
 ||ro-go.experian.com^
 ||ro.aiwan4399.com^
-||ro.promo.skf.com^
 ||roacheenazak.com^
 ||roadformedomission.com^
 ||roadoati.xyz^
@@ -117892,7 +117758,6 @@ zyro.com##.zyro-cookies
 ||robotrenamed.com^
 ||robspabah.com^
 ||robustbelieve.com^
-||robustbelieve.com^$third-party
 ||rochelle.wantsext.me^
 ||rochesterbreedpersuade.com^
 ||rock5rice.com^
@@ -117925,7 +117790,6 @@ zyro.com##.zyro-cookies
 ||rodecommercial.com^
 ||rodejessie.com^
 ||rodeopolice.com^
-||rodeopolice.com^$third-party
 ||rodirgix.com^
 ||rodmfv.xyz^
 ||rodo.agora.pl/agreement/check$script
@@ -118026,7 +117890,6 @@ zyro.com##.zyro-cookies
 ||rooms.itsme.video^
 ||roomvo.com/services/event/
 ||roomyreading.com^
-||roomyreading.com^$third-party
 ||rooptawu.net^
 ||roosterfirework.com^
 ||roosterfirework.com^$third-party
@@ -118077,10 +117940,8 @@ zyro.com##.zyro-cookies
 ||rouduranter.com^
 ||rougepromisedtenderly.com^
 ||rougharmless.com^
-||roughharmony.com^$third-party
 ||roughindoor.com^
 ||roughroll.com^
-||roughroll.com^$third-party
 ||roughseaside.com^
 ||roughviolentlounge.com^
 ||rouhavenever.com^
@@ -118222,7 +118083,6 @@ zyro.com##.zyro-cookies
 ||rs.adpinfo.com^
 ||rs.haohaowan8.com^
 ||rs.mail.ru^
-||rs.promo.skf.com^
 ||rs.sinajs.cn^
 ||rs.smc.tf^
 ||rs0.co.uk^
@@ -118240,7 +118100,6 @@ zyro.com##.zyro-cookies
 ||rsc.lepoint.fr^
 ||rscc3.cc^
 ||rscilnmkkfbl.com^
-||rsfh.hrm.healthgrades.com^
 ||rsfmzirxwg.com^
 ||rsinnxoe.com^
 ||rsinqg.homelux.hu^
@@ -118421,10 +118280,8 @@ zyro.com##.zyro-cookies
 ||rudderlabs.com^$third-party
 ||rudderleisurelyobstinate.com^
 ||ruddycast.com^
-||ruddycast.com^$third-party
 ||ruddyred.pro^
 ||ruddywash.com^
-||ruddywash.com^$third-party
 ||rudimentarydelay.com^
 ||rudishtremolo.top^
 ||ruefulauthorizedguarded.com^
@@ -118519,7 +118376,6 @@ zyro.com##.zyro-cookies
 ||ruralrobin.com^
 ||ruralrobin.com^$third-party
 ||rusenov.com^
-||rush.hrm.healthgrades.com^
 ||rushoothulso.xyz^
 ||rushpeeredlocate.com^
 ||ruskhw.cn^
@@ -118552,7 +118408,6 @@ zyro.com##.zyro-cookies
 ||ruthlessmilk.com^
 ||ruthlessmilk.com^$third-party
 ||ruthlessrobin.com^
-||ruthlessrobin.com^$third-party
 ||ruthwoof.com^
 ||rutrk.org^
 ||rutube.ru/counters.html?
@@ -119570,7 +119425,6 @@ zyro.com##.zyro-cookies
 ||saillevity.com^
 ||sailorjav128.fun^
 ||sailorlanceslap.com^
-||sailsuit.com^$third-party
 ||sailthru.com/Sailthru_spacer_1x1.gif
 ||sailthru.com^$third-party
 ||saintselfish.com^
@@ -120007,9 +119861,7 @@ zyro.com##.zyro-cookies
 ||satisfycork.com^$third-party
 ||satisfyingshirt.com^
 ||satisfyingshow.com^
-||satisfyingshow.com^$third-party
 ||satisfyingspark.com^
-||satisfyingspark.com^$third-party
 ||satismeter.com^
 ||satoripedary.com^
 ||satracking.cubiq.com^
@@ -120054,7 +119906,6 @@ zyro.com##.zyro-cookies
 ||savoryorange.com^
 ||savoryorange.com^$third-party
 ||savorystructure.com^
-||savorystructure.com^$third-party
 ||savourethicalmercury.com^
 ||savourmarinercomplex.com^
 ||savvcsj.com^
@@ -120093,7 +119944,6 @@ zyro.com##.zyro-cookies
 ||saylnk.com^
 ||saymedia.com/latest/tetrapak.js
 ||saysidewalk.com^
-||saysidewalk.com^$third-party
 ||sayutracking.co.uk^
 ||sayutracking.co.uk^$third-party
 ||sayyac.com^
@@ -120273,9 +120123,7 @@ zyro.com##.zyro-cookies
 ||scardeviceduly.com^
 ||scarecrowenhancements.com^
 ||scarecrowslip.com^
-||scarecrowslip.com^$third-party
 ||scarecrowslope.com^
-||scarecrowslope.com^$third-party
 ||scaredcomfort.com^
 ||scaredcomfort.com^$third-party
 ||scaredframe.com^
@@ -120291,7 +120139,6 @@ zyro.com##.zyro-cookies
 ||scaredsong.com^
 ||scaredstomach.com^
 ||scaredstory.com^
-||scaredstory.com^$third-party
 ||scaredswing.com^
 ||scaredswing.com^$third-party
 ||scarefowl.com^
@@ -120301,7 +120148,6 @@ zyro.com##.zyro-cookies
 ||scarfsmash.com^
 ||scarfsmash.com^$third-party
 ||scarfthought.com^
-||scarfthought.com^$third-party
 ||scaringposterknot.com^
 ||scarlet-clicks.info^
 ||scarletcashwi5.com^
@@ -120314,7 +120160,6 @@ zyro.com##.zyro-cookies
 ||scatteredheat.com^$third-party
 ||scatteredhecheaper.com^
 ||scatteredquiver.com^
-||scatteredquiver.com^$third-party
 ||scatteredstream.com^
 ||scatteredstream.com^$third-party
 ||scatulalactate.com^
@@ -120385,7 +120230,6 @@ zyro.com##.zyro-cookies
 ||scientificshirt.com^
 ||scientificshirt.com^$third-party
 ||scientificsneeze.com^
-||scientificsneeze.com^$third-party
 ||scifc.mobi^
 ||scihuns.com^
 ||sciillr.cn^
@@ -120396,7 +120240,6 @@ zyro.com##.zyro-cookies
 ||scintillatingsilver.com^
 ||scintillatingsilver.com^$third-party
 ||scintillatingspace.com^
-||scintillatingspace.com^$third-party
 ||scispg.smu.edu.sg^
 ||scisselfungus.com^
 ||scissorsstatement.com^
@@ -120780,7 +120623,6 @@ zyro.com##.zyro-cookies
 ||sealingdev.actonservice.com^
 ||sealmetrics.com^
 ||sealmetrics.com^$third-party
-||seals.promo.skf.com^
 ||sealserver.trustwave.com^
 ||sealserver.trustwave.com^$third-party
 ||sealthatleak.com^
@@ -120828,7 +120670,6 @@ zyro.com##.zyro-cookies
 ||seashorepigeonsbanish.com^
 ||seashoreshine.com^
 ||seashoresociety.com^
-||seashoresociety.com^$third-party
 ||seasickbittenprestigious.com^
 ||seasonaloffers.club^
 ||seat.it/cgi-bin/getcod.cgi?
@@ -120875,11 +120716,9 @@ zyro.com##.zyro-cookies
 ||secretbehindporn.com^
 ||secretiongrin.com^
 ||secretivecub.com^
-||secretivecub.com^$third-party
 ||secretivelimpfraudulent.com^
 ||secretivesheep.com^
 ||secretivesheep.com^$third-party
-||secretivestick.com^$third-party
 ||secretspiders.com^
 ||secretspiders.com^$third-party
 ||secretturtle.com^
@@ -121250,7 +121089,6 @@ zyro.com##.zyro-cookies
 ||secure.valleymed.org^
 ||secure.valpak.com^
 ||secure.vane3alga.com^
-||secure.venture-365-inspired.com^
 ||secure.venture-enterprising.com^
 ||secure.venture365office.com^
 ||secure.vice4beek.com^
@@ -121507,7 +121345,6 @@ zyro.com##.zyro-cookies
 ||seemaicees.xyz^
 ||seemingverticallyheartbreak.com^
 ||seemlysuggestion.com^
-||seemlysuggestion.com^$third-party
 ||seemoraldisobey.com^
 ||seemyresume.org^
 ||seeonderfulstatue.com^
@@ -121807,9 +121644,7 @@ zyro.com##.zyro-cookies
 ||sep02.hinagiku-life.jp^
 ||separatepattern.pro^
 ||separateshow.com^
-||separateshow.com^$third-party
 ||separatesilver.com^
-||separatesilver.com^$third-party
 ||separatesort.com^
 ||separationalphabet.com^
 ||separationharmgreatest.com^
@@ -122162,7 +121997,6 @@ zyro.com##.zyro-cookies
 ||sg-vid-events.taboola.com^
 ||sg.carousellmotors.com^
 ||sg.lucanet.com^
-||sg.promo.skf.com^
 ||sg01.rayjump.com^
 ||sg2p.wns.windows.com^
 ||sg3.notarize.com^
@@ -122236,7 +122070,6 @@ zyro.com##.zyro-cookies
 ||shakegoldfish.com^
 ||shakegoldfish.com^$third-party
 ||shakesuggestion.com^
-||shakesuggestion.com^$third-party
 ||shakingtacklingunpeeled.com^
 ||shakre.com^
 ||shakydeploylofty.com^
@@ -122441,7 +122274,6 @@ zyro.com##.zyro-cookies
 ||sharpay.io^
 ||sharpofferlinks.com^
 ||sharppatch.com^
-||sharppatch.com^$third-party
 ||sharpphysicallyupcoming.com^
 ||sharpspring.com^
 ||sharpspring.com^$third-party
@@ -122584,7 +122416,6 @@ zyro.com##.zyro-cookies
 ||shineinternalindolent.com^
 ||shinep.xyz^
 ||shinesavage.com^
-||shinesavage.com^$third-party
 ||shingleexpressing.com^
 ||shinglelatitude.com^
 ||shinobi.jp/track?
@@ -122684,7 +122515,6 @@ zyro.com##.zyro-cookies
 ||shop265.com^
 ||shopalyst.com^
 ||shopbreakfast.com^
-||shopbreakfast.com^$third-party
 ||shopch.jp/com/js/analytics.js
 ||shopee.*/__t__$xmlhttprequest
 ||shopee.tw/__t__
@@ -122856,7 +122686,6 @@ zyro.com##.zyro-cookies
 ||shusacem.net^
 ||shutesaroph.com^
 ||shutseashore.com^
-||shutseashore.com^$third-party
 ||shuttersurveyednaive.com^
 ||shuttle.bayescom.com^
 ||shuucerz.com^
@@ -122869,7 +122698,6 @@ zyro.com##.zyro-cookies
 ||shydinosaurs.com^
 ||shyrepair.pro^
 ||shyseed.com^
-||shyseed.com^$third-party
 ||shzyjbr.wtdtjs.rocks^
 ||shzzzz.dftoutiao.com^
 ||si.efwga.xyz^
@@ -122890,7 +122718,6 @@ zyro.com##.zyro-cookies
 ||siccash.com^
 ||sicilywring.com^
 ||sickflock.com^
-||sickflock.com^$third-party
 ||sicklybates.com^
 ||sicklypercussivecoordinate.com^
 ||sickrage.ca^
@@ -122973,10 +122800,8 @@ zyro.com##.zyro-cookies
 ||silebu.xyz^
 ||silenceblindness.com^
 ||silentcredit.com^
-||silentcredit.com^$third-party
 ||silentinevitable.com^
 ||silentwrench.com^
-||silentwrench.com^$third-party
 ||siliconslow.com^
 ||siliconslow.com^$third-party
 ||silimbompom.com^
@@ -122985,7 +122810,6 @@ zyro.com##.zyro-cookies
 ||silkroad.csdn.net^
 ||silkstuck.com^
 ||silkysquirrel.com^
-||silkysquirrel.com^$third-party
 ||silldisappoint.com^
 ||sillinessglamorousservices.com^
 ||sillinessmarshal.com^
@@ -123077,7 +122901,6 @@ zyro.com##.zyro-cookies
 ||simpli.fi^$third-party
 ||simplistic-king.pro^
 ||simplisticstem.com^
-||simplisticstem.com^$third-party
 ||simplycast.us^
 ||simplycast.us^$third-party
 ||simplymeasured.com^
@@ -123131,7 +122954,6 @@ zyro.com##.zyro-cookies
 ||sinisterdrippingcircuit.com^
 ||sinkagepandit.com^
 ||sinkbooks.com^
-||sinkbooks.com^$third-party
 ||sinkboxphantic.com^
 ||sinkfaster.com^
 ||sinkingswap.com^
@@ -123300,7 +123122,6 @@ zyro.com##.zyro-cookies
 ||sizd.6nzev.cn^
 ||sizd.chengboke.cn^
 ||sizesidewalk.com^
-||sizesidewalk.com^$third-party
 ||sizybn.shipsltd.co.jp^
 ||sizzlejs.com^
 ||sizzlingsmoke.com^
@@ -123343,7 +123164,6 @@ zyro.com##.zyro-cookies
 ||sk-batteryimport.m-shop.me^
 ||sk-sanasport.m-shop.me^
 ||sk-topgal.m-shop.me^
-||sk.promo.skf.com^
 ||sk0.monnierfreres.eu^
 ||sk1n.fr^
 ||sk1n.fr^$third-party
@@ -123398,7 +123218,6 @@ zyro.com##.zyro-cookies
 ||skillfuldrop.com^
 ||skillfuldrop.com^$third-party
 ||skillfulsock.com^
-||skillfulsock.com^$third-party
 ||skillpropulsion.com^
 ||skillshouse.actonservice.com^
 ||skillsombineukdw.com^
@@ -123542,13 +123361,11 @@ zyro.com##.zyro-cookies
 ||slimelump.com^
 ||slimfiftywoo.com^
 ||slimopinion.com^
-||slimopinion.com^$third-party
 ||slimspots.com^
 ||slimtrade.com^
 ||slimturpis.shop^
 ||slimyscarf.com^
 ||slimyscarf.com^$third-party
-||slimyseashore.com^$third-party
 ||slimytree.com^
 ||slingpic.com^
 ||slingpic.com^$third-party
@@ -123562,7 +123379,6 @@ zyro.com##.zyro-cookies
 ||slippersphoto.com^
 ||slipperydeliverance.com^
 ||slipperysack.com^
-||slipperysack.com^$third-party
 ||slipstream.skyscanner.net^
 ||slivmux.com^
 ||sljkj.com^
@@ -123582,9 +123398,7 @@ zyro.com##.zyro-cookies
 ||slopesoap.com^$third-party
 ||slopingunrein.com^
 ||sloppycalculator.com^
-||sloppycalculator.com^$third-party
 ||sloppyearthquake.com^
-||sloppyearthquake.com^$third-party
 ||slotabrosdev.zharev.com^
 ||slotabrosuat.zharev.com^
 ||sloto.live^
@@ -126935,15 +126749,12 @@ zyro.com##.zyro-cookies
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/dxf.js
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/heade.js
 ||snailsengine.com^
-||snailsengine.com^$third-party
 ||snakemineral.com^
 ||snakemineral.com^$third-party
 ||snakeselective.com^
 ||snakeslang.com^
 ||snakesshop.com^
-||snakesshop.com^$third-party
 ||snakesstone.com^
-||snakesstone.com^$third-party
 ||snalytics.accidenthero.at^
 ||snalytics.allianz-assistance.at^
 ||snalytics.allianz-assistance.es^
@@ -127111,8 +126922,6 @@ zyro.com##.zyro-cookies
 ||soaphokoul.xyz^
 ||soaphoupsoas.xyz^
 ||soaprange.com^
-||soaprange.com^$third-party
-||soapsmoke.com^$third-party
 ||soapsudkerfed.com^
 ||soarfi.cn^
 ||soathouchoa.xyz^
@@ -127383,7 +127192,6 @@ zyro.com##.zyro-cookies
 ||somaliainc.com^
 ||somaskeefs.shop^
 ||somberattack.com^
-||somberattack.com^$third-party
 ||somberscarecrow.com^
 ||somberscarecrow.com^$third-party
 ||sombersea.com^
@@ -127393,7 +127201,6 @@ zyro.com##.zyro-cookies
 ||sombersticks.com^
 ||sombersticks.com^$third-party
 ||somberstructure.com^
-||somberstructure.com^$third-party
 ||sombersurprise.com^
 ||sombersurprise.com^$third-party
 ||sombes.com^
@@ -127657,7 +127464,6 @@ zyro.com##.zyro-cookies
 ||songbagoozes.com^
 ||songcorrespondence.com^
 ||songssmoke.com^
-||songssmoke.com^$third-party
 ||songsterritory.com^
 ||songtopbrand.com^
 ||sonnerie.net^
@@ -127680,7 +127486,6 @@ zyro.com##.zyro-cookies
 ||soosooka.com^
 ||sootconform.com^
 ||sootheside.com^
-||sootheside.com^$third-party
 ||soothingglade.com^
 ||soothingglade.com^$third-party
 ||sootlongermacaroni.com^
@@ -127693,7 +127498,6 @@ zyro.com##.zyro-cookies
 ||sophieshemol.shop^
 ||sophisticatedround.pro^
 ||sophisticatedstory.com^
-||sophisticatedstory.com^$third-party
 ||sophisticatedstove.com^
 ||sophisticatedstove.com^$third-party
 ||sophomoreadmissible.com^
@@ -127705,9 +127509,7 @@ zyro.com##.zyro-cookies
 ||sopqvhe.cn^
 ||soptimize.southwest.com^
 ||sordidsmile.com^
-||sordidsmile.com^$third-party
 ||sordidstation.com^
-||sordidstation.com^$third-party
 ||sordimtaulee.com^
 ||sorediadilute.top^
 ||soremetropolitan.com^
@@ -127733,9 +127535,7 @@ zyro.com##.zyro-cookies
 ||sortext.com^
 ||sortext.com^$third-party
 ||sortsail.com^
-||sortsail.com^$third-party
 ||sortstructure.com^
-||sortstructure.com^$third-party
 ||sortsummer.com^
 ||sortsummer.com^$third-party
 ||sorucall.com^
@@ -127768,7 +127568,6 @@ zyro.com##.zyro-cookies
 ||soumehoo.net^
 ||soumoastout.net^
 ||soundcloud.com^$ping
-||soundestlink.com/REST/forms/v2/track/view?
 ||soundestlink.com/rest/forms/v2/track/
 ||soundingdisastereldest.com^
 ||soundingthunder.com^
@@ -127910,10 +127709,8 @@ zyro.com##.zyro-cookies
 ||sparkgoal.com^
 ||sparkle-industries-i-205.site^
 ||sparklesleet.com^
-||sparklesleet.com^$third-party
 ||sparkleunwelcomepleased.com^
 ||sparklingnumber.com^
-||sparklingnumber.com^$third-party
 ||sparklingshelf.com^
 ||sparklingshelf.com^$third-party
 ||sparklit.com/counter/
@@ -127941,7 +127738,6 @@ zyro.com##.zyro-cookies
 ||speak-a-message.com^
 ||speakeugene.com^
 ||speakexecution.com^
-||speakgrandfather.com^$third-party
 ||speakinchreprimand.com^
 ||speakinghostile.com^
 ||speakingimmediately.com^
@@ -127963,11 +127759,9 @@ zyro.com##.zyro-cookies
 ||specialscissors.com^
 ||specialscissors.com^$third-party
 ||specialsnake.com^
-||specialsnake.com^$third-party
 ||specialstat.com^
 ||specialstat.com^$third-party
 ||specialstatement.com^
-||specialstatement.com^$third-party
 ||specialtymet.com^
 ||specialtysanitaryinaccessible.com^
 ||specialworse.com^
@@ -128027,7 +127821,6 @@ zyro.com##.zyro-cookies
 ||spellsalsa.com^
 ||spellsalsa.com^$third-party
 ||spendpest.com^
-||spendpest.com^$third-party
 ||spendslaughing.com^
 ||spentdrugfrontier.com^
 ||spentjerseydelve.com^
@@ -128050,7 +127843,6 @@ zyro.com##.zyro-cookies
 ||spider-mich.com^
 ||spider-mich.com^$third-party
 ||spidersboats.com^
-||spidersboats.com^$third-party
 ||spiffymachine.com/v2/$script
 ||spiffymachine.com^
 ||spiffymachine.com^$third-party
@@ -128126,7 +127918,6 @@ zyro.com##.zyro-cookies
 ||spondeekitling.top^
 ||spongecell.com^
 ||spongemilitarydesigner.com^
-||spongesalt.com^$third-party
 ||sponsoranimosity.com^
 ||sponsorcounter.de^
 ||sponsorcounter.de^$third-party
@@ -128146,7 +127937,6 @@ zyro.com##.zyro-cookies
 ||spookysleet.com^
 ||spookysleet.com^$third-party
 ||spookyslope.com^
-||spookyslope.com^$third-party
 ||spookystitch.com^
 ||spookystitch.com^$third-party
 ||spoonpenitenceadventurous.com^
@@ -128180,15 +127970,12 @@ zyro.com##.zyro-cookies
 ||spotpass.com/api/log
 ||spotscenered.info^
 ||spotstring.com^
-||spotstring.com^$third-party
 ||spotted-estate.pro^
 ||spottedgrandfather.com^
 ||spottednoise.com^
 ||spottednoise.com^$third-party
 ||spottedsmile.com^
-||spottedsmile.com^$third-party
 ||spottedsnow.com^
-||spottedsnow.com^$third-party
 ||spottt.com^
 ||spotunworthycoercive.com^
 ||spotx.tv^
@@ -128215,7 +128002,6 @@ zyro.com##.zyro-cookies
 ||spring.de^
 ||spring.de^$third-party
 ||springaftermath.com^
-||springaftermath.com^$third-party
 ||springboard.aon.com^
 ||springify.io^
 ||springmetrics.com^
@@ -128257,7 +128043,6 @@ zyro.com##.zyro-cookies
 ||spuriousbase.com^$third-party
 ||spurioussquirrel.com^
 ||spurioussteam.com^
-||spurioussteam.com^$third-party
 ||spuriousstranger.com^
 ||spuriousstranger.com^$third-party
 ||spurproteinopaque.com^
@@ -128311,7 +128096,6 @@ zyro.com##.zyro-cookies
 ||squarespace.com/api/1/performance/
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||squashfriction.com^
-||squashfriction.com^$third-party
 ||squashperiodicmen.com^
 ||squashwithholdcame.com^
 ||squatcowarrangement.com^
@@ -128321,7 +128105,6 @@ zyro.com##.zyro-cookies
 ||squealingturn.com^
 ||squealingturn.com^$third-party
 ||squeamishspot.com^
-||squeamishspot.com^$third-party
 ||squeezedthoughtfully.com^
 ||squeezely.tech^
 ||squeezely.tech^$third-party
@@ -128334,7 +128117,6 @@ zyro.com##.zyro-cookies
 ||squirrel.malaynahocker.com^
 ||squirrelformatapologise.com^
 ||squirrelhands.com^
-||squirrelhands.com^$third-party
 ||squirrels.getsquirrel.co^
 ||squirtsuitablereverse.com^
 ||sqwed.371dk.com^
@@ -128794,7 +128576,6 @@ zyro.com##.zyro-cookies
 ||ssl.o.univadis.fr^
 ||ssl.o.univadis.it^
 ||ssl.o.vitals.com^
-||ssl.o.webmd.com^
 ||ssl.o.webmdrx.com^
 ||ssl.sciencechannel.com^
 ||ssl.synovite-scripts.com/ut$script
@@ -129259,15 +129040,12 @@ zyro.com##.zyro-cookies
 ||stakingbasket.com^
 ||stakingbasket.com^$third-party
 ||stakingscrew.com^
-||stakingscrew.com^$third-party
 ||stakingshock.com^
 ||stakingshock.com^$third-party
 ||stakingslope.com^
-||stakingslope.com^$third-party
 ||stakingsmile.com^
 ||stakingsmile.com^$third-party
 ||staleseat.com^
-||staleseat.com^$third-party
 ||staleshow.com^
 ||staleshow.com^$third-party
 ||stalesummer.com^
@@ -129278,7 +129056,6 @@ zyro.com##.zyro-cookies
 ||stallsmalnutrition.com^
 ||staltoumoaze.com^
 ||stamfordadvocate.com/413gkwMT/init.js
-||stamfordhealth.hrm.healthgrades.com^
 ||stammerail.com^
 ||stammerdescriptionpoetry.com^
 ||stampknot.com^
@@ -129287,12 +129064,9 @@ zyro.com##.zyro-cookies
 ||stanburns.actonservice.com^
 ||standgruff.com^
 ||standingnest.com^
-||standingnest.com^$third-party
 ||standingsack.com^
-||standingsack.com^$third-party
 ||standpointdriveway.com^
 ||standtrouble.com^
-||standtrouble.com^$third-party
 ||standvirtual.com^$ping
 ||stanforduniversity.qualtrics.com^
 ||stangast.net^
@@ -129644,7 +129418,6 @@ zyro.com##.zyro-cookies
 ||statedthoughtslave.com^
 ||statementsnellattenuate.com^
 ||statementsweater.com^
-||statementsweater.com^$third-party
 ||stater-tc.com^
 ||statesbenediction.com^
 ||statesmanchosen.com^
@@ -130746,7 +130519,6 @@ zyro.com##.zyro-cookies
 ||stattrax.com^
 ||stattrax.com^$third-party
 ||statuesquebrush.com^
-||statuesquebrush.com^$third-party
 ||statun.com^
 ||statun.com^$third-party
 ||statuncore.com^
@@ -130802,12 +130574,10 @@ zyro.com##.zyro-cookies
 ||stbg.standardlesothobank.co.ls^
 ||stbshzm.com^
 ||stbvip.net^
-||stcharleshealthcare.hrm.healthgrades.com^
 ||std.o.globalacademycme.com^
 ||std.o.medicinenet.com^
 ||std.o.medscape.com^
 ||std.o.rxlist.com^
-||std.o.webmd.com^
 ||stdirection.com^
 ||stdl.qq.com^
 ||stdown.dinju.com^
@@ -130883,7 +130653,6 @@ zyro.com##.zyro-cookies
 ||steppedengender.com^
 ||steppequotationinspiring.com^
 ||stepplane.com^
-||stepplane.com^$third-party
 ||stepwisevideo.com^
 ||stereofixers.net.jumia.com.gh^
 ||stereomagiciannoun.com^
@@ -130895,7 +130664,6 @@ zyro.com##.zyro-cookies
 ||stereospoutfireextinguisher.com^
 ||stereosuspension.com^
 ||stereotypedclub.com^
-||stereotypedclub.com^$third-party
 ||stereotypedsugar.com^
 ||stereotypedsugar.com^$third-party
 ||stereotypeluminous.com^
@@ -130924,7 +130692,6 @@ zyro.com##.zyro-cookies
 ||stewsmall.com^
 ||stewsmemento.top^
 ||stewspiders.com^
-||stewspiders.com^$third-party
 ||stexoakraimtap.com^
 ||stfynw.esprit.be^
 ||stg-bnc-papago.naver.com^
@@ -130946,12 +130713,10 @@ zyro.com##.zyro-cookies
 ||stickingbeef.com^
 ||stickingrepute.com^
 ||stickssheep.com^
-||stickssheep.com^$third-party
 ||stickstelevisionoverdone.com^
 ||stickyadstv.com^
 ||stickygrandeur.com^
 ||stickysheet.com^
-||stickysheet.com^$third-party
 ||stickywhereaboutsspoons.com^
 ||stienlb.top^
 ||stiffeat.pro^
@@ -131096,11 +130861,8 @@ zyro.com##.zyro-cookies
 ||storea8tracking.alc.co.jp^
 ||storepoundsillegal.com^
 ||storescissors.com^
-||storescissors.com^$third-party
 ||storeslope.com^
-||storeslope.com^$third-party
 ||storesurprise.com^
-||storesurprise.com^$third-party
 ||storeyplayfulinnocence.com^
 ||storierkythed.shop^
 ||storiesfaultszap.com^
@@ -131116,7 +130878,6 @@ zyro.com##.zyro-cookies
 ||stormyachiever.com^$third-party
 ||stormydisconnectedcarsick.com^
 ||stormyfold.com^
-||stormyfold.com^$third-party
 ||storners.com^
 ||storygize.net^
 ||storygize.net^$third-party
@@ -131133,7 +130894,6 @@ zyro.com##.zyro-cookies
 ||stovearmpitagreeable.com^
 ||stovecharacterize.com^
 ||stoveseashore.com^
-||stoveseashore.com^$third-party
 ||stoveword.com^
 ||stowamends.com^
 ||stowthbedells.top^
@@ -131322,7 +131082,6 @@ zyro.com##.zyro-cookies
 ||strikeprowesshelped.com^
 ||strikinghystericalglove.com^
 ||stringsmile.com^
-||stringsmile.com^$third-party
 ||strip.alicdn.com^
 ||strip.taobaocdn.com^
 ||stripchat.com/pixel/
@@ -131366,7 +131125,6 @@ zyro.com##.zyro-cookies
 ||structurecolossal.com^
 ||structurepageantphotograph.com^
 ||structurerod.com^
-||structurerod.com^$third-party
 ||strugglingclamour.com^
 ||struhuts.com^
 ||strungcourthouse.com^
@@ -131433,10 +131191,10 @@ zyro.com##.zyro-cookies
 ||stunthypocrisy.com^
 ||stuowq.cn^
 ||stupendousselection.com^
-||stupendousselection.com^$third-party
 ||stupendoussleet.com^
 ||stupendoussleet.com^$third-party
 ||stupendoussnow.com^
+||stupendoussnow.com^$third-party
 ||stupid-luck.com^
 ||stupiditydecision.com^
 ||stupidityficklecapability.com^
@@ -131445,7 +131203,6 @@ zyro.com##.zyro-cookies
 ||stupidscene.com^
 ||stupidscene.com^$third-party
 ||stupidsnake.com^
-||stupidsnake.com^$third-party
 ||stupidspaceshipfestivity.com^
 ||sturdysnail.com^
 ||sturton-lation.com^
@@ -131539,9 +131296,7 @@ zyro.com##.zyro-cookies
 ||subscriptionsbnk.wolterskluwerfs.com^
 ||subsequentmean.com^
 ||subsequentsand.com^
-||subsequentsand.com^$third-party
 ||subsequentstew.com^
-||subsequentstew.com^$third-party
 ||subsequentswim.com^
 ||subsequentswim.com^$third-party
 ||subsideagainstforbes.com^
@@ -131557,7 +131312,6 @@ zyro.com##.zyro-cookies
 ||substantialgrade.com^$third-party
 ||substantialhound.com^
 ||substantialstraw.com^
-||substantialstraw.com^$third-party
 ||substation.confection.io^
 ||subtle-give.pro^
 ||subtractillfeminine.com^
@@ -131608,11 +131362,9 @@ zyro.com##.zyro-cookies
 ||suddensidewalk.com^
 ||suddensidewalk.com^$third-party
 ||suddensnake.com^
-||suddensnake.com^$third-party
 ||suddensoda.com^
 ||suddensoda.com^$third-party
 ||suddenstructure.com^
-||suddenstructure.com^$third-party
 ||suddenvampire.com^
 ||suddslife.com^
 ||sudokupad.app/api/event
@@ -131633,10 +131385,8 @@ zyro.com##.zyro-cookies
 ||sugabyte.actonservice.com^
 ||sugar.zhihu.com^
 ||sugarcurtain.com^
-||sugarcurtain.com^$third-party
 ||sugardistanttrunk.com^
 ||sugarfriction.com^
-||sugarfriction.com^$third-party
 ||sugaryambition.pro^
 ||suggest-recipes.com^
 ||suggestedasstrategic.com^
@@ -131662,7 +131412,6 @@ zyro.com##.zyro-cookies
 ||sulideshalfman.click^
 ||sulkvulnerableexpecting.com^
 ||sulkybutter.com^
-||sulkybutter.com^$third-party
 ||sulkycook.com^
 ||sulkycook.com^$third-party
 ||sullenabonnement.com^
@@ -131796,9 +131545,7 @@ zyro.com##.zyro-cookies
 ||superstriker.net^
 ||supervisebradleyrapidly.com^
 ||supervisegoldfish.com^
-||supervisegoldfish.com^$third-party
 ||superviseshoes.com^
-||superviseshoes.com^$third-party
 ||supervisionbasketinhuman.com^
 ||supervisionlanguidpersonnel.com^
 ||supervisionprohibit.com^
@@ -131931,7 +131678,6 @@ zyro.com##.zyro-cookies
 ||suspectunfortunateblameless.com^
 ||suspendedjetthus.com^
 ||suspendseed.com^
-||suspendseed.com^$third-party
 ||suspensionstorykeel.com^
 ||suspicionflyer.com^
 ||suspicionsmutter.com^
@@ -132163,14 +131909,12 @@ zyro.com##.zyro-cookies
 ||swebstats.imf.org^
 ||swebstats.us.aimia.com^
 ||swebtraffic.executiveboard.com^
-||swedishcovenant.hrm.healthgrades.com^
 ||sweenykhazens.com^
 ||sweepawejasper.com^
 ||sweepfrequencydissolved.com^
 ||sweepia.com^
 ||sweeps.la-z-boy.com^
 ||sweepsheep.com^
-||sweepsheep.com^$third-party
 ||sweet-candy.jp/c.php?$third-party
 ||sweet-discount.pro^
 ||sweetbook.net^
@@ -132194,8 +131938,6 @@ zyro.com##.zyro-cookies
 ||swelltouching.com^
 ||swelteringcrazy.pro^
 ||swelteringsleep.com^
-||swelteringsleep.com^$third-party
-||swelteringsmile.com^$third-party
 ||sweptbroadarchly.com^
 ||swerilxb.top^
 ||sweriob.top^
@@ -132214,7 +131956,6 @@ zyro.com##.zyro-cookies
 ||swimmerperfectly.com^
 ||swimmingusersabout.com^
 ||swimslope.com^
-||swimslope.com^$third-party
 ||swimsuitrustle.com^
 ||swimsunleisure.com^
 ||swindlehumorfossil.com^
@@ -132378,7 +132119,6 @@ zyro.com##.zyro-cookies
 ||symantec.ecs.arrow.com^
 ||symbio.actonservice.com^
 ||symbolizebeast.com^
-||symbolizebeast.com^$third-party
 ||symbolsovereigndepot.com^
 ||symboltech.com^
 ||symbolultrasound.com^
@@ -132415,7 +132155,6 @@ zyro.com##.zyro-cookies
 ||sync.mathtag.com^
 ||sync.mobojoy.baidu.com^
 ||sync.morgdm.ru^
-||sync.outbrain.com^$third-party
 ||sync.rambler.ru^
 ||sync.republer.com^
 ||sync.shinobi.jp^
@@ -132451,7 +132190,6 @@ zyro.com##.zyro-cookies
 ||synkd.life^
 ||synonymcuttermischievous.com^
 ||synonymousrule.com^
-||synonymousrule.com^$third-party
 ||synonymoussticks.com^
 ||synovite-scripts.com^
 ||synovite-scripts.com^$third-party
@@ -132462,7 +132200,6 @@ zyro.com##.zyro-cookies
 ||synthasite.net^$third-party
 ||synthesissocietysplitting.com^
 ||synthesizespoon.com^
-||synthesizespoon.com^$third-party
 ||syp.shcfpx.com^
 ||sypd.w13qh.cn^
 ||syphonpassay.click^
@@ -132489,7 +132226,6 @@ zyro.com##.zyro-cookies
 ||systeme-business.online^
 ||systeme.io^
 ||systemizecoat.com^
-||systemizecoat.com^$third-party
 ||systemleadb.com^
 ||sytclsb.cyou^
 ||sytcyf.com^
@@ -133294,7 +133030,6 @@ zyro.com##.zyro-cookies
 ||talent.aonunited.com^
 ||talent.roxiapp.com^
 ||talentedsteel.com^
-||talentedsteel.com^$third-party
 ||talenteq.intuit.com^
 ||talentinfatuatedrebuild.com^
 ||talentorganism.com^
@@ -133704,10 +133439,8 @@ zyro.com##.zyro-cookies
 ||tartator.com^
 ||tarteaucitron.io/log/
 ||tarttendency.com^
-||tarttendency.com^$third-party
 ||tarvardsusyseinpou.info^
 ||tarvrf.xyz^
-||tas.bdoaustralia.bdo.com.au^
 ||tasesetitoefany.info^
 ||taskanalytics.com^
 ||taskanalytics.com^$third-party
@@ -133716,12 +133449,9 @@ zyro.com##.zyro-cookies
 ||tastedflower.com^
 ||tasteeat.openapp.link^
 ||tastefulsongs.com^
-||tastefulsongs.com^$third-party
 ||tastelesstoes.com^
-||tastelesstoes.com^$third-party
 ||tastelesstrees.com^
 ||tastelesstrees.com^$third-party
-||tastelesstrucks.com^$third-party
 ||tastesnake.com^
 ||tastesnake.com^$third-party
 ||tastesnlynotqui.info^
@@ -134073,11 +133803,9 @@ zyro.com##.zyro-cookies
 ||teenytinytongue.com^
 ||teenytinytongue.com^$third-party
 ||teenyvolcano.com^
-||teenyvolcano.com^$third-party
 ||teepoomo.xyz^
 ||teestoagloupaza.net^
 ||teethfan.com^
-||teethfan.com^$third-party
 ||teetusee.xyz^
 ||tefrjctjwuu.com^
 ||tefuse.com^
@@ -134239,7 +133967,6 @@ zyro.com##.zyro-cookies
 ||tenddata.net^
 ||tendernessknockout.com^
 ||tendersugar.com^
-||tendersugar.com^$third-party
 ||tendertest.com^
 ||tendertest.com^$third-party
 ||tendonsjogger.top^
@@ -134327,9 +134054,7 @@ zyro.com##.zyro-cookies
 ||terriblethumb.com^$third-party
 ||terrificdark.com^
 ||terrificgoose.com^
-||terrificgoose.com^$third-party
 ||terrifictooth.com^
-||terrifictooth.com^$third-party
 ||terrifyingcovert.com^
 ||tertiafrush.top^
 ||tertracks.site^
@@ -134422,7 +134147,6 @@ zyro.com##.zyro-cookies
 ||testbnc.mksp.io^
 ||testbranch.onsequel.com^
 ||testedtouch.com^
-||testedtouch.com^$third-party
 ||testfilter.com^
 ||testforce.actonservice.com^
 ||testforms.fidelity.ca^
@@ -134860,9 +134584,7 @@ zyro.com##.zyro-cookies
 ||thingstorrent.com^
 ||think.phdinc.com^
 ||thinkablefloor.com^
-||thinkablefloor.com^$third-party
 ||thinkablerice.com^
-||thinkablerice.com^$third-party
 ||thinkappetitefeud.com^
 ||thinkingaccommodate.com^
 ||thinkitten.com^
@@ -134884,7 +134606,6 @@ zyro.com##.zyro-cookies
 ||thirdrespect.com^
 ||thirdrespect.com^$third-party
 ||thirstyswing.com^
-||thirstyswing.com^$third-party
 ||thirstytwig.com^
 ||thirstytwig.com^$third-party
 ||thirteenvolunteerpit.com^
@@ -134953,7 +134674,6 @@ zyro.com##.zyro-cookies
 ||threatdetect.org^
 ||threatenedfallenrueful.com^
 ||threechurch.com^
-||threechurch.com^$third-party
 ||threedy.ai/api/event/
 ||threeinvincible.com^
 ||threetruck.com^
@@ -134973,7 +134693,6 @@ zyro.com##.zyro-cookies
 ||throatchanged.com^
 ||throatpoll.com^
 ||throattrees.com^
-||throattrees.com^$third-party
 ||thron.com/shared/plugins/tracking/
 ||thronestartle.com^
 ||throngwhirlpool.com^
@@ -135000,9 +134719,7 @@ zyro.com##.zyro-cookies
 ||thunderdepthsforger.top^
 ||thunderhead.com^
 ||thunderingrose.com^
-||thunderingrose.com^$third-party
 ||thunderingtendency.com^
-||thunderingtendency.com^$third-party
 ||thunnqyo.com^
 ||thuphedsaup.com^
 ||thupsirsifte.xyz^
@@ -135154,10 +134871,8 @@ zyro.com##.zyro-cookies
 ||timesunion.com/413gkwMT/init.js
 ||timetableitemvariables.com^
 ||timeterritory.com^
-||timeterritory.com^$third-party
 ||timetoagree.com^
 ||timetwig.com^
-||timetwig.com^$third-party
 ||timing.uhrforum.de^
 ||timing.whenandhowagency.com^
 ||timinternet.it/timmobilestatic/img/*.gif?
@@ -135724,7 +135439,6 @@ zyro.com##.zyro-cookies
 ||toeapesob.com^
 ||toecircle.com^
 ||toedrawer.com^
-||toedrawer.com^$third-party
 ||toenailannouncehardworking.com^
 ||toeopa.doutornature.com^
 ||toffeeallergythrill.com^
@@ -135842,11 +135556,9 @@ zyro.com##.zyro-cookies
 ||tooraicush.net^
 ||toothbrushlimbperformance.com^
 ||toothbrushnote.com^
-||toothbrushnote.com^$third-party
 ||toothcauldron.com^
 ||toothoverdone.com^
 ||toothpasterabbits.com^
-||toothpasterabbits.com^$third-party
 ||toothstrike.com^
 ||toovoala.net^
 ||toowubozout.net^
@@ -135917,7 +135629,6 @@ zyro.com##.zyro-cookies
 ||tophosting101.com^
 ||topiccorruption.com^
 ||topichawaii.com^
-||topichawaii.com^$third-party
 ||topitme.com^
 ||topix.net/t6track/
 ||toplinkz.ru^
@@ -135985,7 +135696,6 @@ zyro.com##.zyro-cookies
 ||torpidtongue.com^
 ||torpidtongue.com^$third-party
 ||torpidtoothpaste.com^
-||torpidtoothpaste.com^$third-party
 ||torpsol.com^
 ||torrango.com^
 ||torrent-protection.com^
@@ -136086,7 +135796,6 @@ zyro.com##.zyro-cookies
 ||tower.jp/bundle/beacon
 ||towerdesire.com^
 ||towerfcu.actonservice.com^
-||toweringrun.com^$third-party
 ||towerofbabble.net^
 ||towersalighthybrids.com^
 ||towerslady.com^
@@ -137171,7 +136880,6 @@ zyro.com##.zyro-cookies
 ||tr.programme-voyageur-sncf.com^
 ||tr.projet.cotemaison.fr^
 ||tr.promo.np6.fr^
-||tr.promo.skf.com^
 ||tr.promotion.lexpress.fr^
 ||tr.prosfores-companeo.gr^
 ||tr.prosfores-etairias.gr^
@@ -138729,9 +138437,7 @@ zyro.com##.zyro-cookies
 ||trandgid.com^
 ||trandlife.info^
 ||tranquilamulet.com^
-||tranquilamulet.com^$third-party
 ||tranquilarchipelago.com^
-||tranquilarchipelago.com^$third-party
 ||tranquilcanyon.com^
 ||tranquilplume.com^
 ||tranquilside.com^
@@ -138755,7 +138461,6 @@ zyro.com##.zyro-cookies
 ||transientblobexaltation.com^
 ||transit.ncsecu.org^
 ||transitionfrenchdowny.com^
-||translateoatmeal.com^$third-party
 ||translatingimport.com^
 ||translationbuddy.com^
 ||transmapp.com^
@@ -138776,7 +138481,6 @@ zyro.com##.zyro-cookies
 ||trappush.com^
 ||trappush.com^$third-party
 ||trapskating.com^
-||trapteaching.com^$third-party
 ||traq.li/tracker/
 ||traq.li^
 ||traq.li^$third-party
@@ -138931,7 +138635,6 @@ zyro.com##.zyro-cookies
 ||tremendousplastic.com^$third-party
 ||tremendoustime.com^
 ||tremendoustime.com^$third-party
-||tremendoustreatment.com^$third-party
 ||tremorhub.com^
 ||trenchpoor.net^
 ||trendads.reactivebetting.com^
@@ -138985,7 +138688,6 @@ zyro.com##.zyro-cookies
 ||trick17.it^$third-party
 ||tricklesmartdiscourage.com^
 ||trickvealwagon.com^
-||trickycelery.com^$third-party
 ||trickynationalityturn.com^
 ||trickyrock.com/redirect.aspx?pid=*&bid=$subdocument,third-party
 ||trickyseduction.com^
@@ -139458,7 +139160,6 @@ zyro.com##.zyro-cookies
 ||troopseruptionfootage.com^
 ||troublebrought.com^
 ||troubledcontradiction.com^
-||troubledtail.com^$third-party
 ||troubleextremityascertained.com^
 ||troubleshade.com^
 ||troubleshade.com^$third-party
@@ -139898,7 +139599,6 @@ zyro.com##.zyro-cookies
 ||tusno.com^
 ||tussisinjelly.com^
 ||tutbc1.www.tapmyback.com^
-||tutorthing.com^$third-party
 ||tutphiarcox.com^
 ||tutsterblanche.com^
 ||tuttocagliari.net/pixel
@@ -139953,7 +139653,6 @@ zyro.com##.zyro-cookies
 ||tw.alimama.cn^
 ||tw.api.vpon.com^
 ||tw.cx^
-||tw.promo.skf.com^
 ||tw.pub.vpon.com^
 ||tw.rd.yahoo.com^
 ||tw.spiriteq.com^
@@ -140597,12 +140296,10 @@ zyro.com##.zyro-cookies
 ||uh.nakanohito.jp^
 ||uhd5nn09mgml.fort-shop.kiev.ua^
 ||uhdokoq5ocmk.com^
-||uhealthsystem.hrm.healthgrades.com^
 ||uhedsplo.com^
 ||uhegarberetrof.com^
 ||uhenqb.manning.com^
 ||uhfdsplo.com^
-||uhhospitals.hrm.healthgrades.com^
 ||uhit.eu/id/$third-party
 ||uhlagm.rakurakuseisan.jp^
 ||uhlkij.bonprix.it^
@@ -140690,7 +140387,6 @@ zyro.com##.zyro-cookies
 ||uk.adpinfo.com^
 ||uk.contact.alphabet.com^
 ||uk.partner.equifax.co.uk^
-||uk.promo.skf.com^
 ||uk.realestate.bnpparibas^
 ||uk.sharpmarketing.eu^
 ||uk.verintsystemsinc.com^
@@ -140809,7 +140505,6 @@ zyro.com##.zyro-cookies
 ||umami.is^$third-party
 ||umami.wakarimasen.moe^
 ||umapi.cn^
-||umassmemorial.hrm.healthgrades.com^
 ||umazvs.raybiotech.com^
 ||umbel.com^
 ||umbel.com^$third-party
@@ -140872,7 +140567,6 @@ zyro.com##.zyro-cookies
 ||unaccountablepie.com^
 ||unaccountablepie.com^$third-party
 ||unaces.com^
-||unadvisedengine.com^$third-party
 ||unalzlt.top^
 ||unamplespalax.com^
 ||unanimousbrashtrauma.com^
@@ -140913,7 +140607,6 @@ zyro.com##.zyro-cookies
 ||uncannynobilityenclose.com^
 ||uncastnork.com^
 ||uncertainimprovementsspelling.com^
-||unchealthcare.hrm.healthgrades.com^
 ||uncleffaan.com^
 ||unclesnewspaper.com^
 ||uncletroublescircumference.com^
@@ -140924,7 +140617,6 @@ zyro.com##.zyro-cookies
 ||unconf.mobad.ijinshan.com^
 ||uncorecaaba.shop^
 ||uncoverarching.com^
-||uncoveredcircle.com^$third-party
 ||uncoveredexpert.com^
 ||uncoveredexpert.com^$third-party
 ||uncrobator.com^
@@ -140985,7 +140677,6 @@ zyro.com##.zyro-cookies
 ||unequaltrail.com^
 ||unetall.com^
 ||unevenregime.com^
-||unevenstring.com^$third-party
 ||unfairgenelullaby.com^
 ||unfaithfulgoddess.com^
 ||unfhxszj.xyz^
@@ -141035,7 +140726,6 @@ zyro.com##.zyro-cookies
 ||uniformer.biz^
 ||uniformyeah.com^
 ||unifyaddition.com^
-||unifyaddition.com^$third-party
 ||unifyintent.com/analytics/
 ||unimhk.com^
 ||uninterestedquarter.com^
@@ -141138,7 +140828,6 @@ zyro.com##.zyro-cookies
 ||unm.emol.com^
 ||unmantyker.com^
 ||unmetlittle.shop^
-||unnaturalcaption.com^$third-party
 ||unnaturalstring.com^
 ||unnecessarydispleasedleak.com^
 ||unoakrookroo.com^
@@ -141219,7 +140908,6 @@ zyro.com##.zyro-cookies
 ||untrk.xyz^
 ||untrol.com^
 ||untropiuson.com^
-||unusedquestion.com^$third-party
 ||unusedstone.com^
 ||unusedstone.com^$third-party
 ||unusualbrainlessshotgun.com^
@@ -141241,7 +140929,6 @@ zyro.com##.zyro-cookies
 ||unwontcajun.top^
 ||unwoobater.com^
 ||unwrittenspot.com^
-||unwrittenspot.com^$third-party
 ||unynwld.com^
 ||unypud.cn^
 ||unyzea.aboutyou.sk^
@@ -141571,7 +141258,6 @@ zyro.com##.zyro-cookies
 ||us.noteapi.micloud.xiaomi.net.iberostar.com^
 ||us.onkyo.actonservice.com^
 ||us.pdc.micloud.xiaomi.net.iberostar.com^
-||us.promo.skf.com^
 ||us.ricoh-usa.com^
 ||us.roche-applied-science.com^
 ||us.vortex-win.data.microsft.com^
@@ -141604,7 +141290,6 @@ zyro.com##.zyro-cookies
 ||usearch.site^
 ||useblackbox.io/telemetry
 ||usedexample.com^
-||usedexample.com^$third-party
 ||usefomo.com^
 ||usefulcontentsites.com^
 ||usefullybruiseddrunken.com^
@@ -141812,7 +141497,6 @@ zyro.com##.zyro-cookies
 ||utterdevice.com^
 ||utterlysever.com^
 ||uttermosthobbies.com^
-||uttermosthobbies.com^$third-party
 ||uttersloanea.top^
 ||uttlinediv.top^
 ||utubepwhml.com^
@@ -142427,7 +142111,6 @@ zyro.com##.zyro-cookies
 ||vegetablesparrotplus.com^
 ||vegetationadmirable.com^
 ||vegetationartcocoa.com^
-||vehicleaftermarket.euw.promo.skf.com^
 ||vehiclepatsyacacia.com^
 ||vehosw.com^
 ||veille-referencement.com^
@@ -142537,7 +142220,6 @@ zyro.com##.zyro-cookies
 ||verify.spin.app^
 ||verify.test.spin.app^
 ||verifyvegetable.com^
-||verifyvegetable.com^$third-party
 ||veristouh.net^
 ||veritrol.com^
 ||verizon-branch.locationlabs.com^
@@ -142842,7 +142524,6 @@ zyro.com##.zyro-cookies
 ||vieldeold.xyz^
 ||viennafeedman.click^
 ||viensvoircesite.com^
-||vietnam.promo.skf.com^
 ||vieva.xyz^
 ||view-flix.com^
 ||view.admaster.com.cn^
@@ -142975,7 +142656,6 @@ zyro.com##.zyro-cookies
 ||violentlybredbusy.com^
 ||violet-strip.pro^
 ||violetlovelines.com^
-||violetreading.com^$third-party
 ||violinboot.com^
 ||violinmode.com^
 ||vionito.com^
@@ -143201,7 +142881,6 @@ zyro.com##.zyro-cookies
 ||viu.viubyhub.com^
 ||viurl.fun^
 ||vivaciousveil.com^
-||vivaciousveil.com^$third-party
 ||vivaldi.*/rep/rep.js
 ||vividcash.com^
 ||vividcortex.actonservice.com^
@@ -143368,12 +143047,10 @@ zyro.com##.zyro-cookies
 ||voicefive.com^
 ||voicefive.com^$third-party
 ||voicelessvein.com^
-||voicelessvein.com^$third-party
 ||voicepainlessdonut.com^
 ||voicepeaches.com^
 ||voicerdefeats.com^
 ||voicevegetable.com^
-||voicevegetable.com^$third-party
 ||voidgoo.com^
 ||voidmodificationdough.com^
 ||voila.refr.adgtw.orangeads.fr^
@@ -143390,7 +143067,6 @@ zyro.com##.zyro-cookies
 ||volatileprofit.com^
 ||volatileprofit.com^$third-party
 ||volatilerainstorm.com^
-||volatilerainstorm.com^$third-party
 ||volatilevessel.com^
 ||volatintptr.com^
 ||volcanoexhibitmeaning.com^
@@ -143476,7 +143152,6 @@ zyro.com##.zyro-cookies
 ||voxus.com.br^
 ||voxus.com.br^$third-party
 ||voyagepotato.com^
-||voyagepotato.com^$third-party
 ||voyageschoolanymore.com^
 ||voyagessansei.com^
 ||voyeurhit.com^
@@ -143601,8 +143276,6 @@ zyro.com##.zyro-cookies
 ||vshi.tc.qq.com^
 ||vshzouj.com^
 ||vsjrnh.xyz^
-||vsmeue.promo.skf.com^
-||vsmeuw.promo.skf.com^
 ||vsmokhklbw.com^
 ||vsnoon.com^
 ||vsohu.admaster.com.cn^
@@ -143812,7 +143485,6 @@ zyro.com##.zyro-cookies
 ||w.l.qq.com^
 ||w.m.taobao.com^
 ||w.sharethis.com^
-||w.smobile.wotif.com^
 ||w.uohz.cn^
 ||w.uptolike.com^
 ||w.waacorp.com^
@@ -143905,7 +143577,6 @@ zyro.com##.zyro-cookies
 ||w9g7dlhw3kaank.www.eldorado.gg^
 ||wa.and.co.uk^
 ||wa.baltimoreravens.com^
-||wa.bdoaustralia.bdo.com.au^
 ||wa.bol.com^
 ||wa.castorama.fr^
 ||wa.childrensplace.com^
@@ -143973,7 +143644,6 @@ zyro.com##.zyro-cookies
 ||wagershare.com^
 ||wagersinging.com^
 ||waggishpig.com^
-||waggishpig.com^$third-party
 ||waggonerchildrensurly.com^
 ||wagroyalcrap.com^
 ||wagtelly.com^
@@ -143998,7 +143668,6 @@ zyro.com##.zyro-cookies
 ||wakamoment.tk^
 ||wake.chinaerman.com^
 ||wakefulcook.com^
-||wakefulcook.com^$third-party
 ||wakemessyantenna.com^
 ||wakenprecox.com^
 ||wakenssponged.com^
@@ -144160,7 +143829,6 @@ zyro.com##.zyro-cookies
 ||wary-corner.com^
 ||warycsrm.com^
 ||waryfog.com^
-||waryfog.com^$third-party
 ||was.epson.com^
 ||was.stubhub.com^
 ||was.vodafone.de^
@@ -144414,7 +144082,6 @@ zyro.com##.zyro-cookies
 ||weanyergravely.com^
 ||weaponsnondescriptperceive.com^
 ||wearbasin.com^
-||wearbasin.com^$third-party
 ||weare.ballymoregroup.com^
 ||weareqy.com^
 ||wearesaudis.net^
@@ -145071,7 +144738,6 @@ zyro.com##.zyro-cookies
 ||wellgroomedapparel.com^
 ||wellgroomedapparel.com^$third-party
 ||wellgroomedbat.com^
-||wellgroomedbat.com^$third-party
 ||wellgroomedhydrant.com^
 ||wellgroomedhydrant.com^$third-party
 ||wellhello.com^
@@ -145330,7 +144996,6 @@ zyro.com##.zyro-cookies
 ||whisperinflate.com^
 ||whisperingauroras.com^
 ||whisperingbadge.com^
-||whisperingbadge.com^$third-party
 ||whisperingcascade.com^
 ||whisperingcrib.com^
 ||whisperingcrib.com^$third-party
@@ -145505,9 +145170,7 @@ zyro.com##.zyro-cookies
 ||wigetmedia.com^
 ||wiggledeteriorate.com^
 ||wigglygeese.com^
-||wigglygeese.com^$third-party
 ||wigglyindustry.com^
-||wigglyindustry.com^$third-party
 ||wigkxx.jetcost.com^
 ||wigrooglie.net^
 ||wigsynthesis.com^
@@ -145526,7 +145189,6 @@ zyro.com##.zyro-cookies
 ||wildcommittee.com^$third-party
 ||wildedbarley.com^
 ||wildernesscamera.com^
-||wildernesscamera.com^$third-party
 ||wildestduplicate.com^
 ||wildestelf.com^
 ||wildhookups.com^
@@ -145650,7 +145312,6 @@ zyro.com##.zyro-cookies
 ||wissen.sage.de^
 ||wister.biz^
 ||wistfulflight.com^
-||wistfulflight.com^$third-party
 ||wit.qq.com^
 ||witalfieldt.com^
 ||witbee.com^*/collect
@@ -145999,7 +145660,6 @@ zyro.com##.zyro-cookies
 ||work.3dmgame.com/js/statistics.js
 ||work.construction.com^
 ||workableachiever.com^
-||workableachiever.com^$third-party
 ||workback.net^
 ||workedqtam.com^
 ||workedworlds.com^
@@ -146194,7 +145854,6 @@ zyro.com##.zyro-cookies
 ||wrapper.lemde.fr^
 ||wrapper.lemde.fr^$third-party
 ||wrapstretch.com^
-||wrapstretch.com^$third-party
 ||wrathful-alternative.com^
 ||wrathyblesmol.com^
 ||wrating.com^
@@ -146205,7 +145864,6 @@ zyro.com##.zyro-cookies
 ||wreathabble.com^
 ||wreckonturr.info^
 ||wreckvolcano.com^
-||wreckvolcano.com^$third-party
 ||wrenterritory.com^
 ||wrestcut.com^
 ||wretched-confusion.com^
@@ -146221,7 +145879,6 @@ zyro.com##.zyro-cookies
 ||wristtrunkpublication.com^
 ||writeestatal.space^
 ||writewealth.com^
-||writewealth.com^$third-party
 ||writhehawm.com^
 ||writingwhine.com^
 ||wrkbha.lyst.de^
@@ -146244,7 +145901,6 @@ zyro.com##.zyro-cookies
 ||wrvueo.mollis.ru^
 ||wrxgandsfcz.ru^
 ||wryfinger.com^
-||wryfinger.com^$third-party
 ||ws-br-cdn.kwai.net.iberostar.com^
 ||ws-pro-pull.kwai.net.iberostar.com^
 ||ws.audioeye.com^
@@ -146602,8 +146258,6 @@ zyro.com##.zyro-cookies
 ||www.99tianxin.com^
 ||www.a0b11.com^
 ||www.a0c77.com^
-||www.a8clk.amelia.ne.jp^
-||www.a8clk.kanagawa-zero.com^
 ||www.aabbttuu.com^
 ||www.aafanke.cc^
 ||www.abblm.com^
@@ -147204,7 +146858,6 @@ zyro.com##.zyro-cookies
 ||www.meet3monk.com^
 ||www.meitumq.com^
 ||www.mengyuanwei.com^
-||www.metrics.argos.co.uk^
 ||www.metrics.bankaustria.at^
 ||www.meuble-design.net.jumia.ug^
 ||www.mews2ruck.com^
@@ -147446,7 +147099,6 @@ zyro.com##.zyro-cookies
 ||www.smart-enterprise-365.com^
 ||www.smart-enterprise-7.com^
 ||www.smart-enterprise-acumen.com^
-||www.smetrics.argos.co.uk^
 ||www.smetrics.imedeen.us^
 ||www.smtlm.cc^
 ||www.smucdn.com^
@@ -147471,8 +147123,6 @@ zyro.com##.zyro-cookies
 ||www.srvtrkxx1.com^
 ||www.srvtrkxx2.com^
 ||www.ssstuitui1999.com^
-||www.sstats.bnpparibasfortis.be^
-||www.sstats.hellobank.be^
 ||www.star-cntr-5.com^
 ||www.startappexchange.com^
 ||www.statcounter.com^
@@ -149015,7 +148665,6 @@ zyro.com##.zyro-cookies
 ||yamanoha.com^$third-party
 ||yami8alea.com^
 ||yamstamp.com^
-||yamstamp.com^$third-party
 ||yan07.xyz^
 ||yandeg.ru/count/
 ||yandex.*/clck/$~ping
@@ -149689,7 +149338,6 @@ zyro.com##.zyro-cookies
 ||youngestdisturbance.com^
 ||youngestmildness.com^
 ||youngmarble.com^
-||youngmarble.com^$third-party
 ||youngstersaucertuition.com^
 ||youp05.com^
 ||youpeacockambitious.com^
@@ -149751,7 +149399,6 @@ zyro.com##.zyro-cookies
 ||youservit.com^
 ||yousuode.cn^
 ||youthfulnoise.com^
-||youthfulnoise.com^$third-party
 ||youtube-nocookie.com/api/stats/atr?
 ||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/qoe?
@@ -150458,7 +150105,6 @@ zyro.com##.zyro-cookies
 ||zealotillustrate.com^
 ||zealouscompassionatecranny.com^
 ||zealousfield.com^
-||zealousfield.com^$third-party
 ||zealsalts.com^
 ||zeatse.buzz^
 ||zebeaa.click^
@@ -150778,7 +150424,6 @@ zyro.com##.zyro-cookies
 ||zipperxray.com^
 ||zippyfrog.co^
 ||zippywind.com^
-||zippywind.com^$third-party
 ||zipradarindifferent.com^
 ||zipstat.dk^
 ||zipstat.dk^$third-party
