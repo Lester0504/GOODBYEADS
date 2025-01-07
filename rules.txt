@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-01-06 20:37:18（北京时间） 
+! Version: 2025-01-07 09:08:38（北京时间） 
 ! Total count: 151513
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -29248,7 +29248,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||qpython.club^$generichide
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
-@@||rackcdn.com/stf.js$script,domain=20min.ch
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
@@ -29256,6 +29255,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||realclearpolitics.com/esm/assets/js/analytics/gaAnalytics.js$~third-party
 @@||reallyfreegeoip.org/json/$domain=thekitchensafe.com
 @@||redbull.com/gtm.js$~third-party
+@@||relevant-digital.com^$script,domain=20min.ch
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||res-x.com^*/Resonance.aspx?
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
