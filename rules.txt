@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-01-07 20:36:54（北京时间） 
-! Total count: 151514
+! Version: 2025-01-08 09:08:09（北京时间） 
+! Total count: 151516
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16171,6 +16171,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .sendibm1.com/*.gif?
 .sendibm1.com/mk/
 .sendibt2.com/tr/op/$image
+.sendibt3.com/tr/op/$image
 .sharecounter.$third-party
 .shop:*/ack?s=
 .shop:*/bid?url=
@@ -18142,7 +18143,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /impression/inline?
 /impression/track?
 /impression?mkevt=
-/impressions?
+/impressions?$~xmlhttprequest
 /in.getclicky.com/*
 /in.gif?url=
 /in.php?referer=
@@ -108183,6 +108184,7 @@ zyro.com##.zyro-cookies
 ||onecollector.cloudapp.aria.akadns.net^
 ||onecount.net/onecount/oc_track/
 ||onedmp.com^
+||onedollarstats.com^$third-party
 ||onedragon.win^
 ||oneegrou.net^
 ||onefeed.co.uk^
