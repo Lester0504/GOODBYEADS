@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-01-18 09:18:35（北京时间） 
-! Total count: 151224
+! Version: 2025-01-18 20:24:34（北京时间） 
+! Total count: 151230
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16857,9 +16857,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /assets/consent-manager.js
 /assets/js/cookie_consent_manager
 /assets/js/gdpr.js?ver
+/assets/js/se.js$~third-party
 /assets/js/sera/web/cookie.js
 /assets/mnd-cookie-consent
 /assets/performance_timing-
+/assets/publish/*.1.js$~third-party
+/assets/publish/*.2.js$~third-party
+/assets/publish/*.3.js$~third-party
 /assets/publish/chart.1.js$~third-party
 /assets/publish/d3.2.js$~third-party
 /assets/publish/react.3.js$~third-party
@@ -51858,6 +51862,7 @@ zyro.com##.zyro-cookies
 ||analytics.betterplaces.nl^
 ||analytics.bgr.com^
 ||analytics.bigfishgames.com^
+||analytics.bitchute.com^
 ||analytics.bitrix.info^
 ||analytics.blackboard.com^
 ||analytics.bleacherreport.com^
@@ -64766,6 +64771,7 @@ zyro.com##.zyro-cookies
 ||content.s8bbs.com^
 ||content.sffirecu.org^
 ||content.stage.mini.pix.style^
+||content.tab.com.au^
 ||content.tacticalma.com^
 ||content.tatatelebusiness.com^
 ||content.timetogather.co.uk^
@@ -131972,6 +131978,7 @@ zyro.com##.zyro-cookies
 ||syfwnf.society6.com^
 ||sygame.695157.com^
 ||sygmtz.com^
+||sygrip.info^$third-party
 ||syh-imp.cdnjtzy.com^
 ||syiae.com^
 ||syinga.com^
@@ -150143,7 +150150,6 @@ zyro.com##.zyro-cookies
 ||zikroarg.com^
 ||zilchesmoated.com^
 ||zilhvf.hesperide.com^
-||zillow.com/HYx10rg3/init.js
 ||zillowstatic.com/contact-pixel/$image,domain=zillow.com
 ||zilmwz.gsm55.it^
 ||zilsooferga.xyz^
