@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-21 20:35:41（北京时间） 
-! Total count: 3489
+! Version: 2025-01-22 09:07:39（北京时间） 
+! Total count: 3486
 @@.2o7.net/$domain=today.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
 @@.com/o.js$domain=2biqu.com
@@ -256,9 +256,6 @@
 @@||aolcdn.com/omniunih_int.js$domain=autoblog.com
 @@||aolcdn.com^*/beacon.min.js$domain=autoblog.com|dailyfinance.com
 @@||api-analytics.magstimconnect.net^$~third-party
-@@||api-iam.intercom.io/messenger/web/ping$domain=help.kobo.com
-@@||api-iam.intercom.io/messenger/web/ping$domain=help.openai.com
-@@||api-iam.intercom.io/messenger/web/ping$domain=support.anthropic.com
 @@||api-js.datadome.co/js/$domain=account.samsung.com
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
@@ -2797,7 +2794,7 @@
 @@||s1973398186.t.eloqua.com/e/er?
 @@||s79.research.de.com/bb-mx/prime$domain=joyn.de
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
-@@||sams.11freunde.de/ee/irl1/v1/interact?$domain=11freunde.de
+@@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 @@||samsunhaber.com/images/banner/*logo$~third-party
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
