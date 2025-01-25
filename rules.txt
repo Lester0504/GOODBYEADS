@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-01-24 20:34:51（北京时间） 
-! Total count: 151402
+! Version: 2025-01-25 09:02:47（北京时间） 
+! Total count: 151401
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16213,7 +16213,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .warehousefashion.com/warehouse/e/$image
 .webex.com/q/
 .wix.com/_api/ping/
-.xyz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
+.xyz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net|xiakexsw.com
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
@@ -29018,8 +29018,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||insideruser.microsoft.com^
 @@||intuitcdn.net/libs/*/track-star.min.js$script,domain=turbotax.intuit.com
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
-@@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
-@@||ipinfo.io/json$domain=ptube.pipio.site|queye.co
 @@||ipqualityscore.com/api/$script,domain=carousell.com.hk
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||item-voyage.fr/ads.css
@@ -31992,6 +31990,7 @@ dormezbien.fr###cnil, .cnil, #CNIL
 dotacedestovka.cz##fnx-cc
 dotnetconf.net###cookie-consent
 douban.com##.lnk-doubanapp
+douyin.com##[class*='h5-ad-']
 douyu.com##.ClientJump
 douyu.com##.Download
 douyu.com##.Header-download-wrap
@@ -71435,7 +71434,7 @@ zyro.com##.zyro-cookies
 ||douwhawez.com^
 ||douwotoal.com^
 ||douyaobuy.com^
-||douyucdn.cn/adxdsp/$image
+||douyucdn.cn/adxdsp/$image,media
 ||douyucdn.cn/fish3/1.gif
 ||doveexperttactical.com^
 ||dovictinian.com^
@@ -76528,6 +76527,7 @@ zyro.com##.zyro-cookies
 ||f-log*.grammarly.io^
 ||f-log-at.grammarly.io^
 ||f-log-test.grammarly.io^
+||f-tra.com^$third-party
 ||f.91byy.cn^
 ||f.a23.in^
 ||f.cdngeek.com^$domain=edugeek.net
@@ -89157,7 +89157,6 @@ zyro.com##.zyro-cookies
 ||iphumiki.com^
 ||ipinfo.info^
 ||ipinfo.info^$third-party
-||ipinfo.io^$third-party
 ||ipinfodb.com^$third-party
 ||ipinternational.actonservice.com^
 ||ipinyou.com.cn^
