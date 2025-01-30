@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-01-29 20:35:08（北京时间） 
-! Total count: 151565
+! Version: 2025-01-30 09:04:58（北京时间） 
+! Total count: 151569
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16153,6 +16153,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .oculus.com/collect/
 .online.costco.com/t?$image
 .pageview-props.js
+.personaclick.com/track/$image
 .php?action=browse&
 .php?action_name=
 .php?logRefer=
@@ -28540,6 +28541,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://mint.*/?js
 ://parcel-api.delivery-status.*/open/$image
 ://piwik.$domain=~matomo.org|~piwik.pro
+://plausible.*/api/event|
+://plausible.*/js/script.
 ://posthog.$script,domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
@@ -105040,6 +105043,7 @@ zyro.com##.zyro-cookies
 ||najnus.com^
 ||najva.com^
 ||najva.com^$third-party
+||nakedanalytics.net^$third-party
 ||nakedfulfilhairy.com^
 ||nakisa.actonservice.com^
 ||nala.headuplabs.com^
