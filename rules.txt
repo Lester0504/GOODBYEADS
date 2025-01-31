@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-01-31 09:21:28（北京时间） 
-! Total count: 151571
+! Version: 2025-01-31 20:27:03（北京时间） 
+! Total count: 151577
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -31115,6 +31115,8 @@ chargify.com##.gdpr
 charleslandaudentistry.co.uk###cc-container
 charliemonroe.net##.cookie
 chassis-en-bois.fr###cnil, .cnil, #CNIL
+chat.deepseek.com##div:has(> .ds-icon + span)
+chat.deepseek.com##div:has(> .ds-icon[style*="width: 28px"][style*="height: 28px"])
 chateauversailles.fr##.bloc-notifications
 chateauxhotels.com###notificationBar
 chathispano.com##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
@@ -31279,6 +31281,7 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
+cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -34126,9 +34129,6 @@ jianshu.com##div[class$="_0"]
 jianshu.com##div[class^=baidu-app-download]
 jianshu.com#?#div[role="button"]:contains(抽奖)
 jigsawplanet.com##.ts-msg
-jikipedia.com##.components-container
-jikipedia.com##.cursor.link.app-link
-jikipedia.com##.download-link
 jimenezmovilidad.es###cookies
 jingyan.baidu.com###wrapper > .exp-container:nth-child(2) > aside.wgt-ad-guess.content-box:nth-child(2)
 jingyan.baidu.com##.ad-card
@@ -34315,6 +34315,7 @@ kikocosmetics.com##.mod-notification
 kikocosmetics.es##.mod-notification
 killarneyroyal.ie##.PPContent
 kiloo.com##.cmp-main
+kimi.moonshot.cn##.app-download
 kimo.ma##.adb
 kimovil.com###code_cookies
 kinderaerzte-moelln.de##.wrapper-confirmation-privacy
@@ -38857,6 +38858,8 @@ toner-dumping.de##.js--overlay
 toner.shop##.CookiesOk
 tonerlagret.se##.cookie-cutter
 tonerpartner.cz##.CookiesOk
+tongyi.aliyun.com##div[class^="downloadWrap"]
+tongyi.aliyun.com##li:has(> i > svg[data-spm-anchor-id])
 tonhalle.de###CookieModal
 tonies.com###cookies
 tooba.pl##.dialog-serwis-msg.dialog-fixed
@@ -40001,6 +40004,8 @@ xiaohongshu.com##.wx-open-launch-app-container
 xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
 xiaomiyoupin.com##.site-item.m-download.fl
 ximalaya.com##.change-logo.S_q,.packet-container._PC,.less-tips._PC *
+xinghuo.xfyun.cn##div[class*="download_btn"]
+xinghuo.xfyun.cn##div[class*="jump_btn"]:contains(下载APP)
 xm.co.uk###cookies-block
 xmh/200/200-*.gif
 xmlgold.eu##.cookie-window
@@ -40137,6 +40142,7 @@ youtubedownloadersite.com##.cookie
 yow.ca###sticky
 yoy.tv###notice
 yoys.no###section-cookies
+yuanbao.tencent.com##.icon-yb-downapp
 yubico.com##.MuiSnackbar-root, #yubi-root > .bottom-pop-up-container
 yuden.co.jp##[id^="yuden_gdpr"]
 yunexpress.com##.Cookie-wrapper
