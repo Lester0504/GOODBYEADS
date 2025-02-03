@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-02-02 20:31:10（北京时间） 
-! Total count: 151740
+! Version: 2025-02-03 09:07:32（北京时间） 
+! Total count: 151743
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18396,6 +18396,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /loader/counter.js
 /localga.js
 /locotrack.js
+/log-moltron-interaction?
 /log-nt/*
 /log-reporter.js
 /log-view.js
@@ -83029,6 +83030,7 @@ zyro.com##.zyro-cookies
 ||gw-analytics.panasonic.com^
 ||gw-dv.vip^
 ||gw.365you.com^
+||gw.conversionsapigateway.com^
 ||gw.d.ywopt.com^
 ||gw.flurry.com^
 ||gw.innotechx.com^
@@ -131882,6 +131884,7 @@ zyro.com##.zyro-cookies
 ||support.github.com/_stats
 ||support.github.com/session/event
 ||support.github.com/session/user
+||support.google.com/apis/logjourney
 ||support.panasonic.eu^
 ||support.ricoh.de^
 ||support.ricoh.fr^
