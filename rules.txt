@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-02-04 09:21:20（北京时间） 
-! Total count: 151743
+! Version: 2025-02-04 20:28:14（北京时间） 
+! Total count: 151749
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28528,7 +28528,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://cmpworker.
 ://collect.*/pageview
 ://collector.*/event
-://e.email.*/open?$image
+://e.*/open?$image
 ://elqtrk.
 ://email.*/e/o/
 ://email.*/o/$image
@@ -28734,7 +28734,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||asadcdn.com/adlib/$domain=computerbild.de
 @@||asadcdn.com/assets/video/$domain=computerbild.de
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=medscape.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|subwy.com|tatamotors.com|usanetwork.com
 @@||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
 @@||att.com/scripts/adobe/prod/$script,~third-party
@@ -31327,6 +31327,7 @@ coinsquare.com###body ~ div
 cointelegraph.com##.b-privacy-policy, .privacy-policy
 coinucid.it###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
 coisas.com##.fixebar
+colamanga.com#@#.gg_950
 colchones.es###avisosusc
 collegetimes.com##body > div[style*="transp"]
 collibra.com##.collibra-cookie-accept
@@ -40823,6 +40824,7 @@ zyro.com##.zyro-cookies
 ||17173.com/pv?
 ||1717gs.com^
 ||172-105-66-118.ip.linodeusercontent.com^
+||172.247.208.87/js/head.js
 ||17282.org^
 ||1736253261.rsc.cdn77.org^
 ||1758664454.rsc.cdn77.org^
@@ -50957,6 +50959,7 @@ zyro.com##.zyro-cookies
 ||aixintou.com.cn^
 ||aixuntupian.oss-cn-hongkong.aliyuncs.com^
 ||aiyouji.xyz^
+||aizhantj.com^
 ||aj2532.bid^
 ||aj2550.bid^
 ||aj2555.bid^
@@ -54929,6 +54932,7 @@ zyro.com##.zyro-cookies
 ||assets.210189.com^
 ||assets.2343sdxs.com^
 ||assets.258ydh.com^
+||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
 ||assets.apollo.io/micro/website-tracker/
 ||assets.applovin.com^
 ||assets.channelplay.in^
@@ -62168,6 +62172,7 @@ zyro.com##.zyro-cookies
 ||chenggao.cn^
 ||chengjie168.com.cn^
 ||chengzijianzhan.cc^
+||chenhao97.top^
 ||chenshengyu.cn^
 ||chenyanjiao.cn^
 ||chenyayun.com.cn^
@@ -141690,6 +141695,7 @@ zyro.com##.zyro-cookies
 ||usphfiona.com^
 ||usr.interactiveone.com^
 ||usrkrz.zdravcity.ru^
+||usrzh.cn^
 ||ussco-dev.actonservice.com^
 ||ussolutions.equifax.com^
 ||ust-ad.com^
