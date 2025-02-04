@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-02-03 20:35:18（北京时间） 
+! Version: 2025-02-04 09:06:19（北京时间） 
 ! Total count: 151743
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -16041,7 +16041,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/track?v=
 .com/vtrack
 .com/xz/*?token8=
-.com:*.js?v=17$third-party
+.com:*.js?v=17*$third-party
 .com:*/cc/*?is_not=*&target=*
 .com:*/d/*?c=*$third-party
 .com:*/sc/*?n=$third-party
@@ -16198,7 +16198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .telekom-dienste.de/common/1x1_transparent.png
 .theatlantic.com/email.gif?
 .titus.de/oo/$image
-.top/*/*.js?ts=$third-party
+.top/*/*.js?ts=*$third-party
 .top/*/2022*/.js$third-party
 .top/*_*_vw*sbjs?$third-party
 .top/*q=*form=*&*url=http*$third-party
@@ -28734,7 +28734,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||asadcdn.com/adlib/$domain=computerbild.de
 @@||asadcdn.com/assets/video/$domain=computerbild.de
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain==medscape.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=medscape.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
 @@||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
 @@||att.com/scripts/adobe/prod/$script,~third-party
