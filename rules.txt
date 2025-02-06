@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-02-06 09:22:41（北京时间） 
-! Total count: 151826
+! Version: 2025-02-06 20:28:41（北京时间） 
+! Total count: 151833
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16088,6 +16088,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .gif?stat=open
 .goodwell18.com/track/
 .google-analytics.com/
+.heytapmobi.com
 .hilton.com/subscription/watermark.gif?
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
@@ -28885,6 +28886,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
+@@||dmp.theadex.com^*/adex.js$domain=kino.de
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||docs.google.com/*/viewdata$~third-party
 @@||docs.w3cub.com^$generichide
@@ -29390,6 +29392,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||staty.portalradiowy.pl/wstats/$script,third-party
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||storage.live.com^
+@@||store.storeimages.cdn-apple.com^*/appmeasurement.js$domain=apple.com
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 @@||stripe.com^$domain=pay.openai.com
 @@||succeedscene.com^
@@ -29524,6 +29527,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
+@@||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 @@||yjtag.yahoo.co.jp/tag?$script,domain=bousai.yahoo.co.jp
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
@@ -31302,6 +31306,7 @@ codegym.cc##.cookie-consent
 codeherent.tech##snack-bar-container
 codeplay.com###notificationPopup
 coder.com###__next > [style*="opacity"]
+codeshare.io##.sad-face
 codesignal.com##.elementor-popup-modal
 codicesconto.org##.bloque_lopd
 codility.com##.cookies
@@ -56153,6 +56158,7 @@ zyro.com##.zyro-cookies
 ||b.miwebflex.com^
 ||b.mlion.cn^
 ||b.mynewplace.com^
+||b.nativendo.de^
 ||b.ninebox.cn^
 ||b.parade.com^
 ||b.pickme.lk^
@@ -115616,6 +115622,7 @@ zyro.com##.zyro-cookies
 ||quote.51.la^
 ||quoteafs.com^
 ||quotes.com^
+||quotev.com/ajax/ping
 ||quotumottetto.shop^
 ||qupinhj.com^
 ||ququdm.com^
