@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-02-14 20:28:10（北京时间） 
-! Total count: 151663
+! Version: 2025-02-14 20:29:23（北京时间） 
+! Total count: 151697
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16495,7 +16495,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^(\S+\.)?syma[a-z]\.cn$/
 /^(\S+\.)?tongji\./
 /^(\S+\.)?toolbar\./
-/^(\S+\.)?track(ing)?\./
 /^(\S+\.)?voyage-prive\.[a-z]+(\.uk)?$/
 /^(\S+\.)?widgets?\./
 /^(\S+\.)?xpj[0-9]\.net$/
@@ -29451,7 +29450,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||track.bankcomm.com^
 @@||track.cpau.info^
 @@||track.landmarkglobal.com^
-@@||track.sendcloud.org^
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
 @@||track.toggl.com^
 @@||track.vontron.com^
@@ -29459,7 +29457,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||tracking-protection.cdn.mozilla.net^
 @@||tracking.doordash.com^
 @@||tracking.dpd.de^
-@@||tracking.epicgames.com^
 @@||tracking.ubisoft.com^
 @@||trackings.post.japanpost.jp^
 @@||trackjs.com/agent/$script,domain=delta.com
@@ -137383,6 +137380,7 @@ zyro.com##.zyro-cookies
 ||track-visit.monday.com^
 ||track-web.net^
 ||track-web.net^$third-party
+||track.10bet.com^
 ||track.360playvid.info^
 ||track.58.com^
 ||track.91app.io^
@@ -137401,10 +137399,14 @@ zyro.com##.zyro-cookies
 ||track.adform.net^
 ||track.admaster.com.cn^
 ||track.adwo.com^
+||track.adx.adlefee.com^
+||track.adxwork.com^
+||track.afrsportsbetting.com^
 ||track.americansongwriter.com^
 ||track.appsflyer.com^
 ||track.asia-focus.co.uk^
 ||track.asiadragontrust.co.uk^
+||track.atgstores.com^
 ||track.atgstores.com^$third-party
 ||track.auckland.ac.nz^
 ||track.bannedcelebs.com^
@@ -137413,6 +137415,7 @@ zyro.com##.zyro-cookies
 ||track.biz.lguplus.com^
 ||track.btdmp.com^
 ||track.buyma.com^
+||track.byzon.swelen.net^
 ||track.byzon.swelen.net^$third-party
 ||track.cafu.com^
 ||track.cecobuildings.com^
@@ -137453,6 +137456,7 @@ zyro.com##.zyro-cookies
 ||track.eadv.it^
 ||track.easeus.com^
 ||track.education.intostudy.com^
+||track.effiliation.com^
 ||track.emerse.com^
 ||track.emeza.ch^
 ||track.emeza.com^
@@ -137511,9 +137515,12 @@ zyro.com##.zyro-cookies
 ||track.kiafudousan.com^
 ||track.kinetiksoft.com^
 ||track.kiomi.com^
+||track.ktplay.com^
 ||track.kueez.com^
 ||track.kyoads.com^
+||track.laredoute.fr^
 ||track.laredoute.fr^$image
+||track.lc.quark.cn^
 ||track.leady.cz^
 ||track.lesmills.com^
 ||track.list-finder.jp^
@@ -137523,6 +137530,7 @@ zyro.com##.zyro-cookies
 ||track.mediav.com^
 ||track.mentor.com^
 ||track.mituo.cn^
+||track.molitv.cn^
 ||track.mp4.center^
 ||track.mrgugu.com^
 ||track.murray-income.co.uk^
@@ -137548,6 +137556,7 @@ zyro.com##.zyro-cookies
 ||track.qoof.com^
 ||track.quad.com^
 ||track.ra.icast.cn^
+||track.readdsp.com^
 ||track.recreativ.ru^
 ||track.reservationcounter.com^
 ||track.rheinpfalz.de^
@@ -137580,6 +137589,7 @@ zyro.com##.zyro-cookies
 ||track.tiara.kakao.com^
 ||track.tom.com^
 ||track.tomwx.net^
+||track.totalav.com^
 ||track.ttsave.app^
 ||track.uc.cn^
 ||track.ultimate-guitar.com^
@@ -137593,6 +137603,7 @@ zyro.com##.zyro-cookies
 ||track.workframe.com^
 ||track.workfusion.com^
 ||track.xmarketech.com^
+||track.xtrasize.nl^
 ||track.yellostrom.de^
 ||track.yfret.com^
 ||track.yieldsoftware.com^
@@ -137763,10 +137774,13 @@ zyro.com##.zyro-cookies
 ||tracking.adp-iat.adp.ca^
 ||tracking.adp-iat.adp.com^
 ||tracking.adp.ca^
+||tracking.adp.ch^
+||tracking.adp.co.uk^
 ||tracking.adp.com^
 ||tracking.adpinfo.com^
 ||tracking.adpri.org^
 ||tracking.ads.global-fashion-group.com^
+||tracking.adweb.co.kr^
 ||tracking.adweb.co.kr^$third-party
 ||tracking.adwo.com^
 ||tracking.aegpresents.com^
@@ -137775,6 +137789,7 @@ zyro.com##.zyro-cookies
 ||tracking.aifsabroad.com^
 ||tracking.air-worldwide.com^
 ||tracking.aita.gov.vn^
+||tracking.alabamapower.com^
 ||tracking.allopneus.com^
 ||tracking.almax.com^
 ||tracking.almirallmed.es^
@@ -137910,10 +137925,12 @@ zyro.com##.zyro-cookies
 ||tracking.digitalocean.com^
 ||tracking.direxion.com^
 ||tracking.dominanteladies.de^
+||tracking.donnemagazine.it^
 ||tracking.donnemagazine.it^$script
 ||tracking.dr-10.com^
 ||tracking.dr-8.com^
 ||tracking.drreddys.com^
+||tracking.drsfostersmith.com^
 ||tracking.drsfostersmith.com^$third-party
 ||tracking.drum.io^
 ||tracking.dshb.biology.uiowa.edu^
@@ -137923,6 +137940,7 @@ zyro.com##.zyro-cookies
 ||tracking.ecookie.fr^
 ||tracking.edb.gov.sg^
 ||tracking.eduscho.at^
+||tracking.edvisors.com^
 ||tracking.edvisors.com^$third-party
 ||tracking.ehrintelligence.com^
 ||tracking.eloq.soa.org^
@@ -137961,6 +137979,7 @@ zyro.com##.zyro-cookies
 ||tracking.fkk24.de^
 ||tracking.flowofwork.adp.com^
 ||tracking.flukecal.com^
+||tracking.foodblog.it^
 ||tracking.foodblog.it^$script
 ||tracking.fr.adp.com^
 ||tracking.fticonsulting.com^
@@ -138031,7 +138050,9 @@ zyro.com##.zyro-cookies
 ||tracking.insead.edu^
 ||tracking.insperity.com^
 ||tracking.intentsify.io^
+||tracking.interweave.com^
 ||tracking.interweave.com^$third-party
+||tracking.intl.miui.com^
 ||tracking.janssenmed.cz^
 ||tracking.janssenmed.ro^
 ||tracking.janssenmed.sk^
@@ -138063,6 +138084,7 @@ zyro.com##.zyro-cookies
 ||tracking.kegerator.com^
 ||tracking.kenblanchard.com^
 ||tracking.keywee.co^
+||tracking.klickthru.com^
 ||tracking.krone.at^
 ||tracking.kubota.ca^
 ||tracking.kussladies.de^
@@ -138107,6 +138129,7 @@ zyro.com##.zyro-cookies
 ||tracking.mail.ti.com.cn^
 ||tracking.mail.ti.com^
 ||tracking.mail.tij.co.jp^
+||tracking.mammemagazine.it^
 ||tracking.mammemagazine.it^$script
 ||tracking.mandg.co.uk^
 ||tracking.markethero.io^
@@ -138133,6 +138156,7 @@ zyro.com##.zyro-cookies
 ||tracking.modelgroup.com^
 ||tracking.mollyladies.de^
 ||tracking.monespaceprime.engie.fr^
+||tracking.motorimagazine.it^
 ||tracking.motorimagazine.it^$script
 ||tracking.motorolasolutions.com^
 ||tracking.mtn.co.za^
@@ -138153,6 +138177,7 @@ zyro.com##.zyro-cookies
 ||tracking.nl.visma.com^
 ||tracking.noen.at^
 ||tracking.nokai.jp^
+||tracking.notizie.it^
 ||tracking.notizie.it^$script
 ||tracking.novem.pl^
 ||tracking.nsladies.de^
@@ -138160,6 +138185,7 @@ zyro.com##.zyro-cookies
 ||tracking.nymphomaneladies.de^
 ||tracking.ocr.ca^
 ||tracking.oe24.at^
+||tracking.offerteshopping.it^
 ||tracking.offerteshopping.it^$script
 ||tracking.ohiohealth.com^
 ||tracking.oldnational.com^
@@ -138195,8 +138221,11 @@ zyro.com##.zyro-cookies
 ||tracking.pioneer.com^
 ||tracking.pirelli.com^
 ||tracking.plascoid.com^
+||tracking.plattformad.com^
 ||tracking.plattformad.com^$third-party
 ||tracking.plinga.de^
+||tracking.police1.com^
+||tracking.practicefusion.com^
 ||tracking.practicefusion.com^$third-party
 ||tracking.precisely.com^
 ||tracking.precollege.wisc.edu^
@@ -138246,6 +138275,7 @@ zyro.com##.zyro-cookies
 ||tracking.sciex.com^
 ||tracking.searchmarketing.com^
 ||tracking.securitymsp.cisco.com^
+||tracking.sembox.it^
 ||tracking.sembox.it^$third-party
 ||tracking.server.bytecon.com^
 ||tracking.service.cz.nl^
@@ -138263,6 +138293,7 @@ zyro.com##.zyro-cookies
 ||tracking.simpleaccess.com^
 ||tracking.singlestore.com^
 ||tracking.siriusdecisions.com^
+||tracking.skyword.com^
 ||tracking.skyword.com^$third-party
 ||tracking.smartbets.com^
 ||tracking.smartbusiness.samsung.com^
@@ -138309,6 +138340,7 @@ zyro.com##.zyro-cookies
 ||tracking.stihl.nl^
 ||tracking.stihl.pt^
 ||tracking.stihl.ua^
+||tracking.style24.it^
 ||tracking.style24.it^$script
 ||tracking.summer.wisc.edu^
 ||tracking.syncsketch.com^
@@ -138345,6 +138377,7 @@ zyro.com##.zyro-cookies
 ||tracking.trovaprezzi.it^
 ||tracking.trutv.com^
 ||tracking.tsladies.de^
+||tracking.tuobenessere.it^
 ||tracking.tuobenessere.it^$script
 ||tracking.uberflip.com^
 ||tracking.uk.adp.com^
@@ -138363,6 +138396,7 @@ zyro.com##.zyro-cookies
 ||tracking.veritas.com^
 ||tracking.vertiv.com^
 ||tracking.vertivco.com^
+||tracking.viaggiamo.it^
 ||tracking.viaggiamo.it^$script
 ||tracking.vid4u.org^
 ||tracking.virginmediao2business.co.uk^
