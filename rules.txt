@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-02-23 20:33:21（北京时间） 
-! Total count: 149612
+! Version: 2025-02-24 09:10:27（北京时间） 
+! Total count: 149614
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18350,6 +18350,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /krux-sass-helper.js
 /krux.js
 /kssCookieManager/*
+/kukulufinger2.js
 /lasso-ga.js
 /lead-tracking.min.js
 /leadgen/ga.js
@@ -31287,6 +31288,7 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
+cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -33709,7 +33711,6 @@ i4a.pl###hideMe
 i4wifi.cz###CPrivacy-Panel
 iabfrance.com###boxAlert
 iam8bit.com##.alertify
-ib10-opapp-wrap
 ibeesoft.com###cookies
 iberley.es###cookies-modal
 ibisahome.com###cookies
@@ -40153,6 +40154,7 @@ youtubedownloadersite.com##.cookie
 yow.ca###sticky
 yoy.tv###notice
 yoys.no###section-cookies
+yuanbao.tencent.com##.agent-dialogue__content-qrcode
 yuanbao.tencent.com##.icon-yb-downapp
 yubico.com##.MuiSnackbar-root, #yubi-root > .bottom-pop-up-container
 yuden.co.jp##[id^="yuden_gdpr"]
@@ -132475,9 +132477,8 @@ zyro.com##.zyro-cookies
 ||telsmith.actonservice.com^
 ||telstra.imrworldwide.com^
 ||telstraphonewords.actonservice.com^
-||teltarif.de/scripts/fb.js
 ||teltarif.de/scripts/ttt.js
-||teltarif.de/ttt.go?
+||teltarif.de/scripts/ttt.v2.js
 ||teltarif.de^$ping
 ||telulr.golfgalaxy.com^
 ||telwrite.com^
@@ -147119,6 +147120,7 @@ zyro.com##.zyro-cookies
 ||yess.imneinei.com^
 ||yesuphost.com^
 ||yeswplearning.info^
+||yetcdn.com^
 ||yeti.com/T1p5rBaN/init.js
 ||yetshape.com^
 ||yetterslave.com^
