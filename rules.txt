@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-03-08 09:09:48（北京时间） 
-! Total count: 150290
+! Version: 2025-03-08 20:20:57（北京时间） 
+! Total count: 150276
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15945,7 +15945,6 @@
 #--腾讯视频-Tencent
 #--芒果TV-Mgtv
 #--风行&酷喵-FunShion
-#.subject-banner
 #@##adblocktest
 #pkg=ad.adwars.com;大圣净化规则
 #pkg=ad.xiaomi.com;视频客户端广告
@@ -28407,6 +28406,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 163.com##.m-download
 163.com##.newsapp-qrcode
 163.com##.ns_side_qrcode
+163.com##.ntes-nav-mobile-title
 163.com##.s-openApp
 168chasa.bg###cookie-b
 17173.com###vjs-ad-on-pause
@@ -28448,6 +28448,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 2x45.info###cookies
 321auto.com###cookies
 360.cymru###negesCaniatad
+360doc.com##.index_app2d
+360doc.com##.index_app2dclose
 360doc.com##.ul-similar
 360doc.com##div.str_border:nth-of-type(5)
 360kuai.com##.float--left.right_aside_wrapper
@@ -31615,6 +31617,7 @@ curve.com###gatsby-focus-wrapper > div:first-child
 curverstyle.pl##body > div:not([id]):not([class])
 customessaymeister.com##.cookie
 cut.org.br##.cookie-modal
+cuttlefish.baidu.com##.link-pc-client
 cv-sanitairkorting.nl##.ui-widget, .ui-widget-overlay
 cv.fr###toast-container
 cv.lt##.cookies-wr
@@ -36025,7 +36028,7 @@ newrelic.com###intercom-container
 newrepublic.com##.popup-consent
 news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 news.qq.com##.download-banner-wrap
-news.qq.com##.download-content.mr28.download-wrapper
+news.qq.com##.download-content
 news.qq.com##.godown.qqcom_fb-item
 news5.de###privacyContainer
 newsandnews.com##.bottom-popup
@@ -39728,32 +39731,14 @@ weltdergoetter.de###notice
 wen.baidu.com##.related-asp-new
 wen.baidu.com##.wap-youx-change-asp
 wen.baidu.com##aside[class*="grid-r qb-side"]
-wenku.baidu.com##.bottom-theme-select-wrap
-wenku.baidu.com##.bottom-theme-wrap-mask
-wenku.baidu.com##.browser-label-guide
-wenku.baidu.com##.clearfix.sb-con > .qrHover
-wenku.baidu.com##.client-btn.middle-btn
-wenku.baidu.com##.client-btn.small-btn > .tool-icon
-wenku.baidu.com##.client-download-wrap
-wenku.baidu.com##.client-rec-wrapper
-wenku.baidu.com##.doc-btns-wrap > .app-btn.small-btn
-wenku.baidu.com##.docBtns.-VIP_RIGHT.core-btn-wrapper
-wenku.baidu.com##.extension
-wenku.baidu.com##.fix-block.relative-course-wrapper
-wenku.baidu.com##.fold-page-btn
-wenku.baidu.com##.fold-page-tip
-wenku.baidu.com##.inner-vip.vip-pop-wrap
-wenku.baidu.com##.pay-vip-btn-wrap
-wenku.baidu.com##.pure-tool-btn.tool-btn.full-screen
-wenku.baidu.com##.qricon
-wenku.baidu.com##.reader-download-app
-wenku.baidu.com##.searchBox.-VIP_RIGHT.core-btn-wrapper
-wenku.baidu.com##.tool-bar.app-btn.small-btn > .tool-icon
+wenku.baidu.com##.foot-client
+wenku.baidu.com##.install-pwa
+wenku.baidu.com##.pwa-toast
+wenku.baidu.com##.pwaInstall.btn
 wenku.baidu.com##.vip-activity-wrap
 wenku.baidu.com##.vip-activity-wrap-new
-wenku.baidu.com##.vip-card-wrap
+wenku.baidu.com##.vip-center
 wenku.baidu.com##.vip-member-pop-content
-wenku.baidu.com##.vip-pay-pop-v2-wrap
 wentworthpuzzles.com##privacy-settings
 wer-kennt-wen.net##.CookieLayout
 wera.de##[id^="dsgvo-modal"]
@@ -39853,6 +39838,7 @@ wk.baidu.com##.core-card
 wk.baidu.com##.fc-ad-contain
 wk.baidu.com##.fc-ad-wrap
 wk.baidu.com##.guess-rec-text-root > .w-container.rec-head > .rec-go-search-guide
+wk.baidu.com##.guide-bottom-btn-wrap
 wk.baidu.com##.guide-to-univer-app-root
 wk.baidu.com##.guidetowkappwg-root
 wk.baidu.com##.icon-app
