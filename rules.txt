@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-03-12 09:26:11（北京时间） 
-! Total count: 149623
+! Version: 2025-03-12 20:30:10（北京时间） 
+! Total count: 149627
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16464,7 +16464,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Visitor.aspx?
 /VisitorAPI.js
 /VisitorIdentification.js
-/WRb.js
+/WRb.js^
 /Wamoco_CookieConsentUi/*
 /WebAnalytics.$domain=~webanalytics.italia.it
 /WebStat2.asmx
@@ -28703,8 +28703,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
+@@||ak.sv^$generichide
 @@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
 @@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
+@@||al-aqsanews.com
 @@||aliyuncs.com/*.png
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
@@ -29369,6 +29371,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||smotrim.ru/js/stat.js$script
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
+@@||snowplow.swm.digital^$domain=7plus.com.au
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||sobot.com^
 @@||sohotheatre.com^*/PageView.js$~third-party
@@ -29780,6 +29783,7 @@ ajbell.co.uk###cookie-modal
 ajoto.com##.sqs-announcement-bar
 ajs-bw.de##.alertbanner
 ajurveda-brno.cz##.notify
+ak.sv###ignielAdBlock
 akari46.blogspot.com###xix0op-cookies
 akasha.org###___gatsby > div > div:first-child
 akasha.world###gatsby-focus-wrapper > div
@@ -31685,7 +31689,7 @@ damensein.com##.welcome-modal
 damianharriscycles.co.uk###info-message
 dan.mgr.consensu.org
 dana.at##.theCookie
-dandanzan.*,nnyy.in,nunuyy5.com##.gm-fp-body video:style(max-height:100%!important)
+dandanzan.*,nnyy.in,nunuyy5.com##video:style(max-height:100%!important)
 dandomain.dk##.no-cookie-wrapper
 dangdang.com###fix_erweima
 dangdang.com##.bottom_fixed
