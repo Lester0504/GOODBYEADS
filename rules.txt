@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-03-12 20:38:08（北京时间） 
+! Version: 2025-03-13 09:11:59（北京时间） 
 ! Total count: 149629
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -15998,7 +15998,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .acemlna.com/Prod/link-tracker?$image
 .acemlna.com/lt.php?$image
 .acemlnb.com/Prod/link-tracker?$image
-.adhouyi.cn
 .alcmpn.com/
 .app.returnpath.net/
 .aveda.com/t/$image
@@ -18445,7 +18444,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /log?data=
 /log?documentUrl=
 /log?event=
-/log?format=
+/log?format=$domain=~meet.google.com
 /log?id=
 /log?kc=
 /log?method=
@@ -36191,6 +36190,7 @@ nrc.nl##.user-confirmation-screen
 nrj-games.fr###cookies
 nrjmobile.fr###ei_cookie
 nrk.no##.nrk-masthead__info-banner--cookie
+nslookup.io##div[id$="-fallback"]
 nsone.net###gdpr-consent-modal
 nspcc.org.uk###cookie
 ntb.no##.footer__notification
@@ -36458,7 +36458,6 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
-ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -52282,6 +52281,7 @@ zyro.com##.zyro-cookies
 ||analytics.ynap.biz^
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
+||analytics.yollamedia.com^
 ||analytics.yomedia.vn^
 ||analytics.youmi.net^
 ||analytics.yugen.to^
