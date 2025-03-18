@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-03-18 20:30:49（北京时间） 
-! Total count: 149993
+! Version: 2025-03-18 20:32:14（北京时间） 
+! Total count: 149986
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15394,7 +15394,6 @@
 ##[style$=' 0% 0% / 100% no-repeat; height: 130px; width: 100%; position: relative;']
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
-##[style$='width:9.6vw;height:6.40625vw;background: #000;opacity:0.01;']
 ##[style*='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147'][style*='bottom: 132px;']
 ##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
 ##[style*='px; top: 0px; left: 0px; animation: 1.5s ease 0.2s infinite normal none running shakegwegs; z-index:']
@@ -28629,7 +28628,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
-@@googlesyndication.com$domain=bilinovel.com
+@@googlesyndication.com@bilinovel.com
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
@@ -31315,7 +31314,6 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
-cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -72609,7 +72607,6 @@ zyro.com##.zyro-cookies
 ||e50.icu^
 ||e59a2ad79a.com^
 ||e5asyhilodice.com^
-||e5nnk.com^
 ||e5obq1v261.www.lurkit.com^
 ||e67repidwnfu7gcha.com^
 ||e75d10b9.live^
@@ -114628,7 +114625,6 @@ zyro.com##.zyro-cookies
 ||r2r.utas.edu.au^
 ||r3.adwo.com^
 ||r36ku.site^
-||r3nvrr4uzh.com^
 ||r42tag.com^
 ||r45j15.com^
 ||r4nds.absorba.com^
@@ -143422,7 +143418,6 @@ zyro.com##.zyro-cookies
 ||weird-speed.pro^
 ||weirddistribution.pro^
 ||weishi.baidu.com^
-||weitietl.com^
 ||weixin.qq.hellocdn.top^
 ||weixin.qq.huigun.top^
 ||weixin.renrenying.com^
@@ -147246,7 +147241,6 @@ zyro.com##.zyro-cookies
 ||y900.greenwichtime.com^
 ||ya.ru/clck/
 ||yaacdn.top^
-||yaaumqa.top^
 ||yabo816.com^
 ||yac5t.cn^
 ||yacafrr.bailingcloud.cn^
@@ -148571,7 +148565,6 @@ zyro.com##.zyro-cookies
 ||zbc6hyip.xyz^
 ||zbdtkk.totvs.com^
 ||zbfszb.calpis-shop.jp^
-||zbhuafx.com^
 ||zbldxf.icu^
 ||zblz.me^
 ||zbrfde.ozmall.co.jp^
