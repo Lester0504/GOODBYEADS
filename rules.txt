@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-03-22 09:10:57（北京时间） 
-! Total count: 150217
+! Version: 2025-03-22 09:13:44（北京时间） 
+! Total count: 150220
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -30610,6 +30610,7 @@ binck.fr##body > iframe
 bing.com###TopApp
 bing.com###bnp_cookie_banner[aria-modal="false"], #bnp_ttc_div, #thp_notf_div, .b_hide.bnp_ttc, #t_termsInfo
 bing.com###id_mobile
+bing.com,cn.bing.net###bnp_rich_div
 bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
@@ -32031,7 +32032,6 @@ dormezbien.fr###cnil, .cnil, #CNIL
 dotacedestovka.cz##fnx-cc
 dotnetconf.net###cookie-consent
 douban.com##.lnk-doubanapp
-douyin.com##[class*='h5-ad-']
 douyu.com##.ClientJump
 douyu.com##.Download
 douyu.com##.Header-download-wrap
@@ -38022,6 +38022,9 @@ so.com##.inner_left
 so.com##.res-mediav
 so.com##.res-mediav-right
 so.com##.tg-wrap
+so.douyin.com##X-VIEW.container
+so.douyin.com##[class*='h5-ad-']
+so.douyin.com##[class^='layout-']
 so.toutiao.com##.relative.pointer-events-none
 so.toutiao.com##DIV[id^='ad_']
 so.toutiao.com##section.commonbox.hasfooter
