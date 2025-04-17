@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-04-16 20:40:24（北京时间） 
-! Total count: 149819
+! Version: 2025-04-17 09:14:31（北京时间） 
+! Total count: 149830
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15972,6 +15972,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 &action=js_stats
 &ev=PageView&
 &event_name=page_view&
+&event_name=view_item_list&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &l=dataLayer&cx=c
@@ -18654,6 +18655,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /msmCookieConsent.js$domain=moneysupermarket.com
 /mtc.js
 /mtiFontTrackingCode.js
+/mtifonttracker.js
 /mtracking.gif?
 /mtvi_reporting.js
 /mwTag.js
@@ -19531,6 +19533,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tagcommander/prd/*
 /tagcommander/privacy_
 /tagcommander/tc_
+/tagging?env=
 /tagmanager/event?
 /tagmanager/pptm.js
 /tags.js?org_id=
@@ -19679,6 +19682,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
+/tracker/base_wp/*
 /tracker/event?
 /tracker/imp?
 /trackerPageAnalytics.js
@@ -52005,6 +52009,7 @@ zyro.com##.zyro-cookies
 ||analytics.hambleden-capital.com^
 ||analytics.hardrock.com^
 ||analytics.hashnode.com^
+||analytics.hatech.dev^
 ||analytics.haworth.com^
 ||analytics.hazeldenbettyford.org^
 ||analytics.hermesworld.com^
@@ -72642,6 +72647,7 @@ zyro.com##.zyro-cookies
 ||e335udnv6drg78b7.com^
 ||e399.com^
 ||e403.pandasuite.io^
+||e428.tio.nl^
 ||e437040a9a.com^
 ||e49.xyz^
 ||e4l4.com^
@@ -101264,6 +101270,7 @@ zyro.com##.zyro-cookies
 ||metrics.parcelforce.com^
 ||metrics.patientsatheart.com^
 ||metrics.paysafecard.com^
+||metrics.pazzox.be^
 ||metrics.pcrichard.com^
 ||metrics.pebblebeach.com^
 ||metrics.penny-reisen.de^
@@ -122098,6 +122105,7 @@ zyro.com##.zyro-cookies
 ||slinksuggestion.com^
 ||slinksuggestion.com^$third-party
 ||slinkzone.com^
+||sliponline.nl/tracker/
 ||slippersappointed.com^
 ||slippersphoto.com^
 ||slipperydeliverance.com^
@@ -127353,6 +127361,7 @@ zyro.com##.zyro-cookies
 ||ssstuitui1999.com^
 ||sssvd.china.com^
 ||sssxwsry.com^
+||sst.babypark.nl^
 ||sst.colemanfurniture.com^
 ||sst.cooperativa.cl^
 ||sst.shopware.com^
@@ -131502,6 +131511,7 @@ zyro.com##.zyro-cookies
 ||tagger.ope.scmp.com^
 ||tagger.opecloud.com^
 ||taggify.net^
+||tagging.sliponline.nl^
 ||tagging.steelseries.com^
 ||taggstar.com^*/taggstar.min.js
 ||taghaugh.com^
@@ -138229,6 +138239,7 @@ zyro.com##.zyro-cookies
 ||twkbui.mansion-review.jp^
 ||twlcyc.cn^
 ||twnrydt.com^
+||two.tio.nl^
 ||twoeej.carrefour.fr^
 ||twoepidemic.com^
 ||twpasol.com^
