@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-04-24 20:41:19（北京时间） 
-! Total count: 150499
+! Version: 2025-04-25 09:15:49（北京时间） 
+! Total count: 150512
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16656,6 +16656,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /adtracking.asmx
 /adtrk/tr.gif
 /advstats.js
+/aff_convpixel.js
 /aff_i?offer_id=
 /aff_land?referrer
 /affiliate-tracker.js
@@ -28600,6 +28601,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://links.paypal.*/eos/$image
 ://load.*.js?st=$~third-party
 ://matomo.$domain=~matomo.org
+://metrics-collector.
 ://mint.*/?js
 ://parcel-api.delivery-status.*/open/$image
 ://pic*.com/upload/*.js$third-party
@@ -36505,7 +36507,6 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
-ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -51550,6 +51551,7 @@ zyro.com##.zyro-cookies
 ||amazonaws.com/cdn.aimtell.com/
 ||amazonaws.com/cdn.barilliance.com/
 ||amazonaws.com/default/tracking?url=
+||amazonaws.com/frame-image-br/bg.png?
 ||amazonaws.com/iglu.acme.com.dev.clixtream/tracker.js
 ||amazonaws.com/j.kissinsights.com/
 ||amazonaws.com/js/reach.js
@@ -53114,6 +53116,7 @@ zyro.com##.zyro-cookies
 ||api.rtl.nl/monitoring/
 ||api.ryanyao.design^
 ||api.sa.hismarttv.com^
+||api.sae.systems^
 ||api.samsungfind.com/log-collector
 ||api.sardine.ai/assets/loader.min.js$third-party
 ||api.scwsf.com^
@@ -62609,6 +62612,7 @@ zyro.com##.zyro-cookies
 ||click.ad-stir.com^
 ||click.admaster.com.cn^
 ||click.adperium.com^
+||click.afiliados.uol.com.br^
 ||click.ali213.net^
 ||click.alibaba.com^
 ||click.aliexpress.com^
@@ -73522,6 +73526,7 @@ zyro.com##.zyro-cookies
 ||educrated.com^
 ||educrated.com^$third-party
 ||eduizioq.com^
+||eduplay.rnp.br/collector/
 ||edutalkingdata.cn^
 ||edutalkingdata.com^
 ||edutechlearners.com^
@@ -93052,6 +93057,7 @@ zyro.com##.zyro-cookies
 ||leadspace.com^$third-party
 ||leadsrx.com^
 ||leadsrx.com^$third-party
+||leadster.com.br/api/chatbot/events
 ||leadtracking.plumvoice.com^
 ||leadvision.dotmailer.co.uk^
 ||leadvision.dotmailer.co.uk^$third-party
@@ -117528,6 +117534,7 @@ zyro.com##.zyro-cookies
 ||rtfgvz.icu^
 ||rtg-adroute.focas.jp^
 ||rtgio.co^
+||rtgvwr.com^
 ||rthbycustomla.info^
 ||rtizudmih.com^
 ||rtjmln.xyz^
@@ -117659,6 +117666,7 @@ zyro.com##.zyro-cookies
 ||rummageengineneedle.com^
 ||rummentaltheme.com^
 ||rummyaffiliates.com^
+||rumolog.com/wp-json/burst/v1/track/
 ||rumpelstiltskinhead.com^
 ||rumpelstiltskinhead.com^$third-party
 ||rumpurasvaz.com^
@@ -119825,6 +119833,7 @@ zyro.com##.zyro-cookies
 ||sdjbvskjvds.com^
 ||sdjthl.tvguide.dk^
 ||sdk-ab-config.qquanquan.com^
+||sdk-analytics-web.cloud.itau.com.br^
 ||sdk-cache.video.ptqy.gitv.tv^
 ||sdk-service.nsureapi.com/events
 ||sdk.1rtb.net^
@@ -132066,6 +132075,7 @@ zyro.com##.zyro-cookies
 ||tagging.steelseries.com^
 ||taggstar.com^*/taggstar.min.js
 ||taghaugh.com^
+||taghike.com^$third-party
 ||tagjunction.com^
 ||tagloognain.xyz^
 ||tagm.eduscho.at^
@@ -136342,6 +136352,7 @@ zyro.com##.zyro-cookies
 ||track.list-finder.jp^
 ||track.livasoft.com.tr^
 ||track.madserving.com^
+||track.magazineluiza.com.br^
 ||track.mailerlite.com^
 ||track.marketingcube.com.au^
 ||track.mediav.com^
@@ -139280,6 +139291,7 @@ zyro.com##.zyro-cookies
 ||udookrou.com^
 ||udoshbt.top^
 ||udoxeswdhatp.com^
+||udr.uol.com.br^
 ||udr26c.cn^
 ||udr9.livera.nl^
 ||udrig.com^
@@ -141918,6 +141930,7 @@ zyro.com##.zyro-cookies
 ||vilynx.com^$third-party
 ||vimaxckc.com^
 ||vimeo.com/ablincoln/
+||vimeo.com/add/
 ||vimeocdn.com/add/player-stats?
 ||vimeocdn.com/ga/
 ||vimeocdn.com/js_opt/logging_combined.min.js
