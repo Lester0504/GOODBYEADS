@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-04-25 20:40:06（北京时间） 
-! Total count: 150513
+! Version: 2025-04-26 09:13:09（北京时间） 
+! Total count: 150532
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16544,6 +16544,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /__wsm.gif
 /_assets/oply/public/*
 /_blazor/*$ping
+/_events/api/setEvent$xmlhttprequest
 /_ga?send&
 /_ga?sponsor_pixel=
 /_gz/counter.php?
@@ -16787,6 +16788,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/visit?
 /analytics?http_referer
 /analytics?token=
+/analytics?ver=*&referrer=
 /analyticsFooter.js
 /analytics_cookie.js
 /analytics_events.js
@@ -17578,6 +17580,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /csi_204?$image,other,ping,script
 /csp_204?
 /csp_log?
+/cst-tag-monitor-2nd-gen?
 /cta-loaded.js
 /ctr_tracking.php?
 /cui-cookie-policy$domain=congstar.de
@@ -19085,6 +19088,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rainbow/master-js
 /rcAnalyticsLib.js
 /rcs_cpmt/*$domain=open.online|style.corriere.it|giroditalia.it
+/rd-js-integration.min.js
 /rdir.baur.de/g.html?uid=$image
 /readReceipt/notify/?img=$image
 /readthedocs-analytics.js
@@ -20105,6 +20109,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-content/tracker.js
 /wp-content/uploads/an-temp/*$script,stylesheet
 /wp-js/analytics.js
+/wp-json/burst/v1/track/*
 /wp-json/iawp/*
 /wp-monero-miner-class.js
 /wp-monero-miner-util.min.js
@@ -36507,6 +36512,7 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
+ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -57857,6 +57863,7 @@ zyro.com##.zyro-cookies
 ||billowybelief.com^
 ||billowybelief.com^$third-party
 ||billybobandirect.org^
+||billygrace.com^$third-party
 ||billygroups.com^
 ||billypub.com^
 ||biloatiw.com^
@@ -65256,6 +65263,7 @@ zyro.com##.zyro-cookies
 ||counter.yadro.ru^
 ||counter.yesky.com^
 ||counter2.blog.livedoor.com^
+||counter247.live^
 ||counter27.ch^
 ||counter27.ch^$third-party
 ||counterbot.com^
@@ -70936,6 +70944,7 @@ zyro.com##.zyro-cookies
 ||dmvckj.icu^
 ||dmvsyottlvih.xyz^
 ||dmxfdp.xyz^
+||dmxhgf4zuwdvu.cloudfront.net^
 ||dmxleo.com^
 ||dmxleo.com^$third-party
 ||dmxleo.dailymotion.com^
@@ -77813,6 +77822,7 @@ zyro.com##.zyro-cookies
 ||fmjgtp.dentalspeed.com^
 ||fmjjvb.xyz^
 ||fmkipgm.icu^
+||fml-x.com^$third-party
 ||fmlabsonline.com^
 ||fmmirep.icu^
 ||fmnetwork.nl/tracking/
@@ -80519,6 +80529,7 @@ zyro.com##.zyro-cookies
 ||gkcogyf.icu^
 ||gkcqyo.aquazzura.com^
 ||gkdafpdmiwwd.xyz^
+||gke.econodata.com.br^
 ||gkeolwi.icu^
 ||gkfdkf.jdsports.co.uk^
 ||gkgygj.verivox.de^
@@ -84575,6 +84586,7 @@ zyro.com##.zyro-cookies
 ||hoursencirclepeel.com^
 ||hourstreeadjoining.com^
 ||house27.ch/counter/
+||housecrm.com.br/track/
 ||householdlieutenant.com^
 ||housejomadkc.com^
 ||housemaiddevolution.com^
@@ -94344,6 +94356,7 @@ zyro.com##.zyro-cookies
 ||linkdental.insights.md^
 ||linkdentaldev.insights.md^
 ||linkdev.sprive.com^
+||linkedin.com/apfc/collect$xmlhttprequest
 ||linkedin.com/collect/
 ||linkedin.com/countserv/count/$third-party
 ||linkedin.com/li/track$xmlhttprequest
@@ -103662,6 +103675,7 @@ zyro.com##.zyro-cookies
 ||msadsscale.azureedge.net^
 ||msafoy.eyebuydirect.com^
 ||msbainfo.fbe.hku.hk^
+||msboul.gruenwelt.de^
 ||msclick2.kuwo.cn^
 ||mscs.svaeuzh.cn^
 ||msdk.qq.com^
@@ -110960,6 +110974,7 @@ zyro.com##.zyro-cookies
 ||pixel.ionos.de^
 ||pixel.ionos.fr^
 ||pixel.kknews.cc^
+||pixel.leadlovers.app^
 ||pixel.lilystyle.ai^
 ||pixel.locker2.com^
 ||pixel.mathtag.com^
@@ -117667,7 +117682,6 @@ zyro.com##.zyro-cookies
 ||rummageengineneedle.com^
 ||rummentaltheme.com^
 ||rummyaffiliates.com^
-||rumolog.com/wp-json/burst/v1/track/
 ||rumpelstiltskinhead.com^
 ||rumpelstiltskinhead.com^$third-party
 ||rumpurasvaz.com^
@@ -122052,6 +122066,7 @@ zyro.com##.zyro-cookies
 ||sidenoteproductionbond.com^
 ||sidewayfrosty.com^
 ||sidsaignoo.net^
+||siemens.com/c2_analytics.js
 ||sierradissolved.com^
 ||sierrakermit.com^
 ||sievynaw.space^
@@ -127925,6 +127940,7 @@ zyro.com##.zyro-cookies
 ||sst.colemanfurniture.com^
 ||sst.cooperativa.cl^
 ||sst.shopware.com^
+||sst.vrijopnaam.nl^
 ||sstat.3pagen.at^
 ||sstat.detelefoongids.nl^
 ||sstat.gilt.com^
@@ -131243,6 +131259,7 @@ zyro.com##.zyro-cookies
 ||syblyj.com^
 ||sybnzs.cn^
 ||sybutrprd.com^
+||sycamore.com.br/pixel/
 ||sycbbs.com^
 ||syclqphwqvv.com^
 ||sycnzz.17tanwan.com^
@@ -131280,6 +131297,7 @@ zyro.com##.zyro-cookies
 ||symmorybewept.com^
 ||sympathizecopierautobiography.com^
 ||sympathizecrewfrugality.com^
+||sympla.com.br/api/event-bff/tracking/
 ||symptomprominentfirewood.com^
 ||symptomslightest.com^
 ||synacast.com^
@@ -139605,6 +139623,7 @@ zyro.com##.zyro-cookies
 ||um5xcgngmart.xyz^
 ||uma.gtags.net^
 ||umami.aigenerations.net^
+||umami.askrella.de^
 ||umami.heroku.uk^
 ||umami.is^
 ||umami.is^$third-party
