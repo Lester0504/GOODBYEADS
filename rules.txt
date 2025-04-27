@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-04-26 20:35:52（北京时间） 
-! Total count: 151255
+! Version: 2025-04-27 09:19:52（北京时间） 
+! Total count: 151291
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16817,6 +16817,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/LM/Report?placeUUID=$third-party
 /api/ad/*
 /api/adplogger/*
+/api/adtracking$xmlhttprequest
 /api/async.php?t=user&m=pagehits&
 /api/bfb_write_log
 /api/click/*?c=
@@ -17785,6 +17786,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /eventtracking/*
 /evercookie.js
 /evercookie/swfobject-2.2.min.js
+/evercookie_get.js
 /evergage.js
 /evergage.min.js
 /evt.gif?
@@ -18655,6 +18657,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /monitor/v1/log
 /monitor?rtype=
 /monitor_analytic.js
+/monitoring?o=$xmlhttprequest
 /monitus.js
 /monsido.js
 /mormont.js
@@ -19214,6 +19217,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /scmp-int.js$domain=mapy.cz
 /screencount?vcid=
 /scribd_events?
+/script.tagged-events.js
 /script.tagged-events.outbound-links.js
 /script/ico.cookie.
 /script/pixel.js
@@ -19449,6 +19453,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /stats/events$xmlhttprequest
 /stats/footer.js
 /stats/ga.js
+/stats/header.js
 /stats/impression
 /stats/log.pl
 /stats/lookup?
@@ -19738,6 +19743,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracking202/static/landing.php
 /tracking?referrer
 /tracking?vs=
+/trackingApi?type=
 /trackingCode-
 /trackingCode.js
 /trackingDTM.js
@@ -20004,6 +20010,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /webmnr.min.js
 /webmonitor/collect/badjs.json
 /webmr.js
+/webruntime/log/metrics$ping
 /website-cookie-preferences$domain=nationaltrust.org.uk
 /webstat.js
 /webstatistics.php?
@@ -31368,6 +31375,7 @@ cnet.com###-e_xobwhg_utggxk
 cnig.es###layerCookie
 cnn.com##.m-truste, #new-tos-privacy, #js-tos-prompt, head + div, .user-msg, #notification-legal, .popup_tosEdition
 cnnbrasil.com.br###pop__gdpr
+cnzz.com
 co-opinsurance.co.uk###noticePanel
 co.aptoide.com###news
 cobasi.com.br##.lgpd
@@ -53045,6 +53053,7 @@ zyro.com##.zyro-cookies
 ||api.baomoi.com^
 ||api.baomoi.com^$image
 ||api.bayimob.com^
+||api.beleggersbelangen.nl//api/statistics/
 ||api.bilibili.com/x/web-show/res/locs?$~script
 ||api.bit.ly/*/clicks?$third-party
 ||api.bitp.it^
@@ -53798,6 +53807,7 @@ zyro.com##.zyro-cookies
 ||app.me4u.ai^
 ||app.meangreensports.com^
 ||app.meclub.com^
+||app.mediaexpert.pl/spark-data/
 ||app.meihengyisheng.com^
 ||app.meliuz.com.br^
 ||app.memor-i.com^
@@ -55080,6 +55090,7 @@ zyro.com##.zyro-cookies
 ||ast-fr.adp.ca^
 ||ast2ya4ee8wtnax.com^
 ||astarboka.com^
+||astarsbuilding.com^
 ||astat.bugly.qq.com^
 ||astat.nikkei.com^
 ||asteandstilll.org^
@@ -65661,6 +65672,8 @@ zyro.com##.zyro-cookies
 ||cps.kaola.com^
 ||cps.yaoqing.com^
 ||cpt.itv.com^
+||cpt.postnl.be^
+||cpt.postnl.nl^
 ||cptrack.de^
 ||cptrack.de^$third-party
 ||cpu-admin.baidu.com^
@@ -66088,6 +66101,7 @@ zyro.com##.zyro-cookies
 ||cs-op.douyucdn.cn^
 ||cs.37see.com^
 ||cs.analytics.lego.com^
+||cs.bankmillennium.pl^
 ||cs.coopeservidores.fi.cr^
 ||cs.dqwjzm.com^
 ||cs.hot.net.il^
@@ -67259,6 +67273,7 @@ zyro.com##.zyro-cookies
 ||d24fnxkxwarvg8.cloudfront.net^
 ||d24g87zbxr4yiz.cloudfront.net^
 ||d24iusj27nm1rd.cloudfront.net^
+||d24luoisenoi7j.cloudfront.net^
 ||d24lwiav9pbaw7.cloudfront.net^
 ||d24qbn28utpewb.cloudfront.net^
 ||d24rtvkqjwgutp.cloudfront.net^
@@ -68195,6 +68210,7 @@ zyro.com##.zyro-cookies
 ||data-dl.skysrt.com^
 ||data-dynamic.net^
 ||data-dynamic.net^$third-party
+||data-events.uniplaces.com^
 ||data-hoisin.coocaa.com^
 ||data-ingenuity.com^
 ||data-ingest.xtralife.com^
@@ -71798,6 +71814,7 @@ zyro.com##.zyro-cookies
 ||dreamaquarium.com^
 ||dreamcounter.de^
 ||dreamcounter.de^$third-party
+||dreamdata.cloud^$third-party
 ||dreamine.com^
 ||dreamintim.net^
 ||dreamlikefostergala.com^
@@ -76814,6 +76831,7 @@ zyro.com##.zyro-cookies
 ||falal.cn^
 ||falcatasestina.top^
 ||falcatayamalka.com^
+||falco.studio/api/track
 ||falconcookie.de^
 ||falkag.net^
 ||falkenbergtorget.se/sc.gif?
@@ -88036,6 +88054,7 @@ zyro.com##.zyro-cookies
 ||info.ohlogistics.com^
 ||info.omep.org^
 ||info.onlinetech.com^
+||info.onwd.com^
 ||info.ortecfinance.com^
 ||info.osiriseducational.co.uk^
 ||info.osufoundation.org^
@@ -89000,6 +89019,7 @@ zyro.com##.zyro-cookies
 ||inwraptsekane.com^
 ||inx-corp.actonservice.com^
 ||inxgfxylzkkgi.one^
+||inzicht.cz.nl^
 ||inzoiwe.com^
 ||inzut.com^
 ||io-tech.fi/io/www/delvr/lokiz.php
@@ -95114,6 +95134,7 @@ zyro.com##.zyro-cookies
 ||lipsoowesto.net^
 ||lipteedseelr.com^
 ||liqikxqpx.com^
+||liquid.agora.pl^
 ||liquidfire.mobi^
 ||liquipedia.net/mm.js
 ||liquipedia.net/stats/
@@ -95549,6 +95570,7 @@ zyro.com##.zyro-cookies
 ||local-shares.ri.la^
 ||local.hniux.cn^
 ||localedgemedia.com^
+||localfocuswidgets.net/stats/
 ||localhost^
 ||locallycompare.com^
 ||localsearch24.co.uk^
@@ -100715,6 +100737,7 @@ zyro.com##.zyro-cookies
 ||mediadelivery.net/.metrics/
 ||mediadelivery.net/rum.js
 ||mediaedge-info.com^
+||mediaexpert.pl/api/session/heartbeats
 ||mediaf.media^
 ||mediaffiliation.com^
 ||mediaforce.com^
@@ -100915,6 +100938,7 @@ zyro.com##.zyro-cookies
 ||membership.mortonarb.org^
 ||memberships.clubcorp.com^
 ||membrana.media^
+||memcyco.com^$third-party
 ||memecounter.com^
 ||memecounter.com^$third-party
 ||memelq.acs.org^
@@ -104079,6 +104103,7 @@ zyro.com##.zyro-cookies
 ||mqzoid.vintorte.com^
 ||mr-rank.de^
 ||mr-rank.de^$third-party
+||mr.allegro.
 ||mr.da.netease.com^
 ||mr.homedepot.ca^
 ||mr3o.online^
@@ -111874,6 +111899,7 @@ zyro.com##.zyro-cookies
 ||play.kakao.com^
 ||play.maxgame.store^
 ||play.nekobot.vip^
+||play.pl/?_hn:type=
 ||play.pp9yy.com/hall/home/heartbeat
 ||play.pp9yy.com/hall/v1/netstat/
 ||play.qs01.cn^
@@ -115579,6 +115605,8 @@ zyro.com##.zyro-cookies
 ||raenonx.cc/api/tag
 ||raenonx.cc/g/usage/
 ||raeqqe.cn^
+||raf.postnl.be^
+||raf.postnl.nl^
 ||raflbehlgleawm.com^
 ||rafvertizing.crazygames.com^
 ||ragagqgacog.com^
@@ -115804,6 +115832,7 @@ zyro.com##.zyro-cookies
 ||ravm.tv^
 ||raw-co.com^
 ||raw-help.pro^
+||raw.vidyard.com^
 ||rawasy.com^
 ||rawoarsy.com^
 ||rayajmp.icu^
@@ -130242,6 +130271,7 @@ zyro.com##.zyro-cookies
 ||stats.twhl.xyz^
 ||stats.ubiwiz.com^
 ||stats.ulixes.pl^
+||stats.uniplaces.com^
 ||stats.united-domains.de^
 ||stats.unka.space^
 ||stats.unusualtourist.com^
@@ -139527,6 +139557,7 @@ zyro.com##.zyro-cookies
 ||twkbui.mansion-review.jp^
 ||twlcyc.cn^
 ||twnrydt.com^
+||two.cm.com^
 ||two.tio.nl^
 ||twoeej.carrefour.fr^
 ||twoepidemic.com^
@@ -140131,6 +140162,7 @@ zyro.com##.zyro-cookies
 ||uilwmi.coop.nl^
 ||uilzwzx.com^
 ||uim.tifbs.net^
+||uimarketpro.com^
 ||uimg.123hala.com^
 ||uimg.1qwe3r.com^
 ||uimg.27admin.com^
@@ -140478,6 +140510,7 @@ zyro.com##.zyro-cookies
 ||uni-duesseldorf.de/cgi-bin/nph-count?
 ||uni.okane-reco-plus.com^
 ||uni69.top^
+||uni7.uniplaces.com^
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
 ||unibling.com/eclytics/
 ||unibots.in^
@@ -142547,6 +142580,7 @@ zyro.com##.zyro-cookies
 ||vidstream.pro/ping/
 ||vidverto.io^
 ||vidwkd.com^
+||vidyard.com/api/metrics
 ||vidzi.tv^
 ||vieldeold.xyz^
 ||viensvoircesite.com^
@@ -148757,6 +148791,7 @@ zyro.com##.zyro-cookies
 ||yengo.com^
 ||yenyshy.com^
 ||yepdigital.adk2x.com^
+||yepnews.eu/event.html
 ||yequiremuke.com^
 ||yerhfnytky.top^
 ||yernbiconic.com^
@@ -150173,6 +150208,7 @@ zyro.com##.zyro-cookies
 ||zhy333.com^
 ||zhyeqw.mercury.ru^
 ||zhzzx.com^
+||zi-scripts.com/zi-tag.js
 ||zi3nna.xyz^
 ||zi8ivy4b0c7l.com^
 ||ziblo.cloud^
