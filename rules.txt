@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-04-27 20:36:13（北京时间） 
-! Total count: 151291
+! Version: 2025-04-28 09:17:43（北京时间） 
+! Total count: 151321
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16832,6 +16832,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/log-visit
 /api/metrics/collect
 /api/metrics/event
+/api/metrics|$xmlhttprequest
 /api/pageactivity
 /api/pageview/*$ping
 /api/pageview?
@@ -17536,6 +17537,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /count.php?
 /count.png?
 /count/count.cgi?
+/count/logcount.html?
 /count?pid=
 /count_js.php
 /counter-js.php
@@ -17892,6 +17894,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fsrscripts/triggerParams.js
 /fusion/lucid/data/*
 /g_track.php?
+/ga-audiences?
 /ga-events.js
 /ga-links.js
 /ga-lite.js
@@ -18128,6 +18131,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hmapxy.js
 /hnpprivacy-min.js
 /hockeystack.min.js
+/home-insight/ad_placements$xmlhttprequest
+/home-insight/initial_analytics$xmlhttprequest
 /homeCounter.php
 /honeybadger.js
 /honeybadger.min.js
@@ -19892,6 +19897,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /v.gif?
 /v0/amp-addthis-*.js
 /v1/adn/visit|
+/v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
 /v1/stats/track
@@ -28583,6 +28589,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://2ip.*/member_photo/$third-party
 ://a02342.
 ://a869.$~image
+://analytics-beacon.
 ://analytics-cdn.
 ://analytics.*/collect
 ://analytics.*/event
@@ -52992,6 +52999,7 @@ zyro.com##.zyro-cookies
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-js.mixpanel.com^
 ||api-location-prd.pelcro.com^$domain=newsweek.com
+||api-metric.gosweb.gosuslugi.ru^
 ||api-metrics-canary.flurry.com^
 ||api-metrics-e2e.nonprod.flurry.com^
 ||api-metrics-smoke.nonprod.flurry.com^
@@ -55435,6 +55443,7 @@ zyro.com##.zyro-cookies
 ||audiencerun.com^
 ||audiencesquare.com^
 ||audiencesquare.com^$third-party
+||audiencies.3cat.cat^
 ||audiencies.ccma.cat^
 ||audiens.com^
 ||audiens.com^$third-party
@@ -56770,6 +56779,7 @@ zyro.com##.zyro-cookies
 ||barringjello.com^
 ||barrister.org.cn^
 ||barrons.com/cookies/pixel.gif
+||barry-callebaut.com/pd.js
 ||barscreative1.com^
 ||barsshrug.com^
 ||bartender.cc^
@@ -59755,6 +59765,8 @@ zyro.com##.zyro-cookies
 ||btrace.qq.com^
 ||btrace.video.qq.com^
 ||btrace.ysp.cctv.cn^
+||btravel.com/analytics/
+||btravel.com/falcon/api/hits/
 ||btrll.com^
 ||btrwxz.xyz^
 ||btserve.com^
@@ -68275,6 +68287,7 @@ zyro.com##.zyro-cookies
 ||data.b.information.blau.de^
 ||data.b2bmail.adobe.com^
 ||data.babista.de^
+||data.barry-callebaut.com^
 ||data.bilibili.com^
 ||data.bioplanet.be^
 ||data.bless.blesscollectionhotels.com^
@@ -76135,6 +76148,7 @@ zyro.com##.zyro-cookies
 ||everyaction.com/v1/Track/
 ||everydowered.com^
 ||everyoneglamorous.com^
+||everywatch.com/ingest/
 ||everywheresavourblouse.com^
 ||evgaow.xyz^
 ||evgytklqupoi.com^
@@ -79837,6 +79851,7 @@ zyro.com##.zyro-cookies
 ||gateway.cacafly.com^
 ||gateway.dev/log
 ||gateway.foresee.com^
+||gateway.melia.com/tracking
 ||gatherup.com^
 ||gatorleads.co.uk^
 ||gatorleads.co.uk^$third-party
@@ -88398,6 +88413,7 @@ zyro.com##.zyro-cookies
 ||ingest.coincodex.com^
 ||ingest.make.rvapps.io^
 ||ingest.make.rvohealth.com^
+||ingesteer.services-prod.nsvcs.net^
 ||ingigalitha.com^
 ||ingonherbal.com^
 ||ingotheremplo.info^
@@ -91596,6 +91612,7 @@ zyro.com##.zyro-cookies
 ||kaminari.click^$third-party
 ||kaminari.space^
 ||kaminari.systems^
+||kaminoretail.io/tracking/
 ||kamnebo.info^
 ||kampanja.bhtelecom.ba^
 ||kampanjat.atea.fi^
@@ -91644,6 +91661,7 @@ zyro.com##.zyro-cookies
 ||karwobeton.com^
 ||kasdwergv.com^
 ||kasiklz.cc^
+||kaspersky-labs.com/cld_track?
 ||kastafor.com^
 ||kastooveshos.net^
 ||katecrochetvanity.com^
@@ -93489,6 +93507,9 @@ zyro.com##.zyro-cookies
 ||leadpages.co^
 ||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
+||leadplan.ru/api/pageview/
+||leadplan.ru/api/session/
+||leadplan.ru/api/visitor/
 ||leads.api.autohome.com.cn^
 ||leads.autohome.com.cn^
 ||leads.commercial.keurig.com^
@@ -98498,6 +98519,7 @@ zyro.com##.zyro-cookies
 ||markedpail.com^
 ||markentive.actonservice.com^
 ||marker.io/widget/ping
+||marker.konograma.com^
 ||markerleery.com^
 ||markerly.com^
 ||market-keyade.macif.fr^
@@ -104706,6 +104728,7 @@ zyro.com##.zyro-cookies
 ||myfinance.com/widget/
 ||myfinance.com^
 ||myfreecams.com/mfc2/lib/o-mfccore.js
+||myfreecams.com/php/tracking.php?
 ||myfuture.futureelectronics.com^
 ||mygeek.cn^
 ||mygostore.com/api/log
@@ -107780,6 +107803,7 @@ zyro.com##.zyro-cookies
 ||olhqou.realsimple.com^
 ||olichoogrulsom.com^
 ||olil.peopleselect.cn^
+||olimp.bet/analytics/
 ||olineman.pro^
 ||olivecough.com^
 ||olivedinflats.space^
@@ -109061,6 +109085,7 @@ zyro.com##.zyro-cookies
 ||otclick-adv.ru^$third-party
 ||otdalxhhiah.com^
 ||otekmnyfcv.com^
+||otel-collector.lenta.tech^
 ||otf.msn.com^
 ||otfy.cn^
 ||otg.mblycdn.com/bundles/cmp.js
@@ -113958,6 +113983,7 @@ zyro.com##.zyro-cookies
 ||purifybaptism.guru^
 ||purple.mongodb.com^
 ||purpleads.io^
+||purpledotprice.com/api/v1/track
 ||purpleflag.net^
 ||purplepatch.online^
 ||purpletalk.actonservice.com^
@@ -123467,6 +123493,7 @@ zyro.com##.zyro-cookies
 ||smartlysquare.com^
 ||smartmad.com^
 ||smartmail.cyou^
+||smartmetrics.co.uk^
 ||smartmuchang.com^
 ||smartnews-ads.com^
 ||smartnews-ads.com^$third-party
@@ -132510,6 +132537,7 @@ zyro.com##.zyro-cookies
 ||t.southernmiss.com^
 ||t.spbx.app^
 ||t.splicky.com^
+||t.sports.ru^
 ||t.spot.im^
 ||t.srongee.top^
 ||t.staging-mail.tabcorp.com.au^
@@ -138235,6 +138263,7 @@ zyro.com##.zyro-cookies
 ||trakken.de^$third-party
 ||trakksocial.googlecode.com^
 ||trakksocial.googlecode.com^$third-party
+||trakle01.online^
 ||traktor.ru^*/counter.php?
 ||traktortds.com^
 ||traktrafficflow.com^
@@ -148030,6 +148059,7 @@ zyro.com##.zyro-cookies
 ||xmcvqq.pinkpanda.ro^
 ||xmediaserve.com^
 ||xmegaxvideox.com^
+||xmetrics.camsoda.com^
 ||xmfugv.tgn.co.jp^
 ||xmglass.cn^
 ||xmgysweb.com^
