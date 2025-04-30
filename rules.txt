@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-04-29 20:42:51（北京时间） 
-! Total count: 151726
+! Version: 2025-04-30 09:16:04（北京时间） 
+! Total count: 151741
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16786,6 +16786,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/visit.jsp
 /analytics/visit.php
 /analytics/visit?
+/analytics4.php$ping
 /analytics?http_referer
 /analytics?token=
 /analytics?ver=*&referrer=
@@ -18170,6 +18171,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /if/services/tdg?hs=
 /ilovecookies.min.js
 /image.ng/*
+/images/tingyun.js$script
 /img?eid=
 /imgcount.cgi?
 /imgcount.php?
@@ -19742,6 +19744,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tracking/referrer?
 /tracking/thirdpartytag.js
 /tracking/trackpageview
+/tracking/uct?v=
 /tracking/universalJSRequest.php
 /tracking/user_sync_widget?
 /tracking/views/*
@@ -36292,6 +36295,7 @@ nytco.com##.a-cookie
 nytimes.com###dock-container[data-testid*="gdpr"]
 nyulcipobolt.hu##.cookie-container, .cookie-button
 nyx-arch.ch###ab-pop-up
+o-ad.sm.cn
 o2family.cz###o2fCookieConsentDialog
 o2online.es##.cookies
 oase-teichbau.de##div[x-data*="app.components.cookieConsent"]
@@ -65414,6 +65418,7 @@ zyro.com##.zyro-cookies
 ||count*.pconline.com.cn^
 ||count-server.sharethis.com^
 ||count.1133.cc^
+||count.all.biz^
 ||count.asnetworks.de^
 ||count.atm.youku.com^
 ||count.bank99.at^
@@ -74230,6 +74235,7 @@ zyro.com##.zyro-cookies
 ||ei7.icu^
 ||eiadf.xyz^
 ||eib2.cc^
+||eick.it/statistics/
 ||eicyds.qoo10.jp^
 ||eidoscruster.com^
 ||eifeou.pandahall.com^
@@ -75811,6 +75817,7 @@ zyro.com##.zyro-cookies
 ||estrack.net^$third-party
 ||estream.to^
 ||estream.xyz^
+||estrelaapps.com/collect
 ||esumedadele.info^
 ||eswpwi.xlmoto.pl^
 ||esyliew.top^
@@ -82196,8 +82203,10 @@ zyro.com##.zyro-cookies
 ||google.com/ads/measurement/
 ||google.com/analytics/$third-party
 ||google.com/async/ddllog
+||google.com/ccm/
 ||google.com/dssw.js
 ||google.com/gen_204?
+||google.com/gmp/
 ||google.com/gsi/log?
 ||google.com/images/phd/px.gif
 ||google.com/log^$domain=~meet.google.com
@@ -118896,6 +118905,7 @@ zyro.com##.zyro-cookies
 ||s.durhamregion.com^
 ||s.e739.cn^
 ||s.effectivemeasure.net^
+||s.eick.it^
 ||s.emarbox.com^
 ||s.ergotherapieblog.de^
 ||s.everydayporn.co^
@@ -131082,6 +131092,7 @@ zyro.com##.zyro-cookies
 ||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
 ||storage.googleapis.com/t3n-de/assets/t3n/2018/scripts/msodrq.js
 ||storage.googleapis.com/tm-frend-graffiti/
+||storage.lulu-row1.com^
 ||storage.soowim.co.kr^
 ||storage.syncmedia.io/libs/sm_capture_
 ||storage.webfiledata.com^
@@ -131914,6 +131925,7 @@ zyro.com##.zyro-cookies
 ||svanh-xqh.com^
 ||svarub.xyz^
 ||svc.dynamics.com/f/m/$third-party
+||svc.dynamics.com/t/v/$third-party
 ||svc.dynamics.com/t/w$third-party
 ||svc2.sc.com^
 ||svcnmtb.top^
@@ -132979,6 +132991,7 @@ zyro.com##.zyro-cookies
 ||t1n.cn^
 ||t1tgame.com^
 ||t2.58cdn.com.cn^
+||t2.aboutyou.de^
 ||t2.click.subway.com^
 ||t2.hulu.com^
 ||t2.jzkapp.com^
@@ -134586,6 +134599,7 @@ zyro.com##.zyro-cookies
 ||thebestlinks.com^
 ||thebestlinks.com^$third-party
 ||theblock.co/api/analytics
+||thebookseller.com/AfoSiteAnalysis/
 ||thebtrads.top^
 ||thebukabc.com^
 ||thecarconnections.com^
@@ -144771,6 +144785,7 @@ zyro.com##.zyro-cookies
 ||webanalytics.logitechg.com^
 ||webanalytics.proff.no^
 ||webanalyticsssl.websense.com^
+||webapi.3cx.com^
 ||webapi.hot-mob.com^
 ||webapp.e-post.smn.no^
 ||webapp.skysrt.com^
