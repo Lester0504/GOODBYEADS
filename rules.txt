@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-02 20:39:43（北京时间） 
-! Total count: 151516
+! Version: 2025-05-03 09:14:41（北京时间） 
+! Total count: 151544
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15975,6 +15975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 &ev=PageView&
 &event_name=page_view&
 &event_name=view_item_list&
+&ga_blocked=$image
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &l=dataLayer&cx=c
@@ -16784,6 +16785,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/metric/*
 /analytics/pagestats
 /analytics/pageview
+/analytics/rakuten.js
 /analytics/searches?
 /analytics/track_event/*
 /analytics/tracker.js
@@ -18212,6 +18214,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /include/js/ga-set.js
 /increment_page_counter.jsp
 /index.html?channelCode=
+/index.php/analytics/cookieAnalytics|$xmlhttprequest
 /index.php?consent_manager$domain=papierkram.de
 /index.track?
 /indextools.js
@@ -18231,6 +18234,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ip-consent.min.js$domain=weersverwachting.nl
 /ipdvdc.min.js
 /ips-invite.iperceptions.com/*
+/iris-t.js
 /is-tracking-pixel-
 /ishop-plugins/gdpr
 /ishop-plugins/ishop-cp
@@ -28652,6 +28656,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://sgtm.*.js?
 ://t.order.*/r/?id=$image
 ://tagging.*.js?aw=
+://tagging.*/settings.js
 ://track.*/collect
 ://track.*/dye
 ://track.*/visitor/
@@ -45753,6 +45758,7 @@ zyro.com##.zyro-cookies
 ||a46300.actonservice.com^
 ||a46303.actonservice.com^
 ||a46306.actonservice.com^
+||a47b.com^
 ||a48505.cn^
 ||a49ebd.xyz^
 ||a4b-tracking.com^
@@ -54857,6 +54863,7 @@ zyro.com##.zyro-cookies
 ||asakfreath.top^
 ||asakoko.cekuj.net^
 ||asamgd.rossmann.de^
+||asanalytics.booking.com^
 ||asandcomemu.info^
 ||asap-systems.actonservice.com^
 ||asap.ad7.com^
@@ -55909,6 +55916,7 @@ zyro.com##.zyro-cookies
 ||awstats.cloud^$third-party
 ||awstrack.me^$third-party
 ||awsurveys.com^
+||awswaf.com/*/telemetry
 ||awswaf.com^*/report
 ||awswaf.com^*/telemetry
 ||awtfkaracoc.com^
@@ -59971,6 +59979,7 @@ zyro.com##.zyro-cookies
 ||bunchbox.co^$third-party
 ||bunchybombus.top^
 ||bundle.kpzip.com^
+||bundle.ppas.monster^
 ||bundlemoviepumice.com^
 ||bundlerenown.com^
 ||bunfreezer.com^
@@ -64005,6 +64014,7 @@ zyro.com##.zyro-cookies
 ||collection.saga.co.uk^
 ||collections.equifax.com^
 ||collectiveablygathering.com^
+||collector-*.luigisbox.com^
 ||collector-1.ex.co^
 ||collector-api.99designs.com^
 ||collector-api.frspecifics.com^
@@ -65525,6 +65535,7 @@ zyro.com##.zyro-cookies
 ||counter247.live^
 ||counter27.ch^
 ||counter27.ch^$third-party
+||counterapi.dev^$third-party
 ||counterbot.com^
 ||counterbot.com^$third-party
 ||countercentral.com^
@@ -67518,6 +67529,7 @@ zyro.com##.zyro-cookies
 ||d2nz8k4xyoudsx.cloudfront.net^
 ||d2o03z2xnyxlz5.cloudfront.net^
 ||d2o51l6pktevii.cloudfront.net^
+||d2o5idwacg3gyw.cloudfront.net^
 ||d2o67tzzxkqap2.cloudfront.net^
 ||d2ob4whwpjvvpa.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
@@ -67943,6 +67955,7 @@ zyro.com##.zyro-cookies
 ||d6deij4k3ikap.cloudfront.net^
 ||d6ek.pandasuite.io^
 ||d6l5p6w9iib9r.cloudfront.net^
+||d6rak4b14t5gp.cloudfront.net^
 ||d6sav80kktzcx.cloudfront.net^
 ||d6wzv57amlrv3.cloudfront.net^
 ||d7.mobaders.com^
@@ -69778,6 +69791,7 @@ zyro.com##.zyro-cookies
 ||deployinput.com^$third-party
 ||deponerdidym.top^
 ||deporttideevenings.com^
+||deporvillage.com/tracking-library/
 ||depositpastel.com^
 ||depotdesirabledyed.com^
 ||depravegypsyterrified.com^
@@ -71537,6 +71551,7 @@ zyro.com##.zyro-cookies
 ||doodiwom.com^
 ||doodlelegitimatebracelet.com^
 ||doodoaru.net^
+||doofinder.com/api/v2/stats/
 ||dooloust.net^
 ||doomail.org^
 ||doomcelebritystarch.com^
@@ -73784,6 +73799,7 @@ zyro.com##.zyro-cookies
 ||edgbas.com^
 ||edge-client^$script,domain=barrons.com
 ||edge-hls.doppiocdn.com/ping
+||edge-hls.doppiocdn.live/ping
 ||edge-mobile-static.azureedge.net.iberostar.com^
 ||edge.afco.com^
 ||edge.bell.ca^
@@ -77651,6 +77667,7 @@ zyro.com##.zyro-cookies
 ||fidar.site^
 ||fidelity-media.com^
 ||fidelitybarge.com^
+||fideuram.it/js/cookie-manager/tracking-scripts.js
 ||fidsdeign.shop^
 ||fidtaswiw.com^
 ||fiduciaryfirst.actonservice.com^
@@ -92174,6 +92191,7 @@ zyro.com##.zyro-cookies
 ||kign.biluzhang.cn^
 ||kihudevo.pro^
 ||kiitsl.icu^
+||kijimea.it/javascript/script.js
 ||kikeqrozcupit.com^
 ||kiki.rireetchansons.fr^
 ||kiklazopnqce.com^
@@ -92341,6 +92359,7 @@ zyro.com##.zyro-cookies
 ||klakus.com^
 ||klangoo.com^
 ||klangoo.com^$third-party
+||klarinsights.net^
 ||klarnaservices.com/v1/osm-client-script/
 ||klarnaservices.com^
 ||klarnaservices.com^$image,third-party
@@ -110660,6 +110679,7 @@ zyro.com##.zyro-cookies
 ||pcci.pccinnovation.org^
 ||pccipieces.actonservice.com^
 ||pccjtxsao.com^
+||pccomponentes.*/api/users/tracking/
 ||pcd.autohome.com.cn^
 ||pcdn.xmcdn.com^
 ||pcdstm.petbarn.com.au^
@@ -117393,6 +117413,7 @@ zyro.com##.zyro-cookies
 ||review.teradata.com^
 ||reviewability.com^
 ||reviews-widget.trovaprezzi.it^
+||reviews.io/stats/
 ||reviews.shoppydoo.it^
 ||revimedia.com^
 ||revinate.com^
@@ -117482,6 +117503,7 @@ zyro.com##.zyro-cookies
 ||rfr-69.com^$third-party
 ||rfto9i.icu^
 ||rftslb.com^
+||rg-3tn.pages.dev^
 ||rgavvimsecmbo.life^
 ||rgb9uinh2dej9ri.jacobzhang.de^
 ||rgbnqmz.com^
@@ -130393,6 +130415,7 @@ zyro.com##.zyro-cookies
 ||stats.sirdata.com^
 ||stats.sixseven.at^
 ||stats.ski.com^
+||stats.slashed.cloud^
 ||stats.slicedthread.com^
 ||stats.smartclip.net^
 ||stats.smartdestinations.com^
@@ -140133,6 +140156,7 @@ zyro.com##.zyro-cookies
 ||ubiquitousyard.com^
 ||ubiquitousyard.com^$third-party
 ||ubish.com^
+||ubm.docu.info^
 ||ubm.fangtoo.com^
 ||ubmcmm.baidustatic.com^
 ||ubmdob.connection.com^
@@ -142811,6 +142835,7 @@ zyro.com##.zyro-cookies
 ||vidible.tv/trk/
 ||vidigital.ru^
 ||vidigital.ru^$third-party
+||vidlink.pro/script.js
 ||vidoomy.com^
 ||vidora.com^
 ||vidrioyaluminio.mx^
@@ -142818,6 +142843,7 @@ zyro.com##.zyro-cookies
 ||vids-fun.online^
 ||vidscriptshark.com^
 ||vidshouse.online^
+||vidsrc.icu/js/script-custom.js
 ||vidsrev.com^
 ||vidstat.taboola.com^
 ||vidstream.pro/log/
@@ -144368,6 +144394,7 @@ zyro.com##.zyro-cookies
 ||web-counter.net^
 ||web-counter.net^$third-party
 ||web-guardian.xyz^
+||web-perf.booking.com^
 ||web-protection-app.com^
 ||web-security.cloud^
 ||web-stat.*^
@@ -146186,6 +146213,7 @@ zyro.com##.zyro-cookies
 ||wtaamjgulamk.com^
 ||wtaccesscontrol.com^
 ||wtaccesscontrol.com^$third-party
+||wtb-tag.swaven.com^
 ||wtbevents.pricespider.com^
 ||wtbtop.cn^
 ||wtcpm.com^
