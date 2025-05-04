@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-03 20:37:02（北京时间） 
-! Total count: 151555
+! Version: 2025-05-04 09:23:23（北京时间） 
+! Total count: 151569
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16035,6 +16035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .cn:*/sc/*?n=$third-party
 .cn:*/vh5$third-party
 .cn:8005/cc/*?is_not=
+.com/5y*/31*.$~third-party
 .com/_.gif?
 .com/adv1/?q=
 .com/c.php?s=*=*=$third-party
@@ -16231,6 +16232,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .umusic-online.com^*/o.gif
 .useinsider.com/pixel?$image
 .v4.analytics.
+.vip/facaishang.js
+.vip/facaishen*.js$~third-party
+.vip/happyxia.js
 .vzbv.de/-open2/$image
 .warehousefashion.com/warehouse/e/$image
 .webex.com/q/
@@ -19435,6 +19439,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /statcounter.js
 /statcountex/count.asp?
 /static/2biqu/twgdh.js
+/static/83zg/tss.js
 /static/CookieManager/js/app
 /static/consent-dialog.
 /static/cookies/cookie-layer-wc-
@@ -19671,6 +19676,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track/cm?
 /track/component/*
 /track/event/*
+/track/go.php?*&referer_url=
 /track/hit.gif
 /track/identity?
 /track/imp?
@@ -28607,6 +28613,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 99airdrops.com##.legal-notice
 9bis.net##body > div[style*="width"]
 9maand.be##.flashup
+:*/xcdn*/js/_init.js?$third-party
 ://*.yinghua*.*/bar$~third-party
 ://*banzhu*/js/cdn.js$~third-party
 ://*mp4*/js/wcount.js$~third-party
@@ -58951,6 +58958,7 @@ zyro.com##.zyro-cookies
 ||boominfluxdrank.com^
 ||boomouso.xyz^
 ||boomspomard.shop^
+||boomtrain.com/identify/resolve?
 ||boomtrain.com^
 ||booneeptou.net^
 ||booseed.com^
@@ -72033,6 +72041,7 @@ zyro.com##.zyro-cookies
 ||drop.com/statBeacon
 ||dropbox.com/2/client_metrics
 ||dropbox.com/2/pap_event_logging
+||dropbox.com/2/udcl/log_timing
 ||dropbox.com/alternate_
 ||dropbox.com/jse
 ||dropbox.com/log/
@@ -76221,6 +76230,7 @@ zyro.com##.zyro-cookies
 ||events.onet.pl^
 ||events.paramount.tech^
 ||events.pella.com^
+||events.plus.yandex.net^
 ||events.practo.com^
 ||events.prd.api.max.com^
 ||events.privy.com^
@@ -83663,6 +83673,7 @@ zyro.com##.zyro-cookies
 ||havingsreward.com^
 ||hawkyeye5ssnd.com^
 ||hawsuffer.com^
+||hax.co.id/dist/js/ajax.js
 ||haxbyq.com^
 ||haxdym.min-breeder.com^
 ||haychalk.com^
@@ -91393,6 +91404,7 @@ zyro.com##.zyro-cookies
 ||juiceadv.net^
 ||juicebard.com^
 ||juiceblocks.com^
+||juicer.io/api/page_views
 ||juicyads.com^
 ||juicyads.me^
 ||juicycash.net^
@@ -130875,6 +130887,7 @@ zyro.com##.zyro-cookies
 ||stippleit.com^
 ||stippleit.com^$third-party
 ||stirdevelopingefficiency.com^
+||stirr.com/api/stats
 ||stirringdebrisirriplaceableirriplaceable.com^
 ||stiseeteeshauy.com^
 ||stithauzouleesy.com^
@@ -137019,6 +137032,7 @@ zyro.com##.zyro-cookies
 ||tr.suivi-client-edf.com^
 ||tr.surveys.np6.com^
 ||tr.tdgx.espmp-cufr.net^
+||tr.thecontentserver.com^
 ||tr.think.lvmh.fr^
 ||tr.thisiseurope.moethennessy.com^
 ||tr.tns.harmonie-mutuelle.fr^
