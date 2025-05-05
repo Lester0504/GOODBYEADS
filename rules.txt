@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-04 20:37:22（北京时间） 
-! Total count: 151568
+! Version: 2025-05-05 09:19:30（北京时间） 
+! Total count: 151586
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29170,6 +29170,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||k12-company.ru^*/statistics.js$script
+@@||k5a.io^$domain=itavisen.no
 @@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
@@ -29213,6 +29214,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
+@@||lobechat.com/_next/static/chunks/
 @@||log.mmstat.com/eg.js^$script
 @@||log.mmstat.com^
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
@@ -33545,6 +33547,8 @@ hausinfo.ch##.m-privacy
 hautesavoiexperience.fr###globalWarning
 havahart.com###gdpr-announcement
 hawe.com###colorbox, #cboxOverlay
+hax.co.id#@#.ad-box
+hax.co.id#@#.ad-wrapper
 hayloft.co.uk##.cookieControl
 hays.nl###header-msg
 hayu.com##div[class^="styled__AlertsContainer"]
@@ -58973,6 +58977,7 @@ zyro.com##.zyro-cookies
 ||boostclic.com^
 ||boostcpm.su^
 ||booster-vax.com^
+||booster.osnova.io^
 ||booster3d.com^
 ||boostog.net^
 ||bootcdn.cn^
@@ -63036,6 +63041,7 @@ zyro.com##.zyro-cookies
 ||clickidate.site^
 ||clickinc.com^
 ||clickindia.com/cimem/ad-post-ajax.php?FormName=browsingHistory
+||clickins.slixa.com^
 ||clickintext.com^
 ||clickintext.net^
 ||clickiocdn.com/clickiotag_log/
@@ -68742,6 +68748,7 @@ zyro.com##.zyro-cookies
 ||data.online.clubeextra.com.br^
 ||data.online.paodeacucar.com^
 ||data.onlyyou.palladiumhotelgroup.com^
+||data.openerotik.com^
 ||data.orders.costco.com^
 ||data.ouigo.com^
 ||data.outbound.luxair.lu^
@@ -71594,6 +71601,7 @@ zyro.com##.zyro-cookies
 ||doptik.ru^
 ||doraikouor.com^
 ||dorangesource.alicdn.com^
+||dorcel.com/_stats/
 ||dorimnews.com^
 ||dorkingmomzer.top^
 ||dortmark.net^
@@ -74217,6 +74225,7 @@ zyro.com##.zyro-cookies
 ||ehxyz.com^
 ||ei-api.testlb-gwy.easyjet.com.edgekey.net.easyjet.com^
 ||ei.cnzz.com^
+||ei.monday.com^
 ||ei1s7b.cn^
 ||ei7.icu^
 ||eiadf.xyz^
@@ -75670,6 +75679,7 @@ zyro.com##.zyro-cookies
 ||erraticreaction.com^
 ||erringstartdelinquent.com^
 ||errolandtessa.com^
+||error-analytics-sessions-production.shopifysvc.com^
 ||error-collector.ted.com^
 ||error.fc2.com/blog/$image
 ||error.fc2.com/blog3/$script
@@ -81299,6 +81309,7 @@ zyro.com##.zyro-cookies
 ||gloutchi.com^
 ||glouvugnirsy.net^
 ||glouxalt.net^
+||glove.fit^$third-party
 ||gloveroadmap.com^
 ||glowdot.com^
 ||glowedhyalins.com^
@@ -84319,6 +84330,7 @@ zyro.com##.zyro-cookies
 ||hifyeldu.top^
 ||higame123.com^
 ||higefa.site^
+||high-cdn.com/log.php?
 ||highconvertingformats.com^
 ||highcpmcreativeformat.com^
 ||highcpmgate.com^
@@ -85833,6 +85845,7 @@ zyro.com##.zyro-cookies
 ||hz9x6ka2t5gka7wa6c0wp0shmkaw7xj5x8vaydg0aqp6gjat5x.com^
 ||hzbrcajp.cn^
 ||hzbxm.com^
+||hzcdn.io/bff/static/vendor/sourcepoint-lib/
 ||hzdaye.m.zwdu.com^
 ||hzdhr.cn^
 ||hzdmacore.kejet.net^
@@ -111718,6 +111731,7 @@ zyro.com##.zyro-cookies
 ||pixel-a.basis.net^
 ||pixel-a.sitescout.com^
 ||pixel-hk.pixelinteractivemedia.com^
+||pixel-storage.konnektu.ru^
 ||pixel-tracker.com^
 ||pixel.ad^$third-party
 ||pixel.adsafeprotected.com^
@@ -114197,6 +114211,7 @@ zyro.com##.zyro-cookies
 ||purgeregulation.com^
 ||purgescholars.com^
 ||purifybaptism.guru^
+||purple-hit.com^
 ||purple.mongodb.com^
 ||purpleads.io^
 ||purpledotprice.com/api/v1/track
@@ -118341,6 +118356,7 @@ zyro.com##.zyro-cookies
 ||rtb.adview.cn^
 ||rtb.behe.com^
 ||rtb.com.ru^
+||rtb.prod.carbonatixaudio.com^
 ||rtb.tamura.ad.dev.nend.net^
 ||rtb123.com^
 ||rtb123.com^$third-party
@@ -120909,6 +120925,7 @@ zyro.com##.zyro-cookies
 ||secprf.com^
 ||secret-request.pro^
 ||secretbehindporn.com^
+||secretbenefits.com/js/script.js
 ||secretiongrin.com^
 ||secretivecub.com^
 ||secretivelimpfraudulent.com^
@@ -123361,6 +123378,7 @@ zyro.com##.zyro-cookies
 ||skatingpenitence.com^
 ||skaumbp.icu^
 ||skbnfa.filorga.com^
+||skcrtxr.com^
 ||skdisplay.jd.com^
 ||skdjppgwnfune.club^
 ||skdzxqc.com^
@@ -129124,7 +129142,6 @@ zyro.com##.zyro-cookies
 ||st123.info^
 ||st1net.com^
 ||st3.wagbridge.advertisement.tanx.com^
-||sta.extreme-down.
 ||sta.ganji.com^
 ||sta.qinxue.com^
 ||sta.wawacity.
@@ -131331,6 +131348,7 @@ zyro.com##.zyro-cookies
 ||stvbiopr.net^
 ||stvkr.com^
 ||stvwell.online^
+||stw.extreme-down.
 ||styld-by.com^
 ||styles.hautelook.com^
 ||stylesbatty.top^
