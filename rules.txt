@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-05 20:41:02（北京时间） 
-! Total count: 151801
+! Version: 2025-05-06 09:16:59（北京时间） 
+! Total count: 151805
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16137,6 +16137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .keap-link016.com/$image
 .kijiji.ca/r/
 .klclick.com/$image
+.klclick1.com/$image
 .lassuranceretraite.fr/mk/op/$image
 .list-manage.com/track/
 .live/hm.js$third-party
@@ -16643,6 +16644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /adlogger_tracker.php
 /adm_tracking.js
 /admiral.js
+/admtracker.lib.min.js
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.js
 /adobe-analytics2.js
@@ -29169,7 +29171,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||k12-company.ru^*/statistics.js$script
-@@||k5a.io^$domain=itavisen.no
+@@||k5a.io^$~ping,domain=itavisen.no
 @@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
@@ -60844,6 +60846,7 @@ zyro.com##.zyro-cookies
 ||camgirls.casa/p.php
 ||camiocw.com^
 ||camisado.actonservice.com^
+||cammodels.com/api/metrics
 ||cammpaign.com^
 ||camonster.com^
 ||camouque.net^
@@ -105650,6 +105653,7 @@ zyro.com##.zyro-cookies
 ||ndlesexwrecko.org^
 ||ndlwtl.icu^
 ||ndm-onead.cdn.hinet.net^
+||ndmais.com.br/tracking-parceiros-ndmais/
 ||ndpxzxyqpwcnz.click^
 ||ndqcz0e.xyz^
 ||ndqkxjo.com^
