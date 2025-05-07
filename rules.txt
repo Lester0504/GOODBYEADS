@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-07 09:43:23（北京时间） 
-! Total count: 151809
+! Version: 2025-05-07 20:34:29（北京时间） 
+! Total count: 151813
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18318,6 +18318,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js/dsvgo.
 /js/euc_cookie.js
 /js/ga_event_
+/js/gd.js
 /js/gdpr-component
 /js/gdpr.min.
 /js/gdpr.min.js
@@ -19630,6 +19631,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tide_stat.js
 /tilda-stat-1.0.min.js
 /timingcg.min.js
+/tj/tongji.js?v=$third-party
 /tjp_beacon.js
 /tjx-tracking-data.js
 /tking/ajax_track_stats?
@@ -31186,7 +31188,7 @@ ccm19.vucx.de
 ccs.utc.com###cookie
 cct.hu##.cookie
 cctv.com###bgAd_div
-cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+cctv.com,douyin.com,douyu.com##+js(aeld,/visibilitychange|pagehide/)
 cdkeys.com###cookieCDkeys
 cdlens.com##.jsPrivacy
 cdn.appconsent.io$domain=~lefigaro.fr
@@ -33801,11 +33803,11 @@ huntshowdown.com##.cookies
 huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
 huya.com###J_adBnM > img:last-child
 huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
-huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com###matchComponent4
 huya.com###player-download-guide-tip
 huya.com###sidebarBanner
 huya.com###template
+huya.com##.huya-ab,#hy-ad,#hy-ab,#huya-ab
 huya.com##.jump-to-phone
 huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
 huya.com##.wrap-income.chat-wrap-panel
@@ -40069,9 +40071,9 @@ www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
 www.huya.com###public-screen-ab
-www.huya.com##.huya-ab
 www.huya.com##.sidebar-banner, a.J_g_resource
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
+www.iqiyi.com##div[class^="film-feed_filmFeed_"]:has(>div>a[href^="https://wy.668wan.com"])
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
 www.jianshu.com##[aria-label='lwa-ad-one']
@@ -100034,6 +100036,7 @@ zyro.com##.zyro-cookies
 ||marketing.taos.com^
 ||marketing.tarheelpaper.com^
 ||marketing.tas.business^
+||marketing.taskus.com^
 ||marketing.tba.group^
 ||marketing.tcgrecycling.com^
 ||marketing.teamspirit.uk.com^
@@ -112743,6 +112746,7 @@ zyro.com##.zyro-cookies
 ||poltarimus.com^
 ||polyad.net^
 ||polydarth.com^
+||polyfill-js.cn^
 ||polyh-nce.com^
 ||polymorphicads.jp^
 ||polymorphicads.jp^$third-party
