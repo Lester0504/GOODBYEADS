@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-09 20:40:06（北京时间） 
-! Total count: 150369
+! Version: 2025-05-10 09:14:43（北京时间） 
+! Total count: 150388
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16366,6 +16366,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /Engagement/TrackEventAsync
 /EventLoggerV3.min.js
 /Events/Impression?
+/FacebookEvent/PageView$xmlhttprequest
 /Flurrybox_EnhancedPrivacy/*
 /GDPR/GDPR.js
 /GDPRPanelComponent
@@ -28921,7 +28922,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
-@@||cdn.petametrics.com^$script,domain=mechacomic.jp
 @@||cdn.segment.com/analytics-next/
 @@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|app.cryptotrader.tax|app.joinhandshake.com|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com|swatches.interiordefine.com
 @@||cdn.segment.com/next-integrations/integrations/
@@ -41124,6 +41124,7 @@ zyro.com##.zyro-cookies
 ||1r4g65b63.de^
 ||1r8435gsqldr.com^
 ||1redirb.com^
+||1rer.hummel.net^
 ||1rx.io^
 ||1rxntv.io^
 ||1s1r7hr1k.de^
@@ -47331,6 +47332,7 @@ zyro.com##.zyro-cookies
 ||ab.dydab.com^
 ||ab.fanatical.com^
 ||ab.fapnado.xxx^
+||ab.g.globo/event
 ||ab.gaoguang.com^
 ||ab.hysdknb.com^
 ||ab.meishiba.com.cn^
@@ -50923,6 +50925,7 @@ zyro.com##.zyro-cookies
 ||airdilute.com^
 ||airefcoinc.actonservice.com^
 ||airfind.com^
+||airgreenland.com/tracking/
 ||airlessquotationtroubled.com^
 ||airlingdungas.top^
 ||airlogak.com^
@@ -54847,6 +54850,7 @@ zyro.com##.zyro-cookies
 ||asensoithecb.com^
 ||asentech-dev.actonservice.com^
 ||aserve1.net^
+||aservice.cloud/trc/mastertag
 ||asesiumworkhovdim.org^
 ||asespeonom.com^
 ||asewlfjqwlflkew.com^
@@ -57398,6 +57402,7 @@ zyro.com##.zyro-cookies
 ||bentonow.com^$third-party
 ||benue.site^
 ||benumelan.com^
+||beoecomapim.bang-olufsen.com^
 ||beoofo.pairs.lv^
 ||beopinion.com^
 ||bepansaer.com^
@@ -57971,6 +57976,7 @@ zyro.com##.zyro-cookies
 ||biophorcurving.shop^
 ||biophysicsgroup.actonservice.com^
 ||biopsyintruder.com^
+||biosolutions.tv/audience-proxy/
 ||bipeedsoubsie.xyz^
 ||bipgialxcfvad.xyz^
 ||biphic.com^
@@ -66060,6 +66066,7 @@ zyro.com##.zyro-cookies
 ||cszz.ru^
 ||cszz.ru^$third-party
 ||ct-dev.taskhuman.com^
+||ct-errs.cartrawler.com^
 ||ct.210189.com^
 ||ct.beslist.nl^
 ||ct.capterra.com^
@@ -70072,6 +70079,7 @@ zyro.com##.zyro-cookies
 ||digidip.net^$third-party
 ||digiland.it/count.cgi?
 ||digimedia.com/pageviews.php?
+||diginetica.net^$third-party
 ||digipathmedia.com^
 ||digipush.io^
 ||digistat.westjet.com^
@@ -79904,6 +79912,7 @@ zyro.com##.zyro-cookies
 ||geoparker.net^
 ||geoplugin.net^
 ||geoplugin.net^$third-party
+||geoproapp.com/api/record
 ||georiot.com^
 ||georiot.com^$third-party
 ||geoservice.curse.com^
@@ -80751,6 +80760,7 @@ zyro.com##.zyro-cookies
 ||globalapi.ad.xiaomi.com^
 ||globalbanking.wolterskluwer.com^
 ||globalcommunications.sc.com^
+||globale-analytics-sdk.global-e.com^
 ||globaleloqua.americanexpress.com^
 ||globalinteractive.com^
 ||globallearningsystems.actonservice.com^
@@ -99644,6 +99654,7 @@ zyro.com##.zyro-cookies
 ||mat1.gtimg.com/rain/bailing20/*.*.png$image
 ||mat1.gtimg.com/rain/bailing20/*.jpg$image
 ||mat6tube.com/api/stats?
+||matas.dk/internal/Tracking/
 ||match.ads.betweendigital.com^
 ||match.adsby.bidtheatre.com^
 ||match.adsrvr.org^
@@ -102465,6 +102476,8 @@ zyro.com##.zyro-cookies
 ||minero.pw^
 ||minesage.com^
 ||minescripts.info^
+||minetilbud.dk/api/web/logViewAdvertPage
+||minetilbud.dk^*/Statistics.asmx
 ||minewhat.com^
 ||minewhat.com^$third-party
 ||minexmr.com^$third-party
@@ -115176,6 +115189,7 @@ zyro.com##.zyro-cookies
 ||rawoarsy.com^
 ||rayajmp.icu^
 ||raygun.io/events?
+||raygun.io/ping?
 ||rayjump.com^
 ||rayli.adsame.com^
 ||raylnk.com^
@@ -115642,6 +115656,7 @@ zyro.com##.zyro-cookies
 ||redirect.kataklop.com^
 ||redirect.simba.taobao.com^
 ||redirectdemoqpay.2c2p.com^
+||redirectify.app^$third-party
 ||redirectingat.com^
 ||redistats.com^
 ||redistats.com^$third-party
@@ -118714,6 +118729,7 @@ zyro.com##.zyro-cookies
 ||sales.virtualpbx.com^
 ||salesandmarketing.aitcfis.com^
 ||salescs.com/liveagent/scripts/track.js
+||salesforce.com/beacon/
 ||salesforce.com/sfga.js
 ||saleslists.inform.equifax.com^
 ||salesloft.com/sl.js
@@ -130231,6 +130247,7 @@ zyro.com##.zyro-cookies
 ||sts.papyrs.com^
 ||sts.tour-europe.org^
 ||stscs.ditzo.nl^
+||ststandard.com/adsf
 ||ststandard.com/ping
 ||stt.bupa.com.au^
 ||stt.cpaaustralia.com.au^
@@ -136490,6 +136507,7 @@ zyro.com##.zyro-cookies
 ||trackfeed.com^$third-party
 ||trackicollect.ibase.fr^
 ||trackicollect.ibase.fr^$third-party
+||trackid.globoid.globo.com^
 ||tracking*.euroads.fi^$third-party
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||tracking-api.hotmart.com^
@@ -141234,6 +141252,7 @@ zyro.com##.zyro-cookies
 ||vbmjlevwwvyzj.top^
 ||vbnm888.com^
 ||vbnmjjda.xyz^
+||vbox7.com/aj/player-stats?
 ||vbozbkzejzeol.top^
 ||vbqrzzrzazaew.top^
 ||vbrusdiifpfd.com^
