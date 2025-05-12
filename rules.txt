@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-11 20:37:14（北京时间） 
-! Total count: 150348
+! Version: 2025-05-12 09:20:04（北京时间） 
+! Total count: 150351
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28652,6 +28652,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://cmpworker.
 ://collect.*/pageview
 ://collector.*/event
+://datacollector.*/event
 ://e.*/open?$image
 ://elqtrk.
 ://email.*/o/$image
@@ -66007,6 +66008,7 @@ zyro.com##.zyro-cookies
 ||csmetrics.wilton.com^
 ||csp-collector.appspot.com^
 ||csp-reporting.cloudflare.com^
+||csp.godaddy.com^
 ||csp.secureserver.net^
 ||csp.yandex.net^
 ||cspb1.5w5w.com^
@@ -103788,6 +103790,7 @@ zyro.com##.zyro-cookies
 ||mtrs.fluorconstructors.com^
 ||mtrs.fluoruniversity.com^
 ||mts.ru/fe-api/logger
+||mtsbank.ru/hustonwehaveaproblem/
 ||mtssv.club^
 ||mtt.eve.mdt.qq.com^
 ||mttpsy6666.cc^
