@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-12 09:47:05（北京时间） 
-! Total count: 150351
+! Version: 2025-05-12 20:33:49（北京时间） 
+! Total count: 150361
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19637,6 +19637,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tenant.min.js
 /testAB.bundle.
 /thcookie.js$domain=megadruck.de
+/theme/damn_b.js$~third-party
 /thermostat.js
 /thixel.js
 /tiara/tracker/*
@@ -31397,6 +31398,7 @@ close-up.it##.stickyFooter
 closermag.fr##div[id^="detection-block"]
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
 cloudeng.it##.commons-alert-box, .commons-alert-overlay
+cloudflareinsights.com$third-party
 cloudways.com###cookies-bot
 clubcard.cz##.ucks
 clubdelzapato.com###cookies
@@ -70998,7 +71000,8 @@ zyro.com##.zyro-cookies
 ||dmz3nd5oywtsw.cloudfront.net^
 ||dmzjmp.com^
 ||dn-growing.qbox.me^
-||dn.pt/tag/
+||dn.pt/qlitics.js
+||dn.pt/scooby/api/v1/log/
 ||dn34cbtcv9mef.cloudfront.net^
 ||dn3uy6cx65ujf.cloudfront.net^
 ||dn4qoz.com^
@@ -90553,6 +90556,7 @@ zyro.com##.zyro-cookies
 ||js.trendmd.com^$script,subdocument,third-party
 ||js.union-wifi.com^
 ||js.users.51.la^
+||js.verisoul.ai^
 ||js.vipyy88.com^
 ||js.whfyhouse.com^
 ||js.wo-x.cn^
@@ -91724,6 +91728,7 @@ zyro.com##.zyro-cookies
 ||kkjshsj.com^
 ||kkkjpg-522.cc^
 ||kklpe.xyz^
+||kklq05121p0i.com^
 ||kkmacsqsbf.info^
 ||kkmbbvz.xyz^
 ||kknkcyrkvoqsqa.com^
@@ -93085,6 +93090,7 @@ zyro.com##.zyro-cookies
 ||leadsrx.com^
 ||leadsrx.com^$third-party
 ||leadster.com.br/api/chatbot/events
+||leadsy.ai^
 ||leadtracking.plumvoice.com^
 ||leadvision.dotmailer.co.uk^
 ||leadvision.dotmailer.co.uk^$third-party
@@ -136699,6 +136705,7 @@ zyro.com##.zyro-cookies
 ||tracking.guidehouse.com^
 ||tracking.handlesets.com^
 ||tracking.hannoversche.de^
+||tracking.happierleads.com^
 ||tracking.hardoxwearparts.com^
 ||tracking.hcltech.com^
 ||tracking.health.bilh.org^
@@ -138125,6 +138132,7 @@ zyro.com##.zyro-cookies
 ||troubleshade.com^
 ||troubleshade.com^$third-party
 ||troutgorgets.com^
+||trovo-tag.com^
 ||trowelsbastant.shop^
 ||trp69.top^
 ||trpool.org^
@@ -140012,6 +140020,7 @@ zyro.com##.zyro-cookies
 ||upuplet.net^
 ||upush.co^
 ||upush.res.meizu.com^
+||upvert.io/api/v3/pixel/
 ||upwardsdecreasecommitment.com^
 ||upwkcv.vidaxl.ro^
 ||upwork.com/shasta/suit
@@ -141265,6 +141274,7 @@ zyro.com##.zyro-cookies
 ||vebv8me7q.com^
 ||vecggfp.icu^
 ||vecohgmpl.info^
+||vector.co/pixel.js
 ||vectorsfangs.com^
 ||vedomosti.ru/boom?
 ||vedropeamwou.com^
