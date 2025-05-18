@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-18 09:22:58（北京时间） 
-! Total count: 150803
+! Version: 2025-05-18 09:26:16（北京时间） 
+! Total count: 150690
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28513,14 +28513,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 163.com##.ntes-nav-mobile-title
 163.com##.s-openApp
 168chasa.bg###cookie-b
-17173.com###vjs-ad-on-pause
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 18virginsex.com##.cookie
-1905.com##.pauseInfoWrap:remove()
 1aautoservice.de##.mod-layer
 1avisum.de##.announcement
 1mot.net###cp
@@ -29185,7 +29183,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||js.appboycdn.com/web-sdk/$domain=kfc.co.jp
 @@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.com
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
-@@||js.tv.itc.cn/gg.seed.js
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jstatic.3.cn^$domain=m.jd.com
@@ -29237,7 +29234,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
 @@||lobechat.com/_next/static/chunks/
-@@||log.mmstat.com/eg.js^$script
 @@||log.mmstat.com^
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||logging.apache.org^$~third-party
@@ -29561,7 +29557,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||taplytics.com^$domain=royalbank.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||targetimg1.com/webui/$script,domain=target.com
-@@||tb.mgtv.com/sdk/*/ad-sdk.js^$script
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
@@ -29615,7 +29610,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||ukw.jp^*/?cbk=$script,domain=system5.jp
 @@||uland.taobao.com^
-@@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||universfreebox.com/js/advertisement.js
 @@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||usageapi.*.oraclecloud.com^
@@ -29760,7 +29754,6 @@ aceprensa.com###anuncio
 acf-amphibians.com###SITE_ROOT ~ div[data-reactid*="siteAspectsContainer"]
 acfun.cn##.app-guide
 acfun.cn##.download-app
-acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
 acglala.me##.topm,.donghua_info > DIV[style='width:100%;'],.donghua_info > a
 achaec.cc##[style*='px; bottom: 0px; left: 0px; z-index: ']
 achaec.cc##[style*='px; top: 0px; left: 0px; z-index:']
@@ -30695,7 +30688,6 @@ bild-online.dk###fixedDiv2
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
 bilibili.com###fixed_app_download
 bilibili.com###openAppBtn
-bilibili.com##.ad-report, .ad-floor
 bilibili.com##.app-download-link
 bilibili.com##.bili-app
 bilibili.com##.bili-app-link-container
@@ -30704,7 +30696,6 @@ bilibili.com##.btn-ctnr
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
-bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
 bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
 bilibili.com##.index__floatOpenBtn__src-videoPage-floatOpenBtn-
@@ -30985,7 +30976,6 @@ bsi-software.com##.we-love-cookies
 bt.com###cookiePreference
 bt.se###root > [class*="fluffy"]
 bta-international.com##.cc-layer
-btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
 btv.at##body > .cc
 bubamara.eu##.gdpr-modal-wrapper
 bubble.ru##.notifications
@@ -31206,8 +31196,6 @@ ccm19.dsg-schweiz.ch
 ccm19.vucx.de
 ccs.utc.com###cookie
 cct.hu##.cookie
-cctv.com###bgAd_div
-cctv.com,douyin.com,douyu.com##+js(aeld,/visibilitychange|pagehide/)
 cdkeys.com###cookieCDkeys
 cdlens.com##.jsPrivacy
 cdn.appconsent.io$domain=~lefigaro.fr
@@ -31815,7 +31803,6 @@ damensein.com##.welcome-modal
 damianharriscycles.co.uk###info-message
 dan.mgr.consensu.org
 dana.at##.theCookie
-dandanzan.*,nnyy.in,nunuyy5.com##video:style(max-height:100%!important)
 dandomain.dk##.no-cookie-wrapper
 dangdang.com###fix_erweima
 dangdang.com##.bottom_fixed
@@ -32155,11 +32142,9 @@ douban.com##.lnk-doubanapp
 douyu.com##.ClientJump
 douyu.com##.Download
 douyu.com##.Header-download-wrap
-douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com##.is-mask.MedalUserGuide
 douyu.com##div[class*=LiveRoomDianzan]
 douyu.com##div[class^="code_box"]
-douyu.com,huya.com##a[href^="https://g.wan."]
 dovizborsa.com###tools > div[style*="bottom"]
 dow.com##.screenBlockOverlay
 download-manager.online##.cookie-bottom
@@ -33827,12 +33812,10 @@ huya.com###matchComponent4
 huya.com###player-download-guide-tip
 huya.com###sidebarBanner
 huya.com###template
-huya.com##.huya-ab,#hy-ad,#hy-ab,#huya-ab
 huya.com##.jump-to-phone
 huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
 huya.com##.wrap-income.chat-wrap-panel
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
-huya.com##a[href^="https://wan."]
 huya.com##div[class*="NavDownload"]
 huzaro.pl###cookie
 hw-zuschuss.daimler.com##.cdk-overlay-container
@@ -34114,17 +34097,12 @@ ipodnikatel.cz##.footer-banner-container
 ipon.hu##div[x-data="cookiePolicy"]
 ipper.ru##body > div:not([id]):not([class])
 iproeb.ro###gg
-iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
-iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
-iqiyi.com##.black-screen[data-cupid=adblock-blackscreen], .qy-plist-ad
-iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
 iqiyi.com##.header__ele
 iqiyi.com##.header_app.iqiyi-h5-empty
 iqiyi.com##.hotWords-wrap
 iqiyi.com##.m-iqyGuide-layer
 iqiyi.com##.m-iqylink-diversion
 iqiyi.com##.m-user > div > div
-iqiyi.com##a[href^="https://ads."]
 iqiyi.com##div[class="iqiyi-h5-empty header_app"]
 iqiyi.com##div[class="m-iqylink-guide"]
 iqiyi.com##div[class="vue-portal-target "]
@@ -34764,8 +34742,6 @@ lcsc.com##.v-footer.privacy
 ldlc-pro.be###privacy
 le-fleuriste-22.fr###rgpd_bouton, #rgpd_demande
 le-livre.fr###showcookie
-le.com##+js(set, isAdLoaded, true)
-le.com##.min_pause_img
 leaandperrins.co.uk##body > div:not([id]):not([class])
 leaderdrive.fr##.base-cookies
 leagueoflegends.com##.riotbar-alert
@@ -35163,7 +35139,6 @@ m.huya.com##.pop-download
 m.huya.com##.start-btn
 m.huya.com##.u-btn-down.header-app-btn
 m.huya.com##.u-btn-down.start-btn
-m.iqiyi.com##+js(set, Object.prototype.adPlayerId, '')
 m.iqiyi.com##.iqyGuide-content,.cover
 m.ithome.com##.hot-app
 m.ithome.com##.open-app-a
@@ -36163,7 +36138,6 @@ newnavitel.blogspot.com##.post-body > div[dir] > div[dir] > h1#result
 newnownext.com###balaMainContainer
 newrelic.com###intercom-container
 newrepublic.com##.popup-consent
-news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 news.qq.com##.download-banner-wrap
 news.qq.com##.download-content
 news.qq.com##.godown.qqcom_fb-item
@@ -37046,7 +37020,6 @@ pozyx.io##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-aler
 ppc.world##.detected-block-modal
 ppc.world##.js-detected-block
 ppg.com##.cm
-pptv.com##.advView-two,#p-mark
 pr-cy.ru##div[id^="aabb"]
 praca.gov.pl###klauzula-background
 pracownia.org.pl##.rodo
@@ -37215,7 +37188,6 @@ qmee.com##div[class*="CookieDialog"]
 qobuz.com##.alert.alert-info, .alert.alert-cnil
 qpony.pl##.rodo-wrapper
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune, ads ad material.video)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##.ad-cell-common
 qq.com##A[dt-eid^='em_item_ad']
@@ -39245,7 +39217,6 @@ tuvlita.lt##.section.accept
 tuz.pl###for-cookies-container
 tv-sport.de##.rcb-banner
 tv.sohu.com##.actv-banner.js-app-topbanner,.banner_yunying,.js-oper-pos,IMG.vrs-banner-act-img
-tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 tv5.ca##.top-alertes
 tv7.com###gsoi-cmp
 tvcook.ru##.cat
@@ -39435,14 +39406,9 @@ uzdrowisko-wieniec.pl###statement
 v.ifeng.com##div[class^="index_container"]
 v.ifeng.com##section[class^="index_hot"]
 v.qq.com###pc_client > .quick_link
-v.qq.com##.quick_games.quick_item, div.game-switch-ad
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
-v.qq.com##.video-card-module > .card-wrap
 v.qq.com##div[class*="mod_row_box mod_row_box_special"]
-v.qq.com,news.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
-v.qq.com,news.qq.com##+js(no-xhr-if, snowflake.qq.com)
-v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v10.pl##body > div[style*="width"]
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
@@ -40086,10 +40052,7 @@ www.haijiao.com##.addbox,.bannerliststyle,.van-swipe-item,.crossbutton
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
-www.huya.com###public-screen-ab
-www.huya.com##.sidebar-banner, a.J_g_resource
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
-www.iqiyi.com##div[class^="film-feed_filmFeed_"]:has(>div>a[href^="https://wy.668wan.com"])
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
 www.jianshu.com##[aria-label='lwa-ad-one']
@@ -40107,7 +40070,6 @@ www.mysteel.com##div[class*="adtop2 swiper-container"]
 www.mysteel.com##div[class*="tmLink ADload"]
 www.mysteel.com##div[class*="topAD"]
 www.olevod.com##.B1Lss,.B1Rss
-www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 www.wdbay.com##[class][classname]
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 www.xda-developers.com##.adzone-above-latest
@@ -40233,8 +40195,6 @@ yandex.com##.app div[class*="Cookie__cookie"], div[data-cookiebanner]
 yandex.ru##.gdpr, div[data-react-widget-id="Gdpr"], .lc-gdpr
 yarik-sat.com##.noadb
 yatego.com###ycwBg, #ycwMo
-yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
-yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 yavitrina.ru##.cookie
 ybs-home-insurance.co.uk###app > .container-fluid
 ybs.co.uk###fullpage-filter
@@ -40449,9 +40409,7 @@ zyro.com##.zyro-cookies
 |http://r.i.ua^
 |http://x.o2.pl^
 |https://a.pr-cy.ru^$third-party
-|https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
 |https://r.i.ua^
-|https://tellme.pw/go/jav$popup
 ||*-analytics*.huami.com^
 ||*.mmstat.com^
 ||*customstat*.51togic.com^
@@ -40857,7 +40815,6 @@ zyro.com##.zyro-cookies
 ||12551-1311572332.cos.ap-shanghai.myqcloud.com^
 ||1267a.xyz^
 ||126ccb.xyz^
-||127.0.0.1^$script,domain=iqiyi.com
 ||127.0.0.1^$third-party,domain=53.com|ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|kleinanzeigen.de|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||12915784.care.sanvello.com^
 ||12915784.help.sanvello.com^
@@ -40958,8 +40915,6 @@ zyro.com##.zyro-cookies
 ||17022993.xyz^
 ||1704598c25.com^
 ||1717.1000uc.com^
-||17173.com/batch_show?ads=
-||17173.com/if/$script,subdocument
 ||17173.com/ping.js
 ||17173.com/pv?
 ||1717gs.com^
@@ -51001,7 +50956,6 @@ zyro.com##.zyro-cookies
 ||aiwlxmy.com^
 ||aixcdn.com^
 ||aixifan.com/acsdk/log.min.js?
-||aixifan.com/static/*/appGuide/
 ||aixintou.com.cn^
 ||aixukiwaikra.com^
 ||aixuntupian.oss-cn-hongkong.aliyuncs.com^
@@ -51277,9 +51231,7 @@ zyro.com##.zyro-cookies
 ||alibirasppoliteness.com^
 ||alicat.actonservice.com^
 ||alicdn.bayimob.com^
-||alicdn.com/*yksdk/*sdk.js$script,domain=youku.com
 ||alicdn.com/AWSC/et/
-||alicdn.com/awsc/et/$script
 ||alicdn.com/f/pcdn/i.php?
 ||alicdn.com/tkapi/click.js
 ||alicdnv2.sitemonitor.cn.miaozhen.com^
@@ -53078,7 +53030,6 @@ zyro.com##.zyro-cookies
 ||api.baomoi.com^$image
 ||api.bayimob.com^
 ||api.beleggersbelangen.nl//api/statistics/
-||api.bilibili.com/x/web-show/res/locs?$~script
 ||api.bit.ly/*/clicks?$third-party
 ||api.bitp.it^
 ||api.blink.net/a/
@@ -53283,7 +53234,6 @@ zyro.com##.zyro-cookies
 ||apis.4bn.xyz^
 ||apis301.com^
 ||apisensor.actonservice.com^
-||apisgame.iqiyi.com^
 ||apisoft.df0535.com^
 ||apistat.adbana.com^
 ||apistat.gao7.com^
@@ -59730,7 +59680,6 @@ zyro.com##.zyro-cookies
 ||btravel.com/falcon/api/hits/
 ||btrll.com^
 ||btserve.com^
-||btsow.motorcycles/app/jav$image
 ||btstats.benakt.com^
 ||btstats.devtribu.fr^
 ||btsvad8.com^
@@ -59963,7 +59912,6 @@ zyro.com##.zyro-cookies
 ||business.inveno.com^
 ||business.keurig.com^
 ||business.matchd.nl^
-||business.msstatic.com/advertiser/$image
 ||business.royal-cars.com^
 ||business.samsungusa.com^
 ||business.video.tc.skysrt.com^
@@ -61389,7 +61337,6 @@ zyro.com##.zyro-cookies
 ||cdn.aegins.com^
 ||cdn.aiclicash.com^
 ||cdn.aiclk.com^
-||cdn.aiqingyu1314.com/age/statics/js/notice.js^$script
 ||cdn.anyshare.icu^
 ||cdn.app.kachapt.cn^
 ||cdn.app.liuxingyul.cn^
@@ -61425,7 +61372,6 @@ zyro.com##.zyro-cookies
 ||cdn.holmesmind.com^
 ||cdn.hot-mob.com^
 ||cdn.hpplay.com.cn^
-||cdn.huya.com/leaf/$xhr
 ||cdn.hyperpromote.com^
 ||cdn.iads.unitychina.cn^
 ||cdn.iclicash.com^
@@ -67873,7 +67819,6 @@ zyro.com##.zyro-cookies
 ||da.hornbach.sk^
 ||da.hunantv.com^
 ||da.maif.fr^
-||da.mgtv.com/mediafiles/wiad_creative/$image
 ||da.netease.com^
 ||da.rabobank.nl^
 ||da26k71rxh0kb.cloudfront.net^
@@ -69096,7 +69041,6 @@ zyro.com##.zyro-cookies
 ||dcxdtp.com^
 ||dcxusu.lacuracao.pe^
 ||dczhbhtz52fpi.cloudfront.net^
-||dd-static.jd.com^$image,domain=subaibaiys.com
 ||dd.70yst.com^
 ||dd.auspost.com.au^
 ||dd.bellesdemeures.com^
@@ -71489,7 +71433,6 @@ zyro.com##.zyro-cookies
 ||dousoavaisoup.com^
 ||douthosh.net^
 ||douyaobuy.com^
-||douyucdn.cn/adxdsp/$image,media
 ||douyucdn.cn/fish3/1.gif
 ||douzvrswnkxzv.icu^
 ||dovictinian.com^
@@ -79312,7 +79255,6 @@ zyro.com##.zyro-cookies
 ||g.admedia.com^
 ||g.adnxs.com^
 ||g.ads.cn.miaozhen.com^
-||g.alicdn.com/htmlVodP2P/$script
 ||g.aligames.com^
 ||g.aliguojw.com^
 ||g.baidu.com^
@@ -79338,7 +79280,6 @@ zyro.com##.zyro-cookies
 ||g.hngjjxsb.com^
 ||g.hsw.cn^
 ||g.hutao1.cn^
-||g.huya.com^
 ||g.ieeod0.com^
 ||g.ign.com^
 ||g.jssdk.net^
@@ -79353,7 +79294,6 @@ zyro.com##.zyro-cookies
 ||g.ousns.net^
 ||g.pathsha.re^
 ||g.pcmag.com^
-||g.pptv.com/game/$subdocument
 ||g.qucaigg.com^
 ||g.rain8.com^
 ||g.rs.yoyi.com.cn^
@@ -81816,7 +81756,6 @@ zyro.com##.zyro-cookies
 ||google-js-02.xyz^
 ||google-js-08.xyz^
 ||google-js-09.xyz^
-||google.*/pagead/
 ||google.*/url?$ping
 ||google.com/ads/measurement/
 ||google.com/analytics/$third-party
@@ -82501,7 +82440,6 @@ zyro.com##.zyro-cookies
 ||gstatic.com/gadf/ga_dyn.js
 ||gstatic.com/gen_204?
 ||gstatic.com/retail/v2_event.js
-||gstatic.com/shopping?
 ||gstatic.com/wcm/impl-
 ||gstatic.com/wcm/loader.js
 ||gsupplyair.carte-gr.total.fr^
@@ -82521,7 +82459,6 @@ zyro.com##.zyro-cookies
 ||gtdf33.fun^
 ||gtgvze.chintai.net^
 ||gthecoastand.org^
-||gtimg.com/qqlive/
 ||gtlp.net.cn^
 ||gtlpa*.com^
 ||gtlpaj.com^
@@ -83455,9 +83392,6 @@ zyro.com##.zyro-cookies
 ||hdpdrandpd.xyz^
 ||hdpreview.com^
 ||hdpw3.top^
-||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$empty
-||hdslb.com/bfs/cm/cm-sdk/static/js/pc.js^$script
-||hdslb.com/bfs/seed/jinkela/short/user-fingerprint/$script
 ||hdsrc-a.akamaihd.net^
 ||hdswgc.com^
 ||hdt.adx.admaster.com.cn^
@@ -89052,7 +88986,6 @@ zyro.com##.zyro-cookies
 ||iqiyi.kim^
 ||iqiyi.m.cn.miaozhen.com^
 ||iqiyi.space^
-||iqiyipic.com/image/20*_100000$image
 ||iqjwrk.crocodile.co.jp^
 ||iqm.com^
 ||iqm.com^$third-party
@@ -89434,7 +89367,6 @@ zyro.com##.zyro-cookies
 ||iw.pentonmarketingsvcs.com^
 ||iwa.iplsc.com^
 ||iwalrfpapfdn.xyz^
-||iwan-s.video.qq.com^
 ||iwan.sogou.com^
 ||iwantglobal.actonservice.com^
 ||iwanttodeliver.com^
@@ -93625,8 +93557,6 @@ zyro.com##.zyro-cookies
 ||letv.com/env/
 ||letv.irs01.com^
 ||letv.m.cn.miaozhen.com^
-||letvimg.com/*_gugwl/$image
-||letvimg.com/lc*_iscms/202$image
 ||leukemiaruns.com^
 ||leumatawsed.top^
 ||leveesmicker.top^
@@ -94993,7 +94923,6 @@ zyro.com##.zyro-cookies
 ||liuyingtv.com/common/api_getAcode.php
 ||livabledefamer.shop^
 ||live-a-live.com^
-||live-cover.msstatic.com/huyalive/*/format,webp/$image
 ||live-ifs.tanx.com^
 ||live-partner.com/tags?
 ||live-tv.top/js/k.min.js
@@ -98075,7 +98004,6 @@ zyro.com##.zyro-cookies
 ||maling.dn.no^
 ||maljuggu.com^
 ||maljxp.cn^
-||mall.video.qq.com/m/activity/h5/$subdocument
 ||mall0.qiyipic.com^
 ||mallcom.com^
 ||malletdetour.com^
@@ -100508,7 +100436,6 @@ zyro.com##.zyro-cookies
 ||medialytics.com^
 ||medialytics.io^
 ||mediamathrdrt.com^
-||mediamax.suning.com/adssp/sdk/$script
 ||mediametrics.mpsa.com^
 ||mediametrics.ru^
 ||mediametrics.ru^$third-party
@@ -100779,7 +100706,6 @@ zyro.com##.zyro-cookies
 ||merzqdnhuli.com^
 ||mesalabs.actonservice.com^
 ||mesaviewlodge.com^
-||mesh.if.iqiyi.com/player/pcw/update/commonAppDownloadData^$xhr
 ||meshsensorcuriosity.com^
 ||mesmerizeexempt.com^
 ||mesmerizemutinousleukemia.com^
@@ -102595,7 +102521,6 @@ zyro.com##.zyro-cookies
 ||midas.rong360.com^
 ||middleagedreminderoperational.com^
 ||middletownpress.com/413gkwMT/init.js
-||midext2.cdn.huya.com/ext-web-mid/ext-web-sub-frame/$subdocument
 ||midgetbreakfast.com^
 ||midinfo.baofeng.com^
 ||midistortrix.com^
@@ -102627,7 +102552,6 @@ zyro.com##.zyro-cookies
 ||migraira.net^
 ||migrantfarewellmoan.com^
 ||migrantspiteconnecting.com^
-||miguvideo.com/mgs/common/miguplayerPlugins/prd/WWWggView.js^$script
 ||mihaivibsaz.net^
 ||mihephypty.com^
 ||mihjpeok.com^
@@ -103997,7 +103921,6 @@ zyro.com##.zyro-cookies
 ||mssp.baidu.com^
 ||msspjh.emarbox.com^
 ||msspsvr.emarbox.com^
-||msstatic.com/huya/main3/assets/modules/CommercialAdSdk/$script
 ||mstat.mos.ru^
 ||mstat.zol.com.cn^
 ||mstm.motorsport.com^
@@ -105479,7 +105402,6 @@ zyro.com##.zyro-cookies
 ||news.seatrade-maritime.com^
 ||news.sitl.eu^
 ||news.sp2.org^
-||news.ssp.qq.com/app
 ||news.strategiccfo360.com^
 ||news.strategiccio360.com^
 ||news.supplychain-event.com^
@@ -108013,7 +107935,6 @@ zyro.com##.zyro-cookies
 ||onetouch6.com^
 ||onetouch8.info^
 ||onetrackesolution.com^
-||onetrust.
 ||onetrust.com/cookieconsentpub$script,domain=~fujifilm-x.com
 ||onetrust.com^
 ||onetrust.com^$ping
@@ -108750,7 +108671,6 @@ zyro.com##.zyro-cookies
 ||ossrhydonr.com^
 ||ossshucklean.com^
 ||ossup.suning.com^
-||osswc.pplive.cn/cccms/$image
 ||ostekoocupee.com^
 ||osteoidhoagy.top^
 ||ostfuwdmiohg.com^
@@ -108858,7 +108778,6 @@ zyro.com##.zyro-cookies
 ||otsrabahf.com^
 ||otsscaowfabk.com^
 ||ott-v0-al.data.mgtv.com^
-||ott.cibntv.net/*/letv-wzgug/$media
 ||ott.da.mgtv.com^
 ||ott.v1.data.mgtv.com^
 ||ott2.da.mgtv.com^
@@ -114574,7 +114493,6 @@ zyro.com##.zyro-cookies
 ||qq.com/dataimport/
 ||qq.com/heatmap/
 ||qq.com/kvcollect?
-||qq.com/livemsg?
 ||qq.com/p?
 ||qq.com/ping.js?
 ||qq.com/qqcom/
@@ -115061,7 +114979,6 @@ zyro.com##.zyro-cookies
 ||qzlog.com^$third-party
 ||qzone.qq.com/iframe/report
 ||qzone.qq.com/wspeed.qq.com^
-||qzonestyle.gtimg.cn/qzone/biz/ac/comm/$script
 ||qzonestyle.gtimg.cn/qzone/v8/ic/iframeReport.js
 ||qzorwe.xyz^
 ||qzos9ou.xyz^
@@ -116222,7 +116139,6 @@ zyro.com##.zyro-cookies
 ||relievedsong.pro^
 ||relinquishcooperatedrove.com^
 ||relishpreservation.com^
-||relive.vodfile.m1905.com/video/qiantie202$media
 ||relkconka.com^
 ||relmaxtop.com^
 ||relmaxtop.com^$third-party
@@ -116458,7 +116374,6 @@ zyro.com##.zyro-cookies
 ||res-ga.smzdm.com^
 ||res-x.com^
 ||res-x.com^$third-party
-||res.ab.qq.com/tab/$script
 ||res.aduu.cn^
 ||res.bid.ljrtb.cn^
 ||res.cocounion.com^
@@ -121799,12 +121714,6 @@ zyro.com##.zyro-cookies
 ||sharexy.com^
 ||sharing.kptncook.com^
 ||sharion.xyz^
-||shark2.douyucdn.cn/front-publish/live-master/js/player_first/qvbp2p_douyu$script
-||shark2.douyucdn.cn/front-publish/live-master/js/room/CloseVideoAd_$script
-||shark2.douyucdn.cn/front-publish/live-master/js/room/FreeTimeAd_$script
-||shark2.douyucdn.cn/front-publish/live-master/js/room/ScreenBannerAd_$script
-||shark2.douyucdn.cn/front-publish/live-master/js/room/SuspendedBallAd_$script
-||shark2.douyucdn.cn/front-publish/live-master/js/room/topBanner_$script
 ||sharkbleed.com^
 ||sharkfirelife.com^
 ||sharkskids.com^
@@ -126412,7 +126321,6 @@ zyro.com##.zyro-cookies
 ||sobesed.com^
 ||sobeycloud.com/Services/Stat.
 ||sobin.wang^
-||sobot.com^
 ||soccajoeys.actonservice.com^
 ||soccer.ru/counter/
 ||soccerflog.com^
@@ -128104,7 +128012,6 @@ zyro.com##.zyro-cookies
 ||ssp.moeli.net^
 ||ssp.pro.cn^
 ||ssp.qc.coccoc.com^
-||ssp.qq.com/ad^$xhr
 ||ssp.qq.com^
 ||ssp.rambler.ru^
 ||ssp.res.icast.cn^
@@ -128123,8 +128030,6 @@ zyro.com##.zyro-cookies
 ||sspkbf.ragtag.jp^
 ||sspmiaoshuo.cn-hangzhou.log.aliyuncs.com^
 ||sspmservice.ad-survey.com^
-||ssports.iqiyi.com/app/$media,object-subrequest
-||ssports.iqiyi.com/json/shop/shopInfo
 ||sspservice.ad-survey.com^
 ||ssqxuy.icu^
 ||ssqyuvavse.com^
@@ -128946,7 +128851,6 @@ zyro.com##.zyro-cookies
 ||static.ichehome.com^
 ||static.ilclock.com^
 ||static.img.imagecdn.cn^
-||static.iqiyi.com/js/common/mars_v.js^$script
 ||static.javhd.com^
 ||static.jebe.renren.com^
 ||static.jointreport-switch.com^
@@ -128992,8 +128896,6 @@ zyro.com##.zyro-cookies
 ||staticcdn.ecootec.com^
 ||staticfile.net^
 ||staticfile.org^
-||staticfile.qq.com/datong/$script
-||staticfile.qq.com/qimei/$script
 ||staticiv.com^
 ||staticiv.com^$third-party
 ||staticjs.cn^
@@ -135099,7 +135001,6 @@ zyro.com##.zyro-cookies
 ||toutiao.jxnews.com.cn^
 ||toutiao.social^
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=agefans.la
 ||toutiaopage.com^
 ||toutsneskhi.com^
 ||touvxlii.top^
@@ -136708,7 +136609,6 @@ zyro.com##.zyro-cookies
 ||tracker-server.high-cdn.com^
 ||tracker-tds.info^
 ||tracker-v4.gamedock.io^
-||tracker.$xhr,websocket,script,ping
 ||tracker.520call.me^
 ||tracker.adbinead.com^
 ||tracker.affiliate.iqbroker.com^
@@ -138967,7 +138867,6 @@ zyro.com##.zyro-cookies
 ||tv-asahi.co.jp/official/logging?
 ||tv-test.esvdigital.com^
 ||tv.code.jjyx.com^
-||tv.sohu.com/upload/csad/admaster/$image
 ||tv.totaljobs.com^
 ||tvabqt.cn^
 ||tvapp.hpplay.cn^
@@ -139107,7 +139006,6 @@ zyro.com##.zyro-cookies
 ||tx-ad.a.yximgs.com^
 ||tx-br-cdn.kwai.net.iberostar.com^
 ||tx-kmpaudio.pull.yximgs.com^
-||tx-live-cover.msstatic.com/huyalive/*/format,webp/$image
 ||tx-p2p-pull.live-voip.com^
 ||tx-p2p-v2.pull.yximgs.com^
 ||tx-pro-pull.kwai.net.iberostar.com^
@@ -141290,7 +141188,6 @@ zyro.com##.zyro-cookies
 ||v.pengmingx.cn^
 ||v.qhruisen.cn^
 ||v.qhruixin.cn^
-||v.qq.com/cache/wuji/object^$script
 ||v.qudwrj.cn^
 ||v.rmbn.net^
 ||v.shopify.com^
@@ -141398,7 +141295,6 @@ zyro.com##.zyro-cookies
 ||va-endpoint.com^
 ||va-endpoint.com^$third-party
 ||va.gxpan.cn^
-||va.huya.com^
 ||va.tawk.to/log
 ||va.videojj.com^
 ||vaamsmgfreocmroe-1342087530.cos.sa-saopaulo.myqcloud.com^
@@ -141861,7 +141757,6 @@ zyro.com##.zyro-cookies
 ||vfgta.com^
 ||vfgte.com^
 ||vfgtg.com^
-||vfiles.gtimg.cn/tvideo/js/new_ping_video.js^$script
 ||vfjsa6do.icu^
 ||vfl81ea28aztw7y3.pro^
 ||vfmahn.slevomat.cz^
@@ -142008,12 +141903,10 @@ zyro.com##.zyro-cookies
 ||video-serve.com^
 ||video-streaming.ezoic.com^
 ||video.bzfd.it^
-||video.da.mgtv.com/$media
 ||video.da.mgtv.com^
 ||video.dispatch.tc.qq.com^
 ||video.funnelbox.com^
 ||video.google.com/api/stats/
-||video.iqiyi.com/ws$websocket
 ||video.market.xiaomi.com^
 ||video.mediaset.it/polymediashowanalytics/
 ||video.mobile.yahoo.com/log|$xmlhttprequest
@@ -145655,7 +145548,6 @@ zyro.com##.zyro-cookies
 ||www.16m.cc^
 ||www.17zhaole.com^
 ||www.18dusun.com^
-||www.1905.com/uploadfile/2024/0401/20240401094429405834.jpg^$image
 ||www.1933000.com^
 ||www.1h2h54jkw.com^
 ||www.200-rockergod.com^
@@ -146170,7 +146062,6 @@ zyro.com##.zyro-cookies
 ||www.ipinyou.com.cn^
 ||www.ipinyou.com^
 ||www.iproute66.com^
-||www.iqiyi.com/service-worker.js
 ||www.iron0walk.com^
 ||www.isitone.com^
 ||www.jabalproperties.org^
@@ -146754,8 +146645,6 @@ zyro.com##.zyro-cookies
 ||www.xxxfeng.com^
 ||www.yama1hove.com^
 ||www.yami8alea.com^
-||www.yatu.tv:2082/image/*.gif^$image
-||www.yatu.tv:2082/m/images/$image
 ||www.ybtianxi.com^
 ||www.ydqzkj.com^
 ||www.ydwsjt-2.com^
@@ -148836,7 +148725,6 @@ zyro.com##.zyro-cookies
 ||yoxeha.afloral.com^
 ||yoyadsdom.com^
 ||yoyi.com.cn^
-||yoyi.com.cn^3p
 ||yoyi.tv^
 ||yoyue.net^
 ||yp.shuhuangge.org^
@@ -149230,7 +149118,6 @@ zyro.com##.zyro-cookies
 ||z444o.com^
 ||z444o.com^$third-party
 ||z492.ctinsider.com^
-||z4a.net^
 ||z4v.icu^
 ||z5.cnzz.com^
 ||z54a.xyz^
