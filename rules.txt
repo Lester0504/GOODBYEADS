@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-05-18 20:37:53（北京时间） 
-! Total count: 150803
+! Version: 2025-05-19 09:21:27（北京时间） 
+! Total count: 150818
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16566,6 +16566,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_gz/counter.php?
 /_hcms/perf
 /_hw_cookie_dialog.js
+/_i?referral_url=
 /_i?type=event&
 /_lib/ga.js
 /_owa.gif?
@@ -17292,6 +17293,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /colossalchance.com
 /com.snowplowanalytics.snowplow/*$domain=~7plus.com.au
 /com_joomlawatch/img.php
+/commerce-events-listener.js
 /common/analytics.js
 /common/cpol/cookiepolicy.php
 /common/disclaimer/load.min.js
@@ -17795,6 +17797,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /events/analytics/*
 /events/capture?
 /events/counter?
+/events/events-utils.js
 /events/page-viewed
 /events/pixelEvent
 /events/track/*
@@ -17878,6 +17881,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /flv_tracking.
 /flying-analytics/*
 /fnGdpr.js$domain=financer.com
+/footer-eventdata.js
 /footer-tracking.js
 /footerpixel.gif?
 /foresee-trigger.js
@@ -18783,6 +18787,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /om.gif?
 /om_cookie_main.js
 /omni-tracking.min.js
+/omnitrack-lately.js
 /omniture/uuid.js
 /omniture?
 /omniture_tracking.js
@@ -19326,6 +19331,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /set_cookie.php?
 /set_optimizely_cookie.js
 /set_tracking.js
+/sf-recommendations-events-listener.js
 /sf-tagomo-privacy.js
 /sfCounter/*
 /sfdc/networktracking.js
@@ -28655,6 +28661,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://cmpworker.
 ://collect.*/pageview
 ://collector.*/event
+://data.*/v1/interact?
 ://datacollector.*/event
 ://e.*/open?$image
 ://elqtrk.
@@ -36589,6 +36596,7 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
+ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -65500,6 +65508,7 @@ zyro.com##.zyro-cookies
 ||cp.003store.com^
 ||cp.5jjx.net^
 ||cp.7y7.com^
+||cp.as.com/stats
 ||cp.cp.twendee.jp^
 ||cp.deltadentalwa.com^
 ||cp.discuz.qq.com^
@@ -68907,6 +68916,7 @@ zyro.com##.zyro-cookies
 ||db5.settings.data.microsoft.com.akadns.net^
 ||db5.vortex.data.microsoft.com.akadns.net^
 ||db72c26349.com^
+||db7q4jg5rkhk8.cloudfront.net^
 ||dba1bc1fdf.com^
 ||dba4.pandasuite.io^
 ||dba9ytko5p72r.cloudfront.net^
@@ -71689,6 +71699,7 @@ zyro.com##.zyro-cookies
 ||dr5.biz^
 ||dr6.biz^
 ||dr6su5ow3i7eo.cloudfront.net^
+||dr6vcclmzwk74.cloudfront.net^
 ||dr7.biz^
 ||dr8pk6ovub897.cloudfront.net^
 ||dr999.cc^
@@ -77040,6 +77051,7 @@ zyro.com##.zyro-cookies
 ||fcxxsl.com^
 ||fd.anzhi.com^
 ||fd.bawag.at^
+||fd.ivoclar.com^
 ||fd.nl/pixel/
 ||fd.qchannel03.cn^
 ||fd2.m.630book.la^
@@ -111237,6 +111249,7 @@ zyro.com##.zyro-cookies
 ||pixelrevenue.com^$third-party
 ||pixels.afcdn.com^
 ||pixels.boxberry.ru^
+||pixels.zalify.com^
 ||pixeltracker.co^
 ||pixeltracker.co^$third-party
 ||pixeltracker.im^
@@ -117892,6 +117905,7 @@ zyro.com##.zyro-cookies
 ||run-syndicate.com^
 ||run.app/data.log
 ||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
+||run.app/events-receiver/get-web-event
 ||run.app/metrics/
 ||run4app.com^
 ||runative-syndicate.com^
@@ -122054,6 +122068,7 @@ zyro.com##.zyro-cookies
 ||shopify.com/shopifycloud/consent-tracking-api/
 ||shopify.com/shopifycloud/privacy-banner$script
 ||shopify.com/shopifycloud/web-pixels-manager/
+||shopifysvc.com/v1/logs
 ||shopifysvc.com/v1/metrics
 ||shopimind.com^
 ||shopimind.com^$third-party
