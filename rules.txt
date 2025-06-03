@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-06-02 20:43:20（北京时间） 
-! Total count: 150396
+! Version: 2025-06-03 09:20:03（北京时间） 
+! Total count: 150397
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16118,6 +16118,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .intercom-mail.com/via/$image
 .inxmail-commerce.com/tracking/$image
 .inxserver.com/transparent.gif
+.jkn0*loi.com$third-party
 .jp/pv?
 .jp/static/js/track.js
 .js?*&ssid=$third-party
@@ -17607,6 +17608,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /csi_204?$image,other,ping,script
 /csp_204?
 /csp_log?
+/css/ad.
 /cst-tag-monitor-2nd-gen?
 /cta-loaded.js
 /ctr_tracking.php?
@@ -36603,7 +36605,6 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
-ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
