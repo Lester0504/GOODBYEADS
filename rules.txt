@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-06-03 20:43:47（北京时间） 
-! Total count: 150399
+! Version: 2025-06-04 09:19:48（北京时间） 
+! Total count: 150408
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17287,6 +17287,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /collect?v=
 /collect_data.php?
 /collect_stat.js
+/collector.tripactions.com/*$image
 /collector/hit?
 /collector/pageview
 /collector/v1/event
@@ -19295,6 +19296,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sdk/impressions
 /search-cookie.aspx?$image
 /search/log_requests/*
+/secomapp.scripttag.js
 /securetracker.js
 /seed.gif?
 /segment/api/*
@@ -40795,6 +40797,7 @@ zyro.com##.zyro-cookies
 ||10q6e9ne5.de^
 ||10sn95to9.de^
 ||10stepswp.advancedtech.com^
+||10xlaunch.ai^$third-party
 ||11.96131.com.cn^
 ||11.yiqig.cn^
 ||11006451.xyz^
@@ -67482,6 +67485,7 @@ zyro.com##.zyro-cookies
 ||d2hdyssxn6lpj2.cloudfront.net^
 ||d2ho1n52p59mwv.cloudfront.net^
 ||d2hvwfg7vv4mhf.cloudfront.net^
+||d2i34c80a0ftze.cloudfront.net^
 ||d2i4wzwe8j1np9.cloudfront.net^
 ||d2i55s0cnk529c.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
@@ -67526,6 +67530,7 @@ zyro.com##.zyro-cookies
 ||d2ltukojvgbso5.cloudfront.net^
 ||d2lxammzjarx1n.cloudfront.net^
 ||d2lxqodqbpy7c2.cloudfront.net^
+||d2lyx5ly60ksu3.cloudfront.net^
 ||d2m6mzhbzc72b5.cloudfront.net^
 ||d2m785nxw66jui.cloudfront.net^
 ||d2m94lbnm5w6s8.cloudfront.net^
@@ -88473,6 +88478,7 @@ zyro.com##.zyro-cookies
 ||inkubate.actonservice.com^
 ||inlacesglisten.shop^
 ||inlautmanuao.top^
+||inlead.digital/js/script.js
 ||inline.admedia.com^
 ||inlugiar.com^
 ||inmateimpossibility.com^
@@ -126876,6 +126882,7 @@ zyro.com##.zyro-cookies
 ||sortext.com^
 ||sortext.com^$third-party
 ||sortingjunked.shop^
+||sortlist.cloud/log
 ||sortstructure.com^
 ||sortsummer.com^$third-party
 ||sorucall.com^
@@ -132721,6 +132728,7 @@ zyro.com##.zyro-cookies
 ||tcxshop.com^
 ||tczulp.econea.cz^
 ||td.airdroid.com^
+||td.doubleclick.net^
 ||td.emails.domain.com.au^
 ||td.haoxyx.com^
 ||td.mpush.cn^
@@ -140245,6 +140253,7 @@ zyro.com##.zyro-cookies
 ||usabilla.com^$third-party
 ||usablenet.com^
 ||usage*.*^
+||usage.centsdonations.com^
 ||usage.seibert-media.io^$third-party
 ||usainoad.net^
 ||usancit.top^
