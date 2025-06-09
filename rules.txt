@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-06-08 20:38:41（北京时间） 
-! Total count: 150807
+! Version: 2025-06-09 09:23:38（北京时间） 
+! Total count: 150812
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18278,6 +18278,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /jimmsconsent$domain=jimms.fi
 /joomla-visites.php
 /jppol-consent/js/bootstrap.js
+/jpuid?jsonp=
 /jquery-cookies-alert.min.js
 /jquery-gatracker.js
 /jquery.analytics.js
@@ -76297,6 +76298,7 @@ zyro.com##.zyro-cookies
 ||events.onet.pl^
 ||events.paramount.tech^
 ||events.pella.com^
+||events.pickrr.com^
 ||events.plus.yandex.net^
 ||events.practo.com^
 ||events.prd.api.max.com^
@@ -81890,6 +81892,7 @@ zyro.com##.zyro-cookies
 ||go.test.shop.app^
 ||go.testo.com^
 ||go.thai.innovatedating.com^
+||go.thegrocer.co.uk^
 ||go.theregister.com^
 ||go.theregister.com^$image
 ||go.ticketbiz.se^
@@ -96159,6 +96162,7 @@ zyro.com##.zyro-cookies
 ||lookebonyhill.com^
 ||lookery.com^
 ||lookery.com^$third-party
+||lookfantastic.ie/track
 ||lookinews.com^
 ||lookit.cz^
 ||lookit.cz^$third-party
@@ -140431,6 +140435,7 @@ zyro.com##.zyro-cookies
 ||uptherefortowat.org^
 ||uptightdecreaseclinical.com^
 ||uptime.com/static/rum/$third-party
+||uptime.fastrr.com^
 ||uptimecdn.com^
 ||uptodatecraftsman.com^
 ||uptolike.com/widgets/*/imp?
