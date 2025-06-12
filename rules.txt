@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-06-12 09:46:18（北京时间） 
-! Total count: 151147
+! Version: 2025-06-12 20:33:54（北京时间） 
+! Total count: 151149
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29030,6 +29030,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cxense.com/persisted/execute$domain=nippon.com
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cyberdean.fr/js/advertisement.js
+@@||cybozu.com/*/event.gif?$~third-party
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
 @@||d2wy8f7a9ursnm.cloudfront.net/v8/bugsnag.min.js$script,domain=forecastapp.com
@@ -29217,7 +29218,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||k12-company.ru^*/statistics.js$script
-@@||k5a.io^$script,xmlhttprequest,domain=20min.ch|itavisen.no
 @@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
@@ -29290,6 +29290,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||martech.condenastdigital.com/lib/martech.js$script,domain=wired.com
 @@||matomo.miraheze.org/matomo.js$script,~third-party
+@@||matsukiyococokara-online.com/store/*/rtoaster.js
 @@||maxmind.com/geoip/$xmlhttprequest,domain=ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|ip-address.cc|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip2.js$domain=bandai-hobby.net|boostedboards.com|donorschoose.org|driftinnovation.com|fallout4.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|tama.com|teslamotors.com
@@ -91843,6 +91844,7 @@ zyro.com##.zyro-cookies
 ||k54nw.pw^
 ||k54nw.pw^$third-party
 ||k55p9ka2.de^
+||k5a.io/?i=
 ||k5a.io^
 ||k5app.byjus.com^
 ||k5ggua.xyz^
