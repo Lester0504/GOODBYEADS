@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-06-16 09:51:11（北京时间） 
-! Total count: 151751
+! Version: 2025-06-16 20:35:11（北京时间） 
+! Total count: 151748
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17032,7 +17032,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /bineos.min.js
 /bing-bat.js
 /bingimpression?
-/bitmovinanalytics.min.js
 /bitrix/spread.php?
 /biyys*hh.js$third-party
 /bizo.js
@@ -17075,7 +17074,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /brightTag-min.js
 /brightedge.js
 /brightspot/analytics/*
-/browserinfo?f.sid=
 /bsgdprcookies/*
 /bsp-analytics.min.
 /bstat.js
@@ -28948,7 +28946,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn-msp*.18comic.*^
 @@||cdn-net.com/cc.js
 @@||cdn-pci.optimizely.com/public/*/sales_snippet.js$domain=talktalk.co.uk
-@@||cdn.bitmovin.com/analytics/web/*/bitmovinanalytics.min.js$script,domain=oe24.at
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
@@ -31020,7 +31017,7 @@ bsi-software.com##.we-love-cookies
 bt.com###cookiePreference
 bt.se###root > [class*="fluffy"]
 bta-international.com##.cc-layer
-btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
+btsow.pics##a[href^="https://tellme.pw/go/jav"]
 btv.at##body > .cc
 bubamara.eu##.gdpr-modal-wrapper
 bubble.ru##.notifications
@@ -60068,7 +60065,7 @@ zyro.com##.zyro-cookies
 ||btrem.site^
 ||btrll.com^
 ||btserve.com^
-||btsow.motorcycles/app/jav$image
+||btsow.pics/app/jav$image
 ||btstats.benakt.com^
 ||btstats.devtribu.fr^
 ||btsvad8.com^
@@ -147635,8 +147632,8 @@ zyro.com##.zyro-cookies
 ||www.xxxfeng.com^
 ||www.yama1hove.com^
 ||www.yami8alea.com^
-||www.yatu.tv:2082/image/*.gif^$image
-||www.yatu.tv:2082/m/images/$image
+||www.yatu.tv/image/*.gif^$image
+||www.yatu.tv/m/images/$image
 ||www.ybtianxi.com^
 ||www.ydqzkj.com^
 ||www.ydwsjt-2.com^
