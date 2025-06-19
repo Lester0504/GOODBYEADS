@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-06-18 20:44:35（北京时间） 
-! Total count: 152277
+! Version: 2025-06-19 09:20:33（北京时间） 
+! Total count: 152280
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29553,11 +29553,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||statcounter.com/js//fusioncharts.charts.js
 @@||statcounter.com/js/fusioncharts.js
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
+@@||static-cdn.hotjar.com^$script,domain=mercadopublico.cl
 @@||static.admysports.com/hb/site/als/hb_allosurf.js$domain=allosurf.net
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
 @@||static.cloud.coveo.com/coveo.analytics.js/$domain=cabelas.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
+@@||static.hotjar.com/c/hotjar-$script,domain=mercadopublico.cl
 @@||static.knowledgehub.com/global/images/ping.gif?$~third-party
 @@||static.koreus.com/js/advert.js
 @@||static.leaddyno.com/js$script,domain=s4l.us
@@ -130720,6 +130722,7 @@ zyro.com##.zyro-cookies
 ||stats.in-tuition.net^
 ||stats.incoming.co^
 ||stats.increasinglyfunctional.com^
+||stats.indianpornempire.com^
 ||stats.indyhall.org^
 ||stats.inergizedigitalmedia.com^
 ||stats.infoboard.de^
