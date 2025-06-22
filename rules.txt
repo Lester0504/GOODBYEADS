@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-06-21 20:39:02（北京时间） 
-! Total count: 152582
+! Version: 2025-06-22 09:27:22（北京时间） 
+! Total count: 152589
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16005,7 +16005,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -tracking-pixel.
 -universal-analytics/
 -wrapper-analytics-prod.cloudfunctions.net/
-.0.0.1 ww13.smartadserver.com
 .1.1.1.l80.js^$third-party
 .EventTracking.
 .acemlna.com/Prod/link-tracker?$image
@@ -29411,6 +29410,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||pladform.ru/player$subdocument
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
+@@||platform.bombas.com/external/gtm.js$script,~third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||play.bokracdn.run/v2/adsjs/ads.js$script,~third-party
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
@@ -31474,7 +31474,6 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
-cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -48027,6 +48026,7 @@ zyro.com##.zyro-cookies
 ||accountantflowerrespiration.com^
 ||accountantpacketassail.com^
 ||accounting.frbservices.org^
+||accounts.google.com/gsi/log
 ||accountsdoor.com^
 ||accountsdoor.com^$third-party
 ||accountswindy.com^
@@ -63327,6 +63327,7 @@ zyro.com##.zyro-cookies
 ||click.rollouki.com^
 ||click.ru^
 ||click.ru^$third-party
+||click.rypr.ru^
 ||click.scour.com^
 ||click.signaturemarket.co^
 ||click.stat.hao.360.cn^
@@ -76675,6 +76676,7 @@ zyro.com##.zyro-cookies
 ||events-endpoint.pointandplace.com^
 ||events-logs.doctolib.com^
 ||events-prod.autolist.com^
+||events-proxy.mintlify.com
 ||events-tracker.deliveroo.net^
 ||events.accuity.com^
 ||events.air.tv^
@@ -86374,6 +86376,7 @@ zyro.com##.zyro-cookies
 ||hypebeast.com/firebase-messaging-sw.js
 ||hypelab.com^
 ||hypemakers.net^
+||hypemarketing.pl/cdn/fhmm-tracker.js
 ||hyperactivate.com^
 ||hyperactivate.com^$third-party
 ||hyperbanner.net^
@@ -97094,6 +97097,7 @@ zyro.com##.zyro-cookies
 ||love-partnersdreamers.com^
 ||love-romancejunction.com^
 ||love.furenkeji.com^
+||love.vidora.su^
 ||loveamikoi.com^
 ||loveamorly.com^
 ||lovecam.com.br^
@@ -141356,6 +141360,7 @@ zyro.com##.zyro-cookies
 ||umami.heroku.uk^
 ||umami.is^
 ||umami.is^$third-party
+||umami.vidfast.pro^
 ||umami.wakarimasen.moe^
 ||umapi.cn^
 ||umazvs.raybiotech.com^
@@ -141790,6 +141795,7 @@ zyro.com##.zyro-cookies
 ||up1.tj.u2.ucweb.com^
 ||up2cdn.com^
 ||up4.ucweb.com^
+||up4stream.com/js/anti.js
 ||upapi.net^
 ||upapi.net^$third-party
 ||uparceuson.com^
@@ -141887,6 +141893,7 @@ zyro.com##.zyro-cookies
 ||uprivaladserver.net^
 ||ups.com/img/icp.gif
 ||ups.ksmobile.net^
+||ups2up.fun/js/anti.js
 ||upsamurottr.com^
 ||upscaledigest.com^
 ||upscore.com^
