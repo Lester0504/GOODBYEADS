@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-06-26 20:44:13（北京时间） 
-! Total count: 153567
+! Version: 2025-06-27 09:21:21（北京时间） 
+! Total count: 153579
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16580,6 +16580,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_sess/script.js
 /_stat/log/*
 /_stat/log_
+/_static/deliver.js?nonce=$script,~third-party
 /_tracking/*
 /_vercel/insights/script.js
 /_vercel/speed-insights/script.js
@@ -18279,6 +18280,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /javascript/component-CookieConsent
 /javascript/cookieser.js
 /javascript/garante-privacy/js-cookie-master
+/javascripts/browserfp.min.js?templateId=
 /jcookie/*$domain=javhd.com
 /jgs_portal_log_bildschirm.php?
 /jimmsconsent$domain=jimms.fi
@@ -18727,6 +18729,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mtifonttracker.js
 /mtracking.gif?
 /mtvi_reporting.js
+/munin/a/ls?t=$xmlhttprequest
+/munin/a/tr/browserjs?domain=
 /mwTag.js
 /mws-cookie-solution.min.js
 /myTracking.js
@@ -19392,6 +19396,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sitetrek.js
 /sizzlegdpr.snippet.min.js
 /sk-logabpstatus.php
+/sk-park.php?pid=
 /skinCss/website/js/cookie/cookie.js
 /skype-analytics.js
 /sli.*/imp?$image
@@ -19593,6 +19598,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /swell-ct-ad-data
 /swell-ct-pv^
 /swlapi/stats|
+/sxp/i/*$script,third-party
 /sygnal42-gdpr/*$domain=blitzrechner.de
 /symplr-analytics-
 /sync.gif?partner_
@@ -119920,6 +119926,10 @@ zyro.com##.zyro-cookies
 ||rsohvot.xyz^
 ||rsonalskillsexkcerle.com^
 ||rsotku.mitsui-shopping-park.com^
+||rsra-ph.cdn-fileserver.com^
+||rsra.cdn-fileserver.com^
+||rsras-ph.cdn-fileserver.com^
+||rsras.cdn-fileserver.com^
 ||rss-loader.com/track/
 ||rss.dtiserv.com^
 ||rsspump.com^
@@ -129848,6 +129858,7 @@ zyro.com##.zyro-cookies
 ||sqxst.com^
 ||sr59t7wbx5.claricelin.com^
 ||sr7pv7n5x.com^
+||sra-px.cdn-fileserver.com^
 ||sraakvkiba.com^
 ||srafidadpg.com^
 ||sraghuba.com^
@@ -151447,6 +151458,7 @@ zyro.com##.zyro-cookies
 ||youruntie.com^
 ||yourupload.com/jwe?
 ||yourwebbars.com^
+||youseasky.com^
 ||youservit.com^
 ||yousuode.cn^
 ||youtube-nocookie.com/api/stats/atr?
