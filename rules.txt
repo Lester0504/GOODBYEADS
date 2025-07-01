@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-06-30 20:44:22（北京时间） 
-! Total count: 153728
+! Version: 2025-07-01 09:38:57（北京时间） 
+! Total count: 153731
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16281,6 +16281,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /*JmVu.js?sp=
 /*JmVu.js?tg=
 /*_*_aubi.js$third-party
+/.netlify/scripts/rum
 /.webscale/rum?
 /.well-known/shopify/monorail
 /0.gif?
@@ -49995,6 +49996,7 @@ zyro.com##.zyro-cookies
 ||adsmogo*.*^
 ||adsmogo.com^
 ||adsmoloco.com^
+||adsmoloco.com^$third-party
 ||adsnative.com^
 ||adsnid.wagyushop.com^
 ||adsninja.ca^
@@ -52688,6 +52690,7 @@ zyro.com##.zyro-cookies
 ||analytics.theinstitutes.org^
 ||analytics.themarketiq.com^
 ||analytics.threedeepmarketing.com^
+||analytics.ticimax.cloud^
 ||analytics.ticinolibero.ch^
 ||analytics.ticketmaster.
 ||analytics.tiktok.com^
