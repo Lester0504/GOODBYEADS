@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-07-01 20:44:23（北京时间） 
-! Total count: 153733
+! Version: 2025-07-02 09:21:01（北京时间） 
+! Total count: 153731
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18618,7 +18618,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /matomo-tracking.js
 /matomo.js$domain=~github.com
 /matomo.php
-/matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
+/matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /matomo_video_tracking.js
 /mcookie.aspx
 /mcount.cgi?
@@ -31490,6 +31490,7 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
+cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -52846,7 +52847,6 @@ zyro.com##.zyro-cookies
 ||analyzer*.fc2.com^
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
-||analyzer51.fc2.com^
 ||analyzz.com^
 ||analyzz.com^$third-party
 ||anamaembush.com^
@@ -77999,8 +77999,6 @@ zyro.com##.zyro-cookies
 ||fc.yahoo.com^
 ||fc.zuixinchao.com^
 ||fc09u3zfm.com^
-||fc2.com/ana/analyzer.php
-||fc2.com/ana/processor.php?
 ||fc2.com/counter_img.php?
 ||fc3ppv.xyz^
 ||fc5d7c4624.com^
