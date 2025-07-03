@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-07-02 20:43:55（北京时间） 
-! Total count: 151716
+! Version: 2025-07-03 09:21:06（北京时间） 
+! Total count: 151719
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19601,7 +19601,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /swell-ct-ad-data
 /swell-ct-pv^
 /swlapi/stats|
-/sxp/i/*$script,third-party
+/sxp/i/*$script,third-party,domain=~linkvertise.com
 /sygnal42-gdpr/*$domain=blitzrechner.de
 /symplr-analytics-
 /sync.gif?partner_
@@ -29409,6 +29409,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||passport.bobo.com^
 @@||pay.citylink.pro/stats/services/$~third-party
+@@||paypal.com.first-party-js.datadome.co^$domain=paypal.com
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
@@ -34808,7 +34809,6 @@ lawine.at##.header-notification
 lawinsider.com###header ~ .light-blue-bordered-card
 lawline.se##div[class*="CookiesModal"]
 lawyersonline.co.uk##.alert, #alert
-lay.aiseet.atianqi.com
 layar.com##.remarketing-banner
 layerstack.com##.promotion-footer
 laznevbechyni.cz##.fixed-box
@@ -56456,6 +56456,7 @@ zyro.com##.zyro-cookies
 ||b.zedge.me^
 ||b0.yahoo.co.jp^
 ||b02byun5xc3s.com^
+||b08.fit^
 ||b0e8.com^
 ||b0e8.com^$third-party
 ||b0f2f18e.xyz^
@@ -68982,6 +68983,7 @@ zyro.com##.zyro-cookies
 ||datafront.co^$third-party
 ||dataholics.tech^
 ||datahub-srgssr.ch/tracking/
+||datakkko.top^
 ||datalayer.orange.fr^
 ||datam.com^
 ||datam.com^$third-party
@@ -142043,6 +142045,7 @@ zyro.com##.zyro-cookies
 ||uusrkougngwe.com^
 ||uutytp.com^
 ||uuu9.com/s.php?
+||uuyeghhbdhyetghuj.top^
 ||uuyhonsdpa.com^
 ||uuysiaq.com^
 ||uuzu.com^
