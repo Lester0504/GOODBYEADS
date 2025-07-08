@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-07-07 20:44:27（北京时间） 
-! Total count: 152251
+! Version: 2025-07-08 09:21:30（北京时间） 
+! Total count: 152258
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19628,6 +19628,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /taevents-c.js
 /tag/proxy?id=G-
 /tag/tag.jsp?
+/tag?name=PageView$xmlhttprequest
 /tag?tags=
 /tagAnalyticscnil.php
 /tagCNIL.js
@@ -28721,6 +28722,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://segment-api.
 ://segment-cdn.
 ://sgtm.*.js?
+://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.order.*/r/?id=$image
 ://t.targito.
@@ -53284,7 +53286,7 @@ zyro.com##.zyro-cookies
 ||api.baomoi.com^$image
 ||api.bayimob.com^
 ||api.beleggersbelangen.nl//api/statistics/
-||api.bilibili.com/x/web-show/res/locs?$~script
+||api.bilibili.com/x/*/res/locs?$~script
 ||api.bit.ly/*/clicks?$third-party
 ||api.bitp.it^
 ||api.blink.net/a/
@@ -70163,6 +70165,7 @@ zyro.com##.zyro-cookies
 ||device.redirec.com^
 ||device9.com^
 ||device9.com^$third-party
+||deviceprotect.eu^$third-party
 ||deviceseal.com^
 ||deviceseal.com^$third-party
 ||deviceworkshop.com^$third-party
@@ -96465,6 +96468,7 @@ zyro.com##.zyro-cookies
 ||log.vdisk.cn^
 ||log.web.kugou.com^
 ||log.webnovel.com^
+||log.willie.nl^
 ||log.worldsoft-cms.info^
 ||log.wtlogin.qq.com^
 ||log.xiaozuowen.net^
@@ -112238,6 +112242,7 @@ zyro.com##.zyro-cookies
 ||pipeline.balkstercourant.nl^$~script
 ||pipeline.dvhn.nl^$~script
 ||pipeline.lc.nl^$~script
+||pipeline.nachtkastje.nl^
 ||pipeline.rd.nl^$~script
 ||pipelinepub.actonservice.com^
 ||pipeofferear.com^
@@ -118684,6 +118689,7 @@ zyro.com##.zyro-cookies
 ||roi-rocket.net^$third-party
 ||roi.soulapp.cn^
 ||roiapp.net^
+||roibest-report-sdk.qiliangjia.com^
 ||roikingdom.com^
 ||roinduk.com^
 ||roinjg.mkluzkoviny.cz^
@@ -122371,6 +122377,7 @@ zyro.com##.zyro-cookies
 ||semiocast.com^$third-party
 ||semnicneposilejte.cz^
 ||semnicneposilejte.cz^$third-party
+||sempra.pro/stat/
 ||semqraso.net^
 ||semsicou.net^
 ||semtracker.de^
