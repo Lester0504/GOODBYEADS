@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-07-12 09:53:49（北京时间） 
-! Total count: 154049
+! Version: 2025-07-12 20:31:47（北京时间） 
+! Total count: 154060
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16591,6 +16591,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_xa/ads?
 /_xa/ads_
 /a.gif?
+/a/elevar/static/*
 /a/performance_timing/*
 /a8c-analytics.js
 /aap/stats
@@ -18252,6 +18253,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /indextools.js
 /info_cook.js
 /infrasdk.js$domain=nofluffjobs.com
+/init?*&fallbackUserId=
 /inline-pixel.js
 /inpl.measure.jssc
 /insales_counter.js?
@@ -19084,6 +19086,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /production/analytics.min.js
 /promo/impression?
 /propagate_cookie.php
+/providers/atLabel/load|
 /pt.gif?
 /pt?type=pv&
 /ptrack.js
@@ -28742,6 +28745,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 :8891/v*$third-party
 ::1  localhost
 ::1 localhost
+=aWQ9R1RNL*apiKey=$script,~third-party
+=aWQ9R1RNL*page=$script,~third-party
 ?[AQB]&ndh=1&t=
 ?action=event&
 ?action=impression&
@@ -67079,6 +67084,8 @@ zyro.com##.zyro-cookies
 ||customernormallyseventh.com^
 ||customerrelations.theinstitutes.org^
 ||customers-capitalbank-jo-877029.p06.elqsandbox.com^
+||customers.edgetag.io^
+||customers.xray-superpixel.com^
 ||customersucceed.nanophase.com^
 ||customfingerprints.bablosoft.com^
 ||customize.titanfactorydirect.com^
@@ -77699,6 +77706,8 @@ zyro.com##.zyro-cookies
 ||falkwo.com^
 ||fallaciousfifth.com^
 ||fallaciousfifth.com^$third-party
+||fallback.attntags.com^
+||fallback.emtag.net^
 ||fallenleadingthug.com^
 ||fallin-thedatingfever.com^
 ||fallinflirt-theflirts.com^
@@ -81388,6 +81397,7 @@ zyro.com##.zyro-cookies
 ||getdeviceinf.com^
 ||getdrip.com^
 ||getdrip.com^$third-party
+||getelevar.com/configs/
 ||getelevar.com/shops/*/events.js
 ||getfivestars.com^
 ||getfreebl.com^
@@ -134398,6 +134408,7 @@ zyro.com##.zyro-cookies
 ||t.ad.nl^
 ||t.ad.nl^$image
 ||t.adbxb.cn^
+||t.adclr.jp^
 ||t.adcrops.net^
 ||t.adlpo.com^
 ||t.ads.sohu.com^
