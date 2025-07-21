@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-07-21 10:00:32（北京时间） 
+! Version: 2025-07-21 20:37:30（北京时间） 
 ! Total count: 151921
 #
 #          ◆ G O O D B Y E A D S ◆
@@ -29156,8 +29156,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||gemius.pl/gstream.js
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geolocation-db.com/json/$domain=admanager.line.biz
-@@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||getflywheel.com/addons/google-analytics/$~third-party
 @@||getpublica.com/playlist.m3u8$xmlhttprequest
@@ -56618,6 +56616,7 @@ zyro.com##.zyro-cookies
 ||backcountry.com/api/log
 ||backedliar.com^
 ||backend.academy.cs.cmu.edu/api/v0/event/
+||backend.leadconnectorhq.com/forms/form-survey-event
 ||backend.verbolia.com/content/js/velw.min.js
 ||backfiremountslippery.com^
 ||backgroundrunway.com^
@@ -63460,7 +63459,6 @@ zyro.com##.zyro-cookies
 ||cloudfront.net*/sp.js|
 ||cloudfront.net*/tracker.js
 ||cloudfront.net*/trk.js
-||cloudfront.net./script.js
 ||cloudfront.net/?a=
 ||cloudfront.net/abw.js
 ||cloudfront.net/analytics.js
@@ -63487,7 +63485,6 @@ zyro.com##.zyro-cookies
 ||cloudfront.net/pt1x1.gif
 ||cloudfront.net/rc.js?
 ||cloudfront.net/rum/bacon.min.js
-||cloudfront.net/script.js
 ||cloudfront.net/scripts/cookies.js
 ||cloudfront.net/sentinel.js
 ||cloudfront.net/sitegainer_
@@ -67087,6 +67084,7 @@ zyro.com##.zyro-cookies
 ||d149mkdvjofx4v.cloudfront.net^
 ||d14l1tkufmtp1z.cloudfront.net^
 ||d14osandwrs90r.cloudfront.net^
+||d14pdm1b7fi5kh.cloudfront.net/script.js
 ||d14x46ho6sn9yf.cloudfront.net^
 ||d14zhsq5aop7ap.cloudfront.net^
 ||d154nw1c88j0q6.cloudfront.net^
@@ -67496,6 +67494,7 @@ zyro.com##.zyro-cookies
 ||d2a80scaiwzqau.cloudfront.net^
 ||d2b12e9gh7m9il.cloudfront.net^
 ||d2b4jmuffp1l21.cloudfront.net^
+||d2badvwg0mti9p.cloudfront.net/script.js
 ||d2bbq3twedfo2f.cloudfront.net^
 ||d2bkkt3kqfmyo0.cloudfront.net^
 ||d2bvfdz3bljcfk.cloudfront.net^
@@ -70128,6 +70127,7 @@ zyro.com##.zyro-cookies
 ||dfjd.xyz^
 ||dfkaupzliahmk.com^
 ||dfkd.xyz^
+||dfm7wh2x5l4za.cloudfront.net/script.js
 ||dfofrwtgwhawjq.com^
 ||dforum.net/counter/
 ||dfp.suning.com^
@@ -80334,7 +80334,6 @@ zyro.com##.zyro-cookies
 ||geolid.com^
 ||geolid.com^$third-party
 ||geolocation-db.com^
-||geolocation-db.com^$third-party
 ||geolocation.forbes.com^
 ||geolocation.outreach.com^
 ||geonetric.actonservice.com^
@@ -122776,6 +122775,7 @@ zyro.com##.zyro-cookies
 ||shopmyshelf.us^
 ||shopnetic.com^
 ||shopnetic.com^$third-party
+||shopper.shop.pe/pixel.png
 ||shoppers-test.instacartemail.com^
 ||shoppers.instacartemail.com^
 ||shopping.cellpure.co.jp^
