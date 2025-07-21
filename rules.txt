@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-07-20 20:42:03（北京时间） 
-! Total count: 151911
+! Version: 2025-07-21 09:39:15（北京时间） 
+! Total count: 151922
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19302,6 +19302,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /scripts/cookiebar
 /scripts/hbx.js
 /scripts/pookie.js
+/scripts/sdk/everflow.js
 /scripts/snstyle.js?v=2$~third-party
 /scripts/statistics/*
 /scripts/track_visit.php?
@@ -28705,7 +28706,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://elqtrk.
 ://email.*/o/$image
 ://fallback.*/collector
-://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.care|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm.*.js?st=
 ://gtrack.*/dye
 ://insights-collector.
@@ -31505,6 +31506,7 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
+cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -54341,6 +54343,7 @@ zyro.com##.zyro-cookies
 ||app.trimenu.com^
 ||app.trulia.com^
 ||app.trutv.com^
+||app.trytada.com/addImpression
 ||app.tsgo.io^
 ||app.tsongascenter.com^
 ||app.tuckerciviccenter.com^
@@ -61603,6 +61606,7 @@ zyro.com##.zyro-cookies
 ||cdickef.top^
 ||cdinmaf.top^
 ||cdipsumf.top^
+||cdjbf8trk.com^
 ||cdjhcf.hometogo.es^
 ||cdjst7i1v.com^
 ||cdl.booksy.com^
@@ -64802,6 +64806,7 @@ zyro.com##.zyro-cookies
 ||consent.thegreatoutdoorsmag.com^
 ||consent.themeteocompany.com^
 ||consent.triad.sk^
+||consent.trustarc.com/analytics?
 ||consent.trustarc.com/bannermsg?
 ||consent.trustarc.com/notice$script,domain=~tripit.com|~concur.com|~concur.de|~concursolutions.com|~fortune.com
 ||consent.trustarc.com/noticemsg?
@@ -77427,6 +77432,7 @@ zyro.com##.zyro-cookies
 ||feedback.imsmetals.com^
 ||feedback.lifeguardarena.com^
 ||feedback.nslsc-csnpe.ca^
+||feedbackws.icloud.com/reportStats
 ||feedbinfanwort.shop^
 ||feedblitz.com/imp?$third-party
 ||feedblitz.com^
@@ -79750,6 +79756,7 @@ zyro.com##.zyro-cookies
 ||ga-beacon.appspot.com^
 ||ga-tracker-dot-detmir-bonus.appspot.com^
 ||ga.chickgoddess.com/gs_api/stats/
+||ga.finam.ru^
 ||ga.groc.press^
 ||ga.nsimg.net^
 ||ga.webdigi.co.uk^
@@ -86137,6 +86144,7 @@ zyro.com##.zyro-cookies
 ||idm.bce.baidu.com^
 ||idmchina.net^
 ||idmiohtlitir.com^
+||idmsa.apple.com/appleauth/jslog
 ||idndlc.kango-oshigoto.jp^
 ||idntfy.ru^
 ||idntfy.ru^$third-party
@@ -95567,6 +95575,7 @@ zyro.com##.zyro-cookies
 ||lixincxy.cn^
 ||lixstownrusisedpriv.org^
 ||lizaitsuds.net^
+||lizard.donald.cat^
 ||lizardslaugh.com^
 ||lizardslaugh.com^$third-party
 ||lizehuandian.top^
@@ -103709,6 +103718,7 @@ zyro.com##.zyro-cookies
 ||mnaspm.com^
 ||mnbvc34.com^
 ||mnbvjhg.com^
+||mnbvpo8trk.com^
 ||mnbyto.goo-net.com^
 ||mncvjhg.com^
 ||mndlvr.com^
@@ -115902,6 +115912,7 @@ zyro.com##.zyro-cookies
 ||raab3frog.com^
 ||raac33.net^
 ||raadsomrmitvd.online^
+||rabbit.donald.cat^
 ||rabbit.meitustat.com^
 ||rabbit.mtadvert.com^
 ||rabbit.tg.meitu.com^
