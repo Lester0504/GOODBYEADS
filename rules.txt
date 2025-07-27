@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-07-26 20:42:07（北京时间） 
-! Total count: 153484
+! Version: 2025-07-27 09:42:03（北京时间） 
+! Total count: 153486
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16012,6 +16012,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .acemlna.com/Prod/link-tracker?$image
 .acemlna.com/lt.php?$image
 .acemlnb.com/Prod/link-tracker?$image
+.adhouyi.cn
 .alcmpn.com/
 .app.returnpath.net/
 .aveda.com/t/$image
@@ -30804,11 +30805,11 @@ bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
+bing.com,cn.bing.net##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com,cn.bing.net##.pa_sb
 bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
-bing.com,cn.bing.net##li.b_ans:not(:has(h2))
 bio-rad.com###overlay-shadow
 biodiv.be###disclaimer
 biogo.pl###cookie
@@ -121808,6 +121809,7 @@ zyro.com##.zyro-cookies
 ||scriptcdn.net^
 ||scriptil.com^
 ||scriptil.com^$third-party
+||scripts.dadata.com.br^
 ||scripts.psyma.com^
 ||scripts.stay22.com/letmeallez.js
 ||scripts.swifteq.com/hc_events.js
