@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-08-05 10:00:20（北京时间） 
-! Total count: 155991
+! Version: 2025-08-05 20:38:50（北京时间） 
+! Total count: 155997
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15614,6 +15614,7 @@
 ##body > div[class^="app_gdpr"] ~ #gpdr
 ##body > div[class^="index_cookieNotification"]
 ##body > div[id$="_cookie_box"][style*="fix"]
+##body > embed[id][src*="://"][src$="="]
 ##body > script[src*="optout.betrad.com"] ~ #__ev_bc
 ##body > section#acc-bottom[style]
 ##body ~ #CkC[style*="bottom"]
@@ -20095,6 +20096,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /web-data-ingress?
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
+/web-vitals-analytics.js
 /web/components/cookie-consent/*
 /web/components/cookieconsent/*
 /web/components/cookieusage
@@ -36669,6 +36671,7 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
+ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -80930,6 +80933,7 @@ zyro.com##.zyro-cookies
 ||ga-beacon.appspot.com^
 ||ga-tracker-dot-detmir-bonus.appspot.com^
 ||ga.chickgoddess.com/gs_api/stats/
+||ga.finam.ru/metrics
 ||ga.finam.ru^
 ||ga.groc.press^
 ||ga.nsimg.net^
@@ -115724,6 +115728,7 @@ zyro.com##.zyro-cookies
 ||presscoder.com^
 ||pressedsibbed.top^
 ||pressize.com^
+||pressjack.com/analyticsProvider/getAnalytics/
 ||pressly.com^
 ||presspage.com/statistics/
 ||pressplay.cc/marketing/event
@@ -140592,6 +140597,7 @@ zyro.com##.zyro-cookies
 ||tracker-tds.info^
 ||tracker-v4.gamedock.io^
 ||tracker.$xhr,websocket,script,ping
+||tracker.3dissue.com^
 ||tracker.520call.me^
 ||tracker.adbinead.com^
 ||tracker.affiliate.iqbroker.com^
