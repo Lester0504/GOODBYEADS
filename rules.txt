@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-08-05 20:50:58（北京时间） 
-! Total count: 155996
+! Version: 2025-08-06 09:27:16（北京时间） 
+! Total count: 156006
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16200,6 +16200,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .redsift.com/e/o/$image
 .revolut.com/q/$image
 .ru/ads/
+.salesforce.com/servlet/servlet.ImageServer?$image
 .secureserver.net/bbimage.aspx?
 .sendcloud.net/track/$image
 .sendemail.gate.io/o/$image
@@ -17679,6 +17680,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dmp/pixel.js
 /dmu2panalytics/ajax_call.php?
 /dnx-event-collector/*
+/dnxcheck/fing.js
 /dock-privacy-settings.esm.js
 /docroot/js/app/modules/cookies-selection.js
 /doctracking.js
@@ -62224,6 +62226,7 @@ zyro.com##.zyro-cookies
 ||cdn.aiclk.com^
 ||cdn.aiqingyu1314.com/age/statics/js/notice.js^$script
 ||cdn.anyshare.icu^
+||cdn.app.cfigroup.com/webmon/$script
 ||cdn.app.kachapt.cn^
 ||cdn.app.liuxingyul.cn^
 ||cdn.arcstudiopro.com^
@@ -64816,6 +64819,7 @@ zyro.com##.zyro-cookies
 ||collector.hippodromeonline.com^
 ||collector.mazeberry.com^
 ||collector.megaxh.com^
+||collector.net-logger.com^
 ||collector.pi.spectrum.net^
 ||collector.quillbot.com^
 ||collector.schibsted.io^
@@ -108944,6 +108948,7 @@ zyro.com##.zyro-cookies
 ||nornjeeps.life^
 ||norse.mingxiaow.com^
 ||norsinceexactlyamongplait.com^
+||northbeam.io^$third-party
 ||northcookie.xyz^
 ||northdownload.com^
 ||northplains.actonservice.com^
@@ -120699,6 +120704,8 @@ zyro.com##.zyro-cookies
 ||ritzyveil.com^
 ||ritzyveil.com^$third-party
 ||riundo.bonprix.no^
+||rivcash.com/*/event/page_visit
+||rivcash.com/ajax/log_js_error.php
 ||rivcash.com^
 ||river.zhidao.baidu.com^
 ||river49xx.org^
@@ -130317,6 +130324,7 @@ zyro.com##.zyro-cookies
 ||soliads.online^
 ||solicitud.pacifico.com.pe^
 ||solid-face.pro^
+||solidcams.com/api/metrics
 ||solidlyrotches.guru^
 ||solidscape.actonservice.com^
 ||solidsub.com^
@@ -137062,6 +137070,7 @@ zyro.com##.zyro-cookies
 ||telemetry.navispherecarrier.com^
 ||telemetry.owenscorning.com^
 ||telemetry.phenixrts.com^
+||telemetry.proton.me^
 ||telemetry.reembed.com^
 ||telemetry.remoteapp.windowsazure.com^
 ||telemetry.ruthschris.com^
@@ -147040,6 +147049,7 @@ zyro.com##.zyro-cookies
 ||voyagescougnar.shop^
 ||voyagessansei.com^
 ||voyagestorch.life^
+||voyeur-house.tv/js/track.js
 ||voyeurgibbol.shop^
 ||voyeurhit.com^
 ||vp.html5.qq.com^
