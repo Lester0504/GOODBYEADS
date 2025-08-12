@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-08-11 20:48:47（北京时间） 
-! Total count: 157622
+! Version: 2025-08-12 09:19:46（北京时间） 
+! Total count: 157633
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15436,6 +15436,7 @@
 ##a.optanon-show-settings
 ##a[href*=".com?s="]
 ##a[href*='html?channelCode'] > IMG[src*='.gif'][width='100%']
+##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##a[href^="/ad.html?url="]
 ##a[href^="https://91keep.tv"]
 ##accept-cookie-box
@@ -16070,6 +16071,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com:*/sc/*?n=$third-party
 .com:10446/*/get*.html
 .com:7891/stats$third-party
+.com:8*/mj*$third-party
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8005/*&n=$third-party
@@ -28705,6 +28707,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://backstory.ebay.
 ://beacon.*/track
 ://blue.*/script.js
+://c-hh-point-jp.*.cuenote.jp/c/$image
 ://cl.melonbooks.co.jp/c/$image
 ://client.rum.
 ://cmpworker.
@@ -28725,6 +28728,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://l.*/counter.php?id=$script,~third-party
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
+://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
 ://load.*.js?st=$~third-party
 ://matomo.$domain=~matomo.org
@@ -29491,6 +29495,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||qpython.club^$generichide
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||query.petametrics.com^$image,xmlhttprequest,domain=mechacomic.jp
+@@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
@@ -30813,6 +30818,7 @@ bing.com###id_mobile
 bing.com,cn.bing.net###bnp_rich_div
 bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
+bing.com,cn.bing.net##.b_algo:has(.b_ads1line)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.b_ans:has([class^="xm_"][class*="_ansCont"])
@@ -30820,6 +30826,7 @@ bing.com,cn.bing.net##.pa_sb
 bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
+bing.com,cn.bing.net##li:has(a[h$=",Ads"])
 bio-rad.com###overlay-shadow
 biodiv.be###disclaimer
 biogo.pl###cookie
@@ -31519,6 +31526,7 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
+cn.bing.com,cn.bing.net##.b_bza_pole
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -137369,6 +137377,7 @@ zyro.com##.zyro-cookies
 ||tag.digops.sincro.io^
 ||tag.elevaate.io^
 ||tag.flagship.io^
+||tag.flvcdn.net/lytag.js
 ||tag.goldenbees.fr^
 ||tag.imagino.com^
 ||tag.leadplace.fr^
@@ -147225,6 +147234,7 @@ zyro.com##.zyro-cookies
 ||vbc08091op.com^
 ||vbc08100op.com^
 ||vbc08101op.com^
+||vbc08111op.com^
 ||vbdbmqzu.com^
 ||vbdmzqnrwrfug.online^
 ||vbe.voyage-prive.be^
@@ -155346,6 +155356,7 @@ zyro.com##.zyro-cookies
 ||youtube-nocookie.com/robots.txt?
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
+||youtube.com/api/stats/atr?
 ||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/qoe?
 ||youtube.com/get_video?
