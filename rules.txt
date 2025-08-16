@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-08-15 20:42:24（北京时间） 
-! Total count: 158440
+! Version: 2025-08-16 09:18:09（北京时间） 
+! Total count: 158447
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28740,11 +28740,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://plausible.*/api/event|
 ://plausible.*/js/script.
 ://posthog.$script,domain=~posthog.com
+://rum.collector.
 ://segment-api.
 ://segment-cdn.
 ://sgtm.*.js?
 ://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
+://t.*/open^$image
 ://t.order.*/r/?id=$image
 ://t.targito.
 ://tagging.*.js?aw=
@@ -52401,6 +52403,7 @@ zyro.com##.zyro-cookies
 ||analyticcdn.wlmediahub.com^
 ||analytics-1.cavai.com^
 ||analytics-api.dvdfab.
+||analytics-api.gemcommerce.com^
 ||analytics-api.klickly.com^
 ||analytics-api.samsunghealthcn.com^
 ||analytics-batch.blitz.gg^
@@ -52544,6 +52547,7 @@ zyro.com##.zyro-cookies
 ||analytics.cookiefirst.dev^
 ||analytics.corusent.com^
 ||analytics.cosmonova.net^
+||analytics.cosmopolitanmag.com.tr^
 ||analytics.crazygames.com^
 ||analytics.crowdkeep.com^
 ||analytics.cyrillus.be^
@@ -127937,6 +127941,7 @@ zyro.com##.zyro-cookies
 ||simbachassis.top^
 ||simblotusitate.com^
 ||simengadx.com^
+||simetra.tracking.ringieraxelspringer.tech^
 ||simg.bwin.be^
 ||simg.bwin.com^
 ||simg.bwin.es^
@@ -132222,6 +132227,7 @@ zyro.com##.zyro-cookies
 ||solarislabyrinth.com^$third-party
 ||solarmosa.com^
 ||solaron.top^
+||solarwinds.com/ra-$script
 ||soldergeological.com^
 ||soldierindefinitely.com^
 ||soldiernaivite.shop^
@@ -152375,6 +152381,7 @@ zyro.com##.zyro-cookies
 ||wssgmstats.vibbo.com^
 ||wsshehasnomoney.com^
 ||wsstats.coches.net^
+||wstats.ageverif.com^
 ||wstats.e-wok.tv^
 ||wstats.gameblog.fr^
 ||wstats.slashed.cloud^
