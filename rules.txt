@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-08-17 20:41:14（北京时间） 
-! Total count: 152682
+! Version: 2025-08-18 09:26:19（北京时间） 
+! Total count: 152687
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28703,6 +28703,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://analytics-cdn.
 ://analytics.*/collect
 ://analytics.*/event
+://analytics.*/hardal
 ://analytics.*/hits/
 ://analytics.*/impression
 ://analytics.*/page_entry
@@ -28747,6 +28748,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://segment-api.
 ://segment-cdn.
 ://sgtm.*.js?
+://signal.*/hardal
+://signals.*/hardal
 ://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.*/open^$image
@@ -94382,6 +94385,7 @@ zyro.com##.zyro-cookies
 ||lexity.com^
 ||lexity.com^$third-party
 ||lexology.com/pd.js
+||lexpress.fr/pf/resources/js/piano-analytics-
 ||lexvek.gap.ae^
 ||leynqj.newport.se^
 ||lezbrja.cn^
@@ -115303,6 +115307,7 @@ zyro.com##.zyro-cookies
 ||qiniuyunxz.yxflzs.com^
 ||qinvaris.com^
 ||qiota.com/api/event
+||qiota.com/assets/qiotasession.gif?
 ||qiprhlxtkiomv.site^
 ||qipskd.cn^
 ||qipt.1632j6.cn^
