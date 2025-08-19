@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-08-18 20:47:55（北京时间） 
-! Total count: 152688
+! Version: 2025-08-19 09:18:09（北京时间） 
+! Total count: 152693
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18878,6 +18878,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /oxAnalytics.js
 /p.gif?
 /p/rp/*?mi_u=*=&sap_id=$image
+/p/tm.js?
 /p1x1.gif
 /p8-cookie-bar.js
 /page-addviews?
@@ -29240,6 +29241,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
 @@||ikea.com^*/analyticsEvent.$script,~third-party
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
+@@||img.logo.dev^$image,third-party
 @@||imgur.com/min/px.js$~third-party
 @@||imobiliare.ro/js/gtm.js$script,~third-party
 @@||imrworldwide.com/conf/$script,domain=nbcolympics.com
@@ -29326,7 +29328,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||logly.co.jp/recommend/$image,domain=benesse.ne.jp|sponichi.co.jp
 @@||logo.clearbit.com^
-@@||logo.clearbit.com^$image,third-party
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||m1tm.insideevs.com/gtm.js$~third-party
@@ -53508,6 +53509,7 @@ zyro.com##.zyro-cookies
 ||api.push.le.com^
 ||api.qcmm07.com^
 ||api.qttunion.com^
+||api.quantumgraph.com/web/cm/
 ||api.qvpublish.com^
 ||api.rees46.com^
 ||api.rideraid.net^
@@ -112944,6 +112946,7 @@ zyro.com##.zyro-cookies
 ||pop.mmfusheng.com^
 ||pop.sjk.ijinshan.com^
 ||pop.unitedgate.co.jp^
+||pop.unitedgate.co.jp^$third-party
 ||pop.uusee.com^
 ||pop.wioau.com^
 ||pop.youmi.net^
@@ -133275,6 +133278,7 @@ zyro.com##.zyro-cookies
 ||tag.cribnotes.jp^
 ||tag.digitaltarget.ru^
 ||tag.digops.sincro.io^
+||tag.eisa.mercari.com^
 ||tag.elevaate.io^
 ||tag.flagship.io^
 ||tag.flvcdn.net/lytag.js
@@ -142725,6 +142729,7 @@ zyro.com##.zyro-cookies
 ||validclick.com^
 ||validcombine.com^
 ||validmemo.com^
+||valis-cpx.jp^$third-party
 ||valleylouisadick.com^
 ||valo.atm.youku.com^
 ||valp.atm.youku.com^
