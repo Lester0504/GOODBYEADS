@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-08-25 09:46:04（北京时间） 
-! Total count: 154126
+! Version: 2025-08-25 20:34:45（北京时间） 
+! Total count: 154132
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16009,6 +16009,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -tracking-pixel.
 -universal-analytics/
 -wrapper-analytics-prod.cloudfunctions.net/
+.0.0.1 ww13.smartadserver.com
 .1.1.1.l80.js^$third-party
 .EventTracking.
 .acemlna.com/Prod/link-tracker?$image
@@ -36693,6 +36694,7 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
+ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -51494,6 +51496,7 @@ zyro.com##.zyro-cookies
 ||al-smetrics.vizio.com^
 ||al.airtel.in^
 ||al.autohome.com.cn^
+||al.levels.fyi/api/event
 ||al.mtrx.dev^
 ||al.mtrx.travel^
 ||al.mtrxs.dev^
@@ -99382,6 +99385,7 @@ zyro.com##.zyro-cookies
 ||maggieeatstheangel.com^
 ||maghoutwell.com^
 ||magic.freetrade.io^
+||magic.prism.gg^
 ||magicalbifoil.shop^
 ||magicaljoin.com^
 ||magicaljoin.com^$third-party
@@ -107244,6 +107248,7 @@ zyro.com##.zyro-cookies
 ||nexusrules.officeapps.live.com^
 ||nexustwinkly.click^
 ||nexx.cloud/play/beacon.
+||nexx360-static.io^$third-party
 ||nexx360.io^
 ||nexx360.io^$third-party
 ||nexxtv-events.servicebus.windows.net^
@@ -140258,6 +140263,7 @@ zyro.com##.zyro-cookies
 ||trinityhootch.shop^
 ||trinitymedia.ai/api/collect?
 ||trioecsduomi.digital^
+||trip.com/bee/collect
 ||tripadvisor.*/BALinkImpressionTracking/
 ||tripadvisor.*/CookiePingback?
 ||tripadvisor.*/GARecord^
