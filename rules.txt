@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-08-25 20:43:34（北京时间） 
-! Total count: 154130
+! Version: 2025-08-26 09:17:01（北京时间） 
+! Total count: 154136
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29094,7 +29094,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||darkino.online^$generichide
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||data.tm-awx.com^$script,domain=birminghammail.co.uk|bristolpost.co.uk|dailyrecord.co.uk|hulldailymail.co.uk|liverpoolecho.co.uk|manchestereveningnews.co.uk|stokesentinel.co.uk
-@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|hungryroot.com|usa.experian.com
+@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|hungryroot.com|usa.experian.com
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
 @@||dbz-fantasy.com/ads.css
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
@@ -49803,6 +49803,10 @@ zyro.com##.zyro-cookies
 ||ads-ec.adaptv.advertising.com^
 ||ads-eu.adaptv.advertising.com^
 ||ads-go.adroi.com.cn^
+||ads-i1.xhscdn.com^
+||ads-i2.xhscdn.com^
+||ads-i3.xhscdn.com^
+||ads-i4.xhscdn.com^
 ||ads-img-al.xhscdn.com^
 ||ads-img-qc.xhscdn.com^
 ||ads-jp.tiktok.com^
@@ -49814,6 +49818,7 @@ zyro.com##.zyro-cookies
 ||ads-sdk.upltv.com^
 ||ads-sg.tiktok.com^
 ||ads-static.conde.digital^
+||ads-static.xhscdn.com^
 ||ads-tracking.beop.io^
 ||ads-tracking.collectiveaudience.co^
 ||ads-trk.vidible.tv^
@@ -137220,6 +137225,7 @@ zyro.com##.zyro-cookies
 ||toquetbircher.com^
 ||torbit.com^
 ||torbit.com^$third-party
+||torbobit.net/js/analytics/
 ||torcellane.world^
 ||torchfriendlypay.com^
 ||tordiondisnew.shop^
