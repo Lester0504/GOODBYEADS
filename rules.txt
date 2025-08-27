@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-08-27 09:39:19（北京时间） 
-! Total count: 150122
+! Version: 2025-08-27 20:33:18（北京时间） 
+! Total count: 150130
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29210,6 +29210,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||gsuite.tools/js/gtag.js$script,~third-party
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
+@@||gtm.idealo.*/gtm.js?$domain=idealo.at|idealo.co.uk|idealo.de|idealo.es|idealo.fr|idealo.it
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||guinnessworldrecords.jp/ezais/analytics$~third-party
 @@||guokr.com/apis/flowingboard/item/m_article
@@ -41053,6 +41054,7 @@ zyro.com##.zyro-cookies
 ||18naked.com^
 ||18rm.com^
 ||18tlm4jee.de^
+||18wosx.ru^
 ||19009143.xyz^
 ||19035924.automated.almosafer.com^
 ||19035924.email.almosafer.com^
@@ -41389,6 +41391,7 @@ zyro.com##.zyro-cookies
 ||26fc4b0b38.com^
 ||26gg.bnq86.com^
 ||26q4nn691.de^
+||26sgmin39.de^
 ||26zsd.cn^
 ||272829.cc^
 ||277txt.com/da/*.js
@@ -58607,6 +58610,7 @@ zyro.com##.zyro-cookies
 ||bonprix.*/ajax/marketing-parameters/
 ||bonrarjfozxyu.website^
 ||bontech-zh.com^
+||bonuscake.ru^
 ||bonuscomplex.com^
 ||bonuscounter.de^
 ||bonuscounter.de^$third-party
@@ -92352,6 +92356,7 @@ zyro.com##.zyro-cookies
 ||laugrauchar.net^
 ||lauloajaiph.net^
 ||launcecaracoa.shop^
+||launch-analytics-plugin.launchpotato.com^
 ||launch.aella.app^
 ||launch.meetsaturn.com^
 ||launch.vypr.it^
@@ -105719,6 +105724,7 @@ zyro.com##.zyro-cookies
 ||ntlcgevw-u.one^
 ||ntlurfixeyzlf.vip^
 ||ntlysearchingfora.com^
+||ntm.pstatic.net/scripts/ntm_$domain=naver.com
 ||ntmb.de/count.html?
 ||ntmknjlcfdmqw.space^
 ||ntmreohudibfo.buzz^
@@ -126181,6 +126187,7 @@ zyro.com##.zyro-cookies
 ||sp.gameomatic.fr^
 ||sp.gmossp-sp.jp^
 ||sp.jrklein.com^
+||sp.justwatch.com^
 ||sp.naver.com^
 ||sp.pcoptimum.ca^
 ||sp.qf.56.com^
@@ -127119,6 +127126,7 @@ zyro.com##.zyro-cookies
 ||ssl.o.univadis.it^
 ||ssl.o.vitals.com^
 ||ssl.o.webmdrx.com^
+||ssl.pstatic.net/static/coreplayer/mclog/media-capable-log.js$domain=naver.com
 ||ssl.sciencechannel.com^
 ||ssl.synovite-scripts.com/ut$script
 ||ssl.youkag.com^
