@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-09-07 09:41:31（北京时间） 
-! Total count: 157231
+! Version: 2025-09-07 20:28:33（北京时间） 
+! Total count: 157240
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17890,6 +17890,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fileadmin/template/js/cconsent.js
 /fileadmin/templates/cookie/fc_thin.js
 /fileadmin/templates/js/cconsent.js
+/fingerprint-3.4.1.js
 /fingerprint.js$domain=~github.com
 /fingerprint.min.js
 /fingerprint/iife.min.js
@@ -19365,6 +19366,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sentry/bundle.min.js
 /seo.taCo.min.js
 /seo/pageStat/*
+/seon/agent.js
 /seostats.php
 /seotracking-v3.js
 /server.php?request=track&output=
@@ -52572,6 +52574,7 @@ zyro.com##.zyro-cookies
 ||analytics.disneyinternational.com^
 ||analytics.disneyplus.com^
 ||analytics.dspunion.com^
+||analytics.dv.socure.io^
 ||analytics.dvidshub.net^
 ||analytics.edgekey.net^
 ||analytics.egdata.app^
@@ -81485,6 +81488,7 @@ zyro.com##.zyro-cookies
 ||gateway.dev/log
 ||gateway.foresee.com^
 ||gateway.melia.com/tracking
+||gateway.us.zip.co/analytics
 ||gathermadness.com^
 ||gatherslampong.digital^
 ||gatherup.com^
@@ -154943,8 +154947,12 @@ zyro.com##.zyro-cookies
 ||youtube-nocookie.com/ptracking?
 ||youtube-nocookie.com/robots.txt?
 ||youtube-nocookie.com/youtubei/v1/log_event?
+||youtube.com/api/stats/ads?
+||youtube.com/api/stats/atr?ns=
+||youtube.com/api/stats/qoe?fmt=
 ||youtube.com/get_video?
 ||youtube.com/pcs/activeview?
+||youtube.com/ptracking?html5=1&
 ||youtube.com/set_awesome?
 ||youtube.com/youtubei/v1/log_event?
 ||youtube.googleapis.com/youtubei/v1/log_event?
@@ -155213,6 +155221,7 @@ zyro.com##.zyro-cookies
 ||yupfiles.net^
 ||yuponwormy.life^
 ||yupov6ks.icu^
+||yupp.ai/api/log-event
 ||yuppads.com^
 ||yuppyads.com^
 ||yuqmok.xyz^
