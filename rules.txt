@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-09-08 09:41:10（北京时间） 
-! Total count: 157244
+! Version: 2025-09-08 20:34:36（北京时间） 
+! Total count: 157255
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15984,6 +15984,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 &ga_blocked=$image
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
+&ii=fingerprintjs-pro-react
 &l=dataLayer&cx=c
 &pagegroup=*&url=$script
 &refer=http$script
@@ -71018,6 +71019,7 @@ zyro.com##.zyro-cookies
 ||device.redirec.com^
 ||device9.com^
 ||device9.com^$third-party
+||deviceinf.com^
 ||deviceprotect.eu^
 ||deviceprotect.eu^$third-party
 ||deviceseal.com^$third-party
@@ -80124,6 +80126,7 @@ zyro.com##.zyro-cookies
 ||fp-it-acc.portal101.cn/deviceprofile/
 ||fp-it.fengkongcloud.com^
 ||fp-upload.dun.163.com^
+||fp.bizjournals.com^
 ||fp.fraudmetrix.cn^
 ||fp.kalevavakuutus.fi^
 ||fp.mandatum.fi^
@@ -80231,6 +80234,7 @@ zyro.com##.zyro-cookies
 ||fptls.com^
 ||fptls2.com^
 ||fptls3.com^
+||fptls4.com^
 ||fpukmwpb.top^
 ||fpukxcinlf.com^
 ||fpvrgm.blackforestdecor.com^
@@ -83690,6 +83694,7 @@ zyro.com##.zyro-cookies
 ||goodbark.com^$third-party
 ||goodbusinesspark.com^
 ||goodcaesarjonas.com^
+||goodcar.com/js/parts/fp.js
 ||goodcounter.org^
 ||goodcounter.org^$third-party
 ||goodfon.com/stat/
@@ -90504,6 +90509,7 @@ zyro.com##.zyro-cookies
 ||init.phpwind.com^
 ||init.phpwind.net^
 ||init.startappexchange.com^
+||init.voz.party/info_hex.js
 ||initiallybrigadebookstore.com^
 ||initiategunpowder.com^
 ||iniutui.com^
@@ -112030,6 +112036,7 @@ zyro.com##.zyro-cookies
 ||optimizelyapis.com^
 ||optimizepro.online^
 ||optimizer.apiswidget.com^
+||optimizer.poxo.com^
 ||optimizesocial.com^
 ||optimizesrv.com^
 ||optimonk.com^
@@ -120678,6 +120685,7 @@ zyro.com##.zyro-cookies
 ||research.leads360.com^
 ||research.net^
 ||research.velocify.com^
+||researchgate.net/beacon/
 ||researchgate.net/track/
 ||researchhappenedequipment.com^
 ||researchingdestroy.com^
@@ -122211,6 +122219,7 @@ zyro.com##.zyro-cookies
 ||rum.azioncdn.net^
 ||rum.condenastdigital.com^
 ||rum.corewebvitals.io^
+||rum.cronitor.io^
 ||rum.hlx.page^
 ||rum.ingress.layer0.co^
 ||rum.layer0.co^
@@ -138947,6 +138956,7 @@ zyro.com##.zyro-cookies
 ||tionininanceena.com^
 ||tioztp.unisportstore.nl^
 ||tipcatscarola.com^
+||tiplink.io/fp-agent.js
 ||tipmanbyes.digital^
 ||tippcom01.tipp24.com^
 ||tippola.com^
@@ -144386,6 +144396,7 @@ zyro.com##.zyro-cookies
 ||udata.mixmarket.biz^
 ||udbaa.com^
 ||udblog.huya.com^
+||udc.yahoo.com/v2/public/yql?
 ||udc.yahoo.com^
 ||udcm.yahoo.com^
 ||udd1i5.zhihu.com^
