@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-09-12 20:39:01（北京时间） 
-! Total count: 157914
+! Version: 2025-09-13 09:07:12（北京时间） 
+! Total count: 157923
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18334,6 +18334,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /jquery.trackstar.js
 /jqueryCL.min.js
 /jqueryCookieGuard
+/js-responsive/minimal-analytics-$script
 /js-sdk-event.min.js
 /js/CookieConsentNew
 /js/CookieManager.js
@@ -31371,6 +31372,7 @@ cff.ch##.messageBar
 cgd.pt###CgdCookieManager
 cgtn.com##.cg-tools-dialog
 cgtrader.com##.notice
+ch.com
 chahid4u.tk###unblocker
 chaincheck.de###float-bar
 chainreactioncycles.com##.crc_cookie_overlay, .crc_cookie_opt_in
@@ -31387,8 +31389,8 @@ chargify.com##.gdpr
 charleslandaudentistry.co.uk###cc-container
 charliemonroe.net##.cookie
 chassis-en-bois.fr###cnil, .cnil, #CNIL
-chat.deepseek.com##div:has(> .ds-icon + span)
-chat.deepseek.com##div:has(> .ds-icon[style*="width: 28px"][style*="height: 28px"])
+chat.deepseek.com#?#div:has(> .ds-icon + span)
+chat.deepseek.com#?#div:has(> .ds-icon[style*="width: 28px"][style*="height: 28px"])
 chateauversailles.fr##.bloc-notifications
 chateauxhotels.com###notificationBar
 chathispano.com##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
@@ -36288,6 +36290,8 @@ news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 news.qq.com##.download-banner-wrap
 news.qq.com##.download-content
 news.qq.com##.godown.qqcom_fb-item
+news.qq.com#?#div:has(> div[dt-eid="em_rec_app"])
+news.qq.com#?#div[id="download-btn-wrapid"]
 news5.de###privacyContainer
 newsandnews.com##.bottom-popup
 newsbelow.de##.flash
@@ -62867,6 +62871,7 @@ zyro.com##.zyro-cookies
 ||ceryt111.fun^
 ||ces2007.org^
 ||cesa6.actonservice.com^
+||cesar-it.de/collect/
 ||cesarebientt.com^
 ||cesario.bt.no^
 ||cesebsir.xyz^
@@ -79817,6 +79822,7 @@ zyro.com##.zyro-cookies
 ||flpwto.lohaco.jp^
 ||flqoezitoyuse.today^
 ||flrdra.com^
+||fls-na.amazon.com^
 ||flsfzr.cn^
 ||flstudiochina.com^
 ||fltuyy.philippemodel.com^
@@ -98887,6 +98893,7 @@ zyro.com##.zyro-cookies
 ||logs.adroll.com^
 ||logs.amap.com^
 ||logs.animaapp.com^
+||logs.betterstack.com^
 ||logs.chatboost-cv.algoage.co.jp^
 ||logs.chelaile.net.cn^
 ||logs.cnfol.com^
@@ -103342,6 +103349,7 @@ zyro.com##.zyro-cookies
 ||maxadserver.media^
 ||maxbesing.shop^
 ||maxbounty.com^
+||maxclientstatapi.com^
 ||maxconvtrk.com^
 ||maxcruisers.com^
 ||maxepv.com^
@@ -105006,6 +105014,7 @@ zyro.com##.zyro-cookies
 ||metrics.iij.ad.jp^
 ||metrics.ikea.com^
 ||metrics.illinois.gov^
+||metrics.imdb.com^
 ||metrics.industryweek.com^
 ||metrics.inet.fi^
 ||metrics.infiniti.com^
@@ -106961,6 +106970,7 @@ zyro.com##.zyro-cookies
 ||moneroocean.stream^$third-party
 ||monetag.com^
 ||monetano.com^
+||monetarygoldgroup.com/_ub/
 ||monetarysportystamp.com^
 ||monetate.net^
 ||monetate.net^$third-party
@@ -143878,7 +143888,6 @@ zyro.com##.zyro-cookies
 ||truculentrate.com^
 ||truculentrate.com^$third-party
 ||true-sweets-dreampartner.com^
-||trueachievements.com/tgn/ana?*page_view
 ||trueanthem.com^
 ||trueanthem.com^$third-party
 ||truebackpack.com^
