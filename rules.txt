@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-09-13 09:22:36（北京时间） 
-! Total count: 157922
+! Version: 2025-09-13 20:28:04（北京时间） 
+! Total count: 157927
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -19740,6 +19740,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /trace/record?
 /trace?sessionid=
 /traces.php?
+/tracifyv2.js
 /track-event.js
 /track-focus.min.js
 /track-imp?
@@ -65101,6 +65102,7 @@ zyro.com##.zyro-cookies
 ||collector.clareity.net^
 ||collector.contentexchange.me^$third-party
 ||collector.dcdn.baidu.com^
+||collector.ex.co^
 ||collector.fiverr.com^
 ||collector.getyourguide.com^
 ||collector.github.com^
@@ -86668,6 +86670,7 @@ zyro.com##.zyro-cookies
 ||hlrml.cn^
 ||hlserve.com^
 ||hlsrjzlljx.com^
+||hlstatus.com^$third-party
 ||hlstlyy.com^
 ||hltpdd.icu^
 ||hltv.org/scripts/hltv-tracking.js
@@ -120687,6 +120690,7 @@ zyro.com##.zyro-cookies
 ||refinedads.com^
 ||refinedads.com^$third-party
 ||refirestenino.com^
+||refix.ai^$third-party
 ||refl3alea.com^
 ||reflectingwindowscheckbook.com^
 ||reflectpaint.com^
@@ -141764,6 +141768,7 @@ zyro.com##.zyro-cookies
 ||traceworks.com^
 ||traceworks.com^$third-party
 ||tracferrum.click^
+||tracify.ai^$third-party
 ||track-dark-bz.b-cdn.net^
 ||track-e.cypress.com^
 ||track-e.infineon.com^
