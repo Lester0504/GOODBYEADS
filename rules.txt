@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-09-13 20:35:43（北京时间） 
-! Total count: 157927
+! Version: 2025-09-14 09:16:53（北京时间） 
+! Total count: 157936
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -20021,6 +20021,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
+/v1/rgstr|
 /v1/stats/track
 /v1/tracker.js
 /v1/viewport_events
@@ -28822,6 +28823,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ?type=page&event=
 ?type=pageview&
 ?v=2&tid=G-$~third-party
+?wmcAction=wmcTrack&
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
 @@.com/o.js$domain=2biqu.com
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
@@ -38249,7 +38251,8 @@ smulweb.nl##.accept_container
 smzdm.com###global-search > DIV.search-inner.z-clearfix > DIV.download:last-child
 smzdm.com##.J_copy.btn-open-app
 smzdm.com##.J_ota
-smzdm.com##.btn-open-app-b.btn-open-app
+smzdm.com##.btn-open-app
+smzdm.com##.damo-footer-open-app__fixed-logo
 smzdm.com##.footer-banner
 smzdm.com##.footer-floating-layer
 smzdm.com##.footer-new-guide
@@ -62516,6 +62519,7 @@ zyro.com##.zyro-cookies
 ||cdn.flurry.com^
 ||cdn.ftwpcn.com^
 ||cdn.ggsfq.com^
+||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
 ||cdn.gravito.net^
 ||cdn.hanaya-m.com^
 ||cdn.haocaa.com^
@@ -69409,6 +69413,7 @@ zyro.com##.zyro-cookies
 ||danwosd.cloud^
 ||danzhallfes.com^
 ||daoyoudao.com^
+||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||dap.pagechoice.net^
 ||dapaogg.xyz^
 ||daphnews.com^
@@ -108417,6 +108422,7 @@ zyro.com##.zyro-cookies
 ||nalraughaksie.net^
 ||nalyticaframeofm.com^
 ||nalyxg.top^
+||nam.veta.naver.com^
 ||namaacont.com^
 ||namastedharma.com^
 ||namcah.alipearlhair.com^
@@ -133126,7 +133132,9 @@ zyro.com##.zyro-cookies
 ||ssl.o.univadis.it^
 ||ssl.o.vitals.com^
 ||ssl.o.webmdrx.com^
+||ssl.pstatic.net/static.news/*/js/generated/aside.statistics.js$domain=media.naver.com|news.naver.com
 ||ssl.pstatic.net/static/coreplayer/mclog/media-capable-log.js$domain=naver.com
+||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||ssl.sciencechannel.com^
 ||ssl.synovite-scripts.com/ut$script
 ||ssl.youkag.com^
@@ -140525,6 +140533,7 @@ zyro.com##.zyro-cookies
 ||tpn134.com^
 ||tpohvqeutohhh.space^
 ||tpoqbkqesgoig.one^
+||tps.trovaprezzi.it^
 ||tpstelemetry.tencent.com^
 ||tptp002.cfd^
 ||tpubrk.eobuv.com^
