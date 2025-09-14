@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-09-14 09:40:55（北京时间） 
-! Total count: 157943
+! Version: 2025-09-14 20:27:47（北京时间） 
+! Total count: 157954
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28753,6 +28753,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
 ://load.*.js?st=$~third-party
+://mailmag.hhcross.hankyu-hanshin.jp/c/*.gif
 ://matomo.$domain=~matomo.dhjensen.dk|~matomo.org
 ://metrics-collector.
 ://mint.*/?js
@@ -28765,6 +28766,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://rum.collector.
 ://segment-api.
 ://segment-cdn.
+://sg1.wizrocketmail.net/r?e=$image
 ://sgtm.*.js?
 ://signal.*/hardal
 ://signals.*/hardal
@@ -48603,6 +48605,7 @@ zyro.com##.zyro-cookies
 ||ad-api.ad-stir.com^
 ||ad-beta.flipboard.com^
 ||ad-bg.adwo.com^
+||ad-bls-tracking.lemino.docomo.ne.jp^
 ||ad-cdn.qingting.fm^
 ||ad-channel.diwodiwo.xyz^
 ||ad-cloud.jp^
@@ -59792,6 +59795,9 @@ zyro.com##.zyro-cookies
 ||bookshelfcomplaint.com^
 ||booksoxsolely.com^
 ||booktopia.com.au/Ns7aBMIv/init.js
+||bookwalker.jp/custom/unitag/
+||bookwalker.jp/ex/browser-viewer/unitag_bv.js
+||bookwalker.jp/v/louis/*/tracks.js
 ||boom-boom-vroom.com^
 ||boomads.com^
 ||boomboomcloud.com^
@@ -62591,6 +62597,7 @@ zyro.com##.zyro-cookies
 ||cdn.sphlabs.com/suid/
 ||cdn.stamped.io/cdn/images/pixel.png
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
+||cdn.super.com/remote-event-registry.json
 ||cdn.surroundtm.com^
 ||cdn.taboola.com.cn^
 ||cdn.taboola.com^
@@ -68798,6 +68805,7 @@ zyro.com##.zyro-cookies
 ||d2zbpgxs57sg1k.cloudfront.net^
 ||d2zbrsgwxpxcye.cloudfront.net^
 ||d2zcblk8m9mzq5.cloudfront.net^
+||d2zd0wa1vpt7j9.cloudfront.net^
 ||d2zf5gu5e5mp87.cloudfront.net^
 ||d2zh7okxrw0ix.cloudfront.net^
 ||d2zi8ra5rb7m89.cloudfront.net^
@@ -77870,6 +77878,7 @@ zyro.com##.zyro-cookies
 ||ewcnmtw.top^
 ||ewdk.cn^
 ||ewdxisdrc.com^
+||ewe.loudcrowd.com^
 ||ewebanalytics.com^
 ||ewebanalytics.com^$third-party
 ||eweconciliate.com^
@@ -121158,6 +121167,7 @@ zyro.com##.zyro-cookies
 ||reseatjessie.top^
 ||resenemimosa.shop^
 ||resentreaccotia.com^
+||reservationday.com/metrics/
 ||reservoirvine.com^
 ||resetdigital.co^
 ||resetdigital.co^$third-party
@@ -123098,6 +123108,7 @@ zyro.com##.zyro-cookies
 ||s.jandan.com^
 ||s.jimdo.com^
 ||s.jlminte.com^
+||s.joinhoney.com/evs
 ||s.jpush.cn^
 ||s.justblinds.com^
 ||s.l.fastapi.net^
