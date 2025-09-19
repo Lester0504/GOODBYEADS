@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-09-19 09:37:11（北京时间） 
-! Total count: 158533
+! Version: 2025-09-19 20:32:58（北京时间） 
+! Total count: 158537
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16207,6 +16207,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .redsift.com/e/o/$image
 .revolut.com/q/$image
 .ru/ads/
+.s-pt.jp/mail/info/*/img/_.gif
 .salesforce.com/servlet/servlet.ImageServer?$image
 .secureserver.net/bbimage.aspx?
 .sendcloud.net/track/$image
@@ -28759,6 +28760,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://matomo.$domain=~matomo.dhjensen.dk|~matomo.org
 ://metrics-collector.
 ://mint.*/?js
+://openedlog.
 ://parcel-api.delivery-status.*/open/$image
 ://pic*.com/upload/*.js$third-party
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -82101,6 +82103,7 @@ zyro.com##.zyro-cookies
 ||gateway.dev/log
 ||gateway.foresee.com^
 ||gateway.melia.com/tracking
+||gateway.src-play.com/Analytics/
 ||gateway.us.zip.co/analytics
 ||gathermadness.com^
 ||gatherslampong.digital^
@@ -148739,6 +148742,7 @@ zyro.com##.zyro-cookies
 ||visualscience.external.bbc.co.uk^
 ||visualstudio.com/_da.gif?
 ||visualstudio.com/v2/track
+||visualwebsiteoptimizer.com/cdn/analysis/
 ||visualwebsiteoptimizer.com/dyn
 ||visualwebsiteoptimizer.com/ee.gif?
 ||visualwebsiteoptimizer.com/events/t?
