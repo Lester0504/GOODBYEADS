@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-10-18 20:37:45（北京时间） 
-! Total count: 161078
+! Version: 2025-10-19 09:22:15（北京时间） 
+! Total count: 161076
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -18861,6 +18861,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /oo/*/lsync.js
 /oo/cl*.js?rd=
 /oo/cl.js|$~third-party
+/op/analytics.js?domain=
 /opbox-gdpr-consents/*
 /opbox-rodo-consent-modal/index
 /opdc.js
@@ -34904,6 +34905,7 @@ lawine.at##.header-notification
 lawinsider.com###header ~ .light-blue-bordered-card
 lawline.se##div[class*="CookiesModal"]
 lawyersonline.co.uk##.alert, #alert
+lay.aiseet.atianqi.com
 layar.com##.remarketing-banner
 layerstack.com##.promotion-footer
 laznevbechyni.cz##.fixed-box
@@ -48256,7 +48258,6 @@ zyro.com##.zyro-cookies
 ||ac.atpanel.com^
 ||ac.dun.163.com^
 ||ac.dun.163yun.com/v2/collect?
-||ac.dun.163yun.com^
 ||ac.geechs-job.com^
 ||ac.livelty.com^
 ||ac.mmstat.com^
@@ -53922,6 +53923,7 @@ zyro.com##.zyro-cookies
 ||api.tacotax.fr/v2/amplitude_trackers
 ||api.takealot.com^$ping
 ||api.tdp.u7u9.com^
+||api.thefantazy.com/web-vitals
 ||api.touch-moblie.com^
 ||api.tr.blismedia.com^
 ||api.ts.feedback.qy.net^
@@ -86323,6 +86325,7 @@ zyro.com##.zyro-cookies
 ||haymarketstat.de^
 ||haymarketstat.de^$third-party
 ||haymishafter.world^
+||haystack.wavve.com^
 ||hayweedeikons.digital^
 ||haywsrsukscry.com^
 ||hazawl.veke.fi^
@@ -110927,13 +110930,10 @@ zyro.com##.zyro-cookies
 ||nimhuemark.com^
 ||nimiq.by^
 ||nimiq.com^
-||nimiq.com^$third-party
 ||nimiqpool.com^
-||nimiqpool.com^$third-party
 ||nimkdonnrzwdr.website^
 ||nimoatl.icu^
 ||nimpool.io^
-||nimpool.io^$third-party
 ||nimrute.com^
 ||ninancukankin.org^
 ||ninaning.com^
@@ -118355,7 +118355,6 @@ zyro.com##.zyro-cookies
 ||ponyo.cheriefm.fr^
 ||pooksys.site^
 ||pool.nimiq.watch^
-||pool.nimiq.watch^$third-party
 ||pool.onjoyri.de^
 ||pool.onjoyride.com^
 ||poolgmsd.com^
@@ -139124,7 +139123,6 @@ zyro.com##.zyro-cookies
 ||susapi.dev.surepush.cn^
 ||susapi.lenovomm.com^
 ||sushipool.com^
-||sushipool.com^$third-party
 ||susianulidia.com^
 ||susifhfh2d8ldn09.com^
 ||suspectedadvisor.com^
