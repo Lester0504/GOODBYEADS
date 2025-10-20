@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-10-19 20:37:45（北京时间） 
-! Total count: 161075
+! Version: 2025-10-20 09:19:30（北京时间） 
+! Total count: 161073
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29153,7 +29153,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||docs.google.com/*/viewdata$~third-party
 @@||docs.w3cub.com^$generichide
-@@||download.falco.org^
 @@||download.megaup.net/openads.js$script,~third-party
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
@@ -29566,7 +29565,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||rest.edit.site/geoip-service/geoip$domain=systemshouse.com
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
-@@||rocket.chat^
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rt.rtoaster.jp^$image,domain=ec-store.net
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
@@ -29799,6 +29797,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||www.ups.com/WebTracking/processInputRequest
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
 @@||wwwimage-tve.cbsstatic.com^
+@@||x2.ifengimg.com^
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||xiaosaas.com/org/RecordScreen/rrweb.min.js$~third-party
@@ -127506,7 +127505,6 @@ zyro.com##.zyro-cookies
 ||scaredswing.com^$third-party
 ||scarefowl.com^
 ||scareshortnovel.com^
-||scarf.sh^
 ||scarf.sh^$third-party
 ||scarfsethenic.click^
 ||scarfsmash.com^
