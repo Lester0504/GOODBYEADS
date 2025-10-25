@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-10-25 09:13:05（北京时间） 
-! Total count: 160918
+! Version: 2025-10-25 09:16:00（北京时间） 
+! Total count: 160911
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29163,7 +29163,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||download.megaup.net/openads.js$script,~third-party
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
-@@||dw.iask.com.cn^
 @@||dxcloud.episerver.net^
 @@||dynamicyield.com/scripts/*/dy-coll-nojq-min.js$domain=gigasport.at|gigasport.ch|gigasport.de
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
@@ -29376,7 +29375,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||logging.apache.org^$~third-party
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
-@@||login-ishare.iask.com.cn^
 @@||login-sh.aki-game.com^
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||logly.co.jp/recommend/$image,domain=benesse.ne.jp|sponichi.co.jp
@@ -29506,7 +29504,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||peimg.fr/js/ads.js$script,domain=pubeco.fr
 @@||penducado.com/styles/ads.css
 @@||petdrugsonline.co.uk/scripts/gtm.js$~third-party
-@@||pic.iask.cn^
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||pixel.prime.amazon.dev^
 @@||pladform.ru/dive/$xmlhttprequest
@@ -29673,7 +29670,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||static.koreus.com/js/advert.js
 @@||static.leaddyno.com/js$script,domain=s4l.us
 @@||static.myfinance.com/widget/$domain=savingspro.org
-@@||static3.iask.cn^
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||stats.britishbaseball.org.uk^
 @@||stats.gleague.nba.com/templates/angular/tables/events/shots.html$~third-party
@@ -29781,7 +29777,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
-@@||wechat.ishare.iask.com.cn^
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||wf.typesquare.com^$font,domain=morisawafonts.com
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
@@ -89363,8 +89358,6 @@ zyro.com##.zyro-cookies
 ||iareascebc.life^
 ||ias.r10s.jp/grp15/lib/ichiba_frame.js
 ||iasbetaffiliates.com^
-||iask.cn^
-||iask.com.cn^
 ||iask.qq.com^
 ||iatoex.kahve.com^
 ||iatspayments.actonservice.com^
