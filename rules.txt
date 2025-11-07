@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-11-06 20:43:54（北京时间） 
-! Total count: 161318
+! Version: 2025-11-07 09:17:14（北京时间） 
+! Total count: 161316
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17045,6 +17045,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /beacon/user-data
 /beacon/v1/batch?
 /beacon?cust=
+/beacon?data=$image
 /beaconimages.netflix.net/*$image
 /beacons?data=
 /beautiful-and-responsive-cookie-consent/*
@@ -31940,9 +31941,6 @@ d-cycling.nl##.ui-widget, .ui-widget-overlay
 d-luft.de##.banner-consent-all
 d-secour.de###importantMessages
 d2iq.com##.banner-alert
-d3.ru##.b-promo__placeholder
-d3.ru##section[data-uid="ad"]
-d3.ru##section[data-uid="extraAd"]
 d4t4solutions.com###privacy-overlay
 daab.de###damn_background_overlay, #damn_cookieconsent_banner
 dacter.pl###topbar
@@ -121318,7 +121316,7 @@ zyro.com##.zyro-cookies
 ||qualitydestructionhouse.com^
 ||qualizebruisi.org^
 ||qualtrics.com/WRSiteInterceptEngine$script,domain=~logmeininc.com
-||qualtrics.com/WRSiteInterceptEngine/?Q_Impress=$third-party
+||qualtrics.com/WRSiteInterceptEngine/$third-party
 ||qualtrics.com/jfe/$script,third-party
 ||qualtrics.com/sie/$script,third-party
 ||qualtrics.com^*/metrics
