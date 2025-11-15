@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-11-15 09:40:43（北京时间） 
-! Total count: 163213
+! Version: 2025-11-15 20:30:47（北京时间） 
+! Total count: 163222
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16123,6 +16123,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .goodwell18.com/track/
 .google-analytics.com/
 .gruene.de/lists/ut.php$image
+.heytapmobi.com
 .hilton.com/subscription/watermark.gif?
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
@@ -18953,6 +18954,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /partner-analytics/*
 /partner/transparent_pixel-$image
 /partnermetrics.js
+/pay/collect|$xmlhttprequest
 /pbasitetracker.min.js
 /pcount.asp
 /pdp.gif?
@@ -40563,6 +40565,7 @@ zhihu.com##.RelatedReadings.Card
 zhihu.com##.TopstoryItem--advertCard
 zhihu.com##.ViewAllInappButton
 zhihu.com##.ZVideo-sideColumn
+zhihu.com##.zhihuAdvert-MBanner-wordDownload
 zhihu.com##OpenInAppButton OpenInApp is-shown
 zhihu.com##div.ModalWrap-item:nth-of-type(2)
 zhihu.com#?#button:contains(App)
@@ -55725,6 +55728,7 @@ zyro.com##.zyro-cookies
 ||assets.210189.com^
 ||assets.2343sdxs.com^
 ||assets.258ydh.com^
+||assets.9gtb.com^
 ||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
 ||assets.apollo.io/micro/website-tracker/
 ||assets.applovin.com^
@@ -62886,6 +62890,7 @@ zyro.com##.zyro-cookies
 ||cf-ad.ad-stir.com^
 ||cf-oss.gname.net^
 ||cf-pixelfront-analytics.widencdn.net^
+||cf.api.instant.one^
 ||cf.campagnes-france.com^
 ||cf.cdn.inmobi.com^
 ||cf.k053f0.cn^
@@ -77938,6 +77943,7 @@ zyro.com##.zyro-cookies
 ||events-drcn.op.dbankcloud.cn^
 ||events-endpoint.pointandplace.com^
 ||events-logs.doctolib.com^
+||events-ocu.zipify.com^
 ||events-prod.autolist.com^
 ||events-proxy.mintlify.com
 ||events-tracker.deliveroo.net^
@@ -92101,6 +92107,7 @@ zyro.com##.zyro-cookies
 ||instancehospitalitysurmise.com^
 ||instanceimprovedhew.com^
 ||instancesflushedslander.com^
+||instant.one/a/tk
 ||instant.page^$third-party
 ||instantbannercreator.com^
 ||instantdeceived.com^
@@ -118259,6 +118266,7 @@ zyro.com##.zyro-cookies
 ||pixel.videohub.tv^
 ||pixel.vihub.ru^
 ||pixel.watch^$third-party
+||pixel.wetracked.io^
 ||pixel.wp.com^
 ||pixel.wp.pl^
 ||pixel.yabidos.com^
@@ -141242,6 +141250,7 @@ zyro.com##.zyro-cookies
 ||t.utrockets.com^
 ||t.valcyte.com^
 ||t.veranstaltungsticket-bahn.de^
+||t.vibe.co^
 ||t.villanova.com^
 ||t.virginiasports.com^
 ||t.voyages-sncf.com^
