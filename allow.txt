@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-11-14 20:43:36（北京时间） 
-! Total count: 3594
+! Version: 2025-11-15 09:16:08（北京时间） 
+! Total count: 3596
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@.2o7.net/$domain=today.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -343,6 +343,7 @@
 @@||app-sjf.marketo.com^$domain=live.altium.com
 @@||app.adjust.com^
 @@||app.clarity.so^$~third-party
+@@||app.hype.it/assets/packages/mixpanel_flutter/assets/mixpanel.js$~third-party
 @@||app.message.sonicwall.com^
 @@||app.powerbi.com^
 @@||app.tirelocator.ca/static/scripts/google-analytics.js
@@ -3030,6 +3031,7 @@
 @@||siteanalytics.compete.com^$~third-party
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||siteintercept.qualtrics.com/$domain=idealo.de
+@@||siteintercept.qualtrics.com^$domain=idealo.*
 @@||sizhiai.com/api/stat?$~third-party
 @@||skyapi.live.net^
 @@||skyapi.onedrive.live.com^
