@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-11-23 20:37:34（北京时间） 
-! Total count: 159517
+! Version: 2025-11-24 09:23:02（北京时间） 
+! Total count: 159525
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15425,12 +15425,14 @@
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
 ##[style='z-index: 2147483647; width: 100%;height: auto;left: 0;right: 0;margin: auto;']
 ##[style='z-index: 99999; text-indent: -10em;position: relative; left: 0px;box-sizing: border-box;']
-##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
+##[style^="pointer-events: none;background-image:url(': 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
+##[style^='display: block; width: 100%; height: 125px; background: url'][style*='center top / contain no-repeat;']
 ##[style^='display: block; z-index: 2147483646; width: 10%;']
 ##[style^='display: block; z-index: 2147483646; width: 17px; ']
 ##[style^='position: fixed; bottom: 20%; z-index: 19999 !important; ']
 ##[style^='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: '][style*='; top: 0px; left: 0px;']
+##[style^='position: fixed; z-index: 100; display: block; bottom: 0px; '][style*='center top / contain no-repeat;']
 ##[style^='position: fixed; z-index: 2147483616; width: 10%; height: 32.5px;']
 ##a > I.gg-icon
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
@@ -16064,6 +16066,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/g.gif?
 .com/gg.js
 .com/hit$ping
+.com/hm/*?*=*$third-party
 .com/js/g.js
 .com/log/?
 .com/qq.js$third-party
@@ -19249,6 +19252,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /report_ga_events/*
 /report_visit.php
 /reporting/metrics
+/resolve?type=*&short=*&name=$third-party
 /resources/CookieConsent/cookies.js
 /resources/js/cookie/cookie-bar
 /resources/onetrust/js/consent.js
@@ -19750,6 +19754,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tilda-stat-1.0.min.js
 /timingcg.min.js
 /tj/tongji.js?v=$third-party
+/tjjs.js
 /tjp_beacon.js
 /tjx-tracking-data.js
 /tking/ajax_track_stats?
@@ -20334,6 +20339,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /xtcore.js
 /xtroi.js
 /xtub_*_rony.js$third-party
+/xx/d.js
+/xx/f12.js
 /xxgg/gd*.js
 /xxgg/pf*.js
 /yad_sortab_cetlog.js
@@ -31235,6 +31242,7 @@ bygghemma.se###header ~ div[class]:not([id]):not([class*="_"])
 bygningskultur2015.dk###lbmodal-overlay, #lbmodal
 byom.de##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
 bytbil.com##.schibsted-info
+bytegoofy.com/goofy/*/push.js?
 bytom.com.pl##byt-cookie-law-info
 byutv.org###toast, .toast
 bywajtu.pl###co15ie87a
