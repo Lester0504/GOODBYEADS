@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-11-25 09:45:13（北京时间） 
-! Total count: 3601
+! Version: 2025-11-25 20:36:30（北京时间） 
+! Total count: 3604
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@.2o7.net/$domain=today.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -2175,6 +2175,7 @@
 @@||inspsearchapi.com^$domain=zoo.com|dogpile.com
 @@||int.mwbbiz.com/static/*/app.js$domain=91porny.com
 @@||int.mwbbiz.com/static/*/videoShow.js$domain=91porny.com
+@@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
 @@||interia.hit.gemius.pl/hitredir/$domain=interia.pl
 @@||interia.hit.gemius.pl/redot.gif?$domain=m.interia.pl
 @@||intersport.peerius.com/tracker/*.page$domain=intersport.de
@@ -3514,6 +3515,8 @@
 @@||widget.ezidebit.com.au^
 @@||widget.fitanalytics.com/widget.js$domain=pullandbear.com
 @@||widget.fitanalytics.com/widget.js$script,domain=pullandbear.com
+@@||widget.fitanalytics.com/widget/api/$domain=modivo.*
+@@||widget.fitanalytics.com/widget_pdp.js$domain=modivo.*
 @@||widget.intercom.io^
 @@||widget.myrentacar.me^$script,subdocument
 @@||widget.rave.office.net^
