@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-11-26 20:47:43（北京时间） 
-! Total count: 160166
+! Version: 2025-11-27 09:17:11（北京时间） 
+! Total count: 160169
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -15398,6 +15398,7 @@
 ##[src^='https://play.cdn6.buzz/js/']
 ##[src^='https://qwe0231141.bj.bcebos.com/']
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
+##[style$="z-index:100;display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;"]
 ##[style$=' 0% 0% / 100% no-repeat; height: 130px; width: 100%; position: relative;']
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
@@ -15425,7 +15426,7 @@
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
 ##[style='z-index: 2147483647; width: 100%;height: auto;left: 0;right: 0;margin: auto;']
 ##[style='z-index: 99999; text-indent: -10em;position: relative; left: 0px;box-sizing: border-box;']
-##[style^="pointer-events: none;background-image:url(': 2147483647; height: 123px; ']
+##[style^="pointer-events: none;background-image:url(': 2147483647; height: 123px; "]
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
 ##[style^='display: block; width: 100%; height: 125px; background: url'][style*='center top / contain no-repeat;']
 ##[style^='display: block; z-index: 2147483646; width: 10%;']
@@ -16204,6 +16205,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .php?action_name=
 .php?logRefer=
 .php?logType=
+.php?logid=$image
 .php?notrack=
 .php?p=stats&
 .php?ping=
@@ -139619,6 +139621,7 @@ zyro.com##.zyro-cookies
 ||tapewithadblock.org/stat/
 ||tapfiliate.com^
 ||tapfiliate.com^$third-party
+||tapi.kaufda.de^
 ||tapiche.cn^
 ||tapinfluence.com^
 ||tapioni.com^
