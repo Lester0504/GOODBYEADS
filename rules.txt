@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-11-30 20:40:20（北京时间） 
-! Total count: 160822
+! Version: 2025-12-01 09:42:15（北京时间） 
+! Total count: 160828
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29170,6 +29170,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||darkino.online^$generichide
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
+@@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com
 @@||datadome.garena.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=auth.garena.com
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
@@ -29542,6 +29543,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
+@@||plans.humana.com/assets/analytics-events-$script,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||platform.bombas.com/external/gtm.js$script,~third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
@@ -29628,6 +29630,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||sdkapi.sms.mob.com^
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
+@@||secure.moneygram.com/embed/*/webAnalytics/pageMapping.json?$~third-party,xmlhttprequest
+@@||secure.moneygram.com/embed/*/webAnalytics/pageMappingOverrides.json?$~third-party,xmlhttprequest
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
 @@||seg-cdn.pumpkin.care/analytics.js/$~third-party
@@ -67288,6 +67292,7 @@ zyro.com##.zyro-cookies
 ||crosschannel.com^
 ||crossees.com^
 ||crossengage.io^
+||crosset.onward.co.jp/ajax/getExternalServiceWebTrackingTags
 ||crossoverchina.com^
 ||crosspixel.net^
 ||crosspixel.net^$third-party
@@ -92023,6 +92028,7 @@ zyro.com##.zyro-cookies
 ||insiderdata360online.com/service/platform.js
 ||insideruser.trafficmanager.net^
 ||insidesoci.al^
+||insight-x.tech/trackerlog-publisher-service/tracker-logs
 ||insight.aon.com^
 ||insight.autovistagroup.com^
 ||insight.boomer.com^
