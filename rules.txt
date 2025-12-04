@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-12-04 09:47:37（北京时间） 
-! Total count: 161518
+! Version: 2025-12-04 20:38:29（北京时间） 
+! Total count: 161520
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -36363,6 +36363,7 @@ news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 news.qq.com##.download-banner-wrap
 news.qq.com##.download-content
 news.qq.com##.godown.qqcom_fb-item
+news.qq.com##.slider-list.swiper-horizontal.swiper-initialized.swiper
 news.qq.com##div[id="download-btn-wrapid"]
 news.qq.com#?#div:has(> div[dt-eid="em_rec_app"])
 news5.de###privacyContainer
@@ -37413,6 +37414,7 @@ qliro.com###react-app > div > [open]
 qmee.com##div[class*="CookieDialog"]
 qobuz.com##.alert.alert-info, .alert.alert-cnil
 qpony.pl##.rodo-wrapper
+qq.com###download-btn-wrapid
 qq.com##+js(json-prune, ad)
 qq.com##+js(json-prune, ads ad material.video)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
