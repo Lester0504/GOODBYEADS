@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-12-13 20:41:30（北京时间） 
-! Total count: 160822
+! Version: 2025-12-14 09:27:54（北京时间） 
+! Total count: 160828
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29055,6 +29055,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||board-game.co.uk/cdn-cgi/zaraz/s.js$script,~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||bookoffonline.co.jp/files/tracking/ac/clicktag.js$~third-party
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 @@||browser-intake-datadoghq.com^$domain=pluto.tv
 @@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
@@ -29201,6 +29202,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||dmp.theadex.com^*/adex.js$domain=kino.de
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||docs.google.com/*/viewdata$~third-party
+@@||docs.rucml.ru/e.gif?$~third-party
 @@||docs.w3cub.com^$generichide
 @@||download.megaup.net/openads.js$script,~third-party
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
@@ -52598,6 +52600,7 @@ zyro.com##.zyro-cookies
 ||analytics-cf.bigcrunch.com^
 ||analytics-cms.whitebeard.me^
 ||analytics-coletor-site.ojc.com.br^
+||analytics-collect.karakuri.ai^
 ||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-dataplane.invideo.io^
 ||analytics-fe.digital-cloud-prem.medallia.com^
@@ -59834,6 +59837,7 @@ zyro.com##.zyro-cookies
 ||bookmakers.click^
 ||bookmrk.us^
 ||bookmsg.com^
+||bookoff.co.jp/assets/js/ac/tag-analyze.js
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||bookofsex.com^
@@ -74771,6 +74775,7 @@ zyro.com##.zyro-cookies
 ||e.r5v3ye.cn^
 ||e.rcaiu.com^
 ||e.replacementdevicelawsuit.com^
+||e.revenue.cat^
 ||e.rgjrq.cn^
 ||e.ricpt.com^
 ||e.rjiau.com^
@@ -94913,6 +94918,7 @@ zyro.com##.zyro-cookies
 ||js.moatads.com^
 ||js.mobojoy.baidu.com^
 ||js.moeamv.com^
+||js.monitor.azure.com/scripts/c/ms.analytics-web-4.min.js$domain=microsoft.com
 ||js.monitor.azure.com/scripts/c/ms.shared.analytics.$domain=microsoft.com
 ||js.mumayi.net^
 ||js.mzxxiend.com^
