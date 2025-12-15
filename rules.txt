@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-12-14 20:41:48（北京时间） 
-! Total count: 161462
+! Version: 2025-12-15 09:24:59（北京时间） 
+! Total count: 161472
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29266,6 +29266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||future.biz.weibo.com^
 @@||gamaniak.com/js/check_adsense.js$script
 @@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
+@@||gamezop.com/prebid.js$script,~third-party
 @@||ganyancanavari.com/js/fingerprint2.min.js$~third-party
 @@||gdh.postcodeloterij.nl/gdltm.js$domain=vriendenloterij.nl
 @@||gemius.pl/gplayer.js$domain=tsn.ua
@@ -29322,7 +29323,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
 @@||helix.videotron.com/js/api/fingerprint.js$~third-party
-@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
+@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|corsair.com|furniturevillage.co.uk|luggagehero.com
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.interia.pl/iwa_core$script,~third-party
 @@||hk.on.cc/js/v4/urchin.js
@@ -82607,6 +82608,8 @@ zyro.com##.zyro-cookies
 ||gamesrevenue.com^
 ||gamesyour.com^
 ||gamex.mobile.youku.com^
+||gamezop.com/c/events/
+||gamezop.com/c/impressions/
 ||gamezop.com^
 ||gamgkcshehyvm.online^
 ||gaming-adult.com^
@@ -102970,6 +102973,7 @@ zyro.com##.zyro-cookies
 ||ma-adx.ctrip.com^
 ||ma-catinfo.com^
 ||ma-petite-recette.fr/visites
+||ma-tag.com^$third-party
 ||ma.a3.se^
 ||ma.axiomatics.com^
 ||ma.baidu.cn^
@@ -116693,6 +116697,7 @@ zyro.com##.zyro-cookies
 ||pdffiller.com/click-stream/
 ||pdffiller.com/funnel.php?
 ||pdffiller.com/mpages/track/
+||pdfforge.org/api/kd-gdpr-cc
 ||pdfsearchhq.com^
 ||pdftfe.thekooples.com^
 ||pdgknglzhohbi.online^
@@ -140314,6 +140319,7 @@ zyro.com##.zyro-cookies
 ||tag.boulanger.fr^
 ||tag.brandcdn.com^
 ||tag.cdnmaster.cn^
+||tag.contentanalytics.jp^$third-party
 ||tag.cribnotes.jp^
 ||tag.digitaltarget.ru^
 ||tag.digops.sincro.io^
@@ -144831,6 +144837,7 @@ zyro.com##.zyro-cookies
 ||track.recreativ.ru^
 ||track.reservationcounter.com^
 ||track.rheinpfalz.de^
+||track.robee.tech^$third-party
 ||track.roomster.com^
 ||track.rundschau-online.de^
 ||track.searchignite.com^
@@ -145162,6 +145169,8 @@ zyro.com##.zyro-cookies
 ||tracking.carsales.com.au^
 ||tracking.cat898.com^
 ||tracking.cdiscount.com^
+||tracking.cds.dmm.co.jp^
+||tracking.cds.dmm.com^
 ||tracking.cello-square.com^
 ||tracking.cengage.com^
 ||tracking.cenomicenters.com^
@@ -150359,6 +150368,7 @@ zyro.com##.zyro-cookies
 ||vaugroar.com^
 ||vaujoathooroo.net^
 ||vauloops.net^
+||vault.gostatera.com^
 ||vaultwrite.com^
 ||vaungbwpvyfn.com^
 ||vauphwgisneug.life^
