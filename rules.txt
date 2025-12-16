@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-12-16 09:50:57（北京时间） 
-! Total count: 161477
+! Version: 2025-12-16 20:38:21（北京时间） 
+! Total count: 161483
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16257,6 +16257,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .top/*q=*form=*&*url=http*$third-party
 .top/?token=$third-party
 .top/gluinfo.php?s=$third-party
+.top:*/js.php?z=*=$third-party
 .tourlane.com/servlet/servlet.ImageServer?$image
 .tradewhy.cn//openemail/$image
 .travelperk.com/e/o/$image
@@ -17223,6 +17224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /clear.gif?
 /click-tracking.js
 /click.*/q/*$image
+/click.comicomi-studio.com/mail/u/*$image
 /click.em.nike.com/*$image
 /click.email.$image
 /click.instahyre.com/*$image
@@ -42786,6 +42788,7 @@ zyro.com##.zyro-cookies
 ||670t5x.cn^
 ||6711.com^
 ||671c.pandasuite.io^
+||6726lmym.top^
 ||6764a4b67d.com^
 ||676759a2a4.com^
 ||6788787.com^
@@ -80137,6 +80140,7 @@ zyro.com##.zyro-cookies
 ||fieslobwg.com^
 ||fiexpectthat.org^
 ||fifecostouwoo.net^
+||fifzsym.top^
 ||fight.offtherecord.com^
 ||fightingdesert.com^
 ||fightingleatherconspicuous.com^
@@ -109454,6 +109458,7 @@ zyro.com##.zyro-cookies
 ||ms.topschooljobs.org^
 ||ms.vipstatic.com^
 ||ms.vk.com^
+||ms.vk.ru^
 ||ms1.morganstanley.com^
 ||ms3t.club^
 ||msa-emea.secureforms.partnermcafee.com^
@@ -151478,6 +151483,7 @@ zyro.com##.zyro-cookies
 ||vk.com/js/lib/px.js
 ||vk.com/rtrg?
 ||vk.com/videostats.php
+||vk.ru/rtrg
 ||vkanalytics.net^
 ||vkatqrbcrdyta.site^
 ||vkbvny.ddanzi.com^
