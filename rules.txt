@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-12-18 09:46:52（北京时间） 
-! Total count: 162129
+! Version: 2025-12-18 20:37:07（北京时间） 
+! Total count: 162136
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -16130,6 +16130,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .goodwell18.com/track/
 .google-analytics.com/
 .gruene.de/lists/ut.php$image
+.heytapmobi.com
 .hilton.com/subscription/watermark.gif?
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
@@ -16613,6 +16614,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_stat/log/*
 /_stat/log_
 /_static/deliver.js?nonce=$script,~third-party
+/_t/open/*$image
 /_tracking/*
 /_vercel/insights/script.js
 /_vercel/speed-insights/script.js
@@ -16736,6 +16738,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ajax/libs/cookieconsent2$domain=~membersuite.com|~la-becanerie.com|~rijbewijskeuringennederland.nl|~download.pixelexperience.org|~ceramtec-group.com
 /ajax/log?
 /ajax/stat/*
+/ajax/whereami$ping
 /ajax_video_counter.php?
 /ajaxlog?
 /akam/*/pixel_
@@ -28783,6 +28786,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://backstory.ebay.
 ://beacon.*/track
 ://blue.*/script.js
+://c.groovehq.com/*.gif
 ://cl.melonbooks.co.jp/c/$image
 ://client.rum.
 ://cmpworker.
@@ -28800,6 +28804,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm.*.js?st=
 ://gtrack.*/dye
+://i.*@groovehq.com.gif$image
 ://insights-collector.
 ://internal-matomo.
 ://l.*/counter.php?id=$script,~third-party
@@ -49472,6 +49477,7 @@ zyro.com##.zyro-cookies
 ||adfancy.com.cn^
 ||adfbybjrsn.net^
 ||adfeedstrk.com^
+||adfenix.com^$third-party
 ||adfgetlink.net^
 ||adfile.wifi8.com^
 ||adfill.adview.cn^
@@ -100933,6 +100939,7 @@ zyro.com##.zyro-cookies
 ||log.xiaozuowen.net^
 ||log.ycapp.yiche.com^
 ||log.yex.youdao.com^
+||log.zcool.com.cn^
 ||log.zdnet.co.kr^
 ||log.zijieapi.com^
 ||log.zongheng.com^
@@ -153520,6 +153527,7 @@ zyro.com##.zyro-cookies
 ||web-guardian.xyz^
 ||web-ivcbrasil-tag.s3.us-west-2.amazonaws.com^
 ||web-perf.booking.com^
+||web-rabbit.meitustat.com/report?
 ||web-security.cloud^
 ||web-stat.*^
 ||web-stat.com^$third-party
@@ -160385,7 +160393,6 @@ zyro.com##.zyro-cookies
 ||zcnnn.com^
 ||zcode17.com^
 ||zconaenvbcslb.space^
-||zcool.com.cn/track/
 ||zcoptry.com^
 ||zcorolydmbaha.space^
 ||zcoup.com^
