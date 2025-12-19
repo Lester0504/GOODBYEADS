@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-12-19 09:50:05（北京时间） 
-! Total count: 162135
+! Version: 2025-12-19 20:35:44（北京时间） 
+! Total count: 162138
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -29010,7 +29010,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
 @@||api-public.roland.com/geoip$domain=bosstoneexchange.com
-@@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.apolomedia.com/static/libs/event-tracking.min.js$script
@@ -29705,6 +29704,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@||spark.co.nz/content/*/utag.sync.js$domain=skinny.co.nz
 @@||speedcurve.com/js/lux.js$script,domain=tv8.it
+@@||spezialklinik-neukirchen.de/matomo/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||spoc.sydtrafik.dk/CherwellPortal/dist/app/common/analytics/Analytics.js$~third-party
 @@||sports.ru^*/adfox.$xmlhttprequest
@@ -29804,7 +29804,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||tracklog.58.com/referrer_ershouche_m_Now.js$domain=m.renrenche.com
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
-@@||trbo.com/plugin/trbo_$script,domain=blau.de
 @@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
 @@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
@@ -53819,6 +53818,7 @@ zyro.com##.zyro-cookies
 ||api-unisearch.hismarttv.com^
 ||api-upgrade.coocaa.ottcn.com^
 ||api-v3.findify.io/v3/feedback
+||api-v4.trbo.com*plvid=$third-party,xmlhttprequest
 ||api-verify.flurry.com^
 ||api-vidaaasst.hismarttv.com^
 ||api-visitor-analytics.intercom.com^
@@ -77839,6 +77839,7 @@ zyro.com##.zyro-cookies
 ||epimg.net/js/gdt/
 ||epimg.net/js/vr/vrs.
 ||epipenexpiryservice.com^
+||episerver.net/ia.js
 ||epitrack.com^
 ||epitrack.com^$third-party
 ||epixkf.dentrodahistoria.com.br^
@@ -125973,6 +125974,7 @@ zyro.com##.zyro-cookies
 ||rulroompaulooth.net^
 ||rultiltougnengo.net^
 ||rulwph.xyz^
+||rum-collector.leaderint.workers.dev^
 ||rum-collector.pingdom.net^
 ||rum-ingress-coralogix.com^
 ||rum-static.pingdom.net^
@@ -141860,6 +141862,7 @@ zyro.com##.zyro-cookies
 ||telemetry.soundcloud.com^
 ||telemetry.stryker.com^
 ||telemetry.stytch.com^
+||telemetry.svc.transifex.net^
 ||telemetry.tableausoftware.com^
 ||telemetry.tradingview.com^
 ||telemetry.transcend.io^
@@ -146633,7 +146636,6 @@ zyro.com##.zyro-cookies
 ||trbhhrvyd.net^
 ||trblocked.com^
 ||trbo.com^
-||trbo.com^$third-party
 ||trc-china.taboola.com^
 ||trc-events.taboola.com^
 ||trc-tls13.taboola.com^
@@ -153537,6 +153539,7 @@ zyro.com##.zyro-cookies
 ||web-tracker.smsbump.com^
 ||web-visor.com^
 ||web-visor.com^$third-party
+||web-vitals-script.leaderint.workers.dev^
 ||web.51.la^
 ||web.51fishplace.com^
 ||web.900.la^
