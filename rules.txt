@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-12-24 09:49:28（北京时间） 
-! Total count: 163502
+! Version: 2025-12-24 20:37:05（北京时间） 
+! Total count: 163503
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -31486,8 +31486,8 @@ chargify.com##.gdpr
 charleslandaudentistry.co.uk###cc-container
 charliemonroe.net##.cookie
 chassis-en-bois.fr###cnil, .cnil, #CNIL
-chat.deepseek.com#?#div:has(> .ds-icon + span)
-chat.deepseek.com#?#div:has(> .ds-icon[style*="width: 28px"][style*="height: 28px"])
+chat.deepseek.com#?#.ds-dropdown-menu-option:has-text(下载手机应用)
+chat.deepseek.com#?#button:has(span:contains(下载应用))
 chateauversailles.fr##.bloc-notifications
 chateauxhotels.com###notificationBar
 chathispano.com##.alert-dismissible, .alert-dismissable, .alert--dismissable, .pmd-alert-dismissible
@@ -64736,6 +64736,7 @@ zyro.com##.zyro-cookies
 ||client-analytics.mts.ru^
 ||client-api.ele.me^
 ||client-dmp.suishenyun.cn^
+||client-errors.rebble.io/log-client-error
 ||client-log.box.com^
 ||client-log.karte.io^
 ||client-logger.beta.salemove.com^
