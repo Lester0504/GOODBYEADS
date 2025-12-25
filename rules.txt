@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-12-24 20:47:17（北京时间） 
-! Total count: 163503
+! Version: 2025-12-25 09:22:28（北京时间） 
+! Total count: 163504
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -28813,6 +28813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
 ://load.*.js?st=$~third-party
+://mail01.monex.co.jp/bin/checker?
 ://mailmag.hhcross.hankyu-hanshin.jp/c/*.gif
 ://matomo.$domain=~matomo.dhjensen.dk|~matomo.org
 ://metrics-collector.
@@ -31201,7 +31202,7 @@ bsi-software.com##.we-love-cookies
 bt.com###cookiePreference
 bt.se###root > [class*="fluffy"]
 bta-international.com##.cc-layer
-btsow.pics##a[href^="https://tellme.pw/go/jav"]
+btsow.*##a[href^="https://tellme.pw/go/jav"]
 btv.at##body > .cc
 bubamara.eu##.gdpr-modal-wrapper
 bubble.ru##.notifications
@@ -61113,7 +61114,7 @@ zyro.com##.zyro-cookies
 ||btrqjueuiseqs.space^
 ||btrsagtwkntax.website^
 ||btserve.com^
-||btsow.pics/app/jav$image
+||btsow.lol/app/jav$image
 ||btstats.benakt.com^
 ||btstats.devtribu.fr^
 ||btsvad8.com^
@@ -99323,6 +99324,7 @@ zyro.com##.zyro-cookies
 ||lemonsandjoy.com^
 ||lemouwee.com^
 ||lempogqzxbfss.website^
+||lemrock.com/v1/publishers/tracking/
 ||lemurescoaler.shop^
 ||lemurheave.shop^
 ||lenaursaut.net^
@@ -161504,7 +161506,6 @@ zyro.com##.zyro-cookies
 ||z444o.com^
 ||z444o.com^$third-party
 ||z492.ctinsider.com^
-||z4a.net^
 ||z4v.icu^
 ||z5.cnzz.com^
 ||z5y.bnnxklj.cn^
