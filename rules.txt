@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2025-12-28 10:01:55（北京时间） 
-! Total count: 164185
+! Version: 2025-12-28 20:34:45（北京时间） 
+! Total count: 164210
 #
 #          ◆ G O O D B Y E A D S ◆
 # --------------------------------------------
@@ -17177,6 +17177,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
+/cdn-cgi/rum|
 /cdn-cgi/zaraz/*
 /cdn_cookie_service.html
 /cedexis.js
@@ -18969,6 +18970,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pageviews.php?type=
 /pageviews?token=
 /pandectes-core.js
+/parceldns.com/t/*$image
 /parsely.js
 /particles/analytics.js
 /partner-analytics/*
@@ -19871,6 +19873,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track_visit.js
 /track_visit?
 /track_visitor?
+/trackbee.min.js
 /trackconversion?
 /tracker.ga.
 /tracker.gif?
@@ -31658,7 +31661,6 @@ cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
 cn.bing.com,cn.bing.net##.b_bza_pole
-cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -49825,6 +49827,7 @@ zyro.com##.zyro-cookies
 ||admeridianads.com^
 ||admetric.io^
 ||admetric.io^$third-party
+||admetrics.events^
 ||admetricspro.com^
 ||admgr.qingting.fm^
 ||admhbl.xyz^
@@ -52251,6 +52254,7 @@ zyro.com##.zyro-cookies
 ||allowingirksome.com^
 ||allowsalmond.com^
 ||allowwholikedtoco.com^
+||alloy-web.zvuk.com^
 ||alloydigital.com^
 ||alloystart.com^
 ||allpass.salemwebnetwork.com^
@@ -52470,6 +52474,7 @@ zyro.com##.zyro-cookies
 ||amazon-email.branch.rocks^
 ||amazon.com/1/aiv-web-player/1/OE^
 ||amazon.com/1/events/$domain=~aws.amazon.com
+||amazon.com/cs/uedata
 ||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
 ||amazonaax.com^
@@ -54107,6 +54112,7 @@ zyro.com##.zyro-cookies
 ||api.shuzilm.cn^
 ||api.skyworthiot.com^
 ||api.so.lianmeng.360.cn^
+||api.sovendus.com/js/landing.js
 ||api.ssp.adoceans.com^
 ||api.ssp.xcultur.com^
 ||api.ssp.zxrtb.com^
@@ -54832,6 +54838,7 @@ zyro.com##.zyro-cookies
 ||app.pandasuite.io^
 ||app.panomoments.com^
 ||app.partner.fisglobal.com^
+||app.partnerboost.com^
 ||app.pawsket.com^
 ||app.payments-response.americanexpress.co.uk^
 ||app.payments.53.com^
@@ -55063,6 +55070,7 @@ zyro.com##.zyro-cookies
 ||app.utrockets.com^
 ||app.uu.cc^
 ||app.vahak.in^
+||app.varify.io/varify.js
 ||app.vidds.ee^
 ||app.villanova.com^
 ||app.virdee.co^
@@ -56750,6 +56758,7 @@ zyro.com##.zyro-cookies
 ||avzlqdmryrdbj.website^
 ||avzmhurdchosj.space^
 ||aw.kejet.net^
+||aw.perlesandco.com^
 ||awaidxotovdoe.online^
 ||awaitingcoordinatelassitude.com^
 ||awaitinggirl.net^
@@ -63002,6 +63011,7 @@ zyro.com##.zyro-cookies
 ||cdn.7nsc.cn^
 ||cdn.810236.com^
 ||cdn.9823df.com^
+||cdn.9gtb.com^
 ||cdn.ad.page^
 ||cdn.ad.xiaomi.com^
 ||cdn.ad4game.com^
@@ -86078,6 +86088,7 @@ zyro.com##.zyro-cookies
 ||gpr.hu/pr.pr?
 ||gpr.hu^
 ||gpr.hu^$third-party
+||gproxy-beta.mableai.workers.dev/wtag/js
 ||gpscard.cn^
 ||gpsecureads.com^
 ||gpseyeykuwgn.rocks^
@@ -92061,6 +92072,7 @@ zyro.com##.zyro-cookies
 ||impliednauseous.com^
 ||implix.com^
 ||impolite-film.pro^
+||imponestvional.com^
 ||importanceexhibitedamiable.com^
 ||important-speed.pro^
 ||importantmeat.com^
@@ -96227,6 +96239,7 @@ zyro.com##.zyro-cookies
 ||js.blogdaka.cc^
 ||js.brow.si^
 ||js.cdjqjy.com^
+||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
 ||js.cmoa.pro^
 ||js.cncrk.com^
 ||js.cnmo.com^
@@ -101150,6 +101163,7 @@ zyro.com##.zyro-cookies
 ||listoukectivetr.com^
 ||listrak.com/api/Activity/click
 ||listrak.com/api/Activity/impression
+||listrakbi.com/ModalImpression.ashx?
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
 ||lists.ccmbg.com^
@@ -108741,7 +108755,6 @@ zyro.com##.zyro-cookies
 ||metrics.stockhead.com.au^
 ||metrics.store.irobot.com^
 ||metrics.strategiccoach.com^
-||metrics.streaks.jp^
 ||metrics.striderite.com^
 ||metrics.strokeawareness.com^
 ||metrics.stubhub.co.uk^
@@ -114637,6 +114650,8 @@ zyro.com##.zyro-cookies
 ||obrazy.dlabiznesu.pracuj.pl^
 ||obrienpigmeat.click^
 ||obrqts.hudforeclosed.com^
+||obs.branderblender.com^
+||obs.du89buildings.com^
 ||obs.esnlocco.com^
 ||obs.jollyoutdoorjogger.com^
 ||obs.system1onesource.com^
@@ -125222,6 +125237,7 @@ zyro.com##.zyro-cookies
 ||reekiercoupler.com^
 ||reelgood.com/v3.0/checkip
 ||reelnk.com^
+||reelup.io^$third-party
 ||reenakun.com^
 ||reeokx.reima.com^
 ||reepsotograg.net^
@@ -131837,6 +131853,7 @@ zyro.com##.zyro-cookies
 ||shopmyshelf.us^
 ||shopnetic.com^
 ||shopnetic.com^$third-party
+||shopper.shop.pe/input.js
 ||shopper.shop.pe/pixel.png
 ||shopperapproved.com^
 ||shoppers-test.instacartemail.com^
@@ -142124,6 +142141,7 @@ zyro.com##.zyro-cookies
 ||t.msubobcats.com^
 ||t.msuspartans.com^
 ||t.msz-bahn.de^
+||t.mydialoginsight.com^
 ||t.mynexity.fr^
 ||t.nativendo.de^
 ||t.navysports.com^
@@ -142157,6 +142175,7 @@ zyro.com##.zyro-cookies
 ||t.paciolan.com^
 ||t.pagesix.com^
 ||t.pandemictoolkit.com^
+||t.paypal.com/ts?
 ||t.paypal.com^
 ||t.paypal.com^$image
 ||t.pbr.com^
@@ -146266,6 +146285,7 @@ zyro.com##.zyro-cookies
 ||tr.mes-bonsplans.be^
 ||tr.mes-prestataires.fr^
 ||tr.message.maaf.fr^
+||tr.metaflow.de^
 ||tr.mh-connect.moethennessy.com^
 ||tr.mhch.moet.hennessy.com^
 ||tr.mhdconnect.mhdfrance.fr^
@@ -147090,6 +147110,7 @@ zyro.com##.zyro-cookies
 ||trackadshub.com^$third-party
 ||trackalyzer.com^
 ||trackalyzer.com^$third-party
+||trackbee.ai^$third-party
 ||trackboxx.info^
 ||trackboxx.info^$third-party
 ||trackcb.com^
@@ -150234,6 +150255,7 @@ zyro.com##.zyro-cookies
 ||ufaexpert.com^
 ||ufbpqmryrrctn.site^
 ||ufcxoaidboqxt.site^
+||ufe.helixo.co/scripts/sdk.min.js
 ||ufeonk.viravira.co^
 ||ufeuca.icu^
 ||uffntgsdxwyog.online^
@@ -151559,6 +151581,7 @@ zyro.com##.zyro-cookies
 ||useproof.com^$third-party
 ||user-api.com^
 ||user-api.com^$third-party
+||user-back.ggcorp.me/statistics
 ||user-clicks.com^
 ||user-clicks.com^$third-party
 ||user-metrics.onthemarket.com^
@@ -156128,6 +156151,7 @@ zyro.com##.zyro-cookies
 ||wgoeisdnlk.com^
 ||wgowyqhtippwlgn.xyz^
 ||wgpepw.boatoutfitters.com^
+||wgs.wgs-static.com^
 ||wgsaralfncvvb.online^
 ||wgsas.com^
 ||wgsas.com^$third-party
@@ -157050,6 +157074,7 @@ zyro.com##.zyro-cookies
 ||worjeklmq.com^
 ||work.3dmgame.com/js/statistics.js
 ||work.construction.com^
+||work.selecdoo.com^
 ||workback.net^
 ||worker-app-dev.buildforce.com^
 ||worker-app-staging.buildforce.com^
