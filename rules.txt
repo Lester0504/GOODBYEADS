@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-12 09:59:55（北京时间） 
-! Total count: 162836
+! Version: 2026-01-12 20:40:46（北京时间） 
+! Total count: 162842
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -29528,6 +29528,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
 @@||try.abtasty.com^$script,domain=tickpick.com
+@@||tt.personio.com/9sgqlkuag.js$script,domain=personio.com
 @@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
 @@||tube.e.kuaishou.com^
 @@||tunein.com/api/v1/comscore$~third-party
@@ -75422,6 +75423,7 @@ zyro.com##.zyro-cookies
 ||eaylmi.icu^
 ||eayreyyfvp.com^
 ||eazvcexgpvxnp.site^
+||eazydata.io^$third-party
 ||eazyleads.com^
 ||eb.bewithyou.jp^
 ||eb.informabi.com^
@@ -98613,6 +98615,7 @@ zyro.com##.zyro-cookies
 ||leads.autohome.com.cn^
 ||leads.commercial.keurig.com^
 ||leads.goldenshovel.com^
+||leads.whatboxdigital.com^
 ||leadsecnow.com^
 ||leadsimilar.com^
 ||leadsius.com^
@@ -115901,6 +115904,7 @@ zyro.com##.zyro-cookies
 ||ourot.com^
 ||ours3care.com^
 ||oursoonethair.net^
+||oursprivacy.com^$third-party
 ||oursrestrict.com^
 ||ourstats.de^
 ||ourstats.de^$third-party
@@ -117426,6 +117430,7 @@ zyro.com##.zyro-cookies
 ||peasbishopgive.com^
 ||peasgutsprogramme.com^
 ||peasseventy.com^
+||peasy.so^$third-party
 ||pebblemedia.be^
 ||pebrihmethwa.com^
 ||pebx.pl^
@@ -146414,6 +146419,7 @@ zyro.com##.zyro-cookies
 ||tracking.piercingladies.de^
 ||tracking.pioneer.com^
 ||tracking.pirelli.com^
+||tracking.pixelz.com^
 ||tracking.plascoid.com^
 ||tracking.plattformad.com^
 ||tracking.plattformad.com^$third-party
