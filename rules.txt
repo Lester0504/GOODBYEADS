@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-13 20:52:28（北京时间） 
-! Total count: 162842
+! Version: 2026-01-14 09:28:16（北京时间） 
+! Total count: 162847
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -19644,6 +19644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /statscounter/*
 /statscript.js
 /statsd_proxy
+/statsig-proxy/*
 /statstracker.
 /statstracker/*
 /statstracker?
@@ -65687,6 +65688,7 @@ zyro.com##.zyro-cookies
 ||conceivesaucerfalcon.com^
 ||concentratetogethersubmarine.com^
 ||concentrationminefield.com^
+||conceptualhq.com/api/v1/track?
 ||concerned-winner.pro^
 ||concernedchickens.com^$third-party
 ||concerningblasphemerollback.com^
@@ -67919,6 +67921,7 @@ zyro.com##.zyro-cookies
 ||curryfielddistribution.com^
 ||cursednomad.com^
 ||curselsaveeps.com^
+||cursor.com/analytics/
 ||cursorpreach.com^
 ||cursors-4u.net^
 ||curtaincows.com^
@@ -70196,6 +70199,7 @@ zyro.com##.zyro-cookies
 ||data.mailtest.lexmei.online^
 ||data.main-ding.de^
 ||data.mainpost.de^
+||data.manga-passion.de^
 ||data.mapp.com^
 ||data.markadsmal.islandsbanki.is^
 ||data.marketing-madridista-junior.realmadrid.com^
@@ -128264,6 +128268,7 @@ zyro.com##.zyro-cookies
 ||scavelbuntine.life^
 ||sccdn.f2zd.com^
 ||scdcd333.cn^
+||scdn.literatur-couch.de^
 ||scdng.com^
 ||scdown.qq.com^
 ||scdzzqlzbvzrx.website^
