@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-15 09:53:52（北京时间） 
-! Total count: 163495
+! Version: 2026-01-15 20:39:42（北京时间） 
+! Total count: 163499
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -20320,6 +20320,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wrapperMessagingWithoutDetection.js$domain=vg.no|boerse.de|bt.no|liberation.fr
 /wreport.js
 /writelog.js
+/ws-tracking.js
 /ws5_eucookie/*
 /ws_client?zone=gen$websocket
 /wstat.pl
@@ -40065,6 +40066,7 @@ www.mysteel.com##div[class*="tmLink ADload"]
 www.mysteel.com##div[class*="topAD"]
 www.olevod.com##.B1Lss,.B1Rss
 www.qianwen.com##.leading-7.text-center.w-16.h-7.rounded-8.text-theme.text-12.bg-weaken
+www.qianwen.com#?#button:contains(下载电脑版)
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 www.wdbay.com##[class][classname]
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
@@ -75916,6 +75918,7 @@ zyro.com##.zyro-cookies
 ||edge-hls.doppiocdn.live/ping
 ||edge-hls.doppiocdn.net/ping
 ||edge-mobile-static.azureedge.net.iberostar.com^
+||edge.adobedc.net/ee/v1/collect?
 ||edge.afco.com^
 ||edge.bell.ca^
 ||edge.bigbrothercanada.ca^
@@ -90031,6 +90034,7 @@ zyro.com##.zyro-cookies
 ||ibbmfq.decameron.com^
 ||ibbmly.moneymetals.com^
 ||ibckqyqjzqqxx.space^
+||ibclick.stream^
 ||ibdhurhzedcpx.online^
 ||ibeat-analytics.com^
 ||ibeat-analytics.com^$third-party
@@ -96589,7 +96593,7 @@ zyro.com##.zyro-cookies
 ||kameleoon.com^$third-party
 ||kameleoon.eu^
 ||kameleoon.eu^$third-party
-||kameleoon.io/visit/events?
+||kameleoon.io/visit/
 ||kamin-premium.ru^
 ||kaminari.click^
 ||kaminari.click^$third-party
