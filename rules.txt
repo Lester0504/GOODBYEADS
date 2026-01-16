@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-16 09:55:31（北京时间） 
-! Total count: 163500
+! Version: 2026-01-16 20:38:16（北京时间） 
+! Total count: 163505
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -16891,7 +16891,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/pageview/*$ping
 /api/pageview?
 /api/pagevisits
-/api/ping?$~xmlhttprequest
 /api/pixel?
 /api/reqAnalytic/*
 /api/rest/settings/public?fields=endUserAgreement
@@ -31383,6 +31382,7 @@ cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
 cn.bing.com,cn.bing.net##.b_bza_pole
+cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -52567,6 +52567,7 @@ zyro.com##.zyro-cookies
 ||analytics.americanfunds.com^
 ||analytics.amig.com^
 ||analytics.andrewsmith.com.au^
+||analytics.animexx.de^
 ||analytics.api.justeattakeaway.com^
 ||analytics.apnewsregistry.com^
 ||analytics.archive.org^
@@ -64104,6 +64105,7 @@ zyro.com##.zyro-cookies
 ||classroomlf.com^
 ||classroomseven.com^
 ||claude.ai/sentry^
+||claydar.com^$third-party
 ||claynelsonlifebalance.actonservice.com^
 ||clb.yahoo.co.jp^
 ||clbaf.com^
@@ -65108,6 +65110,7 @@ zyro.com##.zyro-cookies
 ||cnstats.ru^
 ||cnstats.ru^$third-party
 ||cnstrc.com/behavior?
+||cnstrc.com^
 ||cnsxrfsrfpsvf.site^
 ||cnt-tm-1.com^
 ||cnt.3dmy.net^
@@ -78256,6 +78259,7 @@ zyro.com##.zyro-cookies
 ||et.w.inmobi.cn^
 ||et.w.inmobi.com^
 ||et363.com^
+||eta.animenewsnetwork.com^
 ||etagumlbvhmuk.online^
 ||etahub.com^
 ||etahub.com^$third-party
@@ -117578,6 +117582,7 @@ zyro.com##.zyro-cookies
 ||pbcde.com^
 ||pbcdxcodlooba.online^
 ||pbd.sogou.com^
+||pbd.yahoo.com/data/analytics
 ||pbecrm.aquanet.ru^
 ||pbestrdinkbff.online^
 ||pbfefd.icu^
