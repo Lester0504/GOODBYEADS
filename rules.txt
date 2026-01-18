@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-18 10:02:09（北京时间） 
-! Total count: 164134
+! Version: 2026-01-18 20:34:48（北京时间） 
+! Total count: 164139
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -28513,6 +28513,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://datacollector.*/event
 ://dwh-prod.*/de.npg/
 ://e.*/open?$image
+://edge-client/$domain=barrons.com
 ://elqtrk.
 ://email.*/o/$image
 ://emailtracking.$image
@@ -28911,6 +28912,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||d2wy8f7a9ursnm.cloudfront.net/v8/bugsnag.min.js$script,domain=forecastapp.com
 @@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
+@@||dan-ball.jp/en/javagame/mine/data/d.gif$image,~third-party
 @@||darkino.online^$generichide
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
@@ -54780,6 +54782,7 @@ zyro.com##.zyro-cookies
 ||app.tanwan.com^
 ||app.task.io^
 ||app.tech.pentontech.com^
+||app.termly.io/api/*/statistics
 ||app.termly.io/embed.min.js$script
 ||app.test.elly.com^
 ||app.texasperformingarts.org^
@@ -62699,6 +62702,7 @@ zyro.com##.zyro-cookies
 ||cd828.com^
 ||cdafsilizdoqm.website^
 ||cdanjoyner4374.myre.io^
+||cdapi.collegedunia.com^
 ||cdauseplnacwd.website^
 ||cdb4bd7cb1.com^
 ||cdbgmj12.com^
@@ -76041,7 +76045,6 @@ zyro.com##.zyro-cookies
 ||edentwithought.org^
 ||edesf.xyzxmark.cn^
 ||edethrelhf.com^
-||edge-client^$script,domain=barrons.com
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.live/ping
 ||edge-hls.doppiocdn.net/ping
@@ -110416,6 +110419,7 @@ zyro.com##.zyro-cookies
 ||mp.cheering3d.com^
 ||mp.imgur.com^
 ||mp.pitchero.com^
+||mp.sintra.ai^
 ||mp.sohu.com^
 ||mp.theepochtimes.com^
 ||mp.weixin.qq.com/mp/appmsgreport?
@@ -152763,6 +152767,7 @@ zyro.com##.zyro-cookies
 ||veqvek.thebeaverton.com^
 ||veqvek.tsn.ca^
 ||ver.touclick.com^
+||veradata.network^
 ||verbalimpliedgorilla.com^
 ||verbalpedestalchilly.com^
 ||verbassistance.com^
