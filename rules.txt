@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-20 20:54:56（北京时间） 
-! Total count: 164760
+! Version: 2026-01-21 09:27:57（北京时间） 
+! Total count: 164769
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -38154,6 +38154,7 @@ sohu.com##.phone-scan
 sohu.com##.top-bill-wrapper[data-spm='a-tb'][data-spm-stop='init']
 sohu.com##A[href='javascript:void(0);']
 sohu.com##DIV[id^="ceans_"]
+sohu.com##IFRAME[frameborder='0']
 sohu.com##IFRAME[width='325'][frameborder='0']
 sohu.com##[data-spm-content='ad']
 sohu.com##[data-spm^='ad-']
@@ -69570,6 +69571,7 @@ zyro.com##.zyro-cookies
 ||d3asksgk2foh5m.cloudfront.net^
 ||d3b2hhehkqd158.cloudfront.net^
 ||d3b4u8mwtkp9dd.cloudfront.net^
+||d3banl4fzuxsjl.cloudfront.net^
 ||d3bbyfw7v2aifi.cloudfront.net^
 ||d3beefy8kd1pr7.cloudfront.net^
 ||d3bfricg2zhkdf.cloudfront.net^
@@ -69640,6 +69642,7 @@ zyro.com##.zyro-cookies
 ||d3ikgzh4osba2b.cloudfront.net^
 ||d3imksvhtbujlm.cloudfront.net^
 ||d3iouejux1os58.cloudfront.net^
+||d3ip4t8fp90x81.cloudfront.net^
 ||d3ithbwcmjcxl7.cloudfront.net^
 ||d3j1weegxvu8ns.cloudfront.net^
 ||d3j3yrurxcqogk.cloudfront.net^
@@ -69863,6 +69866,7 @@ zyro.com##.zyro-cookies
 ||d9.sina.com.cn^
 ||d91i6bsb0ef59.cloudfront.net^
 ||d949b51857.com^
+||d94qwxh6czci4.cloudfront.net^
 ||d95bda138b.com^
 ||d97d3231b2.com^
 ||d980ffe9b6.com^
@@ -73226,6 +73230,7 @@ zyro.com##.zyro-cookies
 ||dlsw.baidu.com^
 ||dlsw.br.baidu.com^
 ||dlswbr.baidu.com^
+||dlthst9q2beh8.cloudfront.net^
 ||dltqxz76sim1s.cloudfront.net^
 ||dltvkwr7nbdlj.cloudfront.net^
 ||dltvynzqambdl.space^
@@ -82506,6 +82511,7 @@ zyro.com##.zyro-cookies
 ||ftiodfqk.com^
 ||ftiswpgasqepa.site^
 ||ftjcfx.com^
+||ftlaunchpad.ai^
 ||ftm.fluencyinc.co^
 ||ftmgvahkpwdrr.space^
 ||ftmsyy.jbl.com.br^
@@ -127660,6 +127666,7 @@ zyro.com##.zyro-cookies
 ||rumsroots.com^
 ||rumstat.cdnvideo.ru^
 ||rumt-sg.com^
+||rumt-zh.com^
 ||run-syndicate.com^
 ||run.app/api/pixel-event
 ||run.app/data.log
@@ -131301,6 +131308,7 @@ zyro.com##.zyro-cookies
 ||services.haaretz.co.il^$ping
 ||services.haaretz.com/ds/impression
 ||services.haaretz.com/ms-gstat-campaign/
+||services.nexx.cloud/samaritan/
 ||services.princes-trust.org.uk^
 ||services.radio-canada.ca/metrik/
 ||services.releasepoint.com^
@@ -147182,6 +147190,7 @@ zyro.com##.zyro-cookies
 ||track.ferraridealers.com^
 ||track.financialfairness.org.uk^
 ||track.fusionmedia.io^
+||track.getgobot.com^
 ||track.gleeph.net^
 ||track.go.shokubai.co.jp^
 ||track.healthcare-distribution.com^
