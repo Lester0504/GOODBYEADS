@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-23 09:54:55（北京时间） 
-! Total count: 165350
+! Version: 2026-01-23 20:40:33（北京时间） 
+! Total count: 165352
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -16912,7 +16912,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/v2/collector
 /api/v2/jsonlogger
 /api/v3/getPageVisits
-/api/v3/getStatsigResults
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
 /api_adlog.php?
@@ -29439,6 +29438,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
+@@||src.litix.io/*/bitmovin-mux.js$domain=shoof.alkass.net
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
@@ -70491,6 +70491,7 @@ zyro.com##.zyro-cookies
 ||data.emails.ringcentral.com^
 ||data.emails.vidacaixa.es^
 ||data.emailservice.vattenfall.nl^
+||data.emb-api.com^
 ||data.embeddables.com^
 ||data.emdev.officedepot.com^
 ||data.emea.coca-cola.com^
@@ -110268,6 +110269,7 @@ zyro.com##.zyro-cookies
 ||mlxbymozsaemn.space^
 ||mlxiblodgnbew.site^
 ||mlxniwjfsxefz.site^
+||mlytics.com^$third-party
 ||mlyvzwrcuxtis.online^
 ||mlzcakscicnqn.website^
 ||mlzgazz.cn^
