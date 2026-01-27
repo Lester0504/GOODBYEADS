@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-27 10:01:37（北京时间） 
-! Total count: 3667
+! Version: 2026-01-27 20:42:06（北京时间） 
+! Total count: 3670
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@.2o7.net/$domain=today.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -2498,6 +2498,7 @@
 @@||middleware.p7s1.io/galileo/v1/tracking$domain=galileo.tv
 @@||middleware.p7s1.io^$app=at.zappn
 @@||milb.com/shared/scripts/bam.tracking.js
+@@||mixpanel.com/public/$subdocument,domain=iframely.net
 @@||mixpanel.com/track/?data=$xmlhttprequest,domain=eloan.co.il
 @@||mixpanel.com^$domain=mixpanel.com
 @@||mkto-sj250060.com^$domain=go.honeywellhome.com
@@ -3224,6 +3225,7 @@
 @@||static.nintendolife.com/themes/base/javascript/fingerprint.js
 @@||static.parsely.com/p.js$domain=nfl.com
 @@||static.parsely.com^$script,domain=dailystar.co.uk|express.co.uk|nydailynews.com
+@@||static.pinpoll.com^$subdocument,domain=iframely.net
 @@||static.rpxnow.com/js/lib/rpx.js$domain=colbertnation.com|thedailyshow.com
 @@||static.trbo.com/img/$domain=o2online.de
 @@||static.vocstatic.com/*/voonto.js$domain=secure.hoy.es
@@ -3387,6 +3389,7 @@
 @@||tongji.koowo.cn^
 @@||toolbox.dfb.de/img/partner-logos^
 @@||tools.finra.org/monitoring/adrum_init.js$domain=tools.finra.org
+@@||tools.pinpoll.com^$script,subdocument,domain=iframely.net
 @@||tools.services.tvn.pl/maertsg.js$domain=tvn24.pl
 @@||top.list.ru/counter?id=$domain=crimea-kurort.com
 @@||top.list.ru/jump?from=$domain=pvo.guns.ru

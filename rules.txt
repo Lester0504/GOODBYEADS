@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-27 10:01:37（北京时间） 
-! Total count: 166088
+! Version: 2026-01-27 20:42:06（北京时间） 
+! Total count: 166094
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -29199,6 +29199,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||miaozhen.com^$domain=miaozhen.com
 @@||microsoftazuresponsorships.com^
+@@||mixpanel.com/public/$subdocument,domain=iframely.net
 @@||mixpanel.com/track/?data=$xmlhttprequest,domain=eloan.co.il
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
@@ -29464,6 +29465,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||static.koreus.com/js/advert.js
 @@||static.leaddyno.com/js$script,domain=s4l.us
 @@||static.myfinance.com/widget/$domain=savingspro.org
+@@||static.pinpoll.com^$subdocument,domain=iframely.net
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||stats.britishbaseball.org.uk^
 @@||stats.gleague.nba.com/templates/angular/tables/events/shots.html$~third-party
@@ -29519,6 +29521,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||tongji.cn^
 @@||tongji.edu.cn^
 @@||tongji.koowo.cn^
+@@||tools.pinpoll.com^$script,subdocument,domain=iframely.net
 @@||toplay.biz/log_event$~third-party,xmlhttprequest
 @@||toplien.fr^$generichide
 @@||torproject.org^
@@ -43803,6 +43806,8 @@ zyro.com##.zyro-cookies
 ||a.ssl.msdk.qq.com^
 ||a.starstar19999.com^
 ||a.startui19999.com^
+||a.streamed.pk/api/event
+||a.streamed.pk/js/script.js
 ||a.suptube.com^
 ||a.svenskfast.se^
 ||a.swd5.com^
@@ -102378,6 +102383,7 @@ zyro.com##.zyro-cookies
 ||loadedhearts.com^
 ||loader-cdn.azureedge.net^
 ||loader.crosswordsolver.com^
+||loader.mantis-intelligence.com^
 ||loader.netzwelt.de^
 ||loader.the-crossword-solver.com^
 ||loader.word-grabber.com^
