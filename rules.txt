@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-26 20:53:45（北京时间） 
-! Total count: 166088
+! Version: 2026-01-27 09:40:50（北京时间） 
+! Total count: 166089
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -16008,6 +16008,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .acemlna.com/Prod/link-tracker?$image
 .acemlna.com/lt.php?$image
 .acemlnb.com/Prod/link-tracker?$image
+.adhouyi.cn
 .alcmpn.com/
 .animatebookstore.com/c/$image
 .aozorabank.co.jp/r/*/open/$image
@@ -89574,6 +89575,7 @@ zyro.com##.zyro-cookies
 ||homecareresources.rosemarksystem.com^
 ||homedepot-static.com/data-collection/
 ||homedepot.ca/mr/thd-ca-prod.js
+||homedepot.ca/webmetrics/collect
 ||homeeshbecom.org^
 ||homegate.ch/g/collect?
 ||homehardware.actonservice.com^
@@ -111998,8 +112000,6 @@ zyro.com##.zyro-cookies
 ||mushyyoung.com^
 ||music.163.com/device/signature/create/deviceid.js
 ||music.163.com/weapi/activity/downloadpage/config/get
-||music.163.com/weapi/feedback/weblog
-||music.163.com/weapi/pl/count
 ||musicallv.top^
 ||musicalsupposed.com^
 ||musicarbitrary.com^
@@ -152268,6 +152268,7 @@ zyro.com##.zyro-cookies
 ||unicontainers.com^
 ||unicornpride123.com^
 ||unidays.world^
+||unidays.world^$third-party,domain=~myunidays.com
 ||unidentifiedrelatecalled.com^
 ||unidesk.alicdn.com^
 ||unifacetorydom.shop^
