@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-01-28 09:57:35（北京时间） 
-! Total count: 166101
+! Version: 2026-01-28 20:42:46（北京时间） 
+! Total count: 166126
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -16106,6 +16106,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .exponea.com/*/open$image
 .facebook.com/tr/$image
 .facebook.com/tr?$image
+.file-downloads.outbound-links.js
 .fiverr.com/js_event_tracking/v1/track_email_open/$image
 .flipboard.com/usage?
 .fun/*.jss?17*&r=0$third-party
@@ -16119,6 +16120,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .goodwell18.com/track/
 .google-analytics.com/
 .gruene.de/lists/ut.php$image
+.hash.outbound-links.js
 .hilton.com/subscription/watermark.gif?
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
@@ -16187,8 +16189,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .nordvpn.com/q/$image
 .oculus.com/collect/
 .online.costco.com/t?$image
-.outbound-links.pageview-props.revenue.tagged-events.js
+.outbound-links.file-downloads.js
+.outbound-links.tagged-events.js
 .pageview-props.js
+.pageview-props.tagged-events.js
 .personaclick.com/track/$image
 .php?action=browse&
 .php?action_name=
@@ -16207,6 +16211,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .quora.com/qemail/mark_read?
 .recolution.de/tools/emails/open/$image
 .redsift.com/e/o/$image
+.revenue.tagged-events.js
 .revolut.com/q/$image
 .ru/ads/
 .s-pt.jp/mail/info/*/img/_.gif
@@ -16237,6 +16242,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .substack.com/o/$image
 .substackcdn.com/open?$image
 .svc/?tracking_id=
+.tagged-events.outbound-links.js
+.tagged-events.revenue.js
 .telekom-dienste.de/common/1x1_transparent.png
 .theatlantic.com/email.gif?
 .titus.de/oo/$image
@@ -16994,6 +17001,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /awstats_misc_tracker
 /azion-pulse.js
 /aztracker.js
+/azzas-tracker-web@
 /b.banners.impress.
 /b.gif?
 /b.k3r.jp/?a=$image
@@ -18109,6 +18117,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /getlog.gif
 /getstats.js.php
 /gg/gg.js
+/ghost-stats.min.js
 /gigyaGAIntegration.js
 /gingeranalytics.min.js
 /github.com/notifications/beacon=$image
@@ -18540,6 +18549,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /load_analytics.php
 /loader-wp/static/loader.min.js?
 /loader/counter.js
+/loaders/analyticsScript.ts?
 /localga.js
 /locotrack.js
 /log-adblock.php?
@@ -18679,6 +18689,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /matomo.php
 /matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /matomo_video_tracking.js
+/mc4wp-premium/ecommerce3/assets/js/tracker.js
 /mcookie.aspx
 /mcount.cgi?
 /mdp.javascript.gdpr.min
@@ -19067,9 +19078,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixelyoursite/dist/scripts/public.js
 /pixy.gif?
 /planetstat.php
+/plausible.file-downloads.js
 /plausible.js$domain=~plausible.io
 /plausible.manual.js
 /plausible.outbound-links.js$domain=~plausible.io
+/plausible.tagged-events.js
 /player-test-impression?
 /player/stats.php?
 /pleasantpump.com
@@ -19104,6 +19117,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /plugins/wp-vgwort/*
 /pmc-cxense.js
 /pmc-pp-tou/privacy.min.js$domain=rollingstone.com
+/pmfastclick.min.js
 /pointeur.gif?
 /policies/gdpr.js
 /politica-cookies/leyCookies.js
@@ -19115,6 +19129,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /popup/adblocker
 /popup/rodo.min.js
 /popupConsent/*$domain=the-fence.com
+/post-views-counter-pro/js/crawler-detect.js
+/post-views-counter-pro/js/frontend.js
 /post.pinterest.com/q/*$image
 /postcounter.php?
 /postlog?
@@ -19357,10 +19373,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /scmp-int.js$domain=mapy.cz
 /screencount?vcid=
 /scribd_events?
-/script.hash.outbound-links.pageview-props.tagged-events.js
-/script.pageview-props.tagged-events.js
+/script.outbound-links.js
 /script.tagged-events.js
-/script.tagged-events.outbound-links.js
 /script/ico.cookie.
 /script/pixel.js
 /scriptAnalytics.js
@@ -52824,6 +52838,7 @@ zyro.com##.zyro-cookies
 ||analytics.erepublic.com^
 ||analytics.ericafischerphotography.com^
 ||analytics.esporteinterativo.com.br^
+||analytics.eternagame.org^
 ||analytics.eventbrite.com^
 ||analytics.everythingstream.com^
 ||analytics.evo.co.uk^
@@ -52938,6 +52953,7 @@ zyro.com##.zyro-cookies
 ||analytics.lunge.de^
 ||analytics.m7g.twitch.tv^
 ||analytics.maikel.pro^
+||analytics.maileon.com^
 ||analytics.mailmunch.co^
 ||analytics.makeitmeme.com^
 ||analytics.makro.be^
@@ -63141,6 +63157,7 @@ zyro.com##.zyro-cookies
 ||cdn.taboola.com^
 ||cdn.taboolasyndication.com^
 ||cdn.tanx.com^
+||cdn.tds.bid/bid.js
 ||cdn.thisisdone.com/gdpr/$script
 ||cdn.throatbulge.com^
 ||cdn.tianmidian.com^
@@ -68922,6 +68939,7 @@ zyro.com##.zyro-cookies
 ||d.jugnoo.in^
 ||d.kpzip.com^
 ||d.kugou.com^
+||d.lilstts.com^
 ||d.lqrzc.com^
 ||d.m-net.de^
 ||d.mail.levi.com^
@@ -82930,6 +82948,7 @@ zyro.com##.zyro-cookies
 ||fudgedflaked.com^
 ||fudyepnjxwmlm.online^
 ||fudzceoandzhm.website^
+||fuel-design.com/js/script.js
 ||fuelbuck.com^
 ||fueldeck.com^
 ||fueldeck.com^$third-party
@@ -95014,6 +95033,7 @@ zyro.com##.zyro-cookies
 ||itspezprpadkk.site^
 ||itspsmup.com^
 ||itssprout.com^
+||itsstats.wp1.site^
 ||itstuffnews.com^
 ||itsup.com^
 ||itswabluon.com^
@@ -116802,6 +116822,7 @@ zyro.com##.zyro-cookies
 ||online.hnoexpo.com^
 ||online.hsrexpo.com^
 ||online.jtiadvance.co.uk^
+||online.marketing/a.js
 ||online.rwdls.com^
 ||online.rwdstco.com^
 ||online.sharjahart.org^
@@ -129921,6 +129942,7 @@ zyro.com##.zyro-cookies
 ||saluton.cizion.com^
 ||salvador24.com^
 ||salvageapplet.com^
+||salvalaselva.org/plsbl/js
 ||salvationclaimsunfortunately.com^
 ||salvechawia.click^
 ||salvgceyqbtpd.website^
@@ -139400,6 +139422,7 @@ zyro.com##.zyro-cookies
 ||sssvd.china.com^
 ||sssxwsry.com^
 ||sst.babypark.nl^
+||sst.brodo.com^
 ||sst.bwt.com^
 ||sst.colemanfurniture.com^
 ||sst.cooperativa.cl^
@@ -140463,6 +140486,7 @@ zyro.com##.zyro-cookies
 ||stats.briskoda.net^
 ||stats.broddin.be^
 ||stats.brumtechtapas.co.uk^
+||stats.bryancollins.com^
 ||stats.buddiy.net^
 ||stats.bungeefit.co.uk^
 ||stats.bunkr.ru^
@@ -155722,6 +155746,7 @@ zyro.com##.zyro-cookies
 ||vprza.com^$third-party
 ||vps.gcx3.cn^
 ||vps.inte.sogou.com^
+||vpsbenchmarks.com/plausible.vpsb.js
 ||vpsgu.cn^
 ||vptbn.com^
 ||vpubmi.com^
