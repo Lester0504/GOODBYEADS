@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-02-05 21:07:05（北京时间） 
-! Total count: 165448
+! Version: 2026-02-06 09:50:50（北京时间） 
+! Total count: 165450
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -35196,6 +35196,7 @@ m.qidian.com##I.icon-logo
 m.qidian.com##P.text-content
 m.qidian.com##div.book-detail-btn:nth-of-type(3)
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
+m.smzdm.com##.damo-footer-open-app__fixed-logo
 m.sogou.com##.recommend-pop.vr-recommend
 m.sohu.com###artLifeService
 m.sohu.com##.art-rec-news
@@ -53911,6 +53912,7 @@ zyro.com##.zyro-cookies
 ||api.g1.junfull.com^
 ||api.g2.junfull.com^
 ||api.gi.igexin.com^
+||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
 ||api.globalphone.hismarttv.com^
 ||api.goulegu.com^
