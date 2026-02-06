@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-02-06 10:21:44（北京时间） 
+! Version: 2026-02-06 20:53:05（北京时间） 
 ! Total count: 165450
 #
 # AdAway default blocklist
@@ -28947,6 +28947,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||dbz-fantasy.com/ads.css
 @@||dd.auspost.com.au/tags.js$script,~third-party
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delta.com/dlhome/ruxitagentjs$~third-party
@@ -31743,7 +31744,6 @@ cyberdoktor.de##.cc_container
 cyberfolks.pl##.cfGdprCookieConsentPopup
 cyberpowerpc.com###pp_cookie
 cyberpowersystem.co.uk###pp_cookie_consent
-cyberscore.live##.wrapper-partner-rb
 cyclad.org##.bandeauninfo
 cyclemiles.co.uk###messages-cont
 cyclingarchives.com###header > div[id*="zxcw"]
