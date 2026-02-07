@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-02-06 21:04:27（北京时间） 
-! Total count: 165450
+! Version: 2026-02-07 09:47:50（北京时间） 
+! Total count: 165454
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -16773,6 +16773,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /amp_pingback/*
 /analyse.js
 /analysis-logger/*
+/analysis?en=page_view&
 /analysisTag.js
 /analytic/pageview
 /analytics-amplitude-
@@ -31418,6 +31419,7 @@ cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
 cn.bing.com,cn.bing.net##.b_bza_pole
+cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -122013,6 +122015,7 @@ zyro.com##.zyro-cookies
 ||proofpoint.com^$third-party
 ||proofpositivemedia.com^
 ||proofpositivemedia.com^$third-party
+||prop.astonvillanews.co.uk^
 ||propay.actonservice.com^
 ||propbn.com^
 ||propelbon.com^
@@ -126697,6 +126700,7 @@ zyro.com##.zyro-cookies
 ||revgroup.actonservice.com^
 ||revhunter.tech^
 ||revhunter.tech^$third-party
+||revico.jp/js/put_revico_cookie/put_revico_cookie.js
 ||revico.jp/providejs/revico_tracking.js
 ||review.openapp.link^
 ||review.teradata.com^
