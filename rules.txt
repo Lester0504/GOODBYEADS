@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-02-13 10:31:06（北京时间） 
-! Total count: 166466
+! Version: 2026-02-13 20:53:04（北京时间） 
+! Total count: 166470
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -79167,6 +79167,7 @@ zyro.com##.zyro-cookies
 ||event-collector.moviesanywhere.com^
 ||event-collector.prd.data.s.joyn.de^
 ||event-listener.air.tv^
+||event-log-api-data-platform-data-lake-prod.gryphline.com^
 ||event-logger.tagboard.com^
 ||event-router.olympics.com^
 ||event-service.letslinc.com^
@@ -90889,6 +90890,7 @@ zyro.com##.zyro-cookies
 ||i.poker2u.app^
 ||i.pokerbros.net^
 ||i.pokernews.com^
+||i.posthog.com/*/?ip=
 ||i.posthog.com^
 ||i.raise.me^
 ||i.rttd.io^
@@ -119301,6 +119303,7 @@ zyro.com##.zyro-cookies
 ||pb.sogou.com^
 ||pb.sys.pp8.com^
 ||pb.wang502.com^
+||pb.ytmp3tube.com/js/script.js$domain=yt1s.com.co
 ||pb1.qujishu.com^
 ||pb1b7cqwvs.com^
 ||pb2.qujishu.com^
@@ -125541,6 +125544,7 @@ zyro.com##.zyro-cookies
 ||r.stripe.com^$ping,script,xmlhttprequest
 ||r.trwl1.com^
 ||r.wdfl.co/rw.js
+||r.winf.site^
 ||r.wz.de^
 ||r.zlongad.com^
 ||r01.3dwwwgame.com^
@@ -151063,7 +151067,7 @@ zyro.com##.zyro-cookies
 ||tur-tur-key.com^
 ||turbanmadman.com^
 ||turboadv.com^
-||turbobit.net/js/analytics/
+||turbobit.net/js/analytics/fdUserFingerprintToken.js
 ||turbocap.net^
 ||turboeagle.co^
 ||turbolion.io^
