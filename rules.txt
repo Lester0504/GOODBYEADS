@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-02-18 10:27:26（北京时间） 
-! Total count: 167874
+! Version: 2026-02-18 20:57:45（北京时间） 
+! Total count: 167883
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -16045,8 +16045,15 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .cn:*/sc/*?n=$third-party
 .cn:*/vh5$third-party
 .cn:8005/cc/*?is_not=
+.com/00*00*00*_*c*p*v*.js$~third-party
+.com/11*11*11*_*c*p*v*.js$~third-party
 .com/17*?rid=17$third-party
+.com/22*22*22*_*c*p*v*.js$~third-party
+.com/33*33*33*_*c*p*v*.js$~third-party
+.com/44*44*44*_*c*p*v*.js$~third-party
+.com/55*55*55*_*c*p*v*.js$~third-party
 .com/5y*/31*.$~third-party
+.com/66*66*66*_*c*p*v*.js$~third-party
 .com/_.gif?
 .com/adv1/?q=
 .com/c.php?s=*=*=$third-party
@@ -71631,6 +71638,7 @@ zyro.com##.zyro-cookies
 ||ddkkrrla.m.qxs.la^
 ||ddkwzfhfqfuxb.site^
 ||ddl.3g567.com^
+||ddl.alma.iltalehti.fi^
 ||ddlbr.timesclub.co^
 ||ddlcvm.clas.style^
 ||ddlh1467paih3.cloudfront.net^
@@ -102754,6 +102762,7 @@ zyro.com##.zyro-cookies
 ||lives.l.cp81.ott.cibntv.net^
 ||lives.l.ott.video.qq.com^
 ||lives.l.qq.com^
+||livesearch-metrics.magento-ds.com^
 ||livesegmentservice.com^
 ||livesegmentservice.com^$third-party
 ||livesession.io^
