@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-03-07 10:06:55（北京时间） 
-! Total count: 167440
+! Version: 2026-03-07 20:40:00（北京时间） 
+! Total count: 167442
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -140101,6 +140101,7 @@ zyro.com##.zyro-cookies
 ||sskcgceamsashx.com^
 ||sskzlabs.com^
 ||ssl-cdn.media.innity.net^
+||ssl-images-amazon.com/images/I/21auWwkMYgL.js$domain=imdb.com
 ||ssl-images-amazon.com/images/I/31YXrY93hfL.js$domain=imdb.com
 ||ssl-metrics.tim.it^
 ||ssl-omtrdc.dmp-support.jp^
@@ -142446,6 +142447,7 @@ zyro.com##.zyro-cookies
 ||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
 ||storage.googleapis.com/t3n-de/assets/t3n/2018/scripts/msodrq.js
 ||storage.googleapis.com/tm-frend-graffiti/
+||storage.googleapis.com/vs-scripts/intentiq/vsintentiq.js
 ||storage.lulu-row1.com^
 ||storage.syncmedia.io/libs/sm_capture_
 ||storageimagedisplay.com^
