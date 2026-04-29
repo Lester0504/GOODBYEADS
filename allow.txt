@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-29 11:25:47（北京时间） 
-! Total count: 3739
+! Version: 2026-04-29 21:48:49（北京时间） 
+! Total count: 3742
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@.2o7.net/$domain=today.com
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -743,6 +743,7 @@
 @@||cdn.segmentify.com/*/segmentify.css$domain=koctas.com.tr
 @@||cdn.segmentify.com/*/segmentify.js$domain=gratis.com
 @@||cdn.segmentify.com/*/segmentify.js$domain=koctas.com.tr
+@@||cdn.segmentify.com^$domain=fisslermagaza.com.tr
 @@||cdn.segmentify.com^$domain=gratis.com
 @@||cdn.segmentify.com^$domain=mediamarkt.com.tr
 @@||cdn.segmentify.com^$domain=pttavm.com
@@ -3087,6 +3088,7 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=tf1info.fr
 @@||seg-cdn.pumpkin.care/analytics.js/$~third-party
 @@||seg-cdn.pumpkin.care/next-integrations/integrations/mixpanel/$domain=get.pumpkin.care
+@@||segmentify.com/*.json$domain=fisslermagaza.com.tr
 @@||segmentify.com^$script,stylesheet,xmlhttprequest,domain=puma.com
 @@||seguridad.compensar.com/lib/js/fingerprint2.js$domain=compensar.com
 @@||seguridad.compensar.com/lib/js/fingerprint2.js$~third-party
@@ -3619,6 +3621,7 @@
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||we-stats.com/scripts/$script,domain=discover.com
+@@||web-sdk.segmentify.com/segmentify.debug.js$domain=fisslermagaza.com.tr
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
