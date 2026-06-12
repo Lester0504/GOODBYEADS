@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-06-12 12:11:32（北京时间） 
-! Total count: 165890
+! Version: 2026-06-12 22:51:26（北京时间） 
+! Total count: 165897
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -31554,7 +31554,6 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
-cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
@@ -53275,6 +53274,7 @@ zyro.com##.zyro-cookies
 ||analytics.phn.com^
 ||analytics.picknrg.com^
 ||analytics.piksel.com^
+||analytics.pingaja.com^
 ||analytics.pinterest.com^
 ||analytics.pinterest.com^$third-party
 ||analytics.pipelife-bewaesserung.at^
@@ -61794,6 +61794,7 @@ zyro.com##.zyro-cookies
 ||c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com^
 ||c-adash.m.taobao.com^
 ||c-c-l.actonservice.com^
+||c-cmoa.akamaized.net/sol/c/js/common/gtm_ga_user_update.js
 ||c-date.com/pixel/
 ||c-date.it/tracking?
 ||c-date.it^*/tracking2/tr.js
@@ -131710,6 +131711,7 @@ zyro.com##.zyro-cookies
 ||sgsojdpfjsk2.xyz^
 ||sgstats.com^
 ||sgtbbgdkovkhz.site^
+||sgtm.cmoa.jp^
 ||sgtm.tagmanageritalia.it^
 ||sgtm.tennis-point.de^
 ||sgvip.chinahdcm.com^
@@ -140015,6 +140017,7 @@ zyro.com##.zyro-cookies
 ||stats.newsweek.com^
 ||stats.nexagon.dk^
 ||stats.nhk.or.jp^
+||stats.nkkk.de^
 ||stats.nodewood.com^
 ||stats.nonprofit.foundation^
 ||stats.nortonhealthcare.com^
@@ -140299,6 +140302,7 @@ zyro.com##.zyro-cookies
 ||stats.vattenfall.nl^
 ||stats.vattenfall.se^
 ||stats.vdsnow.ru^
+||stats.velarium.cc^
 ||stats.vican.me^
 ||stats.vidbinge.com^
 ||stats.viddler.com^
@@ -140967,6 +140971,7 @@ zyro.com##.zyro-cookies
 ||sts.authramp.com^
 ||sts.eccmp.com^
 ||sts.eliasjarzombek.com^
+||sts.marketingsuite.jp^
 ||sts.papyrs.com^
 ||sts.tour-europe.org^
 ||stscczovfaipx.website^
@@ -164849,7 +164854,9 @@ zyro.com##.zyro-cookies
 ||zoologicalmanufacture.com^
 ||zoologist00.com^
 ||zoologyfibre.com^
-||zoom.us/*/telemetry
+||zoom.us/*/app-telemetry.
+||zoom.us/*/fingerprintjs-
+||zoom.us/user/anonymous/telemetry
 ||zoom.zshu.net^
 ||zoomanalytics.co^
 ||zoomanalytics.co^$third-party
