@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-06-21 12:24:30（北京时间） 
-! Total count: 165662
+! Version: 2026-06-21 22:02:50（北京时间） 
+! Total count: 165669
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -16169,7 +16169,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .google-analytics.com/
 .gruene.de/lists/ut.php$image
 .hash.outbound-links.js
-.heytapmobi.com
 .hilton.com/subscription/watermark.gif?
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
@@ -19485,7 +19484,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /scroll-analytics-
 /scroll-track.js
 /scroll-tracker.js
-/sdc.js
+/sdc.js|
 /sdc/cookie_consent.html
 /sdc1.js
 /sdc2.js
@@ -29085,6 +29084,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||docs.w3cub.com^$generichide
 @@||download.megaup.net/openads.js$script,~third-party
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
+@@||duckduckgo.com/local.js$~third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dwt.soundcloud.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=soundcloud.com
 @@||dxcloud.episerver.net^
@@ -54409,6 +54409,7 @@ zyro.com##.zyro-cookies
 ||api.streamelements.com/science/
 ||api.tacotax.fr/v2/amplitude_trackers
 ||api.takealot.com^$ping
+||api.tally.so/forms/*/events
 ||api.tblcontent.com*/log/
 ||api.tdp.u7u9.com^
 ||api.thefantazy.com/web-vitals
@@ -60259,6 +60260,7 @@ zyro.com##.zyro-cookies
 ||boldbars.com^
 ||boldem.cz^
 ||boldem.cz^$third-party
+||boldin.com/rails/arrival
 ||boldinformation.pro^
 ||bole.shangshufang.ksosoft.com^
 ||bolfjdwccuhy.com^
@@ -85102,6 +85104,7 @@ zyro.com##.zyro-cookies
 ||glove.fit^$third-party
 ||glovedmenaced.shop^
 ||glowdot.com^
+||glowing.com/unilog
 ||glowingmeadow.com^
 ||glowingnews.com^
 ||glowtoprocessors.com^
@@ -120127,6 +120130,7 @@ zyro.com##.zyro-cookies
 ||player.quankan.tv^
 ||player.sendtonews.com^
 ||player.target-video.com/player/build/plugins/googleanalytics/
+||player.videasy.to/scripts/ab.js
 ||playerhq.co^
 ||playerseo.club^
 ||playeverlustinglife.space^
@@ -127958,6 +127962,7 @@ zyro.com##.zyro-cookies
 ||rzsyenebnyvgs.website^
 ||rztrkr.com^
 ||rztrkr.com^$third-party
+||rzuagqomzl.in^
 ||rzuitwlxozftj.website^
 ||rzxhrl.icu^
 ||rzxirmnqefyfm.website^
@@ -142975,6 +142980,7 @@ zyro.com##.zyro-cookies
 ||tallthirsty.com^
 ||talltouch.com^
 ||tally.bizanalyst.in^
+||tally.so/api/forms/*/events
 ||talpa-analytics.com^
 ||talpa-analytics.com^$third-party
 ||talroebnwhbif.space^
@@ -152201,6 +152207,7 @@ zyro.com##.zyro-cookies
 ||users-api.com^
 ||users-api.com^$third-party
 ||users.rentbabe.com^
+||users.videasy.to/api/track
 ||usersegment.wpdigital.net^
 ||usersonline.org/ping.php?
 ||userstat.net^
