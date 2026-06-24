@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-06-23 22:52:41（北京时间） 
-! Total count: 165666
+! Version: 2026-06-24 10:54:53（北京时间） 
+! Total count: 165668
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -28841,6 +28841,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||amazonaws.com/tracker/p/kompasreco/oval_web_analytics_latest.js$domain=kompas.com
 @@||amplitude.com/libs/$script,domain=b2c.voegol.com.br|elconfidencial.com|kink.com|pdfexpert.com|xe.com
 @@||ams.cdn.arkadiumhosted.com/assets/arena-4/arena/heap/advertisements.js$script,domain=jeux.lemonde.fr
+@@||an-sm.naughtycdn.com/js/lti-analytics-*.min.js$domain=members.naughtyamerica.com
 @@||analysis.chess.com^
 @@||analysis.windows.net^
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$~third-party
@@ -80367,6 +80368,7 @@ zyro.com##.zyro-cookies
 ||fastly-analytics.com^$third-party
 ||fastly-insights.com^
 ||fastly-insights.com^$third-party
+||fastly.com/metrics/gtm/
 ||fastly.net/i?
 ||fastly.net/sp.js
 ||fastmail.com/api/event/
