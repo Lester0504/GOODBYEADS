@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-06-27 21:46:26（北京时间） 
+! Version: 2026-06-28 11:30:47（北京时间） 
 ! Total count: 166290
 #
 # AdAway default blocklist
@@ -28759,6 +28759,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||8tm.net/static/img/fbpixel.png$~third-party
+@@||a.run.app/api/stat?$domain=cocowa.app
 @@||a.usafacts.org/api/v4/Metrics$~third-party
 @@||ab.blogs.es/abtest.png$domain=trendencias.com|xataka.com
 @@||account.adobe.com/newrelic.js$~third-party
@@ -29076,6 +29077,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
 @@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
+@@||directg.jp/js/fingerprint2.js$~third-party
 @@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
@@ -98105,8 +98107,6 @@ zyro.com##.zyro-cookies
 ||kiblahmafia.com^
 ||kibn.cn^
 ||kibxgtjvdfuw.com^
-||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
-||kick.com/UcggFnr2hNhLCwLf/
 ||kick1pore.com^
 ||kickfire.com^
 ||kickfire.com^$third-party
