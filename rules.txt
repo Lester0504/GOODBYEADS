@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-06-28 12:01:29（北京时间） 
-! Total count: 166290
+! Version: 2026-06-28 21:39:29（北京时间） 
+! Total count: 166300
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -17197,6 +17197,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /busting/google-tracking/*
 /bv-analytics.js
 /bwx-cookie-consent.js$domain=nosta.com
+/bydataAnalytics.js
 /c.gif?
 /c.vialoops.com/*$image
 /c.wrating.com/*
@@ -18003,6 +18004,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fingerprint3.js
 /fingerprint3.min.js
 /firebase-performance-compat.js
+/firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /firebox-gdpr.js$domain=thelittleboxoffice.com
 /firestats/js/fs.js.php
@@ -36731,6 +36733,7 @@ overdrive.com###bkgOverlay
 overunity.com###ecl_outer
 ovfietsbeschikbaar.nl###CookieModal
 ovhcloud.com###block-ovhcookieconsent
+ow-3.mediav.com
 owasp.org###disclaimer-container
 owlcatgames.com##.GPRD, .cookies
 oxfordshire.gov.uk##.occlss-alert--cookiepopup
@@ -52809,6 +52812,7 @@ zyro.com##.zyro-cookies
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/snowplow-zitcha.js
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
+||amazonaws.com/telemetry.bydata/
 ||amazonaws.com/v1/apps/*/events
 ||amazonaws.com/webengage-files/
 ||amazonaws.com^*/abb-msg.js$domain=hardocp.com
@@ -53139,6 +53143,7 @@ zyro.com##.zyro-cookies
 ||analytics.arunraghavan.net^
 ||analytics.asml.com^
 ||analytics.atdmt.com^
+||analytics.atlas5.co^
 ||analytics.atom.com^
 ||analytics.audioeye.com^
 ||analytics.audionow.de^
@@ -71430,6 +71435,7 @@ zyro.com##.zyro-cookies
 ||dckiwt.eataly.com^
 ||dcleuevkxvzmr.site^
 ||dclnxirp001cou.net.jumia.co.tz^
+||dclsrv.com^
 ||dcmbaescepqsq.space^
 ||dcmbzbtgqiyvd.website^
 ||dcmn.com^
@@ -120523,6 +120529,7 @@ zyro.com##.zyro-cookies
 ||playamopartners.com^
 ||playbook.convio.com^
 ||playcvn.com^
+||playdigo.com^$third-party
 ||playdiversionroyalty.com^
 ||playedsophomore.com^
 ||player-cdn.com/cdn-cgi/trace
@@ -122577,6 +122584,7 @@ zyro.com##.zyro-cookies
 ||publish.tagstorm.com^
 ||publish0x.com^
 ||publishednundear.com^
+||publisher-services.amazon.dev/v1/recordVendorsLoaded
 ||publisher.monster.com^
 ||publisher1st.com^
 ||publisherads.click^
@@ -142538,6 +142546,7 @@ zyro.com##.zyro-cookies
 ||sync2.audtd.com^
 ||syncclickflow.com^
 ||synccora.com^
+||syncingbridge.com^
 ||syncope12.top^
 ||syndenizen.shop^
 ||syndicate.payloadz.com^
@@ -148072,6 +148081,7 @@ zyro.com##.zyro-cookies
 ||tracker-remp.active.radio^
 ||tracker-remp.premiumtimesng.com^
 ||tracker-server.high-cdn.com^
+||tracker-shr.ortb.net^
 ||tracker-tds.info^
 ||tracker-v4.gamedock.io^
 ||tracker.$xhr,websocket,script,ping
