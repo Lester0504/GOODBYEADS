@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-07-01 12:05:17（北京时间） 
-! Total count: 166636
+! Version: 2026-07-01 22:27:44（北京时间） 
+! Total count: 166643
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -54382,6 +54382,7 @@ zyro.com##.zyro-cookies
 ||api.growingio.com^
 ||api.gzxiongwa.cn^
 ||api.h4game.net^
+||api.headliner.link/api/v1/b/receive
 ||api.hfyhjg.cn^
 ||api.higame.hismarttv.com^
 ||api.hismarttv.com^
@@ -88459,7 +88460,12 @@ zyro.com##.zyro-cookies
 ||heiressplane.com^
 ||heirserverrecruiting.com^
 ||heirstirringsculpture.com^
+||heise.de/hlt/statistics/$xmlhttprequest
 ||heise.de/ivw-bin/ivw/cp/
+||heise.de/positions|$xmlhttprequest
+||heise.de/pw/metrics/$xmlhttprequest
+||heise.de/recommendation/m/impression$xmlhttprequest
+||heise.de/recommendation/m/view$xmlhttprequest
 ||heiw99ovji.com^
 ||heixidor.com^
 ||hej.henriksommerfeld.se^
@@ -145262,6 +145268,7 @@ zyro.com##.zyro-cookies
 ||theoutplay.com^
 ||thepixelpioneer.com^
 ||theplayadvisor.com^
+||thepoorswiss.com/tps/cfwa-collect
 ||theporn.cc/anyalytics?
 ||thepowerstones.com^
 ||thequickbooksteam.intuit.ca^
