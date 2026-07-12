@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-07-12 10:55:23（北京时间） 
-! Total count: 161323
+! Version: 2026-07-12 21:12:28（北京时间） 
+! Total count: 161326
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -19016,7 +19016,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ouibounce.min.js
 /outLoging.js
 /outLoging2.js
-/outbrain.js
+/outbrain.js$~xmlhttprequest
 /outbrainAd.
 /oval_web_analytics_latest.js
 /owa.Analytics.m.js
@@ -19814,7 +19814,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /t/event?
 /t?referer=
 /t?tcid=
-/taboola.js
+/taboola.js$~xmlhttprequest
 /taboola/loader.js
 /taboolaHead.js
 /tac.js$domain=avenuedelabrique.com
@@ -116696,6 +116696,7 @@ zyro.com##.zyro-cookies
 ||pi.ispot.tv^
 ||pi.pardot.com/analytics$script
 ||pi.pardot.com/analytics?
+||pi.pdfjs.express^
 ||pi.technik3d.com^
 ||pi920.com^
 ||pia.jp/akam/$script
@@ -123099,6 +123100,7 @@ zyro.com##.zyro-cookies
 ||researchintel.com^
 ||researchintel.com^$third-party
 ||researchinvariablekazan.com^
+||researchlog.dbresearch.com^
 ||researchnow.co.uk^$third-party,domain=~dynata.com
 ||researchnow.com^
 ||researchnow.com^$third-party
@@ -145861,6 +145863,7 @@ zyro.com##.zyro-cookies
 ||trksrv45.com^
 ||trksrv46.com^
 ||trktnc.com^
+||trkweb.clinch.co^
 ||trkygdkgsjmxs.buzz^
 ||trlzqly.com^
 ||trmads.eu^
