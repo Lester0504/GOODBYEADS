@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-07-20 10:39:43（北京时间） 
-! Total count: 162694
+! Version: 2026-07-20 10:44:16（北京时间） 
+! Total count: 162696
 #
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
@@ -15994,6 +15994,7 @@
 #pkg=qq.com;腾讯广告服务
 #pkg=white.ad.web.com;【提示误伤】选择性不√以下子项
 #pkg=xxx.ad.doubleclick.net;广告联盟
+#section[style="display: block;"]
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $ping,third-party
@@ -31565,6 +31566,7 @@ cmp.springernature.com
 cmp.uniconsent.com$domain=~photopea.com
 cn.bing.com##.bnp_rich_div_visible.bottom
 cn.bing.com##.bnp_rich_div_visible.top
+cn.miaozhen.com
 cnam-bretagne.fr##.ojc_consent
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnet.com###-e_xobwhg_utggxk
