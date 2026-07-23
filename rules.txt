@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
 ! Description: 该规则合并自AdGuard 规则、Tv规则、yhosts规则、大圣净化规则、EasyPrivacy隐私保护规则、乘风视频过滤规则、去APP下载提示规则、d3ward规则、补充规则
-! Version: 2026-07-23 10:53:14（北京时间） 
+! Version: 2026-07-23 21:48:46（北京时间） 
 ! Total count: 163274
 #
 # AdAway default blocklist
@@ -16975,6 +16975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/v1/impressions|
 /api/v1/metrics
 /api/v1/reportData/*
+/api/v1/reporting/flows
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
@@ -30536,7 +30537,6 @@ bagsandcoversdirect.co.uk##.cookbx
 bahnhof.se##.top-line-block
 baidu.com###J-super-layer-promote
 baidu.com###bdrainrwDragButton
-baidu.com###header > div:last-child
 baidu.com###login-wraps > a.index-banner.square-banner-bgicon
 baidu.com###page-copyright.se-page-copyright.se-copyrig
 baidu.com###page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
